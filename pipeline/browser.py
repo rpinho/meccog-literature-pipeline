@@ -52,8 +52,8 @@ async def _fetch(jobs, headless=True):
                         else:
                             res[url] = f"no_file_{r.status}"
                 else:
-                    await pg.goto(url, wait_until="networkidle", timeout=90000)
-                    await pg.wait_for_timeout(3000)
+                    await pg.goto(url, wait_until="domcontentloaded", timeout=90000)
+                    await pg.wait_for_timeout(8000)  # bot checks and article scripts settle; some pages never go network-idle
                     out.write_text(await pg.content())
                     res[url] = "ok"
             except Exception as e:

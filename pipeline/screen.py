@@ -25,10 +25,18 @@ def is_review(r):
     return any("review" in p for p in pt) and not any("research" in p for p in pt)
 
 
+APOE = re.compile(r"\bapo ?e\b|apolipoprotein e\b|\bapoe\b", re.I)
+
+
 def tier0(r):
+    """Keep: APOE4 named in title/abstract; or from the citation snowball; or APOE named and returned
+    by a PubMed query (title/abstract matched, and every query also names the B variable). The last
+    rule exists because the H3 starting reference never writes "APOE4" in its abstract (11-17)."""
     text = (r.get("title") or "") + " " + (r.get("abstract") or "")
-    snow = any(x.startswith("snowball") for x in r.get("routes", []))
-    return (E4.search(text) or snow) and not is_review(r)
+    routes = r.get("routes", [])
+    snow = any(x.startswith("snowball") for x in routes)
+    pubmed_apoe = any(x.startswith("pubmed:") for x in routes) and APOE.search(text)
+    return (E4.search(text) or snow or pubmed_apoe) and not is_review(r)
 
 
 def main():
@@ -51,6 +59,17 @@ def main():
         for l in open(out_p):
             x = json.loads(l)
             done[(x.get("pmid"), x.get("doi"))] = x
+    ref = hyp["reference"]["pmid"]
+    for r in keep:  # the organizers' starting reference is in by definition
+        if r.get("pmid") == ref and (r.get("pmid"), r.get("doi")) not in done:
+            r["screen"] = {"id": r["sid"], "decision": "yes", "relevance": 1.0, "primary_data": True,
+                           "why": "starting reference named on the hypotheses page"}
+            r["screen_model"] = "none (rule)"
+            with open(out_p, "a") as f:
+                f.write(json.dumps(r, ensure_ascii=False) + "\n")
+            done[(r.get("pmid"), r.get("doi"))] = r
+    if not any(r.get("pmid") == ref for r in keep):
+        print(H, "WARNING: starting reference", ref, "is not in the candidate pool")
     todo = [r for r in keep if (r.get("pmid"), r.get("doi")) not in done]
 
     def run(batch):

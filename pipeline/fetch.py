@@ -51,6 +51,23 @@ def get(url, tries=3, accept=None):
     raise last
 
 
+import threading
+_BIORXIV_LOCK = threading.Lock()
+_BIORXIV_LAST = [0.0]
+
+
+def biorxiv_get(url):
+    """biorxiv.org answers HTTP 429 / Cloudflare 1015 to bursts: one request per 10 s, all threads."""
+    with _BIORXIV_LOCK:
+        wait = 10 - (time.time() - _BIORXIV_LAST[0])
+        if wait > 0:
+            time.sleep(wait)
+        try:
+            return get(url, tries=1)
+        finally:
+            _BIORXIV_LAST[0] = time.time()
+
+
 def paper_key(r):
     if r.get("pmid"):
         return "pmid" + r["pmid"]
@@ -323,16 +340,32 @@ def fetch_one(r):
                         tried.append(f"oa_location:{url}:{getattr(e, 'code', type(e).__name__)}")
         except Exception as e:
             tried.append(f"openalex:{getattr(e, 'code', type(e).__name__)}")
-    if text is None and r.get("doi", "") and r["doi"].startswith("10.1101/"):
-        try:
-            body, _, final = get(f"https://www.biorxiv.org/content/{r['doi']}.full.pdf")
-            if body[:4] == b"%PDF":
-                (d / "fulltext.pdf").write_bytes(body)
-                text = pdf_to_text(d / "fulltext.pdf")
-                m["route"] = "biorxiv_pdf"
-            tried.append("biorxiv:ok")
-        except Exception as e:
-            tried.append(f"biorxiv:{getattr(e, 'code', type(e).__name__)}")
+    if text is None and r.get("doi", "") and r["doi"].startswith(("10.1101/", "10.64898/")):
+        for server in ("biorxiv", "medrxiv"):  # JATS XML of the latest version, via the bioRxiv API
+            try:
+                c = json.loads(get(f"https://api.biorxiv.org/details/{server}/{r['doi']}")[0]).get("collection") or []
+                if not c:
+                    continue
+                m["preprint_version"] = c[-1].get("version")
+                m["published_doi"] = (c[-1].get("published") or "").lower() or None
+                x, _, _ = biorxiv_get(c[-1]["jatsxml"])
+                (d / "fulltext.xml").write_bytes(x)
+                text = xml_to_text(x)
+                m["route"] = f"{server}_jats"
+                tried.append(f"{server}_jats:ok")
+                break
+            except Exception as e:
+                tried.append(f"{server}_jats:{getattr(e, 'code', type(e).__name__)}")
+        if text is None:
+            try:
+                body, _, final = biorxiv_get(f"https://www.biorxiv.org/content/{r['doi']}.full.pdf")
+                if body[:4] == b"%PDF":
+                    (d / "fulltext.pdf").write_bytes(body)
+                    text = pdf_to_text(d / "fulltext.pdf")
+                    m["route"] = "biorxiv_pdf"
+                tried.append("biorxiv_pdf:" + ("ok" if text else "not_pdf"))
+            except Exception as e:
+                tried.append(f"biorxiv_pdf:{getattr(e, 'code', type(e).__name__)}")
     m["tried"] = tried
     if text and len(text) > 5000:
         (d / "text.txt").write_text(text)
