@@ -28,6 +28,7 @@ PROV = {"printed_in_text", "visual_only", "estimated_from_figure", "supplement_o
         "not_found_in_source", "full_text_unavailable", "ambiguous_panel"}
 ABSENT = {"not_found_in_source", "full_text_unavailable", "ambiguous_panel"}
 MAX_TEXT = 180_000
+MAX_PATH = 5  # path results per paper (inventory lists the most direct first)
 EXTRACT_BATCH = 4  # findings per call: few enough to keep per-field accuracy, few enough calls to fit the allowance
 
 
@@ -85,13 +86,20 @@ def code_checks(rec, text):
     return rec
 
 
-MAX_SUPP = 90_000
+MAX_SUPP = 50_000
 
 
 def load_text(key):
     """Main text, then the supplement (marked), and whether a supplement was read."""
     d = ROOT / "data/papers" / key
-    t = (d / "text.txt").read_text()[:MAX_TEXT]
+    t = (d / "text.txt").read_text()
+    # trim what the model never needs: the reference list and per-author boilerplate of PMC pages
+    m = re.search(r"\n#{1,4} *(References|REFERENCES|Literature Cited|Bibliography)\s*\n", t)
+    if m and m.start() > len(t) * 0.4:
+        t = t[:m.start()]
+    t = re.sub(r"\n *Find articles by [^\n]*", "", t)
+    t = re.sub(r"\n#{2,4} [^\n]{1,40}\n(?=\s*\n)", "\n", t)  # empty author-name headings
+    t = t[:MAX_TEXT]
     supp = (d / "supp.txt").read_text()[:MAX_SUPP] if (d / "supp.txt").exists() else ""
     if supp.strip():
         t += "\n\n# SUPPLEMENTARY MATERIAL (text extracted from the supplement files)\n\n" + supp
@@ -106,34 +114,22 @@ def run_paper(key, hyp, var, force=False):
     supp_note = ("The supplementary material IS included at the end of the text." if has_supp else
                  "The supplementary material could NOT be obtained. For a value that would be in a supplementary "
                  "panel, use provenance full_text_unavailable (not not_found_in_source).")
-    inv_prompt = open(ROOT / "prompts/inventory.md").read().format(
-        statement=hyp["statement"], A=var["A"], B=var["B"], text=text)
-    panels = json_lines(ask(inv_prompt, effort="high"))
-    inventory = [x for x in panels if str(x.get("bears", "")).lower() not in ("no", "")]
-    tmpl = open(ROOT / "prompts/extract.md").read()
-
-    def batch(items):
-        listing = "\n".join(f"{n + 1}. location {it.get('loc')}: {it.get('what')}" for n, it in enumerate(items))
-        p = tmpl.format(statement=hyp["statement"], A=var["A"], B=var["B"], items=listing, text=text, supp_note=supp_note)
-        try:
-            recs = json_lines(ask(p, effort="high"))
-        except Exception as e:
-            return [{"inventory": it, "error": repr(e)[:300]} for it in items]
-        by_item = {int(r.get("item", 0)): r for r in recs if isinstance(r, dict) and str(r.get("item", "")).isdigit()}
-        out = []
-        for n, it in enumerate(items):
-            rec = by_item.get(n + 1) or (recs[n] if len(recs) == len(items) else None)
-            if not rec:
-                out.append({"inventory": it, "error": "no record returned"})
-                continue
-            rec.pop("item", None)
-            rec["inventory"] = it
-            out.append(code_checks(rec, text))
-        return out
-
-    chunks = [inventory[i:i + EXTRACT_BATCH] for i in range(0, len(inventory), EXTRACT_BATCH)]
-    with cf.ThreadPoolExecutor(3) as ex:
-        findings = [f for part in ex.map(batch, chunks) for f in part]
+    # ONE call per paper (budget, 11-17): enumerate panels and write every record in the same answer.
+    # The paper text comes first in the prompt so a retry can reuse the cached prefix.
+    p = open(ROOT / "prompts/paper_extract.md").read().format(
+        statement=hyp["statement"], A=var["A"], B=var["B"], scope=var["scope"], supp_note=supp_note,
+        max_path=MAX_PATH, text=text)
+    ans = json_obj(ask(p, effort="high"))
+    panels = ans.get("panels") or []
+    findings = []
+    for rec in ans.get("findings") or []:
+        if not isinstance(rec, dict):
+            continue
+        rec["inventory"] = {"loc": rec.pop("loc", rec.get("data_location")), "bears": rec.pop("bears", None)}
+        if not rec.get("data_location"):
+            rec["data_location"] = rec["inventory"]["loc"]
+        findings.append(code_checks(rec, text))
+    inventory = findings
     res = {"key": key, "hypothesis": hyp["id"], "model": MODEL, "panels_n": len(panels), "inventory_n": len(inventory),
            "findings": findings}
     out.parent.mkdir(parents=True, exist_ok=True)

@@ -18,7 +18,7 @@ from extract import load_text, code_checks
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 REFEREE_MODEL = "gpt-6.2-astra"
-REFEREE_BATCH = 6
+REFEREE_BATCH = 20  # all of a paper's findings in one call (budget, 11-17)
 FIELDS = ["description", "quote", "summary", "system", "data_location", "effect_size",
           "effect_size_provenance", "p_value", "p_value_provenance", "sample_size",
           "sample_size_provenance", "directness_class", "directness_strength", "relevance", "direction"]
@@ -30,7 +30,7 @@ def referee_paper(path, hyp, var, force=False):
     supp_note = ("The supplementary material is included at the end of the text." if has_supp else
                  "The supplementary material could not be obtained; a supplementary-panel value should carry "
                  "full_text_unavailable, not not_found_in_source.")
-    tmpl = open(ROOT / "prompts/referee.md").read()
+    tmpl = open(ROOT / "prompts/referee_paper.md").read()
 
     def apply(f, v):
         v["model"] = REFEREE_MODEL
@@ -47,7 +47,7 @@ def referee_paper(path, hyp, var, force=False):
 
     def batch(fs):
         recs = [dict({k: f.get(k) for k in FIELDS}, item=n + 1) for n, f in enumerate(fs)]
-        p = tmpl.format(statement=hyp["statement"], A=var["A"], B=var["B"], supp_note=supp_note,
+        p = tmpl.format(statement=hyp["statement"], A=var["A"], B=var["B"], scope=var["scope"], supp_note=supp_note,
                         record=json.dumps(recs, ensure_ascii=False, indent=1), text=text)
         try:
             vs = json_lines(ask(p, model=REFEREE_MODEL, effort="high"))
@@ -61,8 +61,8 @@ def referee_paper(path, hyp, var, force=False):
             apply(f, by_item.get(n + 1) or {"verdict": "ERROR", "evidence": err})
 
     chunks = [todo[i:i + REFEREE_BATCH] for i in range(0, len(todo), REFEREE_BATCH)]
-    with cf.ThreadPoolExecutor(3) as ex:
-        list(ex.map(batch, chunks))
+    for c in chunks:  # sequential within a paper; papers run in parallel under the 2-call cap
+        batch(c)
     json.dump(res, open(path, "w"), indent=1, ensure_ascii=False)
     return res
 
