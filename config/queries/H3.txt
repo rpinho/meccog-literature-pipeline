@@ -1,0 +1,6 @@
+# H3 apoE4 aggregation in the endo-lysosome
+(APOE4 OR ApoE4 OR "apolipoprotein E4") AND (aggregat* OR oligomer*) AND (lysosom* OR endosom* OR endolysosom*)
+(APOE4 OR ApoE4 OR "apolipoprotein E4") AND (aggregat* OR oligomer* OR "domain interaction" OR "molten globule") AND (acidic OR "low pH" OR "pH")
+(APOE4 OR ApoE4 OR "apolipoprotein E4") AND (aggregat*) AND (microglia* OR astrocyt* OR neuron* OR iPSC)
+("apoE aggregation" OR "apolipoprotein E aggregation" OR "APOE aggregates") AND (Alzheimer* OR amyloid)
+(APOE4 OR ApoE4 OR "apolipoprotein E4") AND (lysosom*) AND (accumulat* OR retention OR degradation) AND (apoE OR apolipoprotein)

@@ -1,0 +1,6 @@
+# H1 endosome pH. Direction-neutral wording so null and contrary results are found too.
+(APOE4 OR ApoE4 OR "apolipoprotein E4" OR "APOE epsilon4" OR "APOE e4") AND (endosom* OR "endolysosom*") AND (pH OR acidi* OR alkalin*)
+(APOE4 OR ApoE4 OR "apolipoprotein E4") AND (NHE6 OR SLC9A6 OR NHE9 OR SLC9A9 OR "Na+/H+ exchanger")
+(APOE4 OR ApoE4 OR "apolipoprotein E4") AND ("v-ATPase" OR "vacuolar ATPase" OR ATP6V*) AND (endosom* OR lysosom*)
+(APOE4 OR ApoE4) AND (HDAC4 OR "histone deacetylase 4") AND (endosom* OR NHE6)
+(APOE4 OR ApoE4 OR "apolipoprotein E4") AND (lysosom*) AND (pH OR acidification) AND (astrocyt* OR microglia* OR neuron* OR iPSC)

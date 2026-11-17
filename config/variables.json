@@ -1,0 +1,7 @@
+{
+ "H1": {"A": "APOE genotype or apoE isoform (APOE4 vs APOE3)", "B": "endosomal pH (endosome/endolysosome luminal acidity)"},
+ "H2": {"A": "APOE genotype or apoE isoform (APOE4 vs APOE3)", "B": "ARF6-related recycling of receptors between the cell surface and the endosome (e.g. ABCA1, LRP1, receptor surface levels, recycling rate)"},
+ "H3": {"A": "APOE genotype or apoE isoform (APOE4 vs APOE3)", "B": "aggregation of apoE protein itself in the endosome/lysosome (endo-lysosomal apoE aggregates, oligomers)"},
+ "H4": {"A": "APOE genotype or apoE isoform (APOE4 vs APOE3)", "B": "binding/adhesion strength of apoE to recycling receptors (ApoER2, LRP1, LDLR, VLDLR...) and the resulting impeded receptor recycling"},
+ "H5": {"A": "APOE genotype or apoE isoform (APOE4 vs APOE3), acting through disrupted lipid metabolism (cholesterol, lipid droplets, sphingolipids)", "B": "late endosome / lysosome function (degradation, acidification, cholesterol egress, autophagic flux, lysosomal enzyme activity)"}
+}

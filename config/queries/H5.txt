@@ -1,0 +1,6 @@
+# H5 lipid metabolism -> late endosome/lysosome function
+(APOE4 OR ApoE4 OR "apolipoprotein E4") AND (cholesterol OR lipid* OR sphingolipid* OR "lipid droplet*") AND (lysosom* OR "late endosom*" OR endolysosom*)
+(APOE4 OR ApoE4 OR "apolipoprotein E4") AND (NPC1 OR "Niemann-Pick" OR "lysosomal cholesterol") 
+(APOE4 OR ApoE4 OR "apolipoprotein E4") AND (autophag* OR lysosom*) AND (astrocyt* OR microglia* OR neuron* OR iPSC OR organoid)
+(APOE4 OR ApoE4 OR "apolipoprotein E4") AND (lipidom* OR "lipid metabolism") AND (lysosom* OR endosom* OR "endo-lysosomal")
+(APOE4 OR ApoE4 OR "apolipoprotein E4") AND (cathepsin OR LAMP1 OR "lysosomal function" OR "lysosomal dysfunction")

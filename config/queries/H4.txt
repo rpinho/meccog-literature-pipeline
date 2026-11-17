@@ -1,0 +1,6 @@
+# H4 apoE4 adhesion to recycling receptors
+(APOE4 OR ApoE4 OR "apolipoprotein E4") AND (ApoER2 OR LRP8 OR "Reelin receptor" OR VLDLR) AND (recycling OR endosom* OR "cell surface")
+(APOE4 OR ApoE4 OR "apolipoprotein E4") AND (LRP1 OR LDLR OR "LDL receptor" OR "heparan sulfate") AND (binding OR affinity OR dissociation)
+(APOE4 OR ApoE4 OR "apolipoprotein E4") AND (endosom*) AND ("receptor recycling" OR "recycling block" OR trapping OR sequester*)
+(APOE4 OR ApoE4 OR "apolipoprotein E4") AND (reelin) AND (synap* OR NMDA OR AMPA OR "glutamate receptor") AND (recycling OR endosom* OR surface)
+(APOE4 OR ApoE4 OR "apolipoprotein E4") AND (isoelectric OR "pH-dependent" OR "acidic pH") AND (receptor OR dissociation OR binding)

@@ -1,0 +1,7 @@
+config/method.private.json
+submissions/
+data/
+runs/
+__pycache__/
+*.pyc
+.venv/

@@ -1,0 +1,6 @@
+# H2 ARF6-related receptor recycling
+(APOE4 OR ApoE4 OR "apolipoprotein E4") AND (ARF6 OR "ADP-ribosylation factor 6")
+(APOE4 OR ApoE4 OR "apolipoprotein E4") AND (recycling) AND (endosom* OR receptor*) AND (astrocyt* OR neuron* OR microglia* OR iPSC)
+(APOE4 OR ApoE4 OR "apolipoprotein E4") AND (ABCA1) AND (trafficking OR recycling OR endosom* OR "plasma membrane")
+(APOE4 OR ApoE4 OR "apolipoprotein E4") AND (Rab11 OR "recycling endosome" OR Rab4 OR "Rab GTPase")
+(APOE4 OR ApoE4 OR "apolipoprotein E4") AND (LRP1 OR LDLR OR "ApoER2" OR LRP8) AND ("cell surface" OR recycling OR internaliz*)
