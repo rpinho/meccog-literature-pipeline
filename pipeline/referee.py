@@ -13,11 +13,12 @@ import concurrent.futures as cf
 import json
 import pathlib
 
-from llm import ask
+from llm import ask, json_lines
 from extract import load_text, code_checks
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 REFEREE_MODEL = "gpt-6.2-astra"
+REFEREE_BATCH = 6
 FIELDS = ["description", "quote", "summary", "system", "data_location", "effect_size",
           "effect_size_provenance", "p_value", "p_value_provenance", "sample_size",
           "sample_size_provenance", "directness_class", "directness_strength", "relevance", "direction"]
@@ -31,16 +32,7 @@ def referee_paper(path, hyp, var, force=False):
                  "full_text_unavailable, not not_found_in_source.")
     tmpl = open(ROOT / "prompts/referee.md").read()
 
-    def one(f):
-        if f.get("error") or (f.get("referee") and not force):
-            return f
-        rec = {k: f.get(k) for k in FIELDS}
-        p = tmpl.format(statement=hyp["statement"], A=var["A"], B=var["B"], supp_note=supp_note,
-                        record=json.dumps(rec, ensure_ascii=False, indent=1), text=text)
-        try:
-            v = json.loads(ask(p, model=REFEREE_MODEL, effort="high").strip().strip("`").removeprefix("json").strip())
-        except Exception as e:
-            v = {"verdict": "ERROR", "evidence": repr(e)[:200]}
+    def apply(f, v):
         v["model"] = REFEREE_MODEL
         f["referee"] = v
         if v.get("verdict") == "FIX" and isinstance(v.get("corrections"), dict):
@@ -49,10 +41,28 @@ def referee_paper(path, hyp, var, force=False):
                 if k in FIELDS:
                     f[k] = val
             code_checks(f, text)
-        return f
 
+    todo = [f for f in res["findings"] if not f.get("error") and
+            (force or not f.get("referee") or f["referee"].get("verdict") == "ERROR")]
+
+    def batch(fs):
+        recs = [dict({k: f.get(k) for k in FIELDS}, item=n + 1) for n, f in enumerate(fs)]
+        p = tmpl.format(statement=hyp["statement"], A=var["A"], B=var["B"], supp_note=supp_note,
+                        record=json.dumps(recs, ensure_ascii=False, indent=1), text=text)
+        try:
+            vs = json_lines(ask(p, model=REFEREE_MODEL, effort="high"))
+        except Exception as e:
+            vs = []
+            err = repr(e)[:200]
+        else:
+            err = "no verdict returned"
+        by_item = {int(v.get("item", 0)): v for v in vs if isinstance(v, dict) and str(v.get("item", "")).isdigit()}
+        for n, f in enumerate(fs):
+            apply(f, by_item.get(n + 1) or {"verdict": "ERROR", "evidence": err})
+
+    chunks = [todo[i:i + REFEREE_BATCH] for i in range(0, len(todo), REFEREE_BATCH)]
     with cf.ThreadPoolExecutor(3) as ex:
-        res["findings"] = list(ex.map(one, res["findings"]))
+        list(ex.map(batch, chunks))
     json.dump(res, open(path, "w"), indent=1, ensure_ascii=False)
     return res
 
@@ -69,8 +79,15 @@ def main():
     d = ROOT / f"data/{a.hypothesis}/findings"
     paths = [d / f"{k}.json" for k in a.keys.split(",")] if a.keys else sorted(d.glob("*.json"))
     from collections import Counter
+    def safe(p):
+        try:
+            return referee_paper(p, hyp, var, a.force)
+        except Exception as e:
+            print(p.name, "FAILED", repr(e)[:200], flush=True)
+            return {"key": p.stem, "findings": []}
+
     with cf.ThreadPoolExecutor(a.workers) as ex:
-        for r in ex.map(lambda p: referee_paper(p, hyp, var, a.force), paths):
+        for r in ex.map(safe, paths):
             c = Counter((f.get("referee") or {}).get("verdict", "none") for f in r["findings"])
             print(r["key"], dict(c), flush=True)
 

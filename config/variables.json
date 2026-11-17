@@ -1,7 +1,27 @@
 {
- "H1": {"A": "APOE genotype or apoE isoform (APOE4 vs APOE3)", "B": "endosomal pH (endosome/endolysosome luminal acidity)"},
- "H2": {"A": "APOE genotype or apoE isoform (APOE4 vs APOE3)", "B": "ARF6-related recycling of receptors between the cell surface and the endosome (e.g. ABCA1, LRP1, receptor surface levels, recycling rate)"},
- "H3": {"A": "APOE genotype or apoE isoform (APOE4 vs APOE3)", "B": "aggregation of apoE protein itself in the endosome/lysosome (endo-lysosomal apoE aggregates, oligomers)"},
- "H4": {"A": "APOE genotype or apoE isoform (APOE4 vs APOE3)", "B": "binding/adhesion strength of apoE to recycling receptors (ApoER2, LRP1, LDLR, VLDLR...) and the resulting impeded receptor recycling"},
- "H5": {"A": "APOE genotype or apoE isoform (APOE4 vs APOE3), acting through disrupted lipid metabolism (cholesterol, lipid droplets, sphingolipids)", "B": "late endosome / lysosome function (degradation, acidification, cholesterol egress, autophagic flux, lysosomal enzyme activity)"}
+ "H1": {
+  "A": "APOE genotype or apoE isoform (APOE4 vs APOE3)",
+  "B": "endosomal pH (endosome/endolysosome luminal acidity)",
+  "scope": "IN: endosomal or endolysosomal luminal pH/acidity, and lysosomal pH as a neighbouring compartment (a contrary or related result); acidity probes of those compartments (ratiometric dextran/transferrin pH probes, LysoTracker, LysoSensor, pHrodo when read as acidity); regulators on the path to endosomal pH (NHE6/NHE9 expression or function, V-ATPase, the HDAC-CREB-NHE6 axis) measured or manipulated in an APOE4 context. OUT: mitochondrial/mitophagy pH, mTOR or other signalling readouts, whole-proteome changes, cell viability, amyloid or cargo uptake not read as compartment acidity."
+ },
+ "H2": {
+  "A": "APOE genotype or apoE isoform (APOE4 vs APOE3)",
+  "B": "ARF6-related recycling of receptors between the cell surface and the endosome (e.g. ABCA1, LRP1, receptor surface levels, recycling rate)",
+  "scope": "IN: recycling of receptors between cell surface and endosomes (surface levels of receptors such as ABCA1, LRP1, LDLR, ApoER2, glutamate receptors; internalization and recycling rates; Rab11/Rab4 recycling-compartment localization; receptor retention in late endosomes), and ARF6 abundance/activity and its manipulation, in an APOE4 vs APOE3 context or a rescue in APOE4 cells. OUT: receptor transcription without trafficking readouts, downstream functions (cholesterol efflux, amyloid clearance) unless used as the only surrogate of recycling, unrelated signalling."
+ },
+ "H3": {
+  "A": "APOE genotype or apoE isoform (APOE4 vs APOE3)",
+  "B": "aggregation of apoE protein itself in the endosome/lysosome (endo-lysosomal apoE aggregates, oligomers)",
+  "scope": "IN: aggregation, oligomerization, misfolding or insoluble/high-molecular-weight apoE itself, especially inside endosomes/lysosomes or at acidic pH (in cells, tissue or in vitro), compared between apoE4 and apoE3; lysosomal accumulation or impaired degradation of apoE protein; apoE aggregates seeding other proteins when apoE aggregation itself is measured. OUT: amyloid-beta or tau aggregation without measuring apoE aggregation, general lysosomal function without apoE protein readouts."
+ },
+ "H4": {
+  "A": "APOE genotype or apoE isoform (APOE4 vs APOE3)",
+  "B": "binding/adhesion strength of apoE to recycling receptors (ApoER2, LRP1, LDLR, VLDLR...) and the resulting impeded receptor recycling",
+  "scope": "IN: binding strength or kinetics of apoE isoforms to recycling receptors (ApoER2/LRP8, LRP1, LDLR, VLDLR, heparan sulfate when tied to receptor recycling), pH-dependent dissociation in endosomes, and receptor surface levels/recycling impeded by apoE4 (e.g. ApoER2, glutamate receptors trapped in endosomes), including rescues (NHE6 inhibition) in apoE4 conditions. OUT: receptor-independent effects, binding to non-recycling partners, downstream synaptic function without a receptor-recycling readout."
+ },
+ "H5": {
+  "A": "APOE genotype or apoE isoform (APOE4 vs APOE3), acting through disrupted lipid metabolism (cholesterol, lipid droplets, sphingolipids)",
+  "B": "late endosome / lysosome function (degradation, acidification, cholesterol egress, autophagic flux, lysosomal enzyme activity)",
+  "scope": "IN: late endosome/lysosome function (cholesterol or lipid accumulation in lysosomes, NPC1, lysosomal degradation, cathepsin activity, lysosomal pH, autophagic flux, LAMP1 compartments) measured in APOE4 vs APOE3 cells, especially where linked to lipid/cholesterol metabolism; manipulations of lipid metabolism that change late-endosome/lysosome function in APOE4 cells. OUT: lipid changes with no late-endosome/lysosome readout, mitochondrial respiration alone, inflammation or transcriptomics alone."
+ }
 }

@@ -66,6 +66,54 @@ def accepted(f, text):
     return False
 
 
+def published_doi(meta):
+    """For a bioRxiv/medRxiv preprint, the DOI of its published version (bioRxiv API), cached in meta."""
+    if "published_doi" in meta:
+        return meta["published_doi"]
+    doi = str(meta.get("doi") or "")
+    pub = None
+    if doi.startswith(("10.1101/", "10.64898/")):
+        import urllib.request
+        for server in ("biorxiv", "medrxiv"):
+            try:
+                with urllib.request.urlopen(f"https://api.biorxiv.org/pubs/{server}/{doi}", timeout=30) as r:
+                    c = json.loads(r.read()).get("collection") or []
+                if c and c[0].get("published_doi"):
+                    pub = c[0]["published_doi"].lower()
+                    break
+            except Exception:
+                pass
+    meta["published_doi"] = pub
+    json.dump(meta, open(ROOT / "data/papers" / meta["key"] / "meta.json", "w"), indent=1)
+    return pub
+
+
+def loc_norm(loc):
+    l = str(loc).lower()
+    l = re.sub(r"supplementary|supp\.?|extended data", "s", l)
+    l = re.sub(r"figure|fig\.?", "f", l)
+    return re.sub(r"[^a-z0-9]", "", l.split(";")[0].split("(")[0])
+
+
+def dedupe_findings(fs):
+    """Same panel, same quote or near-identical description -> keep the most relevant one."""
+    kept = []
+    for f in fs:  # fs sorted by relevance, highest first
+        words = set(re.findall(r"[a-z0-9]+", str(f.get("description")).lower()))
+        dup = False
+        for k in kept:
+            if loc_norm(k.get("data_location")) != loc_norm(f.get("data_location")):
+                continue
+            kw = set(re.findall(r"[a-z0-9]+", str(k.get("description")).lower()))
+            if k.get("quote") == f.get("quote") and k.get("direction") == f.get("direction") \
+                    or len(words & kw) / max(1, len(words | kw)) > 0.5:
+                dup = True
+                break
+        if not dup:
+            kept.append(f)
+    return kept
+
+
 def cellval(x):
     if x is None or str(x).strip() == "":
         return "N/A"
@@ -79,16 +127,22 @@ def build(H, out):
         r = json.load(open(p))
         meta = json.load(open(ROOT / "data/papers" / r["key"] / "meta.json"))
         text, _ = load_text(r["key"])
-        fs = [f for f in r["findings"] if accepted(f, text) and float(f.get("relevance") or 0) >= MIN_RELEVANCE]
+        fs = [f for f in r["findings"] if accepted(f, text) and float(f.get("relevance") or 0) >= MIN_RELEVANCE
+              and (f.get("scope") or {}).get("keep", True)]
         if not fs:
             continue
         for f in fs:
             f["_score"] = float(f.get("relevance") or 0)
         fs.sort(key=lambda f: -f["_score"])
+        fs = dedupe_findings(fs)
         papers.append({"meta": meta, "findings": fs, "score": fs[0]["_score"]})
     # preprint vs published duplicates: keep the published one
     published = {norm_title(p["meta"].get("title")) for p in papers if not is_preprint(p["meta"])}
-    papers = [p for p in papers if not (is_preprint(p["meta"]) and norm_title(p["meta"].get("title")) in published)]
+    reached = [json.loads(l) for l in open(ROOT / f"data/{H}/fetched.jsonl")]
+    pub_dois = {str(json.load(open(ROOT / "data/papers" / x["key"] / "meta.json")).get("doi") or "").lower()
+                for x in reached if x["status"] == "ok"}  # every published paper we could read, findings or not
+    papers = [p for p in papers if not (is_preprint(p["meta"]) and (
+        norm_title(p["meta"].get("title")) in published or published_doi(p["meta"]) in pub_dois))]
     papers.sort(key=lambda p: -p["score"])
     dropped = papers[MAX_PAPERS:]
     papers = papers[:MAX_PAPERS]

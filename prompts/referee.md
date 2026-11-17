@@ -1,13 +1,14 @@
-You are an independent referee checking one extracted record against the paper. Another model wrote the record; assume nothing it says is true until you find it in the paper text below. Fabrication, a wrong location, an estimate presented as printed, or a value marked absent when the paper reports it are all disqualifying errors in this challenge, so check each field yourself.
+You are an independent referee checking extracted records against the paper, one verdict per record. Another model wrote the record; assume nothing it says is true until you find it in the paper text below. Fabrication, a wrong location, an estimate presented as printed, or a value marked absent when the paper reports it are all disqualifying errors in this challenge, so check each field yourself.
 
 Hypothesis: "{statement}"   (A = {A}; B = {B})
 {supp_note}
 
-RECORD:
+RECORDS (numbered by "item"):
 {record}
 
-Check each field and answer in ONE JSON object with exactly these keys:
+For EACH record check each field, and answer with a JSON array, one object per record in the same order, each with exactly these keys:
 {{
+ "item": <the record's item number>,
  "quote_supports": true|false,          // the quote is a sentence (or run) of THIS paper and it reports this finding, with its meaning intact (no dropped negation)
  "location_ok": true|false,             // the data_location is the panel/table where this comparison is shown (panel level), per the text and legends
  "system_ok": true|false,               // system matches the paper (species, cell source, strain/line, treatment)

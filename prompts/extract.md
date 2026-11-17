@@ -1,9 +1,10 @@
-You are extracting ONE experimental finding from a paper into a structured record. Accuracy matters more than anything: every value must be checkable against the paper. Never invent a number.
+You are extracting experimental findings from a paper into structured records, one record per listed finding. Accuracy matters more than anything: every value must be checkable against the paper. Never invent a number.
 
 Hypothesis: "{statement}"   (A = {A}; B = {B})
-The finding to extract: location {loc}: {what}
+The findings to extract (one record each, in this order):
+{items}
 
-Fill these fields:
+For EACH finding fill these fields:
 - description: one plain-English sentence: what was done and what was observed (include the direction, and say "no significant difference" for nulls).
 - quote: a sentence (or contiguous run of sentences) copied EXACTLY from the paper text below that reports this finding. Start at the beginning of a sentence (never mid-sentence: a dropped head can invert the meaning). Prefer Results text; use the figure legend if Results has nothing. "N/A" only if no sentence reports it.
 - summary: structured notation like (APOE3 -> APOE4) -> (lower endosomal pH in astrocytes). Use "no change in" for nulls. "N/A" if the form does not fit.
@@ -32,7 +33,7 @@ Fill these fields:
 
 {supp_note}
 
-Return ONE JSON object with exactly those keys. No commentary.
+Return a JSON array with one object per finding, in the same order, each with "item" (the finding's number) plus exactly those keys. No commentary.
 
 PAPER TEXT:
 {text}

@@ -18,17 +18,19 @@ Several agents, plus one person who set the goal and runs the machine. No person
 |---|---|---|
 | Pipeline code, queries, prompts | Claude Code (claude-opus-5-5) | wrote `pipeline/`, `prompts/` and `config/queries/`; spot-checks the output (section 5) |
 | Screening | gpt-6.1-sol via Codex CLI | title and abstract screen, batches of 20: yes / maybe / no |
-| Finding inventory | gpt-6.1-sol via Codex CLI | one call per paper: every panel, table or text result that bears on the hypothesis, supporting, contrary or null |
+| Finding inventory | gpt-6.1-sol via Codex CLI | one call per paper: first list every figure panel and table, then tag each as direct, path, contrary or not bearing on the hypothesis |
 | Extraction | gpt-6.1-sol via Codex CLI | one call per finding: the 17 fields of a finding row |
 | Code checks | no model | quote found in the paper text, value shapes, provenance consistent with the value, no estimated P value |
 | Referee | gpt-6.2-astra via Codex CLI | re-reads the paper and supplement and checks every field of every row: PASS, FIX (with corrections) or REJECT |
+| Scope check | gpt-6.2-astra via Codex CLI | per paper, keep or drop each accepted row against a written statement of what counts as B, its surrogates and its path for that hypothesis (`config/variables.json`) |
+| Sheet | no model | relevance floor 0.35, one row per panel (duplicates merged), a preprint dropped when its published version is in, papers ordered by their best finding, at most 50 |
 
-Work passes between steps as files under `data/`. Only rows the referee passed, or fixed with corrections that survive the code checks, go into a sheet.
+Work passes between steps as files under `data/`. Only rows the referee passed, or fixed with corrections that survive the code checks, and that the scope check kept, go into a sheet.
 
 ## 2. Model and version
 
 - gpt-6.1-sol (OpenAI), Codex CLI 0.167.0, reasoning effort low for screening and high for inventory and extraction
-- gpt-6.2-astra (OpenAI), Codex CLI 0.167.0, reasoning effort high, referee
+- gpt-6.2-astra (OpenAI), Codex CLI 0.167.0, reasoning effort high for the referee, medium for the scope check
 - claude-opus-5-5 (Anthropic), Claude Code, pipeline author and spot-check
 
 All model calls are logged with the model id in `runs/llm_calls.jsonl` (not published; counts in section 6).
@@ -86,13 +88,14 @@ No person checked the findings. Instead:
 | `pipeline/search.py` | stage 1, candidate pool |
 | `pipeline/screen.py`, `prompts/screen.md` | stage 2, screen |
 | `pipeline/fetch.py`, `pipeline/supplements.py`, `pipeline/browser.py` | stage 3, full text and supplements |
-| `pipeline/extract.py`, `prompts/inventory.md`, `prompts/extract.md`, `pipeline/quotes.py` | stage 4, inventory, extraction, code checks |
+| `pipeline/extract.py`, `prompts/inventory.md`, `prompts/extract.md`, `pipeline/quotes.py` | stage 4, inventory, extraction, code checks (`prompts/inventory_v1.md` is the first inventory prompt, kept for the record: it returned nothing for 39 of 58 H1 papers) |
 | `pipeline/referee.py`, `prompts/referee.md` | stage 5, referee |
+| `pipeline/scope.py`, `prompts/scope.md` | stage 5b, scope check |
 | `pipeline/build_sheet.py` | stage 6, sheet and validation |
 | `pipeline/validate_submission.py` | the organizers' validator, unchanged |
 | `config/` | hypotheses (copied from the submission Space), variables A and B per hypothesis, queries, template |
 
-Run, per hypothesis: `search.py H1`, `screen.py H1`, `fetch.py H1`, `supplements.py`, `extract.py H1`, `referee.py H1`, `build_sheet.py H1`. Python 3, `openpyxl`, `pymupdf`, `playwright`; model calls go through the Codex CLI (`pipeline/llm.py`).
+Run, per hypothesis: `search.py H1`, `screen.py H1`, `fetch.py H1`, `supplements.py`, `extract.py H1`, `referee.py H1`, `scope.py H1`, `build_sheet.py H1`. Python 3, `openpyxl`, `pymupdf`, `playwright`; model calls go through the Codex CLI (`pipeline/llm.py`).
 
 MIT license.
 

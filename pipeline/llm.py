@@ -39,11 +39,33 @@ def ask(prompt, model=MODEL, timeout=1800, effort=None, images=()):
 
 
 def json_lines(text):
-    """Parse a JSON array or JSON-lines answer, tolerating a fenced block."""
+    """Parse a JSON array or JSON-lines answer, tolerating a fenced block,
+    raw control characters inside strings, and prose around the array."""
     t = text.strip()
     if t.startswith("```"):
         t = t.split("\n", 1)[1].rsplit("```", 1)[0]
     t = t.strip()
-    if t.startswith("["):
-        return json.loads(t)
-    return [json.loads(l) for l in t.splitlines() if l.strip().startswith("{")]
+    dec = json.JSONDecoder(strict=False)
+    if "[" in t and not t.startswith("{"):
+        start = t.index("[")
+        try:
+            return dec.raw_decode(t[start:])[0]
+        except json.JSONDecodeError:
+            pass
+    out = []
+    for l in t.splitlines():
+        l = l.strip().rstrip(",")
+        if l.startswith("{"):
+            try:
+                out.append(dec.raw_decode(l)[0])
+            except json.JSONDecodeError:
+                pass
+    return out
+
+
+def json_obj(text):
+    """One JSON object from an answer (fences, control characters, prose tolerated)."""
+    t = text.strip()
+    if t.startswith("```"):
+        t = t.split("\n", 1)[1].rsplit("```", 1)[0]
+    return json.JSONDecoder(strict=False).raw_decode(t[t.index("{"):])[0]
