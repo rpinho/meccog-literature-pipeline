@@ -3,8 +3,8 @@
 MecCog Step 1 submission: an open pipeline that finds the papers bearing on a mechanism hypothesis and extracts each experimental finding into the MecCog template.
 
 - **Team:** rstack
-- **Hypothesis:** H1 (lower endosome pH) of the [APOE4 endosome set](https://huggingface.co/spaces/MecCog/meccog-challenge). H2-H5 follow with the same pipeline, one spreadsheet each.
-- **Submission date:** 2026-11-17 (H1, first version; resubmissions will update this README)
+- **Hypothesis:** H1 (lower endosome pH) and H2 (impaired receptor recycling) of the [APOE4 endosome set](https://huggingface.co/spaces/MecCog/meccog-challenge), one spreadsheet each. H3-H5 follow with the same pipeline.
+- **Submission date:** H1 2026-11-17, H2 2026-11-17 (first versions; resubmissions will update this README)
 
 Everything here is agent work: AI-written code, AI extraction, an AI referee, and an AI spot-check. Read the numbers with that in mind.
 
@@ -42,7 +42,14 @@ All model calls are logged with the model id and token count in `runs/llm_calls.
 2. Europe PMC search with the same queries (adds preprints, and searches full text).
 3. Citation snowball from the starting reference: its reference list and every paper citing it (OpenAlex).
 
-H1 hit counts: PubMed 67, 6, 2, 1 and 66 for the five queries (the HDAC4 and v-ATPase queries returned almost nothing); Europe PMC full-text search 1,255, 104, 241, 34 and 1,389 (we kept the top 300 per query); the starting reference cites 73 works and is cited by 203. 983 candidates in all; 403 passed the code filter; the screen kept 73.
+Hit counts per query, in the order of `config/queries/H*.txt` (Europe PMC searches full text; we keep the top 300 per query):
+
+| | PubMed | Europe PMC | starting reference: cites / cited by |
+|---|---|---|---|
+| H1 | 67, 6, 2, 1, 66 (HDAC4 and v-ATPase queries returned almost nothing) | 1,255, 104, 241, 34, 1,389 | 73 / 203 |
+| H2 | 1, 14, 8, 1, 24 (the ARF6 and Rab11 queries returned one paper each) | 73, 1,405, 734, 184, 1,319 | 41 / 153 |
+
+The funnel per hypothesis is in the table in section 5.
 
 Then `pipeline/screen.py`: a code filter keeps papers whose title or abstract names APOE4 (or that came from the snowball) and drops reviews; a model screens the rest by title and abstract and keeps yes and maybe.
 
@@ -60,13 +67,20 @@ Then `pipeline/screen.py`: a code filter keeps papers whose title or abstract na
 
 Supplement files (PDF, DOCX, XLSX, CSV) are converted to text and read with the paper. PMC puts a JavaScript page in front of supplement downloads; for those the pipeline uses a headless Chrome for Testing. No paywalled content was obtained by any other route, and nothing was obtained with a login.
 
-H1: 73 papers passed the screen and 58 (79%) were reached in full text. The 15 we could not reach are mostly behind publisher bot walls (Elsevier/Cell Press, older JBC) with no PMC copy, plus bioRxiv preprints that were rate-limited on the day. A paper we could not reach is not extracted, so it has no rows in the sheet.
+Reach is in the table in section 5. Most papers we could not reach are closed access with no PMC copy, or bioRxiv preprints that were rate-limited on the day. A paper we could not reach is not extracted, so it has no rows in the sheet.
 
 ## 5. What a human checked
 
 No person checked the findings. Instead:
 
-- The referee (a second model) checked every row against the paper. H1: 221 rows extracted from 58 papers; 51 PASS, 68 FIX, 98 REJECT (4 not refereed). After the scope check, the 0.35 relevance floor and duplicate merging, 20 rows from 8 papers are in the sheet.
+- The referee (a second model) checked every row against the paper:
+
+| | candidates | passed code filter | kept by screen | full text reached when extracted | rows extracted | referee PASS / FIX / REJECT | in the sheet |
+|---|---|---|---|---|---|---|---|
+| H1 | 983 | 403 | 73 | 58 (79%) | 221 | 51 / 68 / 98 (4 not refereed) | 8 papers, 20 rows |
+| H2 | 960 | 302 | 95 | 75 (79%) | 658 | 48 / 64 / 517 (29 not refereed) | 13 papers, 71 rows |
+
+  Rows in the sheet are referee PASS or FIX rows that the scope check kept, at relevance 0.35 or higher, with duplicates merged. The H2 REJECT count is high because 40 H2 papers were extracted with an earlier, more inclusive prompt; the referee removed what was outside the hypothesis.
 - Claude Code (claude-opus-5-5) read all 21 rows of the first H1 sheet and checked the quote, location, effect size, P value and n of 5 rows against the full text (Prasad and Rao 2018 Fig 3B; Fig 5B; Lysosomal proteomics 2025 Fig 1E; JBC 2025 Fig 4J; Stem Cell Reports 2025 Fig 5F). All 5 matched. It found 2 defective rows: a row quoting a dissertation's literature review (someone else's result) and a duplicate of the same result under its representative-image panel. Both are now caught by code, and the sheet has 20 rows.
 - Two papers per hypothesis were drawn by hash before extraction and kept out of all prompt changes, for a later check the pipeline was not tuned on. For H1 neither yielded a row in scope.
 
@@ -77,6 +91,7 @@ No person checked the findings. Instead:
 - **No values read off figures yet.** Where a figure shows a difference with no printed number the row says qualitative and visual_only. Measuring bars is planned, and every such value will carry a ~ and estimated_from_figure.
 - **Effect sizes are reported as printed.** Where a paper prints only the two group values (pH 5.38 vs 5.74), the sheet gives the difference or ratio and the description quotes both values.
 - **Scope calls.** The hypotheses name non-aged human brain cells, and almost nothing in this literature meets every clause. We keep model-system findings and record the system precisely, as the challenge asks.
+- **Significance stars.** Where a legend gives one key for the whole figure ("*** p < 0.001") but the text does not say which panels carry the stars, the P value is N/A with ambiguous_panel until we read the figure images.
 - **Known weaknesses.** Papers behind publisher bot walls without a PMC copy are missed. Most effect sizes are "qualitative" because the number is only in a figure and we do not read figures yet. The referee is one model; it fixes and rejects, but it can also be wrong. The H1 sheet is small (8 papers) because rows outside the hypothesis are dropped; we think that is the right call for this challenge, but it means some related lysosome results are not in it.
 - Lessons from the organizers' earlier agent collab shaped several steps; see References.
 
