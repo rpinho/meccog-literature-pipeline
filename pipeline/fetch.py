@@ -224,7 +224,14 @@ def fetch_one(r):
     m = {"key": k, "pmid": r.get("pmid"), "pmcid": r.get("pmcid"), "doi": r.get("doi"),
          "title": r.get("title"), "year": r.get("year"), "source": r.get("source")}
     text = None
-    if r.get("pmcid"):
+    manual = ROOT / "data" / "manual_pdfs" / f"{k}.pdf"
+    if manual.exists() and manual.read_bytes()[:4] == b"%PDF":
+        # downloaded by hand in a browser (publisher pages that block scripts); same document as the DOI
+        (d / "fulltext.pdf").write_bytes(manual.read_bytes())
+        text = pdf_to_text(d / "fulltext.pdf")
+        m["route"] = "manual_pdf"
+        tried.append("manual_pdf:ok")
+    if text is None and r.get("pmcid"):
         try:
             x, _, _ = get(EPMC + f"{r['pmcid']}/fullTextXML")
             (d / "fulltext.xml").write_bytes(x)

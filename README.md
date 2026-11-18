@@ -55,7 +55,8 @@ Then `pipeline/screen.py`: a code filter keeps papers whose title or abstract na
 3. The PMC article page (covers author manuscripts outside the open-access subset)
 4. Europe PMC rendered PDF of the PMC copy
 5. Open-access locations from OpenAlex (the Unpaywall data): publisher PDF or article HTML. A preprint copy is never used for a published paper: figures and numbers can differ between versions.
-6. bioRxiv PDF for preprints
+6. bioRxiv JATS XML (via the bioRxiv API) or PDF for preprints, one request per 10 seconds
+7. For open-access papers whose publisher pages block scripts (Cloudflare), the publisher PDF downloaded by hand in a browser and placed in `data/manual_pdfs/` (route `manual_pdf` in each paper's record)
 
 Supplement files (PDF, DOCX, XLSX, CSV) are converted to text and read with the paper. PMC puts a JavaScript page in front of supplement downloads; for those the pipeline uses a headless Chrome for Testing. No paywalled content was obtained by any other route, and nothing was obtained with a login.
 
