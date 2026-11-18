@@ -79,6 +79,19 @@ def code_checks(rec, text):
             problems.append("class 1 with strength 4-5 (scale read upside down?)")
     except Exception:
         problems.append("directness class/strength missing")
+    # a result reported from someone else's paper is not this paper's primary finding
+    q = str(rec.get("quote", ""))
+    cited = re.search(r"\((?:[A-Z][A-Za-z\-]+(?: et al\.?| and [A-Z][A-Za-z\-]+)?),? (?:19|20)\d\d[a-z]?\)", q) \
+        or re.search(r"\[\d+(?:[,\u2013\-]\s*\d+)*\]\s*\.?$", q.strip())
+    if cited or re.search(r"literature review|previously reported|review chapter", str(rec.get("description", "")), re.I):
+        problems.append("reports cited work, not this paper's own data")
+    # a P value printed as a long decimal: same value in e-notation (4.6e-44), which the validator accepts
+    pv = str(rec.get("p_value", "")).strip()
+    mm = re.fullmatch(r"([<>]=?)?\s*0\.(0{6,})(\d+)", pv)
+    if mm:
+        digits = mm.group(3)
+        exp = -(len(mm.group(2)) + 1)
+        rec["p_value"] = (mm.group(1) or "") + (f"{digits[0]}.{digits[1:]}" if len(digits) > 1 else digits[0]) + f"e{exp}"
     loc = str(rec.get("data_location", ""))
     if re.fullmatch(r"(fig(ure)?\.?\s*\d+)", loc.strip(), re.I):
         problems.append("location lacks a panel")

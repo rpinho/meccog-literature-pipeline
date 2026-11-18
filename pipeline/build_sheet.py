@@ -53,6 +53,7 @@ def accepted(f, text):
     if f.get("error"):
         return False
     v = (f.get("referee") or {})
+    code_checks(f, text)  # deterministic rules apply to every row, including rows extracted before a rule existed
     if v.get("verdict") == "PASS":
         return not f.get("code_problems")
     if v.get("verdict") == "FIX":
@@ -102,6 +103,10 @@ def dedupe_findings(fs):
         words = set(re.findall(r"[a-z0-9]+", str(f.get("description")).lower()))
         dup = False
         for k in kept:
+            if k.get("quote") not in (None, "", "N/A") and k.get("quote") == f.get("quote") \
+                    and k.get("direction") == f.get("direction") and k.get("effect_size") == f.get("effect_size"):
+                dup = True  # same sentence, same result: e.g. a quantification panel and its representative images
+                break
             if loc_norm(k.get("data_location")) != loc_norm(f.get("data_location")):
                 continue
             kw = set(re.findall(r"[a-z0-9]+", str(k.get("description")).lower()))
