@@ -120,9 +120,10 @@ def dedupe_findings(fs):
 
 
 def cellval(x):
+    from openpyxl.cell.cell import ILLEGAL_CHARACTERS_RE
     if x is None or str(x).strip() == "":
         return "N/A"
-    return str(x).strip()
+    return ILLEGAL_CHARACTERS_RE.sub("", str(x)).strip()  # control characters from PDF text are not allowed in xlsx
 
 
 def build(H, out):
