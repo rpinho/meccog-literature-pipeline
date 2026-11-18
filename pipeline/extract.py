@@ -102,6 +102,12 @@ def code_checks(rec, text):
 MAX_SUPP = 50_000
 
 
+EFFORT = None   # --effort overrides (retry of 11-18 timeouts: medium)
+TIMEOUT = 1800  # seconds per call; --timeout overrides
+LONG_PAPER = 120_000  # chars; above this the 11-18 batch timed out at 30 min on 8 of 106 papers
+LONG_SUPP = 20_000
+
+
 def load_text(key):
     """Main text, then the supplement (marked), and whether a supplement was read."""
     d = ROOT / "data/papers" / key
@@ -114,6 +120,8 @@ def load_text(key):
     t = re.sub(r"\n#{2,4} [^\n]{1,40}\n(?=\s*\n)", "\n", t)  # empty author-name headings
     t = t[:MAX_TEXT]
     supp = (d / "supp.txt").read_text()[:MAX_SUPP] if (d / "supp.txt").exists() else ""
+    if len(t) + len(supp) > LONG_PAPER:
+        supp = supp[:LONG_SUPP]  # long papers: keep the main text whole, trim the supplement
     if supp.strip():
         t += "\n\n# SUPPLEMENTARY MATERIAL (text extracted from the supplement files)\n\n" + supp
     return t, bool(supp.strip())
@@ -132,7 +140,8 @@ def run_paper(key, hyp, var, force=False):
     p = open(ROOT / "prompts/paper_extract.md").read().format(
         statement=hyp["statement"], A=var["A"], B=var["B"], scope=var["scope"], supp_note=supp_note,
         max_path=MAX_PATH, text=text)
-    ans = json_obj(ask(p, effort="high"))
+    effort = EFFORT or ("medium" if len(text) > LONG_PAPER else "high")
+    ans = json_obj(ask(p, effort=effort, timeout=TIMEOUT))
     panels = ans.get("panels") or []
     findings = []
     for rec in ans.get("findings") or []:
@@ -157,7 +166,11 @@ def main():
     ap.add_argument("--workers", type=int, default=3)
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--stale", action="store_true", help="only missing or first-prompt papers")
+    ap.add_argument("--effort", choices=["low", "medium", "high"])
+    ap.add_argument("--timeout", type=int, default=1800)
     a = ap.parse_args()
+    global EFFORT, TIMEOUT
+    EFFORT, TIMEOUT = a.effort, a.timeout
     hyp = {h["id"]: h for h in json.load(open(ROOT / "config/hypotheses.json"))["hypotheses"]}[a.hypothesis]
     var = json.load(open(ROOT / "config/variables.json"))[a.hypothesis]
     if a.keys:
