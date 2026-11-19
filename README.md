@@ -9,7 +9,7 @@ MecCog Step 1 submission: an open pipeline that finds the papers bearing on a me
 
   | | sheet commit | acceptance number | papers / rows |
   |---|---|---|---|
-  | H1 | 2ffa2ab | MC-20261118-4523DBE7 | 8 / 20 |
+  | H1 | db17c8a | MC-20261119-F23AA90D | 8 / 20 |
   | H2 | b137327 | MC-20261119-36F83312 | 14 / 82 |
   | H3 | b137327 | MC-20261119-1F2CE180 | 26 / 142 |
   | H4 | b137327 | MC-20261119-79864A62 | 26 / 164 |
