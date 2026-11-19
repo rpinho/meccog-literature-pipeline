@@ -288,6 +288,11 @@ def build(H, out):
                 for x in reached if x["status"] == "ok"}  # every published paper we could read, findings or not
     papers = [p for p in papers if not (is_preprint(p["meta"]) and (
         any(preprint_of(p["meta"], m) for m in published) or published_doi(p["meta"]) in pub_dois))]
+    # a paper whose full text arrived after extraction ran (a later retry, a manual PDF) is easy to miss: say so
+    reached = [json.loads(l) for l in open(ROOT / f"data/{H}/fetched.jsonl")]
+    never = [x["key"] for x in reached if x["status"] == "ok" and not (ROOT / f"data/{H}/findings/{x['key']}.json").exists()]
+    if never:
+        print(f"WARNING: {len(never)} reached {H} papers were never extracted (run extract.py {H} --stale): {', '.join(never[:10])}")
     for u in unmatched:
         print("correction not applied (matches %d findings): %s '%s'" % (u[2], u[0], u[1]))
     papers.sort(key=lambda p: -p["score"])
