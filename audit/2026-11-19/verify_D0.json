@@ -1,0 +1,498 @@
+[
+ {
+  "src": "H1",
+  "paper": {
+   "key": "pmid29946028",
+   "hyp": "H1",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes reduced endosome pH compared with APOE3.",
+   "text": "data/papers/pmid29946028/text.txt",
+   "supp": "data/papers/pmid29946028/supp.txt",
+   "figures": [
+    "data/papers/pmid29946028/figimg/1.png",
+    "data/papers/pmid29946028/figimg/2.png",
+    "data/papers/pmid29946028/figimg/3.png",
+    "data/papers/pmid29946028/figimg/4.png",
+    "data/papers/pmid29946028/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F2",
+   "Finding description": "Ratiometric dextran measurements in mouse astrocytes expressing human APOE isoforms showed significantly higher lysosomal pH by >1 pH unit in APOE4 versus APOE3 cells, measured in biological triplicates.",
+   "Finding quote": "In contrast, we observed >1 pH unit elevation of lysosomal pH in ApoE4 astrocytes ( Fig. 3 C ).",
+   "Finding summary": "(APOE3 -> APOE4) -> (higher lysosomal pH in mouse astrocytes)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Cultured mouse astrocytes from ApoE-knockout mice with isogenic knock-in of human APOE3 or APOE4, provided by David M. Holtzman; donor age and strain background not stated. Baseline genotype comparison using pH-sensitive pHrodo-green-Dextran (5 μg/ml) and pH-insensitive Alexa Fluor 647-Dextran (10 μg/ml), loaded for 12 hours followed by a 6-hour dye-free chase; calibrated ratiometric flow cytometry of approximately 10,000 cells per sample in biological triplicates.",
+   "Data location": "Fig 3C",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "0.0009",
+   "P value provenance": "printed_in_text",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H1",
+   "paper_id": "P5",
+   "finding_id": "P5.F2",
+   "key": "pmid29946028",
+   "quote_start": "In contrast, we observed >1 pH unit elevation of lysosomal pH in ApoE4",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "dpH=1.12",
+    "Effect size provenance": "printed_in_text",
+    "Finding description": "Ratiometric dextran measurements in mouse astrocytes expressing human APOE isoforms showed significantly higher lysosomal pH in APOE4 than APOE3 cells (5.20 versus 4.08, values printed on Fig 3C; the text reports >1 pH unit), measured in biological triplicates."
+   },
+   "reason": "The effect is not only qualitative: Fig 3C prints both group values (ApoE3 4.08, ApoE4 5.20), so dpH=1.12 is printed_in_text by our convention. P=0.0009 and n=3 are correct.",
+   "evidence": "Fig 3C bars labelled 4.08 (ApoE3) and 5.20 (ApoE4); legend: 'Lysosomal pH was elevated by >1 pH unit in ApoE4 astrocytes (*** P = 0.0009, Student's t test; n = 3).'"
+  },
+  "item": 1
+ },
+ {
+  "src": "H1",
+  "paper": {
+   "key": "pmid29946028",
+   "hyp": "H1",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes reduced endosome pH compared with APOE3.",
+   "text": "data/papers/pmid29946028/text.txt",
+   "supp": "data/papers/pmid29946028/supp.txt",
+   "figures": [
+    "data/papers/pmid29946028/figimg/1.png",
+    "data/papers/pmid29946028/figimg/2.png",
+    "data/papers/pmid29946028/figimg/3.png",
+    "data/papers/pmid29946028/figimg/4.png",
+    "data/papers/pmid29946028/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F6",
+   "Finding description": "Wild-type NHE6 expression alkalinized endosomes in human APOE4 knock-in mouse astrocytes. L188P and G383D failed to produce this alkalinization. The endosomal pH assay used biological triplicates.",
+   "Finding quote": "Like monensin, NHE6 alkalinized the endosomal lumen in ApoE4 astrocytes, but the CS patient mutations did not ( SI Appendix , Fig. S6 H ).",
+   "Finding summary": "Wild-type NHE6 raised endosomal pH in APOE4 mouse astrocytes. Neither tested variant reproduced that effect.",
+   "Finding relevance": 0.5,
+   "Experimental system": "Cultured mouse astrocytes from ApoE-knockout mice with isogenic human APOE4 knock-in, supplied by David M. Holtzman; lentiviral expression of GFP-tagged wild-type NHE6, L188P, or G383D, with untransfected and empty-vector controls. Endosomal pH measured by calibrated flow cytometry using pHrodo Red-transferrin and pH-insensitive Alexa Fluor 633-transferrin after 55 minutes at 37°C; approximately 10,000 cells per biological replicate. Donor age, strain background, and interval after transduction not stated.",
+   "Data location": "Supplementary Fig. S6H",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "supplement_only",
+   "Directness class": 2,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H1",
+   "paper_id": "P5",
+   "finding_id": "P5.F6",
+   "key": "pmid29946028",
+   "quote_start": "Like monensin, NHE6 alkalinized the endosomal lumen in ApoE4 astrocyte",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~dpH=0.14",
+    "Effect size provenance": "estimated_from_figure",
+    "P value": "0.005",
+    "P value provenance": "supplement_only",
+    "Finding description": "Wild-type NHE6 expression alkalinized endosomes in human APOE4 knock-in mouse astrocytes relative to control (p=0.005). L188P and G383D failed to produce this alkalinization (p=0.72 and p=0.94 versus control). The endosomal pH assay used biological triplicates."
+   },
+   "reason": "Quote and n=3 (methods, supplement) are right, but SI Fig S6H (rendered from the SI PDF, page 16) prints the P values: control vs NHE6 p=0.005, vs L188P p=0.72, vs G383D p=0.94. The bars are readable: control ~5.62, NHE6 ~5.76 on a 5.0-6.0 axis.",
+   "evidence": "SI Fig S6H image: brackets '**p=0.005' (Control vs NHE6), 'ns p=0.72' (Control vs L188P), 'ns p=0.94' (Control vs G383D); Control bar ~5.62, NHE6 bar ~5.76. Legend: 'Expression of NHE6, but not CS-associated variants, in ApoE4 astrocytes ... results in alkalization of endosomal pH.'"
+  },
+  "item": 2
+ },
+ {
+  "src": "H1",
+  "paper": {
+   "key": "pmid29946028",
+   "hyp": "H1",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes reduced endosome pH compared with APOE3.",
+   "text": "data/papers/pmid29946028/text.txt",
+   "supp": "data/papers/pmid29946028/supp.txt",
+   "figures": [
+    "data/papers/pmid29946028/figimg/1.png",
+    "data/papers/pmid29946028/figimg/2.png",
+    "data/papers/pmid29946028/figimg/3.png",
+    "data/papers/pmid29946028/figimg/4.png",
+    "data/papers/pmid29946028/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F8",
+   "Finding description": "Confocal immunofluorescence showed greater HDAC4 colocalization with nuclear DAPI in human APOE4 knock-in mouse astrocytes than in APOE3 astrocytes (Pearson’s correlation coefficient 0.51 ± 0.02 versus 0.17 ± 0.01; n = 150 per condition), providing indirect mechanistic support for NHE6 repression and endosomal acidification.",
+   "Finding quote": "Fractional colocalization of HDAC4 with DAPI revealed prominent overlap, consistent with increased nuclear translocation in ApoE4 astrocytes ( Fig. 5 B ).",
+   "Finding summary": "(APOE3 -> APOE4) -> (greater HDAC4 colocalization with nuclear DAPI in mouse astrocytes)",
+   "Finding relevance": 0.4,
+   "Experimental system": "Cultured mouse astrocytes from ApoE-knockout mice with isogenic knock-in of human APOE3 or APOE4, supplied by David M. Holtzman; no additional treatment specified for this comparison; donor age, genetic background and culture duration not stated; anti-HDAC4 immunofluorescence with nuclear DAPI staining, confocal microscopy and Pearson colocalization analysis using the JACoP ImageJ plugin.",
+   "Data location": "Fig 5B",
+   "Effect size": "~3x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "4.6e-44",
+   "P value provenance": "printed_in_text",
+   "Sample size": "150",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H1",
+   "paper_id": "P5",
+   "finding_id": "P5.F8",
+   "key": "pmid29946028",
+   "quote_start": "Fractional colocalization of HDAC4 with DAPI revealed prominent overla",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "3.0x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Both group values are printed in the legend (Pearson 0.17 vs 0.51), so the fold is 3.0x printed_in_text, not an estimate from the figure. P and n are correct.",
+   "evidence": "Fig 5B legend: 'Pearson's correlation coefficient for ApoE3: 0.17 +/- 0.01 vs. ApoE4: 0.51 +/- 0.02; **** P = 4.6 x 10-44, Student's t test; n = 150 per condition'. 0.51/0.17 = 3.0."
+  },
+  "item": 3
+ },
+ {
+  "src": "H1",
+  "paper": {
+   "key": "pmid29946028",
+   "hyp": "H1",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes reduced endosome pH compared with APOE3.",
+   "text": "data/papers/pmid29946028/text.txt",
+   "supp": "data/papers/pmid29946028/supp.txt",
+   "figures": [
+    "data/papers/pmid29946028/figimg/1.png",
+    "data/papers/pmid29946028/figimg/2.png",
+    "data/papers/pmid29946028/figimg/3.png",
+    "data/papers/pmid29946028/figimg/4.png",
+    "data/papers/pmid29946028/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F9",
+   "Finding description": "Monensin treatment (50 μM for 1 h) increased endosomal pH from 5.38 ± 0.01 with vehicle to 5.74 ± 0.03 in human APOE4 knock-in mouse astrocytes (n = 3 biological replicates), providing indirect rescue evidence because treatment changed while APOE genotype remained constant. Group values printed on the figure: Panel E bars labelled 5.38 and 5.74; *** above comparison, but no legend key provided.",
+   "Finding quote": "Thus, monensin treatment (50 μM for 1 h) elevated endosomal pH in ApoE4 knock-in astrocytes from 5.38 ± 0.01–5.74 ± 0.03, relative to the vehicle-treated control ( Fig. 3 E ), without altering cell viability ( SI Appendix , Fig. S5 A ).",
+   "Finding summary": "(vehicle -> monensin) -> (higher endosomal pH in APOE4 mouse astrocytes)",
+   "Finding relevance": 0.35,
+   "Experimental system": "Cultured mouse astrocytes from ApoE-knockout mice with isogenic human APOE4 knock-in, provided by David M. Holtzman; donor age and mouse strain background unspecified; monensin 50 μM for 1 h versus vehicle; calibrated ratiometric endosomal pH measurement by flow cytometry using FITC-transferrin and Alexa Fluor 633-transferrin after 55 min uptake at 37°C, approximately 10,000 cells per sample in biological triplicates.",
+   "Data location": "Fig 3E",
+   "Effect size": "dpH=0.36",
+   "Effect size provenance": "printed_in_text",
+   "P value": "0.0005",
+   "P value provenance": "printed_in_text",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 5,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H1",
+   "paper_id": "P5",
+   "finding_id": "P5.F9",
+   "key": "pmid29946028",
+   "quote_start": "Thus, monensin treatment (50 μM for 1 h) elevated endosomal pH in ApoE",
+   "verdict": "FIX",
+   "set": {
+    "Finding description": "Monensin treatment (50 μM for 1 h) increased endosomal pH from 5.38 ± 0.01 with vehicle to 5.74 ± 0.03 in human APOE4 knock-in mouse astrocytes (n = 3 biological replicates; P = 0.0005), providing indirect rescue evidence because treatment changed while APOE genotype remained constant. Group values are printed on Fig 3E (bars labelled 5.38 and 5.74)."
+   },
+   "reason": "Values are right (5.38 to 5.74, dpH=0.36, P=0.0005, n=3), but the description wrongly says the *** has no legend key: the Fig 3E legend prints '*** P = 0.0005'. Remove that clause.",
+   "evidence": "Fig 3E legend: 'Monensin treatment (50 uM for 1 h) corrected hyperacidic endosomal pH in ApoE4 astrocytes, relative to vehicle treatment (*** P = 0.0005, Student's t test; n = 3).' Bars labelled 5.38 and 5.74."
+  },
+  "item": 4
+ },
+ {
+  "src": "H1",
+  "paper": {
+   "key": "pmid32517777",
+   "hyp": "H1",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes reduced endosome pH compared with APOE3.",
+   "text": "data/papers/pmid32517777/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid32517777/figimg/4.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P4.F1",
+   "Finding description": "LysoSensor measurements showed that acidic-organellar pH was significantly higher by 0.14 units in immortalized APOE4 versus APOE3 mouse astrocytes.",
+   "Finding quote": "We found that both APOE3 and APOE4 astrocytes had standard lysosomal-related pH, with a minimal but significant difference of 0.14 pH units between genotypes, APOE4 lysosomes being more alkaline (Fig. 4g).",
+   "Finding summary": "(APOE3 -> APOE4) -> (higher acidic-organellar pH in immortalized mouse astrocytes)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Immortalized mouse astrocytes from human APOE3 or APOE4 targeted-replacement mice, provided by Dr. Holtzman; donor age and strain background not stated for these cultures; passages up to 10; acidic-organellar pH measured with 2 μM LysoSensor Yellow/Blue DND-160 in isotonic solution containing 10% FBS, using calibrated ratiometric fluorometry.",
+   "Data location": "Fig 4G",
+   "Effect size": "dpH=0.14",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H1",
+   "paper_id": "P4",
+   "finding_id": "P4.F1",
+   "key": "pmid32517777",
+   "quote_start": "We found that both APOE3 and APOE4 astrocytes had standard lysosomal-r",
+   "verdict": "FIX",
+   "set": {
+    "P value": "<0.001",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Quote, dpH=0.14 and n=3 are right, but the P value is not missing: panel 4g has *** over the APOE4 bar (a two-bar panel, so the mark is over this comparison) and the legend key gives p < 0.001 (***).",
+   "evidence": "Fig 4 legend: 'g Quantification of the pH of acidic organelles in APOE3 and APOE4 astrocytes (N = 3). Unpaired parametric T-test ... p < 0.05 (*), p < 0.01 (**), p < 0.001 (***)'. Image 4g: *** above the APOE4 bar; APOE3 ~4.52, APOE4 ~4.66 on a 4.0-5.5 axis."
+  },
+  "item": 5
+ },
+ {
+  "src": "H1",
+  "paper": {
+   "key": "pmid32517777",
+   "hyp": "H1",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes reduced endosome pH compared with APOE3.",
+   "text": "data/papers/pmid32517777/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid32517777/figimg/4.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P4.F2",
+   "Finding description": "Western blotting normalized to β-actin showed higher V-ATPase subunit V0D1 expression in immortalized APOE4 versus APOE3 mouse astrocytes.",
+   "Finding quote": "Indeed, the expression of V-ATPase subunit V0D1, which is highly expressed in astrocytes [61], was higher in APOE4 cells than in APOE3 cells (Fig. 4f).",
+   "Finding summary": "(APOE3 -> APOE4) -> (higher V-ATPase V0D1 expression in immortalized mouse astrocytes)",
+   "Finding relevance": 0.35,
+   "Experimental system": "Immortalized mouse astrocytes from human APOE3 or APOE4 targeted-replacement mice, provided by Dr. Holtzman; donor age and strain background not stated for these cultures; routinely cultured in advanced DMEM with 10% FBS, passages up to 10; V0D1 protein measured by western blotting and normalized to β-actin.",
+   "Data location": "Fig 4F",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "4",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H1",
+   "paper_id": "P4",
+   "finding_id": "P4.F2",
+   "key": "pmid32517777",
+   "quote_start": "Indeed, the expression of V-ATPase subunit V0D1, which is highly expre",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~1.24x",
+    "Effect size provenance": "estimated_from_figure",
+    "P value": "<0.05",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Quote and n=4 are right. Panel 4f has * over the APOE4 bar (two-bar panel) and the legend key gives p < 0.05; the bar is readable: APOE3 normalized to 1.0, APOE4 about 1.24 on a 0-1.5 axis.",
+   "evidence": "Fig 4 legend: 'f Quantification of V-ATPase subunit V0D1 with western blot, normalized to beta-actin expression (N = 4) ... p < 0.05 (*)'. Image 4f: APOE3 bar at 1.0, APOE4 bar top ~1.24, * above it."
+  },
+  "item": 6
+ },
+ {
+  "src": "H1",
+  "paper": {
+   "key": "pmid41103078",
+   "hyp": "H1",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes reduced endosome pH compared with APOE3.",
+   "text": "data/papers/pmid41103078/text.txt",
+   "supp": "data/papers/pmid41103078/supp.txt",
+   "figures": [
+    "data/papers/pmid41103078/figimg/1.png",
+    "data/papers/pmid41103078/figimg/3.png",
+    "data/papers/pmid41103078/figimg/4.png",
+    "data/papers/pmid41103078/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P7.F1",
+   "Finding description": "Ratiometric OregonGreen measurements across three independent biological and technical replicate experiments showed higher lysosomal pH in human APOE4-expressing murine Neuro-2a cells (pH 5.86) than in APOE3-expressing cells (pH 4.30) or parental cells without human APOE (pH 4.58).",
+   "Finding quote": "We found that HsAPOE4-expressing cells exhibit dramatic lysosomal alkalinization (pH = 5.86) compared to HsAPOE3 (pH = 4.30) cells (Figure 1C–E), reminiscent of previous results in APOE4-expressing astrocyte lysosomes (pH = 5.20, compared to pH = 4.08 in APOE3 astrocytes) [26]. This alkalinization was also observed in comparison to the parental cell line in which no human APOE had been introduced (referred to as HsAPOE−/−, pH = 4.58).",
+   "Finding summary": "(APOE3 -> APOE4) -> (higher lysosomal pH in murine Neuro-2a cells)",
+   "Finding relevance": 0.5,
+   "Experimental system": "Male murine Neuro-2a neuroblastoma cell lines expressing transgenic full-length human APOE3 or APOE4, compared with parental cells lacking human APOE; endogenous murine Apoe remained intact; passages 5–10. Lysosomal pH was measured by calibrated ratiometric confocal imaging after overnight loading with OregonGreen 488–dextran (70,000 MW) beginning on culture day 3 and a 1-hour chase the following day.",
+   "Data location": "Fig 1E",
+   "Effect size": "dpH=1.56",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H1",
+   "paper_id": "P7",
+   "finding_id": "P7.F1",
+   "key": "pmid41103078",
+   "quote_start": "We found that HsAPOE4-expressing cells exhibit dramatic lysosomal alka",
+   "verdict": "FIX",
+   "set": {
+    "Finding quote": "We found that HsAPOE4-expressing cells exhibit dramatic lysosomal alkalinization (pH = 5.86) compared to HsAPOE3 (pH = 4.30) cells (Figure 1C–E)"
+   },
+   "reason": "Numbers are right (5.86 vs 4.30, dpH=1.56, n=3), but the quote also carries a cited study's values ('reminiscent of previous results in APOE4-expressing astrocyte lysosomes (pH = 5.20 ...) [26]'), which is not this paper's result; trim the quote to the paper's own clause. P stays N/A: Fig 1E shows ** but the published key ('*p < .05, ****p < .01, *p < .0001') defines no **.",
+   "evidence": "Results: 'We found that HsAPOE4-expressing cells exhibit dramatic lysosomal alkalinization (pH = 5.86) compared to HsAPOE3 (pH = 4.30) cells (Figure 1C–E), reminiscent of previous results ... [26].' Fig 1 legend key (checked in fulltext.xml): '*p < .05, ****p < .01, *p < .0001.'"
+  },
+  "item": 7
+ },
+ {
+  "src": "H1",
+  "paper": {
+   "key": "pmid41103078",
+   "hyp": "H1",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes reduced endosome pH compared with APOE3.",
+   "text": "data/papers/pmid41103078/text.txt",
+   "supp": "data/papers/pmid41103078/supp.txt",
+   "figures": [
+    "data/papers/pmid41103078/figimg/1.png",
+    "data/papers/pmid41103078/figimg/3.png",
+    "data/papers/pmid41103078/figimg/4.png",
+    "data/papers/pmid41103078/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P7.F2",
+   "Finding description": "Representative LysoTracker images from three distinct biological and technical replicate experiments showed reduced acidic-compartment staining in human APOE4-expressing versus APOE3-expressing mouse Neuro-2a cells, suggesting endolysosomal alkalinization or reduced endolysosomal density rather than directly measuring pH.",
+   "Finding quote": "We found that the LysoTracker intensity was significantly reduced in HsAPOE4-expressing cells (Figure 1A,B), suggesting either endolysosomal alkalinization or a reduction in endolysosomal density.",
+   "Finding summary": "(HsAPOE3 -> HsAPOE4) -> (reduced acidic-compartment LysoTracker staining in mouse Neuro-2a cells)",
+   "Finding relevance": 0.5,
+   "Experimental system": "Murine male Neuro-2a neuroblastoma cell lines modified to express full-length human APOE3 or APOE4 from the human APOE locus with flanking genomic regions; endogenous murine Apoe remained intact; passages 5–10. LysoTracker staining on culture day 3, loaded for 30 minutes at 37°C and chased in dye-free culture medium, followed by live-cell confocal microscopy.",
+   "Data location": "Fig 1B",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H1",
+   "paper_id": "P7",
+   "finding_id": "P7.F2",
+   "key": "pmid41103078",
+   "quote_start": "We found that the LysoTracker intensity was significantly reduced in H",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 1A",
+    "Effect size": "~57%",
+    "Effect size provenance": "estimated_from_figure",
+    "P value": "<0.01",
+    "P value provenance": "visual_only",
+    "Finding description": "LysoTracker Deep Red quantification across three independent biological and technical replicate experiments showed reduced acidic-compartment staining in human APOE4-expressing versus APOE3-expressing mouse Neuro-2a cells (normalized to APOE3), suggesting endolysosomal alkalinization or reduced endolysosomal density rather than directly measuring pH."
+   },
+   "reason": "Quote is right, but the quantification is Fig 1A (1B is representative images). On 1A, HsAPOE4 DMSO is about 0.43 of HsAPOE3 (normalized to 1.0), a ~57% decrease, with **** over this comparison; the published Fig 1 key literally reads '****p < .01', so P <0.01 (visual_only) is the bound the key supports.",
+   "evidence": "Fig 1A image (axis 0-1.5): HsAPOE3 DMSO bar 1.0 (3 points), HsAPOE4 DMSO bar ~0.43 (3 points), bracket marked ****. Legend: '(A) LysoTracker Deep Red ... Data points indicate experimental averages across three independent biological and technical replicates. (B) Representative images for (A).' Key: '*p < .05, ****p < .01, *p < .0001.'"
+  },
+  "item": 8
+ },
+ {
+  "src": "H1",
+  "paper": {
+   "key": "pmid41103078",
+   "hyp": "H1",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes reduced endosome pH compared with APOE3.",
+   "text": "data/papers/pmid41103078/text.txt",
+   "supp": "data/papers/pmid41103078/supp.txt",
+   "figures": [
+    "data/papers/pmid41103078/figimg/1.png",
+    "data/papers/pmid41103078/figimg/3.png",
+    "data/papers/pmid41103078/figimg/4.png",
+    "data/papers/pmid41103078/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P7.F3",
+   "Finding description": "Across three independent experiments, 48-hour TMED5 siRNA knockdown significantly lowered relative lysosomal pH compared with scrambled controls in human APOE4-expressing mouse Neuro-2a cells, alleviating APOE4-associated alkalinization with APOE3 scrambled-control cells shown as a reference.",
+   "Finding quote": "We confirmed by lysosomal Oregon-green pH measurements that knockdown of TMED5 significantly enhanced lysosomal acidification in HsAPOE4 Neuro-2a cells, while not impacting the lysosomal density (Figure 5C–E).",
+   "Finding summary": "(TMED5 knockdown vs scrambled control in APOE4 Neuro-2a cells) -> (lower relative lysosomal pH)",
+   "Finding relevance": 0.4,
+   "Experimental system": "Murine male Neuro-2a neuroblastoma cells modified to express full-length human APOE4, with endogenous mouse Apoe intact; human APOE3-expressing Neuro-2a cells treated with scrambled siRNA served as a reference. Cells were used at passages 5–10 after 48 hours of Tmed5 or scrambled siRNA treatment. Relative lysosomal pH per lysosome was measured by ratiometric Oregon Green 488–dextran imaging following overnight loading and a 1-hour chase, with pH-clamped calibration.",
+   "Data location": "Fig 5D",
+   "Effect size": "~37%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 2,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H1",
+   "paper_id": "P7",
+   "finding_id": "P7.F3",
+   "key": "pmid41103078",
+   "quote_start": "We confirmed by lysosomal Oregon-green pH measurements that knockdown ",
+   "verdict": "FIX",
+   "set": {
+    "P value": "<0.01",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Quote, ~37% (siScr ~1.0 vs siTmed5 ~0.64 on the normalized OG alkaline:acidic ratio) and n=3 hold, but Fig 5D has **** over siScr vs siTmed5 and the published Fig 5 key reads '****p < .01', so P is <0.01 (visual_only), not missing.",
+   "evidence": "Fig 5D image: bracket **** over siScr vs siTmed5; siScr center line ~1.0, siTmed5 ~0.64. Fig 5 key (fulltext.xml): '*p < .05, ****p < .01, *p < .0001.'"
+  },
+  "item": 9
+ },
+ {
+  "src": "H1",
+  "paper": {
+   "key": "pmid41103078",
+   "hyp": "H1",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes reduced endosome pH compared with APOE3.",
+   "text": "data/papers/pmid41103078/text.txt",
+   "supp": "data/papers/pmid41103078/supp.txt",
+   "figures": [
+    "data/papers/pmid41103078/figimg/1.png",
+    "data/papers/pmid41103078/figimg/3.png",
+    "data/papers/pmid41103078/figimg/4.png",
+    "data/papers/pmid41103078/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P7.F4",
+   "Finding description": "Across three independent experiments, LGALS3BP knockdown modestly increased relative lysosomal pH in HsAPOE3 Neuro-2a cells compared with scrambled controls, with scrambled-control HsAPOE4 cells serving as an alkalinized genotype reference.",
+   "Finding quote": "To assess whether this was driven by changes in lysosomal acidification or the density of lysosomes, we loaded the Neuro-2a cells with Dextran-Oregon Green, finding that LGALS3BP knockdown modestly alkalinized the lysosomal pH, but nearly halved the lysosomal density (Figure 4C–E).",
+   "Finding summary": "(LGALS3BP knockdown in HsAPOE3 Neuro-2a cells) -> (higher relative lysosomal pH)",
+   "Finding relevance": 0.35,
+   "Experimental system": "Murine male Neuro-2a neuroblastoma cells expressing transgenic full-length human APOE3, with endogenous mouse Apoe intact; passages 5–10; 48 h siRNA-mediated Lgals3bp knockdown versus scrambled siRNA, with scrambled-control HsAPOE4 Neuro-2a cells as reference; relative lysosomal pH measured per lysosome by ratiometric Oregon Green 488–dextran confocal imaging after overnight loading and a 1 h chase.",
+   "Data location": "Fig 4D",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 4,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H1",
+   "paper_id": "P7",
+   "finding_id": "P7.F4",
+   "key": "pmid41103078",
+   "quote_start": "To assess whether this was driven by changes in lysosomal acidificatio",
+   "verdict": "FIX",
+   "set": {
+    "P value": "<0.001",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Quote and n=3 are right and the effect is too small to read off the violins (both near 1.0), so qualitative stands; but Fig 4D has **** over siScr vs siLgals3bp and the published Fig 4 key reads '****p < .001', so P is <0.001 (visual_only).",
+   "evidence": "Fig 4D image: bracket **** over siScr vs siLgals3bp, both violins centered near 1.0. Fig 4 key (fulltext.xml): '*p < .05, ****p < .001, *p < .0001.'"
+  },
+  "item": 10
+ }
+]

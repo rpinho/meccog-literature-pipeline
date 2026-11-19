@@ -1,0 +1,61 @@
+[
+ {
+  "item": 1,
+  "decision": "CONFIRM",
+  "why": "Fig 3C prints 4.08 (ApoE3) and 5.20 (ApoE4) on the bars, so dpH=1.12 (APOE4 minus APOE3, matching the text's '>1 pH unit') is printed_in_text by our convention; P=0.0009 and n=3 match the legend."
+ },
+ {
+  "item": 2,
+  "decision": "CONFIRM",
+  "why": "Rendered SI page 16 (Fig S6H) prints '**p=0.005' (Control vs NHE6), 'ns p=0.72' (vs L188P) and 'ns p=0.94' (vs G383D); my pixel read of the bars gives Control 5.62 and NHE6 5.76 (dpH about 0.14), so every proposed value holds.",
+  "flag": "Directness (not changed): P5.F6 (NHE6 expression raises endosomal pH in APOE4 astrocytes, genotype held constant) is class 2, while the parallel monensin rescue P5.F9 is class 5."
+ },
+ {
+  "item": 3,
+  "decision": "CONFIRM",
+  "why": "The Fig 5B legend prints ApoE3 0.17 +/- 0.01 vs ApoE4 0.51 +/- 0.02 (P = 4.6 x 10^-44, n = 150), so the computed fold 0.51/0.17 = 3.0x (APOE4 over APOE3) is printed_in_text; the description already names both values."
+ },
+ {
+  "item": 4,
+  "decision": "CONFIRM",
+  "why": "The Fig 3E legend does print '*** P = 0.0005, Student's t test; n = 3', so the current description's 'no legend key' clause is wrong and the corrected description (5.38 to 5.74, P = 0.0005, n = 3) is right.",
+  "flag": "Directness (not changed): P5.F9 (monensin rescue, genotype held constant) is class 5, while the parallel NHE6-expression rescue P5.F6 is class 2."
+ },
+ {
+  "item": 5,
+  "decision": "CONFIRM",
+  "why": "Fig 4g is a two-bar panel with *** over APOE4 (my read: APOE3 about 4.53, APOE4 about 4.66), and the legend key prints 'p < 0.001 (***)', so P <0.001 visual_only is right."
+ },
+ {
+  "item": 6,
+  "decision": "CONFIRM",
+  "why": "Fig 4f is a two-bar panel with * over APOE4 and the legend key prints 'p < 0.05 (*)'; my pixel read puts APOE3 at 1.00 and APOE4 at about 1.24, so ~1.24x estimated_from_figure and P <0.05 visual_only hold."
+ },
+ {
+  "item": 7,
+  "decision": "CONFIRM",
+  "why": "The trimmed quote is verbatim and removes the cited astrocyte values from ref 26, which are not this paper's result, and P correctly stays N/A because the ** over APOE3 vs APOE4 in Fig 1E has no entry in the printed key.",
+  "key_note": "The published star keys are corrupted the same way in Figs 1, 4 and 5 (Figs 1/5: '*p < .05, ****p < .01, *p < .0001'; Fig 4: '*p < .05, ****p < .001, *p < .0001'). '*' gets two thresholds, and the middle symbol each figure actually uses (** in Figs 1/5, *** in Fig 4) is never defined. So the intended keys are evidently */**(***)/**** = <.05/<.01(<.001)/<.0001, matching the paper's own clean Fig 3 key ('*p < .05; ****p < .0001'). An inequality can be taken only for the four-star mark, because its literal printed bound (<.01 or <.001) is weaker than the reconstructed <.0001: it is true under either reading and is the legend's own printed text. '**' and '***' have no printed key entry, so they give nothing.",
+  "flag": "Directness (not changed): APOE3->APOE4 lysosomal pH is class 3 here in Neuro-2a cells but class 1 in mouse astrocytes (P5.F2, P4.F1), all with strength '2 strong'. The cell-type step may justify the class gap, but then the matching strength is inconsistent."
+ },
+ {
+  "item": 8,
+  "decision": "CONFIRM",
+  "why": "The quantification is Fig 1A (1B is the images): my pixel read puts HsAPOE4 DMSO at about 0.43 of HsAPOE3 (~57% decrease) with **** on that bracket, and the key's literal '****p < .01' is a safe lower bound (see key_note), so P <0.01 visual_only holds.",
+  "key_note": "The published star keys are corrupted the same way in Figs 1, 4 and 5 (Figs 1/5: '*p < .05, ****p < .01, *p < .0001'; Fig 4: '*p < .05, ****p < .001, *p < .0001'). '*' gets two thresholds, and the middle symbol each figure actually uses (** in Figs 1/5, *** in Fig 4) is never defined. So the intended keys are evidently */**(***)/**** = <.05/<.01(<.001)/<.0001, matching the paper's own clean Fig 3 key ('*p < .05; ****p < .0001'). An inequality can be taken only for the four-star mark, because its literal printed bound (<.01 or <.001) is weaker than the reconstructed <.0001: it is true under either reading and is the legend's own printed text. '**' and '***' have no printed key entry, so they give nothing."
+ },
+ {
+  "item": 9,
+  "decision": "CONFIRM",
+  "why": "Fig 5D has **** over siScr vs siTmed5 (about 1.0 vs 0.64), and the Fig 5 key's literal '****p < .01' is weaker than the reconstructed <.0001, so P <0.01 visual_only holds under either reading of the corrupted key.",
+  "key_note": "The published star keys are corrupted the same way in Figs 1, 4 and 5 (Figs 1/5: '*p < .05, ****p < .01, *p < .0001'; Fig 4: '*p < .05, ****p < .001, *p < .0001'). '*' gets two thresholds, and the middle symbol each figure actually uses (** in Figs 1/5, *** in Fig 4) is never defined. So the intended keys are evidently */**(***)/**** = <.05/<.01(<.001)/<.0001, matching the paper's own clean Fig 3 key ('*p < .05; ****p < .0001'). An inequality can be taken only for the four-star mark, because its literal printed bound (<.01 or <.001) is weaker than the reconstructed <.0001: it is true under either reading and is the legend's own printed text. '**' and '***' have no printed key entry, so they give nothing.",
+  "flag": "Directness (not changed): P7.F3 (TMED5 knockdown in APOE4, APOE3 shown as reference, lysosomal pH) is class 2, while the parallel LGALS3BP knockdown P7.F4 is class 4."
+ },
+ {
+  "item": 10,
+  "decision": "CONFIRM",
+  "why": "Fig 4D has **** over siScr vs siLgals3bp, and the Fig 4 key's literal '****p < .001' is weaker than the reconstructed <.0001, so P <0.001 visual_only holds, while the effect stays qualitative because both violins sit near 1.0.",
+  "key_note": "The published star keys are corrupted the same way in Figs 1, 4 and 5 (Figs 1/5: '*p < .05, ****p < .01, *p < .0001'; Fig 4: '*p < .05, ****p < .001, *p < .0001'). '*' gets two thresholds, and the middle symbol each figure actually uses (** in Figs 1/5, *** in Fig 4) is never defined. So the intended keys are evidently */**(***)/**** = <.05/<.01(<.001)/<.0001, matching the paper's own clean Fig 3 key ('*p < .05; ****p < .0001'). An inequality can be taken only for the four-star mark, because its literal printed bound (<.01 or <.001) is weaker than the reconstructed <.0001: it is true under either reading and is the legend's own printed text. '**' and '***' have no printed key entry, so they give nothing.",
+  "flag": "Directness (not changed): P7.F4 (LGALS3BP knockdown in APOE3, APOE4 shown as reference, lysosomal pH) is class 4, while the parallel TMED5 knockdown P7.F3 is class 2."
+ }
+]

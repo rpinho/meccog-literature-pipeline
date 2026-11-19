@@ -2487,6 +2487,144 @@
    "reason": "Claude audit 11-19 (H3 P6.F1), confirmed by a second Claude check: This source is a one-page Autophagy Reports research highlight with no primary data: its Figure 1 is a schematic of APOE trafficking, not an experiment, and the quoted sentence summarises results published in the authors' own primary paper (ref [1], the cell lines 'we developed'). The row's Data location therefore points at a cartoon, and nothing in this paper supports the finding on its own.",
    "source": "Text: 'In order to track the flow of APOE through the endolysosomal system, we developed novel cell lines expressing fluorescently tagged APOE3 and APOE4 [1]. Consistent with previous studies ... we found that APOE4 accumulates in enlarged lysosomes and late endosomes (Figure 1).' Figure 1 legend: 'Aberrant lysosomal trafficking of APOE4 (below, orange) vs. APOE3 (above, blue). APOE is trafficked to the lysosome from the post-Golgi compartment...' - a diagram. No Methods, no n, no statistics anywhere in the article.",
    "drop": true
+  },
+  {
+   "key": "pmid29946028",
+   "hyp": "H1",
+   "quote_start": "In contrast, we observed >1 pH unit elevation of lysosomal pH in ApoE4",
+   "summary_contains": "(APOE3 -> APOE4) -> (higher lysosomal pH in mouse astrocytes)",
+   "description_start": "Ratiometric dextran measurements in mouse astrocytes express",
+   "set": {
+    "effect_size": "dpH=1.12",
+    "effect_size_provenance": "printed_in_text",
+    "description": "Ratiometric dextran measurements in mouse astrocytes expressing human APOE isoforms showed significantly higher lysosomal pH in APOE4 than APOE3 cells (5.20 versus 4.08, values printed on Fig 3C; the text reports >1 pH unit), measured in biological triplicates."
+   },
+   "reason": "Claude audit 11-19 (H1 P5.F2), confirmed by a second Claude check: The effect is not only qualitative: Fig 3C prints both group values (ApoE3 4.08, ApoE4 5.20), so dpH=1.12 is printed_in_text by our convention. P=0.0009 and n=3 are correct.",
+   "source": "Fig 3C bars labelled 4.08 (ApoE3) and 5.20 (ApoE4); legend: 'Lysosomal pH was elevated by >1 pH unit in ApoE4 astrocytes (*** P = 0.0009, Student's t test; n = 3).'"
+  },
+  {
+   "key": "pmid29946028",
+   "hyp": "H1",
+   "quote_start": "Like monensin, NHE6 alkalinized the endosomal lumen in ApoE4 astrocyte",
+   "summary_contains": "Wild-type NHE6 raised endosomal pH in APOE4 mouse astrocytes. Neither tested variant reproduced that effect.",
+   "description_start": "Wild-type NHE6 expression alkalinized endosomes in human APO",
+   "set": {
+    "effect_size": "~dpH=0.14",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "0.005",
+    "p_value_provenance": "supplement_only",
+    "description": "Wild-type NHE6 expression alkalinized endosomes in human APOE4 knock-in mouse astrocytes relative to control (p=0.005). L188P and G383D failed to produce this alkalinization (p=0.72 and p=0.94 versus control). The endosomal pH assay used biological triplicates."
+   },
+   "reason": "Claude audit 11-19 (H1 P5.F6), confirmed by a second Claude check: Quote and n=3 (methods, supplement) are right, but SI Fig S6H (rendered from the SI PDF, page 16) prints the P values: control vs NHE6 p=0.005, vs L188P p=0.72, vs G383D p=0.94. The bars are readable: control ~5.62, NHE6 ~5.76 on a 5.0-6.0 axis.",
+   "source": "SI Fig S6H image: brackets '**p=0.005' (Control vs NHE6), 'ns p=0.72' (Control vs L188P), 'ns p=0.94' (Control vs G383D); Control bar ~5.62, NHE6 bar ~5.76. Legend: 'Expression of NHE6, but not CS-associated variants, in ApoE4 astrocytes ... results in alkalization of endosomal pH.'"
+  },
+  {
+   "key": "pmid29946028",
+   "hyp": "H1",
+   "quote_start": "Fractional colocalization of HDAC4 with DAPI revealed prominent overla",
+   "summary_contains": "(APOE3 -> APOE4) -> (greater HDAC4 colocalization with nuclear DAPI in mouse astrocytes)",
+   "description_start": "Confocal immunofluorescence showed greater HDAC4 colocalizat",
+   "set": {
+    "effect_size": "3.0x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H1 P5.F8), confirmed by a second Claude check: Both group values are printed in the legend (Pearson 0.17 vs 0.51), so the fold is 3.0x printed_in_text, not an estimate from the figure. P and n are correct.",
+   "source": "Fig 5B legend: 'Pearson's correlation coefficient for ApoE3: 0.17 +/- 0.01 vs. ApoE4: 0.51 +/- 0.02; **** P = 4.6 x 10-44, Student's t test; n = 150 per condition'. 0.51/0.17 = 3.0."
+  },
+  {
+   "key": "pmid29946028",
+   "hyp": "H1",
+   "quote_start": "Thus, monensin treatment (50 μM for 1 h) elevated endosomal pH in ApoE",
+   "summary_contains": "(vehicle -> monensin) -> (higher endosomal pH in APOE4 mouse astrocytes)",
+   "description_start": "Monensin treatment (50 μM for 1 h) increased endosomal pH fr",
+   "set": {
+    "description": "Monensin treatment (50 μM for 1 h) increased endosomal pH from 5.38 ± 0.01 with vehicle to 5.74 ± 0.03 in human APOE4 knock-in mouse astrocytes (n = 3 biological replicates; P = 0.0005), providing indirect rescue evidence because treatment changed while APOE genotype remained constant. Group values are printed on Fig 3E (bars labelled 5.38 and 5.74)."
+   },
+   "reason": "Claude audit 11-19 (H1 P5.F9), confirmed by a second Claude check: Values are right (5.38 to 5.74, dpH=0.36, P=0.0005, n=3), but the description wrongly says the *** has no legend key: the Fig 3E legend prints '*** P = 0.0005'. Remove that clause.",
+   "source": "Fig 3E legend: 'Monensin treatment (50 uM for 1 h) corrected hyperacidic endosomal pH in ApoE4 astrocytes, relative to vehicle treatment (*** P = 0.0005, Student's t test; n = 3).' Bars labelled 5.38 and 5.74."
+  },
+  {
+   "key": "pmid32517777",
+   "hyp": "H1",
+   "quote_start": "We found that both APOE3 and APOE4 astrocytes had standard lysosomal-r",
+   "summary_contains": "(APOE3 -> APOE4) -> (higher acidic-organellar pH in immortalized mouse astrocytes)",
+   "description_start": "LysoSensor measurements showed that acidic-organellar pH was",
+   "set": {
+    "p_value": "<0.001",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H1 P4.F1), confirmed by a second Claude check: Quote, dpH=0.14 and n=3 are right, but the P value is not missing: panel 4g has *** over the APOE4 bar (a two-bar panel, so the mark is over this comparison) and the legend key gives p < 0.001 (***).",
+   "source": "Fig 4 legend: 'g Quantification of the pH of acidic organelles in APOE3 and APOE4 astrocytes (N = 3). Unpaired parametric T-test ... p < 0.05 (*), p < 0.01 (**), p < 0.001 (***)'. Image 4g: *** above the APOE4 bar; APOE3 ~4.52, APOE4 ~4.66 on a 4.0-5.5 axis."
+  },
+  {
+   "key": "pmid32517777",
+   "hyp": "H1",
+   "quote_start": "Indeed, the expression of V-ATPase subunit V0D1, which is highly expre",
+   "summary_contains": "(APOE3 -> APOE4) -> (higher V-ATPase V0D1 expression in immortalized mouse astrocytes)",
+   "description_start": "Western blotting normalized to β-actin showed higher V-ATPas",
+   "set": {
+    "effect_size": "~1.24x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.05",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H1 P4.F2), confirmed by a second Claude check: Quote and n=4 are right. Panel 4f has * over the APOE4 bar (two-bar panel) and the legend key gives p < 0.05; the bar is readable: APOE3 normalized to 1.0, APOE4 about 1.24 on a 0-1.5 axis.",
+   "source": "Fig 4 legend: 'f Quantification of V-ATPase subunit V0D1 with western blot, normalized to beta-actin expression (N = 4) ... p < 0.05 (*)'. Image 4f: APOE3 bar at 1.0, APOE4 bar top ~1.24, * above it."
+  },
+  {
+   "key": "pmid41103078",
+   "hyp": "H1",
+   "quote_start": "We found that HsAPOE4-expressing cells exhibit dramatic lysosomal alka",
+   "summary_contains": "(APOE3 -> APOE4) -> (higher lysosomal pH in murine Neuro-2a cells)",
+   "description_start": "Ratiometric OregonGreen measurements across three independen",
+   "set": {
+    "quote": "We found that HsAPOE4-expressing cells exhibit dramatic lysosomal alkalinization (pH = 5.86) compared to HsAPOE3 (pH = 4.30) cells (Figure 1C–E)"
+   },
+   "reason": "Claude audit 11-19 (H1 P7.F1), confirmed by a second Claude check: Numbers are right (5.86 vs 4.30, dpH=1.56, n=3), but the quote also carries a cited study's values ('reminiscent of previous results in APOE4-expressing astrocyte lysosomes (pH = 5.20 ...) [26]'), which is not this paper's result; trim the quote to the paper's own clause. P stays N/A: Fig 1E shows ** but the published key ('*p < .05, ****p < .01, *p < .0001') defines no **.",
+   "source": "Results: 'We found that HsAPOE4-expressing cells exhibit dramatic lysosomal alkalinization (pH = 5.86) compared to HsAPOE3 (pH = 4.30) cells (Figure 1C–E), reminiscent of previous results ... [26].' Fig 1 legend key (checked in fulltext.xml): '*p < .05, ****p < .01, *p < .0001.'"
+  },
+  {
+   "key": "pmid41103078",
+   "hyp": "H1",
+   "quote_start": "We found that the LysoTracker intensity was significantly reduced in H",
+   "summary_contains": "(HsAPOE3 -> HsAPOE4) -> (reduced acidic-compartment LysoTracker staining in mouse Neuro-2a cells)",
+   "description_start": "Representative LysoTracker images from three distinct biolog",
+   "set": {
+    "data_location": "Fig 1A",
+    "effect_size": "~57%",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.01",
+    "p_value_provenance": "visual_only",
+    "description": "LysoTracker Deep Red quantification across three independent biological and technical replicate experiments showed reduced acidic-compartment staining in human APOE4-expressing versus APOE3-expressing mouse Neuro-2a cells (normalized to APOE3), suggesting endolysosomal alkalinization or reduced endolysosomal density rather than directly measuring pH."
+   },
+   "reason": "Claude audit 11-19 (H1 P7.F2), confirmed by a second Claude check: Quote is right, but the quantification is Fig 1A (1B is representative images). On 1A, HsAPOE4 DMSO is about 0.43 of HsAPOE3 (normalized to 1.0), a ~57% decrease, with **** over this comparison; the published Fig 1 key literally reads '****p < .01', so P <0.01 (visual_only) is the bound the key supports.",
+   "source": "Fig 1A image (axis 0-1.5): HsAPOE3 DMSO bar 1.0 (3 points), HsAPOE4 DMSO bar ~0.43 (3 points), bracket marked ****. Legend: '(A) LysoTracker Deep Red ... Data points indicate experimental averages across three independent biological and technical replicates. (B) Representative images for (A).' Key: '*p < .05, ****p < .01, *p < .0001.'"
+  },
+  {
+   "key": "pmid41103078",
+   "hyp": "H1",
+   "quote_start": "We confirmed by lysosomal Oregon-green pH measurements that knockdown ",
+   "summary_contains": "(TMED5 knockdown vs scrambled control in APOE4 Neuro-2a cells) -> (lower relative lysosomal pH)",
+   "description_start": "Across three independent experiments, 48-hour TMED5 siRNA kn",
+   "set": {
+    "p_value": "<0.01",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H1 P7.F3), confirmed by a second Claude check: Quote, ~37% (siScr ~1.0 vs siTmed5 ~0.64 on the normalized OG alkaline:acidic ratio) and n=3 hold, but Fig 5D has **** over siScr vs siTmed5 and the published Fig 5 key reads '****p < .01', so P is <0.01 (visual_only), not missing.",
+   "source": "Fig 5D image: bracket **** over siScr vs siTmed5; siScr center line ~1.0, siTmed5 ~0.64. Fig 5 key (fulltext.xml): '*p < .05, ****p < .01, *p < .0001.'"
+  },
+  {
+   "key": "pmid41103078",
+   "hyp": "H1",
+   "quote_start": "To assess whether this was driven by changes in lysosomal acidificatio",
+   "summary_contains": "(LGALS3BP knockdown in HsAPOE3 Neuro-2a cells) -> (higher relative lysosomal pH)",
+   "description_start": "Across three independent experiments, LGALS3BP knockdown mod",
+   "set": {
+    "p_value": "<0.001",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H1 P7.F4), confirmed by a second Claude check: Quote and n=3 are right and the effect is too small to read off the violins (both near 1.0), so qualitative stands; but Fig 4D has **** over siScr vs siLgals3bp and the published Fig 4 key reads '****p < .001', so P is <0.001 (visual_only).",
+   "source": "Fig 4D image: bracket **** over siScr vs siLgals3bp, both violins centered near 1.0. Fig 4 key (fulltext.xml): '*p < .05, ****p < .001, *p < .0001.'"
   }
  ]
 }
