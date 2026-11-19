@@ -35,6 +35,49 @@ MAX_PAPERS = 50
 MIN_RELEVANCE = 0.35
 
 
+def title_words(t):
+    """Content words of a title: 'ApoE4 in Alzheimer Disease' and 'APOE4 in Alzheimer's Disease.' match."""
+    return {w for w in norm_title(t).split() if len(w) > 2}
+
+
+def same_title(a, b):
+    wa, wb = title_words(a), title_words(b)
+    return len(wa) >= 4 and len(wa & wb) / len(wa | wb) >= 0.85
+
+
+def first_last_author(meta):
+    """(first, last) author family names from Crossref, cached in meta; None if unknown."""
+    if "authors_fl" not in meta:
+        fl = None
+        doi = str(meta.get("doi") or "")
+        if doi:
+            import urllib.parse
+            import urllib.request
+            try:
+                req = urllib.request.Request("https://api.crossref.org/works/" + urllib.parse.quote(doi),
+                                             headers={"User-Agent": "meccog-literature-pipeline/0.1"})
+                with urllib.request.urlopen(req, timeout=30) as r:
+                    a = [x.get("family", "").lower() for x in json.loads(r.read())["message"].get("author", [])]
+                fl = [a[0], a[-1]] if a else None
+            except Exception:
+                pass
+        meta["authors_fl"] = fl
+        json.dump(meta, open(ROOT / "data/papers" / meta["key"] / "meta.json", "w"), indent=1)
+    return meta["authors_fl"]
+
+
+def preprint_of(pre, pub):
+    """A preprint is the published paper when the titles match, or when the published version was
+    retitled (Research Square records no link) but half the title words and both first and last author agree."""
+    if same_title(pre.get("title"), pub.get("title")):
+        return True
+    wa, wb = title_words(pre.get("title")), title_words(pub.get("title"))
+    if not (wa and wb and len(wa & wb) / len(wa | wb) >= 0.5):
+        return False
+    a, b = first_last_author(pre), first_last_author(pub)
+    return bool(a and b and a == b)
+
+
 def norm_title(t):
     return re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()
 
@@ -68,6 +111,32 @@ def apply_corrections(key, findings, corrections):
         f.setdefault("precorrection", {k: f.get(k) for k in c["set"]})
         f.update(c["set"])
         f["correction"] = c["reason"]
+
+
+MEAN_ERR = re.compile(r"(?<![\w.])(\d+(?:\.\d+)?)\s*(?:±|\+/-)\s*\d+(?:\.\d+)?")
+
+
+def effect_from_quote(f):
+    """A row left "qualitative" whose quote prints exactly two group values as mean ± error
+    ("0.50 ± 0.03 ... 0.37 ± 0.04"): the effect is their ratio, written unsigned as the template asks
+    (direction is its own column). Not for pH values, where a ratio means nothing."""
+    if str(f.get("effect_size", "")).lower() != "qualitative":
+        return
+    q = str(f.get("quote", ""))
+    ms = list(MEAN_ERR.finditer(q))
+    if len(ms) != 2 or any(re.search(r"pH\s*$", q[:m.start()]) for m in ms):
+        return
+    a, b = (float(m.group(1)) for m in ms)
+    # the description names the row's own comparison: if it prints other values (6.4 versus 5.5 S),
+    # the quote's mean ± error values measure something else
+    other = set(re.findall(r"\d+\.\d+", str(f.get("description", "")))) - {x for m in ms for x in re.findall(r"\d+\.\d+", m.group(0))}
+    if min(a, b) <= 0 or other:
+        return
+    f["pre_quote_effect"] = f["effect_size"]
+    f["effect_size"] = f"{max(a, b) / min(a, b):.1f}x"
+    f["effect_size_provenance"] = "printed_in_text"
+    f["description"] = str(f.get("description", "")).rstrip(".") + \
+        f". Effect is the ratio of the two group values printed in the quote ({ms[0].group(0)} and {ms[1].group(0)})."
 
 
 def accepted(f, text):
@@ -163,6 +232,8 @@ def build(H, out):
         meta = json.load(open(ROOT / "data/papers" / r["key"] / "meta.json"))
         text, _ = load_text(r["key"])
         apply_corrections(r["key"], r["findings"], corrections)
+        for f in r["findings"]:
+            effect_from_quote(f)
         fs = [f for f in r["findings"] if accepted(f, text) and float(f.get("relevance") or 0) >= MIN_RELEVANCE
               and (f.get("scope") or {}).get("keep", True)]
         if not fs:
@@ -173,12 +244,12 @@ def build(H, out):
         fs = dedupe_findings(fs)
         papers.append({"meta": meta, "findings": fs, "score": fs[0]["_score"]})
     # preprint vs published duplicates: keep the published one
-    published = {norm_title(p["meta"].get("title")) for p in papers if not is_preprint(p["meta"])}
+    published = [p["meta"] for p in papers if not is_preprint(p["meta"])]
     reached = [json.loads(l) for l in open(ROOT / f"data/{H}/fetched.jsonl")]
     pub_dois = {str(json.load(open(ROOT / "data/papers" / x["key"] / "meta.json")).get("doi") or "").lower()
                 for x in reached if x["status"] == "ok"}  # every published paper we could read, findings or not
     papers = [p for p in papers if not (is_preprint(p["meta"]) and (
-        norm_title(p["meta"].get("title")) in published or published_doi(p["meta"]) in pub_dois))]
+        any(preprint_of(p["meta"], m) for m in published) or published_doi(p["meta"]) in pub_dois))]
     papers.sort(key=lambda p: -p["score"])
     dropped = papers[MAX_PAPERS:]
     papers = papers[:MAX_PAPERS]
