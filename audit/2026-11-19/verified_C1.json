@@ -1,0 +1,16 @@
+[
+ {
+  "item": 1,
+  "decision": "ADJUST",
+  "set": {
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "why": "Class 1 is wrong, but by the class rubric this is 3, not 4: A is APOE4 vs APOE3 itself (targeted-replacement alleles), while B (endo-lysosomal aggregation) is only inferred from GDN-HCl-insoluble apoE in whole hippocampus of 9-month APP/PS1 mice; quote, Fig 3I and n=18-23 check out."
+ },
+ {
+  "item": 2,
+  "decision": "CONFIRM",
+  "why": "The source is a ~1,000-word Autophagy Reports summary with no methods, n or statistics; the sentence restates results of the authors' primary paper ([1], 'we developed novel cell lines ... [1]'), and its Figure 1 is a cartoon ('Aberrant lysosomal trafficking of APOE4 (below, orange) vs. APOE3 (above, blue)'), so nothing in this paper supports the row."
+ }
+]

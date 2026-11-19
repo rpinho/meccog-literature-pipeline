@@ -1,0 +1,598 @@
+[
+ {
+  "hyp": "H3",
+  "paper_id": "P15",
+  "finding_id": "P15.F1",
+  "key": "pmid37280636",
+  "quote_start": "Interestingly, while the aggregation of ApoE4M-AP occurred almost inst",
+  "verdict": "OK",
+  "reason": "Quote verbatim in Results; apoE4M-AP vs apoE3M-AP timing difference supports the description; no n or P printed for the timing comparison.",
+  "evidence": "Results: \"Interestingly, while the aggregation of ApoE4M-AP occurred almost instantaneously, it took several hours to observe the aggregation of ApoE3M-AP.\""
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P15",
+  "finding_id": "P15.F2",
+  "key": "pmid37280636",
+  "quote_start": "The signal from light scattering decreased in the presence of both SPA",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig. 5A legend says SPA reduced apoE4 aggregation to the apoE3 level, averages of 3 replicates. The figure image is a 100x105 thumbnail, so no value can be read.",
+  "evidence": "Fig. 5 legend: \"(A) Reduction of ApoE4 aggregation (yellow) by SPA (purple) to the level of ApoE3 aggregation (grey)... representing averages of 3 replicates\""
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P15",
+  "finding_id": "P15.F3",
+  "key": "pmid37280636",
+  "quote_start": "Interestingly, while the aggregation of ApoE4M-AP occurred almost inst",
+  "verdict": "FIX",
+  "set": {
+   "Experimental system": "Purified recombinant ApoE3M and ApoE4M truncation constructs (residues 1-23 deleted); AS variants carry R38A/E45A/E49A/R145A. The Results identify both isoforms for the AP aggregation and AS suppression observations; the Fig. 3G photo is labelled ApoE4M-AS (left) and ApoE4M-AP (right), two hours after purification."
+  },
+  "reason": "Quote and values fine, but the Experimental system says Fig. 3G labels the samples generically as ApoEM-AP/AS; the image labels them ApoE4M-AS and ApoE4M-AP.",
+  "evidence": "Fig. 3G image labels under the tubes: \"ApoE4M-AS\" and \"ApoE4M-AP\"; legend: \"Similar results were obtained in at least two independent experiments.\""
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P15",
+  "finding_id": "P15.F4",
+  "key": "pmid37280636",
+  "quote_start": "Subsequent transmission electron microscopy (TEM) analysis of these ag",
+  "verdict": "FIX",
+  "set": {
+   "Sample size": "2",
+   "Sample size provenance": "printed_in_text"
+  },
+  "reason": "Sample size N/A with code ambiguous_panel is inconsistent; the Fig. 3H legend prints the replication count (same as used for P15.F3).",
+  "evidence": "Fig. 3 legend: \"(H) TEM of ApoE3M-AP fibrils (red arrows). Similar results were obtained in at least two independent experiments.\""
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P15",
+  "finding_id": "P15.F5",
+  "key": "pmid37280636",
+  "quote_start": "While the ApoE3 dimeric unit dissociated after ~ 2.5 µs, the dissociat",
+  "verdict": "OK",
+  "reason": "Quote verbatim in Results (Fig. 4C); 2.5 us vs >10 us is a lower bound, so qualitative is right. Fig. 4 image is a thumbnail.",
+  "evidence": "Results: \"While the ApoE3 dimeric unit dissociated after ~ 2.5 µs, the dissociation of the ApoE4 dimeric unit did not occur even after ~ 10 µs.\""
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P15",
+  "finding_id": "P15.F6",
+  "key": "pmid37280636",
+  "quote_start": "We also found significantly stronger binding energy in the dimeric uni",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.17x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.0001",
+   "P value provenance": "supplement_only"
+  },
+  "reason": "Both group values (-396 vs -338 kcal/mol) and a t-test P are printed in the supplement; the row left them qualitative/N/A.",
+  "evidence": "Supp Note 1: \"electrostatic interactions ... ApoE4 were stronger ... (Eelec = -396 ± 68 kcal/mol) than for ApoE3 (Eelec = -338 ± 84 kcal/mol). This difference is extremely significant (p-value < 10-4 from the t-test)\""
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P15",
+  "finding_id": "P15.F7",
+  "key": "pmid37280636",
+  "quote_start": "Based on LC-MS/MS bottom-up proteomics analysis of both ApoEWT and Apo",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig. 4A is the LC-MS/MS coverage panel; descriptive only.",
+  "evidence": "Results: \"wild-type ApoE3 and ApoE4 isoforms lack peptides in NTD corresponding to residues ~ 31–50 and 44–52, respectively (Fig. 4A, CTD in Supplementary Fig. 7).\""
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P15",
+  "finding_id": "P15.F8",
+  "key": "pmid37280636",
+  "quote_start": "The results showed partial unfolding at the N-terminus of the H3 helix",
+  "verdict": "OK",
+  "reason": "Quote verbatim (Fig. 5E; Supp Fig. 4 is the same H3 helicity comparison). n=10 is the printed number of snapshot bins used for SEM in the DSSP analysis.",
+  "evidence": "Methods: \"The analyzed snapshots were subsequently grouped in ten different bins... standard error of the mean\"; Supp Fig. 4 legend: \"Comparison of the α-helical content of helix H3 in ApoE3M (grey) and ApoE4M (yellow)\""
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P15",
+  "finding_id": "P15.F9",
+  "key": "pmid37280636",
+  "quote_start": "A comparison of previously solved ApoE structures revealed that ApoE2 ",
+  "verdict": "OK",
+  "reason": "Quote verbatim; counts 6/8 apoE3 T-shaped and 5/7 apoE4 V-shaped match; n=15 structures is 8+7.",
+  "evidence": "Results: \"2 out of 2 ApoE2 structures and 6 out of 8 ApoE3 structures display T-shaped packing. On the other hand, 5 of the 7 ApoE4 structures have V-shaped packing\""
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P15",
+  "finding_id": "P15.F10",
+  "key": "pmid37280636",
+  "quote_start": "While the angle between chains A and B in the T-shaped dimeric unit wa",
+  "verdict": "OK",
+  "reason": "Quote verbatim; dAngle=25 printed.",
+  "evidence": "Results: \"the angle between chains A and B in the T-shaped dimeric unit was ~ 100°, the corresponding angle in the V-shaped dimeric unit was significantly smaller ~ 75°. This ~ 25° angle difference...\""
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P15",
+  "finding_id": "P15.F11",
+  "key": "pmid37280636",
+  "quote_start": "The C112R substitution in ApoE4 (Fig. 1C and Supplementary Fig. 2) led",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig. 1C is the domino-effect panel.",
+  "evidence": "Results paragraph \"The C112R substitution in ApoE4 (Fig. 1C and Supplementary Fig. 2) led to the formation of a new salt bridge between R112 and E109...\""
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P15",
+  "finding_id": "P15.F12",
+  "key": "pmid37280636",
+  "quote_start": "Despite a different tilt in T-shaped and V-shaped dimeric units, the m",
+  "verdict": "OK",
+  "reason": "Quote verbatim across two adjacent Results paragraphs; Fig. 1D is the interface comparison.",
+  "evidence": "Results: \"the main self-association interface formed by chains A and B remained the same in all ApoE isoforms (Fig. 1D)... a new specific interaction in ApoE4 was formed between D153 from chain A and Q46 from chain B\""
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P15",
+  "finding_id": "P15.F13",
+  "key": "pmid37280636",
+  "quote_start": "The main differences between wild-type ApoE3 and ApoE4 isoforms in HDX",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig. 4B upper panel is ApoEWT uptake; no statistics printed.",
+  "evidence": "Results: \"The main differences between wild-type ApoE3 and ApoE4 isoforms in HDX-MS analysis were the deuterium uptakes (Fig. 4B and Supplementary Fig. 8) observed around position 112...\""
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P15",
+  "finding_id": "P15.F14",
+  "key": "pmid37280636",
+  "quote_start": "We found that the H3 helix was ~ 7° straighter in ApoE3M than in ApoE4",
+  "verdict": "OK",
+  "reason": "Quote verbatim; dAngle=7 printed; n=200 trajectories printed in Methods.",
+  "evidence": "Results: \"the H3 helix was ~ 7° straighter in ApoE3M than in ApoE4M\"; Methods: \"20 µs of cumulative simulation time (200 × 100 ns)\""
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P15",
+  "finding_id": "P15.F15",
+  "key": "pmid37280636",
+  "quote_start": "Moreover, we observed that the five mutations previously introduced in",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Supplementary Figs. 5 and 6"
+  },
+  "reason": "The quote is about aggregation inhibition, which is shown in Supp Fig. 6 (isothermal aggregation); Supp Fig. 5 is only the AUC monomer characterization. Note: the preceding sentence (\"we observed increased aggregation of ApoE4 compared to ApoE3\", SLS, Supp Fig. 6) is the paper's own direct apoE4-vs-apoE3 aggregation result and is not captured by any row.",
+  "evidence": "Results: \"...simultaneously inhibit their aggregation (Supplementary Figs. 5 and 6)\"; Supp Fig. 6 legend: \"Isothermal aggregation of ApoE3WT, ApoE4WT, monomeric ApoE3M and monomeric ApoE4M demonstrates that five monomerizing mutations ... inhibit ApoE aggregation.\""
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P15",
+  "finding_id": "P15.F16",
+  "key": "pmid37280636",
+  "quote_start": "ApoE3 Eelec = -338 ± 84 EvdW = -37 ± 7 R145, R38, R142, D35, K146, R32",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.11x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Both EvdW group values are printed in Supp Table 8 (-41 vs -37 kcal/mol); the description already states 1.11-fold but the Effect size column says qualitative.",
+  "evidence": "Supp Table 8: \"ApoE3 Eelec = -338 ± 84 EvdW = -37 ± 7 ... ApoE4 Eelec = -396 ± 68 EvdW = -41 ± 7\""
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P15",
+  "finding_id": "P15.F17",
+  "key": "pmid37280636",
+  "quote_start": "ApoE3+ SPA Eelec = -250 ± 69 EvdW = -39 ± 7 R145, R38, R142, R32, D35 ",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.29x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Both Eelec group values with SPA are printed in Supp Table 8 (-322 vs -250 kcal/mol, ratio 1.29); Effect size should not be qualitative.",
+  "evidence": "Supp Table 8: \"ApoE3+ SPA Eelec = -250 ± 69 ... ApoE4+ SPA Eelec = -322 ± 73\""
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P15",
+  "finding_id": "P15.F18",
+  "key": "pmid37280636",
+  "quote_start": "We found that ApoE3M displayed a majority of its population around χ1 ",
+  "verdict": "OK",
+  "reason": "Quote verbatim (Fig. 5C); n=200 trajectories from Methods.",
+  "evidence": "Results: \"ApoE3M displayed a majority of its population around χ1 = 180° while ApoE4M was mostly around χ1 = 300°.\""
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P5",
+  "finding_id": "P5.F1",
+  "key": "pmid28957663",
+  "quote_start": "In the absence of insulin, we found that nearly 20% of IR-GFP co-local",
+  "verdict": "OK",
+  "reason": "Quote verbatim; only the apoE4 value (nearly 20%) is printed, so qualitative is right; legend key ***/**** with no figure image, so ambiguous_panel is right; n=3 printed.",
+  "evidence": "Fig. 6 legend: \"(D) Percentage of IR that was co-localized with Tf ... Data from three independent experiments ... ***p < 0.001; ****p < 0.0001\""
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P5",
+  "finding_id": "P5.F2",
+  "key": "pmid28957663",
+  "quote_start": "In the absence of insulin, the majority of the IR-GFP was localized to",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "2.7x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Both group values are printed (nearly 40% apoE4 vs 15% apoE3 intracellular IR-GFP), so the ratio should be given instead of qualitative.",
+  "evidence": "Results: \"only 15% of the receptor localized intracellularly in apoE3-treated cells (Figures 6A–C). Interestingly, nearly 40% of IR-GFP was localized in the intracellular compartment in apoE4-treated cells\""
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P5",
+  "finding_id": "P5.F3",
+  "key": "pmid28957663",
+  "quote_start": "The internalization of IR reached plateau at 30 minutes after treatmen",
+  "verdict": "OK",
+  "reason": "Quote verbatim; S8 legend is in the unavailable supplement, so P and n codes full_text_unavailable are acceptable.",
+  "evidence": "Results: \"apoE4-treated cells exhibited significantly more intracellular IR compared to those treated with apoE3 at 60 minutes ... (Figure S8A)\"; supp.txt is empty."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P5",
+  "finding_id": "P5.F4",
+  "key": "pmid28957663",
+  "quote_start": "In the absence of insulin stimulation, we found that apoE4 but not apo",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 5G, H",
+   "Directness class": "3",
+   "Directness strength": "3 moderate"
+  },
+  "reason": "Quote cites Figures 5G, H (5H is the surface/total quantification). Steady-state surface IR after overnight apoE is a readout standing in for recycling, not recycling itself (class 3 by the pipeline definition, as P5.F1/F2 from the same paper are classed). Akt claim is supported by the next sentence (Figs 5G, J, K).",
+  "evidence": "Results: \"apoE4 but not apoE3 significantly reduced the amount of cell surface IR (Figures 5G, H)... apoE4 suppressed the activation of insulin signaling compared to apoE3 (Figures 5G, J, K and 3C)\""
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P5",
+  "finding_id": "P5.F5",
+  "key": "pmid28957663",
+  "quote_start": "No significant differences were found in the levels of cell surface an",
+  "verdict": "FIX",
+  "set": {
+   "Directness class": "3",
+   "Directness strength": "3 moderate"
+  },
+  "reason": "Quote and null result fine, but steady-state surface LRP1 level is a surrogate for recycling, not a direct recycling measurement; class 1 is an error. Overlaps P5.F10.",
+  "evidence": "Results: \"No significant differences were found in the levels of cell surface and total LRP1, NMDAR, AMPAR, and Na-K-ATPase after apoE3 and apoE4 treatments (Figures S7A, C–F, H–K).\""
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P5",
+  "finding_id": "P5.F6",
+  "key": "pmid28957663",
+  "quote_start": "Insulin induced rapid endocytosis of IR with the plateau appeared at 5",
+  "verdict": "OK",
+  "reason": "Quote verbatim; plateau times 5/15/30 min match; S9 legend unavailable.",
+  "evidence": "Results: \"Insulin induced rapid endocytosis of IR with the plateau appeared at 5 minutes ... apoE3, the plateau of the curve shifted to 15 minutes ... apoE4 ... did not approach plateau until 30 minutes\""
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P5",
+  "finding_id": "P5.F7",
+  "key": "pmid28957663",
+  "quote_start": "Intriguingly, significantly higher amount of intracellular IR was dete",
+  "verdict": "OK",
+  "reason": "Quote verbatim; this is the direct recycling assay (biotin cleavage after apoE removal); class 1 fits.",
+  "evidence": "Results: \"significantly higher amount of intracellular IR was detected in apoE4-treated cells compared with cells treated with apoE3 at 30 minutes and 60 minutes, indicating that apoE4 impaired IR recycling (Figure S8B).\""
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P5",
+  "finding_id": "P5.F8",
+  "key": "pmid28957663",
+  "quote_start": "Importantly, ~50% of the total IR was internalized in response to insu",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "60%",
+   "Effect size provenance": "printed_in_text",
+   "Directness class": "3",
+   "Directness strength": "3 moderate"
+  },
+  "reason": "Both group values are printed (~50% vs ~20% internalized), so the effect should be the 60% lower internalization with apoE4, not qualitative. The readout is insulin-induced internalization, a surrogate for recycling, so class 3.",
+  "evidence": "Results: \"~50% of the total IR was internalized in response to insulin in apoE3-treated cells, whereas only ~20% of IR was internalized in apoE4-treated cells upon insulin stimulation (Figure 5I).\"; Fig 5 legend: n = three independent experiments, two-tailed t test for I, key *p<0.05; **p<0.01."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P5",
+  "finding_id": "P5.F9",
+  "key": "pmid28957663",
+  "quote_start": "As expected, cell surface IR was decreased after treatment with apoE4 ",
+  "verdict": "FIX",
+  "set": {
+   "Directness class": "3",
+   "Directness strength": "3 moderate"
+  },
+  "reason": "Quote fine; steady-state surface IR abundance is a surrogate for recycling (class 3), not a direct recycling test. Overlaps P5.F10.",
+  "evidence": "Results: \"As expected, cell surface IR was decreased after treatment with apoE4 compared with apoE3 (Figures S7A, B) without affecting the total IR (Figures S7A, G).\""
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P5",
+  "finding_id": "P5.F10",
+  "key": "pmid28957663",
+  "quote_start": "As expected, cell surface IR was decreased after treatment with apoE4 ",
+  "verdict": "FIX",
+  "set": {
+   "Directness class": "3",
+   "Directness strength": "3 moderate"
+  },
+  "reason": "Quote fine (union of P5.F5 and P5.F9 quotes); steady-state surface levels are a surrogate for recycling, so class 3.",
+  "evidence": "Results paragraph on Figures S7A-K, quoted verbatim."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P6",
+  "finding_id": "P6.F1",
+  "key": "pmid33930462",
+  "quote_start": "Kinetic data from the best fit are summarized in Table 1 and reveal th",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.44x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Both kinetic KD values are printed (202 vs 456 nM); give the ratio rather than qualitative, consistent with P6.F2-F6.",
+  "evidence": "Results: \"the KD of apoE4 for LRP1 is 202 ± 51 nM, whereas apoE3 is 456 ± 48 nM\"; Fig 6 legend: \"representative experiment from six independent experiments\""
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P6",
+  "finding_id": "P6.F2",
+  "key": "pmid33930462",
+  "quote_start": "dApoE3 | 4.3 ± 0.8 × 104 | 9.0 ± 0.7 × 10−2 | 9.6 ± 0.1 × 10−3 | 2.6 ±",
+  "verdict": "OK",
+  "reason": "Table 1 cKD 236 vs 398 nM; 236/398 = 0.59x correct; n=6 from Fig 6 legend.",
+  "evidence": "Table 1 row dApoE4: \"... | 202 ± 51 | 236 ± 101\"; dApoE3: \"... | 456 ± 48 | 398 ± 67\""
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P6",
+  "finding_id": "P6.F3",
+  "key": "pmid33930462",
+  "quote_start": "dApoE3 | 4.3 ± 0.8 × 104 | 9.0 ± 0.7 × 10−2 | 9.6 ± 0.1 × 10−3 | 2.6 ±",
+  "verdict": "OK",
+  "reason": "Table 1 kd1 6.5 vs 9.0 x10^-2; 0.72x correct.",
+  "evidence": "Table 1 kd1 column: dApoE3 9.0 ± 0.7 × 10−2, dApoE4 6.5 ± 0.4 × 10−2"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P6",
+  "finding_id": "P6.F4",
+  "key": "pmid33930462",
+  "quote_start": "dApoE3 | 4.3 ± 0.8 × 104 | 9.0 ± 0.7 × 10−2 | 9.6 ± 0.1 × 10−3 | 2.6 ±",
+  "verdict": "OK",
+  "reason": "Table 1 ka1 6.2 vs 4.3 x10^4; 1.44x correct.",
+  "evidence": "Table 1 ka1 column: dApoE3 4.3 ± 0.8 × 104, dApoE4 6.2 ± 0.7 × 104"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P6",
+  "finding_id": "P6.F5",
+  "key": "pmid33930462",
+  "quote_start": "dApoE3 | 4.3 ± 0.8 × 104 | 9.0 ± 0.7 × 10−2 | 9.6 ± 0.1 × 10−3 | 2.6 ±",
+  "verdict": "OK",
+  "reason": "Table 1 ka2 9.9 vs 9.6 x10^-3; 1.03x correct.",
+  "evidence": "Table 1 ka2 column: dApoE3 9.6 ± 0.1 × 10−3, dApoE4 9.9 ± 0.3 × 10−3"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P6",
+  "finding_id": "P6.F6",
+  "key": "pmid33930462",
+  "quote_start": "dApoE3 | 4.3 ± 0.8 × 104 | 9.0 ± 0.7 × 10−2 | 9.6 ± 0.1 × 10−3 | 2.6 ±",
+  "verdict": "OK",
+  "reason": "Table 1 kd2 2.7 vs 2.6 x10^-3; 1.04x correct.",
+  "evidence": "Table 1 kd2 column: dApoE3 2.6 ± 0.2 × 10−3, dApoE4 2.7 ± 0.3 × 10−3"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P7",
+  "finding_id": "P7.F1",
+  "key": "pmid31641056",
+  "quote_start": "The relative amount of aggregated ABCA1 and ApoE were significantly in",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~2.7x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.01",
+   "P value provenance": "visual_only",
+   "Data location": "Fig 4D, E"
+  },
+  "reason": "Quantification is in Fig 4E (cited \"Fig. 4 D, E\"); the ApoE bar pair is readable (E3 normalized to 1.0, E4 about 2.7 on a 0-5 axis) and ** is drawn over the ApoE pair; legend key ** p < 0.01.",
+  "evidence": "Fig 4E image: ApoE group, E3 bar at 1.0, E4 bar at ~2.7, \"**\" bracket over the ApoE E3/E4 bars; legend: \"** p < 0.01; *** p < 0.001\", \"E, Densitometric quantification ... from three independent experiments\""
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P7",
+  "finding_id": "P7.F2",
+  "key": "pmid31641056",
+  "quote_start": "In agreement, the relative amounts of aggregated ABCA1 and ApoE were g",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~1.9x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "0.01",
+   "P value provenance": "visual_only",
+   "Data location": "Fig 4F, G"
+  },
+  "reason": "Quantification is in Fig 4G; the ApoE pair is readable (E3 ~1.0, E4 ~1.9 on a 0-4 axis) and \"p=0.01\" is printed over the ApoE pair on the image.",
+  "evidence": "Fig 4G image: ApoE group, E3 bar ~1.0, E4 bar ~1.9, bracket labelled \"p=0.01\"; text: \"male ApoE4-TR mice ( n = 8) compared with ApoE3-TR mice ( n = 6) ( Fig. 4 F , G )\""
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P7",
+  "finding_id": "P7.F3",
+  "key": "pmid31641056",
+  "quote_start": "rApoE4 protein formed more aggregates than rApoE3 protein when incubat",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~1.7x",
+   "Effect size provenance": "estimated_from_figure",
+   "Data location": "Fig 4H, I"
+  },
+  "reason": "Same quote and comparison as P7.F4 (duplicate); the quantification is Fig 4I, where rE3 ~0.94 and rE4 ~1.6 on a 0-2.5 axis (ratio ~1.7).",
+  "evidence": "Fig 4I image: rE3 bar ~0.94, rE4 bar ~1.6, bracket \"p=0.2\"; legend: \"I, Densitometric quantification of Western blot shown in H from three independent experiments.\""
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P7",
+  "finding_id": "P7.F4",
+  "key": "pmid31641056",
+  "quote_start": "rApoE4 protein formed more aggregates than rApoE3 protein when incubat",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~1.7x"
+  },
+  "reason": "Fig 4I bars read rE3 ~0.94 and rE4 ~1.6 (rE3 is not at 1.0), so the rE4/rE3 ratio is ~1.7x, not ~1.6x. P=0.2 and n=3 correct.",
+  "evidence": "Fig 4I image: y-axis 0.0-2.5; rE3 bar top just under 1.0 (~0.94), rE4 bar top ~1.6; \"p=0.2\" printed over the pair."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P7",
+  "finding_id": "P7.F5",
+  "key": "pmid31641056",
+  "quote_start": "We then examined ApoE protein aggregation in human CSF from age and se",
+  "verdict": "FIX",
+  "set": {
+   "P value": "<0.001",
+   "P value provenance": "visual_only",
+   "Data location": "Fig 4J, K"
+  },
+  "reason": "2.5x printed and n=5-6 correct, but Fig 4K shows *** over the E3/E3 vs E4/E4 bars (legend key *** p < 0.001), so the P is not ambiguous; quantification is panel K.",
+  "evidence": "Fig 4K image: E3/E3 bar 1.0, E4/E4 bar ~2.45, \"***\" bracket over the pair; legend: \"K, Densitometric quantification of Western blot shown in J from two independent experiments... *** p < 0.001.\""
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P4",
+  "finding_id": "P4.F1",
+  "key": "pmid15863833",
+  "quote_start": "Second, our experi- ments conﬁrmed that the VLDL receptor recognizes a",
+  "verdict": "FIX",
+  "set": {
+   "Finding quote": "Equilibrium analysis of observed sensorgrams revealed a high-affinity interaction between the VLDL receptor and all apoE isoforms, with no distinction between them (Table 1).",
+   "Effect size": "0.68x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "The quote is a Discussion restatement; the Results sentence gives the same finding with the Table 1 pointer. Table 1 prints SPR Kd for apoE3 (25 nM) and apoE4 (17 nM), so the ratio can be given.",
+  "evidence": "Results: \"Equilibrium analysis of observed sensorgrams revealed a high-affinity interaction between the VLDL receptor and all apoE isoforms, with no distinction between them (Table 1).\"; Table 1 VLDL receptor row: apoE2 20 ± 5, apoE3 25 ± 10, apoE4 17 ± 9 nM."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P4",
+  "finding_id": "P4.F2",
+  "key": "pmid15863833",
+  "quote_start": "Thus, the results from this solid-phase assay suggest that both the VL",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.31x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Both apparent Kd values are printed (apoE3 59 nM, apoE4 77 nM); give the ratio instead of qualitative.",
+  "evidence": "Results: \"The apparent Kd values for the interaction of the VLDL receptor with immobilized apoE2, apoE3, and apoE4 are 86, 59, and 77 nM, respectively.\"; Fig 1 legend: \"average of duplicate determinations\""
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P4",
+  "finding_id": "P4.F3",
+  "key": "pmid15863833",
+  "quote_start": "In contrast, LRP failed to recognize lipid-free apoE2 and apoE3 and bo",
+  "verdict": "OK",
+  "reason": "Quote verbatim from Results; Table 1 shows LRP \"nb\" for apoE3 and \"weak binding\" for apoE4; aggregation caveat is in the text.",
+  "evidence": "Results: \"LRP failed to recognize lipid-free apoE2 and apoE3 and bound weakly to lipid-free apoE4 in solution (Fig. 2D–F)... might result from the tendency of this apoE isoform to undergo aggregation (39).\""
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P4",
+  "finding_id": "P4.F4",
+  "key": "pmid15863833",
+  "quote_start": "As expected, the LDL receptor did not bind lipid-free apoE isoforms in",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Table 1 LDL receptor row nb for all isoforms; LDLR made in E. coli per Methods.",
+  "evidence": "Results: \"the LDL receptor did not bind lipid-free apoE isoforms in SPR experiments (data not shown)\"; Table 1: LDL receptor nb nb nb."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P9",
+  "finding_id": "P9.F1",
+  "key": "pmid34617884",
+  "quote_start": "Receptor surface levels show a stronger reduction with ApoE4 than ApoE",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Quote is the Fig 4 legend; the legend gives a star key (*p<0.05, **p<0.01, ***p<0.005) for panels C-F, but the figure image is a 114x79 thumbnail with no readable marks, so the code is ambiguous_panel, not not_found_in_source.",
+  "evidence": "Fig 4 legend: \"All data are expressed as mean ± SEM from three independent experiments. *p < 0.05, **p < 0.01, ***p < 0.005.\""
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P9",
+  "finding_id": "P9.F2",
+  "key": "pmid34617884",
+  "quote_start": "Apoer2 recycling was completely restored in Slc9a6- neurons treated wi",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Same as P9.F1: a legend star key exists for panel C but cannot be matched to the comparison on the thumbnail image. The apoE4>apoE3 reduction in the description comes from the legend sentence, not the quote, which is acceptable.",
+  "evidence": "Fig 4 legend: \"Receptor surface levels show a stronger reduction with ApoE4 than ApoE3... *p < 0.05, **p < 0.01, ***p < 0.005.\""
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P7",
+  "finding_id": "P7.F1",
+  "key": "pmid19033669",
+  "quote_start": "Lipid-poor apoE bound to the abluminal surfaces of isolated mouse brai",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~0.47x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.05",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Fig 4A is readable: apoE3 binding ~4.6 and apoE4 ~2.2 pmol/mg protein/30 min on a 0-8 axis, and a bracket labelled \"P < 0.05\" runs from the apoE3 bar to the apoE4 bar.",
+  "evidence": "Fig 4A image: 125I-apoE3 bar ~4.6, 125I-apoE4 bar ~2.2; middle bracket \"P < 0.05\" with legs on the apoE3 bar, +apoE3 bar and apoE4 bar. Legend gives no n."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P7",
+  "finding_id": "P7.F2",
+  "key": "pmid19033669",
+  "quote_start": "Aβ40-apoE2 and Aβ42-apoE2 complexes bound to both VLDLR and LRP1, wher",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig 6A shows LRP1 antibody reducing Abeta40-apoE2 but not Abeta40-apoE4 binding; n=3-5 from legend; apoE2 comparator and class 5 are stated.",
+  "evidence": "Results: \"Aβ40-apoE4 and Aβ42-apoE4 complexes bound only to VLDLR, not to LRP1 ... (Figure 6 A)\"; legend: \"n = 3–5 experiments per group\""
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P17",
+  "finding_id": "P17.F1",
+  "key": "pmid28957663",
+  "quote_start": "Intriguingly, the level of insoluble apoE was significantly increased ",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Fig 7 legend gives a figure-wide key (**p<0.01; ***p<0.001, N.S.) for two-way ANOVA but no image is available to see the mark on panel F, so the code is ambiguous_panel rather than not_found_in_source. Quote, n=4-6 and description fine.",
+  "evidence": "Fig 7 legend: \"(n=4–6 mice/genotype, mixed gender) ... Two-way ANOVA with Tukey's multiple comparisons test ... **p < 0.01; ***p < 0.001, N.S., not significant.\""
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P16",
+  "finding_id": "P16.F1",
+  "key": "pmid40845853",
+  "quote_start": "Similarly, the total amount of Tf after a 20-min pulse was higher in A",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig 6D recycling rate similar; n six and three differentiations per Fig 6B legend; no P printed for the rate.",
+  "evidence": "Results: \"the recycling rate was similar between the two genetic variants (Figure 6D)\"; legend: \"six independent differentiations for isogenic pair 1 and three independent differentiations for isogenic pair 2 (B)\""
+ }
+]

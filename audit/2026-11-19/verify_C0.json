@@ -1,0 +1,1611 @@
+[
+ {
+  "src": "0",
+  "paper": {
+   "key": "doi_10_21203_rs_3_rs_82205_v1",
+   "hyp": "H2",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3.",
+   "text": "data/papers/doi_10_21203_rs_3_rs_82205_v1/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/doi_10_21203_rs_3_rs_82205_v1/figimg/4.png"
+   ],
+   "pdf": "data/papers/doi_10_21203_rs_3_rs_82205_v1/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P11.F1",
+   "Finding description": "In APOE4-treated neurons, Exo-1 inhibition showed that the APOE4-dependent increase in surface LRP1 required exocytosis, testing trafficking machinery while holding APOE4 constant.",
+   "Finding quote": "A) Western blot analysis from neuronal culture treated with APOE 4 or with exocytosis inhibitor Exo-1 shows that exocytosis is required for APOE4 to mediate surface expression of LRP1 (B, C).",
+   "Finding summary": "(APOE4 treatment -> APOE4 with Exo-1) -> (inhibition of APOE4-mediated surface LRP1 elevation)",
+   "Finding relevance": 0.55,
+   "Experimental system": "Primary mouse neuronal culture; Methods describe cortical neurons isolated from P1 pups, but panel-specific genotype is unspecified. APOE4 with or without Exo-1; inhibitor dose and exposure timing are unavailable. Surface and total LRP1 western blot experiment; Methods specify 24 h APOE exposure for LRP1 assays.",
+   "Data location": "Supplementary Fig 3A; accompanying quantification in Supplementary Fig 3B-C cannot be assigned individually",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "full_text_unavailable",
+   "Sample size": "3",
+   "Sample size provenance": "supplement_only",
+   "Directness class": 5,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H2",
+   "paper_id": "P11",
+   "finding_id": "P11.F1",
+   "key": "doi_10_21203_rs_3_rs_82205_v1",
+   "quote_start": "A) Western blot analysis from neuronal culture treated with APOE 4 or ",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Supplementary Fig 3A and 3C (surface/total LRP1); 3B is total LRP1/actin",
+    "Effect size": "~1.5x",
+    "Effect size provenance": "estimated_from_figure",
+    "P value": "<0.01",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Quote verbatim, but the panels can be assigned: in the preprint PDF Supplementary Fig 3B is T.LRP1/actin (n.s) and 3C is S.LRP1/T.LRP1, which carries '**' over the only comparison in the panel. 'full_text_unavailable' was wrong - the preprint PDF contains the panel.",
+   "evidence": "Supplementary Fig 3 (PDF p.23): panel C, axis 0-40000 in steps of 10000, APOE4 ~29,000 vs APOE4+Exo-1 ~19,500 (~1.5x), '**' above the pair; legend: 'n=3 unpaired Student's t-test, mean +/- SEM. *P<0.05 and **P<0.01.'"
+  },
+  "item": 1
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "doi_10_21203_rs_3_rs_82205_v1",
+   "hyp": "H2",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3.",
+   "text": "data/papers/doi_10_21203_rs_3_rs_82205_v1/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/doi_10_21203_rs_3_rs_82205_v1/figimg/4.png"
+   ],
+   "pdf": "data/papers/doi_10_21203_rs_3_rs_82205_v1/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P11.F2",
+   "Finding description": "In neurons receiving APOE2 and APOE4, the dynasore experiment showed that APOE2-mediated reduction of APOE4-induced surface LRP1 required endocytosis, without changing the APOE4 background.",
+   "Finding quote": "D) Western blot analysis from neuronal culture treated with APOE2/4 or with endocytosis inhibitor, Dynasore, shows that APOE2 down-regulated APOE4-mediated surface LRP1 via endocytosis (E, F).",
+   "Finding summary": "(APOE2 plus APOE4 -> APOE2 plus APOE4 with dynasore) -> (inhibition of APOE2-mediated surface LRP1 reduction)",
+   "Finding relevance": 0.55,
+   "Experimental system": "Primary mouse neuronal culture; Methods describe cortical neurons isolated from P1 pups, but panel-specific genotype is unspecified. Combined APOE2/APOE4 treatment with or without dynasore; inhibitor dose and exposure timing are unavailable. LRP1 western blot experiment; Methods specify 24 h APOE exposure for LRP1 assays.",
+   "Data location": "Supplementary Fig 3D; accompanying quantification in Supplementary Fig 3E-F cannot be assigned individually",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "full_text_unavailable",
+   "Sample size": "3",
+   "Sample size provenance": "supplement_only",
+   "Directness class": 5,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H2",
+   "paper_id": "P11",
+   "finding_id": "P11.F2",
+   "key": "doi_10_21203_rs_3_rs_82205_v1",
+   "quote_start": "D) Western blot analysis from neuronal culture treated with APOE2/4 or",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Supplementary Fig 3D and 3F (surface/total LRP1); 3E is total LRP1/actin",
+    "Effect size": "~1.4x",
+    "Effect size provenance": "estimated_from_figure",
+    "P value": "<0.05",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Quote verbatim and direction right (dynasore raises surface LRP1, i.e. blocks the APOE2-driven reduction); panels E and F are separable in the PDF and F carries '*' over this comparison.",
+   "evidence": "Supplementary Fig 3 (PDF p.23): panel F, axis 0-30000 in steps of 10000, APOE2/4 ~16,800 vs APOE2/4+Dyna ~23,000 (~1.4x), '*' above the pair; legend key '*P<0.05'."
+  },
+  "item": 2
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "doi_10_21203_rs_3_rs_82205_v1",
+   "hyp": "H2",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3.",
+   "text": "data/papers/doi_10_21203_rs_3_rs_82205_v1/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/doi_10_21203_rs_3_rs_82205_v1/figimg/4.png"
+   ],
+   "pdf": "data/papers/doi_10_21203_rs_3_rs_82205_v1/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P11.F3",
+   "Finding description": "With APOE4 held constant, GPC-4 knockdown significantly reduced neuronal surface LRP1 compared with APOE4 alone, testing a mediator of the APOE4-associated surface increase.",
+   "Finding quote": "However, APOE4 in the presence of GPC-4 shRNA showed a significant reduction of surface LRP1 compared to APOE4 alone (Fig. 4J).",
+   "Finding summary": "(APOE4 alone -> APOE4 with GPC-4 shRNA) -> (lower neuronal surface LRP1)",
+   "Finding relevance": 0.5,
+   "Experimental system": "Primary mouse cortical neuronal cultures from P1 pups; panel-specific genotype unspecified. APOE4 alone versus APOE4 with GPC-4 shRNA; Methods specify 24 h APOE treatment for LRP1 experiments and 5 µg/ml for neuronal protein treatments. Surface biotinylation, affinity isolation and LRP1 western blot quantification.",
+   "Data location": "Fig 4J",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3-5",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 5,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H2",
+   "paper_id": "P11",
+   "finding_id": "P11.F3",
+   "key": "doi_10_21203_rs_3_rs_82205_v1",
+   "quote_start": "However, APOE4 in the presence of GPC-4 shRNA showed a significant red",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~1.6x",
+    "Effect size provenance": "estimated_from_figure",
+    "P value": "<0.01",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Quote verbatim, Fig 4J is the right panel and n=3-5 matches the legend; the panel shows '**' over exactly the APOE4 vs APOE4+GPC-4 shRNA comparison, so P should not be N/A.",
+   "evidence": "Fig 4J (PDF p.36), axis 0-25000 in steps of 5000: Control ~2,000, APOE4 ~18,800, APOE4+GPC-4 shRNA ~11,600 (~1.6x reduction); '****' over Control-APOE4 and '**' over APOE4-APOE4+shRNA; Fig 4 legend: 'n=3-5, one-way ANOVA ... **P<0.01 and ****P<0.0001.'"
+  },
+  "item": 3
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid12393895",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid12393895/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/pmid12393895/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P2.F1",
+   "Finding description": "At pH 4.0, three-state modeling placed the maximum intermediate population at 3.75 M urea for apoE4, approximately 90%, versus 4.75 M for apoE3, approximately 80%, indicating that apoE4 formed the intermediate under milder denaturation.",
+   "Finding quote": "The concentration of urea at which the folding intermediate was at maximum concentration was 3.75 M for the apoE4 22- kDa fragment (90%) and 4.75 M for the apoE3 fragment (80%).",
+   "Finding summary": "(APOE3 -> APOE4) -> (lower urea concentration for maximal intermediate formation and higher maximal intermediate fraction)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Model-derived equilibrium populations of native, intermediate, and unfolded states for recombinant human apoE3 and apoE4 22-kDa amino-terminal fragments at pH 4.0; derived from circular-dichroism urea-denaturation curves; maxima occur at different urea concentrations.",
+   "Data location": "Fig. 2 (apoE3 and apoE4 plots)",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P2",
+   "finding_id": "P2.F1",
+   "key": "pmid12393895",
+   "quote_start": "The concentration of urea at which the folding intermediate was at max",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "durea=1.0",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Quote verbatim and correctly read (the paper's own three-state fit); the text prints both group values, so the row should not stay qualitative.",
+   "evidence": "Results p.3: 'The concentration of urea at which the folding intermediate was at maximum concentration was 3.75 M for the apoE4 22-kDa fragment (90%) and 4.75 M for the apoE3 fragment (80%)' - apoE4 peaks 1.0 M urea lower (intermediate ~90% vs ~80%)."
+  },
+  "item": 4
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid12393895",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid12393895/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/pmid12393895/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P2.F6",
+   "Finding description": "Urea denaturation of recombinant human apoE amino-terminal domains at pH 7.4 showed lower unfolding resistance for apoE4 than apoE3, with respective midpoints of 4.3 and 5.2 M urea.",
+   "Finding quote": "The midpoints of denaturation for the 22-kDa fragments of apoE3 and apoE4 were 5.2 and 4.3 M urea, respectively, consistent with previous results (22) (Fig. 1A).",
+   "Finding summary": "(APOE3 -> APOE4) -> (lower urea concentration required for unfolding at pH 7.4)",
+   "Finding relevance": 0.6,
+   "Experimental system": "Bacterially expressed recombinant human apoE3 and apoE4 22-kDa amino-terminal fragments; protein incubated overnight at 4 °C across urea concentrations in sodium phosphate buffer, pH 7.4; circular dichroism at 220 nm measured at 25 °C under reducing conditions; no cells, endosomes, or lysosomes.",
+   "Data location": "Fig. 1A",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P2",
+   "finding_id": "P2.F6",
+   "key": "pmid12393895",
+   "quote_start": "The midpoints of denaturation for the 22-kDa fragments of apoE3 and ap",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "durea=0.9",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Quote verbatim and midpoints correctly attributed (apoE3 5.2 M, apoE4 4.3 M); since the text prints both values the row should carry the difference rather than 'qualitative'.",
+   "evidence": "Results: 'The midpoints of denaturation for the 22-kDa fragments of apoE3 and apoE4 were 5.2 and 4.3 M urea, respectively ... (Fig. 1A)' - apoE4 unfolds at 0.9 M less urea."
+  },
+  "item": 5
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid20547867",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid20547867/text.txt",
+   "supp": "data/papers/pmid20547867/supp.txt",
+   "figures": [
+    "data/papers/pmid20547867/figimg/1.png",
+    "data/papers/pmid20547867/figimg/2.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P8.F1",
+   "Finding description": "After 15 minutes of human ApoE treatment, primary mouse cortical neurons had lower surface Apoer2 with ApoE4 than with ApoE3, based on four independent experiments.",
+   "Finding quote": "Whereas ApoE2 (lane 2) and ApoE3 (lane 3) did not reduce surface expression of Apoer2 compared with the control (lane 1), ApoE4 significantly decreased surface expression of this “dual function” Reelin and ApoE receptor (lane 4), suggesting that Apoer2 availability, and thus function, at the cell surface might be impaired.",
+   "Finding summary": "(ApoE3 -> ApoE4) -> (lower neuronal surface Apoer2)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Primary cortical neurons from embryonic day 18 wild-type mice at 12–13 days in vitro; treatment with 3 μg/mL HEK293-secreted human ApoE3 or ApoE4 for 15 minutes at 37 °C; membrane-impermeable surface biotinylation, NeutrAvidin precipitation, and Apoer2 immunoblotting; surface Apoer2 normalized to total cellular Apoer2. Recipient cells were mouse neurons.",
+   "Data location": "Fig 1B",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "4",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P8",
+   "finding_id": "P8.F1",
+   "key": "pmid20547867",
+   "quote_start": "Whereas ApoE2 (lane 2) and ApoE3 (lane 3) did not reduce surface expre",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~1.3x",
+    "Effect size provenance": "estimated_from_figure",
+    "P value": "<0.05",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Quote, 15 min / 3 ug/ml treatment and n = 4 are all correct; Fig 1B is readable, so the ApoE3 vs ApoE4 bar ratio and the bracketed star over exactly this pair can be given.",
+   "evidence": "Fig 1B bar chart (axis 0/50/100/150): control 100, ApoE2 ~115, ApoE3 ~84, ApoE4 ~65 (~1.3x lower with ApoE4); a single '*' sits on the bracket spanning the ApoE3 and ApoE4 bars, legend key '*P < 0.05'."
+  },
+  "item": 6
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid20547867",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid20547867/text.txt",
+   "supp": "data/papers/pmid20547867/supp.txt",
+   "figures": [
+    "data/papers/pmid20547867/figimg/1.png",
+    "data/papers/pmid20547867/figimg/2.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P8.F2",
+   "Finding description": "During Reelin costimulation, human ApoE4 produced a greater reduction of surface Apoer2 than ApoE3 in primary mouse cortical neurons.",
+   "Finding quote": "ApoE3 was marginally, but not significantly, more effective than ApoE2, whereas ApoE4 led to a dramatic and statistically highly significant reduction of Apoer2 at the neuronal cell surface.",
+   "Finding summary": "(ApoE3 -> ApoE4, with Reelin) -> (lower neuronal surface Apoer2)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Primary cortical neurons from embryonic day 18 wild-type mice at 12–13 days in vitro; 3 μg/mL HEK293-secreted human ApoE isoforms plus 2 μg/mL Reelin for 2 hours at 37 °C according to Fig 1C legend; surface biotinylation, NeutrAvidin precipitation, and Apoer2 immunoblotting normalized to total Apoer2. The general SI biotinylation protocol instead specifies 15 minutes. Recipient cells were mouse neurons.",
+   "Data location": "Fig 1C",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P8",
+   "finding_id": "P8.F2",
+   "key": "pmid20547867",
+   "quote_start": "ApoE3 was marginally, but not significantly, more effective than ApoE2",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~2x",
+    "Effect size provenance": "estimated_from_figure",
+    "P value": "<0.01",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Quote verbatim and direction right; P was marked ambiguous_panel, but Fig 1C shows a '**' bracket between ApoE3+R and ApoE4+R, and the legend states brackets mark differences between treatments.",
+   "evidence": "Fig 1C (axis 0-120 in steps of 20): control+R 100, ApoE2+R ~60, ApoE3+R ~50, ApoE4+R ~25 (~2x lower with ApoE4); '**' on the ApoE3+R-to-ApoE4+R bracket, legend '** P < 0.01 ... Asterisks on brackets indicates significant difference between treatments.'"
+  },
+  "item": 7
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid20547867",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid20547867/text.txt",
+   "supp": "data/papers/pmid20547867/supp.txt",
+   "figures": [
+    "data/papers/pmid20547867/figimg/1.png",
+    "data/papers/pmid20547867/figimg/2.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P8.F3",
+   "Finding description": "Adding human ApoE4 during Reelin stimulation significantly reduced surface Apoer2 compared with the Reelin-stimulated control without added ApoE in primary mouse cortical neurons.",
+   "Finding quote": "All ApoE isoforms ( Fig. 1 C , lanes 2–4) significantly decreased surface expression of Apoer2 upon Reelin stimulation compared with control (lane 1).",
+   "Finding summary": "(no added ApoE -> ApoE4, with Reelin) -> (lower neuronal surface Apoer2)",
+   "Finding relevance": 0.75,
+   "Experimental system": "Primary cortical neurons from embryonic day 18 wild-type mice at 12–13 days in vitro; control medium or 3 μg/mL HEK293-secreted human ApoE4 together with 2 μg/mL Reelin for 2 hours at 37 °C according to Fig 1C legend; surface biotinylation and Apoer2 immunoblotting normalized to total Apoer2. The general SI biotinylation protocol instead specifies 15 minutes. Recipient cells were mouse neurons.",
+   "Data location": "Fig 1C",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P8",
+   "finding_id": "P8.F3",
+   "key": "pmid20547867",
+   "quote_start": "All ApoE isoforms ( Fig. 1 C , lanes 2–4) significantly decreased surf",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~4x",
+    "Effect size provenance": "estimated_from_figure",
+    "P value": "<0.001",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Quote verbatim and the control+R vs ApoE4+R comparison is the one the legend's column asterisks encode, so the p and the bar ratio can be read off Fig 1C.",
+   "evidence": "Fig 1C: '***' sits above the ApoE4+R column; legend: 'Asterisks above individual columns indicate significant difference compared with control. ... *** P < 0.001'. Bars: control+R 100 vs ApoE4+R ~25 = ~4x."
+  },
+  "item": 8
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid20547867",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid20547867/text.txt",
+   "supp": "data/papers/pmid20547867/supp.txt",
+   "figures": [
+    "data/papers/pmid20547867/figimg/1.png",
+    "data/papers/pmid20547867/figimg/2.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P8.F5",
+   "Finding description": "In acutely Reelin-stimulated primary mouse cortical neurons, ApoE4 treatment reduced surface GluN2B in the ApoE isoform comparison, consistent with impaired glutamate-receptor trafficking.",
+   "Finding quote": "ApoE4 reduces GluA1, GluA2/3, and GluN2B cell-surface levels in acutely Reelin stimulated primary neurons.",
+   "Finding summary": "(ApoE3 -> ApoE4, with Reelin) -> (lower neuronal surface GluN2B)",
+   "Finding relevance": 0.7,
+   "Experimental system": "Primary embryonic wild-type mouse cortical neurons at 12–13 days in vitro, exposed to HEK293-secreted human ApoE isoforms and acute Reelin stimulation; surface biotinylation, NeutrAvidin isolation, and GluN2B immunoblotting. The SI surface-biotinylation protocol specifies 3 μg/mL ApoE and 15 minutes at 37 °C. Supplied text does not separately assign subunits to Fig 2H versus Fig 2I. Recipient cells were mouse neurons.",
+   "Data location": "Fig 2H and Fig 2I, jointly described in Results and legend",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P8",
+   "finding_id": "P8.F5",
+   "key": "pmid20547867",
+   "quote_start": "ApoE4 reduces GluA1, GluA2/3, and GluN2B cell-surface levels in acutel",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 2I, GluN2B bar group (blots in Fig 2H)",
+    "Effect size": "~3.5x",
+    "Effect size provenance": "estimated_from_figure"
+   },
+   "reason": "Quote verbatim from the Fig 2 legend; the figure image resolves the ambiguity the row flags - H holds the blots and I the per-subunit quantification - and the GluN2B bars give the ApoE3 vs ApoE4 ratio.",
+   "evidence": "Fig 2 image: panel H = surface/total blots for GluA1, GluA2/3, GluN2B (lanes C, E2, E3, E4); panel I = bar chart standardized to control, GluN2B group Control 100, E2 ~95, E3 ~66, E4 ~19 (~3.5x lower with ApoE4). No stars in panel I, so P stays N/A."
+  },
+  "item": 9
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid21219628",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid21219628/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P29.F1",
+   "Finding description": "In human HepG2 cells, DMPC-complexed apoE4-(72-166) reduced LDL binding by 55%, versus 26% for DMPC-complexed apoE3-(72-166), showing greater receptor-binding competition without measuring receptor recycling.",
+   "Finding quote": "Among the three isoforms, apoE4-(72-166)-DMPC complex decreased the 3H-LDL binding by 55%, comparing with 19% for apoE2-(72-166)-DMPC and 26% for apoE3-(72-166)-DMPC.",
+   "Finding summary": "(apoE3-(72-166)-DMPC -> apoE4-(72-166)-DMPC) -> (greater competition for LDLR binding)",
+   "Finding relevance": 0.5,
+   "Experimental system": "Human HepG2 hepatoblastoma cells, source unspecified, incubated with 3H-LDL and competing DMPC complexes of recombinant human apoE-(72-166) fragments expressed in E. coli; receptor-binding incubation at 4°C for 2 hours. This is a liver-derived cell system using truncated proteins; receptor recycling and endosomal dissociation were not measured.",
+   "Data location": "Additional file 1, Figure S3",
+   "Effect size": "2.12x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "full_text_unavailable",
+   "Sample size": "N/A",
+   "Sample size provenance": "full_text_unavailable",
+   "Directness class": 4,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P29",
+   "finding_id": "P29.F1",
+   "key": "pmid21219628",
+   "quote_start": "Among the three isoforms, apoE4-(72-166)-DMPC complex decreased the 3H",
+   "verdict": "DROP",
+   "reason": "The quoted apoE3 and apoE4 numbers are not this paper's result: the Figure S3 legend states that the apoE3 and apoE4 bars are taken from the authors' earlier publication [22], and Results say 'In our previous study, we have evaluated the LDLR binding ability of apoE3-(72-166) and apoE4-(72-166) [22]. Here we further analyzed ... apoE2'. The row's whole effect size (2.12x = 55%/26%) therefore rests on reproduced data from another paper, which is exactly what manual inspection is meant to catch.",
+   "evidence": "Additional file 1, Figure S3 legend: 'LDLR binding assay ... Bar 4-9 showed apoE-(72-166) peptides only or apoE-(72-166)-DMPC as competitors. Data of apoE3 and apoE4 (Bar 5-6 and 8-9) are from [22].' Results: 'Among the three isoforms, apoE4-(72-166)-DMPC complex decreased the 3H-LDL binding by 55%, comparing with 19% for apoE2-(72-166)-DMPC and 26% for apoE3-(72-166)-DMPC.'"
+  },
+  "item": 10
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F1",
+   "Finding description": "Human ApoE4 reduced surface Apoer2 more than ApoE3 after Reelin treatment of primary rat cortical neurons in three independent experiments.",
+   "Finding quote": "While Apoer2 quickly recycled in the presence of ApoE3, its reappearance on the cell surface was greatly delayed in the presence of ApoE4 (Figure 2B,C).",
+   "Finding summary": "(apoE3 -> apoE4) -> (lower surface Apoer2; delayed receptor recycling)",
+   "Finding relevance": 0.9,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14, exposed to HEK293-secreted human ApoE particles and Reelin; Results describe 1 h ApoE pretreatment, whereas Methods specify 30 min, followed by 30 min Reelin; surface biotinylation at 4°C and surface/total Apoer2 immunoblotting. No human brain cells were tested.",
+   "Data location": "Fig 2B",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P5",
+   "finding_id": "P5.F1",
+   "key": "pmid30375977",
+   "quote_start": "While Apoer2 quickly recycled in the presence of ApoE3, its reappearan",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 2B; supplementary file elife-40048-fig2-data1.xlsx, sheet Fig2C, Apoer2 E3+R versus E4+R",
+    "Effect size": "2.9x",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "Quote, direction, panel and n = 3 all check out; the row was left qualitative although the paper's own source data give both group means, so the ratio is now stated.",
+   "evidence": "Figure 2 source data, sheet Fig2C, row Apoer2: E3+R 82.1/73.6/76.3 (mean 77.3) vs E4+R 32.4/27.6/20.3 (mean 26.8) = 2.9x lower surface/total Apoer2 with ApoE4."
+  },
+  "item": 11
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F2",
+   "Finding description": "Surface-to-total receptor quantification showed lower Apoer2 surface expression with ApoE4 than ApoE3 in three independent neuronal experiments.",
+   "Finding quote": "Apoer2 surface levels show a higher reduction with ApoE4 than ApoE3.",
+   "Finding summary": "(apoE3 -> apoE4) -> (lower surface-to-total Apoer2 ratio)",
+   "Finding relevance": 0.9,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; human cell-secreted ApoE particles followed by Reelin; surface biotinylation and immunoblot quantification of surface/total Apoer2. Methods specify ApoE 5 µg/ml and Reelin 2 µg/ml.",
+   "Data location": "Fig 2C",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P5",
+   "finding_id": "P5.F2",
+   "key": "pmid30375977",
+   "quote_start": "Apoer2 surface levels show a higher reduction with ApoE4 than ApoE3.",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 2C; supplementary file elife-40048-fig2-data1.xlsx, sheet Fig2C, Apoer2 E3+R versus E4+R",
+    "Effect size": "2.9x",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "Quote is verbatim in the Figure 2 legend and is the paper's own result; this is the quantification panel, so the printed source-data values replace 'qualitative'.",
+   "evidence": "Fig 2 legend: 'Apoer2 surface levels show a higher reduction with ApoE4 than ApoE3.' Sheet Fig2C: E3+R mean 77.3 vs E4+R mean 26.8 = 2.9x."
+  },
+  "item": 12
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F3",
+   "Finding description": "After three hours of neuronal exposure, more ApoE4 than ApoE3 remained associated with immunoprecipitated Apoer2 in three independent experiments.",
+   "Finding quote": "The delayed recycling of Apoer2 was also apparent by the prolonged retention of cell-derived ApoE4 compared to cell-derived ApoE3 in Apoer2-containing intracellular compartments as shown by co-immunoprecipitation of neuronal lysates (Figure 2D,E).",
+   "Finding summary": "(apoE3 -> apoE4) -> (greater retained ApoE–Apoer2 association)",
+   "Finding relevance": 0.9,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; HEK293-secreted human ApoE3 or ApoE4, 5 µg/ml for 3 h at 37°C; anti-Apoer2 co-immunoprecipitation from neuronal lysates and anti-ApoE immunoblot.",
+   "Data location": "Fig 2D",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P5",
+   "finding_id": "P5.F3",
+   "key": "pmid30375977",
+   "quote_start": "The delayed recycling of Apoer2 was also apparent by the prolonged ret",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 2D; supplementary file elife-40048-fig2-data1.xlsx, sheet Fig2E, E3 versus E4",
+    "Effect size": "1.6x",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "Quote verbatim and system correct (5 ug/ml, 3 h, anti-Apoer2 co-IP); the paired quantification (Fig 2E) is in the source data, so the fold difference is now given.",
+   "evidence": "Sheet Fig2E: E3 108.7/84.6/106.7 (mean 100.0) vs E4 165.2/146.7/153.4 (mean 155.1) = 1.6x more ApoE retained with ApoE4."
+  },
+  "item": 13
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F4",
+   "Finding description": "Without EMD87580, ApoE4 caused greater Apoer2 recycling impairment than the smaller impairment described for ApoE3 in three independent experiments.",
+   "Finding quote": "As shown in Figure 4D and E, physiological concentrations of ApoE3 (5 µg/ml) also impaired Apoer2 recycling to a small, but significant extent. This was also prevented by EMD87580 at the same concentration (3 µM) at which the effect of ApoE4 on Apoer2 recycling was completely neutralized (Figure 4D,E), suggesting that ApoE3 also, although to a minor extent, may lose solubility upon entering the early endosome, and that this is also prevented by pH lowering.",
+   "Finding summary": "(apoE3 -> apoE4) -> (greater Apoer2 recycling impairment)",
+   "Finding relevance": 0.9,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; human cell-secreted ApoE3 or ApoE4, standard 5 µg/ml, followed by Reelin; no-drug comparison; surface biotinylation and Apoer2 immunoblotting.",
+   "Data location": "Fig 4D",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P5",
+   "finding_id": "P5.F4",
+   "key": "pmid30375977",
+   "quote_start": "As shown in Figure 4D and E, physiological concentrations of ApoE3 (5 ",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 4D; supplementary file elife-40048-fig4-data1.xlsx, sheet Fig4E, EMD87580 0 uM, E3+R versus E4+R",
+    "Effect size": "2.9x",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "Quote verbatim and supports the description; the no-drug ApoE3 vs ApoE4 comparison is quantified in the Fig 4E source data.",
+   "evidence": "Sheet Fig4E at 0 uM EMD87580: E3+R 86.1/72.7/69.4 (mean 76.1) vs E4+R 22.6/30.7/25.1 (mean 26.1) = 2.9x."
+  },
+  "item": 14
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F10",
+   "Finding description": "The first NHE6-targeting shRNA restored Apoer2 surface expression in ApoE4-treated neurons in three independent experiments.",
+   "Finding quote": "Figure 5A–D shows that of all NHEs (1 and 5 through 9) that were targeted by shRNA inhibition, only NHE6-specific shRNAs were able to completely restore Apoer2 expression at the plasma membrane in the presence of ApoE4 (Figure 5A, lane 6, 5C, lanes 8, 10, 12, and quantified in Panels B and D).",
+   "Finding summary": "(NHE6 knockdown with apoE4 present) -> (restored surface Apoer2)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons; lentiviral NHE6 shRNA construct 1, corresponding to shNHE6 a/TRCN0000068828; assay 3 days after infection; human ApoE4 plus Reelin; surface/total Apoer2 quantification.",
+   "Data location": "Fig 5D; supplementary file elife-40048-fig5-data1.xlsx, sheet Fig5D, E4+R versus E4+R+shNHE6(1)",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 2,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P5",
+   "finding_id": "P5.F10",
+   "key": "pmid30375977",
+   "quote_start": "Figure 5A–D shows that of all NHEs (1 and 5 through 9) that were targe",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "3.7x",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "Quote verbatim and the shNHE6(1) columns are in the cited sheet, so the restoration can be quantified instead of left qualitative; no star marks this cross-pair comparison, so P stays N/A.",
+   "evidence": "Sheet Fig5D: E4+R 32.1/22.6/27.4 (mean 27.4) vs E4+R+shNHE6(1) 104.8/98.2/102.5 (mean 101.8) = 3.7x restoration. Fig 5D image: the *** brackets are within C+R/E4+R pairs, none over E4+R vs E4+R+shNHE6."
+  },
+  "item": 15
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F11",
+   "Finding description": "Adding human ApoE4 reduced Reelin-associated surface Apoer2 relative to the no-ApoE4 condition in three independent neuronal experiments.",
+   "Finding quote": "ApoE-conditioned media treatment reduces the surface expression of Apoer2 in presence of Reelin in primary neurons.",
+   "Finding summary": "(no added apoE4 -> added apoE4) -> (lower surface Apoer2)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; comparison without EMD87580; human cell-secreted ApoE4 and Reelin; surface biotinylation followed by surface/total Apoer2 immunoblotting. Standard Methods concentrations: ApoE4 5 µg/ml and Reelin 2 µg/ml.",
+   "Data location": "Fig 4B",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 2,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P5",
+   "finding_id": "P5.F11",
+   "key": "pmid30375977",
+   "quote_start": "ApoE-conditioned media treatment reduces the surface expression of Apo",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 4B; supplementary file elife-40048-fig4-data1.xlsx, sheet Fig4C, Con versus 0 uM EMD87580",
+    "Effect size": "4.1x",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "Finding is supported, but the quote is taken from the Figure 2 legend while the row cites Fig 4B; the Fig 4C source data quantify this exact lane pair, so the value and location are made explicit.",
+   "evidence": "Sheet Fig4C: Con 103.1/96.9/99.7 (mean 99.9) vs 0 uM (ApoE4) 20.1/27.4/25.3 (mean 24.3) = 4.1x."
+  },
+  "item": 16
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F12",
+   "Finding description": "In the control condition without NHE knockdown, ApoE4 addition reduced surface Apoer2 in three independent primary-neuron experiments.",
+   "Finding quote": "(A and C) shRNA knockdown of NHE6, but not other NHEs (NHE1, 5, 7, 8, 9) restores ApoE4-impaired Apoer2 recycling.",
+   "Finding summary": "(no added apoE4 -> added apoE4) -> (lower surface Apoer2)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; control C+R versus E4+R, with human cell-secreted ApoE4 and Reelin; surface/total Apoer2 immunoblotting.",
+   "Data location": "Fig 5A; paired quantification in Fig 5B and supplementary file elife-40048-fig5-data1.xlsx, sheet Fig5B",
+   "Effect size": "qualitative",
+   "Effect size provenance": "supplement_only",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 2,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P5",
+   "finding_id": "P5.F12",
+   "key": "pmid30375977",
+   "quote_start": "(A and C) shRNA knockdown of NHE6, but not other NHEs (NHE1, 5, 7, 8, ",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "3.8x",
+    "Effect size provenance": "supplement_only",
+    "P value": "<0.001",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Panel and n are right; the cited sheet gives both group means and Fig 5B carries a visible *** bracket over exactly this C+R vs E4+R pair (legend key ***p<0.001, Student's t-test).",
+   "evidence": "Sheet Fig5B: C+R mean 99.9 vs E4+R mean 26.3 = 3.8x. Fig 5B image: leftmost bracket with *** spans the C+R and E4+R bars."
+  },
+  "item": 17
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F13",
+   "Finding description": "The supplementary surface-Apoer2 measurements were lower with ApoE4 plus Reelin than with control plus Reelin in all three independent experiments.",
+   "Finding quote": "N/A",
+   "Finding summary": "(no added apoE4 -> added apoE4) -> (lower surface-to-total Apoer2)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; no-knockdown C+R versus E4+R comparison; surface biotinylation and surface/total Apoer2 immunoblot quantification. Supplement supplies three raw values per group without a printed aggregate effect.",
+   "Data location": "Fig 5B; supplementary file elife-40048-fig5-data1.xlsx, sheet Fig5B, C+R and E4+R columns",
+   "Effect size": "qualitative",
+   "Effect size provenance": "supplement_only",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 2,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P5",
+   "finding_id": "P5.F13",
+   "key": "pmid30375977",
+   "quote_start": "N/A",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "3.8x",
+    "Effect size provenance": "supplement_only",
+    "P value": "<0.001",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Row correctly flags supplement-only data; the three raw values per group give the ratio, and the *** bracket over this pair in Fig 5B supplies the p.",
+   "evidence": "Sheet Fig5B: C+R 105.5/96.9/97.4 vs E4+R 21.3/30.5/27.1 = 3.8x. Fig 5B image: *** bracket over C+R vs E4+R; Fig 5 legend key ***p<0.001."
+  },
+  "item": 18
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F14",
+   "Finding description": "Quantified surface Apoer2 was lower with ApoE4 plus Reelin than with control plus Reelin in all three independent experiments.",
+   "Finding quote": "N/A",
+   "Finding summary": "(no added apoE4 -> added apoE4) -> (lower surface-to-total Apoer2)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; no-knockdown C+R versus E4+R; surface biotinylation and Apoer2 surface/total immunoblot quantification; three raw measurements per group supplied.",
+   "Data location": "Fig 5D; supplementary file elife-40048-fig5-data1.xlsx, sheet Fig5D, C+R and E4+R columns",
+   "Effect size": "qualitative",
+   "Effect size provenance": "supplement_only",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 2,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P5",
+   "finding_id": "P5.F14",
+   "key": "pmid30375977",
+   "quote_start": "N/A",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "3.7x",
+    "Effect size provenance": "supplement_only",
+    "P value": "<0.001",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Same correction for the Fig 5D no-knockdown pair: ratio from the cited sheet, p from the visible *** bracket over this comparison.",
+   "evidence": "Sheet Fig5D: C+R 105.1/96.6/98.5 (mean 100.1) vs E4+R 32.1/22.6/27.4 (mean 27.4) = 3.7x. Fig 5D image: leftmost *** bracket spans C+R and E4+R."
+  },
+  "item": 19
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F15",
+   "Finding description": "Adding ApoE4 reduced neuronal surface Apoer2 relative to the no-ApoE4 condition in three independent experiments.",
+   "Finding quote": "N/A",
+   "Finding summary": "(no added apoE4 -> added apoE4) -> (lower surface Apoer2)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; Fig 6B lanes 1 versus 2, both with Reelin, without inhibitor or shRNA; human cell-secreted ApoE4; surface-biotinylation Apoer2 immunoblot.",
+   "Data location": "Fig 6B, Apoer2 blot, lanes 1 and 2",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 2,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P5",
+   "finding_id": "P5.F15",
+   "key": "pmid30375977",
+   "quote_start": "N/A",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 6B, Apoer2 blot, lanes 1 and 2; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6C, C+R versus E4+R",
+    "Effect size": "4.0x",
+    "Effect size provenance": "supplement_only",
+    "P value": "<0.001",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Correct lanes and direction; the matching quantification (Fig 6C) is in the source data and carries a visible *** bracket over C+R vs E4+R.",
+   "evidence": "Sheet Fig6C: C+R mean 100.0 vs E4+R 29.4/19.3/25.5 (mean 24.7) = 4.0x. Fig 6C image: *** bracket from bar 1 (C+R) to bar 2 (E4+R); Fig 6 legend key ***p<0.001."
+  },
+  "item": 20
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F16",
+   "Finding description": "In scrambled-shRNA neurons, ApoE4 addition retained the reduction in surface Apoer2 across three independent experiments.",
+   "Finding quote": "N/A",
+   "Finding summary": "(no added apoE4 -> added apoE4, scrambled shRNA) -> (lower surface Apoer2)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons; lentiviral scrambled shRNA, experiments 3 days after infection at DIV9–14; Fig 6B lanes 4 versus 5, both Reelin-treated; surface-biotinylation Apoer2 immunoblot.",
+   "Data location": "Fig 6B, Apoer2 blot, lanes 4 and 5",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 2,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P5",
+   "finding_id": "P5.F16",
+   "key": "pmid30375977",
+   "quote_start": "N/A",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 6B, Apoer2 blot, lanes 4 and 5; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6C, R+scramble versus E4+R+scramble",
+    "Effect size": "4.1x",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "Lanes and direction are right and the scramble columns are in the Fig 6C sheet; P stays N/A because the second *** bracket runs from C+R to E4+R+scramble, not between the two scramble bars.",
+   "evidence": "Sheet Fig6C: R+scramble mean 97.7 vs E4+R+scramble 20.1/22.5/28.6 (mean 23.7) = 4.1x. Fig 6C image: long *** bracket starts at bar 1 (C+R)."
+  },
+  "item": 21
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F17",
+   "Finding description": "Quantification showed lower surface Apoer2 after ApoE4 addition than without ApoE4 in three independent experiments.",
+   "Finding quote": "N/A",
+   "Finding summary": "(no added apoE4 -> added apoE4) -> (lower surface-to-total Apoer2)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; no-shRNA/no-inhibitor comparison corresponding to Fig 6B lanes 1 and 2; human ApoE4 and Reelin; surface/total Apoer2 quantification.",
+   "Data location": "Fig 6C",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 2,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P5",
+   "finding_id": "P5.F17",
+   "key": "pmid30375977",
+   "quote_start": "N/A",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 6C; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6C, C+R versus E4+R",
+    "Effect size": "4.0x",
+    "Effect size provenance": "supplement_only",
+    "P value": "<0.001",
+    "P value provenance": "visual_only"
+   },
+   "reason": "This is the Apoer2 quantification panel, so the source-data ratio and the visible *** over this exact pair replace 'qualitative' and N/A.",
+   "evidence": "Sheet Fig6C: C+R mean 100.0 vs E4+R mean 24.7 = 4.0x; Fig 6C image shows *** over the C+R/E4+R bracket."
+  },
+  "item": 22
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F18",
+   "Finding description": "EMD87580 restored surface GluN2B in ApoE4-treated neurons in three independent experiments.",
+   "Finding quote": "EMD87580 and the NHE6-specific shRNAs completely restored Apoer2 and glutamate receptor surface expression, while the scrambled shRNA had no effect (Panel B and quantified in Panels C-F).",
+   "Finding summary": "(NHE inhibition with apoE4 present) -> (restored surface GluN2B)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; EMD87580 3 µM, standard 1 h pretreatment; human ApoE4 and Reelin; quantified surface/total GluN2B corresponding to Fig 6B lanes 2 versus 3.",
+   "Data location": "Fig 6D, EMD87580 comparison",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 2,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P5",
+   "finding_id": "P5.F18",
+   "key": "pmid30375977",
+   "quote_start": "EMD87580 and the NHE6-specific shRNAs completely restored Apoer2 and g",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 6D, EMD87580 comparison; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6D, E4+R versus E4+R+EMD87580",
+    "Effect size": "3.9x",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "Quote and panel are right (GluN2B is Fig 6D); the rescue can be quantified from the sheet. No star marks E4+R vs E4+R+EMD87580, so P stays N/A.",
+   "evidence": "Sheet Fig6D: E4+R mean 24.1 vs E4+R+EMD87580 107.2/80.2/95.3 (mean 94.2) = 3.9x. Fig 6D image: brackets run from C+R only."
+  },
+  "item": 23
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F19",
+   "Finding description": "Adding ApoE4 reduced surface GluN2B-containing NMDA receptors relative to no ApoE4 in three independent neuronal experiments.",
+   "Finding quote": "N/A",
+   "Finding summary": "(no added apoE4 -> added apoE4) -> (lower surface GluN2B)",
+   "Finding relevance": 0.75,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; Fig 6B lanes 1 versus 2, Reelin in both; human ApoE4 added without inhibitor or shRNA; surface biotinylation and GluN2B immunoblot.",
+   "Data location": "Fig 6B, GluN2B blot, lanes 1 and 2",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 4,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P5",
+   "finding_id": "P5.F19",
+   "key": "pmid30375977",
+   "quote_start": "N/A",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 6B, GluN2B blot, lanes 1 and 2; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6D, C+R versus E4+R",
+    "Effect size": "4.1x",
+    "Effect size provenance": "supplement_only",
+    "P value": "<0.001",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Lanes, subunit and direction check out; Fig 6D quantifies these lanes and shows *** over C+R vs E4+R.",
+   "evidence": "Sheet Fig6D: C+R 108.2/92.2/97.6 (mean 99.3) vs E4+R 26.4/17.3/28.5 (mean 24.1) = 4.1x."
+  },
+  "item": 24
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F20",
+   "Finding description": "Adding ApoE4 reduced surface GluA1-containing AMPA receptors relative to no ApoE4 in three independent neuronal experiments.",
+   "Finding quote": "N/A",
+   "Finding summary": "(no added apoE4 -> added apoE4) -> (lower surface GluA1)",
+   "Finding relevance": 0.75,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; Fig 6B lanes 1 versus 2, both Reelin-treated; human ApoE4 addition without inhibitor or shRNA; surface biotinylation and GluA1 immunoblot.",
+   "Data location": "Fig 6B, GluA1 blot, lanes 1 and 2",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 4,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P5",
+   "finding_id": "P5.F20",
+   "key": "pmid30375977",
+   "quote_start": "N/A",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 6B, GluA1 blot, lanes 1 and 2; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6E, C+R versus E4+R",
+    "Effect size": "3.4x",
+    "Effect size provenance": "supplement_only",
+    "P value": "<0.001",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Correct lanes and subunit; Fig 6E is the GluA1 quantification and shows *** over C+R vs E4+R.",
+   "evidence": "Sheet Fig6E: C+R mean 100.0 vs E4+R 32.6/25.9/28.9 (mean 29.1) = 3.4x."
+  },
+  "item": 25
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F21",
+   "Finding description": "Adding ApoE4 reduced surface GluA2/3-containing AMPA receptors relative to no ApoE4 in three independent neuronal experiments.",
+   "Finding quote": "N/A",
+   "Finding summary": "(no added apoE4 -> added apoE4) -> (lower surface GluA2/3)",
+   "Finding relevance": 0.75,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; Fig 6B lanes 1 versus 2 with Reelin; human ApoE4 added without inhibitor or shRNA; surface biotinylation and GluA2/3 immunoblot.",
+   "Data location": "Fig 6B, GluA2/3 blot, lanes 1 and 2",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 4,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P5",
+   "finding_id": "P5.F21",
+   "key": "pmid30375977",
+   "quote_start": "N/A",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 6B, GluA2/3 blot, lanes 1 and 2; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6F, C+R versus E4+R",
+    "Effect size": "3.6x",
+    "Effect size provenance": "supplement_only",
+    "P value": "<0.001",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Correct lanes and subunit; Fig 6F is the GluA2/3 quantification and shows *** over C+R vs E4+R.",
+   "evidence": "Sheet Fig6F: C+R mean 100.0 vs E4+R 27.4/33.1/21.9 (mean 27.5) = 3.6x."
+  },
+  "item": 26
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F22",
+   "Finding description": "In scrambled-shRNA neurons, ApoE4 addition retained the reduction in surface GluN2B across three independent experiments.",
+   "Finding quote": "N/A",
+   "Finding summary": "(no added apoE4 -> added apoE4, scrambled shRNA) -> (lower surface GluN2B)",
+   "Finding relevance": 0.75,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons with lentiviral scrambled shRNA; human ApoE4 versus no ApoE4, Reelin in both; Fig 6B lanes 4 versus 5; surface biotinylation and GluN2B immunoblot.",
+   "Data location": "Fig 6B, GluN2B blot, lanes 4 and 5",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 4,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P5",
+   "finding_id": "P5.F22",
+   "key": "pmid30375977",
+   "quote_start": "N/A",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 6B, GluN2B blot, lanes 4 and 5; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6D, R+scramble versus E4+R+scramble",
+    "Effect size": "4.1x",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "Scramble lanes and direction are right; ratio added from the sheet. P stays N/A: the long *** bracket is C+R vs E4+R+scramble, not scramble vs scramble.",
+   "evidence": "Sheet Fig6D: R+scramble mean 96.3 vs E4+R+scramble 18.5/21.7/29.6 (mean 23.3) = 4.1x."
+  },
+  "item": 27
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F23",
+   "Finding description": "In scrambled-shRNA neurons, ApoE4 addition retained the reduction in surface GluA1 across three independent experiments.",
+   "Finding quote": "N/A",
+   "Finding summary": "(no added apoE4 -> added apoE4, scrambled shRNA) -> (lower surface GluA1)",
+   "Finding relevance": 0.75,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons with lentiviral scrambled shRNA; Fig 6B lanes 4 versus 5, human ApoE4 versus none and Reelin in both; surface-biotinylation GluA1 immunoblot.",
+   "Data location": "Fig 6B, GluA1 blot, lanes 4 and 5",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 4,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P5",
+   "finding_id": "P5.F23",
+   "key": "pmid30375977",
+   "quote_start": "N/A",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 6B, GluA1 blot, lanes 4 and 5; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6E, R+scramble versus E4+R+scramble",
+    "Effect size": "4.3x",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "Scramble lanes correct for GluA1; ratio added from the Fig 6E sheet.",
+   "evidence": "Sheet Fig6E: R+scramble mean 98.6 vs E4+R+scramble 18.5/22.7/27.6 (mean 22.9) = 4.3x."
+  },
+  "item": 28
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F24",
+   "Finding description": "In scrambled-shRNA neurons, ApoE4 addition retained the reduction in surface GluA2/3 across three independent experiments.",
+   "Finding quote": "N/A",
+   "Finding summary": "(no added apoE4 -> added apoE4, scrambled shRNA) -> (lower surface GluA2/3)",
+   "Finding relevance": 0.75,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons with lentiviral scrambled shRNA; Fig 6B lanes 4 versus 5, human ApoE4 versus none with Reelin; surface biotinylation and GluA2/3 immunoblot.",
+   "Data location": "Fig 6B, GluA2/3 blot, lanes 4 and 5",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 4,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P5",
+   "finding_id": "P5.F24",
+   "key": "pmid30375977",
+   "quote_start": "N/A",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 6B, GluA2/3 blot, lanes 4 and 5; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6F, R+scramble versus E4+R+scramble",
+    "Effect size": "3.7x",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "Scramble lanes correct for GluA2/3; ratio added from the Fig 6F sheet.",
+   "evidence": "Sheet Fig6F: R+scramble mean 99.6 vs E4+R+scramble 33.7/19.8/26.6 (mean 26.7) = 3.7x."
+  },
+  "item": 29
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F25",
+   "Finding description": "Quantification showed lower surface GluN2B after ApoE4 addition than without ApoE4 in three independent experiments.",
+   "Finding quote": "N/A",
+   "Finding summary": "(no added apoE4 -> added apoE4) -> (lower surface-to-total GluN2B)",
+   "Finding relevance": 0.75,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; human ApoE4 versus none with Reelin, without inhibitor or shRNA; GluN2B surface/total quantification corresponding to Fig 6B lanes 1 and 2.",
+   "Data location": "Fig 6D",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 4,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P5",
+   "finding_id": "P5.F25",
+   "key": "pmid30375977",
+   "quote_start": "N/A",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 6D; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6D, C+R versus E4+R",
+    "Effect size": "4.1x",
+    "Effect size provenance": "supplement_only",
+    "P value": "<0.001",
+    "P value provenance": "visual_only"
+   },
+   "reason": "GluN2B quantification panel: source-data ratio and the visible *** over this pair replace 'qualitative' and N/A.",
+   "evidence": "Sheet Fig6D: C+R mean 99.3 vs E4+R mean 24.1 = 4.1x; Fig 6D image shows *** over the C+R/E4+R bracket."
+  },
+  "item": 30
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F26",
+   "Finding description": "Quantification showed lower surface GluA1 after ApoE4 addition than without ApoE4 in three independent experiments.",
+   "Finding quote": "N/A",
+   "Finding summary": "(no added apoE4 -> added apoE4) -> (lower surface-to-total GluA1)",
+   "Finding relevance": 0.75,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; human ApoE4 versus none with Reelin, without inhibitor or shRNA; GluA1 surface/total quantification corresponding to Fig 6B lanes 1 and 2.",
+   "Data location": "Fig 6E",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 4,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P5",
+   "finding_id": "P5.F26",
+   "key": "pmid30375977",
+   "quote_start": "N/A",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 6E; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6E, C+R versus E4+R",
+    "Effect size": "3.4x",
+    "Effect size provenance": "supplement_only",
+    "P value": "<0.001",
+    "P value provenance": "visual_only"
+   },
+   "reason": "GluA1 quantification panel: ratio from the sheet, p from the visible *** bracket.",
+   "evidence": "Sheet Fig6E: C+R mean 100.0 vs E4+R mean 29.1 = 3.4x."
+  },
+  "item": 31
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F27",
+   "Finding description": "Quantification showed lower surface GluA2/3 after ApoE4 addition than without ApoE4 in three independent experiments.",
+   "Finding quote": "N/A",
+   "Finding summary": "(no added apoE4 -> added apoE4) -> (lower surface-to-total GluA2/3)",
+   "Finding relevance": 0.75,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; human ApoE4 versus none with Reelin, without inhibitor or shRNA; GluA2/3 surface/total quantification corresponding to Fig 6B lanes 1 and 2.",
+   "Data location": "Fig 6F",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 4,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P5",
+   "finding_id": "P5.F27",
+   "key": "pmid30375977",
+   "quote_start": "N/A",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 6F; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6F, C+R versus E4+R",
+    "Effect size": "3.6x",
+    "Effect size provenance": "supplement_only",
+    "P value": "<0.001",
+    "P value provenance": "visual_only"
+   },
+   "reason": "GluA2/3 quantification panel: ratio from the sheet, p from the visible *** bracket.",
+   "evidence": "Sheet Fig6F: C+R mean 100.0 vs E4+R mean 27.5 = 3.6x."
+  },
+  "item": 32
+ }
+]

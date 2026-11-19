@@ -44,11 +44,24 @@ def _from_files(d, kind, num):
                 cands.append((pathlib.Path(n).name, (lambda n=n: zf.read(n))))
     pats = ([rf"(?:^|[^0-9a-z])(?:fig|f|gr)0*{num}(?:[^0-9]|$)", rf"g0*{num}\.(?:jpe?g|png|gif)$"] if not kind else
             [rf"(?:fig|f)s0*{num}(?:[^0-9]|$)", rf"supp\w*fig\w*0*{num}(?:[^0-9]|$)"])
-    for name, read in sorted(cands, key=lambda x: -len(x[0])):
+    # PMC packages carry each figure twice: a full-size .jpg and a ~100 px .gif thumbnail. Prefer the
+    # non-GIF file, and never return an image too small to read (see big_enough)
+    for name, read in sorted(cands, key=lambda x: (x[0].lower().endswith(".gif"), -len(x[0]))):
         low = name.lower()
         if any(re.search(p, low) for p in pats) and not re.search(r"thumb|_t\.|icon", low):
-            return name, read()
+            data = read()
+            if big_enough(data):
+                return name, data
     return None
+
+
+def big_enough(data, min_width=400):
+    """A figure image a person (or model) can read values off: at least 400 px wide."""
+    try:
+        from PIL import Image
+        return Image.open(io.BytesIO(data)).size[0] >= min_width
+    except Exception:
+        return False
 
 
 def _get(url):
@@ -79,7 +92,7 @@ def _from_xml(d, kind, num):
         for ext in ("", ".jpg", ".png", ".gif"):
             try:
                 b = _get(f"https://europepmc.org/articles/{meta['pmcid']}/bin/{href}{ext}")
-                if b[:3] == b"\xff\xd8\xff" or b[:4] == b"\x89PNG" or b[:3] == b"GIF":
+                if (b[:3] == b"\xff\xd8\xff" or b[:4] == b"\x89PNG" or b[:3] == b"GIF") and big_enough(b):
                     return href + (ext or ".jpg"), b
             except Exception:
                 pass
@@ -103,7 +116,7 @@ def _from_html(d, kind, num):
             url = url if url.startswith("http") else "https://pmc.ncbi.nlm.nih.gov" + url
             try:
                 b = _get(url)
-                if b[:3] == b"\xff\xd8\xff" or b[:4] == b"\x89PNG" or b[:3] == b"GIF":
+                if (b[:3] == b"\xff\xd8\xff" or b[:4] == b"\x89PNG" or b[:3] == b"GIF") and big_enough(b):
                     return pathlib.Path(url).name, b
             except Exception:
                 pass
@@ -117,10 +130,34 @@ def _from_pdf(d, kind, num):
     import pymupdf
     doc = pymupdf.open(pdf)
     head = rf"^\s*(?:Supplementary\s+)?(?:Figure|Fig\.?)\s*{'S' if kind else ''}{num}[.:|\s]"
-    for i, page in enumerate(doc):
-        if any(re.match(head, line) for line in page.get_text().splitlines()):
-            pix = page.get_pixmap(dpi=200)
-            return f"page{i + 1}.png", pix.tobytes("png")
+    label = rf"(?:Figure|Fig\.?)\s*{'S' if kind else ''}{num}\b"
+
+    def has_figure(page):
+        # an embedded image covering a good part of the page, or a page of vector drawings
+        area = page.rect.width * page.rect.height
+        for info in page.get_image_info():
+            x0, y0, x1, y1 = info["bbox"]
+            if (x1 - x0) * (y1 - y0) > 0.15 * area:
+                return True
+        return len(page.get_drawings()) > 200
+
+    pages = list(doc)
+    legend = [i for i, pg in enumerate(pages) if any(re.match(head, l) for l in pg.get_text().splitlines())]
+    # 1. the legend page itself carries the figure (journal layout)
+    # 2. author manuscripts: legends listed together, figures on later pages labelled "Figure N"
+    # 3. the page right after the legend
+    order = [i for i in legend if has_figure(pages[i])] \
+        + [i for i, pg in enumerate(pages) if i not in legend and has_figure(pg) and re.search(label, pg.get_text())] \
+        + [i + 1 for i in legend if i + 1 < len(pages) and has_figure(pages[i + 1])]
+    # 4. unlabelled figure pages after a legends section: main figure N is the N-th page with a figure
+    if legend and not kind:
+        after = [i for i in range(legend[0] + 1, len(pages)) if has_figure(pages[i])]
+        if len(after) >= int(num):
+            order.append(after[int(num) - 1])
+    order += legend
+    for i in order:
+        pix = pages[i].get_pixmap(dpi=200)
+        return f"page{i + 1}.png", pix.tobytes("png")
     return None
 
 

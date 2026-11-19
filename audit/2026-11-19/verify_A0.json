@@ -1,0 +1,1623 @@
+[
+ {
+  "src": "2",
+  "paper": {
+   "key": "doi_10_17615_yant_mg96",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/doi_10_17615_yant_mg96/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/doi_10_17615_yant_mg96/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F1",
+   "Finding description": "The review reports that inhibiting or depleting NHE6 rescued receptor recycling in APOE4-treated neurons.",
+   "Finding quote": "Inhibiting or depleting the early endosome proton leak channel NHE6 rescued receptor recycling in E4-treated neurons (Xian et al., 2018; Pohlkamp et al., 2021).",
+   "Finding summary": "(NHE6 inhibition or depletion in APOE4-treated neurons) -> (rescued receptor recycling)",
+   "Finding relevance": 0.9,
+   "Experimental system": "APOE4-treated neurons; species and neuronal source are not separately specified for these cited rescue studies. NHE6 inhibition or depletion; treatment duration and recycling assay are unspecified.",
+   "Data location": "Chapter 1, Altered endocytosis and endolysosomal function, printed p. 13; sentence citing Xian et al. (2018) and Pohlkamp et al. (2021).",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 2,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P3",
+   "finding_id": "P3.F1",
+   "key": "doi_10_17615_yant_mg96",
+   "quote_start": "Inhibiting or depleting the early endosome proton leak channel NHE6 re",
+   "verdict": "DROP",
+   "reason": "Not the source's own result: a sentence from Chapter 1 (literature review) of a dissertation on lipid-droplet APOE, restating Xian et al. 2018 and Pohlkamp et al. 2021.",
+   "evidence": "Chapter One 'APOE IN THE CENTRAL NERVOUS SYSTEM': 'Inhibiting or depleting the early endosome proton leak channel NHE6 rescued receptor recycling in E4-treated neurons (Xian et al., 2018; Pohlkamp et al., 2021).'"
+  },
+  "item": 1
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "doi_10_17615_yant_mg96",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/doi_10_17615_yant_mg96/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/doi_10_17615_yant_mg96/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F2",
+   "Finding description": "The review reports reduced surface LRP1 in astrocytes from APOE4 targeted-replacement mice, consistent with impaired recycling; the comparator is unspecified and binding strength was not reported.",
+   "Finding quote": "Astrocytes from E4 targeted replacement mice exhibit reduced endolysosomal pH and reduced surface levels of LRP1, suggesting similar E4-dependent defects in endocytosis and receptor recycling.",
+   "Finding summary": "(APOE4 genotype) -> (lower astrocyte surface LRP1)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Astrocytes from human APOE4 targeted-replacement mice; immortalization status, strain, age, comparator, treatment, and surface-receptor assay are not specified in this passage.",
+   "Data location": "Chapter 1, Altered endocytosis and endolysosomal function, printed p. 13; first sentence of the astrocyte paragraph.",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P3",
+   "finding_id": "P3.F2",
+   "key": "doi_10_17615_yant_mg96",
+   "quote_start": "Astrocytes from E4 targeted replacement mice exhibit reduced endolysos",
+   "verdict": "DROP",
+   "reason": "Not the source's own result: the same Chapter 1 review paragraph summarising other work (the paragraph cites Prasad and Rao, 2018); the dissertation's own experiments are on lipid droplets.",
+   "evidence": "Chapter One: 'Astrocytes from E4 targeted replacement mice exhibit reduced endolysosomal pH and reduced surface levels of LRP1, suggesting similar E4-dependent defects ... (Prasad and Rao, 2018).'"
+  },
+  "item": 2
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid11369796",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid11369796/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/pmid11369796/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P15.F1",
+   "Finding description": "Cited prior experiments comparing DMPC-complexed full-length human apoE4 and apoE3 reported the same LDLR affinity, with no significant difference reported and statistical testing unspecified.",
+   "Finding quote": "When complexed with DMPC, full-length apoE3 and apoE4 and their 22-kDa fragments have the same afﬁnity for the LDLR (4, 34).",
+   "Finding summary": "(apoE3 -> apoE4) -> (no change in LDLR-binding affinity of DMPC-complexed full-length apoE)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Human full-length apoE3 and apoE4 complexed with DMPC; LDLR-binding comparison summarized from references 4 and 34. Protein source, receptor-bearing cell type, treatment duration, and biological age are not specified for this comparison in the supplied paper.",
+   "Data location": "When complexed with DMPC, full-length\napoE3 and apoE4 and their 22-kDa fragments have the\nsame afﬁnity for the LDLR (4, 34).",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P15",
+   "finding_id": "P15.F1",
+   "key": "pmid11369796",
+   "quote_start": "When complexed with DMPC, full-length apoE3 and apoE4 and their 22-kDa",
+   "verdict": "DROP",
+   "reason": "Not the paper's own result: the sentence cites refs 4 and 34 for the DMPC-complex LDLR affinity (the row description itself says 'Cited prior experiments').",
+   "evidence": "'When complexed with DMPC, full-length apoE3 and apoE4 and their 22-kDa fragments have the same affinity for the LDLR (4, 34). In contrast, the affinity of full-length apoE2 is 1% that of apoE3 ... (4).'"
+  },
+  "item": 3
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid15475580/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F1",
+   "Finding description": "At 0.50 mg/ml, full-length apoE4 had a larger large-species fraction than apoE3, 26% versus 21%, despite identical weight-average sedimentation coefficients of 6.5 S.",
+   "Finding quote": "Furthermore, at higher protein concentration, large species ( s > 10) were more significantly increased for the apoE4 protein (by 15%), compared to apoE3 protein (6%). These observations support the greater aggregation of apoE4 protein.",
+   "Finding summary": "(apoE3 -> apoE4) -> (higher fraction of large apoE species at 0.50 mg/ml)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Purified recombinant human full-length apoE3 and apoE4 with C-terminal His tags; PBS, pH 7.3; sedimentation velocity at 20°C and 40,000 rpm. Table 2 specifies that its higher-concentration full-length samples were 0.50 mg/ml.",
+   "Data location": "Fig 4A–B; Table 2, higher-concentration full-length rows and footnote; Table 1",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "2",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P3",
+   "finding_id": "P3.F1",
+   "key": "pmid15475580",
+   "quote_start": "Furthermore, at higher protein concentration, large species ( s > 10) ",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.24x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Values correct (s>10 fraction 26% apoE4 vs 21% apoE3 at 0.50 mg/ml; s_w 6.5 both); both group values printed in Table 2, so give the ratio 26/21.",
+   "evidence": "Table 2 (0.15 mg/ml column; 1.00 mg/ml column, footnote: full-length at 0.50 mg/ml): ApoE3 11.0-23.1 S 0.24 (21%); ApoE4 10.4-24.4 S 0.28 (26%). Table 1: ApoE3 0.50 s_w 6.5, ApoE4 0.50 s_w 6.5. 'Every sedimentation velocity experiment was repeated twice'."
+  },
+  "item": 4
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid15475580/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F2",
+   "Finding description": "Increasing full-length protein concentration from 0.15 to 0.50 mg/ml increased the large-species fraction by 15 percentage points for apoE4 and 6 percentage points for apoE3.",
+   "Finding quote": "Furthermore, at higher protein concentration, large species ( s > 10) were more significantly increased for the apoE4 protein (by 15%), compared to apoE3 protein (6%).",
+   "Finding summary": "(apoE3 -> apoE4) -> (greater concentration-dependent increase in large apoE species)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Purified recombinant human full-length apoE3 and apoE4; PBS, pH 7.3; 0.15 and 0.50 mg/ml; sedimentation velocity at 20°C and 40,000 rpm.",
+   "Data location": "Fig 4A–B; Table 2; Results, Size distribution of full-length apoE3 and apoE4 proteins",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "2",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P3",
+   "finding_id": "P3.F2",
+   "key": "pmid15475580",
+   "quote_start": "Furthermore, at higher protein concentration, large species ( s > 10) ",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "2.5x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Description and quote correct; text prints both increases (15% vs 6%), so ratio 15/6 = 2.5x.",
+   "evidence": "'large species ( s > 10) were more significantly increased for the apoE4 protein (by 15%), compared to apoE3 protein (6%)'; Table 2: apoE4 11%->26%, apoE3 15%->21%."
+  },
+  "item": 5
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid15475580/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F3",
+   "Finding description": "At 1.00 mg/ml, apoE4 72–299 had more large species than apoE3 72–299, 21% versus 12%, and a more heterogeneous distribution; the apoE3 major region contained 77% at 5.9 S.",
+   "Finding quote": "Similar to the full-length proteins, at higher protein concentrations, apoE4 72-299 had more abundant larger species ( s > 10, 21%), compared with those of apoE3 72-299 (12%). ApoE4 72-299 therefore shows a greater tendency to aggregate.",
+   "Finding summary": "(apoE3 72–299 -> apoE4 72–299) -> (higher large-species fraction and greater heterogeneity)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Purified recombinant human apoE3 and apoE4 residues 72–299; 1.00 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C and 40,000 rpm; continuous c(s) analysis.",
+   "Data location": "Fig 4E–F; Table 2, 1.00 mg/ml rows",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "2",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P3",
+   "finding_id": "P3.F3",
+   "key": "pmid15475580",
+   "quote_start": "Similar to the full-length proteins, at higher protein concentrations,",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.75x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Values correct (21% vs 12%, apoE3 major region 77% at 5.9 S); both values printed, ratio 21/12.",
+   "evidence": "'apoE4 72-299 had more abundant larger species ( s > 10, 21%), compared with those of apoE3 72-299 (12%)'; Table 2 1.00 mg/ml: ApoE3 72-299 1.7-8.2 S 5.9 +/- 1.1 0.72 (77%), 10.3-22.8 S 0.11 (12%); ApoE4 72-299 10.1-23.6 S 0.19 (21%)."
+  },
+  "item": 6
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid15475580/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F4",
+   "Finding description": "Increasing concentration from 0.15 to 1.00 mg/ml increased the apoE4 72–299 large-species fraction from 7% to 21%, while the apoE3 fraction changed from 13% to 12%.",
+   "Finding quote": "This feature showed that aggregation of apoE4 72-299 protein was more sensitive to concentration.",
+   "Finding summary": "(apoE3 72–299 -> apoE4 72–299) -> (greater concentration-dependent aggregation)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Purified recombinant human apoE3 and apoE4 residues 72–299; 0.15 and 1.00 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C.",
+   "Data location": "Fig 4E–F; Table 2",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "2",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P3",
+   "finding_id": "P3.F4",
+   "key": "pmid15475580",
+   "quote_start": "This feature showed that aggregation of apoE4 72-299 protein was more ",
+   "verdict": "FIX",
+   "set": {
+    "Finding quote": "The smallest apoE4 72-299 species with s = 4.6 decreased by 4% at the higher protein concentration. At the same time, species s = 6.6 and 9.4 decreased by 24 and 8%, respectively, species s = 7.7 remained at 23%, and those with s > 10 increased by 14%."
+   },
+   "reason": "Numbers correct (apoE4 7%->21%, apoE3 13%->12%), but the quoted sentence ('This feature...') refers to the 10-vs-5 species count, not the large-species fraction; use the sentence that prints the s>10 increase. Effect left qualitative (isoform comparison of concentration changes, +14 vs -1 points, has no allowed ratio shape).",
+   "evidence": "Table 2: ApoE4 72-299 11.7-20.1 S 0.01 (7%) at 0.15, 10.1-23.6 S 0.19 (21%) at 1.00; ApoE3 72-299 11.0-20.8 S 0.02 (13%) at 0.15, 10.3-22.8 S 0.11 (12%) at 1.00. Text: 'those with s > 10 increased by 14%'."
+  },
+  "item": 7
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid15475580/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F5",
+   "Finding description": "At 0.15 mg/ml, apoE4 1–271 contained more large species than apoE3 1–271, 21% versus 13%, with overlapping oligomer distributions spanning approximately 50–400 kDa.",
+   "Finding quote": "ApoE4 1-271 was made up of more and larger species ( s > 10; 21%), compared to apoE3 1-271 (13%).",
+   "Finding summary": "(apoE3 1–271 -> apoE4 1–271) -> (higher fraction of large apoE oligomers)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Purified recombinant human apoE3 and apoE4 residues 1–271; 0.15 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C; continuous sedimentation and molar-mass distributions.",
+   "Data location": "Fig 5A–D, dotted curves; Results, Size distribution of C-terminal truncated apoE3 and apoE4 proteins",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "2",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P3",
+   "finding_id": "P3.F5",
+   "key": "pmid15475580",
+   "quote_start": "ApoE4 1-271 was made up of more and larger species ( s > 10; 21%), com",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.62x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Values correct (21% vs 13% at 0.15 mg/ml, 50-400 kDa overlapping c(M)); both printed, ratio 21/13.",
+   "evidence": "'ApoE4 1-271 was made up of more and larger species ( s > 10; 21%), compared to apoE3 1-271 (13%).' Fig 5 legend: proteins at 0.15 mg/ml."
+  },
+  "item": 8
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid15475580/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F6",
+   "Finding description": "At 1.0 mg/ml, full-length apoE4 had a larger 5.0–15.0 nm particle fraction than apoE3, 46% versus 35%, while both also had a 3.9 nm particle group.",
+   "Finding quote": "Both apoE3 and E4 proteins showed a distribution with two major particle groups, one with a size of 3.9 nm and another in the range of 5.0–15.0 nm. However, apoE3 had less 5.0–15.0 nm group particles (35%), compared with those of apoE4 (46%).",
+   "Finding summary": "(apoE3 -> apoE4) -> (higher fraction of larger apoE particles)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Purified recombinant human full-length apoE3 and apoE4; 1.0 mg/ml in PBS, pH 7.3; DynaPro-MS/X dynamic light scattering at 20°C, total detection 30–40 minutes per sample.",
+   "Data location": "Results, Dynamic light scattering of apoE proteins, full-length comparison",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P3",
+   "finding_id": "P3.F6",
+   "key": "pmid15475580",
+   "quote_start": "Both apoE3 and E4 proteins showed a distribution with two major partic",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.31x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Quote and description correct; both values printed (46% vs 35%), ratio 46/35.",
+   "evidence": "DLS at 1.0 mg/ml: 'apoE3 had less 5.0-15.0 nm group particles (35%), compared with those of apoE4 (46%).'"
+  },
+  "item": 9
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid15475580/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F8",
+   "Finding description": "At 0.15 mg/ml, full-length apoE4 had a smaller large-species fraction than apoE3, 11% versus 15%, although their overall sedimentation distributions were described as very similar.",
+   "Finding quote": "Size distribution of apoE3 and apoE4 full-length proteins showed very similar patterns ( Fig. 4, A and B ).",
+   "Finding summary": "(apoE3 -> apoE4) -> (lower fraction of large apoE species at 0.15 mg/ml)",
+   "Finding relevance": 0.75,
+   "Experimental system": "Purified recombinant human full-length apoE3 and apoE4, expressed in E. coli BL21(DE3), with C-terminal His tags; lipid-free PBS, pH 7.3; sedimentation velocity at 20°C and 40,000 rpm, continuous c(s) analysis. No cells or endo-lysosomal localization.",
+   "Data location": "Fig 4A–B; Table 2, full-length proteins at 0.15 mg/ml; Table 1",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "2",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P3",
+   "finding_id": "P3.F8",
+   "key": "pmid15475580",
+   "quote_start": "Size distribution of apoE3 and apoE4 full-length proteins showed very ",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "0.73x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Values correct (apoE4 11% vs apoE3 15% s>10 at 0.15 mg/ml); both printed in Table 2, ratio 11/15. Quote is general but the paper's own.",
+   "evidence": "Table 2 0.15 mg/ml: ApoE3 11.2-23.9 S 0.06 (15%); ApoE4 11.5-23.4 S 0.04 (11%)."
+  },
+  "item": 10
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid15475580/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F9",
+   "Finding description": "At 0.15 mg/ml, apoE4 72–299 had a smaller large-species fraction than apoE3 72–299, 7% versus 13%, although its overall weight-average sedimentation was higher, 6.4 versus 5.5 S.",
+   "Finding quote": "After calculating the integration by SEDFIT, both apoE 72-299 proteins showed four species at 0.15 mg/ml protein concentration ( Table 2 ).",
+   "Finding summary": "(apoE3 72–299 -> apoE4 72–299) -> (lower large-species fraction but higher overall sedimentation at low concentration)",
+   "Finding relevance": 0.75,
+   "Experimental system": "Purified recombinant human apoE3 and apoE4 residues 72–299, deleting N-terminal helices 1 and 2; 0.15 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C.",
+   "Data location": "Fig 4E–F; Table 2, 0.15 mg/ml rows; Table 1",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "2",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P3",
+   "finding_id": "P3.F9",
+   "key": "pmid15475580",
+   "quote_start": "After calculating the integration by SEDFIT, both apoE 72-299 proteins",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "0.54x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Values correct (7% vs 13% s>10; s_w 6.4 vs 5.5 S); both printed, ratio 7/13. Quote only says four species were found, weak support but the paper's own.",
+   "evidence": "Table 2 0.15 mg/ml: ApoE3 72-299 11.0-20.8 S 0.02 (13%); ApoE4 72-299 11.7-20.1 S 0.01 (7%). Table 1: ApoE3 72-299 0.15 s_w 5.5; ApoE4 72-299 0.15 s_w 6.4."
+  },
+  "item": 11
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid15475580/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F10",
+   "Finding description": "At 1.00 mg/ml, the paper reports 10 resolved species for apoE4 72–299 versus five for apoE3 72–299, indicating greater apoE4 distribution complexity.",
+   "Finding quote": "However, when the protein concentration was increased to 1.00 mg/ml, 10 species were found in apoE4 72-299 protein, compared with five species of apoE3 72-299 ( Fig. 4, E and F ).",
+   "Finding summary": "(apoE3 72–299 -> apoE4 72–299) -> (more resolved sedimenting species)",
+   "Finding relevance": 0.75,
+   "Experimental system": "Purified recombinant human apoE3 and apoE4 residues 72–299; 1.00 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C; distribution regularization confidence 0.68.",
+   "Data location": "Fig 4E–F; Results, Size distribution of N-terminal truncated apoE3 and apoE4 proteins",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "2",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P3",
+   "finding_id": "P3.F10",
+   "key": "pmid15475580",
+   "quote_start": "However, when the protein concentration was increased to 1.00 mg/ml, 1",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "2x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Quote and description correct; both counts printed (10 vs 5 species), ratio 2x.",
+   "evidence": "'when the protein concentration was increased to 1.00 mg/ml, 10 species were found in apoE4 72-299 protein, compared with five species of apoE3 72-299'"
+  },
+  "item": 12
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid15475580/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F11",
+   "Finding description": "ApoE4 1–231 had a lower fitted monomer–tetramer dissociation constant than apoE3 1–231, 16 ± 1.3 versus 29 ± 2.8 nM, consistent with stronger tetramerization; isoform-comparison significance was not reported.",
+   "Finding quote": "The K d of apoE3 1-191 (556 ± 233 nM) was 19 times larger than that of apoE3 1-231 (29 ± 2.8 nM) and 37 times in the case of apoE4 isoforms (592 ± 323 nM of apoE4 1-191 and 16 ± 1.3 nM of apoE4 1-231 ). Both apoE3 1-231 and apoE4 1-231 showed greater tendency toward tetramerization.",
+   "Finding summary": "(apoE3 1–231 -> apoE4 1–231) -> (lower modeled tetramer dissociation constant)",
+   "Finding relevance": 0.75,
+   "Experimental system": "Purified recombinant human apoE3 and apoE4 residues 1–231 in PBS, pH 7.3; sedimentation velocity at 20°C fitted with the SEDPHAT monomer–tetramer rapid self-association model.",
+   "Data location": "Results, Size distribution of C-terminal truncated apoE3 and apoE4 proteins, dissociation-constant paragraph",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "2",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P3",
+   "finding_id": "P3.F11",
+   "key": "pmid15475580",
+   "quote_start": "The K d of apoE3 1-191 (556 ± 233 nM) was 19 times larger than that of",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "0.55x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Kd values correct (16 +/- 1.3 vs 29 +/- 2.8 nM); both printed, so the apoE4/apoE3 Kd ratio 16/29 is available rather than N/A.",
+   "evidence": "'The K d of apoE3 1-191 (556 +/- 233 nM) was 19 times larger than that of apoE3 1-231 (29 +/- 2.8 nM) and 37 times in the case of apoE4 isoforms (592 +/- 323 nM of apoE4 1-191 and 16 +/- 1.3 nM of apoE4 1-231 ).'"
+  },
+  "item": 13
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid15475580/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F16",
+   "Finding description": "Monomer–tetramer modeling gave similar dissociation constants for apoE3 1–191 and apoE4 1–191, 556 ± 233 and 592 ± 323 nM, with no significant isoform variation reported.",
+   "Finding quote": "The K d of apoE3 1-191 (556 ± 233 nM) was 19 times larger than that of apoE3 1-231 (29 ± 2.8 nM) and 37 times in the case of apoE4 isoforms (592 ± 323 nM of apoE4 1-191 and 16 ± 1.3 nM of apoE4 1-231 ).",
+   "Finding summary": "(apoE3 1–191 -> apoE4 1–191) -> (no significant change in tetramerization affinity reported)",
+   "Finding relevance": 0.7,
+   "Experimental system": "Purified recombinant human apoE3 and apoE4 residues 1–191 in PBS, pH 7.3; sedimentation velocity at 20°C fitted with the SEDPHAT monomer–tetramer rapid self-association model.",
+   "Data location": "Results, Size distribution of C-terminal truncated apoE3 and apoE4 proteins, dissociation-constant paragraph",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "2",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P3",
+   "finding_id": "P3.F16",
+   "key": "pmid15475580",
+   "quote_start": "The K d of apoE3 1-191 (556 ± 233 nM) was 19 times larger than that of",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.06x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Kd values correct (556 +/- 233 vs 592 +/- 323 nM); both printed, so ratio 592/556 instead of N/A (CIs overlap widely; no test reported).",
+   "evidence": "'The K d of apoE3 1-191 (556 +/- 233 nM)... (592 +/- 323 nM of apoE4 1-191 ...)'"
+  },
+  "item": 14
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid15475580/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F17",
+   "Finding description": "At 0.15 mg/ml, apoE4 41–299 had a larger broad large-species fraction than apoE3 41–299, 14% versus 10%, while its weight-average sedimentation was lower, 3.7 versus 4.4 S.",
+   "Finding quote": "After calculating the integration by SEDFIT, five species were identified for both apoE 41-299 proteins ( Table 2 ).",
+   "Finding summary": "(apoE3 41–299 -> apoE4 41–299) -> (higher large-species fraction but lower overall sedimentation)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Purified recombinant human apoE3 and apoE4 residues 41–299, deleting N-terminal helix 1; 0.15 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C and 40,000 rpm.",
+   "Data location": "Fig 4C–D; Table 2, 0.15 mg/ml rows; Table 1",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "2",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P3",
+   "finding_id": "P3.F17",
+   "key": "pmid15475580",
+   "quote_start": "After calculating the integration by SEDFIT, five species were identif",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.4x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Values correct (14% vs 10% s>10; s_w 3.7 vs 4.4 S); both printed, ratio 14/10. Quote is a weak 'five species' sentence but the paper's own.",
+   "evidence": "Table 2 0.15 mg/ml: ApoE3 41-299 9.7-22.3 S 0.02 (10%); ApoE4 41-299 9.2-21.5 S 0.03 (14%). Table 1: 4.4 vs 3.7 S."
+  },
+  "item": 15
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid15475580/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F18",
+   "Finding description": "At 1.00 mg/ml, apoE4 41–299 had a large-species fraction of 10% versus 9% for apoE3, and their two major species comprised 72% versus 77%; neither fragment showed a concentration-dependent aggregation tendency.",
+   "Finding quote": "At an initial protein concentration of 1.00 mg/ml, the major species of apoE3 41-299 with s = 3.7 and 5.0 accounted for 77% of the total amount. In the case of apoE4 41-299 , the major species with s = 3.6 and 5.1 constituted 72% of the total protein amount.",
+   "Finding summary": "(apoE3 41–299 -> apoE4 41–299) -> (slightly higher large-species fraction at 1.00 mg/ml)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Purified recombinant human apoE3 and apoE4 residues 41–299; 1.00 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C and 40,000 rpm.",
+   "Data location": "Fig 4C–D; Table 2, 1.00 mg/ml rows",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "2",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P3",
+   "finding_id": "P3.F18",
+   "key": "pmid15475580",
+   "quote_start": "At an initial protein concentration of 1.00 mg/ml, the major species o",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.11x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Quote verbatim, values correct (10% vs 9%; 72% vs 77%); both printed, ratio 10/9.",
+   "evidence": "Table 2 1.00 mg/ml: ApoE3 41-299 9.9-22.8 S 0.12 (9%), major species 22%+55%=77%; ApoE4 41-299 9.6-22.9 S 0.14 (10%), 31%+41%=72%."
+  },
+  "item": 16
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid15475580/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F19",
+   "Finding description": "At 0.50 mg/ml, apoE4 72–299 had a higher weight-average sedimentation coefficient than apoE3 72–299, 6.9 versus 5.7 S.",
+   "Finding quote": "Finally, the s w of the apoE4 72-299 protein had significantly increased (from 6.4 to 7.2) at a higher protein concentration, but apoE3 72-299 did not.",
+   "Finding summary": "(apoE3 72–299 -> apoE4 72–299) -> (higher weight-average sedimentation at 0.50 mg/ml)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Purified recombinant human apoE3 and apoE4 residues 72–299; 0.50 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C.",
+   "Data location": "Table 1, apoE 72–299 rows at 0.50 mg/ml",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "2",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P3",
+   "finding_id": "P3.F19",
+   "key": "pmid15475580",
+   "quote_start": "Finally, the s w of the apoE4 72-299 protein had significantly increas",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.21x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Values correct (Table 1 at 0.50: apoE4 72-299 6.9 S vs apoE3 72-299 5.7 S); both printed, ratio 6.9/5.7. Quote describes the concentration rise (6.4->7.2), related but not this exact comparison.",
+   "evidence": "Table 1: ApoE3 72-299 0.50 0.00537 5.7; ApoE4 72-299 0.50 0.00469 6.9."
+  },
+  "item": 17
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid15475580/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F21",
+   "Finding description": "At 0.15 mg/ml, apoE4 1–231 had a lower weight-average sedimentation coefficient than apoE3 1–231, 3.1 versus 3.8 S.",
+   "Finding quote": "ApoE3 1-231 | 0.15 | 0.00546 | 3.8 | | 0.50 | 0.00660 | 4.2 | ApoE4 1-231 | 0.15 | 0.00619 | 3.1 | | 0.50 | 0.00772 | 3.6",
+   "Finding summary": "(apoE3 1–231 -> apoE4 1–231) -> (lower weight-average sedimentation at 0.15 mg/ml)",
+   "Finding relevance": 0.5,
+   "Experimental system": "Purified recombinant human apoE3 and apoE4 residues 1–231; 0.15 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C.",
+   "Data location": "Table 1, apoE 1–231 rows at 0.15 mg/ml",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "2",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P3",
+   "finding_id": "P3.F21",
+   "key": "pmid15475580",
+   "quote_start": "ApoE3 1-231 | 0.15 | 0.00546 | 3.8 | | 0.50 | 0.00660 | 4.2 | ApoE4 1-",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "0.82x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Quote is the Table 1 row; values correct (3.1 vs 3.8 S); both printed, ratio 3.1/3.8 instead of N/A.",
+   "evidence": "Table 1: ApoE3 1-231 0.15 3.8; ApoE4 1-231 0.15 3.1; text 'apoE3 1-231 had an s w of 3.8-4.2 S and apoE4 1-231 had an s w of 3.1-3.6 S'."
+  },
+  "item": 18
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid15475580/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F22",
+   "Finding description": "At 0.50 mg/ml, apoE4 41–299 sedimented more slowly than apoE3 41–299, with weight-average coefficients of 4.3 versus 4.9 S.",
+   "Finding quote": "ApoE3 41-299 and apoE4 41-299 proteins showed lower s w values (4.4 and 3.7 S) at 0.15 mg/ml and higher s w values (4.8 and 4.3 S) at 0.50 or 1.00 mg/ml, respectively.",
+   "Finding summary": "(apoE3 41–299 -> apoE4 41–299) -> (lower weight-average sedimentation at 0.50 mg/ml)",
+   "Finding relevance": 0.45,
+   "Experimental system": "Purified recombinant human apoE3 and apoE4 residues 41–299; 0.50 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C.",
+   "Data location": "Table 1, apoE 41–299 rows at 0.50 mg/ml",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "2",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P3",
+   "finding_id": "P3.F22",
+   "key": "pmid15475580",
+   "quote_start": "ApoE3 41-299 and apoE4 41-299 proteins showed lower s w values (4.4 an",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "0.88x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Description values correct from Table 1 (4.3 vs 4.9 S at 0.50; the quoted text's 4.8 for apoE3 is its 1.00 mg/ml value); both printed, ratio 4.3/4.9.",
+   "evidence": "Table 1: ApoE3 41-299 0.50 4.9; ApoE4 41-299 0.50 4.3."
+  },
+  "item": 19
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid15475580/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F23",
+   "Finding description": "At 0.15 mg/ml, apoE4 1–191 had a slightly higher weight-average sedimentation coefficient than apoE3 1–191, 2.7 versus 2.6 S.",
+   "Finding quote": "ApoE3 1-191 | 0.15 | 0.00556 | 2.6 | | 0.50 | 0.00654 | 2.9 | ApoE4 1-191 | 0.15 | 0.00605 | 2.7 | | 0.50 | 0.00713 | 3.0",
+   "Finding summary": "(apoE3 1–191 -> apoE4 1–191) -> (slightly higher weight-average sedimentation at 0.15 mg/ml)",
+   "Finding relevance": 0.4,
+   "Experimental system": "Purified recombinant human apoE3 and apoE4 residues 1–191; 0.15 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C.",
+   "Data location": "Table 1, apoE 1–191 rows at 0.15 mg/ml",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "2",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P3",
+   "finding_id": "P3.F23",
+   "key": "pmid15475580",
+   "quote_start": "ApoE3 1-191 | 0.15 | 0.00556 | 2.6 | | 0.50 | 0.00654 | 2.9 | ApoE4 1-",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.04x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Quote is the Table 1 row; values correct (2.7 vs 2.6 S); both printed, ratio 2.7/2.6 instead of N/A.",
+   "evidence": "Table 1: ApoE3 1-191 0.15 2.6; ApoE4 1-191 0.15 2.7."
+  },
+  "item": 20
+ },
+ {
+  "src": "3",
+  "paper": {
+   "key": "pmid15863833",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid15863833/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid15863833/figimg/1.png",
+    "data/papers/pmid15863833/figimg/2.png"
+   ],
+   "pdf": "data/papers/pmid15863833/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P4.F1",
+   "Finding description": "SPR measurements showed high-affinity binding of lipid-free apoE3 and apoE4 to VLDLR without reported isoform discrimination; no significant difference was reported.",
+   "Finding quote": "Second, our experi- ments conﬁrmed that the VLDL receptor recognizes all apoE isoforms with equal afﬁnity.",
+   "Finding summary": "(apoE3 -> apoE4) -> (no change in lipid-free apoE binding affinity for VLDLR)",
+   "Finding relevance": 0.9,
+   "Experimental system": "Purified lipid-free apoE3 and apoE4 injected over immobilized soluble human VLDLR repeats 1–8 on CM5 SPR chips; receptor density 120 RU; HBS-P buffer, pH 7.4; 3-min binding at 25°C and 10 µl/min as specified in Fig 2; buffer replacement initiated dissociation; no brain cells or receptor recycling measured.",
+   "Data location": "Fig 2B–C; Table 1; Discussion",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P4",
+   "finding_id": "P4.F1",
+   "key": "pmid15863833",
+   "quote_start": "Second, our experi- ments conﬁrmed that the VLDL receptor recognizes a",
+   "verdict": "FIX",
+   "set": {
+    "Finding quote": "Equilibrium analysis of observed sensorgrams revealed a high-affinity interaction between the VLDL receptor and all apoE isoforms, with no distinction between them (Table 1).",
+    "Effect size": "0.68x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "The quote is a Discussion restatement; the Results sentence gives the same finding with the Table 1 pointer. Table 1 prints SPR Kd for apoE3 (25 nM) and apoE4 (17 nM), so the ratio can be given.",
+   "evidence": "Results: \"Equilibrium analysis of observed sensorgrams revealed a high-affinity interaction between the VLDL receptor and all apoE isoforms, with no distinction between them (Table 1).\"; Table 1 VLDL receptor row: apoE2 20 ± 5, apoE3 25 ± 10, apoE4 17 ± 9 nM."
+  },
+  "item": 21
+ },
+ {
+  "src": "3",
+  "paper": {
+   "key": "pmid15863833",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid15863833/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid15863833/figimg/1.png",
+    "data/papers/pmid15863833/figimg/2.png"
+   ],
+   "pdf": "data/papers/pmid15863833/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P4.F2",
+   "Finding description": "Purified VLDLR bound immobilized apoE3 and apoE4 without reported isoform discrimination—no significant difference was reported—with apparent Kd values of 59 and 77 nM, respectively, and two determinations per point.",
+   "Finding quote": "Thus, the results from this solid-phase assay suggest that both the VLDL receptor and LRP do not discriminate between apoE isoforms.",
+   "Finding summary": "(apoE3 -> apoE4) -> (no change in VLDLR binding reported)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Purified soluble human VLDLR ligand-binding repeats 1–8; purified apoE isoforms immobilized on microtiter wells at 4 µg/ml; increasing receptor concentrations incubated for 16 h at 4°C; antibody-based solid-phase binding assay and nonlinear regression; no brain cells or receptor-recycling measurement.",
+   "Data location": "Fig 1B–C; Results, Binding of apoE isoforms to LRP and the VLDL receptor",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "2",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P4",
+   "finding_id": "P4.F2",
+   "key": "pmid15863833",
+   "quote_start": "Thus, the results from this solid-phase assay suggest that both the VL",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.31x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Both apparent Kd values are printed (apoE3 59 nM, apoE4 77 nM); give the ratio instead of qualitative.",
+   "evidence": "Results: \"The apparent Kd values for the interaction of the VLDL receptor with immobilized apoE2, apoE3, and apoE4 are 86, 59, and 77 nM, respectively.\"; Fig 1 legend: \"average of duplicate determinations\""
+  },
+  "item": 22
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid16401069",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid16401069/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P21.F1",
+   "Finding description": "In normal human fibroblasts, DMPC-apoE4 produced 50% inhibition of LDL binding at 0.036 μg/ml versus 0.039 μg/ml for DMPC-apoE3, indicating slightly stronger competition without a reported significance test.",
+   "Finding quote": "Competition curves comparing LDLR binding by LDL ( Figure 7A ) and dimyristoyl phosphatidylcholine (DMPC) vesicles ( Figure 7B ) indicate that both LDL and DMPC vesicles exhibit a clear dose response, with 50% binding inhibition at 3.44 μg/ml for LDL, and 0.039 and 0.036 μg/ml for E3-DMPC and E4-DMPC, respectively.",
+   "Finding summary": "(DMPC-apoE3 -> DMPC-apoE4) -> (lower concentration required for 50% inhibition of LDLR binding)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Normal human fibroblasts cultured for one week before binding assays; donor age and tissue source unspecified. Recombinant human apoE3 or apoE4 was mixed with DMPC at 1:3.75 protein:lipid by weight. Cells were incubated for 2 hours at 4°C with 2 μg/ml radiolabeled human LDL and varying competitor concentrations. LDL binding was measured in triplicate.",
+   "Data location": "Fig 7B",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P21",
+   "finding_id": "P21.F1",
+   "key": "pmid16401069",
+   "quote_start": "Competition curves comparing LDLR binding by LDL ( Figure 7A ) and dim",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "8%",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Both half-inhibition concentrations are printed (0.039 E3-DMPC vs 0.036 E4-DMPC ug/ml), so give the percent change instead of N/A.",
+   "evidence": "'50% binding inhibition at 3.44 ug/ml for LDL, and 0.039 and 0.036 ug/ml for E3-DMPC and E4-DMPC, respectively'; (0.039-0.036)/0.039 = 8%."
+  },
+  "item": 23
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid16540478/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/pmid16540478/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P22.F1",
+   "Finding description": "At 0.125 mg, full-length apoE–DMPC reduced bound ³H-LDL by 39–42% across the two isoforms. The authors described no overall isoform specificity. They gave no dose-specific significance test.",
+   "Finding quote": "The full-length apoE proteins with DMPC showed dose-de- pendent competing ability, whereas a 2.5-fold dose of apoE-DMPC complex lowered 39–42% of the bound 3H-LDL and 20-fold dose low- ered 81–83% (Fig. 5",
+   "Finding summary": "Full-length apoE3 and apoE4 showed similar observed LDLR competition at 0.125 mg with DMPC.",
+   "Finding relevance": 0.65,
+   "Experimental system": "Human HepG2 hepatoblastoma cells; recombinant human full-length apoE expressed in E. coli with a C-terminal His tag, complexed with DMPC; 0.125 mg competitor; cells serum-starved for 24 h, then incubated with 3H-LDL and competitor at 4 °C for 2 h; cell-associated radiolabel measured. Brain cells, affinity constants, endosomal dissociation and receptor recycling were not examined.",
+   "Data location": "Fig 5A, bars 4 and 6",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "ambiguous_panel",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P22",
+   "finding_id": "P22.F1",
+   "key": "pmid16540478",
+   "quote_start": "The full-length apoE proteins with DMPC showed dose-de- pendent compet",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~0.93x",
+    "Effect size provenance": "estimated_from_figure"
+   },
+   "reason": "Fig 5A is readable: bar 4 (apoE3 0.125 mg) and bar 6 (apoE4 0.125 mg) give the per-isoform reductions behind the text's 39-42% range, so the ratio of apoE4 to apoE3 competition can be given.",
+   "evidence": "PDF p.13341 Fig 5A (rendered): bar 4 apoE3 (2.5x) top at 58% bound (42% decrease), bar 6 apoE4 (2.5x) at 61% bound (39% decrease); 39/42 = 0.93. Neither bar has an error bar."
+  },
+  "item": 24
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid16540478/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/pmid16540478/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P22.F2",
+   "Finding description": "With DMPC, Table 4 reports interpolated ³H-LDL binding reductions of 59% for full-length apoE3 and 58% for apoE4. ApoE4 had 99% of apoE3’s normalized LDLR binding ability. The authors described no isoform specificity and supplied no between-isoform significance test.",
+   "Finding quote": "The LDL-R binding ability of apoE- DMPC was higher than that of LDL at the same dose (20-fold), although apoE with or without DMPC did not show isoform specificity.",
+   "Finding summary": "Full-length apoE4 retained 99% of apoE3’s reported LDLR binding ability with DMPC.",
+   "Finding relevance": 0.65,
+   "Experimental system": "Human HepG2 hepatoblastoma cells; E. coli-expressed, C-terminally His-tagged human full-length apoE; Table 4 reports 0.5 mg protein with 0.5 mg DMPC. Full-length 0.5 mg responses were interpolated from 0.125 and 1 mg measurements; 3H-LDL competition at 4 °C for 2 h. No receptor-recycling assay.",
+   "Data location": "Table 4, ApoE3 and ApoE4 rows, With DMPC columns",
+   "Effect size": "99%",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "ambiguous_panel",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P22",
+   "finding_id": "P22.F2",
+   "key": "pmid16540478",
+   "quote_start": "The LDL-R binding ability of apoE- DMPC was higher than that of LDL at",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "0.99x"
+   },
+   "reason": "'99%' reads as a 99% change under the sheet's shapes; Table 4 prints apoE4 at 99% of apoE3's binding ability, a ratio of 0.99.",
+   "evidence": "Table 4, With DMPC: ApoE3 decrease 59 (c), ability 100; ApoE4 decrease 58 (c), ability 99. Footnote c: 0.5 mg values interpolated from 0.125 and 1.0 mg."
+  },
+  "item": 25
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid16540478/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/pmid16540478/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P22.F3",
+   "Finding description": "Without DMPC, full-length apoE3 and apoE4 each decreased ³H-LDL binding by 34%. Table 4 gives apoE4 100% of apoE3’s normalized binding ability. The authors supplied no between-isoform significance test.",
+   "Finding quote": "The LDL-R binding ability of apoE- DMPC was higher than that of LDL at the same dose (20-fold), although apoE with or without DMPC did not show isoform specificity.",
+   "Finding summary": "Full-length apoE3 and apoE4 gave identical reported LDLR competition without DMPC.",
+   "Finding relevance": 0.65,
+   "Experimental system": "Human HepG2 hepatoblastoma cells; 0.5 mg E. coli-expressed, C-terminally His-tagged human full-length apoE without DMPC; 24 h serum starvation followed by competitive 3H-LDL binding at 4 °C for 2 h. No endosomal dissociation or receptor-recycling assay.",
+   "Data location": "Table 4, ApoE3 and ApoE4 rows, Without DMPC columns",
+   "Effect size": "100%",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P22",
+   "finding_id": "P22.F3",
+   "key": "pmid16540478",
+   "quote_start": "The LDL-R binding ability of apoE- DMPC was higher than that of LDL at",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.0x"
+   },
+   "reason": "'100%' reads as a 100% change; Table 4 prints equal decreases (34 and 34) and apoE4 ability 100% of apoE3, a ratio of 1.0.",
+   "evidence": "Table 4, Without DMPC: ApoE3 34 / 100; ApoE4 34 / 100."
+  },
+  "item": 26
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid16540478/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/pmid16540478/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P22.F4",
+   "Finding description": "ApoE4-(1–231)–DMPC competed more strongly for LDLR binding than apoE3-(1–231)–DMPC, decreasing 3H-LDL binding by 44% versus 18%.",
+   "Finding quote": "In contrast, the apoE3-(1–231)-DMPC complex lost most of its LDL-R binding abil- ity (31%), whereas that of apoE4-(1–231)-DMPC still maintained 75% of binding ability compared with the full-length apoE-DMPC (Table 4).",
+   "Finding summary": "(apoE3-(1–231) -> apoE4-(1–231)) -> (greater LDLR competition with DMPC)",
+   "Finding relevance": 0.6,
+   "Experimental system": "Human HepG2 hepatoblastoma cells; E. coli-expressed, C-terminally His-tagged human apoE-(1–231); 0.5 mg protein with DMPC; competitive 3H-LDL binding at 4 °C for 2 h. No receptor-recycling measurement.",
+   "Data location": "Fig 5B, bars 6 and 7; raw reductions in Table 4",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "ambiguous_panel",
+   "Directness class": 2,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P22",
+   "finding_id": "P22.F4",
+   "key": "pmid16540478",
+   "quote_start": "In contrast, the apoE3-(1–231)-DMPC complex lost most of its LDL-R bin",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "2.4x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Both group values are printed (44% vs 18% decrease), so the ratio replaces 'qualitative'. Bars 6-7 of Fig 5B are the right bars.",
+   "evidence": "Table 4, With DMPC: ApoE3-(1-231) 18 / 31; ApoE4-(1-231) 44 / 75. 44/18 = 2.44. Fig 5B legend: bars 6 and 7 = apoE3-(1-231)-DMPC, apoE4-(1-231)-DMPC."
+  },
+  "item": 27
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid16540478/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/pmid16540478/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P22.F5",
+   "Finding description": "Without DMPC, apoE4-(72–299) decreased 3H-LDL binding by 38%, whereas apoE3-(72–299) had a reported decrease of −8%, indicating competition only by the apoE4 fragment.",
+   "Finding quote": "On the contrary, in a lipid-free environment, the N-terminal trun- cated apoE4, especially apoE4-(72–299), showed equal or even higher LDL-R binding ability, compared with that of full-length apoE proteins, although the N-terminal truncated apoE3 showed lower or no LDL-R binding ability (Table 4).",
+   "Finding summary": "(apoE3-(72–299) -> apoE4-(72–299)) -> (greater LDLR competition without DMPC)",
+   "Finding relevance": 0.6,
+   "Experimental system": "Human HepG2 hepatoblastoma cells; 0.5 mg E. coli-expressed, C-terminally His-tagged human apoE-(72–299) without DMPC; competitive 3H-LDL binding at 4 °C for 2 h. No receptor-recycling assay.",
+   "Data location": "Table 4, ApoE3-(72–299) and ApoE4-(72–299) rows, Without DMPC columns",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 2,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P22",
+   "finding_id": "P22.F5",
+   "key": "pmid16540478",
+   "quote_start": "On the contrary, in a lipid-free environment, the N-terminal trun- cat",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "diff=46",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Both values are printed (38 vs -8; the minus sign is confirmed on the rendered PDF table). A ratio is undefined for a negative value, so give the 46-point difference in 3H-LDL binding decrease.",
+   "evidence": "PDF p.13340 Table 4, Without DMPC: ApoE3-(72-299) decrease -8, ability ND; ApoE4-(72-299) decrease 38, ability 112."
+  },
+  "item": 28
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid16540478/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/pmid16540478/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P22.F6",
+   "Finding description": "ApoE4-(72–299)–DMPC competed more strongly for LDLR binding than apoE3-(72–299)–DMPC, decreasing 3H-LDL binding by 34% versus 27%.",
+   "Finding quote": "At the same dose, apoE3-(72–299)- and apoE4-(72–299)-DMPC complexes showed only about half the 3H-LDL competing ability of full-length apoE (46 and 57%).",
+   "Finding summary": "(apoE3-(72–299) -> apoE4-(72–299)) -> (greater LDLR competition with DMPC)",
+   "Finding relevance": 0.55,
+   "Experimental system": "Human HepG2 hepatoblastoma cells; E. coli-expressed, C-terminally His-tagged human apoE-(72–299); 0.5 mg protein with DMPC; competitive 3H-LDL binding at 4 °C for 2 h. No endosomal dissociation or receptor-recycling assay.",
+   "Data location": "Fig 5A, bars 10 and 11; raw binding reductions in Table 4",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "ambiguous_panel",
+   "Directness class": 2,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P22",
+   "finding_id": "P22.F6",
+   "key": "pmid16540478",
+   "quote_start": "At the same dose, apoE3-(72–299)- and apoE4-(72–299)-DMPC complexes sh",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.26x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Both group values are printed in Table 4 (34% vs 27% decrease), so the ratio replaces 'qualitative'.",
+   "evidence": "Table 4, With DMPC: ApoE3-(72-299) 27 / 46; ApoE4-(72-299) 34 / 57. 34/27 = 1.26. Fig 5A legend: bar 10 apoE3-(72-299)-DMPC, bar 11 apoE4-(72-299)-DMPC."
+  },
+  "item": 29
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid16540478/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/pmid16540478/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P22.F7",
+   "Finding description": "ApoE4-(1–191)–DMPC competed less strongly for LDLR binding than apoE3-(1–191)–DMPC, decreasing 3H-LDL binding by 34% versus 42%.",
+   "Finding quote": "When the C-terminal domain was fully removed, apoE3-(1–191)- and apoE4-(1–191)-DMPC complexes still maintained 72 and 57% relative LDL-R binding ability, respectively (Table 4).",
+   "Finding summary": "(apoE3-(1–191) -> apoE4-(1–191)) -> (lower LDLR competition with DMPC)",
+   "Finding relevance": 0.55,
+   "Experimental system": "Human HepG2 hepatoblastoma cells; E. coli-expressed, C-terminally His-tagged human apoE-(1–191); 0.5 mg protein with DMPC; 3H-LDL competition measured after 2 h at 4 °C. No receptor-recycling measurement.",
+   "Data location": "Fig 5B, bars 4 and 5; raw reductions in Table 4",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "ambiguous_panel",
+   "Directness class": 2,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P22",
+   "finding_id": "P22.F7",
+   "key": "pmid16540478",
+   "quote_start": "When the C-terminal domain was fully removed, apoE3-(1–191)- and apoE4",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "0.81x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Both group values are printed (34% vs 42% decrease), so the ratio replaces 'qualitative'.",
+   "evidence": "Table 4, With DMPC: ApoE3-(1-191) 42 / 72; ApoE4-(1-191) 34 / 57. 34/42 = 0.81. Fig 5B bars 4 and 5."
+  },
+  "item": 30
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid16540478/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/pmid16540478/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P22.F8",
+   "Finding description": "ApoE4-(1–271)–DMPC competed more strongly for LDLR binding than apoE3-(1–271)–DMPC, decreasing 3H-LDL binding by 58% versus 47%.",
+   "Finding quote": "With the assistance of the 232–271 fragment, the LDL-R binding ability of apoE3-(1–271)-DMPC was largely res- cued (80%) and that of apoE4-(1–271)-DMPC was fully recovered (99%; Table 4).",
+   "Finding summary": "(apoE3-(1–271) -> apoE4-(1–271)) -> (greater LDLR competition with DMPC)",
+   "Finding relevance": 0.55,
+   "Experimental system": "Human HepG2 hepatoblastoma cells; E. coli-expressed, C-terminally His-tagged human apoE-(1–271); 0.5 mg protein with DMPC; cell-associated 3H-LDL measured after competition at 4 °C for 2 h. No receptor-recycling measurement.",
+   "Data location": "Fig 5B, bars 8 and 9; raw reductions in Table 4",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "ambiguous_panel",
+   "Directness class": 2,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P22",
+   "finding_id": "P22.F8",
+   "key": "pmid16540478",
+   "quote_start": "With the assistance of the 232–271 fragment, the LDL-R binding ability",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.23x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Both group values are printed (58% vs 47% decrease), so the ratio replaces 'qualitative'.",
+   "evidence": "Table 4, With DMPC: ApoE3-(1-271) 47 / 80; ApoE4-(1-271) 58 / 99. 58/47 = 1.23. Fig 5B bars 8 and 9."
+  },
+  "item": 31
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid16540478/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/pmid16540478/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P22.F9",
+   "Finding description": "Without DMPC, apoE4-(1–191) produced greater LDLR competition than apoE3-(1–191), decreasing 3H-LDL binding by 19% versus 13%.",
+   "Finding quote": "ApoE3-(1–191) 42 72 13 39 ApoE4-(1–191) 34 57 19 57",
+   "Finding summary": "(apoE3-(1–191) -> apoE4-(1–191)) -> (greater LDLR competition without DMPC)",
+   "Finding relevance": 0.55,
+   "Experimental system": "Human HepG2 hepatoblastoma cells; 0.5 mg E. coli-expressed, C-terminally His-tagged human apoE-(1–191) without DMPC; competitive 3H-LDL binding at 4 °C for 2 h. No receptor-recycling assay.",
+   "Data location": "Table 4, ApoE3-(1–191) and ApoE4-(1–191) rows, Without DMPC columns",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 2,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P22",
+   "finding_id": "P22.F9",
+   "key": "pmid16540478",
+   "quote_start": "ApoE3-(1–191) 42 72 13 39 ApoE4-(1–191) 34 57 19 57",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.46x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Both group values are printed (19% vs 13% decrease), so the ratio replaces 'qualitative'.",
+   "evidence": "Table 4, Without DMPC: ApoE3-(1-191) 13 / 39; ApoE4-(1-191) 19 / 57. 19/13 = 1.46."
+  },
+  "item": 32
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid16540478/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/pmid16540478/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P22.F10",
+   "Finding description": "At 0.5 mg competitor, apoE4-(41–299)–DMPC produced numerically greater LDLR competition than apoE3-(41–299)–DMPC, decreasing 3H-LDL binding by 47% versus 46%.",
+   "Finding quote": "A 10-fold dose of apoE3-(41–299)-DMPC complex decreased 3H-LDL binding by 46% and that of apoE4-(41–299)-DMPC complex decreased by 47% (Table 4).",
+   "Finding summary": "(apoE3-(41–299) -> apoE4-(41–299)) -> (slightly greater LDLR competition with DMPC)",
+   "Finding relevance": 0.5,
+   "Experimental system": "Human HepG2 hepatoblastoma cells; E. coli-expressed, C-terminally His-tagged human apoE-(41–299); 0.5 mg protein with DMPC; competitive cell-associated 3H-LDL binding measured at 4 °C after 2 h. No receptor-recycling measurement.",
+   "Data location": "Fig 5A, bars 8 and 9; numerical values also in Table 4",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "ambiguous_panel",
+   "Directness class": 2,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P22",
+   "finding_id": "P22.F10",
+   "key": "pmid16540478",
+   "quote_start": "A 10-fold dose of apoE3-(41–299)-DMPC complex decreased 3H-LDL binding",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.02x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Both group values are printed (47% vs 46% decrease), so the ratio replaces 'qualitative'.",
+   "evidence": "Text: 'A 10-fold dose of apoE3-(41-299)-DMPC complex decreased 3H-LDL binding by 46% and that of apoE4-(41-299)-DMPC complex decreased by 47% (Table 4).' 47/46 = 1.02."
+  },
+  "item": 33
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid16540478/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/pmid16540478/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P22.F11",
+   "Finding description": "ApoE4-(72–166)–DMPC competed more strongly for LDLR binding than apoE3-(72–166)–DMPC, decreasing 3H-LDL binding by 55% versus 26%.",
+   "Finding quote": "Different from that of apoE3-(72–166)-DMPC, apoE4-(72–166)- DMPC complex showed very high efficiency in 3H-LDL competition.",
+   "Finding summary": "(apoE3-(72–166) -> apoE4-(72–166)) -> (greater LDLR competition with DMPC)",
+   "Finding relevance": 0.5,
+   "Experimental system": "Human HepG2 hepatoblastoma cells; E. coli-expressed, C-terminally His-tagged human apoE-(72–166); 0.5 mg protein with DMPC; competitive 3H-LDL binding at 4 °C for 2 h. No receptor-recycling measurement.",
+   "Data location": "Fig 5B, bars 10 and 11; raw reductions in Table 4",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "ambiguous_panel",
+   "Directness class": 2,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P22",
+   "finding_id": "P22.F11",
+   "key": "pmid16540478",
+   "quote_start": "Different from that of apoE3-(72–166)-DMPC, apoE4-(72–166)- DMPC compl",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "2.1x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Both group values are printed (55% vs 26% decrease), so the ratio replaces 'qualitative'.",
+   "evidence": "Table 4, With DMPC: ApoE3-(72-166) 26 / 44; ApoE4-(72-166) 55 / 94. 55/26 = 2.12. Fig 5B bars 10 and 11."
+  },
+  "item": 34
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid16540478/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/pmid16540478/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P22.F12",
+   "Finding description": "Without DMPC, apoE4-(41–299) produced numerically greater LDLR competition than apoE3-(41–299), decreasing 3H-LDL binding by 20% versus 15%.",
+   "Finding quote": "ApoE3-(41–299) 46 78 15 44 ApoE4-(41–299) 47 80 20 60",
+   "Finding summary": "(apoE3-(41–299) -> apoE4-(41–299)) -> (greater LDLR competition without DMPC)",
+   "Finding relevance": 0.5,
+   "Experimental system": "Human HepG2 hepatoblastoma cells; 0.5 mg E. coli-expressed, C-terminally His-tagged human apoE-(41–299) without DMPC; competitive 3H-LDL binding measured at 4 °C for 2 h. No receptor-recycling assay.",
+   "Data location": "Table 4, ApoE3-(41–299) and ApoE4-(41–299) rows, Without DMPC columns",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 2,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P22",
+   "finding_id": "P22.F12",
+   "key": "pmid16540478",
+   "quote_start": "ApoE3-(41–299) 46 78 15 44 ApoE4-(41–299) 47 80 20 60",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.33x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Both group values are printed (20% vs 15% decrease), so the ratio replaces 'qualitative'.",
+   "evidence": "Table 4, Without DMPC: ApoE3-(41-299) 15 / 44; ApoE4-(41-299) 20 / 60. 20/15 = 1.33."
+  },
+  "item": 35
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid16540478/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/pmid16540478/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P22.F13",
+   "Finding description": "Without DMPC, apoE4-(1–271) produced numerically greater LDLR competition than apoE3-(1–271), decreasing 3H-LDL binding by 29% versus 27%.",
+   "Finding quote": "ApoE3-(1–271) 47 80 27 81 ApoE4-(1–271) 58 99 29 86",
+   "Finding summary": "(apoE3-(1–271) -> apoE4-(1–271)) -> (slightly greater LDLR competition without DMPC)",
+   "Finding relevance": 0.5,
+   "Experimental system": "Human HepG2 hepatoblastoma cells; 0.5 mg E. coli-expressed, C-terminally His-tagged human apoE-(1–271) without DMPC; competitive 3H-LDL binding at 4 °C for 2 h. No receptor-recycling assay.",
+   "Data location": "Table 4, ApoE3-(1–271) and ApoE4-(1–271) rows, Without DMPC columns",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 2,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P22",
+   "finding_id": "P22.F13",
+   "key": "pmid16540478",
+   "quote_start": "ApoE3-(1–271) 47 80 27 81 ApoE4-(1–271) 58 99 29 86",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.07x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Both group values are printed (29% vs 27% decrease), so the ratio replaces 'qualitative'.",
+   "evidence": "Table 4, Without DMPC: ApoE3-(1-271) 27 / 81; ApoE4-(1-271) 29 / 86. 29/27 = 1.07."
+  },
+  "item": 36
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid16540478/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/pmid16540478/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P22.F14",
+   "Finding description": "Without DMPC, apoE4-(72–166) produced greater LDLR competition than apoE3-(72–166), decreasing 3H-LDL binding by 22% versus 14%.",
+   "Finding quote": "ApoE3-(72–166) 26 44 14 41 ApoE4-(72–166) 55 94 22 65",
+   "Finding summary": "(apoE3-(72–166) -> apoE4-(72–166)) -> (greater LDLR competition without DMPC)",
+   "Finding relevance": 0.5,
+   "Experimental system": "Human HepG2 hepatoblastoma cells; 0.5 mg E. coli-expressed, C-terminally His-tagged human apoE-(72–166) without DMPC; competitive 3H-LDL binding at 4 °C for 2 h. No receptor-recycling assay.",
+   "Data location": "Table 4, ApoE3-(72–166) and ApoE4-(72–166) rows, Without DMPC columns",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P22",
+   "finding_id": "P22.F14",
+   "key": "pmid16540478",
+   "quote_start": "ApoE3-(72–166) 26 44 14 41 ApoE4-(72–166) 55 94 22 65",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.57x",
+    "Effect size provenance": "printed_in_text",
+    "Directness class": 2
+   },
+   "reason": "Both group values are printed (22% vs 14%), so N/A is wrong. Class 1 is inconsistent: this is the truncated 72-166 fragment, a surrogate A', which every sibling fragment row codes as class 2.",
+   "evidence": "Table 4, Without DMPC: ApoE3-(72-166) 14 / 41; ApoE4-(72-166) 22 / 65. 22/14 = 1.57."
+  },
+  "item": 37
+ }
+]

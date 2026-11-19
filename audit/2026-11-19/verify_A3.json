@@ -1,0 +1,1231 @@
+[
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid34982109",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid34982109/text.txt",
+   "supp": "data/papers/pmid34982109/supp.txt",
+   "figures": [
+    "data/papers/pmid34982109/figimg/1.png",
+    "data/papers/pmid34982109/figimg/2.png",
+    "data/papers/pmid34982109/figimg/3.png",
+    "data/papers/pmid34982109/figimg/7.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F3",
+   "Finding description": "After uptake into rat ST14A cells, APOE4 showed significantly greater colocalization with late than early endosomes whereas APOE3 did not, using three wells per genotype without a reported direct between-isoform significance test.",
+   "Finding quote": "APOE4 colocalized with late endosomes significantly more than with early endosomes, whereas APOE3 did not.",
+   "Finding summary": "(extracellular APOE3 -> APOE4) -> (late-over-early endosomal localization preference observed for APOE4)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Immortalized rat neuron-like ST14A cells; 24 h exposure to conditioned medium containing human APOE3–mCherry or APOE4–mCherry; fixed-cell staining for mCherry and early-endosomal EEA1 or late-endosomal Rab7; confocal imaging and Imaris colocalization analysis.",
+   "Data location": "Fig 7C; Supplementary Table S5",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "supplement_only",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P5",
+   "finding_id": "P5.F3",
+   "key": "pmid34982109",
+   "quote_start": "APOE4 colocalized with late endosomes significantly more than with ear",
+   "verdict": "FIX",
+   "set": {
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "Quote verbatim, within-isoform comparison described correctly, n=3 wells from Table S5. Fig 7 legend has a star key but the packet image is a 100-px thumbnail, so the mark for 7C cannot be seen: ambiguous_panel.",
+   "evidence": "Fig 7 legend '*P<0.05, **P<0.01, ***P<0.001; ns, not significant'; Table S5 '7C 3 wells per genotype Two-way ANOVA 2'; 7.png is 100x125 px."
+  },
+  "item": 1
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid34982109",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid34982109/text.txt",
+   "supp": "data/papers/pmid34982109/supp.txt",
+   "figures": [
+    "data/papers/pmid34982109/figimg/1.png",
+    "data/papers/pmid34982109/figimg/2.png",
+    "data/papers/pmid34982109/figimg/3.png",
+    "data/papers/pmid34982109/figimg/7.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F5",
+   "Finding description": "Rat neuron-like ST14A cells accumulated more intracellular red fluorescence from APOE4–mCh than APOE3–mCh conditioned medium during the uptake time course, using three wells per medium genotype.",
+   "Finding quote": "Internalization levels were isoform-dependent, with the highest fluorescence observed in both cell types treated with APOE4–mCh, and the lowest in APOE2–mCh-treated cells (Fig. 7A,B).",
+   "Finding summary": "(extracellular APOE3 -> APOE4) -> (higher intracellular APOE-associated fluorescence during uptake)",
+   "Finding relevance": 0.75,
+   "Experimental system": "Immortalized rat neuronally derived ST14A cells, supplied by Elena Cattaneo's laboratory; no endogenous APOE detected by western blot; human HEK293T conditioned medium containing APOE3–mCherry or APOE4–mCherry, mixed 1:1 with fresh medium; IncuCyte fluorescence normalized to phase area over time. Endpoint duration is not stated in the supplied Fig 7B text.",
+   "Data location": "Fig 7B; Supplementary Table S5",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "supplement_only",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P5",
+   "finding_id": "P5.F5",
+   "key": "pmid34982109",
+   "quote_start": "Internalization levels were isoform-dependent, with the highest fluore",
+   "verdict": "FIX",
+   "set": {
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "Quote verbatim, direction correct, n=3 wells from Table S5 (7B). Legend says bars mark FDR<0.05 between isoforms but the image is an unreadable thumbnail.",
+   "evidence": "Fig 7 legend '(A,B) ... Bars represent times when FDR<0.05 between APOE isoforms'; Table S5 '7B 3 wells per conditioned media genotype'."
+  },
+  "item": 2
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid35471463",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid35471463/text.txt",
+   "supp": "data/papers/pmid35471463/supp.txt",
+   "figures": [
+    "data/papers/pmid35471463/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P19.F2",
+   "Finding description": "Comparing control brain SEC fractions 26–30 showed no significant difference in large-sized soluble apoE between APOE4 carriers and non-carriers despite a higher trend in carriers, with 4–5 samples per group.",
+   "Finding quote": "APOE4 carriers showed a greater amount of larger size APOE protein (fraction #26 to #30) than APOE4 non-carriers, although the difference was not significant due to large sample-to-sample variations (Fig. 5e).",
+   "Finding summary": "(APOE4 non-carrier -> APOE4 carrier) -> (no change in large-sized soluble apoE reaching statistical significance in control brain fractions 26–30)",
+   "Finding relevance": 0.6,
+   "Experimental system": "Human postmortem control superior temporal cortex from a brain bank; bulk tissue with no specified cell type or organelle localization. Control cohort APOE4 non-carriers had median age 82.5 years, range 79–91; carriers had median age 87 years, range 61–97. Exact ages and genotypes of the 4–5 SEC samples per group were not separately reported. TBS-soluble lysates underwent tandem Superose 6 SEC at pH 7.4, followed by apoE ELISA and Student t tests. Larger apoE-containing species were measured without demonstrating apoE homo-oligomers or endo-lysosomal aggregates.",
+   "Data location": "Fig. 5e",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "4-5",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 4,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P19",
+   "finding_id": "P19.F2",
+   "key": "pmid35471463",
+   "quote_start": "APOE4 carriers showed a greater amount of larger size APOE protein (fr",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~1.4x",
+    "Effect size provenance": "estimated_from_figure"
+   },
+   "reason": "Fig 5e is readable: in fractions 27-29 the two bars give about 1.4x, as already coded for P19.F1. P19.F2 is a near-duplicate of P19.F1.",
+   "evidence": "Fig 5e (5.png, y-axis 0-30): fractions 27-29 Ctrl E4- ~10.2%, Ctrl E4+ ~14.5%; only fraction 26 carries a printed 'p=0.08'."
+  },
+  "item": 3
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid35471463",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid35471463/text.txt",
+   "supp": "data/papers/pmid35471463/supp.txt",
+   "figures": [
+    "data/papers/pmid35471463/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P19.F3",
+   "Finding description": "SEC followed by apoE ELISA showed more large-sized soluble apoE in fractions 27–29 in AD brains without LB pathology from APOE4 carriers than non-carriers, using six pooled samples per group.",
+   "Finding quote": "In AD cases without LB pathology, APOE4 carriers had more large-sized APOE (fractions #27-#29) compared to APOE4 non-carriers (Fig. 5a–c).",
+   "Finding summary": "(APOE4 non-carrier -> APOE4 carrier) -> (more large-sized soluble apoE in AD brains without LB pathology)",
+   "Finding relevance": 0.45,
+   "Experimental system": "Human postmortem superior temporal cortex from autopsy-confirmed AD cases without LB pathology, brain bank; bulk tissue, with no cell-type or endo-lysosomal localization. APOE4 non-carriers included APOE2/3 and APOE3/3; carriers included APOE2/4, APOE3/4, and APOE4/4. Respective cohort age medians were 81 and 83 years, with ranges 55–96 and 55–100; SEC-subset ages were not separately reported. Six samples per group, each pooling equal amounts of TBS lysate from 3–4 brains. Tandem Superose 6 SEC at pH 7.4 followed by apoE ELISA measured molecular-size distributions, without establishing whether larger species were apoE homo-oligomers or other apoE-containing complexes.",
+   "Data location": "Fig. 5a; Results, The presence of LB or APOE4 impacts the size distribution of APOE and α-SYN proteins",
+   "Effect size": "~1.2x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "6",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 4,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P19",
+   "finding_id": "P19.F3",
+   "key": "pmid35471463",
+   "quote_start": "In AD cases without LB pathology, APOE4 carriers had more large-sized ",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 5b, fractions 27-29 (AD E4- vs AD E4+); size profiles in Fig 5a"
+   },
+   "reason": "The ~1.2x and the comparison come from the Fig 5b bar chart, not Fig 5a, which shows only the profiles. A '*' is shown, but the legend gives no star key, so P N/A is right.",
+   "evidence": "Fig 5b (5.png): fractions 27-29 AD E4- ~15.8%, AD E4+ ~19.0% (ratio 1.2), with a '*' bracket between them; 6 points per bar. Legend: 'N = 6 samples/group in AD cases. Two-way ANOVA with Sidak's ... Only the significantly changed fractions were labeled' (no star threshold given)."
+  },
+  "item": 4
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid36324176",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid36324176/text.txt",
+   "supp": "data/papers/pmid36324176/supp.txt",
+   "figures": [
+    "data/papers/pmid36324176/figimg/3.png",
+    "data/papers/pmid36324176/figimg/4.png",
+    "data/papers/pmid36324176/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P23.F1",
+   "Finding description": "Native-PAGE of non-AD human control CSF showed a lower apoE dimer/monomer ratio in APOE ε3/ε4 than ε3/ε3 samples (ratio D/M 0.38 versus 2.20, printed in the text).",
+   "Finding quote": "In the control group, the dimer/monomer quotient was significantly lower in the APOE ε3/ε4 group (ratio D/M = 0.38) compared to that of the ε3/ε3 group (ratio D/M = 2.20; p= 0.006), associated to the inability of the apoE4 isoform to form disulfide-linked dimers.",
+   "Finding summary": "(APOE ε3/ε3 -> APOE ε3/ε4) -> (lower CSF apoE dimer/monomer ratio)",
+   "Finding relevance": 0.55,
+   "Experimental system": "Human non-AD Gothenburg control lumbar CSF; APOE ε3/ε3 versus ε3/ε4; corresponding cohort mean ages 69±2 and 62±5 years; unheated native-PAGE and AB178479 immunoblotting. Bands were assigned as monomers and dimers using denatured CSF and recombinant apoE3 references. No cellular or endo-lysosomal localization was measured.",
+   "Data location": "Fig. 3D quantification; Fig. 3C representative native blots; Supplementary p. 7 complete source blots",
+   "Effect size": "5.8x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "0.006",
+   "P value provenance": "printed_in_text",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P23",
+   "finding_id": "P23.F1",
+   "key": "pmid36324176",
+   "quote_start": "In the control group, the dimer/monomer quotient was significantly low",
+   "verdict": "FIX",
+   "set": {
+    "Sample size": "5-9",
+    "Sample size provenance": "printed_in_text"
+   },
+   "reason": "5.8x (2.20/0.38) and p=0.006 are right. The group sizes are printed in Table 1 (Gothenburg controls: 9 e3/e3, 5 e3/e4), and Fig 3D shows 9 and 5 points.",
+   "evidence": "Table 1 Gothenburg Control: 'APOE | e3/e3 | e3/e4 ... N | 9 | 5'. Fig 3D (3.png): Ct3/3 9 circles, Ct3/4 5 circles, bracket 'p = 0.006'."
+  },
+  "item": 5
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid36324176",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid36324176/text.txt",
+   "supp": "data/papers/pmid36324176/supp.txt",
+   "figures": [
+    "data/papers/pmid36324176/figimg/3.png",
+    "data/papers/pmid36324176/figimg/4.png",
+    "data/papers/pmid36324176/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P23.F2",
+   "Finding description": "Native-PAGE of human AD CSF showed a lower apoE dimer/monomer ratio in APOE ε4/ε4 than ε3/ε3 samples (ratio D/M 0.24 versus 2.27, printed in the text); the Fig. 3D bracket between these groups reads p < 0.0001.",
+   "Finding quote": "The same situation was found in the AD group, where the dimer/monomer ratio decreased as the ε4 allele was present (ε3/ε3: ratio D/M = 2.27; ε3/ε4: ratio D/M = 1.04; ε4/ε4: ratio D/M = 0.24).",
+   "Finding summary": "(APOE ε3/ε3 -> APOE ε4/ε4) -> (lower CSF apoE dimer/monomer ratio in AD)",
+   "Finding relevance": 0.35,
+   "Experimental system": "Human Gothenburg AD lumbar CSF, APOE ε3/ε3 versus ε4/ε4; corresponding cohort mean ages 79±2 and 73±1 years; unheated native-PAGE and AB178479 immunoblotting. Extracellular native apoE complexes were measured, without cell-type or compartment identification.",
+   "Data location": "Fig. 3D quantification; Fig. 3C representative native blots; Supplementary p. 7 complete source blots",
+   "Effect size": "9.5x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "<0.0001",
+   "P value provenance": "visual_only",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 3,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P23",
+   "finding_id": "P23.F2",
+   "key": "pmid36324176",
+   "quote_start": "The same situation was found in the AD group, where the dimer/monomer ",
+   "verdict": "FIX",
+   "set": {
+    "Sample size": "15",
+    "Sample size provenance": "printed_in_text"
+   },
+   "reason": "9.5x (2.27/0.24) is right. On Fig 3D the upper p < 0.0001 bracket runs from AD3/3 to AD4/4, so that p holds. n is printed in Table 1 (15 per AD genotype).",
+   "evidence": "Table 1 Gothenburg AD: e3/e3 N 15, e4/e4 N 15. Fig 3D (3.png): top bracket 'p < 0.0001' spans AD3/3 to AD4/4; numbers below axis 2.3+/-1 and 0.1+/-0.2."
+  },
+  "item": 6
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid36324176",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid36324176/text.txt",
+   "supp": "data/papers/pmid36324176/supp.txt",
+   "figures": [
+    "data/papers/pmid36324176/figimg/3.png",
+    "data/papers/pmid36324176/figimg/4.png",
+    "data/papers/pmid36324176/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P23.F4",
+   "Finding description": "Reducing SDS-PAGE of Barcelona AD CSF showed significantly less approximately 100-kDa apoE-containing complex immunoreactivity in nine APOE ε4/ε4 patients than in ten ε3/ε3 patients. Group values printed on the figure: Panel I printed medians: ε3/ε3 3.7 and ε4/ε4 2.8; approximately 24% lower in ε4/ε4; bracket p = 0.02.",
+   "Finding quote": "Within the AD group, the APOE ε4/ε4 samples once again displayed significantly lower 100-kDa apoE levels compared with ε3/ε3 cases (p = 0.02).",
+   "Finding summary": "(APOE ε3/ε3 -> APOE ε4/ε4) -> (lower reducing-agent-resistant ~100-kDa CSF apoE complex abundance in AD)",
+   "Finding relevance": 0.35,
+   "Experimental system": "Human Barcelona SPIN cohort AD lumbar CSF, APOE ε3/ε3 versus ε4/ε4; ten and nine patients, respectively, mean ages 75±2 and 72±2 years; heated reducing SDS-PAGE and AB178479 immunoblotting, normalized to recombinant apoE3. No intracellular localization was measured.",
+   "Data location": "Fig. 5I quantification; Fig. 5A representative blot; Supplementary p. 9 complete source blot",
+   "Effect size": "24%",
+   "Effect size provenance": "printed_in_text",
+   "P value": "0.02",
+   "P value provenance": "printed_in_text",
+   "Sample size": "9-10",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P23",
+   "finding_id": "P23.F4",
+   "key": "pmid36324176",
+   "quote_start": "Within the AD group, the APOE ε4/ε4 samples once again displayed signi",
+   "verdict": "FIX",
+   "set": {
+    "Effect size provenance": "visual_only"
+   },
+   "reason": "The 3.7 and 2.8 medians (24% lower) are printed only on the Fig 5I image, not in the text. p=0.02 and n 9-10 are right.",
+   "evidence": "Fig 5I (5.png): labels under axis 'AD3/3 3.7+/-1.7', 'AD4/4 2.8+/-0.7' (legend: 'numbers below represent median +/- SD'); bracket 'p = 0.02' AD3/3 vs AD4/4; 1 - 2.8/3.7 = 0.24. Text: 'APOE e4/e4 samples once again displayed significantly lower 100-kDa apoE levels compared with e3/e3 cases (p = 0.02)'."
+  },
+  "item": 7
+ },
+ {
+  "src": "3",
+  "paper": {
+   "key": "pmid37280636",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid37280636/text.txt",
+   "supp": "data/papers/pmid37280636/supp.txt",
+   "figures": [
+    "data/papers/pmid37280636/figimg/1.png",
+    "data/papers/pmid37280636/figimg/3.png",
+    "data/papers/pmid37280636/figimg/4.png",
+    "data/papers/pmid37280636/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P15.F3",
+   "Finding description": "Truncated apoE4M aggregated almost instantaneously, while four additional interface alanine substitutions prevented aggregation; the photographed AP/AS comparison was reproduced in at least two independent experiments.",
+   "Finding quote": "Interestingly, while the aggregation of ApoE4M-AP occurred almost instantaneously, it took several hours to observe the aggregation of ApoE3M-AP. Subsequent transmission electron microscopy (TEM) analysis of these aggregates revealed fibril-like morphology in both cases (Fig. 3H). Conversely, no aggregation was observed for ApoE3M-AS and ApoE4M-AS.",
+   "Finding summary": "(apoE4M-AP -> apoE4M-AS interface mutations) -> (suppressed apoE aggregation)",
+   "Finding relevance": 0.55,
+   "Experimental system": "Purified recombinant ApoE3M and ApoE4M truncation constructs. The Results identify both isoforms for the AP aggregation and AS suppression observations. Fig. 3G labels the photographed samples generically as ApoEM-AP and ApoEM-AS.",
+   "Data location": "Fig. 3G and accompanying Results",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "2",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 2,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P15",
+   "finding_id": "P15.F3",
+   "key": "pmid37280636",
+   "quote_start": "Interestingly, while the aggregation of ApoE4M-AP occurred almost inst",
+   "verdict": "FIX",
+   "set": {
+    "Experimental system": "Purified recombinant ApoE3M and ApoE4M truncation constructs (residues 1-23 deleted); AS variants carry R38A/E45A/E49A/R145A. The Results identify both isoforms for the AP aggregation and AS suppression observations; the Fig. 3G photo is labelled ApoE4M-AS (left) and ApoE4M-AP (right), two hours after purification."
+   },
+   "reason": "Quote and values fine, but the Experimental system says Fig. 3G labels the samples generically as ApoEM-AP/AS; the image labels them ApoE4M-AS and ApoE4M-AP.",
+   "evidence": "Fig. 3G image labels under the tubes: \"ApoE4M-AS\" and \"ApoE4M-AP\"; legend: \"Similar results were obtained in at least two independent experiments.\""
+  },
+  "item": 8
+ },
+ {
+  "src": "3",
+  "paper": {
+   "key": "pmid37280636",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid37280636/text.txt",
+   "supp": "data/papers/pmid37280636/supp.txt",
+   "figures": [
+    "data/papers/pmid37280636/figimg/1.png",
+    "data/papers/pmid37280636/figimg/3.png",
+    "data/papers/pmid37280636/figimg/4.png",
+    "data/papers/pmid37280636/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P15.F4",
+   "Finding description": "Transmission electron microscopy found fibril-like apoE aggregates in both truncated apoE3M and apoE4M preparations, without reporting a quantitative between-isoform difference in fibril burden.",
+   "Finding quote": "Subsequent transmission electron microscopy (TEM) analysis of these aggregates revealed fibril-like morphology in both cases (Fig. 3H).",
+   "Finding summary": "(apoE3M-AP -> apoE4M-AP) -> (fibril-like aggregates present in both)",
+   "Finding relevance": 0.55,
+   "Experimental system": "Purified recombinant human apoE3M-AP and apoE4M-AP, carrying five monomerizing substitutions and deletion of residues 1–23. Negative-stain TEM using approximately 0.4 mg/ml protein and 2% ammonium molybdate. Legend specifically identifies the pictured apoE3M-AP fibrils; Results reports both isoforms.",
+   "Data location": "Fig. 3H and accompanying Results",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "ambiguous_panel",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P15",
+   "finding_id": "P15.F4",
+   "key": "pmid37280636",
+   "quote_start": "Subsequent transmission electron microscopy (TEM) analysis of these ag",
+   "verdict": "FIX",
+   "set": {
+    "Sample size": "2",
+    "Sample size provenance": "printed_in_text"
+   },
+   "reason": "Sample size N/A with code ambiguous_panel is inconsistent; the Fig. 3H legend prints the replication count (same as used for P15.F3).",
+   "evidence": "Fig. 3 legend: \"(H) TEM of ApoE3M-AP fibrils (red arrows). Similar results were obtained in at least two independent experiments.\""
+  },
+  "item": 9
+ },
+ {
+  "src": "3",
+  "paper": {
+   "key": "pmid37280636",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid37280636/text.txt",
+   "supp": "data/papers/pmid37280636/supp.txt",
+   "figures": [
+    "data/papers/pmid37280636/figimg/1.png",
+    "data/papers/pmid37280636/figimg/3.png",
+    "data/papers/pmid37280636/figimg/4.png",
+    "data/papers/pmid37280636/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P15.F6",
+   "Finding description": "The simulated apoE4 dimer had a more favorable mean electrostatic interaction energy, −396 kcal/mol, than apoE3, −338 kcal/mol, a 1.17-fold greater magnitude.",
+   "Finding quote": "We also found significantly stronger binding energy in the dimeric unit of ApoE4 than in ApoE3, explaining its resilience to dissociation. These interactions were formed primarily by electrostatic contacts (Supplementary Tables 8 and Supplementary Note 1).",
+   "Finding summary": "(apoE3 -> apoE4) -> (stronger simulated electrostatic dimer association)",
+   "Finding relevance": 0.5,
+   "Experimental system": "Human apoE N-terminal dimer adaptive molecular dynamics without SPA. Linear interaction energies calculated over the first 500 ns of concatenated trajectories while dimers remained associated; 310 K, pH 7.4 protonation and 0.1 M salt.",
+   "Data location": "Supplementary Table 8, ApoE3 and ApoE4 Eelec rows",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P15",
+   "finding_id": "P15.F6",
+   "key": "pmid37280636",
+   "quote_start": "We also found significantly stronger binding energy in the dimeric uni",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.17x",
+    "Effect size provenance": "supplement_only",
+    "P value": "<0.0001",
+    "P value provenance": "supplement_only"
+   },
+   "reason": "Both group values (-396 vs -338 kcal/mol) and a t-test P are printed in the supplement; the row left them qualitative/N/A.",
+   "evidence": "Supp Note 1: \"electrostatic interactions ... ApoE4 were stronger ... (Eelec = -396 ± 68 kcal/mol) than for ApoE3 (Eelec = -338 ± 84 kcal/mol). This difference is extremely significant (p-value < 10-4 from the t-test)\""
+  },
+  "item": 10
+ },
+ {
+  "src": "3",
+  "paper": {
+   "key": "pmid37280636",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid37280636/text.txt",
+   "supp": "data/papers/pmid37280636/supp.txt",
+   "figures": [
+    "data/papers/pmid37280636/figimg/1.png",
+    "data/papers/pmid37280636/figimg/3.png",
+    "data/papers/pmid37280636/figimg/4.png",
+    "data/papers/pmid37280636/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P15.F15",
+   "Finding description": "Both apoE3M and apoE4M were characterized as monomerized, rather than showing greater apoE4 oligomerization; no statistical between-isoform difference was reported.",
+   "Finding quote": "Moreover, we observed that the five mutations previously introduced into the ApoE code to monomerize both isoforms (ApoEM) simultaneously inhibit their aggregation (Supplementary Figs. 5 and 6).",
+   "Finding summary": "(apoE3M -> apoE4M) -> (shared monomerized state)",
+   "Finding relevance": 0.4,
+   "Experimental system": "Purified recombinant human apoE3M and apoE4M carrying F257A/W264R/V269A/L279Q/V287E. Sedimentation velocity analytical ultracentrifugation at 0.8 mg/ml, 20 °C and 50,000 rpm, analyzed by continuous c(s) distributions. The supplied figure image is unavailable.",
+   "Data location": "Supplementary Fig. 5",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P15",
+   "finding_id": "P15.F15",
+   "key": "pmid37280636",
+   "quote_start": "Moreover, we observed that the five mutations previously introduced in",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Supplementary Figs. 5 and 6"
+   },
+   "reason": "The quote is about aggregation inhibition, which is shown in Supp Fig. 6 (isothermal aggregation); Supp Fig. 5 is only the AUC monomer characterization. Note: the preceding sentence (\"we observed increased aggregation of ApoE4 compared to ApoE3\", SLS, Supp Fig. 6) is the paper's own direct apoE4-vs-apoE3 aggregation result and is not captured by any row.",
+   "evidence": "Results: \"...simultaneously inhibit their aggregation (Supplementary Figs. 5 and 6)\"; Supp Fig. 6 legend: \"Isothermal aggregation of ApoE3WT, ApoE4WT, monomeric ApoE3M and monomeric ApoE4M demonstrates that five monomerizing mutations ... inhibit ApoE aggregation.\""
+  },
+  "item": 11
+ },
+ {
+  "src": "3",
+  "paper": {
+   "key": "pmid37280636",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid37280636/text.txt",
+   "supp": "data/papers/pmid37280636/supp.txt",
+   "figures": [
+    "data/papers/pmid37280636/figimg/1.png",
+    "data/papers/pmid37280636/figimg/3.png",
+    "data/papers/pmid37280636/figimg/4.png",
+    "data/papers/pmid37280636/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P15.F16",
+   "Finding description": "The simulated apoE4 dimer had mean van der Waals interaction energy of −41 kcal/mol versus −37 kcal/mol for apoE3, a 1.11-fold greater magnitude.",
+   "Finding quote": "ApoE3 Eelec = -338 ± 84 EvdW = -37 ± 7 R145, R38, R142, D35, K146, R32 E49, E45, T130, R134, E50 ApoE4 Eelec = -396 ± 68 EvdW = -41 ± 7",
+   "Finding summary": "(apoE3 -> apoE4) -> (slightly stronger simulated van der Waals dimer association)",
+   "Finding relevance": 0.4,
+   "Experimental system": "Human apoE N-terminal dimers without SPA; linear interaction energies from the first 500 ns of associated, concatenated adaptive MD trajectories at 310 K and pH 7.4 protonation.",
+   "Data location": "Supplementary Table 8, ApoE3 and ApoE4 EvdW rows",
+   "Effect size": "qualitative",
+   "Effect size provenance": "supplement_only",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 3,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P15",
+   "finding_id": "P15.F16",
+   "key": "pmid37280636",
+   "quote_start": "ApoE3 Eelec = -338 ± 84 EvdW = -37 ± 7 R145, R38, R142, D35, K146, R32",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.11x",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "Both EvdW group values are printed in Supp Table 8 (-41 vs -37 kcal/mol); the description already states 1.11-fold but the Effect size column says qualitative.",
+   "evidence": "Supp Table 8: \"ApoE3 Eelec = -338 ± 84 EvdW = -37 ± 7 ... ApoE4 Eelec = -396 ± 68 EvdW = -41 ± 7\""
+  },
+  "item": 12
+ },
+ {
+  "src": "3",
+  "paper": {
+   "key": "pmid37280636",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid37280636/text.txt",
+   "supp": "data/papers/pmid37280636/supp.txt",
+   "figures": [
+    "data/papers/pmid37280636/figimg/1.png",
+    "data/papers/pmid37280636/figimg/3.png",
+    "data/papers/pmid37280636/figimg/4.png",
+    "data/papers/pmid37280636/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P15.F17",
+   "Finding description": "With SPA, the simulated apoE4 dimer retained a more favorable mean electrostatic interaction energy, −322 kcal/mol, than apoE3, −250 kcal/mol, a 1.29-fold greater magnitude.",
+   "Finding quote": "ApoE3+ SPA Eelec = -250 ± 69 EvdW = -39 ± 7 R145, R38, R142, R32, D35 E49, E45, E50 ApoE4+ SPA Eelec = -322 ± 73",
+   "Finding summary": "(apoE3 + SPA -> apoE4 + SPA) -> (stronger simulated electrostatic dimer association)",
+   "Finding relevance": 0.4,
+   "Experimental system": "Human apoE N-terminal dimer adaptive MD with SPA; energies computed during the first 500 ns of concatenated associated trajectories. Simulations at 310 K, pH 7.4 protonation and 0.1 M salt.",
+   "Data location": "Supplementary Table 8, ApoE3+SPA and ApoE4+SPA Eelec rows",
+   "Effect size": "qualitative",
+   "Effect size provenance": "supplement_only",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P15",
+   "finding_id": "P15.F17",
+   "key": "pmid37280636",
+   "quote_start": "ApoE3+ SPA Eelec = -250 ± 69 EvdW = -39 ± 7 R145, R38, R142, R32, D35 ",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.29x",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "Both Eelec group values with SPA are printed in Supp Table 8 (-322 vs -250 kcal/mol, ratio 1.29); Effect size should not be qualitative.",
+   "evidence": "Supp Table 8: \"ApoE3+ SPA Eelec = -250 ± 69 ... ApoE4+ SPA Eelec = -322 ± 73\""
+  },
+  "item": 13
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid37290814",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid37290814/text.txt",
+   "supp": "data/papers/pmid37290814/supp.txt",
+   "figures": [
+    "data/papers/pmid37290814/figimg/1.png",
+    "data/papers/pmid37290814/figimg/2.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P16.F1",
+   "Finding description": "Across three cultures, ApoE puncta size showed no significant difference across ApoE3/ApoE4 and vehicle/bafilomycin conditions, whose means were 10.3, 9.0, 9.6, and 9.4 pixels, respectively.",
+   "Finding quote": "No significant difference in ApoE puncta size was observed after Baf A1 treatment in ApoE3- and ApoE4-treated neurons (mean ApoE puncta size: ApoE3 + DMSO: 10.3 pixels, ApoE3 + Baf A1: 9.0 pixels, ApoE4 + DMSO: 9.6 pixels, and ApoE4 + Baf A1: 9.4 pixels) (Kruskal–Wallis test, P = 0.7064); number of cultures: 3; number of neurons analyzed within each culture: 6–7; for each neuron, 10 neurites were analyzed and averaged.",
+   "Finding summary": "(ApoE3 -> ApoE4, with or without lysosomal inhibition) -> (no change in neuritic ApoE puncta size)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Primary cortical/hippocampal cultures from embryonic ApoE-knockout mice at DIV19; conditioned media from primary human APOE3- or APOE4-targeted-replacement mouse astrocytes for four hours, following one-hour pretreatment with 10 nM bafilomycin A1 or DMSO. ApoE puncta size measured in neuritic regions by Fiji particle analysis. Three cultures, six to seven neurons per culture, ten neurites averaged per neuron.",
+   "Data location": "Fig 2M",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "0.7064",
+   "P value provenance": "printed_in_text",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P16",
+   "finding_id": "P16.F1",
+   "key": "pmid37290814",
+   "quote_start": "No significant difference in ApoE puncta size was observed after Baf A",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "0.93x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Quote verbatim, P 0.7064 (Kruskal-Wallis, 4 groups), 3 cultures correct; the means are printed, so give the ApoE4 vs ApoE3 DMSO ratio 9.6/10.3.",
+   "evidence": "Fig 2M legend: 'ApoE3 + DMSO: 10.3 pixels, ApoE3 + Baf A1: 9.0 pixels, ApoE4 + DMSO: 9.6 pixels, and ApoE4 + Baf A1: 9.4 pixels) (Kruskal-Wallis test, P = 0.7064); number of cultures: 3'. Fig 2M image shows four groups with overlapping means around 9-10."
+  },
+  "item": 14
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid37290814",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid37290814/text.txt",
+   "supp": "data/papers/pmid37290814/supp.txt",
+   "figures": [
+    "data/papers/pmid37290814/figimg/1.png",
+    "data/papers/pmid37290814/figimg/2.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P16.F2",
+   "Finding description": "In three cultures receiving ApoE4, bafilomycin reduced median ApoE–LAMP1 overlap from 8.7% to 6.3%, with no significant difference.",
+   "Finding quote": "The percentages of ApoE co-localizing to LAMP1-positive pixels increased from 5.2–9.8% (Mann–Whitney test, P = 0.0864) in ApoE3-treated and decreased from 8.7–6.3% (Mann–Whitney test, P = 0.4358) in ApoE4-treated neurons after Baf A1 treatment (compared with DMSO control), although these changes were not statistically significant; number of cultures: 3; number of neurons analyzed within each culture: 7; for each neuron, 10 neurites were analyzed and averaged.",
+   "Finding summary": "(lysosomal acidification inhibition in ApoE4-treated neurons) -> (no change in ApoE–LAMP1 overlap)",
+   "Finding relevance": 0.6,
+   "Experimental system": "Primary cortical/hippocampal cultures from embryonic ApoE-knockout mice at DIV19; 10 nM bafilomycin A1 or DMSO for one hour before four-hour co-treatment with conditioned medium from human APOE4-targeted-replacement mouse astrocytes. Neuritic ApoE–LAMP1 pixel overlap measured by epifluorescence imaging and Fiji. Three cultures, seven neurons per culture, ten neurites averaged per neuron.",
+   "Data location": "Fig 2L",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "0.4358",
+   "P value provenance": "printed_in_text",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 5,
+   "Directness strength": "5 very weak"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P16",
+   "finding_id": "P16.F2",
+   "key": "pmid37290814",
+   "quote_start": "The percentages of ApoE co-localizing to LAMP1-positive pixels increas",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "0.72x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Quote verbatim, P 0.4358, n 3 correct; both medians printed (8.7% DMSO, 6.3% Baf A1), ratio 6.3/8.7.",
+   "evidence": "Fig 2L legend 'decreased from 8.7-6.3% (Mann-Whitney test, P = 0.4358) in ApoE4-treated neurons'; Results 'median ApoE-LAMP1 co-localization after Baf A1 ... ApoE4 decreased from 8.7-6.3%'."
+  },
+  "item": 15
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid37290814",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid37290814/text.txt",
+   "supp": "data/papers/pmid37290814/supp.txt",
+   "figures": [
+    "data/papers/pmid37290814/figimg/1.png",
+    "data/papers/pmid37290814/figimg/2.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P16.F3",
+   "Finding description": "In the experiment using three cultures per isoform, ApoE3 and ApoE4 showed no significant difference in LAMP1 overlap, a localization surrogate for lysosomal ApoE accumulation.",
+   "Finding quote": "However, there was no statistically significant difference in ApoE and LAMP1 co-localization between ApoE3 and ApoE4 (Figs 1G and I, P = 0.2744).",
+   "Finding summary": "(ApoE3 -> ApoE4) -> (no change in ApoE–LAMP1 pixel overlap)",
+   "Finding relevance": 0.4,
+   "Experimental system": "Mouse N2a cells treated with 2.5 μg/ml recombinant human ApoE3 or ApoE4 for four hours; representative epifluorescence images stained for ApoE and LAMP1. Corresponding pixel-overlap quantification in Fig 1I used three cultures per isoform and five cells per culture. LAMP1 does not uniquely identify lysosomes.",
+   "Data location": "Fig 1G; corresponding quantification Fig 1I",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "0.2744",
+   "P value provenance": "printed_in_text",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P16",
+   "finding_id": "P16.F3",
+   "key": "pmid37290814",
+   "quote_start": "However, there was no statistically significant difference in ApoE and",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "0.86x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Quote verbatim, P 0.2744, 3 cultures correct; the Fig 1I legend prints both means (35.8% ApoE3, 30.7% ApoE4), ratio 30.7/35.8.",
+   "evidence": "Fig 1I legend 'on average 35.8% and 30.7% of ApoE, respectively, co-localized with LAMP1 (t test ..., P = 0.2744; number of cultures ...: 3'."
+  },
+  "item": 16
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid37290814",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid37290814/text.txt",
+   "supp": "data/papers/pmid37290814/supp.txt",
+   "figures": [
+    "data/papers/pmid37290814/figimg/1.png",
+    "data/papers/pmid37290814/figimg/2.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P16.F4",
+   "Finding description": "In the experiment using three cultures per isoform, ApoE3 and ApoE4 showed no significant difference in Rab7 overlap, a surrogate for late-endosomal ApoE localization.",
+   "Finding quote": "In comparison with LAMP1, a lower proportion of human ApoE puncta co-localized with Rab7 in N2a cells after 4 h, although there was no significant difference between ApoE3 compared with ApoE4 (Figs 1H and J; P = 0.3392).",
+   "Finding summary": "(ApoE3 -> ApoE4) -> (no change in ApoE–Rab7 pixel overlap)",
+   "Finding relevance": 0.35,
+   "Experimental system": "Mouse N2a cells treated with 2.5 μg/ml recombinant human ApoE3 or ApoE4 for four hours; representative ApoE and Rab7 epifluorescence images. Corresponding quantification in Fig 1J used three cultures per isoform and five cells per culture. Rab7 also occurs in autophagic compartments.",
+   "Data location": "Fig 1H; corresponding quantification Fig 1J",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "0.3392",
+   "P value provenance": "printed_in_text",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P16",
+   "finding_id": "P16.F4",
+   "key": "pmid37290814",
+   "quote_start": "In comparison with LAMP1, a lower proportion of human ApoE puncta co-l",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "0.85x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Quote verbatim, P 0.3392, 3 cultures correct; the Fig 1J legend prints both values (14.2% ApoE3, 12.1% ApoE4), ratio 12.1/14.2.",
+   "evidence": "Fig 1J legend '14.2% and 12.1% of the ApoE co-localized with Rab7 ... P = 0.3392; number of cultures ...: 3'."
+  },
+  "item": 17
+ },
+ {
+  "src": "1",
+  "paper": {
+   "key": "pmid38217595",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid38217595/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid38217595/figimg/12.png",
+    "data/papers/pmid38217595/figimg/13.png",
+    "data/papers/pmid38217595/figimg/4.png",
+    "data/papers/pmid38217595/figimg/5.png",
+    "data/papers/pmid38217595/figimg/6.png",
+    "data/papers/pmid38217595/figimg/8.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P13.F3",
+   "Finding description": "APOER2 early-endosomal colocalization increased from 0.37 in APOE3 to 0.51 in APOE4 neurons, measured in 25–37 cells from two to three preparations.",
+   "Finding quote": "A different colocalization pattern was seen in APOER2, IR, and VEGFR, where the accumulation of these receptors in the early endosomes in APOE4 neurons (see also Figs. 5 and 6) is accompanied with lower levels of colocalization in late endosomes relative to those obtained with APOE3 cells.",
+   "Finding summary": "(APOE3 -> APOE4) -> (higher fraction of APOER2 colocalizing with early endosomes)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; APOER2/Rab5 double staining, confocal microscopy and M1 colocalization.",
+   "Data location": "Fig. 8B, early endosomes",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "<0.05",
+   "P value provenance": "printed_in_text",
+   "Sample size": "25-37",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P13",
+   "finding_id": "P13.F3",
+   "key": "pmid38217595",
+   "quote_start": "A different colocalization pattern was seen in APOER2, IR, and VEGFR, ",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.4x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Fig. 8 legend prints both group values for this comparison, so the row should not stay 'qualitative': 0.51/0.37 = 1.38 -> 1.4x.",
+   "evidence": "Fig. 8 legend: 'APOER2- early endosomes: APOE3 = 0.37+/-0.044, APOE4 = 0.51+/-0.037, p < 0.05'; legend also gives '25-37 cells from 2-3 different preparations'."
+  },
+  "item": 18
+ },
+ {
+  "src": "1",
+  "paper": {
+   "key": "pmid38217595",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid38217595/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid38217595/figimg/12.png",
+    "data/papers/pmid38217595/figimg/13.png",
+    "data/papers/pmid38217595/figimg/4.png",
+    "data/papers/pmid38217595/figimg/5.png",
+    "data/papers/pmid38217595/figimg/6.png",
+    "data/papers/pmid38217595/figimg/8.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P13.F8",
+   "Finding description": "LRP1 early-endosomal colocalization was lower in APOE4 than APOE3 neurons, with printed M1 values of 0.16 versus 0.22 and 25–37 cells from two to three preparations.",
+   "Finding quote": "The first pattern which was observed with LRP1, shows that lower levels of colocalization of this receptor in the early endosomes in APOE4 neurons (seen also in Fig. 5) was accompanied by lower levels of their colocalization with late endosomes (46.7% decrease, p < 0.01) and lysosomes (20.2% decrease, p < 0.05), while no difference between the genotypes was seen in the corresponding recycling endosomes.",
+   "Finding summary": "(APOE3 -> APOE4) -> (lower fraction of LRP1 colocalizing with early endosomes)",
+   "Finding relevance": 0.75,
+   "Experimental system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; LRP1/Rab5 double staining, confocal microscopy and M1 colocalization.",
+   "Data location": "Fig. 8A, early endosomes",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "<0.001",
+   "P value provenance": "printed_in_text",
+   "Sample size": "25-37",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P13",
+   "finding_id": "P13.F8",
+   "key": "pmid38217595",
+   "quote_start": "The first pattern which was observed with LRP1, shows that lower level",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "27%",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Fig. 8 legend prints both group values for LRP1 in early endosomes, so 'qualitative' is avoidable: (0.22-0.16)/0.22 = 27%.",
+   "evidence": "Fig. 8 legend: 'Early endosomes: APOE3 = 0.22+/-0.022, APOE4 = 0.16+/-0.015, p < 0.001'."
+  },
+  "item": 19
+ },
+ {
+  "src": "1",
+  "paper": {
+   "key": "pmid38217595",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid38217595/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid38217595/figimg/12.png",
+    "data/papers/pmid38217595/figimg/13.png",
+    "data/papers/pmid38217595/figimg/4.png",
+    "data/papers/pmid38217595/figimg/5.png",
+    "data/papers/pmid38217595/figimg/6.png",
+    "data/papers/pmid38217595/figimg/8.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P13.F14",
+   "Finding description": "The insulin-receptor fraction colocalizing with early endosomes increased from 0.28 in APOE3 to 0.36 in APOE4 neurons, with 48 and 34 cells respectively from four preparations.",
+   "Finding quote": "Quantification of these results revealed that the colocalization of IR with early endosomes was significantly higher in APOE4 neurons (0.36±0.02, N = 34 from 4 different preparations) than in the APOE3 neurons (0.28±0.02, N = 48, from 4 different preparations, p < 0.05), as was the colocalization of VEGFR with early endosomes which was higher in APOE4 neurons (0.39±0.03, N = 19 from 2 different preparations) than and in APOE3 neurons (0.24±0.02, N = 20, from 2 different preparations, p < 0.01).",
+   "Finding summary": "(APOE3 -> APOE4) -> (higher fraction of insulin receptor colocalizing with early endosomes)",
+   "Finding relevance": 0.55,
+   "Experimental system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; insulin-receptor/Rab5 double staining, confocal microscopy and M1 colocalization.",
+   "Data location": "Fig. 6A",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "<0.05",
+   "P value provenance": "printed_in_text",
+   "Sample size": "34-48",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P13",
+   "finding_id": "P13.F14",
+   "key": "pmid38217595",
+   "quote_start": "Quantification of these results revealed that the colocalization of IR",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.3x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "The quote itself prints both group values for IR in early endosomes, so the row should carry the ratio rather than 'qualitative': 0.36/0.28 = 1.29 -> 1.3x.",
+   "evidence": "Results: 'colocalization of IR with early endosomes was significantly higher in APOE4 neurons (0.36+/-0.02, N = 34 ...) than in the APOE3 neurons (0.28+/-0.02, N = 48 ..., p < 0.05)'; Fig. 6 image panel A (InsulinR coloc Early Endosomes) shows ~0.28 vs ~0.36 with one asterisk."
+  },
+  "item": 20
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid38336940",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid38336940/text.txt",
+   "supp": "data/papers/pmid38336940/supp.txt",
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P27.F1",
+   "Finding description": "Among donors negative for both defined tau pathologies, age- and sex-adjusted analysis found no significant difference in detergent-insoluble cortical apoE between APOE4 and APOE3.",
+   "Finding quote": "apoE-FA | 302 | 0.31 (− 0.46 to 1.08) | 0.43",
+   "Finding summary": "APOE4 versus APOE3 showed no statistically significant difference in insoluble cortical apoE among donors negative for both defined tau pathologies.",
+   "Finding relevance": 0.45,
+   "Experimental system": "Human non-Hispanic White autopsy temporal cortex; older cohort, ages 54–103 years overall. Subgroup with Braak stage <4 and no AGD, which does not establish absence of all AD pathology. APOE ε3/ε4 or ε4/ε4 versus ε3/ε3. Formic-acid-solubilized detergent-insoluble apoE ELISA normalized to protein; age/sex-adjusted regression. No organelle localization measured.",
+   "Data location": "Table 5, APOE4 vs. APOE3, apoE-FA row, No tau pathology column",
+   "Effect size": "beta=0.31",
+   "Effect size provenance": "printed_in_text",
+   "P value": "0.43",
+   "P value provenance": "printed_in_text",
+   "Sample size": "N/A",
+   "Sample size provenance": "ambiguous_panel",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P27",
+   "finding_id": "P27.F1",
+   "key": "pmid38336940",
+   "quote_start": "apoE-FA | 302 | 0.31 (− 0.46 to 1.08) | 0.43",
+   "verdict": "FIX",
+   "set": {
+    "Sample size": "93",
+    "Sample size provenance": "printed_in_text"
+   },
+   "reason": "Beta 0.31, p 0.43 correct; the Table 5 column header prints the subgroup n (APOE4 N = 20 vs APOE3 N = 73), so n is not ambiguous.",
+   "evidence": "Table 5 header 'APOE4 vs. APOE3 (reference) | | APOE4 (N = 20) vsAPOE3 (N = 73) | ...'; row 'apoE-FA | 302 | 0.31 (- 0.46 to 1.08) | 0.43'."
+  },
+  "item": 21
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid38336940",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid38336940/text.txt",
+   "supp": "data/papers/pmid38336940/supp.txt",
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P27.F3",
+   "Finding description": "Descriptively, median detergent-insoluble cortical apoE was higher in 149 APOE4 donors at 128.8 ng/mg protein than in 153 APOE3 donors at 33.7 ng/mg protein.",
+   "Finding quote": "FA 44 31.1 (0.0, 1731.0) 153 33.7 (0.0, 782.0) 149 128.8 (0.0, 933.8)",
+   "Finding summary": "(APOE3 -> APOE4) -> (higher median detergent-insoluble cortical apoE)",
+   "Finding relevance": 0.4,
+   "Experimental system": "Human non-Hispanic White autopsy temporal cortex; older cohort, ages 54–103 years overall. APOE ε3/ε4 or ε4/ε4 versus ε3/ε3. Formic-acid-solubilized detergent-insoluble apoE measured by sandwich ELISA and normalized to total protein. Unadjusted descriptive medians; no endo-lysosomal localization or aggregate-specific assay.",
+   "Data location": "Table S3, apoE (ng/mg protein), FA row, APOE3 and APOE4 columns",
+   "Effect size": "qualitative",
+   "Effect size provenance": "supplement_only",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "302",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P27",
+   "finding_id": "P27.F3",
+   "key": "pmid38336940",
+   "quote_start": "FA 44 31.1 (0.0, 1731.0) 153 33.7 (0.0, 782.0) 149 128.8 (0.0, 933.8)",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "3.82x",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "Medians correct (128.8 vs 33.7 ng/mg; n 149+153=302); both values printed in Table S3, so give the ratio 128.8/33.7.",
+   "evidence": "Table S3 apoE (ng/mg protein) FA: APOE2 44 31.1; APOE3 153 33.7 (0.0, 782.0); APOE4 149 128.8 (0.0, 933.8)."
+  },
+  "item": 22
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid38336940",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid38336940/text.txt",
+   "supp": "data/papers/pmid38336940/supp.txt",
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P27.F4",
+   "Finding description": "Among AD-tau-negative donors, age- and sex-adjusted analysis found no significant difference in detergent-insoluble cortical apoE between APOE4 carriers and noncarriers.",
+   "Finding quote": "APOE4 0.51 (-0.13-1.14) 0.12 1.39 (0.85-1.93) &lt;0.001 0.044",
+   "Finding summary": "Among AD-tau-negative donors, the APOE4 carrier–noncarrier difference in insoluble cortical apoE was statistically nonsignificant.",
+   "Finding relevance": 0.4,
+   "Experimental system": "Human non-Hispanic White autopsy temporal cortex; older cohort, ages 54–103 years overall. Braak stage <4 subgroup, with and without AGD; absence of defined AD-tau does not establish absence of all AD pathology. APOE4 carriers versus noncarriers including APOE2 and APOE3. Formic-acid-solubilized detergent-insoluble apoE ELISA normalized to protein; age/sex-adjusted regression.",
+   "Data location": "Table S9, Association with apoE-FA, APOE4 row, No AD-tau pathology column",
+   "Effect size": "beta=0.51",
+   "Effect size provenance": "supplement_only",
+   "P value": "0.12",
+   "P value provenance": "supplement_only",
+   "Sample size": "N/A",
+   "Sample size provenance": "ambiguous_panel",
+   "Directness class": 4,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P27",
+   "finding_id": "P27.F4",
+   "key": "pmid38336940",
+   "quote_start": "APOE4 0.51 (-0.13-1.14) 0.12 1.39 (0.85-1.93) &lt;0.001 0.044",
+   "verdict": "FIX",
+   "set": {
+    "Sample size": "150",
+    "Sample size provenance": "supplement_only"
+   },
+   "reason": "Beta 0.51, p 0.12 correct and quote verbatim; Table S9 header prints the subgroup N (No AD-tau pathology N=150).",
+   "evidence": "Table S9 header 'No AD-tau pathology (N=150) | AD-tau pathology (N=197)'; apoE-FA APOE4 row 0.51 (-0.13-1.14) 0.12 1.39 (0.85-1.93) <0.001 0.044."
+  },
+  "item": 23
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid38336940",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid38336940/text.txt",
+   "supp": "data/papers/pmid38336940/supp.txt",
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P27.F8",
+   "Finding description": "Among AGD-positive donors pooled across AD-tau status, age- and sex-adjusted analysis found no significant difference in detergent-insoluble cortical apoE between APOE4 and APOE3.",
+   "Finding quote": "Although APOE4 was significantly associated with higher levels of insoluble Aβ40, Aβ42, apoE, and pTau181, the APOE4 effect was no longer detected in the presence of AGD-tau.",
+   "Finding summary": "Among AGD-positive donors, the APOE4–APOE3 difference in insoluble cortical apoE was positive and statistically nonsignificant.",
+   "Finding relevance": 0.35,
+   "Experimental system": "Human non-Hispanic White autopsy temporal cortex; older cohort, ages 54–103 years overall. AGD-positive subgroup pooling Braak stage <4 and ≥4. APOE ε3/ε4 or ε4/ε4 versus ε3/ε3. Formic-acid-solubilized detergent-insoluble apoE ELISA normalized to protein; age/sex-adjusted regression. No endo-lysosomal localization measured.",
+   "Data location": "Table 5, APOE4 vs. APOE3, apoE-FA row, Mixed tauopathy column",
+   "Effect size": "beta=0.91",
+   "Effect size provenance": "printed_in_text",
+   "P value": "0.091",
+   "P value provenance": "printed_in_text",
+   "Sample size": "N/A",
+   "Sample size provenance": "ambiguous_panel",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P27",
+   "finding_id": "P27.F8",
+   "key": "pmid38336940",
+   "quote_start": "Although APOE4 was significantly associated with higher levels of inso",
+   "verdict": "FIX",
+   "set": {
+    "Sample size": "40",
+    "Sample size provenance": "printed_in_text"
+   },
+   "reason": "Beta 0.91, p 0.091 correct; the Table 5 Mixed tauopathy header prints APOE4 N = 13 vs APOE3 N = 27.",
+   "evidence": "Table 5 header '... | APOE4 (N = 13) vsAPOE3 (N = 27) |'; apoE-FA row Mixed tauopathy 0.91 (- 0.15 to 1.96) 0.091."
+  },
+  "item": 24
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid38336940",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid38336940/text.txt",
+   "supp": "data/papers/pmid38336940/supp.txt",
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P27.F9",
+   "Finding description": "Among AGD-negative donors, APOE4 carriage was associated with higher detergent-insoluble cortical apoE than noncarriage after adjustment for age and sex.",
+   "Finding quote": "APOE4 1.27 (0.86, 1.69) &lt;0.001 0.94 (0.05, 1.83) 0.040 0.44",
+   "Finding summary": "(APOE4 absent -> APOE4 present) -> (higher detergent-insoluble cortical apoE without AGD)",
+   "Finding relevance": 0.35,
+   "Experimental system": "Human non-Hispanic White autopsy temporal cortex; older cohort, ages 54–103 years overall. AGD-negative subgroup, with and without AD-tau. APOE4 carriers versus noncarriers including APOE2 and APOE3. Formic-acid-solubilized detergent-insoluble apoE ELISA normalized to protein; age/sex-adjusted regression. No organelle localization measured.",
+   "Data location": "Table S8, Association with apoE-FA, APOE4 row, No AGD-tau pathology column",
+   "Effect size": "beta=1.27",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "supplement_only",
+   "Sample size": "N/A",
+   "Sample size provenance": "ambiguous_panel",
+   "Directness class": 4,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P27",
+   "finding_id": "P27.F9",
+   "key": "pmid38336940",
+   "quote_start": "APOE4 1.27 (0.86, 1.69) &lt;0.001 0.94 (0.05, 1.83) 0.040 0.44",
+   "verdict": "FIX",
+   "set": {
+    "Sample size": "302",
+    "Sample size provenance": "supplement_only"
+   },
+   "reason": "Beta 1.27, p<0.001 correct, quote verbatim; Table S8 header prints the subgroup N (No AGD-tau pathology N=302).",
+   "evidence": "Table S8 header 'No AGD-tau pathology (N=302) | AGD-tau pathology (N=51)'; apoE-FA APOE4 1.27 (0.86, 1.69) <0.001 0.94 (0.05, 1.83) 0.040 0.44."
+  },
+  "item": 25
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid38336940",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid38336940/text.txt",
+   "supp": "data/papers/pmid38336940/supp.txt",
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P27.F10",
+   "Finding description": "Among AGD-positive donors, APOE4 carriers and noncarriers showed no significant difference in detergent-insoluble cortical apoE at the corrected P<0.0056 threshold, despite a positive estimate.",
+   "Finding quote": "Although APOE4 was significantly associated with higher levels of insoluble Aβ40, Aβ42, apoE, and pTau181, the APOE4 effect was no longer detected in the presence of AGD-tau.",
+   "Finding summary": "Among AGD-positive donors, APOE4 carriers had a positive insoluble apoE estimate that missed the corrected significance threshold.",
+   "Finding relevance": 0.35,
+   "Experimental system": "Human non-Hispanic White autopsy temporal cortex; older cohort, ages 54–103 years overall. AGD-positive subgroup pooling AD-tau statuses. APOE4 carriers versus noncarriers including APOE2 and APOE3. Formic-acid-solubilized detergent-insoluble apoE ELISA normalized to protein; age/sex-adjusted regression, significance threshold P<0.0056.",
+   "Data location": "Table S8, Association with apoE-FA, APOE4 row, AGD-tau pathology column",
+   "Effect size": "beta=0.94",
+   "Effect size provenance": "supplement_only",
+   "P value": "0.040",
+   "P value provenance": "supplement_only",
+   "Sample size": "N/A",
+   "Sample size provenance": "ambiguous_panel",
+   "Directness class": 4,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P27",
+   "finding_id": "P27.F10",
+   "key": "pmid38336940",
+   "quote_start": "Although APOE4 was significantly associated with higher levels of inso",
+   "verdict": "FIX",
+   "set": {
+    "Sample size": "51",
+    "Sample size provenance": "supplement_only"
+   },
+   "reason": "Beta 0.94, p 0.040 and the P<0.0056 threshold are correct; Table S8 header prints AGD-tau pathology N=51.",
+   "evidence": "Table S8 header 'AGD-tau pathology (N=51)'; footnote 'P-values <0.0056 were considered as statistically significant'."
+  },
+  "item": 26
+ }
+]

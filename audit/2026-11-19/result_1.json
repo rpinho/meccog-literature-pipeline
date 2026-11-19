@@ -1,0 +1,516 @@
+[
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F1",
+  "key": "pmid38217595",
+  "quote_start": "The results obtained show that the ratio of the externally oriented re",
+  "verdict": "OK",
+  "reason": "Quote verbatim in Results; 53% reduction, p<0.05 and N=3 all printed for Fig. 4A (ApoER2 surface/total).",
+  "evidence": "Results: 'significantly lower in APOE4 neurons of APOER2 (Fig. 4A, 53% reduction, p < 0.05)'; Fig. 4 legend: 'APOE3 = 100% +/-11.08, APOE4 = 47.02% +/-8.54, p < 0.05, N = 3'. Fig. 4 image: panel A titled ApoER2, asterisk over the APOE4 bar."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F2",
+  "key": "pmid38217595",
+  "quote_start": "Similar analysis of the effect of the APOE genotype on the colocalizat",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 0.50 vs 0.37 and N = 31 / 20 printed; 0.50/0.37 = 1.35, which rounds to the row's 1.4x at two significant figures.",
+  "evidence": "Results: '(0.50+/-0.03, N = 31 from 3 different preparations) than in the APOE3 cells (0.37+/-0.04, N = 20 from 3 different preparations) neurons (p < 0.05)'; Fig. 5 legend confirms panel B = APOER2."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F3",
+  "key": "pmid38217595",
+  "quote_start": "A different colocalization pattern was seen in APOER2, IR, and VEGFR, ",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.4x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Fig. 8 legend prints both group values for this comparison, so the row should not stay 'qualitative': 0.51/0.37 = 1.38 -> 1.4x.",
+  "evidence": "Fig. 8 legend: 'APOER2- early endosomes: APOE3 = 0.37+/-0.044, APOE4 = 0.51+/-0.037, p < 0.05'; legend also gives '25-37 cells from 2-3 different preparations'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F4",
+  "key": "pmid38217595",
+  "quote_start": "The results obtained show that the ratio of the externally oriented re",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 48.03%, p<0.05 and N=3 printed for Fig. 4B (LRP1).",
+  "evidence": "Results: 'LRP1 (Fig. 4B, 48.03% reduction, p < 0.05)'; Fig. 4 legend: 'LRP1 (APOE3 = 100% +/-4.88, APOE4 = 51.97% +/-15.50, p < 0.05, N = 3)'. Fig. 4 image: panel B titled LRP-1 with an asterisk."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F5",
+  "key": "pmid38217595",
+  "quote_start": "Additionally, there was also a decrease in the colocalization of the r",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 11.16% decrease and p = 0.5154 printed for APOER2 recycling endosomes; n from the Fig. 8 legend.",
+  "evidence": "Results: 'recycling endosomes in all three receptors (APOER2 : 11.16% decrease, p = 0.5154 ...)'; Fig. 8 legend: 'Recycling endosomes: APOE3 = 0.17+/-0.025, APOE4 = 0.15+/-0.017, p = 0.51', '25-37 cells from 2-3 different preparations'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F6",
+  "key": "pmid38217595",
+  "quote_start": "As can be seen, the downregulation of LRP1 had no significant effects ",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 38.8% is what the paper prints for APOER2 after LRP1 knock-down, and the description says 'reported'. Fig. 12 legend supplies p and n. Note the paper is internally inconsistent (0.44 -> 0.20 in the legend is a 54.5% reduction), but the row reports the printed number and flags it as reported.",
+  "evidence": "Results: 'the percent of reduction when compared to APOE4 control equals to 38.8% in APOER2'; Fig. 12 legend: 'APOER2- APOE4 control = 0.44+/-0.02, APOE4-LRP1 AAv = 0.20+/-0.02, p < 0.0001, N = 50-53 from 5 different preparations'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F7",
+  "key": "pmid38217595",
+  "quote_start": "Evaluation of the extent of colocalization of the ApoE receptors with ",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 0.24 vs 0.11 (ratio 2.18 -> 2.2x), p<0.001 and N = 21 / 27 all printed for Fig. 5A (LRP1).",
+  "evidence": "Results: 'greater localization of LRP1 in early endosomes in APOE3 neurons (0.24+/-0.02, N = 21 ...) compared to APOE4 (0.11+/-0.016, N = 27 ...). This difference ... is highly significant (p < 0.001)'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F8",
+  "key": "pmid38217595",
+  "quote_start": "The first pattern which was observed with LRP1, shows that lower level",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "27%",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Fig. 8 legend prints both group values for LRP1 in early endosomes, so 'qualitative' is avoidable: (0.22-0.16)/0.22 = 27%.",
+  "evidence": "Fig. 8 legend: 'Early endosomes: APOE3 = 0.22+/-0.022, APOE4 = 0.16+/-0.015, p < 0.001'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F9",
+  "key": "pmid38217595",
+  "quote_start": "The first pattern which was observed with LRP1, shows that lower level",
+  "verdict": "OK",
+  "reason": "Quote verbatim; the Fig. 8 legend prints identical values (0.12 vs 0.12) and no p for LRP1 recycling endosomes, so N/A + not_found_in_source is right; n matches the legend.",
+  "evidence": "Fig. 8 legend: 'Recycling endosomes: APOE3 = 0.12+/-0.024, APOE4 = 0.12+/-0.023' (no p); 'results ... correspond to 25-37 cells from 2-3 different preparations'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F10",
+  "key": "pmid38217595",
+  "quote_start": "This decrease in late endosomes was significant for both IR and VEGFR ",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 22.09% decrease with p = 0.156 printed for APOER2 late endosomes; the Fig. 8 legend agrees (0.49 vs 0.38, p = 0.15).",
+  "evidence": "Results: 'APOER2 : 22.09% decrease, p = 0.156'; Fig. 8 legend: 'Late endosomes: APOE3 = 0.49+/-0.024, APOE4 = 0.38+/-0.059, p = 0.15'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F11",
+  "key": "pmid38217595",
+  "quote_start": "Additionally, knock-down of APOER2 did not affect the intracellular lo",
+  "verdict": "OK",
+  "reason": "Quote verbatim and it is the paper's own negative result; neither the Results nor the Fig. 13 legend prints an effect, p or n for LRP1 colocalization after APOER2 knock-down, so the three not_found_in_source codes are correct.",
+  "evidence": "Results: 'Additionally, knock-down of APOER2 did not affect the intracellular localization of LRP1.'; Fig. 13 legend: '... while not affecting the levels in APOE4 neurons nor the extent of colocalization of LRP1 with early endosomes'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F12",
+  "key": "pmid38217595",
+  "quote_start": "A different pattern was observed with the growth factor receptors IR a",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 55.1% printed, p and n from the Fig. 13 legend, which also agrees numerically (0.53 -> 0.24 = 55%).",
+  "evidence": "Fig. 13 legend: 'IR- APOE4 control = 0.53+/-0.03, APOE4- APOER2 Aav = 0.24+/-0.04, p < 0.0001, N = 34-38 from 3 different preparations'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F13",
+  "key": "pmid38217595",
+  "quote_start": "A different pattern was observed with the growth factor receptors IR a",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 52.6% printed, p and n from the Fig. 13 legend (0.45 -> 0.20 = 56%, same comparison).",
+  "evidence": "Fig. 13 legend: 'VEGFR- APOE4 control = 0.45+/-0.03 APOE4- APOER2 Aav = 0.20+/-0.02, p < 0.0001, N = 24-28 from 3 different preparations'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F14",
+  "key": "pmid38217595",
+  "quote_start": "Quantification of these results revealed that the colocalization of IR",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.3x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "The quote itself prints both group values for IR in early endosomes, so the row should carry the ratio rather than 'qualitative': 0.36/0.28 = 1.29 -> 1.3x.",
+  "evidence": "Results: 'colocalization of IR with early endosomes was significantly higher in APOE4 neurons (0.36+/-0.02, N = 34 ...) than in the APOE3 neurons (0.28+/-0.02, N = 48 ..., p < 0.05)'; Fig. 6 image panel A (InsulinR coloc Early Endosomes) shows ~0.28 vs ~0.36 with one asterisk."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F15",
+  "key": "pmid38217595",
+  "quote_start": "Additionally, there was also a decrease in the colocalization of the r",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 30.88% decrease with p<0.05 printed for IR recycling endosomes; Fig. 8C is the IR panel.",
+  "evidence": "Results: 'IR: 30.88% decrease, p < 0.05'; Fig. 8 legend: 'IR- ... Recycling endosomes: APOE3 = 0.18+/-0.015, APOE4 = 0.13+/-0.022, p < 0.05', and panels are 'LRP1 (A), APOER2 (B), IR (C), and VEGFR (D)'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F16",
+  "key": "pmid38217595",
+  "quote_start": "Additionally, there was also a decrease in the colocalization of the r",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 29.02% decrease with p<0.05 printed for VEGFR recycling endosomes; Fig. 8D is the VEGFR panel.",
+  "evidence": "Results: 'VEGFR: 29.02% decrease, p < 0.05'; Fig. 8 legend: 'VEGFR- ... Recycling endosomes: APOE3 = 0.27+/-0.02, APOE4 = 0.19+/-0.02, p < 0.05'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F17",
+  "key": "pmid38217595",
+  "quote_start": "As can be seen, the downregulation of LRP1 had no significant effects ",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 48.9% printed; p and n match the Fig. 12 legend.",
+  "evidence": "Fig. 12 legend: 'IR- APOE4 control = 0.53+/-0.03, APOE4-LRP1 AAv = 0.27+/-0.03, p < 0.0001, N = 34-40 from 4 different preparations'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F18",
+  "key": "pmid38217595",
+  "quote_start": "As can be seen, the downregulation of LRP1 had no significant effects ",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 64.1% printed; p and n match the Fig. 12 legend.",
+  "evidence": "Fig. 12 legend: 'VEGFR- APOE4 control = 0.45+/-0.03, APOE4-LRP1 AAv = 0.16+/-0.02, p < 0.0001, N = 23-27 from 3 different preparations'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F19",
+  "key": "pmid38217595",
+  "quote_start": "Similar, though less prominent, pattern was evident in IR (Fig. 4 C, 2",
+  "verdict": "OK",
+  "reason": "Quote verbatim; the row correctly takes p = 0.07 from the Results (the Fig. 4 legend's 'p < 0.05, N = 3, p = 0.07' is the paper's own typo) and the figure image shows no asterisk on panel C.",
+  "evidence": "Results: 'IR (Fig. 4 C, 28.77% reduction, p = 0.07)'; Fig. 4 image: panel C (InsulinR) has no asterisk, unlike A and B."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F20",
+  "key": "pmid38217595",
+  "quote_start": "Similar, though less prominent, pattern was evident in IR (Fig. 4 C, 2",
+  "verdict": "OK",
+  "reason": "Quote verbatim; p = 0.15 taken from the Results, and panel D carries no asterisk in the figure image.",
+  "evidence": "Results: 'VEGFR (Fig. 4D, 9.90% reduction, p = 0.15)'; Fig. 4 image: panel D (VEGFR) unmarked."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F21",
+  "key": "pmid38217595",
+  "quote_start": "The first pattern which was observed with LRP1, shows that lower level",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 46.7% decrease with p<0.01 printed for LRP1 late endosomes (the Fig. 8 legend's 0.24 vs 0.127 = 47% agrees; the legend states p<0.001, the row follows the quoted Results value).",
+  "evidence": "Results: 'late endosomes (46.7% decrease, p < 0.01)'; Fig. 8 legend: 'Late endosomes: APOE3 = 0.24+/-0.023, APOE4 = 0.127+/-0.031, p < 0.001'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F22",
+  "key": "pmid38217595",
+  "quote_start": "Additionally, there was also a decrease in the colocalization of the r",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 35.89% decrease, p<0.0001 printed for APOER2 lysosomes; legend values 0.41 vs 0.26 agree.",
+  "evidence": "Results: 'APOER2 : 35.89% decrease, p < 0.0001'; Fig. 8 legend: 'Lysosomes: APOE3 = 0.41+/-0.024, APOE4 = 0.26+/-0.019, p < 0.0001'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F23",
+  "key": "pmid38217595",
+  "quote_start": "This decrease in late endosomes was significant for both IR and VEGFR ",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 25.80% decrease, p<0.05 for IR late endosomes; legend 0.41 vs 0.31 agrees.",
+  "evidence": "Results: 'IR: 25.80% decrease, p < 0.05'; Fig. 8 legend: 'IR- ... Late endosomes: APOE3 = 0.41+/-0.042, APOE4 = 0.31+/-0.028, p < 0.05'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F24",
+  "key": "pmid38217595",
+  "quote_start": "This decrease in late endosomes was significant for both IR and VEGFR ",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 47.74% decrease, p<0.05 for VEGFR late endosomes; legend 0.29 vs 0.15 agrees.",
+  "evidence": "Results: 'VEGFR: 47.74% decrease, p < 0.05'; Fig. 8 legend: 'VEGFR- ... Late endosomes: APOE3 = 0.29+/-0.04, APOE4 = 0.15+/-0.03, p < 0.05'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F25",
+  "key": "pmid38217595",
+  "quote_start": "The first pattern which was observed with LRP1, shows that lower level",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 20.2% decrease with p<0.05 printed for LRP1 lysosomes; legend 0.36 vs 0.29 agrees (the legend's prose 'unchanged in lysosomes' contradicts its own numbers, and the row follows the quoted Results sentence).",
+  "evidence": "Results: 'lysosomes (20.2% decrease, p < 0.05)'; Fig. 8 legend: 'Lysosomes: APOE3 = 0.36+/-0.031, APOE4 = 0.29+/-0.027, p < 0.05'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P1",
+  "finding_id": "P1.F1",
+  "key": "pmid39532095",
+  "quote_start": "In H4, WT HAP1, and APOE KO iAstrocytes, incubation with lipApoE3/E4 s",
+  "verdict": "OK",
+  "reason": "Quote verbatim and it is the paper's own result; no number, p or n is printed for the E3-vs-E4 contrast in this panel and no figure image was supplied, so N/A is right and the description correctly says the E4-specific effect is unresolved.",
+  "evidence": "Results: 'In H4, WT HAP1, and APOE KO iAstrocytes, incubation with lipApoE3/E4 significantly reduced surface LDLR relative to lipApoE2 ... (Figure 2A-D, Figure S2A-B)'; Fig. 2 legend: '(A and C) Confocal images of cell surface LDLR staining in H4 cells and APOE KO iAstrocytes'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P1",
+  "finding_id": "P1.F2",
+  "key": "pmid39532095",
+  "quote_start": "While all 3 ApoE isoforms impacted LDLR mRNA levels, lipApoE3/E4 abrog",
+  "verdict": "OK",
+  "reason": "Quote verbatim and is the authors' own summary of their Figure 2 data; the quantification panel prints no E3-vs-E4 number.",
+  "evidence": "Results: 'While all 3 ApoE isoforms impacted LDLR mRNA levels, lipApoE3/E4 abrogated the expected increase in surface LDLR by impairing its recycling.'; Fig. 2 legend: '(B and D) Quantification of surface LDLR signals in (A) and (C)'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P1",
+  "finding_id": "P1.F3",
+  "key": "pmid39532095",
+  "quote_start": "Conversely, lipApoE3 and lipApoE4 both exhibited high affinity binding",
+  "verdict": "OK",
+  "reason": "Quote verbatim; a single EC50 (~13 nM) is printed for both isoforms, so 'qualitative' is correct (no two group values to divide); n = 3 matches the legend and methods.",
+  "evidence": "Results: 'lipApoE3 and lipApoE4 both exhibited high affinity binding, demonstrating a half maximum effective concentration (EC50) of ~13 nM'; Fig. 1 legend: '(C) HTRF ... (3 independent experiments.)'; Methods: 'Three separate titrations were performed in triplicate for each ApoE isoform'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P1",
+  "finding_id": "P1.F4",
+  "key": "pmid39532095",
+  "quote_start": "SPR similarly revealed a high affinity LDLR binding for both lipApoE4 ",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.8x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "The quote prints both group values (KD = 9 nM for ApoE4, 16 nM for ApoE3), so the row should carry the ratio instead of 'qualitative': 16/9 = 1.8x lower KD for ApoE4.",
+  "evidence": "Results: 'SPR similarly revealed a high affinity LDLR binding for both lipApoE4 and lipApoE3 (KD = 9 nM and 16 nM, respectively)'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P1",
+  "finding_id": "P1.F5",
+  "key": "pmid39532095",
+  "quote_start": "Super-resolution imaging on APOE KO iAstrocytes confirmed internalized",
+  "verdict": "OK",
+  "reason": "Quote verbatim; the ApoE-LDLR Mander's coefficient is a single value (= 1) for all three isoforms, so there is no ratio to compute and 'qualitative' holds; no p or n printed for this statement.",
+  "evidence": "Results: 'Mander's coefficient for ApoE puncta with colocalizing LDLR = 1 for all 3 isoforms'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P1",
+  "finding_id": "P1.F6",
+  "key": "pmid39532095",
+  "quote_start": "Immunostaining of total LDLR (cell surface + intracellular) in H4 cell",
+  "verdict": "OK",
+  "reason": "Quote verbatim; the text prints no number, p or n for total LDLR in H4 cells, and no figure image was supplied to estimate from.",
+  "evidence": "Results: 'Immunostaining of total LDLR ... showed a modest but significant reduction in signals, which also appeared slightly more clustered (Figure 2E-F).'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P1",
+  "finding_id": "P1.F7",
+  "key": "pmid39532095",
+  "quote_start": "When DiI-LDL was spiked into media after 1d pre-treatment with lipApoE",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 'nearly abolished' is the only quantitative statement for the pre-treatment paradigm and it covers E3 and E4 jointly.",
+  "evidence": "Results: 'When DiI-LDL was spiked into media after 1d pre-treatment with lipApoE3/E4, DiI-LDL uptake was nearly abolished (Figure 2K, L).'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P1",
+  "finding_id": "P1.F8",
+  "key": "pmid39532095",
+  "quote_start": "Robust cell surface signals were observed for lipApoE3 and lipApoE4, w",
+  "verdict": "OK",
+  "reason": "Quote verbatim; the cell-based binding panel is qualitative imaging with no E3-vs-E4 number, p or n printed.",
+  "evidence": "Results: 'Robust cell surface signals were observed for lipApoE3 and lipApoE4, while minimal signals were observed for lipApoE2 ... (Figure 1A-B).'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P1",
+  "finding_id": "P1.F9",
+  "key": "pmid39532095",
+  "quote_start": "ApoE isoform differences were manifested in the differential levels of",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.21x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "The quote prints both group values (0.497 for ApoE4, 0.410 for ApoE3), so 'qualitative' is avoidable: 0.497/0.410 = 1.21x. The sibling row P7.F1, built from the same sentence, already carries 1.21x, so the sheet is internally inconsistent as it stands.",
+  "evidence": "Results: 'Mander's coefficients = 0.266 +/- 0.045 for ApoE2, 0.410 +/- 0.049 for ApoE3, 0.497 +/- 0.090 for ApoE4 (Figure 2I)'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P1",
+  "finding_id": "P1.F10",
+  "key": "pmid39532095",
+  "quote_start": "When cells were co-treated with lipApoE and DiI-LDL for 3–4 h, both li",
+  "verdict": "OK",
+  "reason": "Quote verbatim; the printed 60-65% inhibition is given jointly for lipApoE3 and lipApoE4, so it cannot be assigned to the E3-vs-E4 contrast this row describes, and N/A is the honest entry.",
+  "evidence": "Results: 'both lipApoE3 and lipApoE4 led to 60-65% inhibition of DiI-LDL uptake ... whereas lipApoE2 had no effect (Figure 2J, L).'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P11",
+  "finding_id": "P11.F1",
+  "key": "pmid32588544",
+  "quote_start": "In these studies, the amount of receptors recycling back to the cell s",
+  "verdict": "OK",
+  "reason": "Quote verbatim (line-break hyphenation aside); 50% reduction printed in the Results, and the Fig. 6 legend supplies 49.56% vs 100%, n = 9 biological replicates and *P < .05.",
+  "evidence": "Fig. 6 legend: 'Significantly fewer receptors recycled in the presence of apoE4 than apoE3 (49.56 +/- 16.92% vs 100 +/- 13.84%). Data are given as mean +/- SEM (n = 9 biological replicates from three independent experiments; Student's t test). *P <.05'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P11",
+  "finding_id": "P11.F2",
+  "key": "pmid32588544",
+  "quote_start": "The recycling path of sortilin established in CHO cells was not impact",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig. 6B is the antibody-labelling imaging panel, which is qualitative with no n or p.",
+  "evidence": "Results: 'However, in the presence of apoE4, internalized receptors failed to re-appear on the cell surface and remained largely intracellular (Figure 6B)'; Fig. 6 legend: 'No receptor recycling was observed in the presence of apoE4 ... (B)'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P11",
+  "finding_id": "P11.F3",
+  "key": "pmid32588544",
+  "quote_start": "Colocalization of receptor/ligand complexes in Tf-positive cell compar",
+  "verdict": "OK",
+  "reason": "Quote verbatim (Fig. 5 legend); the legend's significance key '*P < .05; **P < .01' covers panels C and D together with no figure image supplied, so P value N/A with ambiguous_panel is the correct code; n = 15-18 is printed.",
+  "evidence": "Fig. 5 legend: 'Data are given as mean +/- SEM (n = 15-18 cells for each condition; Student's t test). *P < .05; **P < .01.'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P11",
+  "finding_id": "P11.F4",
+  "key": "pmid32588544",
+  "quote_start": "The extent of co-localization of sortilin/apoE complexes (PLA signal) ",
+  "verdict": "FIX",
+  "set": {
+   "Sample size": "15-18",
+   "Sample size provenance": "printed_in_text"
+  },
+  "reason": "The row's data location includes the Fig. 5C/5D quantification of the panel-B experiment, and the legend prints n = 15-18 cells per condition for exactly those data, so the sample size is available rather than missing.",
+  "evidence": "Fig. 5 legend: '(C, D) Co-localization of sortilin and apoE complexes (PLA signal) with Tf was quantified as thresholded Manders' values (tM) in experiments exemplified in panel B. Data are given as mean +/- SEM (n = 15-18 cells for each condition ...)'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P11",
+  "finding_id": "P11.F5",
+  "key": "pmid32588544",
+  "quote_start": "Co-localization of sortilin with apoE3 was seen in a scattered vesicul",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig. 5A is a PLA imaging panel with no numbers, and the 24 h / 5 ug/mL conditions in the row match the legend.",
+  "evidence": "Fig. 5 legend: 'CHO-S cells ... treated for 24 hours at 37 C with 5 ug/mL of myc-tagged apoE3 or apoE4 ... PLA signals (red) ... showed a dispersed vesicular pattern with apoE3 but a juxtamembrane pattern with apoE4'."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P14",
+  "finding_id": "P14.F1",
+  "key": "pmid34919811",
+  "quote_start": "Interestingly, secreted cholesterol and CE were significantly decrease",
+  "verdict": "OK",
+  "reason": "Quote verbatim; the supplementary legend confirms S2B is the secreted cholesterol/CE/PE panel; no effect size, p or n is printed for it.",
+  "evidence": "Supplement, Figure S2 legend: 'B: Secreted cholesterol, cholesteryl ester (CE) and phosphatydilethanolamine (PE) quantified with HPTLC, normalized to cellular phosphatidylcholine (PC).'"
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P14",
+  "finding_id": "P14.F2",
+  "key": "pmid34919811",
+  "quote_start": "A flow-cytometry-based Aβ42 uptake assay, using pre-aggregated Hilyte4",
+  "verdict": "OK",
+  "reason": "Quote verbatim; p = 0.054 (APOE3 vs APOE4 baseline) and p = 0.23 (RAP effect in E4) are printed, n = three independent experiments is in the Fig. 2 legend, and the summary correctly notes the paper reports no genotype-by-RAP interaction test. The supplied figure image is 100 px wide, so no value can be read off panel F.",
+  "evidence": "Fig. 2 legend: '(F) Flow-cytometry-based Abeta42 uptake assay ... pre-treated for 24 h with 0.2 uM LRP1 antagonist RAP ... All datapoints (n-numbers) are plotted in each bar graph (three independent experiments).'"
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P14",
+  "finding_id": "P14.F3",
+  "key": "pmid34919811",
+  "quote_start": "Uptake of glutamate in iAstrocytes demonstrated an allele-dependent ef",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig. 2D is the 1 h glutamate uptake panel normalised to protein, no numbers or p printed, n = three independent experiments from the legend. The 100 px figure image is unreadable, so no estimate is defensible.",
+  "evidence": "Fig. 2 legend: '(D) Glutamate uptake assay showing the amount of glutamate taken up by APOE-isogenic iAstrocytes within 1 h. Data were normalized to total protein content of the respective cell lysate.'"
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P7",
+  "finding_id": "P7.F1",
+  "key": "pmid39532095",
+  "quote_start": "ApoE isoform differences were manifested in the differential levels of",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 0.497/0.410 = 1.21x matches the row, and no p or n is printed for the Fig. 2I comparison.",
+  "evidence": "Results: 'Mander's coefficients = 0.266 +/- 0.045 for ApoE2, 0.410 +/- 0.049 for ApoE3, 0.497 +/- 0.090 for ApoE4 (Figure 2I)'; Fig. 2 legend: '(I) Quantification of internalized lipApoE signals and LAMP1-positive vesicles containing ApoE immunoreactivity in (H).'"
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P7",
+  "finding_id": "P7.F2",
+  "key": "pmid39532095",
+  "quote_start": "Super-resolution imaging on APOE KO iAstrocytes confirmed internalized",
+  "verdict": "OK",
+  "reason": "Quote verbatim; the row reports ApoE4 values only (Mander's 1 and 0.900 +/- 0.008) and the summary states plainly that recycling rates were unmeasured, which is what Fig. 2H shows.",
+  "evidence": "Results: 'internalized lipApoE completely colocalized with endogenous LDLR ... largely inside LAMP1 compartments (Figure 2H) (Mander's coefficients ... 0.900 +/- 0.008 for ApoE4).'"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P24",
+  "finding_id": "P24.F1",
+  "key": "pmid38891941",
+  "quote_start": "We measured apolipoprotein levels in the guanidine hydrochloride-solub",
+  "verdict": "OK",
+  "reason": "Quote verbatim; p = 0.2003 for the genotype main effect in Fig. 4T, and the legend prints n = 3-11 mice/group for that panel.",
+  "evidence": "Fig. 4 legend: '(T) Analysis of main effect of genotype in APPPS1:E4 and APPPS1:E3 mice (n = 3-11 mice/group)'; Results: 'There was no main effect of the APOE allele ... (Figure 4T, p = 0.2003)'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P24",
+  "finding_id": "P24.F2",
+  "key": "pmid38891941",
+  "quote_start": "Mice with the APOE4 allele appeared to have higher apoE levels at 12 a",
+  "verdict": "OK",
+  "reason": "Quote verbatim and is the paper's own statement about the same panel's 12-month comparison; no p is printed for that simple effect, and n = 3-11 matches the legend. The supplied Fig. 4 image is 100 px wide, so nothing can be read off it.",
+  "evidence": "Results: 'Mice with the APOE4 allele appeared to have higher apoE levels at 12 and 16 months, but the difference was insignificant.'"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P8",
+  "finding_id": "P8.F1",
+  "key": "pmid22512241",
+  "quote_start": "However, apoE fragments and larger complexes in ACC were more abundant",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig. 2F left panel is the anti-apoE blot, the two siblings are the full sample, and no number or p is reported. Ages at death (61 and 60) and postmortem intervals (12.8 and 6.5 h) in the row match the case reports and Methods.",
+  "evidence": "Fig. 2 legend: 'Western blotting of detergent-solubilized pellet fractions of the ACC (10 ug of protein per lane) with anti-human apoE ... Patient 1's ACC contained more apoE fragments and high-molecular-weight complexes (F, left panel).'; Methods: 'Brain tissues were collected at 12.8 (Patient 1) and 6.5 (Patient 2) hours after death.'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P9",
+  "finding_id": "P9.F1",
+  "key": "pmid22622580",
+  "quote_start": "By imaging APOE/LRP1 proximity ligation in pericytes we demonstrated t",
+  "verdict": "OK",
+  "reason": "Quote verbatim and is this paper's own pericyte result; the Fig. 4 legend's 'representative results from 6 experiments' supports n = 6, and no number or p is printed for the PLA panel. The row states the direction correctly (APOE4-LRP1 barely detectable, i.e. the opposite of the hypothesis).",
+  "evidence": "Fig. 4 legend: '(b) Proximity ligation imaging of apoE3 and apoE4 interaction with LRP1 ... b and c-d, representative results from 6 experiments.'"
+ }
+]

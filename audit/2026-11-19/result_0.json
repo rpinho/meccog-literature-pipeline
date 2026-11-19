@@ -1,0 +1,684 @@
+[
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F1",
+  "key": "pmid30375977",
+  "quote_start": "While Apoer2 quickly recycled in the presence of ApoE3, its reappearan",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 2B; supplementary file elife-40048-fig2-data1.xlsx, sheet Fig2C, Apoer2 E3+R versus E4+R",
+   "Effect size": "2.9x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Quote, direction, panel and n = 3 all check out; the row was left qualitative although the paper's own source data give both group means, so the ratio is now stated.",
+  "evidence": "Figure 2 source data, sheet Fig2C, row Apoer2: E3+R 82.1/73.6/76.3 (mean 77.3) vs E4+R 32.4/27.6/20.3 (mean 26.8) = 2.9x lower surface/total Apoer2 with ApoE4."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F2",
+  "key": "pmid30375977",
+  "quote_start": "Apoer2 surface levels show a higher reduction with ApoE4 than ApoE3.",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 2C; supplementary file elife-40048-fig2-data1.xlsx, sheet Fig2C, Apoer2 E3+R versus E4+R",
+   "Effect size": "2.9x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Quote is verbatim in the Figure 2 legend and is the paper's own result; this is the quantification panel, so the printed source-data values replace 'qualitative'.",
+  "evidence": "Fig 2 legend: 'Apoer2 surface levels show a higher reduction with ApoE4 than ApoE3.' Sheet Fig2C: E3+R mean 77.3 vs E4+R mean 26.8 = 2.9x."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F3",
+  "key": "pmid30375977",
+  "quote_start": "The delayed recycling of Apoer2 was also apparent by the prolonged ret",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 2D; supplementary file elife-40048-fig2-data1.xlsx, sheet Fig2E, E3 versus E4",
+   "Effect size": "1.6x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Quote verbatim and system correct (5 ug/ml, 3 h, anti-Apoer2 co-IP); the paired quantification (Fig 2E) is in the source data, so the fold difference is now given.",
+  "evidence": "Sheet Fig2E: E3 108.7/84.6/106.7 (mean 100.0) vs E4 165.2/146.7/153.4 (mean 155.1) = 1.6x more ApoE retained with ApoE4."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F4",
+  "key": "pmid30375977",
+  "quote_start": "As shown in Figure 4D and E, physiological concentrations of ApoE3 (5 ",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 4D; supplementary file elife-40048-fig4-data1.xlsx, sheet Fig4E, EMD87580 0 uM, E3+R versus E4+R",
+   "Effect size": "2.9x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Quote verbatim and supports the description; the no-drug ApoE3 vs ApoE4 comparison is quantified in the Fig 4E source data.",
+  "evidence": "Sheet Fig4E at 0 uM EMD87580: E3+R 86.1/72.7/69.4 (mean 76.1) vs E4+R 22.6/30.7/25.1 (mean 26.1) = 2.9x."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F5",
+  "key": "pmid30375977",
+  "quote_start": "ApoE3 and ApoE4 bind Apoer2 with similar affinity, whereas ApoE2 bindi",
+  "verdict": "OK",
+  "reason": "Quote is verbatim in the Figure 1 legend, is the paper's own pull-down result, and the null framing (ApoE3 ~ ApoE4 binding) matches; N/A effect size and n are correct because the paper prints neither for Fig 1A.",
+  "evidence": "Fig 1 legend: 'ApoE3 and ApoE4 bind Apoer2 with similar affinity, whereas ApoE2 binding to Apoer2 is poor.' Fig1B source data at 10 ug/ml: E3 18.4 vs E4 18.9 (no isoform difference)."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F6",
+  "key": "pmid30375977",
+  "quote_start": "By contrast, other endocytic cell surface receptors that do not bind A",
+  "verdict": "OK",
+  "reason": "Quote verbatim from Results, correct panel, correct null direction for Lrp1; N/A effect size is right for a reported non-difference.",
+  "evidence": "Results: '... (Lrp1) and (Ldlr), were not significantly affected by the presence of ApoE (Figure 2B,C).' Sheet Fig2C Lrp1: E3+R mean 104.7 vs E4+R mean 101.5."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F7",
+  "key": "pmid30375977",
+  "quote_start": "Other ApoE receptors, such as low-density lipoprotein receptor-related",
+  "verdict": "OK",
+  "reason": "Quote verbatim from the Figure 2 legend, panel 2C is the quantification, null direction correct.",
+  "evidence": "Fig 2 legend: 'Other ApoE receptors, such as ... (Lrp1) and ... (Ldlr) ... exhibit comparable surface levels in the presence of ApoE3 or ApoE4.'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F8",
+  "key": "pmid30375977",
+  "quote_start": "Increasing concentrations progressively restored normal surface recycl",
+  "verdict": "OK",
+  "reason": "Quote verbatim, panel 4C is the dose-response quantification, n = 3 printed in the legend; left qualitative because the finding is a dose series rather than one pairwise contrast.",
+  "evidence": "Results: 'Increasing concentrations progressively restored normal surface recycling of Apoer2 in the presence of ApoE4 (Figure 4B,C).' Sheet Fig4C: 0 uM 24.3, 0.1 34.8, 0.3 51.3, 1 80.0, 3 107.8."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F9",
+  "key": "pmid30375977",
+  "quote_start": "Figure 4F and G show that the resulting increase of the endosomal pH r",
+  "verdict": "OK",
+  "reason": "Quote verbatim, Fig 4G is the right panel, and the claim is a dose series (bafilomycin 5-100 nM), so qualitative is appropriate.",
+  "evidence": "Sheet Fig4G: E4+EMD 100.3, +Baf5 100.4, +Baf10 96.2, +Baf50 52.6, +Baf100 33.3."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F10",
+  "key": "pmid30375977",
+  "quote_start": "Figure 5A–D shows that of all NHEs (1 and 5 through 9) that were targe",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "3.7x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Quote verbatim and the shNHE6(1) columns are in the cited sheet, so the restoration can be quantified instead of left qualitative; no star marks this cross-pair comparison, so P stays N/A.",
+  "evidence": "Sheet Fig5D: E4+R 32.1/22.6/27.4 (mean 27.4) vs E4+R+shNHE6(1) 104.8/98.2/102.5 (mean 101.8) = 3.7x restoration. Fig 5D image: the *** brackets are within C+R/E4+R pairs, none over E4+R vs E4+R+shNHE6."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F11",
+  "key": "pmid30375977",
+  "quote_start": "ApoE-conditioned media treatment reduces the surface expression of Apo",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 4B; supplementary file elife-40048-fig4-data1.xlsx, sheet Fig4C, Con versus 0 uM EMD87580",
+   "Effect size": "4.1x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Finding is supported, but the quote is taken from the Figure 2 legend while the row cites Fig 4B; the Fig 4C source data quantify this exact lane pair, so the value and location are made explicit.",
+  "evidence": "Sheet Fig4C: Con 103.1/96.9/99.7 (mean 99.9) vs 0 uM (ApoE4) 20.1/27.4/25.3 (mean 24.3) = 4.1x."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F12",
+  "key": "pmid30375977",
+  "quote_start": "(A and C) shRNA knockdown of NHE6, but not other NHEs (NHE1, 5, 7, 8, ",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "3.8x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Panel and n are right; the cited sheet gives both group means and Fig 5B carries a visible *** bracket over exactly this C+R vs E4+R pair (legend key ***p<0.001, Student's t-test).",
+  "evidence": "Sheet Fig5B: C+R mean 99.9 vs E4+R mean 26.3 = 3.8x. Fig 5B image: leftmost bracket with *** spans the C+R and E4+R bars."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F13",
+  "key": "pmid30375977",
+  "quote_start": "N/A",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "3.8x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Row correctly flags supplement-only data; the three raw values per group give the ratio, and the *** bracket over this pair in Fig 5B supplies the p.",
+  "evidence": "Sheet Fig5B: C+R 105.5/96.9/97.4 vs E4+R 21.3/30.5/27.1 = 3.8x. Fig 5B image: *** bracket over C+R vs E4+R; Fig 5 legend key ***p<0.001."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F14",
+  "key": "pmid30375977",
+  "quote_start": "N/A",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "3.7x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Same correction for the Fig 5D no-knockdown pair: ratio from the cited sheet, p from the visible *** bracket over this comparison.",
+  "evidence": "Sheet Fig5D: C+R 105.1/96.6/98.5 (mean 100.1) vs E4+R 32.1/22.6/27.4 (mean 27.4) = 3.7x. Fig 5D image: leftmost *** bracket spans C+R and E4+R."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F15",
+  "key": "pmid30375977",
+  "quote_start": "N/A",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 6B, Apoer2 blot, lanes 1 and 2; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6C, C+R versus E4+R",
+   "Effect size": "4.0x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Correct lanes and direction; the matching quantification (Fig 6C) is in the source data and carries a visible *** bracket over C+R vs E4+R.",
+  "evidence": "Sheet Fig6C: C+R mean 100.0 vs E4+R 29.4/19.3/25.5 (mean 24.7) = 4.0x. Fig 6C image: *** bracket from bar 1 (C+R) to bar 2 (E4+R); Fig 6 legend key ***p<0.001."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F16",
+  "key": "pmid30375977",
+  "quote_start": "N/A",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 6B, Apoer2 blot, lanes 4 and 5; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6C, R+scramble versus E4+R+scramble",
+   "Effect size": "4.1x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Lanes and direction are right and the scramble columns are in the Fig 6C sheet; P stays N/A because the second *** bracket runs from C+R to E4+R+scramble, not between the two scramble bars.",
+  "evidence": "Sheet Fig6C: R+scramble mean 97.7 vs E4+R+scramble 20.1/22.5/28.6 (mean 23.7) = 4.1x. Fig 6C image: long *** bracket starts at bar 1 (C+R)."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F17",
+  "key": "pmid30375977",
+  "quote_start": "N/A",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 6C; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6C, C+R versus E4+R",
+   "Effect size": "4.0x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "This is the Apoer2 quantification panel, so the source-data ratio and the visible *** over this exact pair replace 'qualitative' and N/A.",
+  "evidence": "Sheet Fig6C: C+R mean 100.0 vs E4+R mean 24.7 = 4.0x; Fig 6C image shows *** over the C+R/E4+R bracket."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F18",
+  "key": "pmid30375977",
+  "quote_start": "EMD87580 and the NHE6-specific shRNAs completely restored Apoer2 and g",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 6D, EMD87580 comparison; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6D, E4+R versus E4+R+EMD87580",
+   "Effect size": "3.9x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Quote and panel are right (GluN2B is Fig 6D); the rescue can be quantified from the sheet. No star marks E4+R vs E4+R+EMD87580, so P stays N/A.",
+  "evidence": "Sheet Fig6D: E4+R mean 24.1 vs E4+R+EMD87580 107.2/80.2/95.3 (mean 94.2) = 3.9x. Fig 6D image: brackets run from C+R only."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F19",
+  "key": "pmid30375977",
+  "quote_start": "N/A",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 6B, GluN2B blot, lanes 1 and 2; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6D, C+R versus E4+R",
+   "Effect size": "4.1x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Lanes, subunit and direction check out; Fig 6D quantifies these lanes and shows *** over C+R vs E4+R.",
+  "evidence": "Sheet Fig6D: C+R 108.2/92.2/97.6 (mean 99.3) vs E4+R 26.4/17.3/28.5 (mean 24.1) = 4.1x."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F20",
+  "key": "pmid30375977",
+  "quote_start": "N/A",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 6B, GluA1 blot, lanes 1 and 2; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6E, C+R versus E4+R",
+   "Effect size": "3.4x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Correct lanes and subunit; Fig 6E is the GluA1 quantification and shows *** over C+R vs E4+R.",
+  "evidence": "Sheet Fig6E: C+R mean 100.0 vs E4+R 32.6/25.9/28.9 (mean 29.1) = 3.4x."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F21",
+  "key": "pmid30375977",
+  "quote_start": "N/A",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 6B, GluA2/3 blot, lanes 1 and 2; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6F, C+R versus E4+R",
+   "Effect size": "3.6x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Correct lanes and subunit; Fig 6F is the GluA2/3 quantification and shows *** over C+R vs E4+R.",
+  "evidence": "Sheet Fig6F: C+R mean 100.0 vs E4+R 27.4/33.1/21.9 (mean 27.5) = 3.6x."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F22",
+  "key": "pmid30375977",
+  "quote_start": "N/A",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 6B, GluN2B blot, lanes 4 and 5; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6D, R+scramble versus E4+R+scramble",
+   "Effect size": "4.1x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Scramble lanes and direction are right; ratio added from the sheet. P stays N/A: the long *** bracket is C+R vs E4+R+scramble, not scramble vs scramble.",
+  "evidence": "Sheet Fig6D: R+scramble mean 96.3 vs E4+R+scramble 18.5/21.7/29.6 (mean 23.3) = 4.1x."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F23",
+  "key": "pmid30375977",
+  "quote_start": "N/A",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 6B, GluA1 blot, lanes 4 and 5; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6E, R+scramble versus E4+R+scramble",
+   "Effect size": "4.3x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Scramble lanes correct for GluA1; ratio added from the Fig 6E sheet.",
+  "evidence": "Sheet Fig6E: R+scramble mean 98.6 vs E4+R+scramble 18.5/22.7/27.6 (mean 22.9) = 4.3x."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F24",
+  "key": "pmid30375977",
+  "quote_start": "N/A",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 6B, GluA2/3 blot, lanes 4 and 5; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6F, R+scramble versus E4+R+scramble",
+   "Effect size": "3.7x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Scramble lanes correct for GluA2/3; ratio added from the Fig 6F sheet.",
+  "evidence": "Sheet Fig6F: R+scramble mean 99.6 vs E4+R+scramble 33.7/19.8/26.6 (mean 26.7) = 3.7x."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F25",
+  "key": "pmid30375977",
+  "quote_start": "N/A",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 6D; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6D, C+R versus E4+R",
+   "Effect size": "4.1x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "GluN2B quantification panel: source-data ratio and the visible *** over this pair replace 'qualitative' and N/A.",
+  "evidence": "Sheet Fig6D: C+R mean 99.3 vs E4+R mean 24.1 = 4.1x; Fig 6D image shows *** over the C+R/E4+R bracket."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F26",
+  "key": "pmid30375977",
+  "quote_start": "N/A",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 6E; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6E, C+R versus E4+R",
+   "Effect size": "3.4x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "GluA1 quantification panel: ratio from the sheet, p from the visible *** bracket.",
+  "evidence": "Sheet Fig6E: C+R mean 100.0 vs E4+R mean 29.1 = 3.4x."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F27",
+  "key": "pmid30375977",
+  "quote_start": "N/A",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 6F; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6F, C+R versus E4+R",
+   "Effect size": "3.6x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "GluA2/3 quantification panel: ratio from the sheet, p from the visible *** bracket.",
+  "evidence": "Sheet Fig6F: C+R mean 100.0 vs E4+R mean 27.5 = 3.6x."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P5",
+  "finding_id": "P5.F28",
+  "key": "pmid30375977",
+  "quote_start": "None of the shRNAs directed against NHE1, 5, 7, 8 or 9 had any effect ",
+  "verdict": "OK",
+  "reason": "Quote verbatim, correct null direction for NHE5, and the cited sheet confirms it; qualitative is the right encoding for a reported non-effect.",
+  "evidence": "Results: 'None of the shRNAs directed against NHE1, 5, 7, 8 or 9 had any effect on surface Apoer2 expression...'. Sheet Fig5D: E4+R mean 27.4 vs E4+R+shNHE5 25.5/29.2/26.1 (mean 26.9)."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P2",
+  "finding_id": "P2.F1",
+  "key": "pmid12393895",
+  "quote_start": "The concentration of urea at which the folding intermediate was at max",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "durea=1.0",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Quote verbatim and correctly read (the paper's own three-state fit); the text prints both group values, so the row should not stay qualitative.",
+  "evidence": "Results p.3: 'The concentration of urea at which the folding intermediate was at maximum concentration was 3.75 M for the apoE4 22-kDa fragment (90%) and 4.75 M for the apoE3 fragment (80%)' - apoE4 peaks 1.0 M urea lower (intermediate ~90% vs ~80%)."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P2",
+  "finding_id": "P2.F2",
+  "key": "pmid12393895",
+  "quote_start": "Digestion of the apoE3 22-kDa fragment in 3.75 M urea yielded the same",
+  "verdict": "OK",
+  "reason": "Quote verbatim; the 3.75 M / 250:1 pepsin conditions in the system field match Experimental Procedures, and the paper gives no quantification of digestion extent, so qualitative is right.",
+  "evidence": "Results: 'Digestion of the apoE3 22-kDa fragment in 3.75 M urea yielded the same bands as the apoE4 digestion but with less proteolysis of the intact apoE3 fragment (Fig. 3, middle panels).' Methods: ratios 10:1, 250:1, 2000:1 for 0, 3.75, 4.75 M urea."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P2",
+  "finding_id": "P2.F3",
+  "key": "pmid12393895",
+  "quote_start": "At pH 7.4, apoE3 and apoE4 reflected an apparent two-state denaturatio",
+  "verdict": "OK",
+  "reason": "Quote is verbatim (abstract wording of the authors' own result) and the pH 4.0 claim matches Fig 1B; no numbers are printed for the pH 4.0 curves, so qualitative is correct.",
+  "evidence": "Abstract: 'At pH 4.0 ... apoE4 and apoE3 displayed the same order of denaturation but with distinct plateaus, suggesting the presence of a stable folding intermediate.' Results repeat this for Fig 1B."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P2",
+  "finding_id": "P2.F4",
+  "key": "pmid12393895",
+  "quote_start": "In 0 M urea, there was one major frag- ment, which had the amino-termi",
+  "verdict": "OK",
+  "reason": "Quote verbatim, 0 M urea / 10:1 pepsin matches Methods, and N/A effect size fits a no-difference observation with no statistics.",
+  "evidence": "Results: 'In 0 M urea, there was one major fragment, which had the amino-terminal sequence of RQQTE ... Further addition of pepsin or longer digestion times did not produce smaller cleavage products under these conditions.'"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P2",
+  "finding_id": "P2.F5",
+  "key": "pmid12393895",
+  "quote_start": "The bands after digestion of apoE3 and apoE4 in 4.75 M urea were simil",
+  "verdict": "OK",
+  "reason": "Quote verbatim, panel (Fig 3 bottom, 4.75 M) and 2000:1 ratio match Methods, and the convergence direction is correctly summarised.",
+  "evidence": "Results: 'The bands after digestion of apoE3 and apoE4 in 4.75 M urea were similar ... but there was less difference in the extent of digestion (Fig. 3, bottom panels).'"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P2",
+  "finding_id": "P2.F6",
+  "key": "pmid12393895",
+  "quote_start": "The midpoints of denaturation for the 22-kDa fragments of apoE3 and ap",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "durea=0.9",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Quote verbatim and midpoints correctly attributed (apoE3 5.2 M, apoE4 4.3 M); since the text prints both values the row should carry the difference rather than 'qualitative'.",
+  "evidence": "Results: 'The midpoints of denaturation for the 22-kDa fragments of apoE3 and apoE4 were 5.2 and 4.3 M urea, respectively ... (Fig. 1A)' - apoE4 unfolds at 0.9 M less urea."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P2",
+  "finding_id": "P2.F7",
+  "key": "pmid12393895",
+  "quote_start": "Therefore, the data were analyzed according to a three-state model (na",
+  "verdict": "OK",
+  "reason": "Quote verbatim; the summary correctly avoids claiming an isoform difference in fit quality, and Fig 1C is the three-state fit panel.",
+  "evidence": "Results: '... analyzed according to a three-state model (native/intermediate/unfolded) (28), which gave excellent fits for the apoE3 and apoE4 isoforms (Fig. 1C) but did not give a better fit for apoE2 than the two-state model.'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P8",
+  "finding_id": "P8.F1",
+  "key": "pmid20547867",
+  "quote_start": "Whereas ApoE2 (lane 2) and ApoE3 (lane 3) did not reduce surface expre",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~1.3x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.05",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote, 15 min / 3 ug/ml treatment and n = 4 are all correct; Fig 1B is readable, so the ApoE3 vs ApoE4 bar ratio and the bracketed star over exactly this pair can be given.",
+  "evidence": "Fig 1B bar chart (axis 0/50/100/150): control 100, ApoE2 ~115, ApoE3 ~84, ApoE4 ~65 (~1.3x lower with ApoE4); a single '*' sits on the bracket spanning the ApoE3 and ApoE4 bars, legend key '*P < 0.05'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P8",
+  "finding_id": "P8.F2",
+  "key": "pmid20547867",
+  "quote_start": "ApoE3 was marginally, but not significantly, more effective than ApoE2",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~2x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.01",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote verbatim and direction right; P was marked ambiguous_panel, but Fig 1C shows a '**' bracket between ApoE3+R and ApoE4+R, and the legend states brackets mark differences between treatments.",
+  "evidence": "Fig 1C (axis 0-120 in steps of 20): control+R 100, ApoE2+R ~60, ApoE3+R ~50, ApoE4+R ~25 (~2x lower with ApoE4); '**' on the ApoE3+R-to-ApoE4+R bracket, legend '** P < 0.01 ... Asterisks on brackets indicates significant difference between treatments.'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P8",
+  "finding_id": "P8.F3",
+  "key": "pmid20547867",
+  "quote_start": "All ApoE isoforms ( Fig. 1 C , lanes 2–4) significantly decreased surf",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~4x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote verbatim and the control+R vs ApoE4+R comparison is the one the legend's column asterisks encode, so the p and the bar ratio can be read off Fig 1C.",
+  "evidence": "Fig 1C: '***' sits above the ApoE4+R column; legend: 'Asterisks above individual columns indicate significant difference compared with control. ... *** P < 0.001'. Bars: control+R 100 vs ApoE4+R ~25 = ~4x."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P8",
+  "finding_id": "P8.F4",
+  "key": "pmid20547867",
+  "quote_start": "Consistent with the earlier reports, ApoE4 release into the culture me",
+  "verdict": "OK",
+  "reason": "Quote verbatim from Results, Fig 1A is the chase blot with no quantification, and the row correctly flags the 15 min vs 30 min loading-time discrepancy between Results/SI and the Fig 1A legend.",
+  "evidence": "Results: 'ApoE4 release into the culture medium (lanes 4, 8, and 12) during the chase period was markedly delayed ... Substantially more ApoE4 was retained in intracellular compartments at all time points.' Fig 1A legend: 'incubated with ApoE at 3 ug/mL for 30 min'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P8",
+  "finding_id": "P8.F5",
+  "key": "pmid20547867",
+  "quote_start": "ApoE4 reduces GluA1, GluA2/3, and GluN2B cell-surface levels in acutel",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 2I, GluN2B bar group (blots in Fig 2H)",
+   "Effect size": "~3.5x",
+   "Effect size provenance": "estimated_from_figure"
+  },
+  "reason": "Quote verbatim from the Fig 2 legend; the figure image resolves the ambiguity the row flags - H holds the blots and I the per-subunit quantification - and the GluN2B bars give the ApoE3 vs ApoE4 ratio.",
+  "evidence": "Fig 2 image: panel H = surface/total blots for GluA1, GluA2/3, GluN2B (lanes C, E2, E3, E4); panel I = bar chart standardized to control, GluN2B group Control 100, E2 ~95, E3 ~66, E4 ~19 (~3.5x lower with ApoE4). No stars in panel I, so P stays N/A."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P11",
+  "finding_id": "P11.F1",
+  "key": "doi_10_21203_rs_3_rs_82205_v1",
+  "quote_start": "A) Western blot analysis from neuronal culture treated with APOE 4 or ",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Supplementary Fig 3A and 3C (surface/total LRP1); 3B is total LRP1/actin",
+   "Effect size": "~1.5x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.01",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote verbatim, but the panels can be assigned: in the preprint PDF Supplementary Fig 3B is T.LRP1/actin (n.s) and 3C is S.LRP1/T.LRP1, which carries '**' over the only comparison in the panel. 'full_text_unavailable' was wrong - the preprint PDF contains the panel.",
+  "evidence": "Supplementary Fig 3 (PDF p.23): panel C, axis 0-40000 in steps of 10000, APOE4 ~29,000 vs APOE4+Exo-1 ~19,500 (~1.5x), '**' above the pair; legend: 'n=3 unpaired Student's t-test, mean +/- SEM. *P<0.05 and **P<0.01.'"
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P11",
+  "finding_id": "P11.F2",
+  "key": "doi_10_21203_rs_3_rs_82205_v1",
+  "quote_start": "D) Western blot analysis from neuronal culture treated with APOE2/4 or",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Supplementary Fig 3D and 3F (surface/total LRP1); 3E is total LRP1/actin",
+   "Effect size": "~1.4x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.05",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote verbatim and direction right (dynasore raises surface LRP1, i.e. blocks the APOE2-driven reduction); panels E and F are separable in the PDF and F carries '*' over this comparison.",
+  "evidence": "Supplementary Fig 3 (PDF p.23): panel F, axis 0-30000 in steps of 10000, APOE2/4 ~16,800 vs APOE2/4+Dyna ~23,000 (~1.4x), '*' above the pair; legend key '*P<0.05'."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P11",
+  "finding_id": "P11.F3",
+  "key": "doi_10_21203_rs_3_rs_82205_v1",
+  "quote_start": "However, APOE4 in the presence of GPC-4 shRNA showed a significant red",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~1.6x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.01",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote verbatim, Fig 4J is the right panel and n=3-5 matches the legend; the panel shows '**' over exactly the APOE4 vs APOE4+GPC-4 shRNA comparison, so P should not be N/A.",
+  "evidence": "Fig 4J (PDF p.36), axis 0-25000 in steps of 5000: Control ~2,000, APOE4 ~18,800, APOE4+GPC-4 shRNA ~11,600 (~1.6x reduction); '****' over Control-APOE4 and '**' over APOE4-APOE4+shRNA; Fig 4 legend: 'n=3-5, one-way ANOVA ... **P<0.01 and ****P<0.0001.'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P28",
+  "finding_id": "P28.F1",
+  "key": "pmid35969759",
+  "quote_start": "In contrast, APOE4 enhanced the trafficking of surface LRP1 levels (Fi",
+  "verdict": "OK",
+  "reason": "Quote verbatim from Results, Fig 6A is the blot, n = 4 to 5 matches the legend, and ambiguous_panel is the correct P code (the legend gives one key for the whole figure and the supplied figure image is a thumbnail that cannot be read).",
+  "evidence": "Results: 'In contrast, APOE4 enhanced the trafficking of surface LRP1 levels (Fig. 6A-C).' Fig 6 legend: 'n = 4 to 5, one-way ANOVA or unpaired t test, **P < 0.01, ***P < 0.001, and ****P < 0.0001.' figimg/6.png is 100x112 px, unreadable."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P28",
+  "finding_id": "P28.F2",
+  "key": "pmid35969759",
+  "quote_start": "(A–C) Western blot analysis from primary neuronal culture treated with",
+  "verdict": "OK",
+  "reason": "Quote verbatim from the Fig 6 legend, 6C is the quantification panel for the APOE4 surface-LRP1 increase, n and provenance codes correct.",
+  "evidence": "Fig 6 legend: '(A-C) Western blot analysis from primary neuronal culture treated with APOE (s) shows that addition of APOE4 significantly enhanced the surface LRP1 (S.LRP1) (C).'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P28",
+  "finding_id": "P28.F3",
+  "key": "pmid35969759",
+  "quote_start": "(K–M) Western blot analysis from neuronal culture treated with ACM alo",
+  "verdict": "OK",
+  "reason": "Quote verbatim from the Fig 6 legend and the ACM-alone vs ACM+APOE4 direction is backed by Results; 6K is the blot panel, provenance codes correct.",
+  "evidence": "Results: 'We treated neurons with either ACM with additional APOE4 ... or ACM from GPC-4 shRNA-treated astrocytes with additional APOE4. In the absence of GPC-4, APOE4 addition resulted in a significant reduction in surface trafficking of LRP1 (Fig. 6K-M).'"
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P6",
+  "finding_id": "P6.F1",
+  "key": "pmid35750033",
+  "quote_start": "Although LDL significantly bound more cell surface receptors (e.g. LDL",
+  "verdict": "OK",
+  "reason": "Quote verbatim from Results and it is the paper's own isogenic-astrocyte experiment; Fig 6E is the LDL-binding panel, the competition control in the system field matches Methods, and no n or p is printed for 6E.",
+  "evidence": "Results: 'Although LDL significantly bound more cell surface receptors (e.g. LDLRs) in APOE4 astrocytes ... (Figure 6E)'. Methods: 'incubated with Alexa546-labeled LDL (Pipalia et al., 2017) for 5 min ... As a control we treated the cells with 2.5-fold excess unlabeled LDL'; astrocytes 'harvested as astrocytes at 30 DIV'; Fig 6E legend gives no N, only 'Each dot represents fluorescent intensity in a field'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P6",
+  "finding_id": "P6.F1",
+  "key": "pmid38912292",
+  "quote_start": "Consistent with previous studies showing that expression of APOE4 dama",
+  "verdict": "DROP",
+  "reason": "This source is a one-page Autophagy Reports research highlight with no primary data: its Figure 1 is a schematic of APOE trafficking, not an experiment, and the quoted sentence summarises results published in the authors' own primary paper (ref [1], the cell lines 'we developed'). The row's Data location therefore points at a cartoon, and nothing in this paper supports the finding on its own.",
+  "evidence": "Text: 'In order to track the flow of APOE through the endolysosomal system, we developed novel cell lines expressing fluorescently tagged APOE3 and APOE4 [1]. Consistent with previous studies ... we found that APOE4 accumulates in enlarged lysosomes and late endosomes (Figure 1).' Figure 1 legend: 'Aberrant lysosomal trafficking of APOE4 (below, orange) vs. APOE3 (above, blue). APOE is trafficked to the lysosome from the post-Golgi compartment...' - a diagram. No Methods, no n, no statistics anywhere in the article."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P26",
+  "finding_id": "P26.F1",
+  "key": "pmid30741718",
+  "quote_start": "Insoluble apoE amounts in the GDN-HCl fraction were higher in APP/PS1;",
+  "verdict": "FIX",
+  "set": {
+   "Directness class": "4"
+  },
+  "reason": "Quote, panel (Fig 3I), direction and n = 18-23 are all correct, but directness class 1 is wrong for H3: this is guanidine-insoluble apoE in whole hippocampus of 9-month-old APP/PS1 amyloid-model mice, not endo-lysosomal aggregation in non-AD, non-aged human brain cells. The row's own system field says as much, so the class should sit with the other indirect-surrogate rows.",
+  "evidence": "Results: 'Insoluble apoE amounts in the GDN-HCl fraction were higher in APP/PS1; APOE4 control mice than in APP/PS1; APOE3 control mice, which was not affected by neuronal LRP1 deficit (Figure 3I).' Fig 3 legend: 'concentrations of ... apoE (G-I) in the hippocampus extracted in TBS, TBS-X, and GDN-HCl ... measured by ELISA at 9 months of age (n = 18-23/group).'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P29",
+  "finding_id": "P29.F1",
+  "key": "pmid21219628",
+  "quote_start": "Among the three isoforms, apoE4-(72-166)-DMPC complex decreased the 3H",
+  "verdict": "DROP",
+  "reason": "The quoted apoE3 and apoE4 numbers are not this paper's result: the Figure S3 legend states that the apoE3 and apoE4 bars are taken from the authors' earlier publication [22], and Results say 'In our previous study, we have evaluated the LDLR binding ability of apoE3-(72-166) and apoE4-(72-166) [22]. Here we further analyzed ... apoE2'. The row's whole effect size (2.12x = 55%/26%) therefore rests on reproduced data from another paper, which is exactly what manual inspection is meant to catch.",
+  "evidence": "Additional file 1, Figure S3 legend: 'LDLR binding assay ... Bar 4-9 showed apoE-(72-166) peptides only or apoE-(72-166)-DMPC as competitors. Data of apoE3 and apoE4 (Bar 5-6 and 8-9) are from [22].' Results: 'Among the three isoforms, apoE4-(72-166)-DMPC complex decreased the 3H-LDL binding by 55%, comparing with 19% for apoE2-(72-166)-DMPC and 26% for apoE3-(72-166)-DMPC.'"
+ }
+]

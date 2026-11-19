@@ -1,0 +1,210 @@
+[
+ {
+  "hyp": "H4",
+  "paper_id": "P10",
+  "finding_id": "P10.F1",
+  "key": "pmid29946028",
+  "quote_start": "Confocal microscopy revealed a striking loss of LRP1 from astrocyte pr",
+  "verdict": "OK",
+  "set": {},
+  "reason": "Quote verbatim from Results; Fig 2F legend and image show loss of LRP1 from processes and perinuclear accumulation in ApoE4; no quantification or statistics for this panel, so qualitative/N/A are correct.",
+  "evidence": "Fig 2F legend: 'Confocal micrographs revealing a striking loss of LRP1 from astrocyte processes (white arrow) and increased perinuclear accumulation in ApoE4 cells, relative to ApoE3.' Fig 2 image panel F: micrographs only, no bar chart."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P10",
+  "finding_id": "P10.F2",
+  "key": "pmid29946028",
+  "quote_start": "Similar results were obtained in surface biotinylation experiments tha",
+  "verdict": "OK",
+  "set": {},
+  "reason": "Quote verbatim; 5.7-fold printed in main text; p and n come from the SI legend of Fig S7C.",
+  "evidence": "SI Fig S7C legend: 'robust ~5.7-fold higher surface LRP1 levels in ApoE4 cells with restored NHE6 expression, compared to transfection with empty vector (**p=0.002; n=3; Student's t-test)'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P10",
+  "finding_id": "P10.F3",
+  "key": "pmid29946028",
+  "quote_start": "First, surface biotinylation revealed that plasma membrane expression ",
+  "verdict": "OK",
+  "set": {},
+  "reason": "Quote, 50%, P and n all match the text and Fig 2B legend; Fig 2B bars (~1.0 vs ~0.5) agree.",
+  "evidence": "Fig 2B legend: 'plasma membrane levels of LRP1 are depressed by ~50% in ApoE4 astrocytes, relative to ApoE3 (** P = 0.0022, Student's t test; n = 3)'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P10",
+  "finding_id": "P10.F4",
+  "key": "pmid29946028",
+  "quote_start": "Second, an antibody directed against an external epitope of LRP1 to qu",
+  "verdict": "OK",
+  "set": {},
+  "reason": "Quote, 55%, P (4.8e-5) and n match Fig 2C legend.",
+  "evidence": "Fig 2C legend: 'Note the ~55% lower surface LRP1 positivity in ApoE4 relative to ApoE3 (**** P = 4.8 x 10^-5, Student's t test; n = 3)'; 10,000 live nonpermeabilized cells in biological triplicates."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P10",
+  "finding_id": "P10.F5",
+  "key": "pmid29946028",
+  "quote_start": "Third, this was confirmed by confocal microscopy showing ∼49% lower LR",
+  "verdict": "OK",
+  "set": {},
+  "reason": "Quote, 49%, P and n match Fig 2D legend; on-ice 1 h live labeling matches SI methods.",
+  "evidence": "Fig 2D legend: 'faint, ~49% lower, labeling on ApoE4 cells (**** P = 2.4 x 10^-16, Student's t test; n = 75 per condition)'. SI methods: 'live cells were incubated with primary antibody on ice for 1 hour'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P10",
+  "finding_id": "P10.F6",
+  "key": "pmid29946028",
+  "quote_start": "Compared with the weak surface LRP1 staining in vector-transfected Apo",
+  "verdict": "OK",
+  "set": {},
+  "reason": "Quote, 2.5x, P and n match Fig 4F legend and image (ApoE4 ~100 vs ApoE4+NHE6 ~245).",
+  "evidence": "Fig 4F legend: '~2.5-fold increase in plasma membrane LRP1 expression in ApoE4 cells expressing exogenous NHE6 (**** P = 6.02 x 10^-12, Student's t test; n = 40 per condition)'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P10",
+  "finding_id": "P10.F7",
+  "key": "pmid29946028",
+  "quote_start": "Consistent with these findings, confocal microscopy revealed a reducti",
+  "verdict": "OK",
+  "set": {},
+  "reason": "Quote verbatim; SI Fig S7E is micrographs only with no quantification, so qualitative/N/A are correct.",
+  "evidence": "SI Fig S7E legend: 'Confocal micrographs revealing a reduction in perinuclear accumulation of LRP1 (green) and partial restoration of staining on astrocyte processes (white arrow) in ApoE4 cells with NHE6 expression, similar to that observed in ApoE3 astrocytes (left).'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P10",
+  "finding_id": "P10.F8",
+  "key": "pmid29946028",
+  "quote_start": "Importantly, we observed prominent, approximately twofold higher surfa",
+  "verdict": "OK",
+  "set": {},
+  "reason": "Quote, twofold, P and n match Fig 5E legend; image shows DMSO ~100 vs TSA ~200.",
+  "evidence": "Fig 5E legend: 'HDAC inhibition by TSA treatment significantly increased surface levels of LRP1, as determined by surface labeling at 4 C and flow cytometry, in ApoE4 astrocytes (** P = 0.0037, Student's t test; n = 3)'. TSA 5 uM for 12 h per Fig 5D/text."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P10",
+  "finding_id": "P10.F9",
+  "key": "pmid29946028",
+  "quote_start": "Note lower LRP1 staining in ApoE4 astrocytes, relative to ApoE3, due t",
+  "verdict": "OK",
+  "set": {},
+  "reason": "Quote is the paper's own SI legend note; the printed p<0.0001 in S4D is for 37 vs 4 C, not genotype, so P N/A is correct; no S4 image in packet to estimate a value.",
+  "evidence": "SI Fig S4D legend: 'reduction in LRP1 staining with incubation at 37 C, relative to incubation at 4 C, due to LRP1 internalization (****p<0.0001; n=3; Student's t-test). Note lower LRP1 staining in ApoE4 astrocytes, relative to ApoE3, due to reduced surface expression.'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P10",
+  "finding_id": "P10.F10",
+  "key": "pmid29946028",
+  "quote_start": "In a fourth approach, surface-bound ligand (fluorescent Aβ) measured b",
+  "verdict": "OK",
+  "set": {},
+  "reason": "Quote, 66%, P and n match Fig 2E legend; on-ice 10 min 100 nM HiLyte Abeta in 1% BSA after 30 min serum-free matches SI methods.",
+  "evidence": "Fig 2E legend: 'Surface-bound Abeta was 66% lower in ApoE4 astrocytes, relative to ApoE3 (**** P = 2.2 x 10^-24, Student's t test; n = 75 per condition)'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P10",
+  "finding_id": "P10.F11",
+  "key": "pmid29946028",
+  "quote_start": "Second, an antibody directed against an external epitope of LRP1 to qu",
+  "verdict": "FIX",
+  "set": {
+   "Directness strength": "3 moderate"
+  },
+  "reason": "Values check out (51%, p=6.7e-5, n=3 from SI Fig S2D). Strength 'strong' is a clear overstatement for this hypothesis: the APOE4 cells are AD-patient-derived, non-brain, non-isogenic fibroblasts, while the hypothesis specifies non-Alzheimer's human brain cells.",
+  "evidence": "SI Fig S2D legend: 'Note ~51% lower surface LRP1 positivity in ApoE4/4 fibroblasts relative to ApoE3/3 control (****p=6.7X10-5; n=3; Student's t-test).' S2A: 'AD patient derived ApoE4/4 primary fibroblasts, relative to age matched ApoE3/3 control'. Lines AG04387 / AG10788 (SI methods)."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P10",
+  "finding_id": "P10.F12",
+  "key": "pmid29946028",
+  "quote_start": "The rate of LRP1 endocytosis (at 37 °C for 10 min) in ApoE3 and ApoE4 ",
+  "verdict": "OK",
+  "set": {},
+  "reason": "Quote verbatim; S4E legend gives p=0.2112, n=3 for the genotype comparison of normalized internalization; no S4 image in packet to read a magnitude.",
+  "evidence": "SI Fig S4E legend: 'No difference in LRP1 internalization was observed between ApoE3 and ApoE4 astrocytes (p=0.2112; n=3; Student's t-test).'"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P25",
+  "finding_id": "P25.F1",
+  "key": "pmid26506597",
+  "quote_start": "ApoE Isoform Population of Intermediate from 300 to 310 K E2 70.66 % E",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "diff_pp=11.07"
+  },
+  "reason": "The table prints both group values (E4 11.12%, E3 0.05%), so the effect should be given rather than 'qualitative'; the difference (11.07 percentage points) is used because a ratio off a 0.05% denominator is dominated by rounding.",
+  "evidence": "S4 Table: 'Population of Intermediate from 300 to 310 K / E2 70.66 % / E3 0.05 % / E4 11.12 %'; criterion: 'RMSD of the N-terminal domain helices with the centroids that is less than 15 A'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P25",
+  "finding_id": "P25.F2",
+  "key": "pmid26506597",
+  "quote_start": "Population of Intermediate from 300 to 310 K E2 70.66 % E3 0.05 % E4 1",
+  "verdict": "FIX",
+  "set": {
+   "Finding quote": "Population of intermediate state at 300 to 310 K 70.7 % 0.1 % 11.1 %",
+   "Effect size": "diff_pp=11.0"
+  },
+  "reason": "The quote is the S4 Table text, not the cited Supplementary Table 7 row, which prints the rounded 70.7/0.1/11.1 values; replaced with the S7 row text and gave the printed difference. This row restates S4 Table (same data as P25.F1) and is not independent evidence.",
+  "evidence": "S7 Table row: 'Population of intermediate state at 300 to 310 K | 70.7 % | 0.1 % | 11.1 % | S4 Table' (columns ApoE2, ApoE3, ApoE4)."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P25",
+  "finding_id": "P25.F3",
+  "key": "pmid26506597",
+  "quote_start": "Specifically, we observe a decrease in the hydrophobic contacts of Apo",
+  "verdict": "OK",
+  "set": {},
+  "reason": "Quote verbatim from Results; Fig 3C/3D structures show ApoE3 H1/H4 vs H2/H3 pairs and ApoE4 H1 separated; simulation, no statistics.",
+  "evidence": "Fig 3 legend: '(C) ApoE3 exhibits a pairing of N-terminal helix-1 and helix-4 which separate from helix-2 and helix-3; (D) ApoE4 exhibits a separation of helix-1 from the other three helices.' Image panels C and D agree."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P25",
+  "finding_id": "P25.F4",
+  "key": "pmid26506597",
+  "quote_start": "ApoE3 is characterized by both the native and alternate N-terminal dom",
+  "verdict": "OK",
+  "set": {},
+  "reason": "Quote is from the paper's own Fig 2 legend (G-I = ApoE2, ApoE3, ApoE4 at T3), so H-I is the right location; qualitative is correct.",
+  "evidence": "Fig 2 legend: '(G-I) At T3 (~340 K, ~338 K, and ~328 K ...) ... ApoE4 exhibits a unique, more compact intermediate conformational state as denoted by the smaller range of RMSD and Rg values compared to the two other variants.'"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P25",
+  "finding_id": "P25.F5",
+  "key": "pmid26506597",
+  "quote_start": "Interestingly, for ApoE4 at temperature T3, we observe a unique series",
+  "verdict": "OK",
+  "set": {},
+  "reason": "Quote verbatim; description's ApoE3 'lack of contacts' is supported by the adjacent Results sentence.",
+  "evidence": "Results: 'At temperature T3 ... we observe a lack of contacts between the N- and C-terminal domains in ApoE2 and ApoE3 (Fig 4G and 4H) and a diminished number of contacts in ApoE4 (Fig 4I).'"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P22",
+  "finding_id": "P22.F1",
+  "key": "pmid41103078",
+  "quote_start": "Through this approach, we found that HsAPOE4-expressing lysosomes accu",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 3C",
+   "Experimental system": "Male murine Neuro-2a neuroblastoma cells carrying full-length human APOE3 or APOE4 genomic transgenes; endogenous mouse Apoe retained; passages 5–10; TMEM192-3xHA LysoIP in biological and technical triplicates followed by quantitative mass spectrometry with lysosomal-tag normalization; whether the genotype comparison used untreated LysoIPs only is not stated (BafA1-treated and untreated LysoIPs were both collected)."
+  },
+  "reason": "HsAPOE is labelled only in Fig 3C (APOE4 vs both APOE3 and APOE-/- controls), not in the Fig 3B volcano; the p<0.05 threshold is from the Fig 3C legend. The 'basal untreated condition' in the system field is not stated in the paper.",
+  "evidence": "Fig 3 image: 'HsAPOE' labelled among red points in panel C (upper right), absent from panel B. Fig 3C legend: 'Colored proteins were statistically significantly (p < 0.05) depleted (blue) or accumulated (red) in HsAPOE4 lysosomes relative to both controls.' Methods: 'Lysosomal immunoprecipitations were performed in biological and technical triplicates'; Fig 3A shows BafA1-treated and untreated samples per genotype."
+ }
+]

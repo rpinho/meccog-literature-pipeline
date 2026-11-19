@@ -99,19 +99,32 @@ def load_corrections():
     return json.load(open(path))["corrections"] if path.exists() else []
 
 
-def apply_corrections(key, findings, corrections):
-    for c in corrections:
-        if c["key"] != key:
+def apply_corrections(key, findings, corrections, unmatched=None, hyp=None):
+    """Match every correction against the findings as extracted (before any correction changes a quote or
+    summary), then apply. Identical duplicate findings all take the correction (dedupe keeps one)."""
+    def norm(x):
+        return re.sub(r"\s+", " ", str(x)).strip()
+    mine = [c for c in corrections if c["key"] == key and c.get("hyp") in (None, hyp)]
+    plan = []
+    for c in mine:
+        hits = [f for f in findings if norm(f.get("quote", "")).startswith(norm(c["quote_start"]))
+                and norm(c.get("summary_contains", "")) in norm(f.get("summary", ""))
+                and norm(f.get("description", "")).startswith(norm(c.get("description_start", "")))]
+        if len({json.dumps({k: f.get(k) for k in ("quote", "summary", "description", "data_location")}, sort_keys=True)
+                for f in hits}) != 1:
+            # a row filtered out before this point (below the relevance floor, or a cited-work row the code
+            # checks already remove) is not in the sheet: nothing to report
+            if unmatched is not None and (hits or (c.get("hyp") and not c.get("drop"))):
+                unmatched.append((key, c["quote_start"][:50], len(hits)))
             continue
-        hits = [f for f in findings if str(f.get("quote", "")).startswith(c["quote_start"])
-                and c.get("summary_contains", "") in str(f.get("summary", ""))]
-        if len(hits) != 1:
-            sys.exit(f"correction for {key} '{c['quote_start'][:40]}' matches {len(hits)} findings, expected 1")
-        f = hits[0]
-        f.setdefault("precorrection", {k: f.get(k) for k in c["set"]})
-        f.update(c["set"])
-        f["correction"] = c["reason"]
-
+        plan.append((c, hits))
+    for c, hits in plan:
+        for f in hits:
+            f.setdefault("precorrection", {k: f.get(k) for k in c["set"]})
+            f.update(c["set"])
+            f["correction"] = c["reason"]
+            if c.get("drop"):
+                f["dropped_by_correction"] = True
 
 MEAN_ERR = re.compile(r"(?<![\w.])(\d+(?:\.\d+)?)\s*(?:±|\+/-)\s*\d+(?:\.\d+)?")
 
@@ -132,15 +145,23 @@ def effect_from_quote(f):
     other = set(re.findall(r"\d+\.\d+", str(f.get("description", "")))) - {x for m in ms for x in re.findall(r"\d+\.\d+", m.group(0))}
     if min(a, b) <= 0 or other:
         return
+    # a fold we compute is written comparison group over reference, so a decrease is below 1x (0.46x);
+    # which printed value belongs to which group is not known here, so take the direction the summary states
+    summ = str(f.get("summary", "")).split("->")[-1].lower()
+    down = re.search(r"\b(lower|less|decreas\w*|reduc\w*|impair\w*|fewer|smaller|loss)\b", summ)
+    up = re.search(r"\b(higher|more|increas\w*|greater|larger|elevat\w*|enhanc\w*)\b", summ)
+    if bool(down) == bool(up):
+        return
+    ratio = min(a, b) / max(a, b) if down else max(a, b) / min(a, b)
     f["pre_quote_effect"] = f["effect_size"]
-    f["effect_size"] = f"{max(a, b) / min(a, b):.1f}x"
+    f["effect_size"] = f"{ratio:.2f}x" if ratio < 1 else f"{ratio:.1f}x"
     f["effect_size_provenance"] = "printed_in_text"
     f["description"] = str(f.get("description", "")).rstrip(".") + \
         f". Effect is the ratio of the two group values printed in the quote ({ms[0].group(0)} and {ms[1].group(0)})."
 
 
 def accepted(f, text):
-    if f.get("error"):
+    if f.get("error") or f.get("dropped_by_correction"):
         return False
     v = (f.get("referee") or {})
     code_checks(f, text)  # deterministic rules apply to every row, including rows extracted before a rule existed
@@ -225,23 +246,40 @@ def cellval(x):
 
 def build(H, out):
     corrections = load_corrections()
+    unmatched = []
     hyp = {h["id"]: h for h in json.load(open(ROOT / "config/hypotheses.json"))["hypotheses"]}[H]
     papers = []
     for p in sorted((ROOT / f"data/{H}/findings").glob("*.json")):
         r = json.load(open(p))
         meta = json.load(open(ROOT / "data/papers" / r["key"] / "meta.json"))
         text, _ = load_text(r["key"])
-        apply_corrections(r["key"], r["findings"], corrections)
-        for f in r["findings"]:
-            effect_from_quote(f)
         fs = [f for f in r["findings"] if accepted(f, text) and float(f.get("relevance") or 0) >= MIN_RELEVANCE
               and (f.get("scope") or {}).get("keep", True)]
-        if not fs:
-            continue
         for f in fs:
+            effect_from_quote(f)
             f["_score"] = float(f.get("relevance") or 0)
         fs.sort(key=lambda f: -f["_score"])
-        fs = dedupe_findings(fs)
+        fs = dedupe_findings(fs)  # on the rows as extracted, before any correction changes their wording
+        # corrections match the rows as they stand after the referee's fixes, i.e. as a person sees them in
+        # the sheet; a corrected row goes through the same code checks, and a correction that fails them
+        # is reported and undone rather than silently losing the row
+        apply_corrections(r["key"], fs, corrections, unmatched, H)
+        kept = []
+        for f in fs:
+            if f.get("dropped_by_correction"):
+                continue
+            if f.get("correction"):
+                code_checks(f, text)
+                if f.get("code_problems"):
+                    print(f"correction undone ({'; '.join(f['code_problems'])}): {r['key']} '{str(f.get('quote'))[:50]}'")
+                    f.update(f["precorrection"])
+                    code_checks(f, text)
+                    if f.get("code_problems"):
+                        continue
+            kept.append(f)
+        fs = kept
+        if not fs:
+            continue
         papers.append({"meta": meta, "findings": fs, "score": fs[0]["_score"]})
     # preprint vs published duplicates: keep the published one
     published = [p["meta"] for p in papers if not is_preprint(p["meta"])]
@@ -250,6 +288,8 @@ def build(H, out):
                 for x in reached if x["status"] == "ok"}  # every published paper we could read, findings or not
     papers = [p for p in papers if not (is_preprint(p["meta"]) and (
         any(preprint_of(p["meta"], m) for m in published) or published_doi(p["meta"]) in pub_dois))]
+    for u in unmatched:
+        print("correction not applied (matches %d findings): %s '%s'" % (u[2], u[0], u[1]))
     papers.sort(key=lambda p: -p["score"])
     dropped = papers[MAX_PAPERS:]
     papers = papers[:MAX_PAPERS]

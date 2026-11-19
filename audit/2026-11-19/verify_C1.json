@@ -1,0 +1,85 @@
+[
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid30741718",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid30741718/text.txt",
+   "supp": "data/papers/pmid30741718/supp.txt",
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P26.F1",
+   "Finding description": "Among neuronal LRP1-intact APP/PS1 mice at 9 months, APOE4 mice had more GDN-HCl-extractable insoluble hippocampal apoE than APOE3 mice, with 18–23 mice per group.",
+   "Finding quote": "Insoluble apoE amounts in the GDN-HCl fraction were higher in APP/PS1; APOE4 control mice than in APP/PS1; APOE3 control mice, which was not affected by neuronal LRP1 deficit ( Figure 3I ).",
+   "Finding summary": "(APOE3 -> APOE4; neuronal LRP1 intact) -> (higher insoluble hippocampal apoE)",
+   "Finding relevance": 0.5,
+   "Experimental system": "Male and female 9-month-old APPswe/PSEN1ΔE9 mice with homozygous human APOE3-targeted replacement or APOE4-targeted replacement, Lrp1 floxed alleles, and no αCaMKII-Cre; hippocampal detergent-insoluble pellet extracted with guanidine hydrochloride and analyzed by protein-normalized apoE ELISA. Tissue insolubility was measured without cell-type or endolysosomal localization; these are amyloid-model mice, not non-aged human cells.",
+   "Data location": "Fig 3I",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "18-23",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P26",
+   "finding_id": "P26.F1",
+   "key": "pmid30741718",
+   "quote_start": "Insoluble apoE amounts in the GDN-HCl fraction were higher in APP/PS1;",
+   "verdict": "FIX",
+   "set": {
+    "Directness class": "4"
+   },
+   "reason": "Quote, panel (Fig 3I), direction and n = 18-23 are all correct, but directness class 1 is wrong for H3: this is guanidine-insoluble apoE in whole hippocampus of 9-month-old APP/PS1 amyloid-model mice, not endo-lysosomal aggregation in non-AD, non-aged human brain cells. The row's own system field says as much, so the class should sit with the other indirect-surrogate rows.",
+   "evidence": "Results: 'Insoluble apoE amounts in the GDN-HCl fraction were higher in APP/PS1; APOE4 control mice than in APP/PS1; APOE3 control mice, which was not affected by neuronal LRP1 deficit (Figure 3I).' Fig 3 legend: 'concentrations of ... apoE (G-I) in the hippocampus extracted in TBS, TBS-X, and GDN-HCl ... measured by ELISA at 9 months of age (n = 18-23/group).'"
+  },
+  "item": 1
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid38912292",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid38912292/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P6.F1",
+   "Finding description": "In cultured cells expressing fluorescently tagged APOE, APOE4 accumulated in enlarged late endosomes and lysosomes relative to APOE3, providing an accumulation surrogate for aggregation.",
+   "Finding quote": "Consistent with previous studies showing that expression of APOE4 damages lysosomal membrane integrity, dysregulates endo/lysosomal pH, and results in enlarged endosomes in various models, we found that APOE4 accumulates in enlarged lysosomes and late endosomes (Figure 1).",
+   "Finding summary": "(APOE3 -> APOE4) -> (increased APOE accumulation in enlarged late endosomes and lysosomes)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Cultured cell lines expressing fluorescently tagged human APOE3 or APOE4; localization in late endosomes and lysosomes. Host species, cell type, source, age, treatment duration, and detailed localization assay are not specified. Human brain-cell identity and non-aged status are not established.",
+   "Data location": "Figure 1 and main-text sentence beginning \"Consistent with previous studies showing\"",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P6",
+   "finding_id": "P6.F1",
+   "key": "pmid38912292",
+   "quote_start": "Consistent with previous studies showing that expression of APOE4 dama",
+   "verdict": "DROP",
+   "reason": "This source is a one-page Autophagy Reports research highlight with no primary data: its Figure 1 is a schematic of APOE trafficking, not an experiment, and the quoted sentence summarises results published in the authors' own primary paper (ref [1], the cell lines 'we developed'). The row's Data location therefore points at a cartoon, and nothing in this paper supports the finding on its own.",
+   "evidence": "Text: 'In order to track the flow of APOE through the endolysosomal system, we developed novel cell lines expressing fluorescently tagged APOE3 and APOE4 [1]. Consistent with previous studies ... we found that APOE4 accumulates in enlarged lysosomes and late endosomes (Figure 1).' Figure 1 legend: 'Aberrant lysosomal trafficking of APOE4 (below, orange) vs. APOE3 (above, blue). APOE is trafficked to the lysosome from the post-Golgi compartment...' - a diagram. No Methods, no n, no statistics anywhere in the article."
+  },
+  "item": 2
+ }
+]

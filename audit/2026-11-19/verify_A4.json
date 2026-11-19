@@ -1,0 +1,366 @@
+[
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid38396791",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid38396791/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid38396791/figimg/4.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P20.F1",
+   "Finding description": "Reducing SDS-PAGE of preparations containing ApoE3 or ApoE4 showed approximately 70-kDa bands assigned to ApoE dimers, including ApoE-only aggregate controls, without reporting whether dimer abundance differed between isoforms.",
+   "Finding quote": "We observed also some higher molecular weight bands of ~70 kDa in SDS-PAGE lanes, as shown in Figure 4A, corresponding to S100A9 aggregated with ApoE isoforms. These bands correspond to the dimer of ApoE as they appeared in the lanes, which contain only ApoE aggregates (Figure 4A).",
+   "Finding summary": "(ApoE3 -> ApoE4) -> (relative ApoE dimer abundance unresolved; ApoE dimers reported in the isoform experiment)",
+   "Finding relevance": 0.6,
+   "Experimental system": "Cell-free recombinant human ApoE3 and ApoE4 preparations, with lipid-free and DOPC/cholesterol-lipidated samples included. Fig 4A examines samples after 70 h at 42 °C in PBS using reducing SDS-PAGE and Coomassie staining; co-incubation samples contained 50 μM S100A9 and 2 μM ApoE. ApoE-only controls were also loaded. The text does not resolve the dimer signal by every lipidation/isoform lane.",
+   "Data location": "Fig 4A; Results section 2.4",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P20",
+   "finding_id": "P20.F1",
+   "key": "pmid38396791",
+   "quote_start": "We observed also some higher molecular weight bands of ~70 kDa in SDS-",
+   "verdict": "FIX",
+   "set": {
+    "Directness class": 3,
+    "Directness strength": "4 weak"
+   },
+   "reason": "Quote verbatim and the description is accurate, but class 1 'strong' is a clear error: the panel shows ~70 kDa ApoE dimer bands in a cell-free reducing gel with no isoform difference and no endo-lysosomal readout, so B is at most a surrogate.",
+   "evidence": "'We observed also some higher molecular weight bands of ~70 kDa in SDS-PAGE lanes ... These bands correspond to the dimer of ApoE as they appeared in the lanes, which contain only ApoE aggregates (Figure 4A).' Fig 4A image: faint high-MW bands, no quantification."
+  },
+  "item": 1
+ },
+ {
+  "src": "1",
+  "paper": {
+   "key": "pmid39532095",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid39532095/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P1.F4",
+   "Finding description": "SPR yielded LDLR-binding KD values of 9 nM for ApoE4 and 16 nM for ApoE3, a nominally lower ApoE4 KD that the authors characterize as comparable affinity without reporting statistical significance.",
+   "Finding quote": "SPR similarly revealed a high affinity LDLR binding for both lipApoE4 and lipApoE3 (KD = 9 nM and 16 nM, respectively), whereas the lipApoE2-LDLR affinity was ~50-fold lower than lipApoE3 (KD = 800 nM; Figure 1D).",
+   "Finding summary": "(APOE3 -> APOE4) -> (nominally lower LDLR-binding KD within author-described comparable affinities)",
+   "Finding relevance": 0.95,
+   "Experimental system": "Cell-free Biacore SPR with biotinylated human LDLR extracellular domain immobilized on a neutravidin-coated C1 chip; HEK293-derived POPC-lipidated ApoE3/E4 at 0.0156, 0.03125 and 0.0625 μM; 60 s association and 300 s final dissociation; 1:1 kinetic fit.",
+   "Data location": "Fig 1D",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "1 very strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P1",
+   "finding_id": "P1.F4",
+   "key": "pmid39532095",
+   "quote_start": "SPR similarly revealed a high affinity LDLR binding for both lipApoE4 ",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.8x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "The quote prints both group values (KD = 9 nM for ApoE4, 16 nM for ApoE3), so the row should carry the ratio instead of 'qualitative': 16/9 = 1.8x lower KD for ApoE4.",
+   "evidence": "Results: 'SPR similarly revealed a high affinity LDLR binding for both lipApoE4 and lipApoE3 (KD = 9 nM and 16 nM, respectively)'."
+  },
+  "item": 2
+ },
+ {
+  "src": "1",
+  "paper": {
+   "key": "pmid39532095",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid39532095/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P1.F9",
+   "Finding description": "Astrocytes accumulated more ApoE4 than ApoE3. The reported overlap coefficients for LAMP1-positive vesicles containing ApoE were 0.497 ± 0.090 for E4 and 0.410 ± 0.049 for E3. Differential receptor retention remains unresolved.",
+   "Finding quote": "ApoE isoform differences were manifested in the differential levels of internalized lipApoE (ApoE4 > ApoE3 > ApoE2), giving rise to the same isoform trend for LAMP1-positive vesicles containing ApoE immunoreactivity (Mander’s coefficients = 0.266 ± 0.045 for ApoE2, 0.410 ± 0.049 for ApoE3, 0.497 ± 0.090 for ApoE4) (Figure 2I).",
+   "Finding summary": "(APOE3 -> APOE4) -> (more internalized ApoE and more ApoE-containing lysosomal compartments)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Human APOE-knockout iPSC-derived astrocytes from ThermoFisher A18945; 10 μg/mL POPC-lipidated ApoE for one day; ApoE/LDLR/LAMP1 imaging, internalized ApoE quantification and Mander’s overlap analysis.",
+   "Data location": "Fig 2I",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P1",
+   "finding_id": "P1.F9",
+   "key": "pmid39532095",
+   "quote_start": "ApoE isoform differences were manifested in the differential levels of",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.21x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "The quote prints both group values (0.497 for ApoE4, 0.410 for ApoE3), so 'qualitative' is avoidable: 0.497/0.410 = 1.21x. The sibling row P7.F1, built from the same sentence, already carries 1.21x, so the sheet is internally inconsistent as it stands.",
+   "evidence": "Results: 'Mander's coefficients = 0.266 +/- 0.045 for ApoE2, 0.410 +/- 0.049 for ApoE3, 0.497 +/- 0.090 for ApoE4 (Figure 2I)'."
+  },
+  "item": 3
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid39532095",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid39532095/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P1.F3",
+   "Finding description": "Human astrocytes internalized more ApoE4 than ApoE3 after one day of lipidated ApoE treatment.",
+   "Finding quote": "ApoE isoform differences were manifested in the differential levels of internalized lipApoE (ApoE4 > ApoE3 > ApoE2), giving rise to the same isoform trend for LAMP1-positive vesicles containing ApoE immunoreactivity (Mander’s coefficients = 0.266 ± 0.045 for ApoE2, 0.410 ± 0.049 for ApoE3, 0.497 ± 0.090 for ApoE4) (Figure 2I).",
+   "Finding summary": "(ApoE3 -> ApoE4) -> (higher intracellular ApoE protein accumulation)",
+   "Finding relevance": 0.9,
+   "Experimental system": "Human APOE-knockout iPSC-derived astrocytes from ThermoFisher A18945; one-day treatment with 10 μg/mL HEK293-derived POPC-lipidated human ApoE; fixed-cell ApoE immunofluorescence with super-resolution imaging.",
+   "Data location": "Fig 2I, internalized lipApoE quantification",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3-4",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P1",
+   "finding_id": "P1.F3",
+   "key": "pmid39532095",
+   "quote_start": "ApoE isoform differences were manifested in the differential levels of",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.21x",
+    "Effect size provenance": "printed_in_text",
+    "Finding description": "Human APOE-knockout iPSC astrocytes internalized more ApoE4 than ApoE3 after one day of lipidated ApoE treatment; the Manders coefficient for LAMP1-positive vesicles containing ApoE was 0.497 for ApoE4 versus 0.410 for ApoE3."
+   },
+   "reason": "The quote prints both group values for the Fig 2I LAMP1-vesicle readout (0.497 vs 0.410), so a ratio replaces 'qualitative'. The description should say this ratio is for the Manders coefficient, not the internalized amount, which has no printed number.",
+   "evidence": "Results: 'Mander's coefficients = 0.266 +/- 0.045 for ApoE2, 0.410 +/- 0.049 for ApoE3, 0.497 +/- 0.090 for ApoE4) (Figure 2I)'. 0.497/0.410 = 1.21. n 3-4 comes from the general methods ('Normalized data from 3-4 independent experiments were combined')."
+  },
+  "item": 4
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid39532095",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid39532095/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P1.F4",
+   "Finding description": "Internalized ApoE colocalized completely with LDLR for all three isoforms. ApoE–LAMP1 coefficients were similar for ApoE3 (0.903 ± 0.024) and ApoE4 (0.900 ± 0.008).",
+   "Finding quote": "Super-resolution imaging on APOE KO iAstrocytes confirmed internalized lipApoE completely colocalized with endogenous LDLR (Mander’s coefficient for ApoE puncta with colocalizing LDLR = 1 for all 3 isoforms), largely inside LAMP1 compartments (Figure 2H) (Mander’s coefficients for ApoE puncta with colocalizing LAMP1 = 0.823 ± 0.061 for ApoE2; 0.903 ± 0.024 for ApoE3; 0.900 ± 0.008 for ApoE4).",
+   "Finding summary": "(lipidated ApoE4 exposure) -> (predominantly lysosomal localization of internalized ApoE4)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Human APOE-knockout iPSC-derived astrocytes generated from ThermoFisher A18945, originally APOE3/3; one-day treatment with 10 μg/mL POPC-lipidated ApoE4; ApoE, LDLR and LAMP1 immunostaining, Leica SP8 super-resolution imaging, ImageJ Coloc2.",
+   "Data location": "Fig 2H",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P1",
+   "finding_id": "P1.F4",
+   "key": "pmid39532095",
+   "quote_start": "Super-resolution imaging on APOE KO iAstrocytes confirmed internalized",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.0x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Both group values are printed (ApoE4 0.900 vs ApoE3 0.903), so the ratio replaces 'qualitative'.",
+   "evidence": "Results: 'Mander's coefficients for ApoE puncta with colocalizing LAMP1 = 0.823 +/- 0.061 for ApoE2; 0.903 +/- 0.024 for ApoE3; 0.900 +/- 0.008 for ApoE4'. 0.900/0.903 = 1.00."
+  },
+  "item": 5
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid40845853",
+   "hyp": "H2",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3.",
+   "text": "data/papers/pmid40845853/text.txt",
+   "supp": "data/papers/pmid40845853/supp.txt",
+   "figures": [
+    "data/papers/pmid40845853/figimg/5.png",
+    "data/papers/pmid40845853/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P4.F3",
+   "Finding description": "Live imaging of transferrin transport in isogenic human iPSC-derived brain endothelial cells showed frequent sorting-tubule formation and vesicle fission in APOE3 cells but reduced sorting-tubule formation in APOE4 cells.",
+   "Finding quote": "In agreement with previous data on mouse brain endothelial cells (Villaseñor et al., 2017), we observed frequent events of sorting tubule biogenesis and vesicle fission in ApoE3 iCE-BECs (Figure 5G; Videos S1 and S2). In contrast, the number of sorting tubules was substantially reduced in ApoE4 iCE-BECs (Figure 5H).",
+   "Finding summary": "(APOE3 -> APOE4) -> (reduced transferrin-positive sorting-tubule formation in human iCE-BECs)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Human iPSC-derived brain endothelial cells (iCE-BECs), isogenic pair 1: homozygous APOE3 Bioni037-A (16423), originating from healthy-donor fibroblasts, versus its gene-edited homozygous APOE4 derivative Bioni037-A4 (I40-53); experiments performed on differentiation day 14 by default; incubated with 25 μg/mL Tf-Alexafluor488 for 3 h before live fluorescence imaging at 100×, acquiring 2 frames/s for 1 min.",
+   "Data location": "Fig 5G (representative events) and Fig 5H (genotype comparison of tubule formation)",
+   "Effect size": "~60%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.001",
+   "P value provenance": "printed_in_text",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H2",
+   "paper_id": "P4",
+   "finding_id": "P4.F3",
+   "key": "pmid40845853",
+   "quote_start": "In agreement with previous data on mouse brain endothelial cells (Vill",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~55%"
+   },
+   "reason": "Read on the enlarged Fig 5H, the medians give about a 55% reduction, not 60%. P<0.001 and n=3 match the legend.",
+   "evidence": "Fig 5H (5.png, y-axis 0-0.8, ticks every 0.2): ApoE3 median at ~0.32, ApoE4 median at ~0.14; 1 - 0.14/0.32 = 0.56. Legend: '***p < 0.001 by Student's t test with n = 3 independent differentiations with 20 videos per experiment from isogenic pair 1'."
+  },
+  "item": 6
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid40845853",
+   "hyp": "H2",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3.",
+   "text": "data/papers/pmid40845853/text.txt",
+   "supp": "data/papers/pmid40845853/supp.txt",
+   "figures": [
+    "data/papers/pmid40845853/figimg/5.png",
+    "data/papers/pmid40845853/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P4.F4",
+   "Finding description": "Live imaging of isogenic pair 1 human iPSC-derived brain endothelial cells showed fewer transferrin-positive endosomal sorting tubules forming in APOE4 than APOE3 cells across three independent differentiations with 20 videos per experiment, providing a sorting surrogate without establishing ARF6 involvement.",
+   "Finding quote": "In contrast, the number of sorting tubules was substantially reduced in ApoE4 iCE-BECs (Figure 5H).",
+   "Finding summary": "(APOE3 -> APOE4) -> (reduced transferrin-positive endosomal sorting tubule formation in human iCE-BECs)",
+   "Finding relevance": 0.5,
+   "Experimental system": "Human iPSC-derived brain endothelial cells (iCE-BECs), isogenic pair 1: homozygous APOE3 Bioni037-A (16423), derived from a healthy individual's fibroblasts, versus homozygous APOE4 Bioni037-A4 (I40-53), generated by editing the parental APOE allele; donor age not stated. Experiments used day 14 cells under the default methods schedule. Cells were incubated with 25 μg/mL transferrin-Alexafluor488 for 3 h and imaged live for 1 min at 100×; two independent blinded raters manually counted sorting tubules, reported as formation events per 1,000 μm2 per minute.",
+   "Data location": "Fig 5H",
+   "Effect size": "~60%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.001",
+   "P value provenance": "printed_in_text",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H2",
+   "paper_id": "P4",
+   "finding_id": "P4.F4",
+   "key": "pmid40845853",
+   "quote_start": "In contrast, the number of sorting tubules was substantially reduced i",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~55%"
+   },
+   "reason": "Same Fig 5H reading as P4.F3: medians 0.32 vs 0.14 give about a 55% reduction. Near-duplicate of P4.F3.",
+   "evidence": "Fig 5H boxplot medians: ApoE3 ~0.32, ApoE4 ~0.14 tubules per 1000 um2 per min; legend '***p < 0.001 ... n = 3 independent differentiations'."
+  },
+  "item": 7
+ },
+ {
+  "src": "7b",
+  "paper": {
+   "key": "pmid41103078",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid41103078/text.txt",
+   "supp": "data/papers/pmid41103078/supp.txt",
+   "figures": [
+    "data/papers/pmid41103078/figimg/1.png",
+    "data/papers/pmid41103078/figimg/3.png",
+    "data/papers/pmid41103078/figimg/4.png",
+    "data/papers/pmid41103078/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P22.F1",
+   "Finding description": "Across three LysoIP replicates, human-APOE4-expressing murine Neuro-2a cells showed greater lysosomal APOE abundance than human-APOE3-expressing cells, providing an accumulation surrogate without measuring apoE aggregation.",
+   "Finding quote": "Through this approach, we found that HsAPOE4-expressing lysosomes accumulated APOE itself, AD-associated secretase proteins (PSEN2, CD63, TSPAN3), trafficking receptors (AP1S1, AP1G1, BET1L, LAMTOR1, LAMTOR2, TMED5), and lipid/glycan-regulators (ACSL4, ACBD3, GALNT2, MAN2B1, NEU1, PIP4P1, SACM1L, PIP4P1/TMEM55B, UXS1) (Figure 3B,C, Figure S3C).",
+   "Finding summary": "(APOE3 -> APOE4) -> (higher lysosomal APOE abundance)",
+   "Finding relevance": 0.6,
+   "Experimental system": "Male murine Neuro-2a neuroblastoma cells carrying full-length human APOE3 or APOE4 genomic transgenes; endogenous mouse Apoe retained; passages 5–10; basal untreated condition; TMEM192-3xHA LysoIP followed by quantitative DIA mass spectrometry with lysosomal-tag normalization.",
+   "Data location": "Fig 3B",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "<0.05",
+   "P value provenance": "printed_in_text",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P22",
+   "finding_id": "P22.F1",
+   "key": "pmid41103078",
+   "quote_start": "Through this approach, we found that HsAPOE4-expressing lysosomes accu",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 3C",
+    "Experimental system": "Male murine Neuro-2a neuroblastoma cells carrying full-length human APOE3 or APOE4 genomic transgenes; endogenous mouse Apoe retained; passages 5–10; TMEM192-3xHA LysoIP in biological and technical triplicates followed by quantitative mass spectrometry with lysosomal-tag normalization; whether the genotype comparison used untreated LysoIPs only is not stated (BafA1-treated and untreated LysoIPs were both collected)."
+   },
+   "reason": "HsAPOE is labelled only in Fig 3C (APOE4 vs both APOE3 and APOE-/- controls), not in the Fig 3B volcano; the p<0.05 threshold is from the Fig 3C legend. The 'basal untreated condition' in the system field is not stated in the paper.",
+   "evidence": "Fig 3 image: 'HsAPOE' labelled among red points in panel C (upper right), absent from panel B. Fig 3C legend: 'Colored proteins were statistically significantly (p < 0.05) depleted (blue) or accumulated (red) in HsAPOE4 lysosomes relative to both controls.' Methods: 'Lysosomal immunoprecipitations were performed in biological and technical triplicates'; Fig 3A shows BafA1-treated and untreated samples per genotype."
+  },
+  "item": 8
+ }
+]

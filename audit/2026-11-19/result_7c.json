@@ -1,0 +1,136 @@
+[
+ {
+  "hyp": "H2",
+  "paper_id": "P2",
+  "finding_id": "P2.F1",
+  "key": "pmid31641056",
+  "quote_start": "However, membrane ABCA1 levels were significantly lower in ApoE4 prima",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 1E; quantification Fig 1F",
+   "Effect size": "~60%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote and n=3 are correct, but the significance mark and the bar heights are readable on Fig 1F: *** sits over the ABCA1 E3 vs E4 membrane comparison, and the E4 bar is about 0.38-0.40 of E3. Quantification is in panel F, not E alone.",
+  "evidence": "Fig 1F (MEM to total protein NT E3): E3 ABCA1 = 1.0, E4 ABCA1 about 0.38-0.40, '***' bar over the ABCA1 pair; legend: 'F, G, Densitometric quantification ... from three independent experiments. *** p < 0.001.' The quote's 'Fig. 1 D, top, and F' is the paper's own panel label."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P2",
+  "finding_id": "P2.F2",
+  "key": "pmid31641056",
+  "quote_start": "We found greater protein levels of ARF6 in ApoE4 primary astrocytes co",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~1.5x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "0.02",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote, direction and n are correct. Fig 1I prints p=0.02 over the APOE3 vs APOE4 bars (on the image, not in the text), and the APOE4 bar is about 1.47 against APOE3 at 1.0.",
+  "evidence": "Fig 1I (Relative ARF6 level): APOE3 = 1.0, APOE4 about 1.47 (error bar to about 1.75), 'p=0.02' printed over the comparison bar; legend: 'I, Densitometric quantification of blotting shown in (H) from three independent experiments.'"
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P2",
+  "finding_id": "P2.F3",
+  "key": "pmid31641056",
+  "quote_start": "Knockdown of ARF6 by siRNA resulted in significant increase in cholest",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~12%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "0.03",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote and description are correct for the 4 h panel. Fig 3D prints p=0.03 over SC siRNA vs ARF6 siRNA, and the ARF6 siRNA bar is about 1.12 against 1.0. No n is given for this panel.",
+  "evidence": "Fig 3D (4 H, 3H-cholesterol efflux NT SC siRNA): SC siRNA = 1.0, ARF6 siRNA about 1.12, 'p=0.03' over the pair; legend gives no n for D."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P2",
+  "finding_id": "P2.F4",
+  "key": "pmid31641056",
+  "quote_start": "CS-6253 increased the relative amount of ABCA1 on plasma membrane and ",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "In three independent experiments with ApoE4 primary mouse astrocytes, 1 μM CS-6253 for 4 h lowered total ARF6 (p < 0.001). Membrane ABCA1 trended higher after treatment but the increase was not significant (p = 0.07), and total ABCA1 was unchanged.",
+   "Finding summary": "(untreated -> CS-6253-treated APOE4 primary astrocytes) -> (decreased total ARF6; nonsignificant rise in membrane ABCA1; no change in total ABCA1)",
+   "Data location": "Fig 5A; quantification Fig 5B-C",
+   "Effect size": "~45%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "The quote is verbatim, but the paper's 'increased the relative amount of ABCA1 on plasma membrane' carries p=0.07 on Fig 5B, so the description should not present it as an established effect. The significant part is the ARF6 drop (*** on Fig 5C, ARF6 about 0.55 of control).",
+  "evidence": "Fig 5B: membrane ABCA1 E4 = 1.0 vs E4+CS6253 about 1.33, 'p=0.07' over the pair. Fig 5C: total ARF6 E4 = 1.0 vs E4+CS6253 about 0.55, '***' over the ARF6 pair; total ABCA1 about 0.97, no mark. Legend: 'B, C, Quantification ... from three independent experiments. *** p < 0.001.'"
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P2",
+  "finding_id": "P2.F5",
+  "key": "pmid31641056",
+  "quote_start": "CS-6253 increased the relative amount of ABCA1 on plasma membrane and ",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "Across three independent experiments, treatment of APOE4 mouse primary astrocytes with 1 μM CS-6253 for 4 h raised membrane ABCA1 relative to control by Western blot densitometry, but the increase was not statistically significant (p = 0.07); this rescue experiment did not compare APOE4 with APOE3.",
+   "Finding summary": "(control -> CS-6253) -> (nonsignificant increase in plasma membrane ABCA1 in APOE4 mouse primary astrocytes)",
+   "Data location": "Fig 5A; quantification Fig 5B",
+   "Effect size": "~1.3x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "0.07",
+   "P value provenance": "visual_only"
+  },
+  "reason": "The membrane ABCA1 increase is the paper's own claim, but Fig 5B prints p=0.07 for it, so the row must say it was not significant. It also overlaps P2.F4.",
+  "evidence": "Fig 5B (MEM protein NT total protein): ABCA1 E4 = 1.0, E4+CS6253 about 1.33 (error bar to about 1.75), 'p=0.07' printed over the pair; legend n = three independent experiments."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P2",
+  "finding_id": "P2.F6",
+  "key": "pmid31641056",
+  "quote_start": "Greater colocalization of ABCA1 with the late endosome marker LAMP2 an",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 2A; quantification Fig 2B",
+   "Effect size": "~1.25x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote and description are correct. Fig 2B shows *** over rApoE3 vs rApoE4, with means of about 45% vs 56% colocalization. There are about 20 points per group, but they overlap too much to count exactly, so n stays N/A.",
+  "evidence": "Fig 2B (ABCA1 with LAMP2, % colocalization): rApoE3 mean about 45, rApoE4 mean about 56, '***' over the pair; legend: 'The colocalization of ABCA1 with LAMP2 ... (A, B) ... *** p < 0.001.'"
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P2",
+  "finding_id": "P2.F7",
+  "key": "pmid31641056",
+  "quote_start": "Compared with cells treated with rApoE4 only, ABCA1 colocalization wit",
+  "verdict": "FIX",
+  "set": {
+   "P value": "<0.01",
+   "P value provenance": "visual_only"
+  },
+  "reason": "The quote and the 11% are correct. The figure matches a relative change (about 53.5 to 59.5% colocalization). Fig 6B has ** over rApoE4 vs rApoE4+CS6253, and the legend keys ** as p < 0.01. Points overlap, so n is left N/A.",
+  "evidence": "Text: 'ABCA1 colocalization with Rab11 significantly increased by 11% upon cotreating cells with rApoE4 plus CS-6253'. Fig 6B: rApoE4 mean about 53.5, rApoE4+CS6253 about 59.5, '**' bar over that pair; legend: '** p < 0.01.'"
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P2",
+  "finding_id": "P2.F8",
+  "key": "pmid31641056",
+  "quote_start": "ApoE4 primary astrocytes had a small but significant increase in chole",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~13%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.01",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote and description are correct. Fig 7B has ** over SC siRNA+CS6253 vs ARF6 siRNA+CS6253 (the legend keys ** as p < 0.01), and the ARF6 siRNA bar is about 1.13 against 1.0. No n is given.",
+  "evidence": "Fig 7B (Cholesterol efflux NT SC siRNA): SC siRNA + CS6253 = 1.0, ARF6 siRNA + CS6253 about 1.13, '**' over the pair; legend: '** p < 0.01; *** p < 0.001.'"
+ }
+]

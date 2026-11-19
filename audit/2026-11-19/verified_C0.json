@@ -1,0 +1,322 @@
+[
+ {
+  "item": 1,
+  "decision": "ADJUST",
+  "set": {
+   "Data location": "Supplementary Fig 3A and 3C (surface/total LRP1); 3B is total LRP1/actin",
+   "Effect size": "~0.67x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.01",
+   "P value provenance": "visual_only"
+  },
+  "why": "Full-size Supp Fig 3C (PDF p.23) shows APOE4 ~28,800 vs APOE4+Exo-1 ~19,300 with '**' over the only pair (legend n=3, **P<0.01), but by the brief's direction convention (Exo-1 over APOE4, a decrease) the fold is ~0.67x, not ~1.5x."
+ },
+ {
+  "item": 2,
+  "decision": "CONFIRM",
+  "why": "Supp Fig 3F reads APOE2/4 ~16,700 vs APOE2/4+Dyna ~22,900 (an increase, ~1.4x in the row's direction) with '*' over the only pair, legend key *P<0.05; 3E is total LRP1/actin (n.s), so the panel split is right."
+ },
+ {
+  "item": 3,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "~0.62x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.01",
+   "P value provenance": "visual_only"
+  },
+  "why": "Fig 4J (PDF p.36) shows APOE4 ~18,800 vs APOE4+GPC-4 shRNA ~11,600 with '**' on the APOE4-to-shRNA bracket (legend n=3-5, **P<0.01), but the shRNA-over-APOE4 fold is ~0.62x, not ~1.6x."
+ },
+ {
+  "item": 4,
+  "decision": "CONFIRM",
+  "why": "Results print 3.75 M (apoE4, 90%) and 4.75 M (apoE3, 80%) for the intermediate maximum; a 1.0 M difference with printed_in_text is acceptable and the description names both values."
+ },
+ {
+  "item": 5,
+  "decision": "CONFIRM",
+  "why": "Results print midpoints of 5.2 M (apoE3) and 4.3 M (apoE4) urea at pH 7.4 (Fig 1A); the 0.9 M difference is right and the description names both values."
+ },
+ {
+  "item": 6,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "~0.77x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.05",
+   "P value provenance": "visual_only"
+  },
+  "why": "Fig 1B reads ApoE3 ~83 vs ApoE4 ~64 with a '*' bracket directly from ApoE3 to ApoE4 (key *P<0.05), so the P is right, but ApoE4 over ApoE3 is ~0.77x, not ~1.3x."
+ },
+ {
+  "item": 7,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "~0.5x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.01",
+   "P value provenance": "visual_only"
+  },
+  "why": "Fig 1C reads ApoE3+R ~51 vs ApoE4+R ~25 with '**' on the ApoE3+R-to-ApoE4+R bracket (legend: asterisks on brackets = between treatments, **P<0.01), but the fold in the row's direction is ~0.5x, not ~2x."
+ },
+ {
+  "item": 8,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "~0.25x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "why": "'***' sits above the ApoE4+R column and the legend says column asterisks are versus control (***P<0.001); control+R 100 vs ApoE4+R ~25 is ~0.25x in the row's direction, not ~4x."
+ },
+ {
+  "item": 9,
+  "decision": "ADJUST",
+  "set": {
+   "Data location": "Fig 2I, GluN2B bar group (blots in Fig 2H)",
+   "Effect size": "~0.28x",
+   "Effect size provenance": "estimated_from_figure"
+  },
+  "why": "Fig 2H holds the blots and 2I the per-subunit bars (no stars, no error bars, so P stays N/A); the GluN2B group reads E3 ~65 vs E4 ~18, which is ~0.28x in the row's direction, not ~3.5x."
+ },
+ {
+  "item": 10,
+  "decision": "CONFIRM",
+  "why": "Additional file 1 (S1.DOC) Figure S3 legend states 'Data of apoE3 and apoE4 (Bar 5-6 and 8-9) are from [22]', and Results say the apoE3/apoE4 LDLR binding was evaluated 'In our previous study ... [22]', so the 55% vs 26% comparison is reproduced from another paper, not this one's result."
+ },
+ {
+  "item": 11,
+  "decision": "ADJUST",
+  "set": {
+   "Data location": "Fig 2B; supplementary file elife-40048-fig2-data1.xlsx, sheet Fig2C, Apoer2 E3+R versus E4+R",
+   "Effect size": "0.35x",
+   "Effect size provenance": "supplement_only"
+  },
+  "why": "Source data sheet Fig2C (Apoer2) give E3+R 82.1/73.6/76.3 (mean 77.3) and E4+R 32.4/27.6/20.3 (mean 26.8), so ApoE4 over ApoE3 is 0.35x, not 2.9x; Fig 2C's '*' and '***' brackets both start at C+R (Dunnett vs control), so P stays N/A."
+ },
+ {
+  "item": 12,
+  "decision": "ADJUST",
+  "set": {
+   "Data location": "Fig 2C; supplementary file elife-40048-fig2-data1.xlsx, sheet Fig2C, Apoer2 E3+R versus E4+R",
+   "Effect size": "0.35x",
+   "Effect size provenance": "supplement_only"
+  },
+  "why": "Same Fig2C source data: E3+R mean 77.3 vs E4+R mean 26.8 gives 0.35x in the row's direction, not 2.9x; no E3-vs-E4 star in Fig 2C, so P stays N/A."
+ },
+ {
+  "item": 13,
+  "decision": "ADJUST",
+  "set": {
+   "Data location": "Fig 2D; supplementary file elife-40048-fig2-data1.xlsx, sheet Fig2E, E3 versus E4",
+   "Effect size": "1.6x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.01",
+   "P value provenance": "visual_only"
+  },
+  "why": "The 1.6x (E4 mean 155.1 vs E3 mean 100.0, sheet Fig2E) is right, and Fig 2E also shows a '**' bracket directly between E3 and E4, keyed **p<0.01 (Student's t-test for E) in the legend, so P can be filled."
+ },
+ {
+  "item": 14,
+  "decision": "ADJUST",
+  "set": {
+   "Data location": "Fig 4D; supplementary file elife-40048-fig4-data1.xlsx, sheet Fig4E, EMD87580 0 uM, E3+R versus E4+R",
+   "Effect size": "0.34x",
+   "Effect size provenance": "supplement_only"
+  },
+  "why": "Sheet Fig4E at 0 uM gives E3+R mean 76.1 vs E4+R mean 26.1, so the fold is 0.34x, not 2.9x; the '*' and '***' at 0 uM in Fig 4E are marks against Con, so P stays N/A."
+ },
+ {
+  "item": 15,
+  "decision": "CONFIRM",
+  "why": "Sheet Fig5D: E4+R mean 27.4 vs E4+R+shNHE6(1) mean 101.8 = 3.7x, an increase in the row's direction (restoration); Fig 5D's *** brackets are only within C+R/E4+R pairs, so P stays N/A."
+ },
+ {
+  "item": 16,
+  "decision": "ADJUST",
+  "set": {
+   "Data location": "Fig 2B-C (lanes 1 and 3); supplementary file elife-40048-fig2-data1.xlsx, sheet Fig2C, Apoer2 C+R versus E4+R",
+   "Effect size": "0.27x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only",
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; Fig 2B lane 1 (Reelin alone) versus lane 3 (human cell-secreted ApoE4 then Reelin); ApoE pretreatment 1 h per Results, 30 min per Fig 2A and Methods, followed by 30 min Reelin; surface biotinylation followed by surface/total Apoer2 immunoblotting. Standard Methods concentrations: ApoE4 5 µg/ml and Reelin 2 µg/ml."
+  },
+  "why": "The quote is the Fig 2 legend sentence about Fig 2B-C, not Fig 4; Fig 4's legend has no matching sentence, so the location should follow the quote: sheet Fig2C (Apoer2) gives C+R mean 100.0 vs E4+R mean 26.8 = 0.27x, and Fig 2C shows '***' on the C+R-to-E4+R bracket."
+ },
+ {
+  "item": 17,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "0.26x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "why": "Sheet Fig5B gives C+R mean 99.9 vs E4+R mean 26.3, so the fold is 0.26x, not 3.8x; the '***' bracket over C+R vs E4+R in Fig 5B (key ***p<0.001) is right."
+ },
+ {
+  "item": 18,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "0.26x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "why": "Sheet Fig5B C+R 105.5/96.9/97.4 vs E4+R 21.3/30.5/27.1 gives 0.26x in the row's direction, not 3.8x; the *** bracket over this pair is right."
+ },
+ {
+  "item": 19,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "0.27x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "why": "Sheet Fig5D C+R mean 100.1 vs E4+R mean 27.4 gives 0.27x, not 3.7x; the leftmost *** bracket in Fig 5D spans exactly C+R and E4+R."
+ },
+ {
+  "item": 20,
+  "decision": "ADJUST",
+  "set": {
+   "Data location": "Fig 6B, Apoer2 blot, lanes 1 and 2; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6C, C+R versus E4+R",
+   "Effect size": "0.25x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "why": "Sheet Fig6C C+R mean 100.0 vs E4+R mean 24.7 gives 0.25x, not 4.0x; Fig 6C shows *** on the C+R-to-E4+R bracket."
+ },
+ {
+  "item": 21,
+  "decision": "ADJUST",
+  "set": {
+   "Data location": "Fig 6B, Apoer2 blot, lanes 4 and 5; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6C, R+scramble versus E4+R+scramble",
+   "Effect size": "0.24x",
+   "Effect size provenance": "supplement_only"
+  },
+  "why": "Sheet Fig6C R+scramble mean 97.7 vs E4+R+scramble mean 23.7 gives 0.24x, not 4.1x; P correctly stays N/A because the long *** bracket starts at C+R."
+ },
+ {
+  "item": 22,
+  "decision": "ADJUST",
+  "set": {
+   "Data location": "Fig 6C; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6C, C+R versus E4+R",
+   "Effect size": "0.25x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "why": "Same Fig6C pair as the lanes 1-2 row: C+R 100.0 vs E4+R 24.7 = 0.25x, not 4.0x; the *** bracket over this pair is right."
+ },
+ {
+  "item": 23,
+  "decision": "CONFIRM",
+  "why": "Sheet Fig6D: E4+R mean 24.1 vs E4+R+EMD87580 mean 94.2 = 3.9x, an increase in the row's direction (rescue); Fig 6D brackets start at C+R only, so P stays N/A."
+ },
+ {
+  "item": 24,
+  "decision": "ADJUST",
+  "set": {
+   "Data location": "Fig 6B, GluN2B blot, lanes 1 and 2; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6D, C+R versus E4+R",
+   "Effect size": "0.24x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "why": "Sheet Fig6D C+R mean 99.3 vs E4+R mean 24.1 gives 0.24x, not 4.1x; Fig 6D shows *** on the C+R-to-E4+R bracket."
+ },
+ {
+  "item": 25,
+  "decision": "ADJUST",
+  "set": {
+   "Data location": "Fig 6B, GluA1 blot, lanes 1 and 2; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6E, C+R versus E4+R",
+   "Effect size": "0.29x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "why": "Sheet Fig6E C+R mean 100.0 vs E4+R mean 29.1 gives 0.29x, not 3.4x; Fig 6E shows *** on the C+R-to-E4+R bracket."
+ },
+ {
+  "item": 26,
+  "decision": "ADJUST",
+  "set": {
+   "Data location": "Fig 6B, GluA2/3 blot, lanes 1 and 2; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6F, C+R versus E4+R",
+   "Effect size": "0.27x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "why": "Sheet Fig6F C+R mean 100.0 vs E4+R mean 27.5 gives 0.27x, not 3.6x; Fig 6F shows *** on the C+R-to-E4+R bracket."
+ },
+ {
+  "item": 27,
+  "decision": "ADJUST",
+  "set": {
+   "Data location": "Fig 6B, GluN2B blot, lanes 4 and 5; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6D, R+scramble versus E4+R+scramble",
+   "Effect size": "0.24x",
+   "Effect size provenance": "supplement_only"
+  },
+  "why": "Sheet Fig6D R+scramble mean 96.3 vs E4+R+scramble mean 23.3 gives 0.24x, not 4.1x; P stays N/A (no scramble-vs-scramble mark)."
+ },
+ {
+  "item": 28,
+  "decision": "ADJUST",
+  "set": {
+   "Data location": "Fig 6B, GluA1 blot, lanes 4 and 5; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6E, R+scramble versus E4+R+scramble",
+   "Effect size": "0.23x",
+   "Effect size provenance": "supplement_only"
+  },
+  "why": "Sheet Fig6E R+scramble mean 98.6 vs E4+R+scramble mean 22.9 gives 0.23x, not 4.3x; no star marks this pair, so P stays N/A."
+ },
+ {
+  "item": 29,
+  "decision": "ADJUST",
+  "set": {
+   "Data location": "Fig 6B, GluA2/3 blot, lanes 4 and 5; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6F, R+scramble versus E4+R+scramble",
+   "Effect size": "0.27x",
+   "Effect size provenance": "supplement_only"
+  },
+  "why": "Sheet Fig6F R+scramble mean 99.6 vs E4+R+scramble mean 26.7 gives 0.27x, not 3.7x; no star marks this pair, so P stays N/A."
+ },
+ {
+  "item": 30,
+  "decision": "ADJUST",
+  "set": {
+   "Data location": "Fig 6D; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6D, C+R versus E4+R",
+   "Effect size": "0.24x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "why": "Sheet Fig6D C+R mean 99.3 vs E4+R mean 24.1 gives 0.24x, not 4.1x; the *** bracket over this pair is right."
+ },
+ {
+  "item": 31,
+  "decision": "ADJUST",
+  "set": {
+   "Data location": "Fig 6E; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6E, C+R versus E4+R",
+   "Effect size": "0.29x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "why": "Sheet Fig6E C+R mean 100.0 vs E4+R mean 29.1 gives 0.29x, not 3.4x; the *** bracket over this pair is right."
+ },
+ {
+  "item": 32,
+  "decision": "ADJUST",
+  "set": {
+   "Data location": "Fig 6F; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6F, C+R versus E4+R",
+   "Effect size": "0.27x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "why": "Sheet Fig6F C+R mean 100.0 vs E4+R mean 27.5 gives 0.27x, not 3.6x; the *** bracket over this pair is right."
+ }
+]

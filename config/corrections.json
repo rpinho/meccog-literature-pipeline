@@ -5,22 +5,22 @@
    "key": "pmid36324176",
    "quote_start": "In the control group, the dimer/monomer quotient was significantly lower",
    "set": {
-    "effect_size": "5.8x",
+    "effect_size": "0.17x",
     "effect_size_provenance": "printed_in_text",
     "description": "Native-PAGE of non-AD human control CSF showed a lower apoE dimer/monomer ratio in APOE ε3/ε4 than ε3/ε3 samples (ratio D/M 0.38 versus 2.20, printed in the text)."
    },
-   "reason": "The figure read used the medians printed under Fig. 3D (2 vs 0.4); the text prints the group values the paper reports (2.20 vs 0.38), so the ratio is 2.20/0.38 = 5.8x.",
+   "reason": "The figure read used the medians printed under Fig. 3D (2 vs 0.4); the text prints the group values the paper reports (2.20 vs 0.38), so the ratio is 2.20/0.38 = 5.8x. Written as comparison group over reference (0.38/2.20 = 0.17x), the convention for folds we compute.",
    "source": "Results: 'ratio D/M = 0.38 ... ratio D/M = 2.20; p= 0.006'"
   },
   {
    "key": "pmid36324176",
    "quote_start": "The same situation was found in the AD group, where the dimer/monomer ratio decreased",
    "set": {
-    "effect_size": "9.5x",
+    "effect_size": "0.11x",
     "effect_size_provenance": "printed_in_text",
     "description": "Native-PAGE of human AD CSF showed a lower apoE dimer/monomer ratio in APOE ε4/ε4 than ε3/ε3 samples (ratio D/M 0.24 versus 2.27, printed in the text); the Fig. 3D bracket between these groups reads p < 0.0001."
    },
-   "reason": "The figure read used rounded medians printed under Fig. 3D (2.3 vs 0.1, giving 23x); the text prints 2.27 vs 0.24, so the ratio is 9.5x.",
+   "reason": "The figure read used rounded medians printed under Fig. 3D (2.3 vs 0.1, giving 23x); the text prints 2.27 vs 0.24, so the ratio is 9.5x. Written as comparison group over reference (0.24/2.27 = 0.11x), the convention for folds we compute.",
    "source": "Results: 'ε3/ε3: ratio D/M = 2.27; ε3/ε4: ratio D/M = 1.04; ε4/ε4: ratio D/M = 0.24'",
    "summary_contains": "(APOE ε3/ε3 -> APOE ε4/ε4)"
   },
@@ -29,10 +29,10 @@
    "quote_start": "The same situation was found in the AD group, where the dimer/monomer ratio decreased",
    "summary_contains": "(APOE ε3/ε3 -> APOE ε3/ε4)",
    "set": {
-    "effect_size": "2.2x",
+    "effect_size": "0.46x",
     "effect_size_provenance": "printed_in_text"
    },
-   "reason": "Same quote as the ε3/ε3 vs ε4/ε4 row: the text prints 2.27 vs 1.04, so the ratio is 2.2x; the extraction had left it qualitative.",
+   "reason": "Same quote as the ε3/ε3 vs ε4/ε4 row: the text prints 2.27 vs 1.04, so the ratio is 2.2x; the extraction had left it qualitative. Written as comparison group over reference (1.04/2.27 = 0.46x), the convention for folds we compute.",
    "source": "Results: 'ε3/ε3: ratio D/M = 2.27; ε3/ε4: ratio D/M = 1.04; ε4/ε4: ratio D/M = 0.24'"
   },
   {
@@ -40,11 +40,2453 @@
    "quote_start": "The same situation was found in the AD group, where the dimer/monomer ratio decreased",
    "summary_contains": "(APOE ε3/ε4 -> APOE ε4/ε4)",
    "set": {
-    "effect_size": "4.3x",
+    "effect_size": "0.23x",
     "effect_size_provenance": "printed_in_text"
    },
-   "reason": "Same quote: the text prints 1.04 vs 0.24, so the ratio is 4.3x; the extraction had left it qualitative.",
+   "reason": "Same quote: the text prints 1.04 vs 0.24, so the ratio is 4.3x; the extraction had left it qualitative. Written as comparison group over reference (0.24/1.04 = 0.23x), the convention for folds we compute.",
    "source": "Results: 'ε3/ε3: ratio D/M = 2.27; ε3/ε4: ratio D/M = 1.04; ε4/ε4: ratio D/M = 0.24'"
+  },
+  {
+   "key": "doi_10_17615_yant_mg96",
+   "hyp": "H4",
+   "quote_start": "Inhibiting or depleting the early endosome proton leak channel NHE6 re",
+   "summary_contains": "(NHE6 inhibition or depletion in APOE4-treated neurons) -> (rescued receptor recycling)",
+   "description_start": "The review reports that inhibiting or depleting NHE6 rescued",
+   "set": {},
+   "reason": "Claude audit 11-19 (H4 P3.F1), confirmed by a second Claude check: Not the source's own result: a sentence from Chapter 1 (literature review) of a dissertation on lipid-droplet APOE, restating Xian et al. 2018 and Pohlkamp et al. 2021.",
+   "source": "Chapter One 'APOE IN THE CENTRAL NERVOUS SYSTEM': 'Inhibiting or depleting the early endosome proton leak channel NHE6 rescued receptor recycling in E4-treated neurons (Xian et al., 2018; Pohlkamp et al., 2021).'",
+   "drop": true
+  },
+  {
+   "key": "doi_10_17615_yant_mg96",
+   "hyp": "H4",
+   "quote_start": "Astrocytes from E4 targeted replacement mice exhibit reduced endolysos",
+   "summary_contains": "(APOE4 genotype) -> (lower astrocyte surface LRP1)",
+   "description_start": "The review reports reduced surface LRP1 in astrocytes from A",
+   "set": {},
+   "reason": "Claude audit 11-19 (H4 P3.F2), confirmed by a second Claude check: Not the source's own result: the same Chapter 1 review paragraph summarising other work (the paragraph cites Prasad and Rao, 2018); the dissertation's own experiments are on lipid droplets.",
+   "source": "Chapter One: 'Astrocytes from E4 targeted replacement mice exhibit reduced endolysosomal pH and reduced surface levels of LRP1, suggesting similar E4-dependent defects ... (Prasad and Rao, 2018).'",
+   "drop": true
+  },
+  {
+   "key": "pmid11369796",
+   "hyp": "H4",
+   "quote_start": "When complexed with DMPC, full-length apoE3 and apoE4 and their 22-kDa",
+   "summary_contains": "(apoE3 -> apoE4) -> (no change in LDLR-binding affinity of DMPC-complexed full-length apoE)",
+   "description_start": "Cited prior experiments comparing DMPC-complexed full-length",
+   "set": {},
+   "reason": "Claude audit 11-19 (H4 P15.F1), confirmed by a second Claude check: Not the paper's own result: the sentence cites refs 4 and 34 for the DMPC-complex LDLR affinity (the row description itself says 'Cited prior experiments').",
+   "source": "'When complexed with DMPC, full-length apoE3 and apoE4 and their 22-kDa fragments have the same affinity for the LDLR (4, 34). In contrast, the affinity of full-length apoE2 is 1% that of apoE3 ... (4).'",
+   "drop": true
+  },
+  {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "quote_start": "Furthermore, at higher protein concentration, large species ( s > 10) ",
+   "summary_contains": "(apoE3 -> apoE4) -> (higher fraction of large apoE species at 0.50 mg/ml)",
+   "description_start": "At 0.50 mg/ml, full-length apoE4 had a larger large-species ",
+   "set": {
+    "effect_size": "1.24x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P3.F1), confirmed by a second Claude check: Values correct (s>10 fraction 26% apoE4 vs 21% apoE3 at 0.50 mg/ml; s_w 6.5 both); both group values printed in Table 2, so give the ratio 26/21.",
+   "source": "Table 2 (0.15 mg/ml column; 1.00 mg/ml column, footnote: full-length at 0.50 mg/ml): ApoE3 11.0-23.1 S 0.24 (21%); ApoE4 10.4-24.4 S 0.28 (26%). Table 1: ApoE3 0.50 s_w 6.5, ApoE4 0.50 s_w 6.5. 'Every sedimentation velocity experiment was repeated twice'."
+  },
+  {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "quote_start": "Furthermore, at higher protein concentration, large species ( s > 10) ",
+   "summary_contains": "(apoE3 -> apoE4) -> (greater concentration-dependent increase in large apoE species)",
+   "description_start": "Increasing full-length protein concentration from 0.15 to 0.",
+   "set": {
+    "effect_size": "2.5x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P3.F2), confirmed by a second Claude check: Description and quote correct; text prints both increases (15% vs 6%), so ratio 15/6 = 2.5x.",
+   "source": "'large species ( s > 10) were more significantly increased for the apoE4 protein (by 15%), compared to apoE3 protein (6%)'; Table 2: apoE4 11%->26%, apoE3 15%->21%."
+  },
+  {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "quote_start": "Similar to the full-length proteins, at higher protein concentrations,",
+   "summary_contains": "(apoE3 72–299 -> apoE4 72–299) -> (higher large-species fraction and greater heterogeneity)",
+   "description_start": "At 1.00 mg/ml, apoE4 72–299 had more large species than apoE",
+   "set": {
+    "effect_size": "1.75x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P3.F3), confirmed by a second Claude check: Values correct (21% vs 12%, apoE3 major region 77% at 5.9 S); both values printed, ratio 21/12.",
+   "source": "'apoE4 72-299 had more abundant larger species ( s > 10, 21%), compared with those of apoE3 72-299 (12%)'; Table 2 1.00 mg/ml: ApoE3 72-299 1.7-8.2 S 5.9 +/- 1.1 0.72 (77%), 10.3-22.8 S 0.11 (12%); ApoE4 72-299 10.1-23.6 S 0.19 (21%)."
+  },
+  {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "quote_start": "This feature showed that aggregation of apoE4 72-299 protein was more ",
+   "summary_contains": "(apoE3 72–299 -> apoE4 72–299) -> (greater concentration-dependent aggregation)",
+   "description_start": "Increasing concentration from 0.15 to 1.00 mg/ml increased t",
+   "set": {
+    "quote": "The smallest apoE4 72-299 species with s = 4.6 decreased by 4% at the higher protein concentration. At the same time, species s = 6.6 and 9.4 decreased by 24 and 8%, respectively, species s = 7.7 remained at 23%, and those with s > 10 increased by 14%."
+   },
+   "reason": "Claude audit 11-19 (H3 P3.F4), confirmed by a second Claude check: Numbers correct (apoE4 7%->21%, apoE3 13%->12%), but the quoted sentence ('This feature...') refers to the 10-vs-5 species count, not the large-species fraction; use the sentence that prints the s>10 increase. Effect left qualitative (isoform comparison of concentration changes, +14 vs -1 points, has no allowed ratio shape).",
+   "source": "Table 2: ApoE4 72-299 11.7-20.1 S 0.01 (7%) at 0.15, 10.1-23.6 S 0.19 (21%) at 1.00; ApoE3 72-299 11.0-20.8 S 0.02 (13%) at 0.15, 10.3-22.8 S 0.11 (12%) at 1.00. Text: 'those with s > 10 increased by 14%'."
+  },
+  {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "quote_start": "ApoE4 1-271 was made up of more and larger species ( s > 10; 21%), com",
+   "summary_contains": "(apoE3 1–271 -> apoE4 1–271) -> (higher fraction of large apoE oligomers)",
+   "description_start": "At 0.15 mg/ml, apoE4 1–271 contained more large species than",
+   "set": {
+    "effect_size": "1.62x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P3.F5), confirmed by a second Claude check: Values correct (21% vs 13% at 0.15 mg/ml, 50-400 kDa overlapping c(M)); both printed, ratio 21/13.",
+   "source": "'ApoE4 1-271 was made up of more and larger species ( s > 10; 21%), compared to apoE3 1-271 (13%).' Fig 5 legend: proteins at 0.15 mg/ml."
+  },
+  {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "quote_start": "Both apoE3 and E4 proteins showed a distribution with two major partic",
+   "summary_contains": "(apoE3 -> apoE4) -> (higher fraction of larger apoE particles)",
+   "description_start": "At 1.0 mg/ml, full-length apoE4 had a larger 5.0–15.0 nm par",
+   "set": {
+    "effect_size": "1.31x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P3.F6), confirmed by a second Claude check: Quote and description correct; both values printed (46% vs 35%), ratio 46/35.",
+   "source": "DLS at 1.0 mg/ml: 'apoE3 had less 5.0-15.0 nm group particles (35%), compared with those of apoE4 (46%).'"
+  },
+  {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "quote_start": "Size distribution of apoE3 and apoE4 full-length proteins showed very ",
+   "summary_contains": "(apoE3 -> apoE4) -> (lower fraction of large apoE species at 0.15 mg/ml)",
+   "description_start": "At 0.15 mg/ml, full-length apoE4 had a smaller large-species",
+   "set": {
+    "effect_size": "0.73x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P3.F8), confirmed by a second Claude check: Values correct (apoE4 11% vs apoE3 15% s>10 at 0.15 mg/ml); both printed in Table 2, ratio 11/15. Quote is general but the paper's own.",
+   "source": "Table 2 0.15 mg/ml: ApoE3 11.2-23.9 S 0.06 (15%); ApoE4 11.5-23.4 S 0.04 (11%)."
+  },
+  {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "quote_start": "After calculating the integration by SEDFIT, both apoE 72-299 proteins",
+   "summary_contains": "(apoE3 72–299 -> apoE4 72–299) -> (lower large-species fraction but higher overall sedimentation at low concentration)",
+   "description_start": "At 0.15 mg/ml, apoE4 72–299 had a smaller large-species frac",
+   "set": {
+    "effect_size": "0.54x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P3.F9), confirmed by a second Claude check: Values correct (7% vs 13% s>10; s_w 6.4 vs 5.5 S); both printed, ratio 7/13. Quote only says four species were found, weak support but the paper's own.",
+   "source": "Table 2 0.15 mg/ml: ApoE3 72-299 11.0-20.8 S 0.02 (13%); ApoE4 72-299 11.7-20.1 S 0.01 (7%). Table 1: ApoE3 72-299 0.15 s_w 5.5; ApoE4 72-299 0.15 s_w 6.4."
+  },
+  {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "quote_start": "However, when the protein concentration was increased to 1.00 mg/ml, 1",
+   "summary_contains": "(apoE3 72–299 -> apoE4 72–299) -> (more resolved sedimenting species)",
+   "description_start": "At 1.00 mg/ml, the paper reports 10 resolved species for apo",
+   "set": {
+    "effect_size": "2x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P3.F10), confirmed by a second Claude check: Quote and description correct; both counts printed (10 vs 5 species), ratio 2x.",
+   "source": "'when the protein concentration was increased to 1.00 mg/ml, 10 species were found in apoE4 72-299 protein, compared with five species of apoE3 72-299'"
+  },
+  {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "quote_start": "The K d of apoE3 1-191 (556 ± 233 nM) was 19 times larger than that of",
+   "summary_contains": "(apoE3 1–231 -> apoE4 1–231) -> (lower modeled tetramer dissociation constant)",
+   "description_start": "ApoE4 1–231 had a lower fitted monomer–tetramer dissociation",
+   "set": {
+    "effect_size": "0.55x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P3.F11), confirmed by a second Claude check: Kd values correct (16 +/- 1.3 vs 29 +/- 2.8 nM); both printed, so the apoE4/apoE3 Kd ratio 16/29 is available rather than N/A.",
+   "source": "'The K d of apoE3 1-191 (556 +/- 233 nM) was 19 times larger than that of apoE3 1-231 (29 +/- 2.8 nM) and 37 times in the case of apoE4 isoforms (592 +/- 323 nM of apoE4 1-191 and 16 +/- 1.3 nM of apoE4 1-231 ).'"
+  },
+  {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "quote_start": "The K d of apoE3 1-191 (556 ± 233 nM) was 19 times larger than that of",
+   "summary_contains": "(apoE3 1–191 -> apoE4 1–191) -> (no significant change in tetramerization affinity reported)",
+   "description_start": "Monomer–tetramer modeling gave similar dissociation constant",
+   "set": {
+    "effect_size": "1.06x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P3.F16), confirmed by a second Claude check: Kd values correct (556 +/- 233 vs 592 +/- 323 nM); both printed, so ratio 592/556 instead of N/A (CIs overlap widely; no test reported).",
+   "source": "'The K d of apoE3 1-191 (556 +/- 233 nM)... (592 +/- 323 nM of apoE4 1-191 ...)'"
+  },
+  {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "quote_start": "After calculating the integration by SEDFIT, five species were identif",
+   "summary_contains": "(apoE3 41–299 -> apoE4 41–299) -> (higher large-species fraction but lower overall sedimentation)",
+   "description_start": "At 0.15 mg/ml, apoE4 41–299 had a larger broad large-species",
+   "set": {
+    "effect_size": "1.4x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P3.F17), confirmed by a second Claude check: Values correct (14% vs 10% s>10; s_w 3.7 vs 4.4 S); both printed, ratio 14/10. Quote is a weak 'five species' sentence but the paper's own.",
+   "source": "Table 2 0.15 mg/ml: ApoE3 41-299 9.7-22.3 S 0.02 (10%); ApoE4 41-299 9.2-21.5 S 0.03 (14%). Table 1: 4.4 vs 3.7 S."
+  },
+  {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "quote_start": "At an initial protein concentration of 1.00 mg/ml, the major species o",
+   "summary_contains": "(apoE3 41–299 -> apoE4 41–299) -> (slightly higher large-species fraction at 1.00 mg/ml)",
+   "description_start": "At 1.00 mg/ml, apoE4 41–299 had a large-species fraction of ",
+   "set": {
+    "effect_size": "1.11x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P3.F18), confirmed by a second Claude check: Quote verbatim, values correct (10% vs 9%; 72% vs 77%); both printed, ratio 10/9.",
+   "source": "Table 2 1.00 mg/ml: ApoE3 41-299 9.9-22.8 S 0.12 (9%), major species 22%+55%=77%; ApoE4 41-299 9.6-22.9 S 0.14 (10%), 31%+41%=72%."
+  },
+  {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "quote_start": "Finally, the s w of the apoE4 72-299 protein had significantly increas",
+   "summary_contains": "(apoE3 72–299 -> apoE4 72–299) -> (higher weight-average sedimentation at 0.50 mg/ml)",
+   "description_start": "At 0.50 mg/ml, apoE4 72–299 had a higher weight-average sedi",
+   "set": {
+    "effect_size": "1.21x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P3.F19), confirmed by a second Claude check: Values correct (Table 1 at 0.50: apoE4 72-299 6.9 S vs apoE3 72-299 5.7 S); both printed, ratio 6.9/5.7. Quote describes the concentration rise (6.4->7.2), related but not this exact comparison.",
+   "source": "Table 1: ApoE3 72-299 0.50 0.00537 5.7; ApoE4 72-299 0.50 0.00469 6.9."
+  },
+  {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "quote_start": "ApoE3 1-231 | 0.15 | 0.00546 | 3.8 | | 0.50 | 0.00660 | 4.2 | ApoE4 1-",
+   "summary_contains": "(apoE3 1–231 -> apoE4 1–231) -> (lower weight-average sedimentation at 0.15 mg/ml)",
+   "description_start": "At 0.15 mg/ml, apoE4 1–231 had a lower weight-average sedime",
+   "set": {
+    "effect_size": "0.82x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P3.F21), confirmed by a second Claude check: Quote is the Table 1 row; values correct (3.1 vs 3.8 S); both printed, ratio 3.1/3.8 instead of N/A.",
+   "source": "Table 1: ApoE3 1-231 0.15 3.8; ApoE4 1-231 0.15 3.1; text 'apoE3 1-231 had an s w of 3.8-4.2 S and apoE4 1-231 had an s w of 3.1-3.6 S'."
+  },
+  {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "quote_start": "ApoE3 41-299 and apoE4 41-299 proteins showed lower s w values (4.4 an",
+   "summary_contains": "(apoE3 41–299 -> apoE4 41–299) -> (lower weight-average sedimentation at 0.50 mg/ml)",
+   "description_start": "At 0.50 mg/ml, apoE4 41–299 sedimented more slowly than apoE",
+   "set": {
+    "effect_size": "0.88x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P3.F22), confirmed by a second Claude check: Description values correct from Table 1 (4.3 vs 4.9 S at 0.50; the quoted text's 4.8 for apoE3 is its 1.00 mg/ml value); both printed, ratio 4.3/4.9.",
+   "source": "Table 1: ApoE3 41-299 0.50 4.9; ApoE4 41-299 0.50 4.3."
+  },
+  {
+   "key": "pmid15475580",
+   "hyp": "H3",
+   "quote_start": "ApoE3 1-191 | 0.15 | 0.00556 | 2.6 | | 0.50 | 0.00654 | 2.9 | ApoE4 1-",
+   "summary_contains": "(apoE3 1–191 -> apoE4 1–191) -> (slightly higher weight-average sedimentation at 0.15 mg/ml)",
+   "description_start": "At 0.15 mg/ml, apoE4 1–191 had a slightly higher weight-aver",
+   "set": {
+    "effect_size": "1.04x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P3.F23), confirmed by a second Claude check: Quote is the Table 1 row; values correct (2.7 vs 2.6 S); both printed, ratio 2.7/2.6 instead of N/A.",
+   "source": "Table 1: ApoE3 1-191 0.15 2.6; ApoE4 1-191 0.15 2.7."
+  },
+  {
+   "key": "pmid15863833",
+   "hyp": "H4",
+   "quote_start": "Second, our experi- ments conﬁrmed that the VLDL receptor recognizes a",
+   "summary_contains": "(apoE3 -> apoE4) -> (no change in lipid-free apoE binding affinity for VLDLR)",
+   "description_start": "SPR measurements showed high-affinity binding of lipid-free ",
+   "set": {
+    "effect_size": "0.68x",
+    "effect_size_provenance": "printed_in_text",
+    "data_location": "Fig 2B–C; Table 1"
+   },
+   "reason": "Claude audit 11-19 (H4 P4.F1), adjusted by a second Claude check: The quote is a Discussion restatement; the Results sentence gives the same finding with the Table 1 pointer. Table 1 prints SPR Kd for apoE3 (25 nM) and apoE4 (17 nM), so the ratio can be given. Verifier: The Results sentence is verbatim and Table 1 prints SPR Kd 17 +/- 9 nM (apoE4) vs 25 +/- 10 nM (apoE3), so 0.68x is right; with the quote moved out of the Discussion, Data location must point to the Results section. Reviewer: The Results sentence is verbatim but the PDF text interleaves it with the Fig. 2 legend, so the quote check cannot find it; the original Discussion sentence is the authors' own statement of the same result and stays, with the location pointing at the data.",
+   "source": "Results: \"Equilibrium analysis of observed sensorgrams revealed a high-affinity interaction between the VLDL receptor and all apoE isoforms, with no distinction between them (Table 1).\"; Table 1 VLDL receptor row: apoE2 20 ± 5, apoE3 25 ± 10, apoE4 17 ± 9 nM."
+  },
+  {
+   "key": "pmid15863833",
+   "hyp": "H4",
+   "quote_start": "Thus, the results from this solid-phase assay suggest that both the VL",
+   "summary_contains": "(apoE3 -> apoE4) -> (no change in VLDLR binding reported)",
+   "description_start": "Purified VLDLR bound immobilized apoE3 and apoE4 without rep",
+   "set": {
+    "effect_size": "1.31x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P4.F2), confirmed by a second Claude check: Both apparent Kd values are printed (apoE3 59 nM, apoE4 77 nM); give the ratio instead of qualitative.",
+   "source": "Results: \"The apparent Kd values for the interaction of the VLDL receptor with immobilized apoE2, apoE3, and apoE4 are 86, 59, and 77 nM, respectively.\"; Fig 1 legend: \"average of duplicate determinations\""
+  },
+  {
+   "key": "pmid16401069",
+   "hyp": "H4",
+   "quote_start": "Competition curves comparing LDLR binding by LDL ( Figure 7A ) and dim",
+   "summary_contains": "(DMPC-apoE3 -> DMPC-apoE4) -> (lower concentration required for 50% inhibition of LDLR binding)",
+   "description_start": "In normal human fibroblasts, DMPC-apoE4 produced 50% inhibit",
+   "set": {
+    "effect_size": "0.92x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P21.F1), adjusted by a second Claude check: Both half-inhibition concentrations are printed (0.039 E3-DMPC vs 0.036 E4-DMPC ug/ml), so give the percent change instead of N/A. Verifier: The printed IC50s are 0.036 (E4-DMPC) and 0.039 ug/ml (E3-DMPC); an unsigned '8%' does not say which way, so give the apoE4/apoE3 ratio 0.036/0.039 = 0.92x, the same form used for the Kd rows.",
+   "source": "'50% binding inhibition at 3.44 ug/ml for LDL, and 0.039 and 0.036 ug/ml for E3-DMPC and E4-DMPC, respectively'; (0.039-0.036)/0.039 = 8%."
+  },
+  {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "quote_start": "The full-length apoE proteins with DMPC showed dose-de- pendent compet",
+   "summary_contains": "Full-length apoE3 and apoE4 showed similar observed LDLR competition at 0.125 mg with DMPC.",
+   "description_start": "At 0.125 mg, full-length apoE–DMPC reduced bound ³H-LDL by 3",
+   "set": {
+    "effect_size": "~0.93x",
+    "effect_size_provenance": "estimated_from_figure"
+   },
+   "reason": "Claude audit 11-19 (H4 P22.F1), confirmed by a second Claude check: Fig 5A is readable: bar 4 (apoE3 0.125 mg) and bar 6 (apoE4 0.125 mg) give the per-isoform reductions behind the text's 39-42% range, so the ratio of apoE4 to apoE3 competition can be given.",
+   "source": "PDF p.13341 Fig 5A (rendered): bar 4 apoE3 (2.5x) top at 58% bound (42% decrease), bar 6 apoE4 (2.5x) at 61% bound (39% decrease); 39/42 = 0.93. Neither bar has an error bar."
+  },
+  {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "quote_start": "The LDL-R binding ability of apoE- DMPC was higher than that of LDL at",
+   "summary_contains": "Full-length apoE4 retained 99% of apoE3’s reported LDLR binding ability with DMPC.",
+   "description_start": "With DMPC, Table 4 reports interpolated ³H-LDL binding reduc",
+   "set": {
+    "effect_size": "0.99x"
+   },
+   "reason": "Claude audit 11-19 (H4 P22.F2), confirmed by a second Claude check: '99%' reads as a 99% change under the sheet's shapes; Table 4 prints apoE4 at 99% of apoE3's binding ability, a ratio of 0.99.",
+   "source": "Table 4, With DMPC: ApoE3 decrease 59 (c), ability 100; ApoE4 decrease 58 (c), ability 99. Footnote c: 0.5 mg values interpolated from 0.125 and 1.0 mg."
+  },
+  {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "quote_start": "The LDL-R binding ability of apoE- DMPC was higher than that of LDL at",
+   "summary_contains": "Full-length apoE3 and apoE4 gave identical reported LDLR competition without DMPC.",
+   "description_start": "Without DMPC, full-length apoE3 and apoE4 each decreased ³H-",
+   "set": {
+    "effect_size": "1.0x"
+   },
+   "reason": "Claude audit 11-19 (H4 P22.F3), confirmed by a second Claude check: '100%' reads as a 100% change; Table 4 prints equal decreases (34 and 34) and apoE4 ability 100% of apoE3, a ratio of 1.0.",
+   "source": "Table 4, Without DMPC: ApoE3 34 / 100; ApoE4 34 / 100."
+  },
+  {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "quote_start": "In contrast, the apoE3-(1–231)-DMPC complex lost most of its LDL-R bin",
+   "summary_contains": "(apoE3-(1–231) -> apoE4-(1–231)) -> (greater LDLR competition with DMPC)",
+   "description_start": "ApoE4-(1–231)–DMPC competed more strongly for LDLR binding t",
+   "set": {
+    "effect_size": "2.4x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P22.F4), confirmed by a second Claude check: Both group values are printed (44% vs 18% decrease), so the ratio replaces 'qualitative'. Bars 6-7 of Fig 5B are the right bars.",
+   "source": "Table 4, With DMPC: ApoE3-(1-231) 18 / 31; ApoE4-(1-231) 44 / 75. 44/18 = 2.44. Fig 5B legend: bars 6 and 7 = apoE3-(1-231)-DMPC, apoE4-(1-231)-DMPC."
+  },
+  {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "quote_start": "On the contrary, in a lipid-free environment, the N-terminal trun- cat",
+   "summary_contains": "(apoE3-(72–299) -> apoE4-(72–299)) -> (greater LDLR competition without DMPC)",
+   "description_start": "Without DMPC, apoE4-(72–299) decreased 3H-LDL binding by 38%",
+   "set": {
+    "effect_size": "diff=46",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P22.F5), confirmed by a second Claude check: Both values are printed (38 vs -8; the minus sign is confirmed on the rendered PDF table). A ratio is undefined for a negative value, so give the 46-point difference in 3H-LDL binding decrease.",
+   "source": "PDF p.13340 Table 4, Without DMPC: ApoE3-(72-299) decrease -8, ability ND; ApoE4-(72-299) decrease 38, ability 112."
+  },
+  {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "quote_start": "At the same dose, apoE3-(72–299)- and apoE4-(72–299)-DMPC complexes sh",
+   "summary_contains": "(apoE3-(72–299) -> apoE4-(72–299)) -> (greater LDLR competition with DMPC)",
+   "description_start": "ApoE4-(72–299)–DMPC competed more strongly for LDLR binding ",
+   "set": {
+    "effect_size": "1.26x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P22.F6), confirmed by a second Claude check: Both group values are printed in Table 4 (34% vs 27% decrease), so the ratio replaces 'qualitative'.",
+   "source": "Table 4, With DMPC: ApoE3-(72-299) 27 / 46; ApoE4-(72-299) 34 / 57. 34/27 = 1.26. Fig 5A legend: bar 10 apoE3-(72-299)-DMPC, bar 11 apoE4-(72-299)-DMPC."
+  },
+  {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "quote_start": "When the C-terminal domain was fully removed, apoE3-(1–191)- and apoE4",
+   "summary_contains": "(apoE3-(1–191) -> apoE4-(1–191)) -> (lower LDLR competition with DMPC)",
+   "description_start": "ApoE4-(1–191)–DMPC competed less strongly for LDLR binding t",
+   "set": {
+    "effect_size": "0.81x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P22.F7), confirmed by a second Claude check: Both group values are printed (34% vs 42% decrease), so the ratio replaces 'qualitative'.",
+   "source": "Table 4, With DMPC: ApoE3-(1-191) 42 / 72; ApoE4-(1-191) 34 / 57. 34/42 = 0.81. Fig 5B bars 4 and 5."
+  },
+  {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "quote_start": "With the assistance of the 232–271 fragment, the LDL-R binding ability",
+   "summary_contains": "(apoE3-(1–271) -> apoE4-(1–271)) -> (greater LDLR competition with DMPC)",
+   "description_start": "ApoE4-(1–271)–DMPC competed more strongly for LDLR binding t",
+   "set": {
+    "effect_size": "1.23x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P22.F8), confirmed by a second Claude check: Both group values are printed (58% vs 47% decrease), so the ratio replaces 'qualitative'.",
+   "source": "Table 4, With DMPC: ApoE3-(1-271) 47 / 80; ApoE4-(1-271) 58 / 99. 58/47 = 1.23. Fig 5B bars 8 and 9."
+  },
+  {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "quote_start": "ApoE3-(1–191) 42 72 13 39 ApoE4-(1–191) 34 57 19 57",
+   "summary_contains": "(apoE3-(1–191) -> apoE4-(1–191)) -> (greater LDLR competition without DMPC)",
+   "description_start": "Without DMPC, apoE4-(1–191) produced greater LDLR competitio",
+   "set": {
+    "effect_size": "1.46x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P22.F9), confirmed by a second Claude check: Both group values are printed (19% vs 13% decrease), so the ratio replaces 'qualitative'.",
+   "source": "Table 4, Without DMPC: ApoE3-(1-191) 13 / 39; ApoE4-(1-191) 19 / 57. 19/13 = 1.46."
+  },
+  {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "quote_start": "A 10-fold dose of apoE3-(41–299)-DMPC complex decreased 3H-LDL binding",
+   "summary_contains": "(apoE3-(41–299) -> apoE4-(41–299)) -> (slightly greater LDLR competition with DMPC)",
+   "description_start": "At 0.5 mg competitor, apoE4-(41–299)–DMPC produced numerical",
+   "set": {
+    "effect_size": "1.02x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P22.F10), confirmed by a second Claude check: Both group values are printed (47% vs 46% decrease), so the ratio replaces 'qualitative'.",
+   "source": "Text: 'A 10-fold dose of apoE3-(41-299)-DMPC complex decreased 3H-LDL binding by 46% and that of apoE4-(41-299)-DMPC complex decreased by 47% (Table 4).' 47/46 = 1.02."
+  },
+  {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "quote_start": "Different from that of apoE3-(72–166)-DMPC, apoE4-(72–166)- DMPC compl",
+   "summary_contains": "(apoE3-(72–166) -> apoE4-(72–166)) -> (greater LDLR competition with DMPC)",
+   "description_start": "ApoE4-(72–166)–DMPC competed more strongly for LDLR binding ",
+   "set": {
+    "effect_size": "2.1x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P22.F11), confirmed by a second Claude check: Both group values are printed (55% vs 26% decrease), so the ratio replaces 'qualitative'.",
+   "source": "Table 4, With DMPC: ApoE3-(72-166) 26 / 44; ApoE4-(72-166) 55 / 94. 55/26 = 2.12. Fig 5B bars 10 and 11."
+  },
+  {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "quote_start": "ApoE3-(41–299) 46 78 15 44 ApoE4-(41–299) 47 80 20 60",
+   "summary_contains": "(apoE3-(41–299) -> apoE4-(41–299)) -> (greater LDLR competition without DMPC)",
+   "description_start": "Without DMPC, apoE4-(41–299) produced numerically greater LD",
+   "set": {
+    "effect_size": "1.33x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P22.F12), confirmed by a second Claude check: Both group values are printed (20% vs 15% decrease), so the ratio replaces 'qualitative'.",
+   "source": "Table 4, Without DMPC: ApoE3-(41-299) 15 / 44; ApoE4-(41-299) 20 / 60. 20/15 = 1.33."
+  },
+  {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "quote_start": "ApoE3-(1–271) 47 80 27 81 ApoE4-(1–271) 58 99 29 86",
+   "summary_contains": "(apoE3-(1–271) -> apoE4-(1–271)) -> (slightly greater LDLR competition without DMPC)",
+   "description_start": "Without DMPC, apoE4-(1–271) produced numerically greater LDL",
+   "set": {
+    "effect_size": "1.07x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P22.F13), confirmed by a second Claude check: Both group values are printed (29% vs 27% decrease), so the ratio replaces 'qualitative'.",
+   "source": "Table 4, Without DMPC: ApoE3-(1-271) 27 / 81; ApoE4-(1-271) 29 / 86. 29/27 = 1.07."
+  },
+  {
+   "key": "pmid16540478",
+   "hyp": "H4",
+   "quote_start": "ApoE3-(72–166) 26 44 14 41 ApoE4-(72–166) 55 94 22 65",
+   "summary_contains": "(apoE3-(72–166) -> apoE4-(72–166)) -> (greater LDLR competition without DMPC)",
+   "description_start": "Without DMPC, apoE4-(72–166) produced greater LDLR competiti",
+   "set": {
+    "effect_size": "1.57x",
+    "effect_size_provenance": "printed_in_text",
+    "directness_class": 2
+   },
+   "reason": "Claude audit 11-19 (H4 P22.F14), confirmed by a second Claude check: Both group values are printed (22% vs 14%), so N/A is wrong. Class 1 is inconsistent: this is the truncated 72-166 fragment, a surrogate A', which every sibling fragment row codes as class 2.",
+   "source": "Table 4, Without DMPC: ApoE3-(72-166) 14 / 41; ApoE4-(72-166) 22 / 65. 22/14 = 1.57."
+  },
+  {
+   "key": "pmid16890957",
+   "hyp": "H3",
+   "quote_start": "Preincubation of tetrameric apoE (0.3 mg/ml) overnight at 37 oC result",
+   "summary_contains": "(apoE3 -> apoE4) -> (higher fraction of apoE aggregated after overnight preincubation)",
+   "description_start": "After overnight preincubation at 37 °C and 0.3 mg/ml, approx",
+   "set": {
+    "effect_size": "9x",
+    "effect_size_provenance": "printed_in_text",
+    "data_location": "Results, toxicity section, MTT paragraph (preincubated preparations used in Fig 6d)"
+   },
+   "reason": "Claude audit 11-19 (H3 P13.F3), confirmed by a second Claude check: Values correct (90% vs 10%); both printed, ratio 90/10. The Data location field holds the quote sentence instead of a location.",
+   "source": "'Preincubation of tetrameric apoE (0.3 mg/ml) overnight at 37 oC resulted in the aggregation of about 5% of apoE2, 10% of apoE3 and 90% of apoE4. ... (Figure 6d versus 6c).'"
+  },
+  {
+   "key": "pmid19033669",
+   "hyp": "H4",
+   "quote_start": "Lipid-poor apoE bound to the abluminal surfaces of isolated mouse brai",
+   "summary_contains": "(lipid-poor apoE3 -> lipid-poor apoE4) -> (lower abluminal microvessel binding)",
+   "description_start": "Lipid-poor apoE4 bound isolated mouse brain microvessels les",
+   "set": {
+    "effect_size": "~0.47x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.05",
+    "p_value_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P7.F1), adjusted by a second Claude check: Fig 4A is readable: apoE3 binding ~4.6 and apoE4 ~2.2 pmol/mg protein/30 min on a 0-8 axis, and a bracket labelled \"P < 0.05\" runs from the apoE3 bar to the apoE4 bar. Verifier: Fig 4A bars measure ~4.6 (apoE3) vs ~2.2 (apoE4) pmol/mg/30 min (pixel heights 57 vs 27 px, 0.47x) and the bracket from the apoE3 bar to the apoE4 bar carries a printed 'P < 0.05', which is printed_in_text under our convention, not visual_only (that code is for stars).",
+   "source": "Fig 4A image: 125I-apoE3 bar ~4.6, 125I-apoE4 bar ~2.2; middle bracket \"P < 0.05\" with legs on the apoE3 bar, +apoE3 bar and apoE4 bar. Legend gives no n."
+  },
+  {
+   "key": "pmid2065026",
+   "hyp": "H4",
+   "quote_start": "KD (nM) 20.2±4.6 16.38±6 2.9 7.8 4.55+1.8 0.75 00 9.1",
+   "summary_contains": "(apoE3 -> apoE4, one apoE per LpB:E particle) -> (lower apparent LDLR dissociation constant)",
+   "description_start": "At one apoE molecule per particle, human E4/E4 LpB:E had a l",
+   "set": {
+    "effect_size": "0.56x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P23.F1), confirmed by a second Claude check: Both KD values are printed in Table 2 (E4/E4 9.1 nM vs E3/E3 LpB:E apoE/B=1 16.38 nM), so N/A is wrong; the ratio is 0.56. n=3 is the E3/E3 preparation count only; Table 2 gives no n for LpB E4/E4.",
+   "source": "Table 2: 'LpB:E (n=3)' KD 16.38+/-6, apo E molar ratio 1; 'LpB E4/E4' KD 9.1, apo E 1; footnote 'n, number of different preparations'. 9.1/16.38 = 0.556."
+  },
+  {
+   "key": "pmid23580652",
+   "hyp": "H4",
+   "quote_start": "APOE3 | 29.3 ± 2.1 | 54.3 ± 6.4 a | 1.8 | APOE4 | 39.5 ± 3.2 | 49.9 ± ",
+   "summary_contains": "(apoE3 -> apoE4) -> (lower Kd and stronger binding to LRPIV-D3674G)",
+   "description_start": "In three cell-free ELISA assays per group, apoE4 bound immob",
+   "set": {
+    "directness_class": 3,
+    "directness_strength": "3"
+   },
+   "reason": "Claude audit 11-19 (H4 P24.F2), confirmed by a second Claude check: The values (49.9 vs 54.3 nM, 0.92x) are right, but the receptor is the engineered therapeutic mutant LRPIV-D3674G, a surrogate B', not a native recycling receptor. Class 1 is a clear error.",
+   "source": "Table 3: APOE3 LRPIV-D3674G Kd 54.3 +/- 6.4; APOE4 49.9 +/- 5.4. Text: 'LRPIV-D3674G, a lead new LRPIV analog'."
+  },
+  {
+   "key": "pmid26506597",
+   "hyp": "H3",
+   "quote_start": "ApoE Isoform Population of Intermediate from 300 to 310 K E2 70.66 % E",
+   "summary_contains": "(ApoE3 -> ApoE4) -> (higher simulated intermediate-like conformational population at 300–310 K)",
+   "description_start": "At 300–310 K, 11.12% of simulated ApoE4 conformations versus",
+   "set": {
+    "effect_size": "pp=11.07"
+   },
+   "reason": "Claude audit 11-19 (H3 P25.F1), confirmed by a second Claude check: The table prints both group values (E4 11.12%, E3 0.05%), so the effect should be given rather than 'qualitative'; the difference (11.07 percentage points) is used because a ratio off a 0.05% denominator is dominated by rounding.",
+   "source": "S4 Table: 'Population of Intermediate from 300 to 310 K / E2 70.66 % / E3 0.05 % / E4 11.12 %'; criterion: 'RMSD of the N-terminal domain helices with the centroids that is less than 15 A'."
+  },
+  {
+   "key": "pmid26506597",
+   "hyp": "H3",
+   "quote_start": "Population of Intermediate from 300 to 310 K E2 70.66 % E3 0.05 % E4 1",
+   "summary_contains": "(ApoE3 -> ApoE4) -> (higher simulated intermediate-like population at 300–310 K)",
+   "description_start": "The summary table reports intermediate-like populations of 1",
+   "set": {
+    "quote": "Population of intermediate state at 300 to 310 K 70.7 % 0.1 % 11.1 %",
+    "effect_size": "pp=11.0"
+   },
+   "reason": "Claude audit 11-19 (H3 P25.F2), confirmed by a second Claude check: The quote is the S4 Table text, not the cited Supplementary Table 7 row, which prints the rounded 70.7/0.1/11.1 values; replaced with the S7 row text and gave the printed difference. This row restates S4 Table (same data as P25.F1) and is not independent evidence.",
+   "source": "S7 Table row: 'Population of intermediate state at 300 to 310 K | 70.7 % | 0.1 % | 11.1 % | S4 Table' (columns ApoE2, ApoE3, ApoE4)."
+  },
+  {
+   "key": "pmid28276521",
+   "hyp": "H4",
+   "quote_start": "Relative to the APOE3/E3 group, the dissociation rate constant (kd2) w",
+   "summary_contains": "(APOE3/E3 -> APOE3/E4) -> (slower stable VLDL1-LDLR complex dissociation)",
+   "description_start": "The modeled stable LDLR complex dissociated more slowly for ",
+   "set": {
+    "effect_size": "13%",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P25.F1), confirmed by a second Claude check: Table 1 prints both group kd2 values (11.2 vs 9.7 x10^-4 s^-1), so the percent change should replace qualitative; P=0.013 correct.",
+   "source": "Table 1 'kd2 x 10-4 (s-1) | ... | 11.2 +/- 0.2 | 9.7 +/- 0.4 | 0.013'; (11.2-9.7)/11.2 = 13%."
+  },
+  {
+   "key": "pmid28276521",
+   "hyp": "H4",
+   "quote_start": "KA × 109 (M−1) | 0.7 ± 0.0 | 0.5 ± 0.0 | 0.019 | 2.7 ± 0.4 | 3.3 ± 0.3",
+   "summary_contains": "(APOE3/E3 -> APOE3/E4) -> (no change in overall VLDL1-LDLR binding affinity)",
+   "description_start": "Fasting VLDL1-rich particles from APOE3/E4 and APOE3/E3 men ",
+   "set": {
+    "effect_size": "22%",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P25.F2), confirmed by a second Claude check: Both VLDL1 KA values are printed (2.7 vs 3.3 x10^9 M^-1, P=0.21), so the effect size is printed, not not_found_in_source.",
+   "source": "Table 1 'KA x 109 (M-1) | 0.7 | 0.5 | 0.019 | 2.7 +/- 0.4 | 3.3 +/- 0.3 | 0.21'; (3.3-2.7)/2.7 = 22%."
+  },
+  {
+   "key": "pmid28276521",
+   "hyp": "H4",
+   "quote_start": "There were no significant genotype effects observed for the binding of",
+   "summary_contains": "(APOE3/E3 -> APOE3/E4) -> (no change in stable VLDL2-LDLR complex dissociation rate)",
+   "description_start": "Fasting VLDL2-rich particles from APOE3/E4 and APOE3/E3 men ",
+   "set": {
+    "effect_size": "7%",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P25.F3), confirmed by a second Claude check: VLDL2 kd2 values are printed (10.6 vs 11.3, P=0.28), so give the percent change.",
+   "source": "Table 1 kd2 VLDL2-rich '10.6 +/- 0.1 | 11.3 +/- 0.5 | 0.28'; (11.3-10.6)/10.6 = 7%."
+  },
+  {
+   "key": "pmid28276521",
+   "hyp": "H4",
+   "quote_start": "kd1 × 10−3 (s−1) | 11.7 ± 0.2 | 12.7 ± 0.3 | 0.042 | 6.2 ± 0.8 | 5.2 ±",
+   "summary_contains": "(APOE3/E3 -> APOE3/E4) -> (no change in initial VLDL1-LDLR dissociation rate)",
+   "description_start": "Fasting VLDL1-rich particles from APOE3/E4 and APOE3/E3 men ",
+   "set": {
+    "effect_size": "16%",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P25.F5), confirmed by a second Claude check: VLDL1 kd1 values are printed (6.2 vs 5.2 x10^-3 s^-1, P=0.28), so give the percent change.",
+   "source": "Table 1 'kd1 x 10-3 (s-1) | 11.7 | 12.7 | 0.042 | 6.2 +/- 0.8 | 5.2 +/- 0.5 | 0.28'; (6.2-5.2)/6.2 = 16%."
+  },
+  {
+   "key": "pmid28276521",
+   "hyp": "H4",
+   "quote_start": "K1 × 108 (M−1) | 1.8 ± 0.1 | 1.4 ± 0.2 | 0.005 | 2.0 ± 0.3 | 1.9 ± 0.2",
+   "summary_contains": "(APOE3/E3 -> APOE3/E4) -> (no change in initial VLDL1-LDLR equilibrium binding constant)",
+   "description_start": "Fasting VLDL1-rich particles from APOE3/E4 and APOE3/E3 men ",
+   "set": {
+    "effect_size": "5%",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P25.F6), confirmed by a second Claude check: VLDL1 K1 values are printed (2.0 vs 1.9 x10^8 M^-1, P=0.37), so give the percent change.",
+   "source": "Table 1 'K1 x 108 (M-1) | 1.8 | 1.4 | 0.005 | 2.0 +/- 0.3 | 1.9 +/- 0.2 | 0.37'; (2.0-1.9)/2.0 = 5%."
+  },
+  {
+   "key": "pmid28276521",
+   "hyp": "H4",
+   "quote_start": "However, in our study, a similar ka2 constant was observed for both fa",
+   "summary_contains": "(APOE3/E3 -> APOE3/E4) -> (no change in VLDL1-LDLR stable-complex formation rate)",
+   "description_start": "Fasting VLDL1-rich particles from APOE3/E4 and APOE3/E3 men ",
+   "set": {
+    "effect_size": "13%",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P25.F7), confirmed by a second Claude check: VLDL1 ka2 values are printed (1.5 vs 1.7 x10^-2 s^-1, P=0.12), so give the percent change. Quote is a Discussion restatement of the paper's own Table 1 result, acceptable.",
+   "source": "Table 1 'ka2 x 10-2 (s-1) | 0.7 | 0.6 | 0.22 | 1.5 +/- 0.1 | 1.7 +/- 0.1 | 0.12'; (1.7-1.5)/1.5 = 13%."
+  },
+  {
+   "key": "pmid28276521",
+   "hyp": "H4",
+   "quote_start": "A slower association rate was also observed with the fasting VLDL1-ric",
+   "summary_contains": "(APOE3/E3 -> APOE3/E4) -> (slower initial VLDL1-LDLR association)",
+   "description_start": "Fasting VLDL1-rich particles from APOE3/E4 men initially ass",
+   "set": {
+    "effect_size": "18%",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P25.F8), confirmed by a second Claude check: VLDL1 ka1 values are printed (11.3 vs 9.3 x10^5 M^-1 s^-1, P=0.011), so give the percent change.",
+   "source": "Table 1 'ka1 x 105 (M-1s-1) | 21.5 | 14.5 | 0.77 | 11.3 +/- 0.4 | 9.3 +/- 0.5 | 0.011'; (11.3-9.3)/11.3 = 18%."
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H2",
+   "quote_start": "In the absence of insulin, the majority of the IR-GFP was localized to",
+   "summary_contains": "(apoE3 -> apoE4) -> (higher intracellular IR-GFP fraction without insulin; no change in intracellular IR-GFP fraction after insulin in apoE4-treated cells)",
+   "description_start": "Across three independent experiments, human SH-SY5Y cells ex",
+   "set": {
+    "effect_size": "2.7x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H2 P5.F2), confirmed by a second Claude check: Both group values are printed (nearly 40% apoE4 vs 15% apoE3 intracellular IR-GFP), so the ratio should be given instead of qualitative.",
+   "source": "Results: \"only 15% of the receptor localized intracellularly in apoE3-treated cells (Figures 6A–C). Interestingly, nearly 40% of IR-GFP was localized in the intracellular compartment in apoE4-treated cells\""
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H2",
+   "quote_start": "In the absence of insulin stimulation, we found that apoE4 but not apo",
+   "summary_contains": "(APOE3 -> APOE4) -> (lower cell-surface insulin receptor without insulin and reduced insulin-stimulated Akt signaling in primary mouse cortical neurons)",
+   "description_start": "In three independent experiments, surface biotinylation and ",
+   "set": {
+    "data_location": "Fig 5G, H",
+    "directness_class": "3",
+    "directness_strength": "3"
+   },
+   "reason": "Claude audit 11-19 (H2 P5.F4), confirmed by a second Claude check: Quote cites Figures 5G, H (5H is the surface/total quantification). Steady-state surface IR after overnight apoE is a readout standing in for recycling, not recycling itself (class 3 by the pipeline definition, as P5.F1/F2 from the same paper are classed). Akt claim is supported by the next sentence (Figs 5G, J, K).",
+   "source": "Results: \"apoE4 but not apoE3 significantly reduced the amount of cell surface IR (Figures 5G, H)... apoE4 suppressed the activation of insulin signaling compared to apoE3 (Figures 5G, J, K and 3C)\""
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H2",
+   "quote_start": "No significant differences were found in the levels of cell surface an",
+   "summary_contains": "(apoE3 -> apoE4) -> (no change in cell surface LRP1 levels in primary Apoe−/− mouse neurons)",
+   "description_start": "Primary Apoe−/− mouse neurons treated with apoE4 versus apoE",
+   "set": {
+    "directness_class": "3",
+    "directness_strength": "3"
+   },
+   "reason": "Claude audit 11-19 (H2 P5.F5), confirmed by a second Claude check: Quote and null result fine, but steady-state surface LRP1 level is a surrogate for recycling, not a direct recycling measurement; class 1 is an error. Overlaps P5.F10.",
+   "source": "Results: \"No significant differences were found in the levels of cell surface and total LRP1, NMDAR, AMPAR, and Na-K-ATPase after apoE3 and apoE4 treatments (Figures S7A, C–F, H–K).\""
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H2",
+   "quote_start": "Importantly, ~50% of the total IR was internalized in response to insu",
+   "summary_contains": "(APOE3 -> APOE4) -> (smaller insulin-induced decrease in surface-to-total insulin receptor in primary mouse cortical neurons)",
+   "description_start": "In primary Apoe−/− mouse cortical neurons treated overnight ",
+   "set": {
+    "effect_size": "60%",
+    "effect_size_provenance": "printed_in_text",
+    "directness_class": "3",
+    "directness_strength": "3"
+   },
+   "reason": "Claude audit 11-19 (H2 P5.F8), confirmed by a second Claude check: Both group values are printed (~50% vs ~20% internalized), so the effect should be the 60% lower internalization with apoE4, not qualitative. The readout is insulin-induced internalization, a surrogate for recycling, so class 3.",
+   "source": "Results: \"~50% of the total IR was internalized in response to insulin in apoE3-treated cells, whereas only ~20% of IR was internalized in apoE4-treated cells upon insulin stimulation (Figure 5I).\"; Fig 5 legend: n = three independent experiments, two-tailed t test for I, key *p<0.05; **p<0.01."
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H2",
+   "quote_start": "As expected, cell surface IR was decreased after treatment with apoE4 ",
+   "summary_contains": "(apoE3 -> apoE4) -> (lower cell surface insulin receptor abundance in primary Apoe−/− mouse neurons)",
+   "description_start": "Primary Apoe−/− mouse neurons treated with apoE4 had lower c",
+   "set": {
+    "directness_class": "3",
+    "directness_strength": "3"
+   },
+   "reason": "Claude audit 11-19 (H2 P5.F9), confirmed by a second Claude check: Quote fine; steady-state surface IR abundance is a surrogate for recycling (class 3), not a direct recycling test. Overlaps P5.F10.",
+   "source": "Results: \"As expected, cell surface IR was decreased after treatment with apoE4 compared with apoE3 (Figures S7A, B) without affecting the total IR (Figures S7A, G).\""
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H2",
+   "quote_start": "As expected, cell surface IR was decreased after treatment with apoE4 ",
+   "summary_contains": "(apoE3 -> apoE4) -> (decreased surface IR; no change in total IR or surface and total LRP1, NMDAR, AMPAR and Na-K-ATPase)",
+   "description_start": "Surface-biotinylation Western blots of primary Apoe−/− mouse",
+   "set": {
+    "directness_class": "3",
+    "directness_strength": "3"
+   },
+   "reason": "Claude audit 11-19 (H2 P5.F10), confirmed by a second Claude check: Quote fine (union of P5.F5 and P5.F9 quotes); steady-state surface levels are a surrogate for recycling, so class 3.",
+   "source": "Results paragraph on Figures S7A-K, quoted verbatim."
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H3",
+   "quote_start": "Intriguingly, the level of insoluble apoE was significantly increased ",
+   "summary_contains": "(APOE3 -> APOE4) -> (more pronounced age-associated increase in the cortical insoluble-to-soluble apoE ratio)",
+   "description_start": "Cortical fractionation in mice at 3 and 22 months, with 4–6 ",
+   "set": {
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Claude audit 11-19 (H3 P17.F1), confirmed by a second Claude check: Fig 7 legend gives a figure-wide key (**p<0.01; ***p<0.001, N.S.) for two-way ANOVA but no image is available to see the mark on panel F, so the code is ambiguous_panel rather than not_found_in_source. Quote, n=4-6 and description fine.",
+   "source": "Fig 7 legend: \"(n=4–6 mice/genotype, mixed gender) ... Two-way ANOVA with Tukey's multiple comparisons test ... **p < 0.01; ***p < 0.001, N.S., not significant.\""
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "quote_start": "In the absence of insulin, we found that nearly 20% of IR-GFP co-local",
+   "summary_contains": "(apoE3 -> apoE4) -> (greater insulin-receptor localization in transferrin-positive endosomes)",
+   "description_start": "Without insulin, nearly 20% of IR-GFP colocalized with trans",
+   "set": {
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Claude audit 11-19 (H4 P2.F1), confirmed by a second Claude check: Quote, description and n=3 are correct. ApoE3 value is not printed (only 'less'), so qualitative stands; the Fig 6 legend has a star key for the whole figure and no image is available, so P provenance is ambiguous_panel, not not_found_in_source.",
+   "source": "Fig 6 legend key: '***p < 0.001; ****p < 0.0001; N.S., not significant' for the whole figure; no figure image in the packet."
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "quote_start": "Similar to recombinant apoE, we found that apoE4 lipoprotein particles",
+   "summary_contains": "(lipidated apoE3 -> lipidated apoE4) -> (stronger binding to insulin receptor)",
+   "description_start": "Astrocyte-secreted lipidated apoE4 particles bound insulin r",
+   "set": {
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Claude audit 11-19 (H4 P2.F3), confirmed by a second Claude check: Quote verbatim, n=3 from legend; Kd values not printed so qualitative is right. Fig 5 has a single star key and no image, so P provenance should be ambiguous_panel.",
+   "source": "Fig 5 legend key: '*p < 0.05; **p < 0.01; N.S., not significant' for the whole figure; no figure image in the packet, so no visible mark for this panel."
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "quote_start": "In the absence of insulin, the majority of the IR-GFP was localized to",
+   "summary_contains": "(apoE3 -> apoE4) -> (greater intracellular insulin-receptor localization)",
+   "description_start": "Without insulin, approximately 15% of IR-GFP was intracellul",
+   "set": {
+    "effect_size": "2.7x",
+    "effect_size_provenance": "printed_in_text",
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Claude audit 11-19 (H4 P2.F4), confirmed by a second Claude check: Text prints both group values (15% apoE3 vs nearly 40% apoE4 intracellular IR-GFP), so the ratio should be given instead of qualitative; P key is figure-wide with no image.",
+   "source": "'only 15% of the receptor localized intracellularly in apoE3-treated cells ... nearly 40% of IR-GFP was localized in the intracellular compartment in apoE4-treated cells (Figures 6A-C)'; 40/15 = 2.67. Fig 6 legend key: '***p < 0.001; ****p < 0.0001; N.S., not significant' for the whole figure; no figure image in the packet."
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "quote_start": "Insulin induced IR internalization which increased the co-localization",
+   "summary_contains": "(apoE3 -> apoE4) -> (reduced insulin-induced increase in endosomal insulin receptor)",
+   "description_start": "Insulin increased IR-GFP colocalization with transferrin aft",
+   "set": {
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Claude audit 11-19 (H4 P2.F5), confirmed by a second Claude check: Quote, direction and location correct; Fig 6 star key is figure-wide and no image is available.",
+   "source": "Fig 6 legend key: '***p < 0.001; ****p < 0.0001; N.S., not significant' for the whole figure; no figure image in the packet."
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "quote_start": "Conversely, we found that both recombinant apoE3 and apoE4 specificall",
+   "summary_contains": "(apoE3 -> apoE4) -> (higher binding affinity for insulin receptor)",
+   "description_start": "Recombinant apoE4 bound insulin receptor with higher affinit",
+   "set": {
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Claude audit 11-19 (H4 P2.F9), confirmed by a second Claude check: Quote verbatim, n=3 from legend, Kd not printed. Fig 5 star key is figure-wide and no image, so P provenance should be ambiguous_panel.",
+   "source": "Fig 5 legend key: '*p < 0.05; **p < 0.01; N.S., not significant' for the whole figure; no figure image in the packet, so no visible mark for this panel."
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "quote_start": "We found that more IR was co-immunoprecipitated with apoE4 than with a",
+   "summary_contains": "(apoE3 -> apoE4) -> (greater insulin-receptor association)",
+   "description_start": "More insulin receptor co-immunoprecipitated with recombinant",
+   "set": {
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Claude audit 11-19 (H4 P2.F10), confirmed by a second Claude check: Quote verbatim; legend for 5C gives no replicate count, so n N/A is right. Fig 5 star key is figure-wide with no image.",
+   "source": "Fig 5 legend key: '*p < 0.05; **p < 0.01; N.S., not significant' for the whole figure; no figure image in the packet, so no visible mark for this panel."
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "quote_start": "Importantly, insulin stimulation increased the percentage of intracell",
+   "summary_contains": "(apoE3 -> apoE4) -> (reduced insulin-induced increase in intracellular insulin receptor)",
+   "description_start": "Insulin increased intracellular IR-GFP after apoE3 treatment",
+   "set": {
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Claude audit 11-19 (H4 P2.F11), confirmed by a second Claude check: Quote verbatim and direction correct; Fig 6 key is figure-wide with no image.",
+   "source": "Fig 6 legend key: '***p < 0.001; ****p < 0.0001; N.S., not significant' for the whole figure; no figure image in the packet."
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "quote_start": "In the absence of insulin stimulation, we found that apoE4 but not apo",
+   "summary_contains": "(apoE3 -> apoE4) -> (lower neuronal surface insulin receptor)",
+   "description_start": "Without insulin stimulation, apoE4 reduced neuronal surface ",
+   "set": {
+    "description": "Without insulin stimulation, apoE4 but not apoE3 significantly reduced neuronal surface insulin receptor relative to vehicle in three independent experiments.",
+    "data_location": "Fig 5G-H",
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Claude audit 11-19 (H4 P2.F12), confirmed by a second Claude check: The text compares each isoform with vehicle ('apoE4 but not apoE3 significantly reduced'; H is normalized to vehicle, one-way ANOVA), not apoE4 directly against apoE3; the quantification is panel H. P key is figure-wide with no image.",
+   "source": "'In the absence of insulin stimulation, we found that apoE4 but not apoE3 significantly reduced the amount of cell surface IR (Figures 5G, H).' Legend: 'The values were normalized to the vehicle-treated group (V) ... one-way ANOVA with Tukey's ... (D, E, H, J)'."
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "quote_start": "Importantly, ~50% of the total IR was internalized in response to insu",
+   "summary_contains": "(apoE3 -> apoE4) -> (less insulin-induced insulin-receptor internalization)",
+   "description_start": "Insulin internalized approximately 50% of total insulin rece",
+   "set": {
+    "effect_size": "60%",
+    "effect_size_provenance": "printed_in_text",
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Claude audit 11-19 (H4 P2.F13), confirmed by a second Claude check: Both group values are printed (~50% apoE3 vs ~20% apoE4 internalized), so the percent change should be given; P key is figure-wide with no image.",
+   "source": "'~50% of the total IR was internalized in response to insulin in apoE3-treated cells, whereas only ~20% of IR was internalized in apoE4-treated cells (Figure 5I)'; (50-20)/50 = 60%. Fig 5 legend key: '*p < 0.05; **p < 0.01; N.S., not significant' for the whole figure; no figure image in the packet, so no visible mark for this panel."
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "quote_start": "As expected, cell surface IR was decreased after treatment with apoE4 ",
+   "summary_contains": "(apoE3 -> apoE4) -> (lower neuronal surface insulin receptor)",
+   "description_start": "Surface-biotinylation immunoblots showed lower neuronal surf",
+   "set": {
+    "data_location": "Fig S7A-B"
+   },
+   "reason": "Claude audit 11-19 (H4 P2.F14), confirmed by a second Claude check: Quote verbatim; the text cites S7A (blot) and S7B (quantification), so location should include B. Supplement unavailable.",
+   "source": "'cell surface IR was decreased after treatment with apoE4 compared with apoE3 (Figures S7A, B)'"
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "quote_start": "When apoE was co-incubated with insulin and IR, we found that apoE4 (1",
+   "summary_contains": "(apoE3 -> apoE4) -> (greater inhibition of insulin binding to insulin receptor)",
+   "description_start": "At 16 μg/ml, apoE4 inhibited insulin–insulin-receptor bindin",
+   "set": {
+    "effect_size": "2.0x",
+    "effect_size_provenance": "printed_in_text",
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Claude audit 11-19 (H4 P2.F15), confirmed by a second Claude check: Both inhibition values are printed (nearly 50% apoE4 vs 25% apoE3 at 16 ug/ml), so the ratio should be given; text says 'significantly' but no p is printed and the Fig 5 key is figure-wide.",
+   "source": "'apoE4 (16 ug/ml) reduced insulin-IR binding by nearly 50%, which is significantly higher than apoE3 treatment (25%) (Figure 5F)'; 50/25 = 2.0."
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "quote_start": "No differences were observed for the co-localization of IR-GFP with Ly",
+   "summary_contains": "(apoE3 -> apoE4) -> (no significant difference detected in lysosomal insulin-receptor localization)",
+   "description_start": "ApoE3 and apoE4 produced no significant difference in IR-GFP",
+   "set": {
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Claude audit 11-19 (H4 P2.F16), confirmed by a second Claude check: Quote verbatim, null result correct, n=3. Legend marks N.S. without a threshold and no image is available, so P stays N/A with ambiguous_panel.",
+   "source": "Fig 6 legend key: '***p < 0.001; ****p < 0.0001; N.S., not significant' for the whole figure; no figure image in the packet."
+  },
+  {
+   "key": "pmid29946028",
+   "hyp": "H4",
+   "quote_start": "Second, an antibody directed against an external epitope of LRP1 to qu",
+   "summary_contains": "(APOE3/3 control fibroblasts -> APOE4/4 AD fibroblasts) -> (lower surface LRP1 positivity)",
+   "description_start": "Surface antibody labeling found approximately 51% lower LRP1",
+   "set": {
+    "directness_strength": "3"
+   },
+   "reason": "Claude audit 11-19 (H4 P10.F11), confirmed by a second Claude check: Values check out (51%, p=6.7e-5, n=3 from SI Fig S2D). Strength 'strong' is a clear overstatement for this hypothesis: the APOE4 cells are AD-patient-derived, non-brain, non-isogenic fibroblasts, while the hypothesis specifies non-Alzheimer's human brain cells.",
+   "source": "SI Fig S2D legend: 'Note ~51% lower surface LRP1 positivity in ApoE4/4 fibroblasts relative to ApoE3/3 control (****p=6.7X10-5; n=3; Student's t-test).' S2A: 'AD patient derived ApoE4/4 primary fibroblasts, relative to age matched ApoE3/3 control'. Lines AG04387 / AG10788 (SI methods)."
+  },
+  {
+   "key": "pmid31641056",
+   "hyp": "H3",
+   "quote_start": "The relative amount of aggregated ABCA1 and ApoE were significantly in",
+   "summary_contains": "(APOE3 -> APOE4) -> (increased aggregated apoE in primary mouse astrocytes)",
+   "description_start": "Whole-cell fractionation immunoblots showed greater relative",
+   "set": {
+    "effect_size": "~2.7x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.01",
+    "p_value_provenance": "visual_only",
+    "data_location": "Fig 4D, E"
+   },
+   "reason": "Claude audit 11-19 (H3 P7.F1), confirmed by a second Claude check: Quantification is in Fig 4E (cited \"Fig. 4 D, E\"); the ApoE bar pair is readable (E3 normalized to 1.0, E4 about 2.7 on a 0-5 axis) and ** is drawn over the ApoE pair; legend key ** p < 0.01.",
+   "source": "Fig 4E image: ApoE group, E3 bar at 1.0, E4 bar at ~2.7, \"**\" bracket over the ApoE E3/E4 bars; legend: \"** p < 0.01; *** p < 0.001\", \"E, Densitometric quantification ... from three independent experiments\""
+  },
+  {
+   "key": "pmid31641056",
+   "hyp": "H3",
+   "quote_start": "In agreement, the relative amounts of aggregated ABCA1 and ApoE were g",
+   "summary_contains": "(APOE3 -> APOE4) -> (increased aggregated apoE in mouse hippocampus)",
+   "description_start": "Hippocampal fractionation immunoblots showed greater relativ",
+   "set": {
+    "effect_size": "~1.9x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "0.01",
+    "p_value_provenance": "printed_in_text",
+    "data_location": "Fig 4F, G"
+   },
+   "reason": "Claude audit 11-19 (H3 P7.F2), adjusted by a second Claude check: Quantification is in Fig 4G; the ApoE pair is readable (E3 ~1.0, E4 ~1.9 on a 0-4 axis) and \"p=0.01\" is printed over the ApoE pair on the image. Verifier: Values are right (Fig 4G ApoE E3 ~1.0, E4 ~1.9, 'p=0.01' over the ApoE pair), but a number printed on the figure is printed_in_text under our convention, not visual_only.",
+   "source": "Fig 4G image: ApoE group, E3 bar ~1.0, E4 bar ~1.9, bracket labelled \"p=0.01\"; text: \"male ApoE4-TR mice ( n = 8) compared with ApoE3-TR mice ( n = 6) ( Fig. 4 F , G )\""
+  },
+  {
+   "key": "pmid31641056",
+   "hyp": "H3",
+   "quote_start": "rApoE4 protein formed more aggregates than rApoE3 protein when incubat",
+   "summary_contains": "(apoE3 -> apoE4) -> (no change in recombinant apoE aggregation reaching statistical significance)",
+   "description_start": "Recombinant apoE4 formed numerically more aggregates than ap",
+   "set": {
+    "effect_size": "~1.7x",
+    "effect_size_provenance": "estimated_from_figure",
+    "data_location": "Fig 4H, I"
+   },
+   "reason": "Claude audit 11-19 (H3 P7.F3), confirmed by a second Claude check: Same quote and comparison as P7.F4 (duplicate); the quantification is Fig 4I, where rE3 ~0.94 and rE4 ~1.6 on a 0-2.5 axis (ratio ~1.7).",
+   "source": "Fig 4I image: rE3 bar ~0.94, rE4 bar ~1.6, bracket \"p=0.2\"; legend: \"I, Densitometric quantification of Western blot shown in H from three independent experiments.\""
+  },
+  {
+   "key": "pmid31641056",
+   "hyp": "H3",
+   "quote_start": "rApoE4 protein formed more aggregates than rApoE3 protein when incubat",
+   "summary_contains": "(apoE3 -> apoE4) -> (no change in recombinant apoE aggregation reaching statistical significance)",
+   "description_start": "Quantification of three independent recombinant-protein expe",
+   "set": {
+    "effect_size": "~1.7x"
+   },
+   "reason": "Claude audit 11-19 (H3 P7.F4), confirmed by a second Claude check: Fig 4I bars read rE3 ~0.94 and rE4 ~1.6 (rE3 is not at 1.0), so the rE4/rE3 ratio is ~1.7x, not ~1.6x. P=0.2 and n=3 correct.",
+   "source": "Fig 4I image: y-axis 0.0-2.5; rE3 bar top just under 1.0 (~0.94), rE4 bar top ~1.6; \"p=0.2\" printed over the pair."
+  },
+  {
+   "key": "pmid31641056",
+   "hyp": "H3",
+   "quote_start": "We then examined ApoE protein aggregation in human CSF from age and se",
+   "summary_contains": "(APOE ε3/ε3 -> APOE ε4/ε4) -> (increased aggregated apoE percentage in human CSF)",
+   "description_start": "CSF fractionation immunoblots from age- and sex-matched APOE",
+   "set": {
+    "p_value": "<0.001",
+    "p_value_provenance": "visual_only",
+    "data_location": "Fig 4J, K"
+   },
+   "reason": "Claude audit 11-19 (H3 P7.F5), confirmed by a second Claude check: 2.5x printed and n=5-6 correct, but Fig 4K shows *** over the E3/E3 vs E4/E4 bars (legend key *** p < 0.001), so the P is not ambiguous; quantification is panel K.",
+   "source": "Fig 4K image: E3/E3 bar 1.0, E4/E4 bar ~2.45, \"***\" bracket over the pair; legend: \"K, Densitometric quantification of Western blot shown in J from two independent experiments... *** p < 0.001.\""
+  },
+  {
+   "key": "pmid31641056",
+   "hyp": "H2",
+   "quote_start": "However, membrane ABCA1 levels were significantly lower in ApoE4 prima",
+   "summary_contains": "(APOE3 -> APOE4) -> (lower cell-surface ABCA1 in primary mouse astrocytes)",
+   "description_start": "Western blots comparing membrane and total ABCA1 and ApoE in",
+   "set": {
+    "data_location": "Fig 1E; quantification Fig 1F",
+    "effect_size": "~60%",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.001",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H2 P2.F1), confirmed by a second Claude check: Quote and n=3 are correct, but the significance mark and the bar heights are readable on Fig 1F: *** sits over the ABCA1 E3 vs E4 membrane comparison, and the E4 bar is about 0.38-0.40 of E3. Quantification is in panel F, not E alone.",
+   "source": "Fig 1F (MEM to total protein NT E3): E3 ABCA1 = 1.0, E4 ABCA1 about 0.38-0.40, '***' bar over the ABCA1 pair; legend: 'F, G, Densitometric quantification ... from three independent experiments. *** p < 0.001.' The quote's 'Fig. 1 D, top, and F' is the paper's own panel label."
+  },
+  {
+   "key": "pmid31641056",
+   "hyp": "H2",
+   "quote_start": "We found greater protein levels of ARF6 in ApoE4 primary astrocytes co",
+   "summary_contains": "(APOE3 -> APOE4) -> (higher ARF6 protein levels in mouse primary astrocytes)",
+   "description_start": "Western blotting across three independent experiments showed",
+   "set": {
+    "effect_size": "~1.5x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "0.02",
+    "p_value_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H2 P2.F2), adjusted by a second Claude check: Quote, direction and n are correct. Fig 1I prints p=0.02 over the APOE3 vs APOE4 bars (on the image, not in the text), and the APOE4 bar is about 1.47 against APOE3 at 1.0. Verifier: Fig 1I shows APOE4 ~1.47 vs APOE3 1.0 with 'p=0.02' printed on the figure; a printed number on the figure is printed_in_text by our convention, not visual_only.",
+   "source": "Fig 1I (Relative ARF6 level): APOE3 = 1.0, APOE4 about 1.47 (error bar to about 1.75), 'p=0.02' printed over the comparison bar; legend: 'I, Densitometric quantification of blotting shown in (H) from three independent experiments.'"
+  },
+  {
+   "key": "pmid31641056",
+   "hyp": "H2",
+   "quote_start": "Knockdown of ARF6 by siRNA resulted in significant increase in cholest",
+   "summary_contains": "(ARF6 knockdown in APOE4 primary mouse astrocytes) -> (increased cholesterol efflux at 4 hours)",
+   "description_start": "ARF6 siRNA knockdown significantly increased 4-hour choleste",
+   "set": {
+    "effect_size": "~12%",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "0.03",
+    "p_value_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H2 P2.F3), adjusted by a second Claude check: Quote and description are correct for the 4 h panel. Fig 3D prints p=0.03 over SC siRNA vs ARF6 siRNA, and the ARF6 siRNA bar is about 1.12 against 1.0. No n is given for this panel. Verifier: Fig 3D (4 H) shows ARF6 siRNA ~1.12 vs SC 1.0 with 'p=0.03' printed on the figure, which is printed_in_text by our convention, not visual_only.",
+   "source": "Fig 3D (4 H, 3H-cholesterol efflux NT SC siRNA): SC siRNA = 1.0, ARF6 siRNA about 1.12, 'p=0.03' over the pair; legend gives no n for D."
+  },
+  {
+   "key": "pmid31641056",
+   "hyp": "H2",
+   "quote_start": "CS-6253 increased the relative amount of ABCA1 on plasma membrane and ",
+   "summary_contains": "(untreated -> CS-6253-treated APOE4 primary astrocytes) -> (increased membrane ABCA1, decreased total ARF6, no change in total ABCA1)",
+   "description_start": "In three independent experiments with ApoE4 primary mouse as",
+   "set": {
+    "description": "In three independent experiments with ApoE4 primary mouse astrocytes, 1 μM CS-6253 for 4 h lowered total ARF6 (p < 0.001). Membrane ABCA1 trended higher after treatment but the increase was not significant (p = 0.07), and total ABCA1 was unchanged.",
+    "summary": "(untreated -> CS-6253-treated APOE4 primary astrocytes) -> (decreased total ARF6; nonsignificant rise in membrane ABCA1; no change in total ABCA1)",
+    "data_location": "Fig 5A; quantification Fig 5B-C",
+    "effect_size": "~45%",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.001",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H2 P2.F4), confirmed by a second Claude check: The quote is verbatim, but the paper's 'increased the relative amount of ABCA1 on plasma membrane' carries p=0.07 on Fig 5B, so the description should not present it as an established effect. The significant part is the ARF6 drop (*** on Fig 5C, ARF6 about 0.55 of control).",
+   "source": "Fig 5B: membrane ABCA1 E4 = 1.0 vs E4+CS6253 about 1.33, 'p=0.07' over the pair. Fig 5C: total ARF6 E4 = 1.0 vs E4+CS6253 about 0.55, '***' over the ARF6 pair; total ABCA1 about 0.97, no mark. Legend: 'B, C, Quantification ... from three independent experiments. *** p < 0.001.'"
+  },
+  {
+   "key": "pmid31641056",
+   "hyp": "H2",
+   "quote_start": "CS-6253 increased the relative amount of ABCA1 on plasma membrane and ",
+   "summary_contains": "(control -> CS-6253) -> (increased plasma membrane ABCA1 in APOE4 mouse primary astrocytes)",
+   "description_start": "Across three independent experiments, treatment of APOE4 mou",
+   "set": {
+    "description": "Across three independent experiments, treatment of APOE4 mouse primary astrocytes with 1 μM CS-6253 for 4 h raised membrane ABCA1 relative to control by Western blot densitometry, but the increase was not statistically significant (p = 0.07); this rescue experiment did not compare APOE4 with APOE3.",
+    "summary": "(control -> CS-6253) -> (nonsignificant increase in plasma membrane ABCA1 in APOE4 mouse primary astrocytes)",
+    "data_location": "Fig 5A; quantification Fig 5B",
+    "effect_size": "~1.3x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "0.07",
+    "p_value_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H2 P2.F5), adjusted by a second Claude check: The membrane ABCA1 increase is the paper's own claim, but Fig 5B prints p=0.07 for it, so the row must say it was not significant. It also overlaps P2.F4. Verifier: Fig 5B shows membrane ABCA1 E4+CS6253 ~1.33 vs 1.0 with 'p=0.07' printed on the figure, so the substance is right but the printed P is printed_in_text, not visual_only.",
+   "source": "Fig 5B (MEM protein NT total protein): ABCA1 E4 = 1.0, E4+CS6253 about 1.33 (error bar to about 1.75), 'p=0.07' printed over the pair; legend n = three independent experiments."
+  },
+  {
+   "key": "pmid31641056",
+   "hyp": "H2",
+   "quote_start": "Greater colocalization of ABCA1 with the late endosome marker LAMP2 an",
+   "summary_contains": "(rApoE3 -> rApoE4) -> (greater ABCA1–LAMP2 colocalization in HeLa cells)",
+   "description_start": "Human HeLa cells expressing GFP-tagged ABCA1 were treated wi",
+   "set": {
+    "data_location": "Fig 2A; quantification Fig 2B",
+    "effect_size": "~1.25x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.001",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H2 P2.F6), confirmed by a second Claude check: Quote and description are correct. Fig 2B shows *** over rApoE3 vs rApoE4, with means of about 45% vs 56% colocalization. There are about 20 points per group, but they overlap too much to count exactly, so n stays N/A.",
+   "source": "Fig 2B (ABCA1 with LAMP2, % colocalization): rApoE3 mean about 45, rApoE4 mean about 56, '***' over the pair; legend: 'The colocalization of ABCA1 with LAMP2 ... (A, B) ... *** p < 0.001.'"
+  },
+  {
+   "key": "pmid31641056",
+   "hyp": "H2",
+   "quote_start": "Compared with cells treated with rApoE4 only, ABCA1 colocalization wit",
+   "summary_contains": "(rApoE4 alone -> rApoE4 + CS-6253) -> (increased ABCA1–Rab11 colocalization in HeLa cells)",
+   "description_start": "In human HeLa cells expressing GFP-tagged ABCA1 and treated ",
+   "set": {
+    "p_value": "<0.01",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H2 P2.F7), confirmed by a second Claude check: The quote and the 11% are correct. The figure matches a relative change (about 53.5 to 59.5% colocalization). Fig 6B has ** over rApoE4 vs rApoE4+CS6253, and the legend keys ** as p < 0.01. Points overlap, so n is left N/A.",
+   "source": "Text: 'ABCA1 colocalization with Rab11 significantly increased by 11% upon cotreating cells with rApoE4 plus CS-6253'. Fig 6B: rApoE4 mean about 53.5, rApoE4+CS6253 about 59.5, '**' bar over that pair; legend: '** p < 0.01.'"
+  },
+  {
+   "key": "pmid31641056",
+   "hyp": "H2",
+   "quote_start": "ApoE4 primary astrocytes had a small but significant increase in chole",
+   "summary_contains": "With CS-6253 present in both groups, ARF6 siRNA increased cholesterol efflux relative to scrambled siRNA in ApoE4 mouse primary astrocytes.",
+   "description_start": "In APOE4 mouse primary astrocytes treated with ARF6 or scram",
+   "set": {
+    "effect_size": "~13%",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.01",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H2 P2.F8), confirmed by a second Claude check: Quote and description are correct. Fig 7B has ** over SC siRNA+CS6253 vs ARF6 siRNA+CS6253 (the legend keys ** as p < 0.01), and the ARF6 siRNA bar is about 1.13 against 1.0. No n is given.",
+   "source": "Fig 7B (Cholesterol efflux NT SC siRNA): SC siRNA + CS6253 = 1.0, ARF6 siRNA + CS6253 about 1.13, '**' over the pair; legend: '** p < 0.01; *** p < 0.001.'"
+  },
+  {
+   "key": "pmid32588544",
+   "hyp": "H4",
+   "quote_start": "The extent of co-localization of sortilin/apoE complexes (PLA signal) ",
+   "summary_contains": "(apoE3 -> apoE4) -> (greater sortilin–apoE complex localization in transferrin-positive endocytic/recycling compartments)",
+   "description_start": "Representative CHO-cell images showed greater localization o",
+   "set": {
+    "sample_size": "15-18",
+    "sample_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P11.F4), confirmed by a second Claude check: The row's data location includes the Fig. 5C/5D quantification of the panel-B experiment, and the legend prints n = 15-18 cells per condition for exactly those data, so the sample size is available rather than missing.",
+   "source": "Fig. 5 legend: '(C, D) Co-localization of sortilin and apoE complexes (PLA signal) with Tf was quantified as thresholded Manders' values (tM) in experiments exemplified in panel B. Data are given as mean +/- SEM (n = 15-18 cells for each condition ...)'."
+  },
+  {
+   "key": "pmid33027662",
+   "hyp": "H2",
+   "quote_start": "Using fluorescently-tagged Tf, we again observed that APOE4 astrocytes",
+   "summary_contains": "(APOE3 -> APOE4) -> (reduced transferrin internalization in human iPSC-derived astrocytes)",
+   "description_start": "Fluorescent transferrin uptake imaging showed reduced intern",
+   "set": {
+    "data_location": "Fig 1G (right, quantification); Fig 1I (representative images)",
+    "sample_size": "12",
+    "sample_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H2 P12.F1), confirmed by a second Claude check: Quote and direction correct, but Fig 1I holds only the representative images; the Tf quantification is in Fig 1G right, whose legend gives n=12 samples (30-50 cells each). Mostly duplicates P12.F2.",
+   "source": "Fig 1 legend: '(G) Quantification ... the number of EGF puncta per cell (left) or the internalization of transferrin per cell (right) in one isogenic pair ... Mean +/- SD shown of 30-50 cells per sample for n=12 samples. Representative images displaying (H) EGF endocytosis and (I) transferrin-647 endocytosis'."
+  },
+  {
+   "key": "pmid33027662",
+   "hyp": "H2",
+   "quote_start": "APOE4 astrocytes trend towards internalizing less EGF (Figure 1G,H).",
+   "summary_contains": "(APOE3 -> APOE4) -> (trend toward reduced early EGF internalization in human iPSC-derived astrocytes)",
+   "description_start": "Representative images after a 5-minute fluorescent EGF pulse",
+   "set": {
+    "data_location": "Fig 1G (left, quantification); Fig 1H (representative images)",
+    "sample_size": "12",
+    "sample_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H2 P12.F3), confirmed by a second Claude check: The trend comes from the Fig 1G left quantification (n=12 samples); Fig 1H holds only representative images.",
+   "source": "Fig 1 legend (G) 'number of EGF puncta per cell (left) ... n=12 samples'; '(H) EGF endocytosis'."
+  },
+  {
+   "key": "pmid33822768",
+   "hyp": "H3",
+   "quote_start": "We also observed a small but significant increase in large condensates",
+   "summary_contains": "(APOE3 -> APOE4) -> (resistance to stress-induced enlargement of intracellular apoE condensates)",
+   "description_start": "A2E plus complement exposure increased the fraction of large",
+   "set": {
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Claude audit 11-19 (H3 P11.F1), confirmed by a second Claude check: Quote verbatim, direction and n=15-29 correct. Fig 5 legend has a figure-wide star key and no image is in the packet, so P provenance should be ambiguous_panel.",
+   "source": "Fig 5 legend 'Mean +/- SEM, *P < 0.05, **P < 0.005, ***P < 0.0001. n = 15-29 cells per condition; 1-way ANOVA with Bonferroni's posttest.'"
+  },
+  {
+   "key": "pmid33822768",
+   "hyp": "H3",
+   "quote_start": "N/A",
+   "summary_contains": "(APOE3 -> APOE4) -> (higher baseline mean intracellular apoE condensate volume)",
+   "description_start": "Baseline apoE4 condensates had a higher printed mean volume ",
+   "set": {
+    "quote": "ApoE4 Mean = 0.3233 µm3 Median = 0.15 µm3",
+    "effect_size": "1.2x",
+    "effect_size_provenance": "supplement_only"
+   },
+   "reason": "Claude audit 11-19 (H3 P11.F2), confirmed by a second Claude check: Row has no quote; the values are printed inside Supplementary Fig S4E/F (ApoE3 Mean = 0.2596, Median = 0.12; ApoE4 Mean = 0.3233, Median = 0.15), so quote that text and give the mean ratio from the supplement.",
+   "source": "supp.txt Fig S4 panel text: 'ApoE3 Mean = 0.2596 µm3 Median = 0.12 µm3' and 'ApoE4 Mean = 0.3233 µm3 Median = 0.15 µm3'; legend '(D), (E), and (F) Histograms ... of ApoE2, E3 or E4 condensates'; 0.3233/0.2596 = 1.25."
+  },
+  {
+   "key": "pmid33822768",
+   "hyp": "H3",
+   "quote_start": "Although the 3 isoforms had similar disorder tendencies when analyzed ",
+   "summary_contains": "ApoE4 had higher descriptive mean and median baseline condensate volumes than ApoE3. The fraction above 0.6 μm³ has no stated ApoE4-versus-ApoE3 result.",
+   "description_start": "The reported significant large-condensate comparisons were A",
+   "set": {
+    "effect_size": "1.2x",
+    "effect_size_provenance": "supplement_only"
+   },
+   "reason": "Claude audit 11-19 (H3 P11.F3), confirmed by a second Claude check: Quote verbatim (ApoE2 vs ApoE3/ApoE4); the row's ApoE4-vs-ApoE3 claim rests on the supplement means, which are printed, so give the ratio. Largely duplicates P11.F2.",
+   "source": "supp.txt Fig S4E/F: ApoE3 Mean = 0.2596 µm3, ApoE4 Mean = 0.3233 µm3; Fig 4 legend 'n = 15-29 cells per condition'."
+  },
+  {
+   "key": "pmid33822768",
+   "hyp": "H3",
+   "quote_start": "Live-cell imaging showed that ApoE forms spherical structures with ave",
+   "summary_contains": "Intracellular condensates were visible with both ApoE3 and ApoE4. This shared presence gives no direction for a difference in aggregation burden.",
+   "description_start": "Live imaging showed that both human apoE3 and apoE4 formed s",
+   "set": {
+    "data_location": "Fig 4A-B",
+    "sample_size": "17-23",
+    "sample_size_provenance": "printed_in_text",
+    "p_value": ">0.05",
+    "p_value_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P11.F4), confirmed by a second Claude check: The quote cites Figure 4A and B; the sphericity comparison in 4B is printed as n.s. with n = 17-23 cells per condition and the legend's lowest threshold is P < 0.05.",
+   "source": "Fig 4 legend '(B) Average sphericity of ApoE condensates ... Mean +/- SEM, n = 17-23 cells per condition, n.s.' and '(B, D, and E) ... *P < 0.05'."
+  },
+  {
+   "key": "pmid33930462",
+   "hyp": "H4",
+   "quote_start": "Kinetic data from the best fit are summarized in Table 1 and reveal th",
+   "summary_contains": "(apoE3 -> apoE4) -> (lower kinetic KD and higher affinity for LRP1)",
+   "description_start": "In six independent SPR experiments, lipid-free apoE4 bound p",
+   "set": {
+    "effect_size": "0.44x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P6.F1), confirmed by a second Claude check: Both kinetic KD values are printed (202 vs 456 nM); give the ratio rather than qualitative, consistent with P6.F2-F6.",
+   "source": "Results: \"the KD of apoE4 for LRP1 is 202 ± 51 nM, whereas apoE3 is 456 ± 48 nM\"; Fig 6 legend: \"representative experiment from six independent experiments\""
+  },
+  {
+   "key": "pmid34617884",
+   "hyp": "H2",
+   "quote_start": "Receptor surface levels show a stronger reduction with ApoE4 than ApoE",
+   "summary_contains": "(apoE3 -> apoE4) -> (lower surface GluN2B in primary mouse neurons; rescued by Slc9a6 deletion)",
+   "description_start": "In three independent experiments measuring surface and total",
+   "set": {
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Claude audit 11-19 (H2 P9.F1), confirmed by a second Claude check: Quote is the Fig 4 legend; the legend gives a star key (*p<0.05, **p<0.01, ***p<0.005) for panels C-F, but the figure image is a 114x79 thumbnail with no readable marks, so the code is ambiguous_panel, not not_found_in_source.",
+   "source": "Fig 4 legend: \"All data are expressed as mean ± SEM from three independent experiments. *p < 0.05, **p < 0.01, ***p < 0.005.\""
+  },
+  {
+   "key": "pmid34617884",
+   "hyp": "H2",
+   "quote_start": "Apoer2 recycling was completely restored in Slc9a6- neurons treated wi",
+   "summary_contains": "(APOE3 -> APOE4) -> (lower surface Apoer2 in primary mouse cortical neurons; restored by Slc9a6 deletion)",
+   "description_start": "In three independent experiments with primary embryonic mous",
+   "set": {
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Claude audit 11-19 (H2 P9.F2), confirmed by a second Claude check: Same as P9.F1: a legend star key exists for panel C but cannot be matched to the comparison on the thumbnail image. The apoE4>apoE3 reduction in the description comes from the legend sentence, not the quote, which is acceptable.",
+   "source": "Fig 4 legend: \"Receptor surface levels show a stronger reduction with ApoE4 than ApoE3... *p < 0.05, **p < 0.01, ***p < 0.005.\""
+  },
+  {
+   "key": "pmid34617884",
+   "hyp": "H4",
+   "quote_start": "Receptor surface levels show a stronger reduction with ApoE4 than ApoE",
+   "summary_contains": "(ApoE3 -> ApoE4) -> (lower neuronal surface ApoER2 during Reelin stimulation)",
+   "description_start": "Across three independent experiments in primary mouse neuron",
+   "set": {
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Claude audit 11-19 (H4 P12.F1), confirmed by a second Claude check: Quote is the Fig 4 legend's own result statement; n=3 independent experiments correct. Legend star key is figure-wide and the packet image is a 114-px thumbnail, so P provenance should be ambiguous_panel.",
+   "source": "Fig 4 legend 'Receptor surface levels show a stronger reduction with ApoE4 than ApoE3 ... three independent experiments. *p < 0.05, **p < 0.01, ***p < 0.005 ... Dunnett's post hoc test'; 4.png is 114x79 px."
+  },
+  {
+   "key": "pmid34617884",
+   "hyp": "H4",
+   "quote_start": "ApoE-conditioned media treatment reduces the surface expression of Apo",
+   "summary_contains": "(No added apoE -> added ApoE4) -> (lower neuronal surface ApoER2 during Reelin stimulation)",
+   "description_start": "Across three independent experiments in primary mouse neuron",
+   "set": {
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Claude audit 11-19 (H4 P12.F2), confirmed by a second Claude check: Quote from the Fig 4 legend supports ApoE reducing surface Apoer2 with Reelin; n=3 correct; star key figure-wide, image unreadable.",
+   "source": "Fig 4 legend 'ApoE-conditioned media treatment reduces the surface expression of Apoer2 ... in presence of Reelin'; '*p < 0.05, **p < 0.01, ***p < 0.005'."
+  },
+  {
+   "key": "pmid34617884",
+   "hyp": "H4",
+   "quote_start": "Apoer2 recycling was completely restored in Slc9a6- neurons treated wi",
+   "summary_contains": "(NHE6 present -> NHE6 deleted, with ApoE4) -> (restored neuronal surface ApoER2)",
+   "description_start": "Across three independent experiments, germline NHE6 deletion",
+   "set": {
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Claude audit 11-19 (H4 P12.F3), confirmed by a second Claude check: Quote verbatim from Results (Fig 4C); n=3; star key figure-wide, image unreadable.",
+   "source": "'Apoer2 recycling was completely restored in Slc9a6- neurons treated with ApoE4 (Figure 4C).'"
+  },
+  {
+   "key": "pmid34617884",
+   "hyp": "H4",
+   "quote_start": "In addition, genetic loss of NHE6 equally restored the ApoE4-impaired ",
+   "summary_contains": "(NHE6 present -> NHE6 deleted, with ApoE4) -> (restored neuronal surface GluN2B)",
+   "description_start": "Across three independent experiments, germline NHE6 deletion",
+   "set": {
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Claude audit 11-19 (H4 P12.F4), confirmed by a second Claude check: Quote verbatim; GluN2B is the NMDA subunit in 4D; n=3; star key figure-wide, image unreadable.",
+   "source": "'genetic loss of NHE6 equally restored the ApoE4-impaired surface expression of AMPA and NMDA receptor subunits (Figure 4D-F)'; legend 'GluN2B (D)'."
+  },
+  {
+   "key": "pmid34982109",
+   "hyp": "H3",
+   "quote_start": "APOE4 colocalized with late endosomes significantly more than with ear",
+   "summary_contains": "(extracellular APOE3 -> APOE4) -> (late-over-early endosomal localization preference observed for APOE4)",
+   "description_start": "After uptake into rat ST14A cells, APOE4 showed significantl",
+   "set": {
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Claude audit 11-19 (H3 P5.F3), confirmed by a second Claude check: Quote verbatim, within-isoform comparison described correctly, n=3 wells from Table S5. Fig 7 legend has a star key but the packet image is a 100-px thumbnail, so the mark for 7C cannot be seen: ambiguous_panel.",
+   "source": "Fig 7 legend '*P<0.05, **P<0.01, ***P<0.001; ns, not significant'; Table S5 '7C 3 wells per genotype Two-way ANOVA 2'; 7.png is 100x125 px."
+  },
+  {
+   "key": "pmid34982109",
+   "hyp": "H3",
+   "quote_start": "Internalization levels were isoform-dependent, with the highest fluore",
+   "summary_contains": "(extracellular APOE3 -> APOE4) -> (higher intracellular APOE-associated fluorescence during uptake)",
+   "description_start": "Rat neuron-like ST14A cells accumulated more intracellular r",
+   "set": {
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Claude audit 11-19 (H3 P5.F5), confirmed by a second Claude check: Quote verbatim, direction correct, n=3 wells from Table S5 (7B). Legend says bars mark FDR<0.05 between isoforms but the image is an unreadable thumbnail.",
+   "source": "Fig 7 legend '(A,B) ... Bars represent times when FDR<0.05 between APOE isoforms'; Table S5 '7B 3 wells per conditioned media genotype'."
+  },
+  {
+   "key": "pmid35471463",
+   "hyp": "H3",
+   "quote_start": "APOE4 carriers showed a greater amount of larger size APOE protein (fr",
+   "summary_contains": "(APOE4 non-carrier -> APOE4 carrier) -> (no change in large-sized soluble apoE reaching statistical significance in control brain fractions 26–30)",
+   "description_start": "Comparing control brain SEC fractions 26–30 showed no signif",
+   "set": {
+    "effect_size": "~1.4x",
+    "effect_size_provenance": "estimated_from_figure"
+   },
+   "reason": "Claude audit 11-19 (H3 P19.F2), confirmed by a second Claude check: Fig 5e is readable: in fractions 27-29 the two bars give about 1.4x, as already coded for P19.F1. P19.F2 is a near-duplicate of P19.F1.",
+   "source": "Fig 5e (5.png, y-axis 0-30): fractions 27-29 Ctrl E4- ~10.2%, Ctrl E4+ ~14.5%; only fraction 26 carries a printed 'p=0.08'."
+  },
+  {
+   "key": "pmid35471463",
+   "hyp": "H3",
+   "quote_start": "In AD cases without LB pathology, APOE4 carriers had more large-sized ",
+   "summary_contains": "(APOE4 non-carrier -> APOE4 carrier) -> (more large-sized soluble apoE in AD brains without LB pathology)",
+   "description_start": "SEC followed by apoE ELISA showed more large-sized soluble a",
+   "set": {
+    "data_location": "Fig 5b, fractions 27-29 (AD E4- vs AD E4+); size profiles in Fig 5a"
+   },
+   "reason": "Claude audit 11-19 (H3 P19.F3), confirmed by a second Claude check: The ~1.2x and the comparison come from the Fig 5b bar chart, not Fig 5a, which shows only the profiles. A '*' is shown, but the legend gives no star key, so P N/A is right.",
+   "source": "Fig 5b (5.png): fractions 27-29 AD E4- ~15.8%, AD E4+ ~19.0% (ratio 1.2), with a '*' bracket between them; 6 points per bar. Legend: 'N = 6 samples/group in AD cases. Two-way ANOVA with Sidak's ... Only the significantly changed fractions were labeled' (no star threshold given)."
+  },
+  {
+   "key": "pmid36324176",
+   "hyp": "H3",
+   "quote_start": "In the control group, the dimer/monomer quotient was significantly low",
+   "summary_contains": "(APOE ε3/ε3 -> APOE ε3/ε4) -> (lower CSF apoE dimer/monomer ratio)",
+   "description_start": "Native-PAGE of non-AD human control CSF showed a lower apoE ",
+   "set": {
+    "sample_size": "5-9",
+    "sample_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P23.F1), confirmed by a second Claude check: 5.8x (2.20/0.38) and p=0.006 are right. The group sizes are printed in Table 1 (Gothenburg controls: 9 e3/e3, 5 e3/e4), and Fig 3D shows 9 and 5 points.",
+   "source": "Table 1 Gothenburg Control: 'APOE | e3/e3 | e3/e4 ... N | 9 | 5'. Fig 3D (3.png): Ct3/3 9 circles, Ct3/4 5 circles, bracket 'p = 0.006'."
+  },
+  {
+   "key": "pmid36324176",
+   "hyp": "H3",
+   "quote_start": "The same situation was found in the AD group, where the dimer/monomer ",
+   "summary_contains": "(APOE ε3/ε3 -> APOE ε4/ε4) -> (lower CSF apoE dimer/monomer ratio in AD)",
+   "description_start": "Native-PAGE of human AD CSF showed a lower apoE dimer/monome",
+   "set": {
+    "sample_size": "15",
+    "sample_size_provenance": "printed_in_text",
+    "p_value_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P23.F2), adjusted by a second Claude check: 9.5x (2.27/0.24) is right. On Fig 3D the upper p < 0.0001 bracket runs from AD3/3 to AD4/4, so that p holds. n is printed in Table 1 (15 per AD genotype). Verifier: n=15 per AD genotype is printed in Table 1, and the top Fig 3D bracket (AD3/3 to AD4/4) prints 'p < 0.0001' as a number on the figure, which the convention codes printed_in_text, not visual_only; as in item 5, '9.5x' is the inverse of the row's direction (0.11x e4/e4 over e3/e3), flagged only.",
+   "source": "Table 1 Gothenburg AD: e3/e3 N 15, e4/e4 N 15. Fig 3D (3.png): top bracket 'p < 0.0001' spans AD3/3 to AD4/4; numbers below axis 2.3+/-1 and 0.1+/-0.2."
+  },
+  {
+   "key": "pmid37280636",
+   "hyp": "H3",
+   "quote_start": "Interestingly, while the aggregation of ApoE4M-AP occurred almost inst",
+   "summary_contains": "(apoE4M-AP -> apoE4M-AS interface mutations) -> (suppressed apoE aggregation)",
+   "description_start": "Truncated apoE4M aggregated almost instantaneously, while fo",
+   "set": {
+    "system": "Purified recombinant ApoE3M and ApoE4M truncation constructs (residues 1-23 deleted); AS variants carry R38A/E45A/E49A/R145A. The Results identify both isoforms for the AP aggregation and AS suppression observations; the Fig. 3G photo is labelled ApoE4M-AS (left) and ApoE4M-AP (right), two hours after purification."
+   },
+   "reason": "Claude audit 11-19 (H3 P15.F3), confirmed by a second Claude check: Quote and values fine, but the Experimental system says Fig. 3G labels the samples generically as ApoEM-AP/AS; the image labels them ApoE4M-AS and ApoE4M-AP.",
+   "source": "Fig. 3G image labels under the tubes: \"ApoE4M-AS\" and \"ApoE4M-AP\"; legend: \"Similar results were obtained in at least two independent experiments.\""
+  },
+  {
+   "key": "pmid37280636",
+   "hyp": "H3",
+   "quote_start": "Subsequent transmission electron microscopy (TEM) analysis of these ag",
+   "summary_contains": "(apoE3M-AP -> apoE4M-AP) -> (fibril-like aggregates present in both)",
+   "description_start": "Transmission electron microscopy found fibril-like apoE aggr",
+   "set": {
+    "sample_size": "2",
+    "sample_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P15.F4), confirmed by a second Claude check: Sample size N/A with code ambiguous_panel is inconsistent; the Fig. 3H legend prints the replication count (same as used for P15.F3).",
+   "source": "Fig. 3 legend: \"(H) TEM of ApoE3M-AP fibrils (red arrows). Similar results were obtained in at least two independent experiments.\""
+  },
+  {
+   "key": "pmid37280636",
+   "hyp": "H3",
+   "quote_start": "We also found significantly stronger binding energy in the dimeric uni",
+   "summary_contains": "(apoE3 -> apoE4) -> (stronger simulated electrostatic dimer association)",
+   "description_start": "The simulated apoE4 dimer had a more favorable mean electros",
+   "set": {
+    "effect_size": "1.17x",
+    "effect_size_provenance": "supplement_only",
+    "p_value": "<0.0001",
+    "p_value_provenance": "supplement_only"
+   },
+   "reason": "Claude audit 11-19 (H3 P15.F6), confirmed by a second Claude check: Both group values (-396 vs -338 kcal/mol) and a t-test P are printed in the supplement; the row left them qualitative/N/A.",
+   "source": "Supp Note 1: \"electrostatic interactions ... ApoE4 were stronger ... (Eelec = -396 ± 68 kcal/mol) than for ApoE3 (Eelec = -338 ± 84 kcal/mol). This difference is extremely significant (p-value < 10-4 from the t-test)\""
+  },
+  {
+   "key": "pmid37280636",
+   "hyp": "H3",
+   "quote_start": "Moreover, we observed that the five mutations previously introduced in",
+   "summary_contains": "(apoE3M -> apoE4M) -> (shared monomerized state)",
+   "description_start": "Both apoE3M and apoE4M were characterized as monomerized, ra",
+   "set": {
+    "data_location": "Supplementary Figs. 5 and 6"
+   },
+   "reason": "Claude audit 11-19 (H3 P15.F15), confirmed by a second Claude check: The quote is about aggregation inhibition, which is shown in Supp Fig. 6 (isothermal aggregation); Supp Fig. 5 is only the AUC monomer characterization. Note: the preceding sentence (\"we observed increased aggregation of ApoE4 compared to ApoE3\", SLS, Supp Fig. 6) is the paper's own direct apoE4-vs-apoE3 aggregation result and is not captured by any row.",
+   "source": "Results: \"...simultaneously inhibit their aggregation (Supplementary Figs. 5 and 6)\"; Supp Fig. 6 legend: \"Isothermal aggregation of ApoE3WT, ApoE4WT, monomeric ApoE3M and monomeric ApoE4M demonstrates that five monomerizing mutations ... inhibit ApoE aggregation.\""
+  },
+  {
+   "key": "pmid37280636",
+   "hyp": "H3",
+   "quote_start": "ApoE3 Eelec = -338 ± 84 EvdW = -37 ± 7 R145, R38, R142, D35, K146, R32",
+   "summary_contains": "(apoE3 -> apoE4) -> (slightly stronger simulated van der Waals dimer association)",
+   "description_start": "The simulated apoE4 dimer had mean van der Waals interaction",
+   "set": {
+    "effect_size": "1.11x",
+    "effect_size_provenance": "supplement_only"
+   },
+   "reason": "Claude audit 11-19 (H3 P15.F16), confirmed by a second Claude check: Both EvdW group values are printed in Supp Table 8 (-41 vs -37 kcal/mol); the description already states 1.11-fold but the Effect size column says qualitative.",
+   "source": "Supp Table 8: \"ApoE3 Eelec = -338 ± 84 EvdW = -37 ± 7 ... ApoE4 Eelec = -396 ± 68 EvdW = -41 ± 7\""
+  },
+  {
+   "key": "pmid37280636",
+   "hyp": "H3",
+   "quote_start": "ApoE3+ SPA Eelec = -250 ± 69 EvdW = -39 ± 7 R145, R38, R142, R32, D35 ",
+   "summary_contains": "(apoE3 + SPA -> apoE4 + SPA) -> (stronger simulated electrostatic dimer association)",
+   "description_start": "With SPA, the simulated apoE4 dimer retained a more favorabl",
+   "set": {
+    "effect_size": "1.29x",
+    "effect_size_provenance": "supplement_only"
+   },
+   "reason": "Claude audit 11-19 (H3 P15.F17), confirmed by a second Claude check: Both Eelec group values with SPA are printed in Supp Table 8 (-322 vs -250 kcal/mol, ratio 1.29); Effect size should not be qualitative.",
+   "source": "Supp Table 8: \"ApoE3+ SPA Eelec = -250 ± 69 ... ApoE4+ SPA Eelec = -322 ± 73\""
+  },
+  {
+   "key": "pmid37290814",
+   "hyp": "H3",
+   "quote_start": "No significant difference in ApoE puncta size was observed after Baf A",
+   "summary_contains": "(ApoE3 -> ApoE4, with or without lysosomal inhibition) -> (no change in neuritic ApoE puncta size)",
+   "description_start": "Across three cultures, ApoE puncta size showed no significan",
+   "set": {
+    "effect_size": "0.93x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P16.F1), confirmed by a second Claude check: Quote verbatim, P 0.7064 (Kruskal-Wallis, 4 groups), 3 cultures correct; the means are printed, so give the ApoE4 vs ApoE3 DMSO ratio 9.6/10.3.",
+   "source": "Fig 2M legend: 'ApoE3 + DMSO: 10.3 pixels, ApoE3 + Baf A1: 9.0 pixels, ApoE4 + DMSO: 9.6 pixels, and ApoE4 + Baf A1: 9.4 pixels) (Kruskal-Wallis test, P = 0.7064); number of cultures: 3'. Fig 2M image shows four groups with overlapping means around 9-10."
+  },
+  {
+   "key": "pmid37290814",
+   "hyp": "H3",
+   "quote_start": "The percentages of ApoE co-localizing to LAMP1-positive pixels increas",
+   "summary_contains": "(lysosomal acidification inhibition in ApoE4-treated neurons) -> (no change in ApoE–LAMP1 overlap)",
+   "description_start": "In three cultures receiving ApoE4, bafilomycin reduced media",
+   "set": {
+    "effect_size": "0.72x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P16.F2), confirmed by a second Claude check: Quote verbatim, P 0.4358, n 3 correct; both medians printed (8.7% DMSO, 6.3% Baf A1), ratio 6.3/8.7.",
+   "source": "Fig 2L legend 'decreased from 8.7-6.3% (Mann-Whitney test, P = 0.4358) in ApoE4-treated neurons'; Results 'median ApoE-LAMP1 co-localization after Baf A1 ... ApoE4 decreased from 8.7-6.3%'."
+  },
+  {
+   "key": "pmid37290814",
+   "hyp": "H3",
+   "quote_start": "However, there was no statistically significant difference in ApoE and",
+   "summary_contains": "(ApoE3 -> ApoE4) -> (no change in ApoE–LAMP1 pixel overlap)",
+   "description_start": "In the experiment using three cultures per isoform, ApoE3 an",
+   "set": {
+    "effect_size": "0.86x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P16.F3), confirmed by a second Claude check: Quote verbatim, P 0.2744, 3 cultures correct; the Fig 1I legend prints both means (35.8% ApoE3, 30.7% ApoE4), ratio 30.7/35.8.",
+   "source": "Fig 1I legend 'on average 35.8% and 30.7% of ApoE, respectively, co-localized with LAMP1 (t test ..., P = 0.2744; number of cultures ...: 3'."
+  },
+  {
+   "key": "pmid37290814",
+   "hyp": "H3",
+   "quote_start": "In comparison with LAMP1, a lower proportion of human ApoE puncta co-l",
+   "summary_contains": "(ApoE3 -> ApoE4) -> (no change in ApoE–Rab7 pixel overlap)",
+   "description_start": "In the experiment using three cultures per isoform, ApoE3 an",
+   "set": {
+    "effect_size": "0.85x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P16.F4), confirmed by a second Claude check: Quote verbatim, P 0.3392, 3 cultures correct; the Fig 1J legend prints both values (14.2% ApoE3, 12.1% ApoE4), ratio 12.1/14.2.",
+   "source": "Fig 1J legend '14.2% and 12.1% of the ApoE co-localized with Rab7 ... P = 0.3392; number of cultures ...: 3'."
+  },
+  {
+   "key": "pmid38217595",
+   "hyp": "H4",
+   "quote_start": "A different colocalization pattern was seen in APOER2, IR, and VEGFR, ",
+   "summary_contains": "(APOE3 -> APOE4) -> (higher fraction of APOER2 colocalizing with early endosomes)",
+   "description_start": "APOER2 early-endosomal colocalization increased from 0.37 in",
+   "set": {
+    "effect_size": "1.4x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P13.F3), confirmed by a second Claude check: Fig. 8 legend prints both group values for this comparison, so the row should not stay 'qualitative': 0.51/0.37 = 1.38 -> 1.4x.",
+   "source": "Fig. 8 legend: 'APOER2- early endosomes: APOE3 = 0.37+/-0.044, APOE4 = 0.51+/-0.037, p < 0.05'; legend also gives '25-37 cells from 2-3 different preparations'."
+  },
+  {
+   "key": "pmid38217595",
+   "hyp": "H4",
+   "quote_start": "The first pattern which was observed with LRP1, shows that lower level",
+   "summary_contains": "(APOE3 -> APOE4) -> (lower fraction of LRP1 colocalizing with early endosomes)",
+   "description_start": "LRP1 early-endosomal colocalization was lower in APOE4 than ",
+   "set": {
+    "effect_size": "27%",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P13.F8), confirmed by a second Claude check: Fig. 8 legend prints both group values for LRP1 in early endosomes, so 'qualitative' is avoidable: (0.22-0.16)/0.22 = 27%.",
+   "source": "Fig. 8 legend: 'Early endosomes: APOE3 = 0.22+/-0.022, APOE4 = 0.16+/-0.015, p < 0.001'."
+  },
+  {
+   "key": "pmid38217595",
+   "hyp": "H4",
+   "quote_start": "Quantification of these results revealed that the colocalization of IR",
+   "summary_contains": "(APOE3 -> APOE4) -> (higher fraction of insulin receptor colocalizing with early endosomes)",
+   "description_start": "The insulin-receptor fraction colocalizing with early endoso",
+   "set": {
+    "effect_size": "1.3x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P13.F14), confirmed by a second Claude check: The quote itself prints both group values for IR in early endosomes, so the row should carry the ratio rather than 'qualitative': 0.36/0.28 = 1.29 -> 1.3x.",
+   "source": "Results: 'colocalization of IR with early endosomes was significantly higher in APOE4 neurons (0.36+/-0.02, N = 34 ...) than in the APOE3 neurons (0.28+/-0.02, N = 48 ..., p < 0.05)'; Fig. 6 image panel A (InsulinR coloc Early Endosomes) shows ~0.28 vs ~0.36 with one asterisk."
+  },
+  {
+   "key": "pmid38336940",
+   "hyp": "H3",
+   "quote_start": "apoE-FA | 302 | 0.31 (− 0.46 to 1.08) | 0.43",
+   "summary_contains": "APOE4 versus APOE3 showed no statistically significant difference in insoluble cortical apoE among donors negative for both defined tau pathologies.",
+   "description_start": "Among donors negative for both defined tau pathologies, age-",
+   "set": {
+    "sample_size": "93",
+    "sample_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P27.F1), confirmed by a second Claude check: Beta 0.31, p 0.43 correct; the Table 5 column header prints the subgroup n (APOE4 N = 20 vs APOE3 N = 73), so n is not ambiguous.",
+   "source": "Table 5 header 'APOE4 vs. APOE3 (reference) | | APOE4 (N = 20) vsAPOE3 (N = 73) | ...'; row 'apoE-FA | 302 | 0.31 (- 0.46 to 1.08) | 0.43'."
+  },
+  {
+   "key": "pmid38336940",
+   "hyp": "H3",
+   "quote_start": "FA 44 31.1 (0.0, 1731.0) 153 33.7 (0.0, 782.0) 149 128.8 (0.0, 933.8)",
+   "summary_contains": "(APOE3 -> APOE4) -> (higher median detergent-insoluble cortical apoE)",
+   "description_start": "Descriptively, median detergent-insoluble cortical apoE was ",
+   "set": {
+    "effect_size": "3.82x",
+    "effect_size_provenance": "supplement_only"
+   },
+   "reason": "Claude audit 11-19 (H3 P27.F3), confirmed by a second Claude check: Medians correct (128.8 vs 33.7 ng/mg; n 149+153=302); both values printed in Table S3, so give the ratio 128.8/33.7.",
+   "source": "Table S3 apoE (ng/mg protein) FA: APOE2 44 31.1; APOE3 153 33.7 (0.0, 782.0); APOE4 149 128.8 (0.0, 933.8)."
+  },
+  {
+   "key": "pmid38336940",
+   "hyp": "H3",
+   "quote_start": "APOE4 0.51 (-0.13-1.14) 0.12 1.39 (0.85-1.93) &lt;0.001 0.044",
+   "summary_contains": "Among AD-tau-negative donors, the APOE4 carrier–noncarrier difference in insoluble cortical apoE was statistically nonsignificant.",
+   "description_start": "Among AD-tau-negative donors, age- and sex-adjusted analysis",
+   "set": {
+    "sample_size": "150",
+    "sample_size_provenance": "supplement_only"
+   },
+   "reason": "Claude audit 11-19 (H3 P27.F4), confirmed by a second Claude check: Beta 0.51, p 0.12 correct and quote verbatim; Table S9 header prints the subgroup N (No AD-tau pathology N=150).",
+   "source": "Table S9 header 'No AD-tau pathology (N=150) | AD-tau pathology (N=197)'; apoE-FA APOE4 row 0.51 (-0.13-1.14) 0.12 1.39 (0.85-1.93) <0.001 0.044."
+  },
+  {
+   "key": "pmid38336940",
+   "hyp": "H3",
+   "quote_start": "Although APOE4 was significantly associated with higher levels of inso",
+   "summary_contains": "Among AGD-positive donors, the APOE4–APOE3 difference in insoluble cortical apoE was positive and statistically nonsignificant.",
+   "description_start": "Among AGD-positive donors pooled across AD-tau status, age- ",
+   "set": {
+    "sample_size": "40",
+    "sample_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P27.F8), confirmed by a second Claude check: Beta 0.91, p 0.091 correct; the Table 5 Mixed tauopathy header prints APOE4 N = 13 vs APOE3 N = 27.",
+   "source": "Table 5 header '... | APOE4 (N = 13) vsAPOE3 (N = 27) |'; apoE-FA row Mixed tauopathy 0.91 (- 0.15 to 1.96) 0.091."
+  },
+  {
+   "key": "pmid38336940",
+   "hyp": "H3",
+   "quote_start": "APOE4 1.27 (0.86, 1.69) &lt;0.001 0.94 (0.05, 1.83) 0.040 0.44",
+   "summary_contains": "(APOE4 absent -> APOE4 present) -> (higher detergent-insoluble cortical apoE without AGD)",
+   "description_start": "Among AGD-negative donors, APOE4 carriage was associated wit",
+   "set": {
+    "sample_size": "302",
+    "sample_size_provenance": "supplement_only"
+   },
+   "reason": "Claude audit 11-19 (H3 P27.F9), confirmed by a second Claude check: Beta 1.27, p<0.001 correct, quote verbatim; Table S8 header prints the subgroup N (No AGD-tau pathology N=302).",
+   "source": "Table S8 header 'No AGD-tau pathology (N=302) | AGD-tau pathology (N=51)'; apoE-FA APOE4 1.27 (0.86, 1.69) <0.001 0.94 (0.05, 1.83) 0.040 0.44."
+  },
+  {
+   "key": "pmid38336940",
+   "hyp": "H3",
+   "quote_start": "Although APOE4 was significantly associated with higher levels of inso",
+   "summary_contains": "Among AGD-positive donors, APOE4 carriers had a positive insoluble apoE estimate that missed the corrected significance threshold.",
+   "description_start": "Among AGD-positive donors, APOE4 carriers and noncarriers sh",
+   "set": {
+    "sample_size": "51",
+    "sample_size_provenance": "supplement_only"
+   },
+   "reason": "Claude audit 11-19 (H3 P27.F10), confirmed by a second Claude check: Beta 0.94, p 0.040 and the P<0.0056 threshold are correct; Table S8 header prints AGD-tau pathology N=51.",
+   "source": "Table S8 header 'AGD-tau pathology (N=51)'; footnote 'P-values <0.0056 were considered as statistically significant'."
+  },
+  {
+   "key": "pmid38396791",
+   "hyp": "H3",
+   "quote_start": "We observed also some higher molecular weight bands of ~70 kDa in SDS-",
+   "summary_contains": "(ApoE3 -> ApoE4) -> (relative ApoE dimer abundance unresolved; ApoE dimers reported in the isoform experiment)",
+   "description_start": "Reducing SDS-PAGE of preparations containing ApoE3 or ApoE4 ",
+   "set": {
+    "directness_class": 3,
+    "directness_strength": "4"
+   },
+   "reason": "Claude audit 11-19 (H3 P20.F1), confirmed by a second Claude check: Quote verbatim and the description is accurate, but class 1 'strong' is a clear error: the panel shows ~70 kDa ApoE dimer bands in a cell-free reducing gel with no isoform difference and no endo-lysosomal readout, so B is at most a surrogate.",
+   "source": "'We observed also some higher molecular weight bands of ~70 kDa in SDS-PAGE lanes ... These bands correspond to the dimer of ApoE as they appeared in the lanes, which contain only ApoE aggregates (Figure 4A).' Fig 4A image: faint high-MW bands, no quantification."
+  },
+  {
+   "key": "pmid39532095",
+   "hyp": "H4",
+   "quote_start": "SPR similarly revealed a high affinity LDLR binding for both lipApoE4 ",
+   "summary_contains": "(APOE3 -> APOE4) -> (nominally lower LDLR-binding KD within author-described comparable affinities)",
+   "description_start": "SPR yielded LDLR-binding KD values of 9 nM for ApoE4 and 16 ",
+   "set": {
+    "effect_size": "0.56x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P1.F4), adjusted by a second Claude check: The quote prints both group values (KD = 9 nM for ApoE4, 16 nM for ApoE3), so the row should carry the ratio instead of 'qualitative': 16/9 = 1.8x lower KD for ApoE4. Verifier: Text prints KD = 9 nM (ApoE4) and 16 nM (ApoE3), so a fold is allowed, but in the sheet's E4/E3 convention (sibling rows: 0.497/0.410 = 1.21x) that is 9/16 = 0.56x, which matches the row's 'lower KD' summary; a bare '1.8x' would read as a higher ApoE4 KD.",
+   "source": "Results: 'SPR similarly revealed a high affinity LDLR binding for both lipApoE4 and lipApoE3 (KD = 9 nM and 16 nM, respectively)'."
+  },
+  {
+   "key": "pmid39532095",
+   "hyp": "H4",
+   "quote_start": "ApoE isoform differences were manifested in the differential levels of",
+   "summary_contains": "(APOE3 -> APOE4) -> (more internalized ApoE and more ApoE-containing lysosomal compartments)",
+   "description_start": "Astrocytes accumulated more ApoE4 than ApoE3. The reported o",
+   "set": {
+    "effect_size": "1.21x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H4 P1.F9), confirmed by a second Claude check: The quote prints both group values (0.497 for ApoE4, 0.410 for ApoE3), so 'qualitative' is avoidable: 0.497/0.410 = 1.21x. The sibling row P7.F1, built from the same sentence, already carries 1.21x, so the sheet is internally inconsistent as it stands.",
+   "source": "Results: 'Mander's coefficients = 0.266 +/- 0.045 for ApoE2, 0.410 +/- 0.049 for ApoE3, 0.497 +/- 0.090 for ApoE4 (Figure 2I)'."
+  },
+  {
+   "key": "pmid39532095",
+   "hyp": "H3",
+   "quote_start": "ApoE isoform differences were manifested in the differential levels of",
+   "summary_contains": "(ApoE3 -> ApoE4) -> (higher intracellular ApoE protein accumulation)",
+   "description_start": "Human astrocytes internalized more ApoE4 than ApoE3 after on",
+   "set": {
+    "effect_size": "1.21x",
+    "effect_size_provenance": "printed_in_text",
+    "description": "Human APOE-knockout iPSC astrocytes internalized more ApoE4 than ApoE3 after one day of lipidated ApoE treatment; the Manders coefficient for LAMP1-positive vesicles containing ApoE was 0.497 for ApoE4 versus 0.410 for ApoE3."
+   },
+   "reason": "Claude audit 11-19 (H3 P1.F3), confirmed by a second Claude check: The quote prints both group values for the Fig 2I LAMP1-vesicle readout (0.497 vs 0.410), so a ratio replaces 'qualitative'. The description should say this ratio is for the Manders coefficient, not the internalized amount, which has no printed number.",
+   "source": "Results: 'Mander's coefficients = 0.266 +/- 0.045 for ApoE2, 0.410 +/- 0.049 for ApoE3, 0.497 +/- 0.090 for ApoE4) (Figure 2I)'. 0.497/0.410 = 1.21. n 3-4 comes from the general methods ('Normalized data from 3-4 independent experiments were combined')."
+  },
+  {
+   "key": "pmid39532095",
+   "hyp": "H3",
+   "quote_start": "Super-resolution imaging on APOE KO iAstrocytes confirmed internalized",
+   "summary_contains": "(lipidated ApoE4 exposure) -> (predominantly lysosomal localization of internalized ApoE4)",
+   "description_start": "Internalized ApoE colocalized completely with LDLR for all t",
+   "set": {
+    "effect_size": "1.0x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P1.F4), confirmed by a second Claude check: Both group values are printed (ApoE4 0.900 vs ApoE3 0.903), so the ratio replaces 'qualitative'.",
+   "source": "Results: 'Mander's coefficients for ApoE puncta with colocalizing LAMP1 = 0.823 +/- 0.061 for ApoE2; 0.903 +/- 0.024 for ApoE3; 0.900 +/- 0.008 for ApoE4'. 0.900/0.903 = 1.00."
+  },
+  {
+   "key": "pmid40845853",
+   "hyp": "H2",
+   "quote_start": "In agreement with previous data on mouse brain endothelial cells (Vill",
+   "summary_contains": "(APOE3 -> APOE4) -> (reduced transferrin-positive sorting-tubule formation in human iCE-BECs)",
+   "description_start": "Live imaging of transferrin transport in isogenic human iPSC",
+   "set": {
+    "effect_size": "~55%"
+   },
+   "reason": "Claude audit 11-19 (H2 P4.F3), confirmed by a second Claude check: Read on the enlarged Fig 5H, the medians give about a 55% reduction, not 60%. P<0.001 and n=3 match the legend.",
+   "source": "Fig 5H (5.png, y-axis 0-0.8, ticks every 0.2): ApoE3 median at ~0.32, ApoE4 median at ~0.14; 1 - 0.14/0.32 = 0.56. Legend: '***p < 0.001 by Student's t test with n = 3 independent differentiations with 20 videos per experiment from isogenic pair 1'."
+  },
+  {
+   "key": "pmid40845853",
+   "hyp": "H2",
+   "quote_start": "In contrast, the number of sorting tubules was substantially reduced i",
+   "summary_contains": "(APOE3 -> APOE4) -> (reduced transferrin-positive endosomal sorting tubule formation in human iCE-BECs)",
+   "description_start": "Live imaging of isogenic pair 1 human iPSC-derived brain end",
+   "set": {
+    "effect_size": "~55%"
+   },
+   "reason": "Claude audit 11-19 (H2 P4.F4), confirmed by a second Claude check: Same Fig 5H reading as P4.F3: medians 0.32 vs 0.14 give about a 55% reduction. Near-duplicate of P4.F3.",
+   "source": "Fig 5H boxplot medians: ApoE3 ~0.32, ApoE4 ~0.14 tubules per 1000 um2 per min; legend '***p < 0.001 ... n = 3 independent differentiations'."
+  },
+  {
+   "key": "pmid41103078",
+   "hyp": "H3",
+   "quote_start": "Through this approach, we found that HsAPOE4-expressing lysosomes accu",
+   "summary_contains": "(APOE3 -> APOE4) -> (higher lysosomal APOE abundance)",
+   "description_start": "Across three LysoIP replicates, human-APOE4-expressing murin",
+   "set": {
+    "data_location": "Fig 3C",
+    "system": "Male murine Neuro-2a neuroblastoma cells carrying transgenic full-length human APOE3 or APOE4; endogenous mouse Apoe intact; passages 5–10; TMEM192-3xHA LysoIP in biological and technical triplicates followed by quantitative DIA mass spectrometry with normalization to the TMEM192 lysosomal tag; whether the genotype comparison used untreated LysoIPs only is not stated (BafA1-treated and untreated LysoIPs were both collected)."
+   },
+   "reason": "Claude audit 11-19 (H3 P22.F1), adjusted by a second Claude check: HsAPOE is labelled only in Fig 3C (APOE4 vs both APOE3 and APOE-/- controls), not in the Fig 3B volcano; the p<0.05 threshold is from the Fig 3C legend. The 'basal untreated condition' in the system field is not stated in the paper. Verifier: Right in substance: HsAPOE is labelled only in Fig 3C (p < 0.05 vs both controls, per the legend), not in the 3B volcano, and 'basal untreated condition' is not stated (Fig 3A and Table S1 include BafA1 and untreated LysoIPs). But the paper says 'transgenic, full-length human APOE3 or APOE4', not 'genomic' transgenes, and it states DIA acquisition, so the system text is corrected on those two points.",
+   "source": "Fig 3 image: 'HsAPOE' labelled among red points in panel C (upper right), absent from panel B. Fig 3C legend: 'Colored proteins were statistically significantly (p < 0.05) depleted (blue) or accumulated (red) in HsAPOE4 lysosomes relative to both controls.' Methods: 'Lysosomal immunoprecipitations were performed in biological and technical triplicates'; Fig 3A shows BafA1-treated and untreated samples per genotype."
+  },
+  {
+   "key": "pmid10359567",
+   "hyp": "H4",
+   "quote_start": "K i determined from 3 repeated experiments, each consisting of quadrup",
+   "summary_contains": "(APOE3 -> APOE4 in donor mice) -> (lower VLDL competition Ki for human LDL receptor binding and internalization)",
+   "description_start": "In three repeated human-fibroblast competition experiments w",
+   "set": {
+    "effect_size": "0.63x"
+   },
+   "reason": "Claude audit 11-19 (H4 P19.F1), adjusted by a second Claude check: The effect size shape is wrong: '150%' reads as a 150% change, whereas the printed Ki values give a 1.6-fold difference (ApoE3 VLDL needs ~1.6x more protein to compete). P = 0.05 and n = 3 are correct as printed. Flag for the lane: directness strength '2 strong' is generous for a non-brain system measuring LDL-receptor competition rather than receptor recycling, which the row's own system note concedes. Verifier: The fold is right in substance but points the wrong way: by the brief's convention it is APOE4 over APOE3 Ki, 3.6/5.7 = 0.63x (both values printed in Results and named in the description), not 1.6x.",
+   "source": "Results: 'Ki determined from 3 repeated experiments, each consisting of quadruple measurements, were 3.6 +/- 0.6 mg for 4/4 VLDL and 5.7 +/- 1.12 mg for 3/3 VLDL (P = 0.05 by one-way ANOVA).'; 5.7/3.6 = 1.58"
+  },
+  {
+   "key": "pmid20547867",
+   "hyp": "H2",
+   "quote_start": "Whereas ApoE2 (lane 2) and ApoE3 (lane 3) did not reduce surface expre",
+   "summary_contains": "(ApoE3 -> ApoE4) -> (lower surface Apoer2 normalized to total Apoer2 in primary mouse cortical neurons)",
+   "description_start": "In four independent experiments, primary mouse cortical neur",
+   "set": {
+    "effect_size": "~24%",
+    "p_value": "<0.05",
+    "p_value_provenance": "visual_only",
+    "description": "In four independent experiments, primary mouse cortical neurons treated with ApoE4 (3 ug/mL, 15 minutes) had lower surface Apoer2 normalized to total Apoer2 than neurons treated with ApoE3, ApoE2, or control, measured by biotinylation and immunoblotting; Fig. 1B carries a bracket with one asterisk over the ApoE3-versus-ApoE4 comparison (P < 0.05 by the legend key)."
+   },
+   "reason": "Claude audit 11-19 (H2 P8.F2), confirmed by a second Claude check: The row's summary is the ApoE3 -> ApoE4 contrast, but '~35%' is the ApoE4-versus-control drop; off the Fig. 1B axis ApoE3 ~84 and ApoE4 ~64, i.e. ~24%. A bracket joining the ApoE3 and ApoE4 bars carries a single asterisk, and the legend key gives * P < 0.05, so the P value is visible rather than ambiguous.",
+   "source": "Fig. 1B bar chart (Surface/total Apoer2, standardized to control; ticks 0/50/100/150): control = 100, ApoE2 ~113, ApoE3 ~84, ApoE4 ~64; a bracket from the ApoE3 bar to the ApoE4 bar is marked '*' and a second bracket from ApoE2 to ApoE4 is marked '**'. Legend: '* P < 0.05; ** P < 0.01 ... unpaired t test ... from four independent experiments'."
+  },
+  {
+   "key": "pmid20547867",
+   "hyp": "H2",
+   "quote_start": "All ApoE isoforms ( Fig. 1 C , lanes 2–4) significantly decreased surf",
+   "summary_contains": "(APOE3 -> APOE4) -> (lower surface Apoer2 in Reelin-stimulated primary mouse cortical neurons)",
+   "description_start": "Primary mouse cortical neurons incubated with Reelin and hum",
+   "set": {
+    "p_value": "<0.01",
+    "p_value_provenance": "visual_only",
+    "sample_size_provenance": "not_found_in_source"
+   },
+   "reason": "Claude audit 11-19 (H2 P8.F3), confirmed by a second Claude check: Fig. 1C shows a bracket joining the ApoE3+R and ApoE4+R bars marked '**', and the panel's legend key gives ** P < 0.01 for brackets between treatments, so this comparison has a readable P value. No n is stated anywhere for panel C, which is not_found_in_source rather than ambiguous_panel. The '~50%' effect checks out (ApoE3+R ~51, ApoE4+R ~25).",
+   "source": "Fig. 1C bar chart (axis 0-120): control+R = 100, ApoE2+R ~60, ApoE3+R ~51, ApoE4+R ~25; bracket ApoE3+R to ApoE4+R marked '**', bracket ApoE2+R to ApoE4+R marked '*'. Legend C: 'Asterisks on brackets indicates significant difference between treatments. * P < 0.05; ** P < 0.01; *** P < 0.001' and no n for this panel."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H2",
+   "quote_start": "Apoer2 surface levels show a higher reduction with ApoE4 than ApoE3.",
+   "summary_contains": "(APOE3 -> APOE4) -> (lower surface-to-total Apoer2 ratio)",
+   "description_start": "Quantification across three independent experiments showed a",
+   "set": {
+    "effect_size": "0.35x",
+    "effect_size_provenance": "supplement_only",
+    "p_value": "N/A",
+    "p_value_provenance": "not_found_in_source"
+   },
+   "reason": "Claude audit 11-19 (H2 P3.F2), adjusted by a second Claude check: The quantification panel's own source data print both group values, so the row should carry the ratio instead of 'qualitative' (brief rule 3). P stays ambiguous_panel: the Fig. 2 image is too small to attribute the asterisks. Verifier: Fig2C source data give E3+R mean 77.3 and E4+R mean 26.8, so the fold in the row's direction is 26.8/77.3 = 0.35x (not 2.9x), and the regenerated Fig. 2C is legible: its '*' and '***' brackets run from C+R to each isoform (Dunnett vs control) with no E3-vs-E4 mark.",
+   "source": "elife-40048-fig2-data1.xlsx, sheet Fig2C, Apoer2 row: E3+R 82.1/73.6/76.3 (mean 77.3) vs E4+R 32.4/27.6/20.3 (mean 26.8); 77.3/26.8 = 2.9"
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H2",
+   "quote_start": "As shown in Figure 4D and E, physiological concentrations of ApoE3 (5 ",
+   "summary_contains": "(APOE3 -> APOE4) -> (greater impairment of Apoer2 surface recycling)",
+   "description_start": "In the absence of EMD87580, ApoE4 impaired neuronal Apoer2 s",
+   "set": {
+    "effect_size": "0.34x",
+    "effect_size_provenance": "supplement_only",
+    "p_value": "N/A",
+    "p_value_provenance": "not_found_in_source"
+   },
+   "reason": "Claude audit 11-19 (H2 P3.F3), adjusted by a second Claude check: Fig. 4E's source data give both ApoE3 and ApoE4 values at 0 uM EMD87580, so the ratio replaces 'qualitative'. P provenance is wrong: Fig. 4E is legible and its '*' and '***' sit under the E3 and E4 points as Dunnett comparisons against Con, with no mark for ApoE4-vs-ApoE3, so no P exists for this comparison. Verifier: Fig4E source data at 0 uM give E3+R mean 76.1 and E4+R mean 26.1, so the fold in the row's direction is 26.1/76.1 = 0.34x, not 2.9x; the P correction is right (the '*' and '***' at 0 uM are Dunnett marks against Con).",
+   "source": "elife-40048-fig4-data1.xlsx, sheet Fig4E, 0 uM column: E3+R 86.1/72.7/69.4 (mean 76.1) vs E4+R 22.6/30.7/25.1 (mean 26.1); 76.1/26.1 = 2.9. Fig 4E image: '*' below the E3 point and '***' below the E4 point at 0 uM, both relative to the open Con circle."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H2",
+   "quote_start": "Figure 5A–D shows that of all NHEs (1 and 5 through 9) that were targe",
+   "summary_contains": "(NHE6 knockdown with construct 1 in ApoE4-treated neurons) -> (restored surface Apoer2)",
+   "description_start": "NHE6 shRNA construct 1 restored surface Apoer2 in ApoE4-trea",
+   "set": {
+    "effect_size": "3.7x",
+    "effect_size_provenance": "supplement_only",
+    "p_value_provenance": "not_found_in_source"
+   },
+   "reason": "Claude audit 11-19 (H2 P3.F5), confirmed by a second Claude check: Source data for Fig. 5D print both compared groups, so the ratio replaces 'qualitative'. P provenance is wrong: Fig. 5D is legible and its three '***' brackets sit over C+R vs E4+R, the shNHE5 pair and the shNHE9 pair only - no mark over any shNHE6 bar, so this comparison has no P in the source.",
+   "source": "elife-40048-fig5-data1.xlsx, sheet Fig5D: E4+R 32.1/22.6/27.4 (mean 27.4) vs E4+R+shNHE6(1) 104.8/98.2/102.5 (mean 101.8); 101.8/27.4 = 3.7. Fig. 5D image: no asterisk bracket over the six shNHE6 bars."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H2",
+   "quote_start": "Figure 5A–D shows that of all NHEs (1 and 5 through 9) that were targe",
+   "summary_contains": "(NHE6 knockdown with construct 2 in ApoE4-treated neurons) -> (restored surface Apoer2)",
+   "description_start": "A second independent NHE6 shRNA restored surface Apoer2 in A",
+   "set": {
+    "effect_size": "3.7x",
+    "effect_size_provenance": "supplement_only",
+    "p_value_provenance": "not_found_in_source"
+   },
+   "reason": "Claude audit 11-19 (H2 P3.F6), confirmed by a second Claude check: Same panel and same two corrections for the second NHE6 construct: the source data give the ratio, and Fig. 5D carries no asterisk over the shNHE6 bars.",
+   "source": "sheet Fig5D: E4+R mean 27.4 vs E4+R+shNHE6(2) 102.5/97.7/100.4 (mean 100.2); 100.2/27.4 = 3.7. Fig. 5D image: '***' brackets only over C+R/E4+R, shNHE5 and shNHE9 pairs."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H2",
+   "quote_start": "The delayed recycling of Apoer2 was also apparent by the prolonged ret",
+   "summary_contains": "(APOE3 -> APOE4) -> (greater persistence of ApoE–Apoer2 association, interpreted as intracellular retention)",
+   "description_start": "After three hours of exposure, more ApoE4 than ApoE3 co-immu",
+   "set": {
+    "effect_size": "1.6x",
+    "effect_size_provenance": "supplement_only",
+    "p_value": "<0.01",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H2 P3.F7), adjusted by a second Claude check: The Fig. 2E source data print both isoform values for the Apoer2 co-immunoprecipitation, so the ratio replaces 'qualitative'. P stays ambiguous_panel (Fig. 2 image unreadable at 100x144 px). Verifier: The 1.6x (155.1/100.0 from Fig2E source data) is right, but the regenerated Fig. 2E is legible and shows a '**' bracket directly between E3 and E4, which the Fig. 2 legend keys as **p<0.01 (Student's t-test for E), so P is no longer ambiguous.",
+   "source": "elife-40048-fig2-data1.xlsx, sheet Fig2E: E3 108.7/84.6/106.7 (mean 100.0) vs E4 165.2/146.7/153.4 (mean 155.1); 155.1/100.0 = 1.6"
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H2",
+   "quote_start": "Increasing concentrations progressively restored normal surface recycl",
+   "summary_contains": "(NHE inhibition in ApoE4-treated neurons) -> (restored Apoer2 surface recycling)",
+   "description_start": "Increasing EMD87580 concentrations progressively restored su",
+   "set": {
+    "effect_size": "4.4x",
+    "effect_size_provenance": "supplement_only"
+   },
+   "reason": "Claude audit 11-19 (H2 P3.F8), confirmed by a second Claude check: Fig. 4C source data give the full dose response, so the maximal restoration can replace 'qualitative'. P is correctly left ambiguous: the 0-vs-3 uM mark in Fig. 4C is '****', which the Fig. 4 legend's key (*, **, ***) does not define.",
+   "source": "elife-40048-fig4-data1.xlsx, sheet Fig4C: 0 uM 20.1/27.4/25.3 (mean 24.3) vs 3 uM 102.4/115.3/105.7 (mean 107.8); 107.8/24.3 = 4.4. Fig. 4C image: brackets from the 0 bar with ** (0.3), *** (1) and **** (3)."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H2",
+   "quote_start": "Figure 4F and G show that the resulting increase of the endosomal pH r",
+   "summary_contains": "(proton-pump inhibition during EMD87580 treatment in ApoE4 neurons) -> (renewed Apoer2 trafficking impairment)",
+   "description_start": "Increasing bafilomycin concentrations reversed EMD87580-medi",
+   "set": {
+    "effect_size": "0.33x",
+    "effect_size_provenance": "supplement_only",
+    "p_value": "N/A",
+    "p_value_provenance": "not_found_in_source"
+   },
+   "reason": "Claude audit 11-19 (H2 P3.F9), adjusted by a second Claude check: Fig. 4G source data give both compared groups, so the ratio replaces 'qualitative'. P provenance is wrong: Fig. 4G is legible and every bracket is anchored on bar 1 (no ApoE4 control), not on the E4+EMD bar, so there is no P for the EMD-vs-EMD+bafilomycin comparison this row describes. Verifier: Fig4G source data give E4+EMD mean 100.3 and E4+EMD+Baf100 mean 33.3, so the fold in the row's direction (bafilomycin over EMD alone, a renewed impairment) is 0.33x, not 3.0x; the P correction is right, as every Fig. 4G bracket starts at the control bar.",
+   "source": "elife-40048-fig4-data1.xlsx, sheet Fig4G: E4+EMD 103.3/95.4/102.3 (mean 100.3) vs E4+EMD+Baf100 33.2/29.5/37.3 (mean 33.3); 100.3/33.3 = 3.0. Fig. 4G image: ***, ** and *** brackets all start at the leftmost control bar."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H2",
+   "quote_start": "EMD87580 and the NHE6-specific shRNAs completely restored Apoer2 and g",
+   "summary_contains": "(NHE inhibition in ApoE4-treated neurons) -> (restored surface GluN2B)",
+   "description_start": "EMD87580 restored surface GluN2B in ApoE4-treated primary ra",
+   "set": {
+    "effect_size": "3.9x",
+    "effect_size_provenance": "supplement_only",
+    "p_value_provenance": "not_found_in_source"
+   },
+   "reason": "Claude audit 11-19 (H2 P3.F10), confirmed by a second Claude check: Fig. 6D source data print both groups for surface GluN2B, so the ratio replaces 'qualitative'. P provenance is wrong: Fig. 6D is legible and its brackets run from C+R to E4+R and from C+R to E4+R+scramble; the EMD87580 bar carries no mark.",
+   "source": "elife-40048-fig6-data1.xlsx, sheet Fig6D (GluN2B): E4+R 26.4/17.3/28.5 (mean 24.1) vs E4+R+EMD87580 107.2/80.2/95.3 (mean 94.2); 94.2/24.1 = 3.9. Fig. 6D image: no asterisk over the EMD87580 bar."
+  },
+  {
+   "key": "pmid38217595",
+   "hyp": "H2",
+   "quote_start": "Quantification of these results revealed that the colocalization of IR",
+   "summary_contains": "(APOE3 -> APOE4) -> (greater insulin receptor colocalization with early endosomes in primary mouse neurons)",
+   "description_start": "Double immunofluorescence showed significantly greater insul",
+   "set": {
+    "effect_size": "1.3x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H2 P10.F10), confirmed by a second Claude check: The Results print both group M1 values (0.36 vs 0.28), so the effect must be the printed ratio, not a '~30%' read off the figure; 0.36/0.28 = 1.29.",
+   "source": "Results: 'colocalization of IR with early endosomes was significantly higher in APOE4 neurons (0.36+/-0.02, N = 34 from 4 different preparations) than in the APOE3 neurons (0.28+/-0.02, N = 48, from 4 different preparations, p < 0.05)'; Fig. 6A bar chart (InsulinR coloc Early Endosomes) shows ApoE3 ~0.28 and ApoE4 ~0.36 with a single star, consistent."
+  },
+  {
+   "key": "pmid38217595",
+   "hyp": "H2",
+   "quote_start": "Quantification of these results revealed that the colocalization of IR",
+   "summary_contains": "(APOE3 -> APOE4) -> (greater VEGFR colocalization with early endosomes in primary mouse neurons)",
+   "description_start": "Double immunofluorescence and confocal microscopy showed gre",
+   "set": {
+    "effect_size": "1.6x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H2 P10.F11), confirmed by a second Claude check: Both group values are printed (0.39 vs 0.24), so the figure estimate '~65%' should be the printed ratio 0.39/0.24 = 1.63. Note the Results give p < 0.01 for this comparison while the Fig. 6 legend prints p < 0.001; the row's <0.01 follows the quoted sentence.",
+   "source": "Results: 'colocalization of VEGFR with early endosomes which was higher in APOE4 neurons (0.39+/-0.03, N = 19 from 2 different preparations) than and in APOE3 neurons (0.24+/-0.02, N = 20, from 2 different preparations, p < 0.01)'; Fig. 6 legend: 'VEGFR (APOE3 = 0.24+/-0.02, APOE4 = 0.39+/-0.03, p < 0.001)'; Fig. 6B panel shows ApoE3 ~0.24, ApoE4 ~0.39 with '**'."
+  },
+  {
+   "key": "pmid38279679",
+   "hyp": "H4",
+   "quote_start": "The binding ability of apoE3-F-EP was 1.3-fold higher than that of apo",
+   "summary_contains": "(apoE3 -> apoE4) -> (no significant change in LRP1-associated cell-surface particle binding)",
+   "description_start": "Fig. 3A includes cells without heparinase. The authors repor",
+   "set": {
+    "sample_size": "~5",
+    "sample_size_provenance": "estimated_from_figure"
+   },
+   "reason": "Claude audit 11-19 (H4 P26.F1), adjusted by a second Claude check: Quote, 1.3x and the non-significance are all correct and printed. Only the sample-size provenance is wrong: the legend gives no n for this comparison (only 'duplicate determinations ... in at least three separate experiments'), which is not_found_in_source, not ambiguous_panel. Verifier: The legend does give sample information ('duplicate determinations ... in at least three separate experiments'), so not_found_in_source is wrong, and the full-size Fig. 3A shows five points in each apoE3 and apoE4 box (both heparinase arms), which gives a counted ~5.",
+   "source": "Fig. 3 legend: 'The values (obtained from duplicate determinations of each in at least three separate experiments for NC, apoE2-, apoE3, or apoE4-F-EP, or duplicate determinations in a single experiment for cells alone) were expressed relative to those obtained for the respective NC'; Results: 'The binding ability of apoE3-F-EP was 1.3-fold higher than that of apoE4-F-EP; however, the difference was not statistically significant.'"
+  },
+  {
+   "key": "pmid38279679",
+   "hyp": "H4",
+   "quote_start": "These differences among apoE isoforms were also observed under a ﬂuore",
+   "summary_contains": "(apoE3 -> apoE4) -> (qualitatively lower cell-associated particle fluorescence)",
+   "description_start": "Fluorescence microscopy reproduced the reported isoform-depe",
+   "set": {
+    "effect_size": "0.65x",
+    "effect_size_provenance": "printed_in_text",
+    "description": "Fluorescence microscopy of the same binding assay reproduced the isoform pattern, with relative fluorescence printed under the panels as 15.094 ± 1.787 for apoE3 versus 9.880 ± 1.090 for apoE4 (0.65x with apoE4, from 30 cells by ImageJ); the asterisks in the panel mark each apoE condition against control cells, and no apoE4-versus-apoE3 significance is given."
+   },
+   "reason": "Claude audit 11-19 (H4 P26.F2), adjusted by a second Claude check: Fig. 3B prints the relative fluorescence for each isoform, so the row should not stay qualitative: apoE3 15.094 and apoE4 9.880 give a 1.5x ratio. The *** key applies to the comparison with control cells, so the P value stays N/A for apoE3 versus apoE4. Verifier: Fig. 3B does print 15.094 (apoE3) and 9.880 (apoE4), but the paper states no fold for this panel, so by the brief's convention it is apoE4 over apoE3 = 0.65x, not 1.5x, and the description must match.",
+   "source": "Fig. 3B of the PDF page image: numbers under the four micrographs read '1.000 +/- 0.983' (without apoE), '4.438 +/- 0.438***' (apoE2), '15.094 +/- 1.787***' (apoE3), '9.880 +/- 1.090***' (apoE4); legend: 'The number below the images represents the relative fluorescence intensity compared with that in control cells, which was calculated from the results obtained for 30 cells by the IMAGE J analysis. ***, P < 0.001.'"
+  },
+  {
+   "key": "pmid39880097",
+   "hyp": "H3",
+   "quote_start": "This difference in aggregate size was confirmed by image analysis, rev",
+   "summary_contains": "(APOE3 -> APOE4) -> (larger LPS-induced APOE aggregate area)",
+   "description_start": "Image analysis of electron micrographs found a larger mean-c",
+   "set": {
+    "p_value": "<=0.01",
+    "p_value_provenance": "visual_only",
+    "effect_size": "~1.6x",
+    "effect_size_provenance": "estimated_from_figure"
+   },
+   "reason": "Claude audit 11-19 (H3 P12.F2), confirmed by a second Claude check: Fig. 6B is fully legible and carries a '**' bracket drawn directly between APOE3+LPS and APOE4+LPS - exactly this row's comparison - so a P is available via the legend's own key, and the two group means can be read off a zero-based axis. The row recorded no P and left the size qualitative.",
+   "source": "Fig. 6B (mean gray value/um, axis 0-60): APOE3+LPS mean ~28, APOE4+LPS mean ~45 (45/28 = 1.6), with a '**' bracket spanning those two groups; Fig. 6 legend key: '**p <= 0.01 and ***p <= 0.001'. (Note for the lane: four points are plotted per group in 6B, while the row's n = 3 comes from the Methods' three independent preparations.)"
+  },
+  {
+   "key": "pmid39880097",
+   "hyp": "H3",
+   "quote_start": "Furthermore, the data indicate that uptake by the cells was significan",
+   "summary_contains": "(APOE3 -> APOE4) -> (greater macrophage-associated uptake of APOE aggregates)",
+   "description_start": "Mouse macrophages took up significantly more Amytracker-stai",
+   "set": {
+    "p_value": "<0.05",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H3 P12.F6), adjusted by a second Claude check: The P value is not printed for this comparison. The text only says 'significantly more pronounced', and the '*p < 0.05' in the Fig. 8 legend is a whole-figure key; the Fig. 8 image supplied is 100x92 px, so no asterisk can be seen over the LPS-treated E3 vs LPS-treated E4 bars. printed_in_text is therefore unsupported. Verifier: The regenerated Fig. 8A is legible and has a single-asterisk bracket directly over APOE3+LPS versus APOE4+LPS, keyed *p<0.05 in the legend, so P is <0.05 visual_only (the row's printed_in_text is wrong, and the proposal's ambiguous_panel rested on the old thumbnail).",
+   "source": "Results: 'the data indicate that uptake by the cells was significantly more pronounced for the LPS-treated E4 isoform when compared with the LPS-treated E3 isoform (Fig. 8A)' - no number; Fig. 8 legend key: '*p < 0.05, **p < 0.01, and ns = not significant'."
+  },
+  {
+   "key": "doi_10_21203_rs_3_rs_82205_v1",
+   "hyp": "H2",
+   "quote_start": "A) Western blot analysis from neuronal culture treated with APOE 4 or ",
+   "summary_contains": "(APOE4 treatment -> APOE4 with Exo-1) -> (inhibition of APOE4-mediated surface LRP1 elevation)",
+   "description_start": "In APOE4-treated neurons, Exo-1 inhibition showed that the A",
+   "set": {
+    "data_location": "Supplementary Fig 3A and 3C (surface/total LRP1); 3B is total LRP1/actin",
+    "effect_size": "~0.67x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.01",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H2 P11.F1), adjusted by a second Claude check: Quote verbatim, but the panels can be assigned: in the preprint PDF Supplementary Fig 3B is T.LRP1/actin (n.s) and 3C is S.LRP1/T.LRP1, which carries '**' over the only comparison in the panel. 'full_text_unavailable' was wrong - the preprint PDF contains the panel. Verifier: Full-size Supp Fig 3C (PDF p.23) shows APOE4 ~28,800 vs APOE4+Exo-1 ~19,300 with '**' over the only pair (legend n=3, **P<0.01), but by the brief's direction convention (Exo-1 over APOE4, a decrease) the fold is ~0.67x, not ~1.5x.",
+   "source": "Supplementary Fig 3 (PDF p.23): panel C, axis 0-40000 in steps of 10000, APOE4 ~29,000 vs APOE4+Exo-1 ~19,500 (~1.5x), '**' above the pair; legend: 'n=3 unpaired Student's t-test, mean +/- SEM. *P<0.05 and **P<0.01.'"
+  },
+  {
+   "key": "doi_10_21203_rs_3_rs_82205_v1",
+   "hyp": "H2",
+   "quote_start": "D) Western blot analysis from neuronal culture treated with APOE2/4 or",
+   "summary_contains": "(APOE2 plus APOE4 -> APOE2 plus APOE4 with dynasore) -> (inhibition of APOE2-mediated surface LRP1 reduction)",
+   "description_start": "In neurons receiving APOE2 and APOE4, the dynasore experimen",
+   "set": {
+    "data_location": "Supplementary Fig 3D and 3F (surface/total LRP1); 3E is total LRP1/actin",
+    "effect_size": "~1.4x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.05",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H2 P11.F2), confirmed by a second Claude check: Quote verbatim and direction right (dynasore raises surface LRP1, i.e. blocks the APOE2-driven reduction); panels E and F are separable in the PDF and F carries '*' over this comparison.",
+   "source": "Supplementary Fig 3 (PDF p.23): panel F, axis 0-30000 in steps of 10000, APOE2/4 ~16,800 vs APOE2/4+Dyna ~23,000 (~1.4x), '*' above the pair; legend key '*P<0.05'."
+  },
+  {
+   "key": "doi_10_21203_rs_3_rs_82205_v1",
+   "hyp": "H2",
+   "quote_start": "However, APOE4 in the presence of GPC-4 shRNA showed a significant red",
+   "summary_contains": "(APOE4 alone -> APOE4 with GPC-4 shRNA) -> (lower neuronal surface LRP1)",
+   "description_start": "With APOE4 held constant, GPC-4 knockdown significantly redu",
+   "set": {
+    "effect_size": "~0.62x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.01",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H2 P11.F3), adjusted by a second Claude check: Quote verbatim, Fig 4J is the right panel and n=3-5 matches the legend; the panel shows '**' over exactly the APOE4 vs APOE4+GPC-4 shRNA comparison, so P should not be N/A. Verifier: Fig 4J (PDF p.36) shows APOE4 ~18,800 vs APOE4+GPC-4 shRNA ~11,600 with '**' on the APOE4-to-shRNA bracket (legend n=3-5, **P<0.01), but the shRNA-over-APOE4 fold is ~0.62x, not ~1.6x.",
+   "source": "Fig 4J (PDF p.36), axis 0-25000 in steps of 5000: Control ~2,000, APOE4 ~18,800, APOE4+GPC-4 shRNA ~11,600 (~1.6x reduction); '****' over Control-APOE4 and '**' over APOE4-APOE4+shRNA; Fig 4 legend: 'n=3-5, one-way ANOVA ... **P<0.01 and ****P<0.0001.'"
+  },
+  {
+   "key": "pmid12393895",
+   "hyp": "H3",
+   "quote_start": "The concentration of urea at which the folding intermediate was at max",
+   "summary_contains": "(APOE3 -> APOE4) -> (lower urea concentration for maximal intermediate formation and higher maximal intermediate fraction)",
+   "description_start": "At pH 4.0, three-state modeling placed the maximum intermedi",
+   "set": {
+    "effect_size": "durea=1.0",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P2.F1), confirmed by a second Claude check: Quote verbatim and correctly read (the paper's own three-state fit); the text prints both group values, so the row should not stay qualitative.",
+   "source": "Results p.3: 'The concentration of urea at which the folding intermediate was at maximum concentration was 3.75 M for the apoE4 22-kDa fragment (90%) and 4.75 M for the apoE3 fragment (80%)' - apoE4 peaks 1.0 M urea lower (intermediate ~90% vs ~80%)."
+  },
+  {
+   "key": "pmid12393895",
+   "hyp": "H3",
+   "quote_start": "The midpoints of denaturation for the 22-kDa fragments of apoE3 and ap",
+   "summary_contains": "(APOE3 -> APOE4) -> (lower urea concentration required for unfolding at pH 7.4)",
+   "description_start": "Urea denaturation of recombinant human apoE amino-terminal d",
+   "set": {
+    "effect_size": "durea=0.9",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Claude audit 11-19 (H3 P2.F6), confirmed by a second Claude check: Quote verbatim and midpoints correctly attributed (apoE3 5.2 M, apoE4 4.3 M); since the text prints both values the row should carry the difference rather than 'qualitative'.",
+   "source": "Results: 'The midpoints of denaturation for the 22-kDa fragments of apoE3 and apoE4 were 5.2 and 4.3 M urea, respectively ... (Fig. 1A)' - apoE4 unfolds at 0.9 M less urea."
+  },
+  {
+   "key": "pmid20547867",
+   "hyp": "H4",
+   "quote_start": "Whereas ApoE2 (lane 2) and ApoE3 (lane 3) did not reduce surface expre",
+   "summary_contains": "(ApoE3 -> ApoE4) -> (lower neuronal surface Apoer2)",
+   "description_start": "After 15 minutes of human ApoE treatment, primary mouse cort",
+   "set": {
+    "effect_size": "~0.77x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.05",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P8.F1), adjusted by a second Claude check: Quote, 15 min / 3 ug/ml treatment and n = 4 are all correct; Fig 1B is readable, so the ApoE3 vs ApoE4 bar ratio and the bracketed star over exactly this pair can be given. Verifier: Fig 1B reads ApoE3 ~83 vs ApoE4 ~64 with a '*' bracket directly from ApoE3 to ApoE4 (key *P<0.05), so the P is right, but ApoE4 over ApoE3 is ~0.77x, not ~1.3x.",
+   "source": "Fig 1B bar chart (axis 0/50/100/150): control 100, ApoE2 ~115, ApoE3 ~84, ApoE4 ~65 (~1.3x lower with ApoE4); a single '*' sits on the bracket spanning the ApoE3 and ApoE4 bars, legend key '*P < 0.05'."
+  },
+  {
+   "key": "pmid20547867",
+   "hyp": "H4",
+   "quote_start": "ApoE3 was marginally, but not significantly, more effective than ApoE2",
+   "summary_contains": "(ApoE3 -> ApoE4, with Reelin) -> (lower neuronal surface Apoer2)",
+   "description_start": "During Reelin costimulation, human ApoE4 produced a greater ",
+   "set": {
+    "effect_size": "~0.5x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.01",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P8.F2), adjusted by a second Claude check: Quote verbatim and direction right; P was marked ambiguous_panel, but Fig 1C shows a '**' bracket between ApoE3+R and ApoE4+R, and the legend states brackets mark differences between treatments. Verifier: Fig 1C reads ApoE3+R ~51 vs ApoE4+R ~25 with '**' on the ApoE3+R-to-ApoE4+R bracket (legend: asterisks on brackets = between treatments, **P<0.01), but the fold in the row's direction is ~0.5x, not ~2x.",
+   "source": "Fig 1C (axis 0-120 in steps of 20): control+R 100, ApoE2+R ~60, ApoE3+R ~50, ApoE4+R ~25 (~2x lower with ApoE4); '**' on the ApoE3+R-to-ApoE4+R bracket, legend '** P < 0.01 ... Asterisks on brackets indicates significant difference between treatments.'"
+  },
+  {
+   "key": "pmid20547867",
+   "hyp": "H4",
+   "quote_start": "All ApoE isoforms ( Fig. 1 C , lanes 2–4) significantly decreased surf",
+   "summary_contains": "(no added ApoE -> ApoE4, with Reelin) -> (lower neuronal surface Apoer2)",
+   "description_start": "Adding human ApoE4 during Reelin stimulation significantly r",
+   "set": {
+    "effect_size": "~0.25x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.001",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P8.F3), adjusted by a second Claude check: Quote verbatim and the control+R vs ApoE4+R comparison is the one the legend's column asterisks encode, so the p and the bar ratio can be read off Fig 1C. Verifier: '***' sits above the ApoE4+R column and the legend says column asterisks are versus control (***P<0.001); control+R 100 vs ApoE4+R ~25 is ~0.25x in the row's direction, not ~4x.",
+   "source": "Fig 1C: '***' sits above the ApoE4+R column; legend: 'Asterisks above individual columns indicate significant difference compared with control. ... *** P < 0.001'. Bars: control+R 100 vs ApoE4+R ~25 = ~4x."
+  },
+  {
+   "key": "pmid20547867",
+   "hyp": "H4",
+   "quote_start": "ApoE4 reduces GluA1, GluA2/3, and GluN2B cell-surface levels in acutel",
+   "summary_contains": "(ApoE3 -> ApoE4, with Reelin) -> (lower neuronal surface GluN2B)",
+   "description_start": "In acutely Reelin-stimulated primary mouse cortical neurons,",
+   "set": {
+    "data_location": "Fig 2I, GluN2B bar group (blots in Fig 2H)",
+    "effect_size": "~0.28x",
+    "effect_size_provenance": "estimated_from_figure"
+   },
+   "reason": "Claude audit 11-19 (H4 P8.F5), adjusted by a second Claude check: Quote verbatim from the Fig 2 legend; the figure image resolves the ambiguity the row flags - H holds the blots and I the per-subunit quantification - and the GluN2B bars give the ApoE3 vs ApoE4 ratio. Verifier: Fig 2H holds the blots and 2I the per-subunit bars (no stars, no error bars, so P stays N/A); the GluN2B group reads E3 ~65 vs E4 ~18, which is ~0.28x in the row's direction, not ~3.5x.",
+   "source": "Fig 2 image: panel H = surface/total blots for GluA1, GluA2/3, GluN2B (lanes C, E2, E3, E4); panel I = bar chart standardized to control, GluN2B group Control 100, E2 ~95, E3 ~66, E4 ~19 (~3.5x lower with ApoE4). No stars in panel I, so P stays N/A."
+  },
+  {
+   "key": "pmid21219628",
+   "hyp": "H4",
+   "quote_start": "Among the three isoforms, apoE4-(72-166)-DMPC complex decreased the 3H",
+   "summary_contains": "(apoE3-(72-166)-DMPC -> apoE4-(72-166)-DMPC) -> (greater competition for LDLR binding)",
+   "description_start": "In human HepG2 cells, DMPC-complexed apoE4-(72-166) reduced ",
+   "set": {},
+   "reason": "Claude audit 11-19 (H4 P29.F1), confirmed by a second Claude check: The quoted apoE3 and apoE4 numbers are not this paper's result: the Figure S3 legend states that the apoE3 and apoE4 bars are taken from the authors' earlier publication [22], and Results say 'In our previous study, we have evaluated the LDLR binding ability of apoE3-(72-166) and apoE4-(72-166) [22]. Here we further analyzed ... apoE2'. The row's whole effect size (2.12x = 55%/26%) therefore rests on reproduced data from another paper, which is exactly what manual inspection is meant to catch.",
+   "source": "Additional file 1, Figure S3 legend: 'LDLR binding assay ... Bar 4-9 showed apoE-(72-166) peptides only or apoE-(72-166)-DMPC as competitors. Data of apoE3 and apoE4 (Bar 5-6 and 8-9) are from [22].' Results: 'Among the three isoforms, apoE4-(72-166)-DMPC complex decreased the 3H-LDL binding by 55%, comparing with 19% for apoE2-(72-166)-DMPC and 26% for apoE3-(72-166)-DMPC.'",
+   "drop": true
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "quote_start": "While Apoer2 quickly recycled in the presence of ApoE3, its reappearan",
+   "summary_contains": "(apoE3 -> apoE4) -> (lower surface Apoer2; delayed receptor recycling)",
+   "description_start": "Human ApoE4 reduced surface Apoer2 more than ApoE3 after Ree",
+   "set": {
+    "data_location": "Fig 2B; supplementary file elife-40048-fig2-data1.xlsx, sheet Fig2C, Apoer2 E3+R versus E4+R",
+    "effect_size": "0.35x",
+    "effect_size_provenance": "supplement_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P5.F1), adjusted by a second Claude check: Quote, direction, panel and n = 3 all check out; the row was left qualitative although the paper's own source data give both group means, so the ratio is now stated. Verifier: Source data sheet Fig2C (Apoer2) give E3+R 82.1/73.6/76.3 (mean 77.3) and E4+R 32.4/27.6/20.3 (mean 26.8), so ApoE4 over ApoE3 is 0.35x, not 2.9x; Fig 2C's '*' and '***' brackets both start at C+R (Dunnett vs control), so P stays N/A.",
+   "source": "Figure 2 source data, sheet Fig2C, row Apoer2: E3+R 82.1/73.6/76.3 (mean 77.3) vs E4+R 32.4/27.6/20.3 (mean 26.8) = 2.9x lower surface/total Apoer2 with ApoE4."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "quote_start": "Apoer2 surface levels show a higher reduction with ApoE4 than ApoE3.",
+   "summary_contains": "(apoE3 -> apoE4) -> (lower surface-to-total Apoer2 ratio)",
+   "description_start": "Surface-to-total receptor quantification showed lower Apoer2",
+   "set": {
+    "data_location": "Fig 2C; supplementary file elife-40048-fig2-data1.xlsx, sheet Fig2C, Apoer2 E3+R versus E4+R",
+    "effect_size": "0.35x",
+    "effect_size_provenance": "supplement_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P5.F2), adjusted by a second Claude check: Quote is verbatim in the Figure 2 legend and is the paper's own result; this is the quantification panel, so the printed source-data values replace 'qualitative'. Verifier: Same Fig2C source data: E3+R mean 77.3 vs E4+R mean 26.8 gives 0.35x in the row's direction, not 2.9x; no E3-vs-E4 star in Fig 2C, so P stays N/A.",
+   "source": "Fig 2 legend: 'Apoer2 surface levels show a higher reduction with ApoE4 than ApoE3.' Sheet Fig2C: E3+R mean 77.3 vs E4+R mean 26.8 = 2.9x."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "quote_start": "The delayed recycling of Apoer2 was also apparent by the prolonged ret",
+   "summary_contains": "(apoE3 -> apoE4) -> (greater retained ApoE–Apoer2 association)",
+   "description_start": "After three hours of neuronal exposure, more ApoE4 than ApoE",
+   "set": {
+    "data_location": "Fig 2D; supplementary file elife-40048-fig2-data1.xlsx, sheet Fig2E, E3 versus E4",
+    "effect_size": "1.6x",
+    "effect_size_provenance": "supplement_only",
+    "p_value": "<0.01",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P5.F3), adjusted by a second Claude check: Quote verbatim and system correct (5 ug/ml, 3 h, anti-Apoer2 co-IP); the paired quantification (Fig 2E) is in the source data, so the fold difference is now given. Verifier: The 1.6x (E4 mean 155.1 vs E3 mean 100.0, sheet Fig2E) is right, and Fig 2E also shows a '**' bracket directly between E3 and E4, keyed **p<0.01 (Student's t-test for E) in the legend, so P can be filled.",
+   "source": "Sheet Fig2E: E3 108.7/84.6/106.7 (mean 100.0) vs E4 165.2/146.7/153.4 (mean 155.1) = 1.6x more ApoE retained with ApoE4."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "quote_start": "As shown in Figure 4D and E, physiological concentrations of ApoE3 (5 ",
+   "summary_contains": "(apoE3 -> apoE4) -> (greater Apoer2 recycling impairment)",
+   "description_start": "Without EMD87580, ApoE4 caused greater Apoer2 recycling impa",
+   "set": {
+    "data_location": "Fig 4D; supplementary file elife-40048-fig4-data1.xlsx, sheet Fig4E, EMD87580 0 uM, E3+R versus E4+R",
+    "effect_size": "0.34x",
+    "effect_size_provenance": "supplement_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P5.F4), adjusted by a second Claude check: Quote verbatim and supports the description; the no-drug ApoE3 vs ApoE4 comparison is quantified in the Fig 4E source data. Verifier: Sheet Fig4E at 0 uM gives E3+R mean 76.1 vs E4+R mean 26.1, so the fold is 0.34x, not 2.9x; the '*' and '***' at 0 uM in Fig 4E are marks against Con, so P stays N/A.",
+   "source": "Sheet Fig4E at 0 uM EMD87580: E3+R 86.1/72.7/69.4 (mean 76.1) vs E4+R 22.6/30.7/25.1 (mean 26.1) = 2.9x."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "quote_start": "Figure 5A–D shows that of all NHEs (1 and 5 through 9) that were targe",
+   "summary_contains": "(NHE6 knockdown with apoE4 present) -> (restored surface Apoer2)",
+   "description_start": "The first NHE6-targeting shRNA restored Apoer2 surface expre",
+   "set": {
+    "effect_size": "3.7x",
+    "effect_size_provenance": "supplement_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P5.F10), confirmed by a second Claude check: Quote verbatim and the shNHE6(1) columns are in the cited sheet, so the restoration can be quantified instead of left qualitative; no star marks this cross-pair comparison, so P stays N/A.",
+   "source": "Sheet Fig5D: E4+R 32.1/22.6/27.4 (mean 27.4) vs E4+R+shNHE6(1) 104.8/98.2/102.5 (mean 101.8) = 3.7x restoration. Fig 5D image: the *** brackets are within C+R/E4+R pairs, none over E4+R vs E4+R+shNHE6."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "quote_start": "ApoE-conditioned media treatment reduces the surface expression of Apo",
+   "summary_contains": "(no added apoE4 -> added apoE4) -> (lower surface Apoer2)",
+   "description_start": "Adding human ApoE4 reduced Reelin-associated surface Apoer2 ",
+   "set": {
+    "data_location": "Fig 2B-C (lanes 1 and 3); supplementary file elife-40048-fig2-data1.xlsx, sheet Fig2C, Apoer2 C+R versus E4+R",
+    "effect_size": "0.27x",
+    "effect_size_provenance": "supplement_only",
+    "p_value": "<0.001",
+    "p_value_provenance": "visual_only",
+    "system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; Fig 2B lane 1 (Reelin alone) versus lane 3 (human cell-secreted ApoE4 then Reelin); ApoE pretreatment 1 h per Results, 30 min per Fig 2A and Methods, followed by 30 min Reelin; surface biotinylation followed by surface/total Apoer2 immunoblotting. Standard Methods concentrations: ApoE4 5 µg/ml and Reelin 2 µg/ml."
+   },
+   "reason": "Claude audit 11-19 (H4 P5.F11), adjusted by a second Claude check: Finding is supported, but the quote is taken from the Figure 2 legend while the row cites Fig 4B; the Fig 4C source data quantify this exact lane pair, so the value and location are made explicit. Verifier: The quote is the Fig 2 legend sentence about Fig 2B-C, not Fig 4; Fig 4's legend has no matching sentence, so the location should follow the quote: sheet Fig2C (Apoer2) gives C+R mean 100.0 vs E4+R mean 26.8 = 0.27x, and Fig 2C shows '***' on the C+R-to-E4+R bracket.",
+   "source": "Sheet Fig4C: Con 103.1/96.9/99.7 (mean 99.9) vs 0 uM (ApoE4) 20.1/27.4/25.3 (mean 24.3) = 4.1x."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "quote_start": "(A and C) shRNA knockdown of NHE6, but not other NHEs (NHE1, 5, 7, 8, ",
+   "summary_contains": "(no added apoE4 -> added apoE4) -> (lower surface Apoer2)",
+   "description_start": "In the control condition without NHE knockdown, ApoE4 additi",
+   "set": {
+    "effect_size": "0.26x",
+    "effect_size_provenance": "supplement_only",
+    "p_value": "<0.001",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P5.F12), adjusted by a second Claude check: Panel and n are right; the cited sheet gives both group means and Fig 5B carries a visible *** bracket over exactly this C+R vs E4+R pair (legend key ***p<0.001, Student's t-test). Verifier: Sheet Fig5B gives C+R mean 99.9 vs E4+R mean 26.3, so the fold is 0.26x, not 3.8x; the '***' bracket over C+R vs E4+R in Fig 5B (key ***p<0.001) is right.",
+   "source": "Sheet Fig5B: C+R mean 99.9 vs E4+R mean 26.3 = 3.8x. Fig 5B image: leftmost bracket with *** spans the C+R and E4+R bars."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "quote_start": "N/A",
+   "summary_contains": "(no added apoE4 -> added apoE4) -> (lower surface-to-total Apoer2)",
+   "description_start": "The supplementary surface-Apoer2 measurements were lower wit",
+   "set": {
+    "effect_size": "0.26x",
+    "effect_size_provenance": "supplement_only",
+    "p_value": "<0.001",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P5.F13), adjusted by a second Claude check: Row correctly flags supplement-only data; the three raw values per group give the ratio, and the *** bracket over this pair in Fig 5B supplies the p. Verifier: Sheet Fig5B C+R 105.5/96.9/97.4 vs E4+R 21.3/30.5/27.1 gives 0.26x in the row's direction, not 3.8x; the *** bracket over this pair is right.",
+   "source": "Sheet Fig5B: C+R 105.5/96.9/97.4 vs E4+R 21.3/30.5/27.1 = 3.8x. Fig 5B image: *** bracket over C+R vs E4+R; Fig 5 legend key ***p<0.001."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "quote_start": "N/A",
+   "summary_contains": "(no added apoE4 -> added apoE4) -> (lower surface-to-total Apoer2)",
+   "description_start": "Quantified surface Apoer2 was lower with ApoE4 plus Reelin t",
+   "set": {
+    "effect_size": "0.27x",
+    "effect_size_provenance": "supplement_only",
+    "p_value": "<0.001",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P5.F14), adjusted by a second Claude check: Same correction for the Fig 5D no-knockdown pair: ratio from the cited sheet, p from the visible *** bracket over this comparison. Verifier: Sheet Fig5D C+R mean 100.1 vs E4+R mean 27.4 gives 0.27x, not 3.7x; the leftmost *** bracket in Fig 5D spans exactly C+R and E4+R.",
+   "source": "Sheet Fig5D: C+R 105.1/96.6/98.5 (mean 100.1) vs E4+R 32.1/22.6/27.4 (mean 27.4) = 3.7x. Fig 5D image: leftmost *** bracket spans C+R and E4+R."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "quote_start": "N/A",
+   "summary_contains": "(no added apoE4 -> added apoE4) -> (lower surface Apoer2)",
+   "description_start": "Adding ApoE4 reduced neuronal surface Apoer2 relative to the",
+   "set": {
+    "data_location": "Fig 6B, Apoer2 blot, lanes 1 and 2; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6C, C+R versus E4+R",
+    "effect_size": "0.25x",
+    "effect_size_provenance": "supplement_only",
+    "p_value": "<0.001",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P5.F15), adjusted by a second Claude check: Correct lanes and direction; the matching quantification (Fig 6C) is in the source data and carries a visible *** bracket over C+R vs E4+R. Verifier: Sheet Fig6C C+R mean 100.0 vs E4+R mean 24.7 gives 0.25x, not 4.0x; Fig 6C shows *** on the C+R-to-E4+R bracket.",
+   "source": "Sheet Fig6C: C+R mean 100.0 vs E4+R 29.4/19.3/25.5 (mean 24.7) = 4.0x. Fig 6C image: *** bracket from bar 1 (C+R) to bar 2 (E4+R); Fig 6 legend key ***p<0.001."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "quote_start": "N/A",
+   "summary_contains": "(no added apoE4 -> added apoE4, scrambled shRNA) -> (lower surface Apoer2)",
+   "description_start": "In scrambled-shRNA neurons, ApoE4 addition retained the redu",
+   "set": {
+    "data_location": "Fig 6B, Apoer2 blot, lanes 4 and 5; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6C, R+scramble versus E4+R+scramble",
+    "effect_size": "0.24x",
+    "effect_size_provenance": "supplement_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P5.F16), adjusted by a second Claude check: Lanes and direction are right and the scramble columns are in the Fig 6C sheet; P stays N/A because the second *** bracket runs from C+R to E4+R+scramble, not between the two scramble bars. Verifier: Sheet Fig6C R+scramble mean 97.7 vs E4+R+scramble mean 23.7 gives 0.24x, not 4.1x; P correctly stays N/A because the long *** bracket starts at C+R.",
+   "source": "Sheet Fig6C: R+scramble mean 97.7 vs E4+R+scramble 20.1/22.5/28.6 (mean 23.7) = 4.1x. Fig 6C image: long *** bracket starts at bar 1 (C+R)."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "quote_start": "N/A",
+   "summary_contains": "(no added apoE4 -> added apoE4) -> (lower surface-to-total Apoer2)",
+   "description_start": "Quantification showed lower surface Apoer2 after ApoE4 addit",
+   "set": {
+    "data_location": "Fig 6C; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6C, C+R versus E4+R",
+    "effect_size": "0.25x",
+    "effect_size_provenance": "supplement_only",
+    "p_value": "<0.001",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P5.F17), adjusted by a second Claude check: This is the Apoer2 quantification panel, so the source-data ratio and the visible *** over this exact pair replace 'qualitative' and N/A. Verifier: Same Fig6C pair as the lanes 1-2 row: C+R 100.0 vs E4+R 24.7 = 0.25x, not 4.0x; the *** bracket over this pair is right.",
+   "source": "Sheet Fig6C: C+R mean 100.0 vs E4+R mean 24.7 = 4.0x; Fig 6C image shows *** over the C+R/E4+R bracket."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "quote_start": "EMD87580 and the NHE6-specific shRNAs completely restored Apoer2 and g",
+   "summary_contains": "(NHE inhibition with apoE4 present) -> (restored surface GluN2B)",
+   "description_start": "EMD87580 restored surface GluN2B in ApoE4-treated neurons in",
+   "set": {
+    "data_location": "Fig 6D, EMD87580 comparison; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6D, E4+R versus E4+R+EMD87580",
+    "effect_size": "3.9x",
+    "effect_size_provenance": "supplement_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P5.F18), confirmed by a second Claude check: Quote and panel are right (GluN2B is Fig 6D); the rescue can be quantified from the sheet. No star marks E4+R vs E4+R+EMD87580, so P stays N/A.",
+   "source": "Sheet Fig6D: E4+R mean 24.1 vs E4+R+EMD87580 107.2/80.2/95.3 (mean 94.2) = 3.9x. Fig 6D image: brackets run from C+R only."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "quote_start": "N/A",
+   "summary_contains": "(no added apoE4 -> added apoE4) -> (lower surface GluN2B)",
+   "description_start": "Adding ApoE4 reduced surface GluN2B-containing NMDA receptor",
+   "set": {
+    "data_location": "Fig 6B, GluN2B blot, lanes 1 and 2; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6D, C+R versus E4+R",
+    "effect_size": "0.24x",
+    "effect_size_provenance": "supplement_only",
+    "p_value": "<0.001",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P5.F19), adjusted by a second Claude check: Lanes, subunit and direction check out; Fig 6D quantifies these lanes and shows *** over C+R vs E4+R. Verifier: Sheet Fig6D C+R mean 99.3 vs E4+R mean 24.1 gives 0.24x, not 4.1x; Fig 6D shows *** on the C+R-to-E4+R bracket.",
+   "source": "Sheet Fig6D: C+R 108.2/92.2/97.6 (mean 99.3) vs E4+R 26.4/17.3/28.5 (mean 24.1) = 4.1x."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "quote_start": "N/A",
+   "summary_contains": "(no added apoE4 -> added apoE4) -> (lower surface GluA1)",
+   "description_start": "Adding ApoE4 reduced surface GluA1-containing AMPA receptors",
+   "set": {
+    "data_location": "Fig 6B, GluA1 blot, lanes 1 and 2; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6E, C+R versus E4+R",
+    "effect_size": "0.29x",
+    "effect_size_provenance": "supplement_only",
+    "p_value": "<0.001",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P5.F20), adjusted by a second Claude check: Correct lanes and subunit; Fig 6E is the GluA1 quantification and shows *** over C+R vs E4+R. Verifier: Sheet Fig6E C+R mean 100.0 vs E4+R mean 29.1 gives 0.29x, not 3.4x; Fig 6E shows *** on the C+R-to-E4+R bracket.",
+   "source": "Sheet Fig6E: C+R mean 100.0 vs E4+R 32.6/25.9/28.9 (mean 29.1) = 3.4x."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "quote_start": "N/A",
+   "summary_contains": "(no added apoE4 -> added apoE4) -> (lower surface GluA2/3)",
+   "description_start": "Adding ApoE4 reduced surface GluA2/3-containing AMPA recepto",
+   "set": {
+    "data_location": "Fig 6B, GluA2/3 blot, lanes 1 and 2; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6F, C+R versus E4+R",
+    "effect_size": "0.27x",
+    "effect_size_provenance": "supplement_only",
+    "p_value": "<0.001",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P5.F21), adjusted by a second Claude check: Correct lanes and subunit; Fig 6F is the GluA2/3 quantification and shows *** over C+R vs E4+R. Verifier: Sheet Fig6F C+R mean 100.0 vs E4+R mean 27.5 gives 0.27x, not 3.6x; Fig 6F shows *** on the C+R-to-E4+R bracket.",
+   "source": "Sheet Fig6F: C+R mean 100.0 vs E4+R 27.4/33.1/21.9 (mean 27.5) = 3.6x."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "quote_start": "N/A",
+   "summary_contains": "(no added apoE4 -> added apoE4, scrambled shRNA) -> (lower surface GluN2B)",
+   "description_start": "In scrambled-shRNA neurons, ApoE4 addition retained the redu",
+   "set": {
+    "data_location": "Fig 6B, GluN2B blot, lanes 4 and 5; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6D, R+scramble versus E4+R+scramble",
+    "effect_size": "0.24x",
+    "effect_size_provenance": "supplement_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P5.F22), adjusted by a second Claude check: Scramble lanes and direction are right; ratio added from the sheet. P stays N/A: the long *** bracket is C+R vs E4+R+scramble, not scramble vs scramble. Verifier: Sheet Fig6D R+scramble mean 96.3 vs E4+R+scramble mean 23.3 gives 0.24x, not 4.1x; P stays N/A (no scramble-vs-scramble mark).",
+   "source": "Sheet Fig6D: R+scramble mean 96.3 vs E4+R+scramble 18.5/21.7/29.6 (mean 23.3) = 4.1x."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "quote_start": "N/A",
+   "summary_contains": "(no added apoE4 -> added apoE4, scrambled shRNA) -> (lower surface GluA1)",
+   "description_start": "In scrambled-shRNA neurons, ApoE4 addition retained the redu",
+   "set": {
+    "data_location": "Fig 6B, GluA1 blot, lanes 4 and 5; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6E, R+scramble versus E4+R+scramble",
+    "effect_size": "0.23x",
+    "effect_size_provenance": "supplement_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P5.F23), adjusted by a second Claude check: Scramble lanes correct for GluA1; ratio added from the Fig 6E sheet. Verifier: Sheet Fig6E R+scramble mean 98.6 vs E4+R+scramble mean 22.9 gives 0.23x, not 4.3x; no star marks this pair, so P stays N/A.",
+   "source": "Sheet Fig6E: R+scramble mean 98.6 vs E4+R+scramble 18.5/22.7/27.6 (mean 22.9) = 4.3x."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "quote_start": "N/A",
+   "summary_contains": "(no added apoE4 -> added apoE4, scrambled shRNA) -> (lower surface GluA2/3)",
+   "description_start": "In scrambled-shRNA neurons, ApoE4 addition retained the redu",
+   "set": {
+    "data_location": "Fig 6B, GluA2/3 blot, lanes 4 and 5; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6F, R+scramble versus E4+R+scramble",
+    "effect_size": "0.27x",
+    "effect_size_provenance": "supplement_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P5.F24), adjusted by a second Claude check: Scramble lanes correct for GluA2/3; ratio added from the Fig 6F sheet. Verifier: Sheet Fig6F R+scramble mean 99.6 vs E4+R+scramble mean 26.7 gives 0.27x, not 3.7x; no star marks this pair, so P stays N/A.",
+   "source": "Sheet Fig6F: R+scramble mean 99.6 vs E4+R+scramble 33.7/19.8/26.6 (mean 26.7) = 3.7x."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "quote_start": "N/A",
+   "summary_contains": "(no added apoE4 -> added apoE4) -> (lower surface-to-total GluN2B)",
+   "description_start": "Quantification showed lower surface GluN2B after ApoE4 addit",
+   "set": {
+    "data_location": "Fig 6D; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6D, C+R versus E4+R",
+    "effect_size": "0.24x",
+    "effect_size_provenance": "supplement_only",
+    "p_value": "<0.001",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P5.F25), adjusted by a second Claude check: GluN2B quantification panel: source-data ratio and the visible *** over this pair replace 'qualitative' and N/A. Verifier: Sheet Fig6D C+R mean 99.3 vs E4+R mean 24.1 gives 0.24x, not 4.1x; the *** bracket over this pair is right.",
+   "source": "Sheet Fig6D: C+R mean 99.3 vs E4+R mean 24.1 = 4.1x; Fig 6D image shows *** over the C+R/E4+R bracket."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "quote_start": "N/A",
+   "summary_contains": "(no added apoE4 -> added apoE4) -> (lower surface-to-total GluA1)",
+   "description_start": "Quantification showed lower surface GluA1 after ApoE4 additi",
+   "set": {
+    "data_location": "Fig 6E; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6E, C+R versus E4+R",
+    "effect_size": "0.29x",
+    "effect_size_provenance": "supplement_only",
+    "p_value": "<0.001",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P5.F26), adjusted by a second Claude check: GluA1 quantification panel: ratio from the sheet, p from the visible *** bracket. Verifier: Sheet Fig6E C+R mean 100.0 vs E4+R mean 29.1 gives 0.29x, not 3.4x; the *** bracket over this pair is right.",
+   "source": "Sheet Fig6E: C+R mean 100.0 vs E4+R mean 29.1 = 3.4x."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "quote_start": "N/A",
+   "summary_contains": "(no added apoE4 -> added apoE4) -> (lower surface-to-total GluA2/3)",
+   "description_start": "Quantification showed lower surface GluA2/3 after ApoE4 addi",
+   "set": {
+    "data_location": "Fig 6F; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6F, C+R versus E4+R",
+    "effect_size": "0.27x",
+    "effect_size_provenance": "supplement_only",
+    "p_value": "<0.001",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "Claude audit 11-19 (H4 P5.F27), adjusted by a second Claude check: GluA2/3 quantification panel: ratio from the sheet, p from the visible *** bracket. Verifier: Sheet Fig6F C+R mean 100.0 vs E4+R mean 27.5 gives 0.27x, not 3.6x; the *** bracket over this pair is right.",
+   "source": "Sheet Fig6F: C+R mean 100.0 vs E4+R mean 27.5 = 3.6x."
+  },
+  {
+   "key": "pmid30741718",
+   "hyp": "H3",
+   "quote_start": "Insoluble apoE amounts in the GDN-HCl fraction were higher in APP/PS1;",
+   "summary_contains": "(APOE3 -> APOE4; neuronal LRP1 intact) -> (higher insoluble hippocampal apoE)",
+   "description_start": "Among neuronal LRP1-intact APP/PS1 mice at 9 months, APOE4 m",
+   "set": {
+    "directness_class": 3,
+    "directness_strength": "3"
+   },
+   "reason": "Claude audit 11-19 (H3 P26.F1), adjusted by a second Claude check: Quote, panel (Fig 3I), direction and n = 18-23 are all correct, but directness class 1 is wrong for H3: this is guanidine-insoluble apoE in whole hippocampus of 9-month-old APP/PS1 amyloid-model mice, not endo-lysosomal aggregation in non-AD, non-aged human brain cells. The row's own system field says as much, so the class should sit with the other indirect-surrogate rows. Verifier: Class 1 is wrong, but by the class rubric this is 3, not 4: A is APOE4 vs APOE3 itself (targeted-replacement alleles), while B (endo-lysosomal aggregation) is only inferred from GDN-HCl-insoluble apoE in whole hippocampus of 9-month APP/PS1 mice; quote, Fig 3I and n=18-23 check out.",
+   "source": "Results: 'Insoluble apoE amounts in the GDN-HCl fraction were higher in APP/PS1; APOE4 control mice than in APP/PS1; APOE3 control mice, which was not affected by neuronal LRP1 deficit (Figure 3I).' Fig 3 legend: 'concentrations of ... apoE (G-I) in the hippocampus extracted in TBS, TBS-X, and GDN-HCl ... measured by ELISA at 9 months of age (n = 18-23/group).'"
+  },
+  {
+   "key": "pmid38912292",
+   "hyp": "H3",
+   "quote_start": "Consistent with previous studies showing that expression of APOE4 dama",
+   "summary_contains": "(APOE3 -> APOE4) -> (increased APOE accumulation in enlarged late endosomes and lysosomes)",
+   "description_start": "In cultured cells expressing fluorescently tagged APOE, APOE",
+   "set": {},
+   "reason": "Claude audit 11-19 (H3 P6.F1), confirmed by a second Claude check: This source is a one-page Autophagy Reports research highlight with no primary data: its Figure 1 is a schematic of APOE trafficking, not an experiment, and the quoted sentence summarises results published in the authors' own primary paper (ref [1], the cell lines 'we developed'). The row's Data location therefore points at a cartoon, and nothing in this paper supports the finding on its own.",
+   "source": "Text: 'In order to track the flow of APOE through the endolysosomal system, we developed novel cell lines expressing fluorescently tagged APOE3 and APOE4 [1]. Consistent with previous studies ... we found that APOE4 accumulates in enlarged lysosomes and late endosomes (Figure 1).' Figure 1 legend: 'Aberrant lysosomal trafficking of APOE4 (below, orange) vs. APOE3 (above, blue). APOE is trafficked to the lysosome from the post-Golgi compartment...' - a diagram. No Methods, no n, no statistics anywhere in the article.",
+   "drop": true
   }
  ]
 }

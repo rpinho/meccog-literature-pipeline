@@ -1,0 +1,609 @@
+[
+ {
+  "hyp": "H4",
+  "paper_id": "P2",
+  "finding_id": "P2.F1",
+  "key": "pmid28957663",
+  "quote_start": "In the absence of insulin, we found that nearly 20% of IR-GFP co-local",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Quote, description and n=3 are correct. ApoE3 value is not printed (only 'less'), so qualitative stands; the Fig 6 legend has a star key for the whole figure and no image is available, so P provenance is ambiguous_panel, not not_found_in_source.",
+  "evidence": "Fig 6 legend key: '***p < 0.001; ****p < 0.0001; N.S., not significant' for the whole figure; no figure image in the packet."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P2",
+  "finding_id": "P2.F2",
+  "key": "pmid28957663",
+  "quote_start": "Intriguingly, significantly higher amount of intracellular IR was dete",
+  "verdict": "OK",
+  "reason": "Quote verbatim (Results); text states significance at 30 and 60 min in Fig S8B; supplement not in packet, so full_text_unavailable for P and n is right.",
+  "evidence": "'significantly higher amount of intracellular IR was detected in apoE4-treated cells compared with cells treated with apoE3 at 30 minutes and 60 minutes ... (Figure S8B)'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P2",
+  "finding_id": "P2.F3",
+  "key": "pmid28957663",
+  "quote_start": "Similar to recombinant apoE, we found that apoE4 lipoprotein particles",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Quote verbatim, n=3 from legend; Kd values not printed so qualitative is right. Fig 5 has a single star key and no image, so P provenance should be ambiguous_panel.",
+  "evidence": "Fig 5 legend key: '*p < 0.05; **p < 0.01; N.S., not significant' for the whole figure; no figure image in the packet, so no visible mark for this panel."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P2",
+  "finding_id": "P2.F4",
+  "key": "pmid28957663",
+  "quote_start": "In the absence of insulin, the majority of the IR-GFP was localized to",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "2.7x",
+   "Effect size provenance": "printed_in_text",
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Text prints both group values (15% apoE3 vs nearly 40% apoE4 intracellular IR-GFP), so the ratio should be given instead of qualitative; P key is figure-wide with no image.",
+  "evidence": "'only 15% of the receptor localized intracellularly in apoE3-treated cells ... nearly 40% of IR-GFP was localized in the intracellular compartment in apoE4-treated cells (Figures 6A-C)'; 40/15 = 2.67. Fig 6 legend key: '***p < 0.001; ****p < 0.0001; N.S., not significant' for the whole figure; no figure image in the packet."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P2",
+  "finding_id": "P2.F5",
+  "key": "pmid28957663",
+  "quote_start": "Insulin induced IR internalization which increased the co-localization",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Quote, direction and location correct; Fig 6 star key is figure-wide and no image is available.",
+  "evidence": "Fig 6 legend key: '***p < 0.001; ****p < 0.0001; N.S., not significant' for the whole figure; no figure image in the packet."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P2",
+  "finding_id": "P2.F6",
+  "key": "pmid28957663",
+  "quote_start": "No significant differences were found in the levels of cell surface an",
+  "verdict": "OK",
+  "reason": "Quote verbatim; LRP1 null result is the paper's own; S7 panels are in the unavailable supplement, so N/A with full_text_unavailable is right.",
+  "evidence": "'No significant differences were found in the levels of cell surface and total LRP1, NMDAR, AMPAR, and Na-K-ATPase after apoE3 and apoE4 treatments (Figures S7A, C-F, H-K).'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P2",
+  "finding_id": "P2.F7",
+  "key": "pmid28957663",
+  "quote_start": "After 60 minutes treatment with apoE3, the amount of internalized (bio",
+  "verdict": "OK",
+  "reason": "Quote verbatim and supports the 60-min retention; S8 legend unavailable.",
+  "evidence": "'apoE4-treated cells exhibited significantly more intracellular IR compared to those treated with apoE3 at 60 minutes ... (Figure S8A)'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P2",
+  "finding_id": "P2.F8",
+  "key": "pmid28957663",
+  "quote_start": "In the presence of apoE3, the plateau of the curve shifted to 15 minut",
+  "verdict": "OK",
+  "reason": "Quote verbatim; description matches the S9 time-course text; supplement unavailable.",
+  "evidence": "'in the presence of apoE4, the internalization of IR did not approach plateau until 30 minutes and without obvious decline over time (Figure S9)'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P2",
+  "finding_id": "P2.F9",
+  "key": "pmid28957663",
+  "quote_start": "Conversely, we found that both recombinant apoE3 and apoE4 specificall",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Quote verbatim, n=3 from legend, Kd not printed. Fig 5 star key is figure-wide and no image, so P provenance should be ambiguous_panel.",
+  "evidence": "Fig 5 legend key: '*p < 0.05; **p < 0.01; N.S., not significant' for the whole figure; no figure image in the packet, so no visible mark for this panel."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P2",
+  "finding_id": "P2.F10",
+  "key": "pmid28957663",
+  "quote_start": "We found that more IR was co-immunoprecipitated with apoE4 than with a",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Quote verbatim; legend for 5C gives no replicate count, so n N/A is right. Fig 5 star key is figure-wide with no image.",
+  "evidence": "Fig 5 legend key: '*p < 0.05; **p < 0.01; N.S., not significant' for the whole figure; no figure image in the packet, so no visible mark for this panel."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P2",
+  "finding_id": "P2.F11",
+  "key": "pmid28957663",
+  "quote_start": "Importantly, insulin stimulation increased the percentage of intracell",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Quote verbatim and direction correct; Fig 6 key is figure-wide with no image.",
+  "evidence": "Fig 6 legend key: '***p < 0.001; ****p < 0.0001; N.S., not significant' for the whole figure; no figure image in the packet."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P2",
+  "finding_id": "P2.F12",
+  "key": "pmid28957663",
+  "quote_start": "In the absence of insulin stimulation, we found that apoE4 but not apo",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "Without insulin stimulation, apoE4 but not apoE3 significantly reduced neuronal surface insulin receptor relative to vehicle in three independent experiments.",
+   "Data location": "Fig 5G-H",
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "The text compares each isoform with vehicle ('apoE4 but not apoE3 significantly reduced'; H is normalized to vehicle, one-way ANOVA), not apoE4 directly against apoE3; the quantification is panel H. P key is figure-wide with no image.",
+  "evidence": "'In the absence of insulin stimulation, we found that apoE4 but not apoE3 significantly reduced the amount of cell surface IR (Figures 5G, H).' Legend: 'The values were normalized to the vehicle-treated group (V) ... one-way ANOVA with Tukey's ... (D, E, H, J)'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P2",
+  "finding_id": "P2.F13",
+  "key": "pmid28957663",
+  "quote_start": "Importantly, ~50% of the total IR was internalized in response to insu",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "60%",
+   "Effect size provenance": "printed_in_text",
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Both group values are printed (~50% apoE3 vs ~20% apoE4 internalized), so the percent change should be given; P key is figure-wide with no image.",
+  "evidence": "'~50% of the total IR was internalized in response to insulin in apoE3-treated cells, whereas only ~20% of IR was internalized in apoE4-treated cells (Figure 5I)'; (50-20)/50 = 60%. Fig 5 legend key: '*p < 0.05; **p < 0.01; N.S., not significant' for the whole figure; no figure image in the packet, so no visible mark for this panel."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P2",
+  "finding_id": "P2.F14",
+  "key": "pmid28957663",
+  "quote_start": "As expected, cell surface IR was decreased after treatment with apoE4 ",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig S7A-B"
+  },
+  "reason": "Quote verbatim; the text cites S7A (blot) and S7B (quantification), so location should include B. Supplement unavailable.",
+  "evidence": "'cell surface IR was decreased after treatment with apoE4 compared with apoE3 (Figures S7A, B)'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P2",
+  "finding_id": "P2.F15",
+  "key": "pmid28957663",
+  "quote_start": "When apoE was co-incubated with insulin and IR, we found that apoE4 (1",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "2.0x",
+   "Effect size provenance": "printed_in_text",
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Both inhibition values are printed (nearly 50% apoE4 vs 25% apoE3 at 16 ug/ml), so the ratio should be given; text says 'significantly' but no p is printed and the Fig 5 key is figure-wide.",
+  "evidence": "'apoE4 (16 ug/ml) reduced insulin-IR binding by nearly 50%, which is significantly higher than apoE3 treatment (25%) (Figure 5F)'; 50/25 = 2.0."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P2",
+  "finding_id": "P2.F16",
+  "key": "pmid28957663",
+  "quote_start": "No differences were observed for the co-localization of IR-GFP with Ly",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Quote verbatim, null result correct, n=3. Legend marks N.S. without a threshold and no image is available, so P stays N/A with ambiguous_panel.",
+  "evidence": "Fig 6 legend key: '***p < 0.001; ****p < 0.0001; N.S., not significant' for the whole figure; no figure image in the packet."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P5",
+  "finding_id": "P5.F1",
+  "key": "pmid34982109",
+  "quote_start": "Imaris analysis revealed that APOE4–mCh cells had significantly higher",
+  "verdict": "OK",
+  "reason": "Fig 3A colocalization plot: APOE3 mean ~0.0115, APOE4 ~0.0365 (axis 0-0.05 from zero) = ~3.2x, consistent with ~3.1x; ** bracket over APOE3 vs APOE4; n=3 wells in legend.",
+  "evidence": "Fig 3A 'Colocalization of APOE & Lysosomes' panel, ** over the pair; legend 'three wells were imaged per APOE isoform'; '**P<0.01 ... Student's two-tailed unpaired t-test (A,B)'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P5",
+  "finding_id": "P5.F2",
+  "key": "pmid34982109",
+  "quote_start": "APOE4–mCh–SepH cells had a significantly lower ratio of green to red f",
+  "verdict": "OK",
+  "reason": "Fig 3B: APOE3 mean ~2.15, APOE4 ~0.8 on a zero-based axis, about 61-63% lower, consistent with ~61%; single * over the pair; n=3 wells.",
+  "evidence": "Fig 3B 'Dual-tagged APOE in Hek293' panel, * bracket over APOE3 vs APOE4; legend '*P<0.05'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P5",
+  "finding_id": "P5.F3",
+  "key": "pmid34982109",
+  "quote_start": "APOE4 colocalized with late endosomes significantly more than with ear",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Quote verbatim, within-isoform comparison described correctly, n=3 wells from Table S5. Fig 7 legend has a star key but the packet image is a 100-px thumbnail, so the mark for 7C cannot be seen: ambiguous_panel.",
+  "evidence": "Fig 7 legend '*P<0.05, **P<0.01, ***P<0.001; ns, not significant'; Table S5 '7C 3 wells per genotype Two-way ANOVA 2'; 7.png is 100x125 px."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P5",
+  "finding_id": "P5.F4",
+  "key": "pmid34982109",
+  "quote_start": "There was a significant difference between slopes of APOE3–mCh and APO",
+  "verdict": "OK",
+  "reason": "Quote verbatim; the slope comparison p is not printed; n=4 wells per treatment from Table S5 (Fig 2). Fig 2 image is a thumbnail, so no estimate possible.",
+  "evidence": "'There was a significant difference between slopes of APOE3-mCh and APOE4-mCh fluorescence treated with Baf over time when analyzed by linear regression'; Table S5 '2 4 wells per treatment'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P5",
+  "finding_id": "P5.F5",
+  "key": "pmid34982109",
+  "quote_start": "Internalization levels were isoform-dependent, with the highest fluore",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Quote verbatim, direction correct, n=3 wells from Table S5 (7B). Legend says bars mark FDR<0.05 between isoforms but the image is an unreadable thumbnail.",
+  "evidence": "Fig 7 legend '(A,B) ... Bars represent times when FDR<0.05 between APOE isoforms'; Table S5 '7B 3 wells per conditioned media genotype'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P5",
+  "finding_id": "P5.F6",
+  "key": "pmid34982109",
+  "quote_start": "APOE4–mCh cells have significantly higher APOE levels by western blot ",
+  "verdict": "OK",
+  "reason": "Fig 1A APOE Abundance: APOE3 ~610, APOE4 ~740 (axis from -200, read against ticks) = ~1.2x; ** bracket APOE3 vs APOE4; Table S5 1A 4 wells per genotype.",
+  "evidence": "Fig 1A 'APOE Abudance' panel, inner ** bracket between APOE3 and APOE4; legend '**P<0.01'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P5",
+  "finding_id": "P5.F7",
+  "key": "pmid34982109",
+  "quote_start": "Baf treatment significantly increased the abundance of APOE3–mCh and A",
+  "verdict": "OK",
+  "reason": "Fig 1B APOE4 Abundance: NT ~91.5, Baf ~119 (axis 80-130) = ~1.3x; ** bracket NT vs Baf; Table S5 1B 3 wells per treatment. Class 5 is explained in the description.",
+  "evidence": "Fig 1B 'APOE4 Abundance' panel, ** over NT vs Baf; legend '**P<0.01'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P5",
+  "finding_id": "P5.F8",
+  "key": "pmid34982109",
+  "quote_start": "APOE4–mCh cells have significantly higher APOE levels by western blot ",
+  "verdict": "OK",
+  "reason": "Quote verbatim; baseline fluorescence difference stated as significant but no p for this comparison; Fig 2 image is a thumbnail; n=4 from Table S5.",
+  "evidence": "'APOE4-mCh cells have significantly higher APOE levels by western blot (Fig. 1A) and fluorescence (Fig. 2) than APOE3-mCh'"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P5",
+  "finding_id": "P5.F9",
+  "key": "pmid34982109",
+  "quote_start": "Baf treatment significantly increased the abundance of APOE3–mCh and A",
+  "verdict": "OK",
+  "reason": "Text states Baf significantly increased APOE4-mCh red fluorescence and the Fig 2 legend defines significance bars as P<0.05, so '<0.05' printed_in_text holds; n=4 from Table S5.",
+  "evidence": "'Baf treatment significantly increased ... red fluorescence of APOE3-mCh and APOE4-mCh cells (Fig. 2)'; legend 'Bars over graphs indicate time points at which P<0.05 on two-way ANOVA with post-hoc Dunnett test'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P5",
+  "finding_id": "P5.F10",
+  "key": "pmid34982109",
+  "quote_start": "Whereas Rap treatment significantly increased the LC3II/LC3I ratio (Fi",
+  "verdict": "OK",
+  "reason": "Fig 1B APOE4 Abundance: NT ~91.5, Rap ~108.5 = ~1.2x; * bracket NT vs Rap; n=3.",
+  "evidence": "Fig 1B 'APOE4 Abundance' panel, * bracket from NT to Rap; legend '*P<0.05'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P5",
+  "finding_id": "P5.F11",
+  "key": "pmid34982109",
+  "quote_start": "Colocalization of APOE with LC3A and/or LC3B was observed, with 17% of",
+  "verdict": "OK",
+  "reason": "Quote verbatim (17% vs 22%); no between-isoform p printed; Table S5 S8C 4 wells, 4 images per well. Effect could be given as a ratio but these are colocalization fractions of LC3 spots, and the row's qualitative label is defensible; leave.",
+  "evidence": "'17% of LC3A and LC3B spots colocalizing with APOE3-mCh and 22% colocalizing with APOE4-mCH spots (Fig. S8C)'; Table S5 'S8C 4 wells per conditioned media genotype, 4 images per well T test'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P25",
+  "finding_id": "P25.F1",
+  "key": "pmid28276521",
+  "quote_start": "Relative to the APOE3/E3 group, the dissociation rate constant (kd2) w",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "13%",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Table 1 prints both group kd2 values (11.2 vs 9.7 x10^-4 s^-1), so the percent change should replace qualitative; P=0.013 correct.",
+  "evidence": "Table 1 'kd2 x 10-4 (s-1) | ... | 11.2 +/- 0.2 | 9.7 +/- 0.4 | 0.013'; (11.2-9.7)/11.2 = 13%."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P25",
+  "finding_id": "P25.F2",
+  "key": "pmid28276521",
+  "quote_start": "KA × 109 (M−1) | 0.7 ± 0.0 | 0.5 ± 0.0 | 0.019 | 2.7 ± 0.4 | 3.3 ± 0.3",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "22%",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Both VLDL1 KA values are printed (2.7 vs 3.3 x10^9 M^-1, P=0.21), so the effect size is printed, not not_found_in_source.",
+  "evidence": "Table 1 'KA x 109 (M-1) | 0.7 | 0.5 | 0.019 | 2.7 +/- 0.4 | 3.3 +/- 0.3 | 0.21'; (3.3-2.7)/2.7 = 22%."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P25",
+  "finding_id": "P25.F3",
+  "key": "pmid28276521",
+  "quote_start": "There were no significant genotype effects observed for the binding of",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "7%",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "VLDL2 kd2 values are printed (10.6 vs 11.3, P=0.28), so give the percent change.",
+  "evidence": "Table 1 kd2 VLDL2-rich '10.6 +/- 0.1 | 11.3 +/- 0.5 | 0.28'; (11.3-10.6)/10.6 = 7%."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P25",
+  "finding_id": "P25.F4",
+  "key": "pmid28276521",
+  "quote_start": "There were no significant genotype or meal*genotype interactions obser",
+  "verdict": "OK",
+  "reason": "Quote verbatim; no genotype-specific postprandial values or p printed (Table 2 combines genotypes).",
+  "evidence": "'There were no significant genotype or meal*genotype interactions observed for the binding of postprandial TRL fractions to the LDLR. Therefore, data for the two genotype groups were combined'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P25",
+  "finding_id": "P25.F5",
+  "key": "pmid28276521",
+  "quote_start": "kd1 × 10−3 (s−1) | 11.7 ± 0.2 | 12.7 ± 0.3 | 0.042 | 6.2 ± 0.8 | 5.2 ±",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "16%",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "VLDL1 kd1 values are printed (6.2 vs 5.2 x10^-3 s^-1, P=0.28), so give the percent change.",
+  "evidence": "Table 1 'kd1 x 10-3 (s-1) | 11.7 | 12.7 | 0.042 | 6.2 +/- 0.8 | 5.2 +/- 0.5 | 0.28'; (6.2-5.2)/6.2 = 16%."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P25",
+  "finding_id": "P25.F6",
+  "key": "pmid28276521",
+  "quote_start": "K1 × 108 (M−1) | 1.8 ± 0.1 | 1.4 ± 0.2 | 0.005 | 2.0 ± 0.3 | 1.9 ± 0.2",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "5%",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "VLDL1 K1 values are printed (2.0 vs 1.9 x10^8 M^-1, P=0.37), so give the percent change.",
+  "evidence": "Table 1 'K1 x 108 (M-1) | 1.8 | 1.4 | 0.005 | 2.0 +/- 0.3 | 1.9 +/- 0.2 | 0.37'; (2.0-1.9)/2.0 = 5%."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P25",
+  "finding_id": "P25.F7",
+  "key": "pmid28276521",
+  "quote_start": "However, in our study, a similar ka2 constant was observed for both fa",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "13%",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "VLDL1 ka2 values are printed (1.5 vs 1.7 x10^-2 s^-1, P=0.12), so give the percent change. Quote is a Discussion restatement of the paper's own Table 1 result, acceptable.",
+  "evidence": "Table 1 'ka2 x 10-2 (s-1) | 0.7 | 0.6 | 0.22 | 1.5 +/- 0.1 | 1.7 +/- 0.1 | 0.12'; (1.7-1.5)/1.5 = 13%."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P25",
+  "finding_id": "P25.F8",
+  "key": "pmid28276521",
+  "quote_start": "A slower association rate was also observed with the fasting VLDL1-ric",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "18%",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "VLDL1 ka1 values are printed (11.3 vs 9.3 x10^5 M^-1 s^-1, P=0.011), so give the percent change.",
+  "evidence": "Table 1 'ka1 x 105 (M-1s-1) | 21.5 | 14.5 | 0.77 | 11.3 +/- 0.4 | 9.3 +/- 0.5 | 0.011'; (11.3-9.3)/11.3 = 18%."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P11",
+  "finding_id": "P11.F1",
+  "key": "pmid33822768",
+  "quote_start": "We also observed a small but significant increase in large condensates",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Quote verbatim, direction and n=15-29 correct. Fig 5 legend has a figure-wide star key and no image is in the packet, so P provenance should be ambiguous_panel.",
+  "evidence": "Fig 5 legend 'Mean +/- SEM, *P < 0.05, **P < 0.005, ***P < 0.0001. n = 15-29 cells per condition; 1-way ANOVA with Bonferroni's posttest.'"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P11",
+  "finding_id": "P11.F2",
+  "key": "pmid33822768",
+  "quote_start": "N/A",
+  "verdict": "FIX",
+  "set": {
+   "Finding quote": "ApoE4 Mean = 0.3233 µm3 Median = 0.15 µm3",
+   "Effect size": "1.2x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Row has no quote; the values are printed inside Supplementary Fig S4E/F (ApoE3 Mean = 0.2596, Median = 0.12; ApoE4 Mean = 0.3233, Median = 0.15), so quote that text and give the mean ratio from the supplement.",
+  "evidence": "supp.txt Fig S4 panel text: 'ApoE3 Mean = 0.2596 µm3 Median = 0.12 µm3' and 'ApoE4 Mean = 0.3233 µm3 Median = 0.15 µm3'; legend '(D), (E), and (F) Histograms ... of ApoE2, E3 or E4 condensates'; 0.3233/0.2596 = 1.25."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P11",
+  "finding_id": "P11.F3",
+  "key": "pmid33822768",
+  "quote_start": "Although the 3 isoforms had similar disorder tendencies when analyzed ",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.2x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Quote verbatim (ApoE2 vs ApoE3/ApoE4); the row's ApoE4-vs-ApoE3 claim rests on the supplement means, which are printed, so give the ratio. Largely duplicates P11.F2.",
+  "evidence": "supp.txt Fig S4E/F: ApoE3 Mean = 0.2596 µm3, ApoE4 Mean = 0.3233 µm3; Fig 4 legend 'n = 15-29 cells per condition'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P11",
+  "finding_id": "P11.F4",
+  "key": "pmid33822768",
+  "quote_start": "Live-cell imaging showed that ApoE forms spherical structures with ave",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 4A-B",
+   "Sample size": "17-23",
+   "Sample size provenance": "printed_in_text",
+   "P value": ">0.05",
+   "P value provenance": "printed_in_text"
+  },
+  "reason": "The quote cites Figure 4A and B; the sphericity comparison in 4B is printed as n.s. with n = 17-23 cells per condition and the legend's lowest threshold is P < 0.05.",
+  "evidence": "Fig 4 legend '(B) Average sphericity of ApoE condensates ... Mean +/- SEM, n = 17-23 cells per condition, n.s.' and '(B, D, and E) ... *P < 0.05'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P12",
+  "finding_id": "P12.F1",
+  "key": "pmid34617884",
+  "quote_start": "Receptor surface levels show a stronger reduction with ApoE4 than ApoE",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Quote is the Fig 4 legend's own result statement; n=3 independent experiments correct. Legend star key is figure-wide and the packet image is a 114-px thumbnail, so P provenance should be ambiguous_panel.",
+  "evidence": "Fig 4 legend 'Receptor surface levels show a stronger reduction with ApoE4 than ApoE3 ... three independent experiments. *p < 0.05, **p < 0.01, ***p < 0.005 ... Dunnett's post hoc test'; 4.png is 114x79 px."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P12",
+  "finding_id": "P12.F2",
+  "key": "pmid34617884",
+  "quote_start": "ApoE-conditioned media treatment reduces the surface expression of Apo",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Quote from the Fig 4 legend supports ApoE reducing surface Apoer2 with Reelin; n=3 correct; star key figure-wide, image unreadable.",
+  "evidence": "Fig 4 legend 'ApoE-conditioned media treatment reduces the surface expression of Apoer2 ... in presence of Reelin'; '*p < 0.05, **p < 0.01, ***p < 0.005'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P12",
+  "finding_id": "P12.F3",
+  "key": "pmid34617884",
+  "quote_start": "Apoer2 recycling was completely restored in Slc9a6- neurons treated wi",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Quote verbatim from Results (Fig 4C); n=3; star key figure-wide, image unreadable.",
+  "evidence": "'Apoer2 recycling was completely restored in Slc9a6- neurons treated with ApoE4 (Figure 4C).'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P12",
+  "finding_id": "P12.F4",
+  "key": "pmid34617884",
+  "quote_start": "In addition, genetic loss of NHE6 equally restored the ApoE4-impaired ",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Quote verbatim; GluN2B is the NMDA subunit in 4D; n=3; star key figure-wide, image unreadable.",
+  "evidence": "'genetic loss of NHE6 equally restored the ApoE4-impaired surface expression of AMPA and NMDA receptor subunits (Figure 4D-F)'; legend 'GluN2B (D)'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P14",
+  "finding_id": "P14.F1",
+  "key": "pmid31058310",
+  "quote_start": "Together, these results suggest that lipid‐free ApoE has the tendency ",
+  "verdict": "OK",
+  "reason": "Quote verbatim (Results); Fig 3 legend 'representative of two independently prepared ApoE isoform samples' gives n=2; no statistics. The ranking cites all of Fig 3 (native PAGE and DLS), minor.",
+  "evidence": "'This tendency is isoform dependent, with the most pronounced aggregation for ApoE4, followed by ApoE3 and ApoE2 (Fig. 3).'"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P14",
+  "finding_id": "P14.F2",
+  "key": "pmid31058310",
+  "quote_start": "Our results show that lipid‐free ApoE has the tendency to self‐assembl",
+  "verdict": "OK",
+  "reason": "Quote is the Discussion restating the paper's own Figs 2-4 results; n=2 from Fig 2 legend; qualitative.",
+  "evidence": "'Our results show that lipid-free ApoE has the tendency to self-assemble, with ApoE4 having the highest aggregation propensity, followed by ApoE3 and ApoE2 (Figs 2, 3, 4).' Fig 2 legend 'representative of two independently prepared ApoE isoform samples'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P21",
+  "finding_id": "P21.F1",
+  "key": "pmid16401069",
+  "quote_start": "Competition curves comparing LDLR binding by LDL ( Figure 7A ) and dim",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "8%",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Both half-inhibition concentrations are printed (0.039 E3-DMPC vs 0.036 E4-DMPC ug/ml), so give the percent change instead of N/A.",
+  "evidence": "'50% binding inhibition at 3.44 ug/ml for LDL, and 0.039 and 0.036 ug/ml for E3-DMPC and E4-DMPC, respectively'; (0.039-0.036)/0.039 = 8%."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P21",
+  "finding_id": "P21.F2",
+  "key": "pmid16401069",
+  "quote_start": "When 125 I-apoE4 was used in the single-cycle endocytosis assay, simil",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 'similar kinetics' with triplicate determinations; RAP discrepancy (500 nM legend vs 1 uM Methods) correctly noted.",
+  "evidence": "'When 125 I-apoE4 was used in the single-cycle endocytosis assay, similar kinetics were observed ( Figure 8B ).' Legend: 'in the presence of 500nM RAP ... Symbols represent means of triplicate determinations.'"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P20",
+  "finding_id": "P20.F1",
+  "key": "pmid38396791",
+  "quote_start": "We observed also some higher molecular weight bands of ~70 kDa in SDS-",
+  "verdict": "FIX",
+  "set": {
+   "Directness class": 3,
+   "Directness strength": "4 weak"
+  },
+  "reason": "Quote verbatim and the description is accurate, but class 1 'strong' is a clear error: the panel shows ~70 kDa ApoE dimer bands in a cell-free reducing gel with no isoform difference and no endo-lysosomal readout, so B is at most a surrogate.",
+  "evidence": "'We observed also some higher molecular weight bands of ~70 kDa in SDS-PAGE lanes ... These bands correspond to the dimer of ApoE as they appeared in the lanes, which contain only ApoE aggregates (Figure 4A).' Fig 4A image: faint high-MW bands, no quantification."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P20",
+  "finding_id": "P20.F1",
+  "key": "pmid11369806",
+  "quote_start": "The prominent apoE-binding bands had apparent molecular masses of 280,",
+  "verdict": "OK",
+  "reason": "Quote verbatim from Results; ligand-blot null result is the paper's own; no statistics or n printed.",
+  "evidence": "'The prominent apoE-binding bands had apparent molecular masses of 280, 212, 206, 167, and 147 kDa. No reproducible differences were seen between apoE3 and apoE4 particles.'"
+ }
+]

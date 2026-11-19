@@ -1,0 +1,173 @@
+[
+ {
+  "item": 1,
+  "decision": "REJECT",
+  "why": "Fig 1d (fulltext.pdf p.22 image) shows apoE3 at 0.2 mg/ml still essentially a single tetramer peak at 4 h and 24 h while apoE4 has mostly shifted to the void-volume aggregate peak by 4 h, so the current 'faster than apoE3' description is supported by the paper's own panel and the proposed hedge is weaker than the evidence."
+ },
+ {
+  "item": 2,
+  "decision": "CONFIRM",
+  "why": "Text prints 'about 5% of apoE2, 10% of apoE3 and 90% of apoE4' aggregated after overnight 0.3 mg/ml preincubation; 90/10 = 9x and the old Data location held the quote sentence, so both fixes are right."
+ },
+ {
+  "item": 3,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "~0.47x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.05",
+   "P value provenance": "printed_in_text"
+  },
+  "why": "Fig 4A bars measure ~4.6 (apoE3) vs ~2.2 (apoE4) pmol/mg/30 min (pixel heights 57 vs 27 px, 0.47x) and the bracket from the apoE3 bar to the apoE4 bar carries a printed 'P < 0.05', which is printed_in_text under our convention, not visual_only (that code is for stars)."
+ },
+ {
+  "item": 4,
+  "decision": "CONFIRM",
+  "why": "Table 2 prints KD 16.38+/-6 nM for E3/E3 LpB:E (apoE/B = 1, n=3) and 9.1 nM for LpB E4/E4 (apoE/B = 1), and the column alignment matches the apoE/C-III ratio columns and the text ('higher affinity than did LpB'); 9.1/16.38 = 0.56x."
+ },
+ {
+  "item": 5,
+  "decision": "CONFIRM",
+  "why": "Table 3 values are right (54.3 vs 49.9 nM), and the receptor is the engineered soluble LRPIV-D3674G therapeutic mutant, not a native recycling receptor, so class 1 is a clear error and class 3 / 3 moderate fits."
+ },
+ {
+  "item": 6,
+  "decision": "CONFIRM",
+  "why": "S4 Table prints E3 0.05% and E4 11.12%; a difference of 11.07 percentage points is a valid name=num effect (a ratio off a 0.05% denominator would be rounding-dominated) and supplement_only provenance stays correct."
+ },
+ {
+  "item": 7,
+  "decision": "CONFIRM",
+  "why": "The S7 Table row reads 'Population of intermediate state at 300 to 310 K | 70.7 % | 0.1 % | 11.1 %' (ApoE2/3/4), so the new quote matches the cited location verbatim and 11.1 - 0.1 = 11.0 pp."
+ },
+ {
+  "item": 8,
+  "decision": "CONFIRM",
+  "why": "Table 1 VLDL1-rich kd2 is 11.2+/-0.2 (E3/E3) vs 9.7+/-0.4 (E3/E4), P=0.013; (11.2-9.7)/11.2 = 13% decrease, both values named in the description."
+ },
+ {
+  "item": 9,
+  "decision": "CONFIRM",
+  "why": "Table 1 VLDL1-rich KA is 2.7+/-0.4 vs 3.3+/-0.3 x10^9 M^-1, P=0.21; (3.3-2.7)/2.7 = 22%."
+ },
+ {
+  "item": 10,
+  "decision": "CONFIRM",
+  "why": "Table 1 VLDL2-rich kd2 is 10.6+/-0.1 vs 11.3+/-0.5 x10^-4 s^-1, P=0.28; 0.7/10.6 = 7%."
+ },
+ {
+  "item": 11,
+  "decision": "CONFIRM",
+  "why": "Table 1 VLDL1-rich kd1 is 6.2+/-0.8 vs 5.2+/-0.5 x10^-3 s^-1, P=0.28; 1.0/6.2 = 16%."
+ },
+ {
+  "item": 12,
+  "decision": "CONFIRM",
+  "why": "Table 1 VLDL1-rich K1 is 2.0+/-0.3 vs 1.9+/-0.2 x10^8 M^-1, P=0.37; 0.1/2.0 = 5%."
+ },
+ {
+  "item": 13,
+  "decision": "CONFIRM",
+  "why": "Table 1 VLDL1-rich ka2 is 1.5+/-0.1 vs 1.7+/-0.1 x10^-2 s^-1, P=0.12; 0.2/1.5 = 13%, and the Discussion quote restates the paper's own Table 1 result."
+ },
+ {
+  "item": 14,
+  "decision": "CONFIRM",
+  "why": "Table 1 VLDL1-rich ka1 is 11.3+/-0.4 vs 9.3+/-0.5 x10^5 M^-1 s^-1, P=0.011; 2.0/11.3 = 18%."
+ },
+ {
+  "item": 15,
+  "decision": "CONFIRM",
+  "why": "Results print 'only 15%' (apoE3) and 'nearly 40%' (apoE4) intracellular IR-GFP without insulin (Figs 6A-C); 40/15 = 2.7x."
+ },
+ {
+  "item": 16,
+  "decision": "CONFIRM",
+  "why": "The quote cites Figures 5G, H (H is the surface/total ratio), and steady-state surface IR after overnight apoE is a readout standing in for recycling, so class 3 / 3 moderate is the right class for H2."
+ },
+ {
+  "item": 17,
+  "decision": "CONFIRM",
+  "why": "Quote is verbatim (Figures S7A, C-F, H-K); steady-state surface LRP1 is a surrogate for recycling, not a recycling measurement, so class 1 is a clear error."
+ },
+ {
+  "item": 18,
+  "decision": "CONFIRM",
+  "why": "Text prints '~50%' (apoE3) vs '~20%' (apoE4) of total IR internalized after insulin (Fig 5I); (50-20)/50 = 60% lower, and insulin-induced internalization is a surrogate readout for H2 recycling, so class 3."
+ },
+ {
+  "item": 19,
+  "decision": "CONFIRM",
+  "why": "Quote is verbatim (Figures S7A, B); steady-state surface IR is a surrogate for recycling, so class 3 / 3 moderate."
+ },
+ {
+  "item": 20,
+  "decision": "CONFIRM",
+  "why": "Quote is the verbatim S7 paragraph; steady-state surface and total receptor levels are surrogates for recycling, so class 3 / 3 moderate."
+ },
+ {
+  "item": 21,
+  "decision": "CONFIRM",
+  "why": "Fig 7 legend gives one figure-wide key ('**p < 0.01; ***p < 0.001, N.S.', two-way ANOVA) and no figure image is available, so ambiguous_panel is the right code per the rules."
+ },
+ {
+  "item": 22,
+  "decision": "CONFIRM",
+  "why": "Fig 6 legend key ('***p < 0.001; ****p < 0.0001; N.S.') covers the whole figure, no image is in the packet, and the apoE3 value is printed only as 'less', so qualitative + ambiguous_panel is right."
+ },
+ {
+  "item": 23,
+  "decision": "CONFIRM",
+  "why": "Fig 5 legend has one key ('*p < 0.05; **p < 0.01; N.S.') for panels A-K with t tests for A-C, no image is available, so ambiguous_panel; quote verbatim."
+ },
+ {
+  "item": 24,
+  "decision": "CONFIRM",
+  "why": "Text prints 15% (apoE3) vs nearly 40% (apoE4) intracellular IR-GFP (2.7x), and the Fig 6 key is figure-wide with no image, so ambiguous_panel."
+ },
+ {
+  "item": 25,
+  "decision": "CONFIRM",
+  "why": "Quote verbatim (Figures 6A and 6D); figure-wide Fig 6 key and no image, so ambiguous_panel."
+ },
+ {
+  "item": 26,
+  "decision": "CONFIRM",
+  "why": "Quote verbatim (Figure 5A), Kd values not printed in text; figure-wide Fig 5 key and no image, so ambiguous_panel."
+ },
+ {
+  "item": 27,
+  "decision": "CONFIRM",
+  "why": "Quote verbatim (Figure 5C), legend gives no replicate count for C; figure-wide Fig 5 key and no image, so ambiguous_panel."
+ },
+ {
+  "item": 28,
+  "decision": "CONFIRM",
+  "why": "Quote verbatim (Figures 6A-C); figure-wide Fig 6 key and no image, so ambiguous_panel."
+ },
+ {
+  "item": 29,
+  "decision": "CONFIRM",
+  "why": "For Fig 5G-H the text says 'apoE4 but not apoE3 significantly reduced' surface IR, H is normalized to vehicle and tested by one-way ANOVA, so the comparison is each isoform vs vehicle, not apoE4 vs apoE3; the new description, location and ambiguous_panel code are right."
+ },
+ {
+  "item": 30,
+  "decision": "CONFIRM",
+  "why": "Text prints ~50% vs ~20% IR internalized (Fig 5I), so 60% lower; figure-wide Fig 5 key and no image, so ambiguous_panel."
+ },
+ {
+  "item": 31,
+  "decision": "CONFIRM",
+  "why": "The text cites 'Figures S7A, B' for the surface IR decrease (A blot, B quantification), so Fig S7A-B is the right location."
+ },
+ {
+  "item": 32,
+  "decision": "CONFIRM",
+  "why": "Text prints nearly 50% (apoE4) vs 25% (apoE3) inhibition of insulin-IR binding at 16 ug/ml (Fig 5F); 50/25 = 2.0x, and 'significantly' with a figure-wide key and no image gives ambiguous_panel."
+ },
+ {
+  "item": 33,
+  "decision": "CONFIRM",
+  "why": "Quote verbatim (Figures 6B and 6E) and the null result is right; the figure-wide key with N.S. and no image make ambiguous_panel the right code with P N/A."
+ }
+]

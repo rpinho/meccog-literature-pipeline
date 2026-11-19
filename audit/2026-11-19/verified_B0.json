@@ -1,0 +1,132 @@
+[
+ {
+  "item": 1,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "0.63x"
+  },
+  "why": "The fold is right in substance but points the wrong way: by the brief's convention it is APOE4 over APOE3 Ki, 3.6/5.7 = 0.63x (both values printed in Results and named in the description), not 1.6x."
+ },
+ {
+  "item": 2,
+  "decision": "CONFIRM",
+  "why": "Fig. 1B (full-size) shows ApoE3 ~83 and ApoE4 ~64 (~24% lower) with a single-asterisk bracket joining the ApoE3 and ApoE4 bars, and the legend key gives * P < 0.05, so <0.05 visual_only and the new description are supported."
+ },
+ {
+  "item": 3,
+  "decision": "CONFIRM",
+  "why": "Fig. 1C has a '**' bracket from ApoE3+R to ApoE4+R and the panel C legend defines brackets as between-treatment comparisons with ** P < 0.01; panel C states no n of its own, so not_found_in_source is fair."
+ },
+ {
+  "item": 4,
+  "decision": "REJECT",
+  "why": "The Fig. 4 legend for panel D prints '*P < 0.002 for a comparison of the results of the treated apoE4 and apoE3 mice', which is exactly this row's APOE3->APOE4 comparison; the Results' P < 0.02 is for treated apoE4 versus all other groups, so the row's <0.002 is the better value."
+ },
+ {
+  "item": 5,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "0.35x",
+   "Effect size provenance": "supplement_only",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source"
+  },
+  "why": "Fig2C source data give E3+R mean 77.3 and E4+R mean 26.8, so the fold in the row's direction is 26.8/77.3 = 0.35x (not 2.9x), and the regenerated Fig. 2C is legible: its '*' and '***' brackets run from C+R to each isoform (Dunnett vs control) with no E3-vs-E4 mark."
+ },
+ {
+  "item": 6,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "0.34x",
+   "Effect size provenance": "supplement_only",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source"
+  },
+  "why": "Fig4E source data at 0 uM give E3+R mean 76.1 and E4+R mean 26.1, so the fold in the row's direction is 26.1/76.1 = 0.34x, not 2.9x; the P correction is right (the '*' and '***' at 0 uM are Dunnett marks against Con)."
+ },
+ {
+  "item": 7,
+  "decision": "CONFIRM",
+  "why": "Fig5D source data give E4+R mean 27.4 and E4+R+shNHE6(1) mean 101.8 (3.7x, in the row's direction), and Fig. 5D's three '***' brackets cover only C+R/E4+R, shNHE5 and shNHE9 pairs, nothing over shNHE6."
+ },
+ {
+  "item": 8,
+  "decision": "CONFIRM",
+  "why": "Fig5D source data give E4+R+shNHE6(2) mean 100.2 against E4+R mean 27.4 (3.7x), and the figure has no asterisk over the shNHE6 bars."
+ },
+ {
+  "item": 9,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "1.6x",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.01",
+   "P value provenance": "visual_only"
+  },
+  "why": "The 1.6x (155.1/100.0 from Fig2E source data) is right, but the regenerated Fig. 2E is legible and shows a '**' bracket directly between E3 and E4, which the Fig. 2 legend keys as **p<0.01 (Student's t-test for E), so P is no longer ambiguous."
+ },
+ {
+  "item": 10,
+  "decision": "CONFIRM",
+  "why": "Fig4C source data give 0 uM mean 24.3 and 3 uM mean 107.8 (4.4x), and the 0-vs-3 uM mark is '****', which the Fig. 4 legend key (*, **, ***) does not define, so P stays ambiguous."
+ },
+ {
+  "item": 11,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "0.33x",
+   "Effect size provenance": "supplement_only",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source"
+  },
+  "why": "Fig4G source data give E4+EMD mean 100.3 and E4+EMD+Baf100 mean 33.3, so the fold in the row's direction (bafilomycin over EMD alone, a renewed impairment) is 0.33x, not 3.0x; the P correction is right, as every Fig. 4G bracket starts at the control bar."
+ },
+ {
+  "item": 12,
+  "decision": "CONFIRM",
+  "why": "Fig6D source data give E4+R mean 24.1 and E4+R+EMD87580 mean 94.2 (3.9x, restoration direction), and Fig. 6D's only brackets run from C+R to E4+R and to E4+R+scramble."
+ },
+ {
+  "item": 13,
+  "decision": "CONFIRM",
+  "why": "Results print 0.36 (APOE4) vs 0.28 (APOE3), so 1.3x printed_in_text replaces the figure estimate correctly, and the description already names both values."
+ },
+ {
+  "item": 14,
+  "decision": "CONFIRM",
+  "why": "Results and the Fig. 6 legend print 0.39 (APOE4) vs 0.24 (APOE3), giving 1.6x printed_in_text, and the description already names both values."
+ },
+ {
+  "item": 15,
+  "decision": "ADJUST",
+  "set": {
+   "Sample size": "~5",
+   "Sample size provenance": "estimated_from_figure"
+  },
+  "why": "The legend does give sample information ('duplicate determinations ... in at least three separate experiments'), so not_found_in_source is wrong, and the full-size Fig. 3A shows five points in each apoE3 and apoE4 box (both heparinase arms), which gives a counted ~5."
+ },
+ {
+  "item": 16,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "0.65x",
+   "Effect size provenance": "printed_in_text",
+   "Finding description": "Fluorescence microscopy of the same binding assay reproduced the isoform pattern, with relative fluorescence printed under the panels as 15.094 ± 1.787 for apoE3 versus 9.880 ± 1.090 for apoE4 (0.65x with apoE4, from 30 cells by ImageJ); the asterisks in the panel mark each apoE condition against control cells, and no apoE4-versus-apoE3 significance is given."
+  },
+  "why": "Fig. 3B does print 15.094 (apoE3) and 9.880 (apoE4), but the paper states no fold for this panel, so by the brief's convention it is apoE4 over apoE3 = 0.65x, not 1.5x, and the description must match."
+ },
+ {
+  "item": 17,
+  "decision": "CONFIRM",
+  "why": "Fig. 6B shows a '**' bracket directly between APOE3+LPS (mean ~28) and APOE4+LPS (mean ~45) on a zero-based axis, and the Fig. 6 legend keys ** as p <= 0.01; note four points are plotted per group while the row keeps n = 3."
+ },
+ {
+  "item": 18,
+  "decision": "ADJUST",
+  "set": {
+   "P value": "<0.05",
+   "P value provenance": "visual_only"
+  },
+  "why": "The regenerated Fig. 8A is legible and has a single-asterisk bracket directly over APOE3+LPS versus APOE4+LPS, keyed *p<0.05 in the legend, so P is <0.05 visual_only (the row's printed_in_text is wrong, and the proposal's ambiguous_panel rested on the old thumbnail)."
+ }
+]

@@ -1,0 +1,197 @@
+[
+ {
+  "item": 1,
+  "decision": "CONFIRM",
+  "why": "Chapter One is the dissertation's literature review; the sentence restates Xian et al. 2018 and Pohlkamp et al. 2021, so it is not the source's own result."
+ },
+ {
+  "item": 2,
+  "decision": "CONFIRM",
+  "why": "Same Chapter One review paragraph (p. 13), closing on Prasad and Rao 2018; the dissertation's own experiments are on lipid-droplet APOE, so DROP is right."
+ },
+ {
+  "item": 3,
+  "decision": "CONFIRM",
+  "why": "The sentence sits in the Discussion and cites refs 4 and 34 for DMPC-complex LDLR affinity; this NMR pKa paper did not measure it."
+ },
+ {
+  "item": 4,
+  "decision": "CONFIRM",
+  "why": "Table 2 prints s>10 fractions of 26% (apoE4) and 21% (apoE3) at 0.50 mg/ml (footnote *), so 26/21 = 1.24x is right."
+ },
+ {
+  "item": 5,
+  "decision": "CONFIRM",
+  "why": "The text prints increases of 15% (apoE4) and 6% (apoE3), matching Table 2 (11->26, 15->21), so 15/6 = 2.5x is right."
+ },
+ {
+  "item": 6,
+  "decision": "CONFIRM",
+  "why": "Text and Table 2 print 21% (apoE4 72-299) vs 12% (apoE3 72-299) at 1.00 mg/ml, so 21/12 = 1.75x is right."
+ },
+ {
+  "item": 7,
+  "decision": "CONFIRM",
+  "why": "'This feature...' follows the 10-vs-5 species sentence, and the proposed quote is verbatim from the same paragraph and prints the s>10 increase of 14% behind the 7%->21% description; effect stays qualitative."
+ },
+ {
+  "item": 8,
+  "decision": "CONFIRM",
+  "why": "The text prints 21% (apoE4 1-271) vs 13% (apoE3 1-271), with Fig 5 at 0.15 mg/ml, so 21/13 = 1.62x is right."
+ },
+ {
+  "item": 9,
+  "decision": "CONFIRM",
+  "why": "DLS text prints 46% (apoE4) vs 35% (apoE3) for the 5.0-15.0 nm group, so 46/35 = 1.31x is right."
+ },
+ {
+  "item": 10,
+  "decision": "CONFIRM",
+  "why": "Table 2 at 0.15 mg/ml prints s>10 fractions of 11% (apoE4) vs 15% (apoE3), so 11/15 = 0.73x is right."
+ },
+ {
+  "item": 11,
+  "decision": "CONFIRM",
+  "why": "Table 2 at 0.15 mg/ml prints 7% (apoE4 72-299) vs 13% (apoE3 72-299), so 7/13 = 0.54x is right."
+ },
+ {
+  "item": 12,
+  "decision": "CONFIRM",
+  "why": "The text prints 10 species for apoE4 72-299 vs five for apoE3 72-299 at 1.00 mg/ml, so 2x is right."
+ },
+ {
+  "item": 13,
+  "decision": "CONFIRM",
+  "why": "The text prints Kd 16 +/- 1.3 nM (apoE4 1-231) and 29 +/- 2.8 nM (apoE3 1-231), so 16/29 = 0.55x is right."
+ },
+ {
+  "item": 14,
+  "decision": "CONFIRM",
+  "why": "The text prints Kd 592 +/- 323 nM (apoE4 1-191) and 556 +/- 233 nM (apoE3 1-191), so 592/556 = 1.06x is right."
+ },
+ {
+  "item": 15,
+  "decision": "CONFIRM",
+  "why": "Table 2 at 0.15 mg/ml prints s>10 fractions of 14% (apoE4 41-299) vs 10% (apoE3 41-299), so 14/10 = 1.4x is right."
+ },
+ {
+  "item": 16,
+  "decision": "CONFIRM",
+  "why": "Table 2 at 1.00 mg/ml prints s>10 fractions of 10% (apoE4 41-299) vs 9% (apoE3 41-299), the headline comparison in the description, so 10/9 = 1.11x is right."
+ },
+ {
+  "item": 17,
+  "decision": "CONFIRM",
+  "why": "Table 1 at 0.50 mg/ml prints s_w 6.9 S (apoE4 72-299) vs 5.7 S (apoE3 72-299), so 6.9/5.7 = 1.21x is right."
+ },
+ {
+  "item": 18,
+  "decision": "CONFIRM",
+  "why": "Table 1 at 0.15 mg/ml prints s_w 3.1 S (apoE4 1-231) vs 3.8 S (apoE3 1-231), so 3.1/3.8 = 0.82x is right."
+ },
+ {
+  "item": 19,
+  "decision": "CONFIRM",
+  "why": "Table 1 at 0.50 mg/ml prints s_w 4.3 S (apoE4 41-299) vs 4.9 S (apoE3 41-299), so 4.3/4.9 = 0.88x is right."
+ },
+ {
+  "item": 20,
+  "decision": "CONFIRM",
+  "why": "Table 1 at 0.15 mg/ml prints s_w 2.7 S (apoE4 1-191) vs 2.6 S (apoE3 1-191), so 2.7/2.6 = 1.04x is right."
+ },
+ {
+  "item": 21,
+  "decision": "ADJUST",
+  "set": {
+   "Finding quote": "Equilibrium analysis of observed sensorgrams revealed a high-afﬁnity interaction between the VLDL receptor and all apoE isoforms, with no distinction between them (Table 1).",
+   "Effect size": "0.68x",
+   "Effect size provenance": "printed_in_text",
+   "Data location": "Fig 2B–C; Table 1; Results, The VLDL receptor recognizes lipid-free apoE isoforms"
+  },
+  "why": "The Results sentence is verbatim and Table 1 prints SPR Kd 17 +/- 9 nM (apoE4) vs 25 +/- 10 nM (apoE3), so 0.68x is right; with the quote moved out of the Discussion, Data location must point to the Results section."
+ },
+ {
+  "item": 22,
+  "decision": "CONFIRM",
+  "why": "The Results text prints apparent Kd 77 nM (apoE4) vs 59 nM (apoE3) for VLDLR on immobilized apoE, so 77/59 = 1.31x is right."
+ },
+ {
+  "item": 23,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "0.92x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "why": "The printed IC50s are 0.036 (E4-DMPC) and 0.039 ug/ml (E3-DMPC); an unsigned '8%' does not say which way, so give the apoE4/apoE3 ratio 0.036/0.039 = 0.92x, the same form used for the Kd rows."
+ },
+ {
+  "item": 24,
+  "decision": "CONFIRM",
+  "why": "On the rendered Fig 5A, bar 4 (apoE3 2.5x) sits at ~58% bound and bar 6 (apoE4 2.5x) at ~61%, matching the printed 39-42% range, so ~0.93x estimated_from_figure is right."
+ },
+ {
+  "item": 25,
+  "decision": "CONFIRM",
+  "why": "Table 4 prints apoE4 LDL-R binding ability as 99 against apoE3's 100 (with DMPC); under the rules that is 0.99x, not a 99% change."
+ },
+ {
+  "item": 26,
+  "decision": "CONFIRM",
+  "why": "Table 4 without DMPC prints 34/34 decreases and abilities of 100/100, so 1.0x is right and '100%' is the wrong form."
+ },
+ {
+  "item": 27,
+  "decision": "CONFIRM",
+  "why": "Table 4 with DMPC prints decreases of 44 (apoE4 1-231) vs 18 (apoE3 1-231), and Fig 5B bars 6-7 are those complexes, so 2.4x is right."
+ },
+ {
+  "item": 28,
+  "decision": "CONFIRM",
+  "why": "The rendered Table 4 shows -8 for apoE3-(72-299) without DMPC vs 38 for apoE4, so a ratio is undefined and diff=46 is right."
+ },
+ {
+  "item": 29,
+  "decision": "CONFIRM",
+  "why": "Table 4 with DMPC prints decreases of 34 (apoE4 72-299) vs 27 (apoE3 72-299), so 1.26x is right."
+ },
+ {
+  "item": 30,
+  "decision": "CONFIRM",
+  "why": "Table 4 with DMPC prints decreases of 34 (apoE4 1-191) vs 42 (apoE3 1-191), so 0.81x is right."
+ },
+ {
+  "item": 31,
+  "decision": "CONFIRM",
+  "why": "Table 4 with DMPC prints decreases of 58 (apoE4 1-271) vs 47 (apoE3 1-271), so 1.23x is right."
+ },
+ {
+  "item": 32,
+  "decision": "CONFIRM",
+  "why": "Table 4 without DMPC prints decreases of 19 (apoE4 1-191) vs 13 (apoE3 1-191), so 1.46x is right."
+ },
+ {
+  "item": 33,
+  "decision": "CONFIRM",
+  "why": "Text and Table 4 print 47% (apoE4 41-299-DMPC) vs 46% (apoE3), so 1.02x is right."
+ },
+ {
+  "item": 34,
+  "decision": "CONFIRM",
+  "why": "Table 4 with DMPC prints decreases of 55 (apoE4 72-166) vs 26 (apoE3 72-166), so 2.1x is right."
+ },
+ {
+  "item": 35,
+  "decision": "CONFIRM",
+  "why": "Table 4 without DMPC prints decreases of 20 (apoE4 41-299) vs 15 (apoE3 41-299), so 1.33x is right."
+ },
+ {
+  "item": 36,
+  "decision": "CONFIRM",
+  "why": "Table 4 without DMPC prints decreases of 29 (apoE4 1-271) vs 27 (apoE3 1-271), so 1.07x is right."
+ },
+ {
+  "item": 37,
+  "decision": "CONFIRM",
+  "why": "Table 4 without DMPC prints 22 (apoE4 72-166) vs 14 (apoE3 72-166), so 1.57x is right, and class 2 matches every sibling truncated-fragment row from this paper (a clear inconsistency)."
+ }
+]

@@ -1,0 +1,1468 @@
+[
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid16890957",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid16890957/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid16890957/figimg/1.png"
+   ],
+   "pdf": "data/papers/pmid16890957/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P13.F2",
+   "Finding description": "At 0.2 mg/ml, recombinant human apoE4 aggregated faster than apoE3 and mostly formed high-molecular-mass aggregates within 4 hours at 37 °C.",
+   "Finding quote": "ApoE3 and apoE2 aggregated far more slowly. Even after 24 h at 37 oC, most of the apoE2 or apoE3 remained tetrameric (Figure 1c). The rates of aggregation were also slower at lower protein concentrations (0.2 mg/ml), but apoE4 still mostly formed higher mass aggregates within 4 h of incubation (Figure 1d).",
+   "Finding summary": "(apoE3 -> apoE4) -> (faster formation of high-molecular-mass apoE aggregates at lower protein concentration)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Purified, lipid-free recombinant human apoE expressed in E. coli; isolated low-mass apoE at 0.2 mg/ml in 100 mM NH4HCO3, pH 7.8; incubation at 37 °C followed by analytical gel filtration. Comparable behavior was reported in PBS and TBS at pH 7.4. No cells or endo-lysosomal compartments were examined.",
+   "Data location": "Fig 1D",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P13",
+   "finding_id": "P13.F2",
+   "key": "pmid16890957",
+   "quote_start": "ApoE3 and apoE2 aggregated far more slowly. Even after 24 h at 37 oC, ",
+   "verdict": "FIX",
+   "set": {
+    "Finding description": "At 0.2 mg/ml, aggregation was slower than at 0.5 mg/ml, but recombinant human apoE4 still mostly formed high-molecular-mass aggregates within 4 hours at 37 °C; the text does not state the apoE3 result at this concentration."
+   },
+   "reason": "The text says apoE3 'aggregated far more slowly' only for the 0.5 mg/ml experiment; at 0.2 mg/ml it reports only apoE4. Fig 1d cannot be checked (figimg/1.png is the legend page), so 'faster than apoE3' at 0.2 mg/ml is not supported in the text.",
+   "evidence": "'The rates of aggregation were also slower at lower protein concentrations (0.2 mg/ml), but apoE4 still mostly formed higher mass aggregates within 4 h of incubation (Figure 1d).'"
+  },
+  "item": 1
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid16890957",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid16890957/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid16890957/figimg/1.png"
+   ],
+   "pdf": "data/papers/pmid16890957/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P13.F3",
+   "Finding description": "After overnight preincubation at 37 °C and 0.3 mg/ml, approximately 90% of apoE4 and 10% of apoE3 had aggregated.",
+   "Finding quote": "Preincubation of tetrameric apoE (0.3 mg/ml) overnight at 37 oC resulted in the aggregation of about 5% of apoE2, 10% of apoE3 and 90% of apoE4.",
+   "Finding summary": "(apoE3 -> apoE4) -> (higher fraction of apoE aggregated after overnight preincubation)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Purified, lipid-free recombinant human apoE expressed in E. coli; tetrameric preparations at 0.3 mg/ml preincubated overnight at 37 °C before neuronal toxicity experiments. The specific assay used to determine these aggregation percentages and the preincubation buffer are not identified in this sentence. These are preparation measurements, not intracellular measurements in Neuro-2a cells.",
+   "Data location": "Preincubation of tetrameric apoE (0.3 mg/ml) overnight at 37 oC resulted in the aggregation of about 5% of apoE2, 10% of apoE3 and 90% of apoE4.",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P13",
+   "finding_id": "P13.F3",
+   "key": "pmid16890957",
+   "quote_start": "Preincubation of tetrameric apoE (0.3 mg/ml) overnight at 37 oC result",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "9x",
+    "Effect size provenance": "printed_in_text",
+    "Data location": "Results, toxicity section, MTT paragraph (preincubated preparations used in Fig 6d)"
+   },
+   "reason": "Values correct (90% vs 10%); both printed, ratio 90/10. The Data location field holds the quote sentence instead of a location.",
+   "evidence": "'Preincubation of tetrameric apoE (0.3 mg/ml) overnight at 37 oC resulted in the aggregation of about 5% of apoE2, 10% of apoE3 and 90% of apoE4. ... (Figure 6d versus 6c).'"
+  },
+  "item": 2
+ },
+ {
+  "src": "3",
+  "paper": {
+   "key": "pmid19033669",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid19033669/text.txt",
+   "supp": "data/papers/pmid19033669/supp.txt",
+   "figures": [
+    "data/papers/pmid19033669/figimg/4.png",
+    "data/papers/pmid19033669/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P7.F1",
+   "Finding description": "Lipid-poor apoE4 bound isolated mouse brain microvessels less than apoE3, opposing greater overall apoE4 adhesion in this assay, although affinity and recycling were not measured.",
+   "Finding quote": "Lipid-poor apoE bound to the abluminal surfaces of isolated mouse brain microvessels in an isoform-specific manner, e.g., apoE2>apoE3>apoE4, and was almost displaced by excess unlabeled ligand (Figure 4 A).",
+   "Finding summary": "(lipid-poor apoE3 -> lipid-poor apoE4) -> (lower abluminal microvessel binding)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Isolated mouse brain microvessels; general animal methods specify male C57BL/6-background mice aged 2–3 months; 2 nM radiolabeled Sf9-derived recombinant human lipid-poor apoE; binding at 4°C for 30 minutes, with or without 0.5 μM unlabeled ligand; inulin-corrected, TCA-precipitable binding.",
+   "Data location": "Fig 4A",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P7",
+   "finding_id": "P7.F1",
+   "key": "pmid19033669",
+   "quote_start": "Lipid-poor apoE bound to the abluminal surfaces of isolated mouse brai",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~0.47x",
+    "Effect size provenance": "estimated_from_figure",
+    "P value": "<0.05",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Fig 4A is readable: apoE3 binding ~4.6 and apoE4 ~2.2 pmol/mg protein/30 min on a 0-8 axis, and a bracket labelled \"P < 0.05\" runs from the apoE3 bar to the apoE4 bar.",
+   "evidence": "Fig 4A image: 125I-apoE3 bar ~4.6, 125I-apoE4 bar ~2.2; middle bracket \"P < 0.05\" with legs on the apoE3 bar, +apoE3 bar and apoE4 bar. Legend gives no n."
+  },
+  "item": 3
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid2065026",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid2065026/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/pmid2065026/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P23.F1",
+   "Finding description": "At one apoE molecule per particle, human E4/E4 LpB:E had a lower apparent LDLR dissociation constant than E3/E3 LpB:E, 9.1 versus 16.38±6 nM, indicating stronger binding; the E3/E3 value represented three preparations, whereas the E4/E4 preparation count was unstated.",
+   "Finding quote": "KD (nM) 20.2±4.6 16.38±6 2.9 7.8 4.55+1.8 0.75 00 9.1",
+   "Finding summary": "(apoE3 -> apoE4, one apoE per LpB:E particle) -> (lower apparent LDLR dissociation constant)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Human HeLa cells, a non-brain carcinoma cell line of unspecified source, were preincubated for 48 hours with 10% lipoprotein-deficient serum. Human plasma LpB:E particles were isolated by sequential immunoaffinity chromatography from donors phenotyped E3/E3 or E4/E4; both preparations contained one apoB and one apoE per particle, without apoC-III. Direct iodine-125-labeled lipoprotein binding was measured at 4°C to avoid endocytosis, with a 20-fold excess of unlabeled LDL defining nonspecific binding. Apparent dissociation constants were calculated by Scatchard analysis. Receptor recycling was not measured.",
+   "Data location": "Table 2, LpB:E (n=3; apoE/apoB=1) and LpB E4/E4 rows",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P23",
+   "finding_id": "P23.F1",
+   "key": "pmid2065026",
+   "quote_start": "KD (nM) 20.2±4.6 16.38±6 2.9 7.8 4.55+1.8 0.75 00 9.1",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "0.56x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Both KD values are printed in Table 2 (E4/E4 9.1 nM vs E3/E3 LpB:E apoE/B=1 16.38 nM), so N/A is wrong; the ratio is 0.56. n=3 is the E3/E3 preparation count only; Table 2 gives no n for LpB E4/E4.",
+   "evidence": "Table 2: 'LpB:E (n=3)' KD 16.38+/-6, apo E molar ratio 1; 'LpB E4/E4' KD 9.1, apo E 1; footnote 'n, number of different preparations'. 9.1/16.38 = 0.556."
+  },
+  "item": 4
+ },
+ {
+  "src": "6",
+  "paper": {
+   "key": "pmid23580652",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid23580652/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P24.F2",
+   "Finding description": "In three cell-free ELISA assays per group, apoE4 bound immobilized human LRP1 cluster IV mutant D3674G more tightly than apoE3, with reported Kd values of 49.9 ± 5.4 versus 54.3 ± 6.4 nM, respectively.",
+   "Finding quote": "APOE3 | 29.3 ± 2.1 | 54.3 ± 6.4 a | 1.8 | APOE4 | 39.5 ± 3.2 | 49.9 ± 5.4 a | 1.3",
+   "Finding summary": "(apoE3 -> apoE4) -> (lower Kd and stronger binding to LRPIV-D3674G)",
+   "Finding relevance": 0.45,
+   "Experimental system": "Cell-free binding ELISA using commercial apoE3 and apoE4 from Invitrogen and purified human LRPIV-D3674G expressed in CHO cells; D3674G replaces an aspartate in the CR29 calcium-binding site; immobilized receptor coating concentration 5 μg/ml; ligand incubation for 2 hours at room temperature in HBSC, pH 7.4, containing 0.05% Tween 20; apparent Kd fitted by nonlinear one-site binding regression. No brain cells or receptor recycling measurements.",
+   "Data location": "Table 3, APOE3 and APOE4 rows, LRPIV-D3674G Kd column",
+   "Effect size": "0.92x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P24",
+   "finding_id": "P24.F2",
+   "key": "pmid23580652",
+   "quote_start": "APOE3 | 29.3 ± 2.1 | 54.3 ± 6.4 a | 1.8 | APOE4 | 39.5 ± 3.2 | 49.9 ± ",
+   "verdict": "FIX",
+   "set": {
+    "Directness class": 3,
+    "Directness strength": "3 moderate"
+   },
+   "reason": "The values (49.9 vs 54.3 nM, 0.92x) are right, but the receptor is the engineered therapeutic mutant LRPIV-D3674G, a surrogate B', not a native recycling receptor. Class 1 is a clear error.",
+   "evidence": "Table 3: APOE3 LRPIV-D3674G Kd 54.3 +/- 6.4; APOE4 49.9 +/- 5.4. Text: 'LRPIV-D3674G, a lead new LRPIV analog'."
+  },
+  "item": 5
+ },
+ {
+  "src": "7b",
+  "paper": {
+   "key": "pmid26506597",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid26506597/text.txt",
+   "supp": "data/papers/pmid26506597/supp.txt",
+   "figures": [
+    "data/papers/pmid26506597/figimg/2.png",
+    "data/papers/pmid26506597/figimg/3.png",
+    "data/papers/pmid26506597/figimg/4.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P25.F1",
+   "Finding description": "At 300–310 K, 11.12% of simulated ApoE4 conformations versus 0.05% of ApoE3 conformations met the authors' intermediate-similarity criterion.",
+   "Finding quote": "ApoE Isoform Population of Intermediate from 300 to 310 K E2 70.66 % E3 0.05 % E4 11.12 %",
+   "Finding summary": "(ApoE3 -> ApoE4) -> (higher simulated intermediate-like conformational population at 300–310 K)",
+   "Finding relevance": 0.5,
+   "Experimental system": "Human full-length apoE monomers in implicit-solvent REX/DMD; conformations at 300–310 K classified against each isoform's own T3 intermediate centroid using N-terminal helical RMSD less than 15 Å; no human brain cells, endo-lysosomes, or intermolecular aggregation.",
+   "Data location": "Supplementary Table 4, E3 and E4 rows",
+   "Effect size": "qualitative",
+   "Effect size provenance": "supplement_only",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 3,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P25",
+   "finding_id": "P25.F1",
+   "key": "pmid26506597",
+   "quote_start": "ApoE Isoform Population of Intermediate from 300 to 310 K E2 70.66 % E",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "diff_pp=11.07"
+   },
+   "reason": "The table prints both group values (E4 11.12%, E3 0.05%), so the effect should be given rather than 'qualitative'; the difference (11.07 percentage points) is used because a ratio off a 0.05% denominator is dominated by rounding.",
+   "evidence": "S4 Table: 'Population of Intermediate from 300 to 310 K / E2 70.66 % / E3 0.05 % / E4 11.12 %'; criterion: 'RMSD of the N-terminal domain helices with the centroids that is less than 15 A'."
+  },
+  "item": 6
+ },
+ {
+  "src": "7b",
+  "paper": {
+   "key": "pmid26506597",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid26506597/text.txt",
+   "supp": "data/papers/pmid26506597/supp.txt",
+   "figures": [
+    "data/papers/pmid26506597/figimg/2.png",
+    "data/papers/pmid26506597/figimg/3.png",
+    "data/papers/pmid26506597/figimg/4.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P25.F2",
+   "Finding description": "The summary table reports intermediate-like populations of 11.1% for ApoE4 versus 0.1% for ApoE3 at 300–310 K, using rounded values from Supplementary Table 4.",
+   "Finding quote": "Population of Intermediate from 300 to 310 K E2 70.66 % E3 0.05 % E4 11.12 %",
+   "Finding summary": "(ApoE3 -> ApoE4) -> (higher simulated intermediate-like population at 300–310 K)",
+   "Finding relevance": 0.5,
+   "Experimental system": "Human full-length apoE monomer REX/DMD; intermediate-like conformations defined by N-terminal helical RMSD less than 15 Å from each isoform's own intermediate centroid; rounded summary of Supplementary Table 4, not independent evidence.",
+   "Data location": "Supplementary Table 7, Population of intermediate state at 300 to 310 K row",
+   "Effect size": "qualitative",
+   "Effect size provenance": "supplement_only",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 3,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P25",
+   "finding_id": "P25.F2",
+   "key": "pmid26506597",
+   "quote_start": "Population of Intermediate from 300 to 310 K E2 70.66 % E3 0.05 % E4 1",
+   "verdict": "FIX",
+   "set": {
+    "Finding quote": "Population of intermediate state at 300 to 310 K 70.7 % 0.1 % 11.1 %",
+    "Effect size": "diff_pp=11.0"
+   },
+   "reason": "The quote is the S4 Table text, not the cited Supplementary Table 7 row, which prints the rounded 70.7/0.1/11.1 values; replaced with the S7 row text and gave the printed difference. This row restates S4 Table (same data as P25.F1) and is not independent evidence.",
+   "evidence": "S7 Table row: 'Population of intermediate state at 300 to 310 K | 70.7 % | 0.1 % | 11.1 % | S4 Table' (columns ApoE2, ApoE3, ApoE4)."
+  },
+  "item": 7
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid28276521",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid28276521/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P25.F1",
+   "Finding description": "The modeled stable LDLR complex dissociated more slowly for fasting APOE3/E4 VLDL1-rich particles than APOE3/E3 particles, with kd2 values of 9.7 versus 11.2 × 10−4 s−1.",
+   "Finding quote": "Relative to the APOE3/E3 group, the dissociation rate constant (kd2) was lower (P = 0.013) and overall K2 was higher (P = 0.032) for the second step of the binding of fasting APOE3/E4 VLDL1-rich particles to the LDLR.",
+   "Finding summary": "(APOE3/E3 -> APOE3/E4) -> (slower stable VLDL1-LDLR complex dissociation)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Fasting human male plasma VLDL1-rich TRL, Sf 60–400, pooled from two subjects per sample; trial mean age 48 ± 16 years. LDLR ectodomain SPR, 5 nM apoB, 25 °C, two-state fit; no endosomal pH or recycling assay.",
+   "Data location": "Table 1, VLDL1-rich TRL kd2",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "0.013",
+   "P value provenance": "printed_in_text",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P25",
+   "finding_id": "P25.F1",
+   "key": "pmid28276521",
+   "quote_start": "Relative to the APOE3/E3 group, the dissociation rate constant (kd2) w",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "13%",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Table 1 prints both group kd2 values (11.2 vs 9.7 x10^-4 s^-1), so the percent change should replace qualitative; P=0.013 correct.",
+   "evidence": "Table 1 'kd2 x 10-4 (s-1) | ... | 11.2 +/- 0.2 | 9.7 +/- 0.4 | 0.013'; (11.2-9.7)/11.2 = 13%."
+  },
+  "item": 8
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid28276521",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid28276521/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P25.F2",
+   "Finding description": "Fasting VLDL1-rich particles from APOE3/E4 and APOE3/E3 men showed no significant difference in overall LDLR binding affinity.",
+   "Finding quote": "KA × 109 (M−1) | 0.7 ± 0.0 | 0.5 ± 0.0 | 0.019 | 2.7 ± 0.4 | 3.3 ± 0.3 | 0.21",
+   "Finding summary": "(APOE3/E3 -> APOE3/E4) -> (no change in overall VLDL1-LDLR binding affinity)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Fasting human male plasma VLDL1-rich TRL, Sf 60–400, pooled from two subjects per sample; LDLR ectodomain SPR, 5 nM apoB, 25 °C, two-state fit. No receptor recycling measured.",
+   "Data location": "Table 1, VLDL1-rich TRL KA",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "0.21",
+   "P value provenance": "printed_in_text",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P25",
+   "finding_id": "P25.F2",
+   "key": "pmid28276521",
+   "quote_start": "KA × 109 (M−1) | 0.7 ± 0.0 | 0.5 ± 0.0 | 0.019 | 2.7 ± 0.4 | 3.3 ± 0.3",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "22%",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Both VLDL1 KA values are printed (2.7 vs 3.3 x10^9 M^-1, P=0.21), so the effect size is printed, not not_found_in_source.",
+   "evidence": "Table 1 'KA x 109 (M-1) | 0.7 | 0.5 | 0.019 | 2.7 +/- 0.4 | 3.3 +/- 0.3 | 0.21'; (3.3-2.7)/2.7 = 22%."
+  },
+  "item": 9
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid28276521",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid28276521/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P25.F3",
+   "Finding description": "Fasting VLDL2-rich particles from APOE3/E4 and APOE3/E3 men showed no significant difference in stable LDLR-complex dissociation rate.",
+   "Finding quote": "There were no significant genotype effects observed for the binding of the fasting VLDL2-rich fraction (Table 1), nor on the apoE content of either fasting TRL fraction estimated using the apoE/apoB ratio.",
+   "Finding summary": "(APOE3/E3 -> APOE3/E4) -> (no change in stable VLDL2-LDLR complex dissociation rate)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Fasting human male plasma VLDL2-rich TRL, Sf 20–60, pooled from two subjects per sample; LDLR ectodomain SPR, 5 nM apoB, 25 °C, two-state fit. No receptor recycling measured.",
+   "Data location": "Table 1, VLDL2-rich TRL kd2",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "0.28",
+   "P value provenance": "printed_in_text",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P25",
+   "finding_id": "P25.F3",
+   "key": "pmid28276521",
+   "quote_start": "There were no significant genotype effects observed for the binding of",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "7%",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "VLDL2 kd2 values are printed (10.6 vs 11.3, P=0.28), so give the percent change.",
+   "evidence": "Table 1 kd2 VLDL2-rich '10.6 +/- 0.1 | 11.3 +/- 0.5 | 0.28'; (11.3-10.6)/10.6 = 7%."
+  },
+  "item": 10
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid28276521",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid28276521/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P25.F5",
+   "Finding description": "Fasting VLDL1-rich particles from APOE3/E4 and APOE3/E3 men showed no significant difference in initial LDLR-complex dissociation rate.",
+   "Finding quote": "kd1 × 10−3 (s−1) | 11.7 ± 0.2 | 12.7 ± 0.3 | 0.042 | 6.2 ± 0.8 | 5.2 ± 0.5 | 0.28",
+   "Finding summary": "(APOE3/E3 -> APOE3/E4) -> (no change in initial VLDL1-LDLR dissociation rate)",
+   "Finding relevance": 0.6,
+   "Experimental system": "Fasting human male plasma VLDL1-rich TRL, Sf 60–400, pooled from two subjects per sample; LDLR ectodomain SPR, 5 nM apoB, 25 °C, two-state fit. No receptor recycling measured.",
+   "Data location": "Table 1, VLDL1-rich TRL kd1",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "0.28",
+   "P value provenance": "printed_in_text",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P25",
+   "finding_id": "P25.F5",
+   "key": "pmid28276521",
+   "quote_start": "kd1 × 10−3 (s−1) | 11.7 ± 0.2 | 12.7 ± 0.3 | 0.042 | 6.2 ± 0.8 | 5.2 ±",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "16%",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "VLDL1 kd1 values are printed (6.2 vs 5.2 x10^-3 s^-1, P=0.28), so give the percent change.",
+   "evidence": "Table 1 'kd1 x 10-3 (s-1) | 11.7 | 12.7 | 0.042 | 6.2 +/- 0.8 | 5.2 +/- 0.5 | 0.28'; (6.2-5.2)/6.2 = 16%."
+  },
+  "item": 11
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid28276521",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid28276521/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P25.F6",
+   "Finding description": "Fasting VLDL1-rich particles from APOE3/E4 and APOE3/E3 men showed no significant difference in the initial LDLR equilibrium binding constant.",
+   "Finding quote": "K1 × 108 (M−1) | 1.8 ± 0.1 | 1.4 ± 0.2 | 0.005 | 2.0 ± 0.3 | 1.9 ± 0.2 | 0.37",
+   "Finding summary": "(APOE3/E3 -> APOE3/E4) -> (no change in initial VLDL1-LDLR equilibrium binding constant)",
+   "Finding relevance": 0.6,
+   "Experimental system": "Fasting human male plasma VLDL1-rich TRL, Sf 60–400, pooled from two subjects per sample; LDLR ectodomain SPR, 5 nM apoB, 25 °C, two-state fit. No receptor recycling measured.",
+   "Data location": "Table 1, VLDL1-rich TRL K1",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "0.37",
+   "P value provenance": "printed_in_text",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P25",
+   "finding_id": "P25.F6",
+   "key": "pmid28276521",
+   "quote_start": "K1 × 108 (M−1) | 1.8 ± 0.1 | 1.4 ± 0.2 | 0.005 | 2.0 ± 0.3 | 1.9 ± 0.2",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "5%",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "VLDL1 K1 values are printed (2.0 vs 1.9 x10^8 M^-1, P=0.37), so give the percent change.",
+   "evidence": "Table 1 'K1 x 108 (M-1) | 1.8 | 1.4 | 0.005 | 2.0 +/- 0.3 | 1.9 +/- 0.2 | 0.37'; (2.0-1.9)/2.0 = 5%."
+  },
+  "item": 12
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid28276521",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid28276521/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P25.F7",
+   "Finding description": "Fasting VLDL1-rich particles from APOE3/E4 and APOE3/E3 men showed no significant difference in modeled stable LDLR-complex formation rate.",
+   "Finding quote": "However, in our study, a similar ka2 constant was observed for both fasting LDL and TRL isolated from the APOE3/E3 and APOE3/E4 groups, suggesting that the higher binding affinity in APOE4 carriers may reflect the conformation of APOE4 on the surface of these particles which, due to the lower stability of the helix bundle, binds to the receptor in the open conformation.",
+   "Finding summary": "(APOE3/E3 -> APOE3/E4) -> (no change in VLDL1-LDLR stable-complex formation rate)",
+   "Finding relevance": 0.6,
+   "Experimental system": "Fasting human male plasma VLDL1-rich TRL, Sf 60–400, pooled from two subjects per sample; LDLR ectodomain SPR, 5 nM apoB, 25 °C, two-state fit. No receptor recycling measured.",
+   "Data location": "Table 1, VLDL1-rich TRL ka2",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "0.12",
+   "P value provenance": "printed_in_text",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P25",
+   "finding_id": "P25.F7",
+   "key": "pmid28276521",
+   "quote_start": "However, in our study, a similar ka2 constant was observed for both fa",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "13%",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "VLDL1 ka2 values are printed (1.5 vs 1.7 x10^-2 s^-1, P=0.12), so give the percent change. Quote is a Discussion restatement of the paper's own Table 1 result, acceptable.",
+   "evidence": "Table 1 'ka2 x 10-2 (s-1) | 0.7 | 0.6 | 0.22 | 1.5 +/- 0.1 | 1.7 +/- 0.1 | 0.12'; (1.7-1.5)/1.5 = 13%."
+  },
+  "item": 13
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid28276521",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid28276521/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P25.F8",
+   "Finding description": "Fasting VLDL1-rich particles from APOE3/E4 men initially associated with LDLR more slowly than APOE3/E3 particles, with ka1 values of 9.3 versus 11.3 × 10^5 M−1s−1.",
+   "Finding quote": "A slower association rate was also observed with the fasting VLDL1-rich particles from the APOE3/E4 group, but once the VLDL1-LDLR complex was formed, it was found to be more stable and dissociated at a slower rate than the APOE3/E3 VLDL-1 rich fraction.",
+   "Finding summary": "(APOE3/E3 -> APOE3/E4) -> (slower initial VLDL1-LDLR association)",
+   "Finding relevance": 0.55,
+   "Experimental system": "Fasting human male plasma VLDL1-rich TRL, Sf 60–400, pooled from two subjects per sample; trial mean age 48 ± 16 years. LDLR ectodomain SPR, 5 nM apoB, 25 °C, two-state fit; no brain cells or recycling assay.",
+   "Data location": "Table 1, VLDL1-rich TRL ka1",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "0.011",
+   "P value provenance": "printed_in_text",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P25",
+   "finding_id": "P25.F8",
+   "key": "pmid28276521",
+   "quote_start": "A slower association rate was also observed with the fasting VLDL1-ric",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "18%",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "VLDL1 ka1 values are printed (11.3 vs 9.3 x10^5 M^-1 s^-1, P=0.011), so give the percent change.",
+   "evidence": "Table 1 'ka1 x 105 (M-1s-1) | 21.5 | 14.5 | 0.77 | 11.3 +/- 0.4 | 9.3 +/- 0.5 | 0.011'; (11.3-9.3)/11.3 = 18%."
+  },
+  "item": 14
+ },
+ {
+  "src": "3",
+  "paper": {
+   "key": "pmid28957663",
+   "hyp": "H2",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3.",
+   "text": "data/papers/pmid28957663/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F2",
+   "Finding description": "Across three independent experiments, human SH-SY5Y cells expressing IR-GFP and treated overnight with apoE4 versus apoE3 showed increased intracellular receptor fractions without insulin (nearly 40% versus 15%), while insulin increased this fraction with apoE3 but produced no significant difference with apoE4.",
+   "Finding quote": "In the absence of insulin, the majority of the IR-GFP was localized to the cell membrane with only 15% of the receptor localized intracellularly in apoE3-treated cells (Figures 6A–C). Interestingly, nearly 40% of IR-GFP was localized in the intracellular compartment in apoE4-treated cells (Figures 6A–C), consistent with our observation in which apoE4 reduced cell surface IR (Figures 5G–I). Importantly, insulin stimulation increased the percentage of intracellular IR-GFP in apoE3-treated, but not in apoE4-treated, cells (Figures 6A–C).",
+   "Finding summary": "(apoE3 -> apoE4) -> (higher intracellular IR-GFP fraction without insulin; no change in intracellular IR-GFP fraction after insulin in apoE4-treated cells)",
+   "Finding relevance": 0.7,
+   "Experimental system": "Human SH-SY5Y neuronal cells transfected with human IR-GFP plasmid (Addgene #22286) using Lipofectamine 3000; 24 hours after transfection, treated overnight with 100 nM recombinant apoE3 or apoE4, with or without 100 nM insulin for 30 minutes before fixation; confocal microscopy quantified intracellular IR-GFP as a fraction of total IR-GFP. Cell supplier and donor age were not stated; ARF6 activity and recycling kinetics were not measured in this panel.",
+   "Data location": "Fig 6C",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H2",
+   "paper_id": "P5",
+   "finding_id": "P5.F2",
+   "key": "pmid28957663",
+   "quote_start": "In the absence of insulin, the majority of the IR-GFP was localized to",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "2.7x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Both group values are printed (nearly 40% apoE4 vs 15% apoE3 intracellular IR-GFP), so the ratio should be given instead of qualitative.",
+   "evidence": "Results: \"only 15% of the receptor localized intracellularly in apoE3-treated cells (Figures 6A–C). Interestingly, nearly 40% of IR-GFP was localized in the intracellular compartment in apoE4-treated cells\""
+  },
+  "item": 15
+ },
+ {
+  "src": "3",
+  "paper": {
+   "key": "pmid28957663",
+   "hyp": "H2",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3.",
+   "text": "data/papers/pmid28957663/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F4",
+   "Finding description": "In three independent experiments, surface biotinylation and Western blotting of primary Apoe−/− mouse cortical neurons treated with apoE3, apoE4 or vehicle, with or without insulin, showed that apoE4 reduced surface insulin receptor without insulin and suppressed insulin-stimulated Akt signaling compared with apoE3.",
+   "Finding quote": "In the absence of insulin stimulation, we found that apoE4 but not apoE3 significantly reduced the amount of cell surface IR (Figures 5G, H).",
+   "Finding summary": "(APOE3 -> APOE4) -> (lower cell-surface insulin receptor without insulin and reduced insulin-stimulated Akt signaling in primary mouse cortical neurons)",
+   "Finding relevance": 0.6,
+   "Experimental system": "Primary cortical neurons from embryonic day 16–18 Apoe−/− mice; glia eliminated with Ara-C at DIV5; at DIV10, treated overnight with vehicle or recombinant apoE3 or apoE4 (100 nM), with or without insulin stimulation (100 nM, 30 minutes); cell-surface biotinylation followed by Western blotting for surface and total IR, p-Akt (Ser473), total Akt and β-actin.",
+   "Data location": "Fig 5G",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H2",
+   "paper_id": "P5",
+   "finding_id": "P5.F4",
+   "key": "pmid28957663",
+   "quote_start": "In the absence of insulin stimulation, we found that apoE4 but not apo",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 5G, H",
+    "Directness class": "3",
+    "Directness strength": "3 moderate"
+   },
+   "reason": "Quote cites Figures 5G, H (5H is the surface/total quantification). Steady-state surface IR after overnight apoE is a readout standing in for recycling, not recycling itself (class 3 by the pipeline definition, as P5.F1/F2 from the same paper are classed). Akt claim is supported by the next sentence (Figs 5G, J, K).",
+   "evidence": "Results: \"apoE4 but not apoE3 significantly reduced the amount of cell surface IR (Figures 5G, H)... apoE4 suppressed the activation of insulin signaling compared to apoE3 (Figures 5G, J, K and 3C)\""
+  },
+  "item": 16
+ },
+ {
+  "src": "3",
+  "paper": {
+   "key": "pmid28957663",
+   "hyp": "H2",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3.",
+   "text": "data/papers/pmid28957663/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F5",
+   "Finding description": "Primary Apoe−/− mouse neurons treated with apoE4 versus apoE3 showed no significant difference in cell surface LRP1 levels measured by cell surface biotinylation.",
+   "Finding quote": "No significant differences were found in the levels of cell surface and total LRP1, NMDAR, AMPAR, and Na-K-ATPase after apoE3 and apoE4 treatments (Figures S7A, C–F, H–K).",
+   "Finding summary": "(apoE3 -> apoE4) -> (no change in cell surface LRP1 levels in primary Apoe−/− mouse neurons)",
+   "Finding relevance": 0.6,
+   "Experimental system": "Primary cortical neurons obtained from embryonic day 16–18 Apoe−/− mice; glia eliminated with Ara-C at DIV5. Cell surface biotinylation methods specify overnight treatment at DIV10 with 100 nM recombinant apoE, followed by surface protein isolation and Western blotting. Panel-specific treatment details could not be verified because the supplement was unavailable.",
+   "Data location": "Fig S7C",
+   "Effect size": "N/A",
+   "Effect size provenance": "full_text_unavailable",
+   "P value": "N/A",
+   "P value provenance": "full_text_unavailable",
+   "Sample size": "N/A",
+   "Sample size provenance": "full_text_unavailable",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H2",
+   "paper_id": "P5",
+   "finding_id": "P5.F5",
+   "key": "pmid28957663",
+   "quote_start": "No significant differences were found in the levels of cell surface an",
+   "verdict": "FIX",
+   "set": {
+    "Directness class": "3",
+    "Directness strength": "3 moderate"
+   },
+   "reason": "Quote and null result fine, but steady-state surface LRP1 level is a surrogate for recycling, not a direct recycling measurement; class 1 is an error. Overlaps P5.F10.",
+   "evidence": "Results: \"No significant differences were found in the levels of cell surface and total LRP1, NMDAR, AMPAR, and Na-K-ATPase after apoE3 and apoE4 treatments (Figures S7A, C–F, H–K).\""
+  },
+  "item": 17
+ },
+ {
+  "src": "3",
+  "paper": {
+   "key": "pmid28957663",
+   "hyp": "H2",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3.",
+   "text": "data/papers/pmid28957663/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F8",
+   "Finding description": "In primary Apoe−/− mouse cortical neurons treated overnight with recombinant apoE3 or apoE4, insulin stimulation for 30 minutes caused a smaller decrease in surface-to-total insulin receptor after apoE4 treatment, with approximately 20% versus 50% internalization, respectively, across three independent experiments.",
+   "Finding quote": "Importantly, ~50% of the total IR was internalized in response to insulin in apoE3-treated cells, whereas only ~20% of IR was internalized in apoE4-treated cells upon insulin stimulation (Figure 5I).",
+   "Finding summary": "(APOE3 -> APOE4) -> (smaller insulin-induced decrease in surface-to-total insulin receptor in primary mouse cortical neurons)",
+   "Finding relevance": 0.5,
+   "Experimental system": "Primary cortical neurons from embryonic day 16–18 Apoe−/− mice; glia eliminated with Ara-C at DIV5; at DIV10, treated overnight with 100 nM recombinant apoE3 or apoE4, followed by 100 nM insulin stimulation for 30 minutes; surface-to-total insulin receptor assessed using cell surface biotinylation and Western blotting. Mouse strain background was not stated; ARF6 was not measured.",
+   "Data location": "Fig 5I",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H2",
+   "paper_id": "P5",
+   "finding_id": "P5.F8",
+   "key": "pmid28957663",
+   "quote_start": "Importantly, ~50% of the total IR was internalized in response to insu",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "60%",
+    "Effect size provenance": "printed_in_text",
+    "Directness class": "3",
+    "Directness strength": "3 moderate"
+   },
+   "reason": "Both group values are printed (~50% vs ~20% internalized), so the effect should be the 60% lower internalization with apoE4, not qualitative. The readout is insulin-induced internalization, a surrogate for recycling, so class 3.",
+   "evidence": "Results: \"~50% of the total IR was internalized in response to insulin in apoE3-treated cells, whereas only ~20% of IR was internalized in apoE4-treated cells upon insulin stimulation (Figure 5I).\"; Fig 5 legend: n = three independent experiments, two-tailed t test for I, key *p<0.05; **p<0.01."
+  },
+  "item": 18
+ },
+ {
+  "src": "3",
+  "paper": {
+   "key": "pmid28957663",
+   "hyp": "H2",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3.",
+   "text": "data/papers/pmid28957663/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F9",
+   "Finding description": "Primary Apoe−/− mouse neurons treated with apoE4 had lower cell surface insulin receptor abundance than neurons treated with apoE3, measured by cell surface biotinylation and Western blotting.",
+   "Finding quote": "As expected, cell surface IR was decreased after treatment with apoE4 compared with apoE3 (Figures S7A, B) without affecting the total IR (Figures S7A, G).",
+   "Finding summary": "(apoE3 -> apoE4) -> (lower cell surface insulin receptor abundance in primary Apoe−/− mouse neurons)",
+   "Finding relevance": 0.5,
+   "Experimental system": "Primary cortical neurons from embryonic day 16–18 Apoe−/− mice; glia depleted with Ara-C at DIV5. The cell surface biotinylation methods specify overnight treatment at DIV10 with 100 nM recombinant apoE, followed by surface biotinylation and Western blotting; the unavailable S7 legend prevents confirmation of panel-specific treatment details.",
+   "Data location": "Supplementary Fig S7B",
+   "Effect size": "N/A",
+   "Effect size provenance": "full_text_unavailable",
+   "P value": "N/A",
+   "P value provenance": "full_text_unavailable",
+   "Sample size": "N/A",
+   "Sample size provenance": "full_text_unavailable",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H2",
+   "paper_id": "P5",
+   "finding_id": "P5.F9",
+   "key": "pmid28957663",
+   "quote_start": "As expected, cell surface IR was decreased after treatment with apoE4 ",
+   "verdict": "FIX",
+   "set": {
+    "Directness class": "3",
+    "Directness strength": "3 moderate"
+   },
+   "reason": "Quote fine; steady-state surface IR abundance is a surrogate for recycling (class 3), not a direct recycling test. Overlaps P5.F10.",
+   "evidence": "Results: \"As expected, cell surface IR was decreased after treatment with apoE4 compared with apoE3 (Figures S7A, B) without affecting the total IR (Figures S7A, G).\""
+  },
+  "item": 19
+ },
+ {
+  "src": "3",
+  "paper": {
+   "key": "pmid28957663",
+   "hyp": "H2",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3.",
+   "text": "data/papers/pmid28957663/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F10",
+   "Finding description": "Surface-biotinylation Western blots of primary Apoe−/− mouse neurons treated with apoE4 versus apoE3 showed decreased surface insulin receptor (IR), with no significant difference in total IR or surface and total LRP1, NMDAR, AMPAR and Na-K-ATPase.",
+   "Finding quote": "As expected, cell surface IR was decreased after treatment with apoE4 compared with apoE3 (Figures S7A, B) without affecting the total IR (Figures S7A, G). No significant differences were found in the levels of cell surface and total LRP1, NMDAR, AMPAR, and Na-K-ATPase after apoE3 and apoE4 treatments (Figures S7A, C–F, H–K).",
+   "Finding summary": "(apoE3 -> apoE4) -> (decreased surface IR; no change in total IR or surface and total LRP1, NMDAR, AMPAR and Na-K-ATPase)",
+   "Finding relevance": 0.4,
+   "Experimental system": "Primary cortical neurons from embryonic day 16–18 Apoe−/− mice; cell-surface biotinylation methods specify treatment at DIV10 overnight with 100 nM recombinant apoE, followed by surface-protein isolation and Western blotting of surface and total proteins; panel-specific treatment details unavailable.",
+   "Data location": "Supplementary Fig S7A–K",
+   "Effect size": "N/A",
+   "Effect size provenance": "full_text_unavailable",
+   "P value": "N/A",
+   "P value provenance": "full_text_unavailable",
+   "Sample size": "N/A",
+   "Sample size provenance": "full_text_unavailable",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H2",
+   "paper_id": "P5",
+   "finding_id": "P5.F10",
+   "key": "pmid28957663",
+   "quote_start": "As expected, cell surface IR was decreased after treatment with apoE4 ",
+   "verdict": "FIX",
+   "set": {
+    "Directness class": "3",
+    "Directness strength": "3 moderate"
+   },
+   "reason": "Quote fine (union of P5.F5 and P5.F9 quotes); steady-state surface levels are a surrogate for recycling, so class 3.",
+   "evidence": "Results paragraph on Figures S7A-K, quoted verbatim."
+  },
+  "item": 20
+ },
+ {
+  "src": "3",
+  "paper": {
+   "key": "pmid28957663",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid28957663/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P17.F1",
+   "Finding description": "Cortical fractionation in mice at 3 and 22 months, with 4–6 mice/genotype, showed an increased insoluble-to-soluble apoE ratio with aging in APOE4 mice and a smaller upward trend in APOE3 mice, without identifying the aggregates' cellular compartment.",
+   "Finding quote": "Intriguingly, the level of insoluble apoE was significantly increased in aged apoE4-TR mice compared with that in young mice (Figure 7E), leading to an increased insoluble to soluble ratio of apoE with aging (Figure 7F). To a lesser extent, there was a trend of an increased insoluble to soluble apoE ratio with aging in apoE3-TR mice (Figures 7E, F).",
+   "Finding summary": "(APOE3 -> APOE4) -> (more pronounced age-associated increase in the cortical insoluble-to-soluble apoE ratio)",
+   "Finding relevance": 0.6,
+   "Experimental system": "Human APOE3- or APOE4-targeted-replacement mice, with the endogenous murine Apoe locus replaced by human APOE; mixed sexes, 3 and 22 months old; cortical RIPA-soluble and guanidine-extracted detergent-insoluble apoE quantified by ELISA and used to calculate the insoluble-to-soluble ratio; no AD model or endosome/lysosome localization reported.",
+   "Data location": "Fig 7F",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "4-6",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P17",
+   "finding_id": "P17.F1",
+   "key": "pmid28957663",
+   "quote_start": "Intriguingly, the level of insoluble apoE was significantly increased ",
+   "verdict": "FIX",
+   "set": {
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "Fig 7 legend gives a figure-wide key (**p<0.01; ***p<0.001, N.S.) for two-way ANOVA but no image is available to see the mark on panel F, so the code is ambiguous_panel rather than not_found_in_source. Quote, n=4-6 and description fine.",
+   "evidence": "Fig 7 legend: \"(n=4–6 mice/genotype, mixed gender) ... Two-way ANOVA with Tukey's multiple comparisons test ... **p < 0.01; ***p < 0.001, N.S., not significant.\""
+  },
+  "item": 21
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid28957663/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P2.F1",
+   "Finding description": "Without insulin, nearly 20% of IR-GFP colocalized with transferrin-positive endosomes after apoE4, with less colocalization after apoE3, across three independent experiments.",
+   "Finding quote": "In the absence of insulin, we found that nearly 20% of IR-GFP co-localized with transferrin in the endosomal compartment in apoE4-treated cells whereas less co-localization was observed in apoE3-treated cells (Figures 6A and 6D).",
+   "Finding summary": "(apoE3 -> apoE4) -> (greater insulin-receptor localization in transferrin-positive endosomes)",
+   "Finding relevance": 0.95,
+   "Experimental system": "Human SH-SY5Y cells expressing human IR-GFP; overnight 100 nM recombinant apoE, no insulin; Alexa568-transferrin at 20 μg/ml for one hour; confocal colocalization analysis.",
+   "Data location": "Fig 6D",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P2",
+   "finding_id": "P2.F1",
+   "key": "pmid28957663",
+   "quote_start": "In the absence of insulin, we found that nearly 20% of IR-GFP co-local",
+   "verdict": "FIX",
+   "set": {
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "Quote, description and n=3 are correct. ApoE3 value is not printed (only 'less'), so qualitative stands; the Fig 6 legend has a star key for the whole figure and no image is available, so P provenance is ambiguous_panel, not not_found_in_source.",
+   "evidence": "Fig 6 legend key: '***p < 0.001; ****p < 0.0001; N.S., not significant' for the whole figure; no figure image in the packet."
+  },
+  "item": 22
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid28957663/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P2.F3",
+   "Finding description": "Astrocyte-secreted lipidated apoE4 particles bound insulin receptor more strongly than lipidated apoE3 particles in three independent experiments.",
+   "Finding quote": "Similar to recombinant apoE, we found that apoE4 lipoprotein particles bind to IR more strongly than apoE3 lipoprotein particles (Figure 5B).",
+   "Finding summary": "(lipidated apoE3 -> lipidated apoE4) -> (stronger binding to insulin receptor)",
+   "Finding relevance": 0.9,
+   "Experimental system": "Cell-free solid-phase assay using human apoE3 or apoE4 lipoprotein particles purified from immortalized astrocytes derived from human apoE-targeted-replacement mice, and recombinant human insulin receptor.",
+   "Data location": "Fig 5B",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "1 very strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P2",
+   "finding_id": "P2.F3",
+   "key": "pmid28957663",
+   "quote_start": "Similar to recombinant apoE, we found that apoE4 lipoprotein particles",
+   "verdict": "FIX",
+   "set": {
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "Quote verbatim, n=3 from legend; Kd values not printed so qualitative is right. Fig 5 has a single star key and no image, so P provenance should be ambiguous_panel.",
+   "evidence": "Fig 5 legend key: '*p < 0.05; **p < 0.01; N.S., not significant' for the whole figure; no figure image in the packet, so no visible mark for this panel."
+  },
+  "item": 23
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid28957663/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P2.F4",
+   "Finding description": "Without insulin, approximately 15% of IR-GFP was intracellular with apoE3 versus nearly 40% with apoE4 in three independent experiments.",
+   "Finding quote": "In the absence of insulin, the majority of the IR-GFP was localized to the cell membrane with only 15% of the receptor localized intracellularly in apoE3-treated cells (Figures 6A–C). Interestingly, nearly 40% of IR-GFP was localized in the intracellular compartment in apoE4-treated cells (Figures 6A–C), consistent with our observation in which apoE4 reduced cell surface IR (Figures 5G–I).",
+   "Finding summary": "(apoE3 -> apoE4) -> (greater intracellular insulin-receptor localization)",
+   "Finding relevance": 0.9,
+   "Experimental system": "Human SH-SY5Y neuroblastoma neuronal cells expressing transfected human IR-GFP; overnight 100 nM recombinant apoE3 or apoE4, without insulin; confocal microscopy with transferrin labeling.",
+   "Data location": "Fig 6C",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P2",
+   "finding_id": "P2.F4",
+   "key": "pmid28957663",
+   "quote_start": "In the absence of insulin, the majority of the IR-GFP was localized to",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "2.7x",
+    "Effect size provenance": "printed_in_text",
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "Text prints both group values (15% apoE3 vs nearly 40% apoE4 intracellular IR-GFP), so the ratio should be given instead of qualitative; P key is figure-wide with no image.",
+   "evidence": "'only 15% of the receptor localized intracellularly in apoE3-treated cells ... nearly 40% of IR-GFP was localized in the intracellular compartment in apoE4-treated cells (Figures 6A-C)'; 40/15 = 2.67. Fig 6 legend key: '***p < 0.001; ****p < 0.0001; N.S., not significant' for the whole figure; no figure image in the packet."
+  },
+  "item": 24
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid28957663/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P2.F5",
+   "Finding description": "Insulin increased IR-GFP colocalization with transferrin after apoE3 treatment but produced no significant increase after apoE4 treatment in three independent experiments.",
+   "Finding quote": "Insulin induced IR internalization which increased the co-localization of IR-GFP with transferrin in apoE3-treated cells, but not in apoE4-treated cells (Figures 6A and 6D).",
+   "Finding summary": "(apoE3 -> apoE4) -> (reduced insulin-induced increase in endosomal insulin receptor)",
+   "Finding relevance": 0.9,
+   "Experimental system": "Human SH-SY5Y cells expressing human IR-GFP; overnight 100 nM recombinant apoE, transferrin labeling for one hour, and 100 nM insulin during the final 30 minutes; confocal microscopy.",
+   "Data location": "Fig 6D",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P2",
+   "finding_id": "P2.F5",
+   "key": "pmid28957663",
+   "quote_start": "Insulin induced IR internalization which increased the co-localization",
+   "verdict": "FIX",
+   "set": {
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "Quote, direction and location correct; Fig 6 star key is figure-wide and no image is available.",
+   "evidence": "Fig 6 legend key: '***p < 0.001; ****p < 0.0001; N.S., not significant' for the whole figure; no figure image in the packet."
+  },
+  "item": 25
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid28957663/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P2.F9",
+   "Finding description": "Recombinant apoE4 bound insulin receptor with higher affinity than recombinant apoE3 in three independent solid-phase binding experiments.",
+   "Finding quote": "Conversely, we found that both recombinant apoE3 and apoE4 specifically bound to IR with apoE4 having higher binding affinity than apoE3 (Figure 5A).",
+   "Finding summary": "(apoE3 -> apoE4) -> (higher binding affinity for insulin receptor)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Cell-free assay using recombinant human apoE isoforms and human insulin receptor; apoE immobilized at 400 ng/well, receptor binding measured after 24 hours at 4°C; one-site binding curves.",
+   "Data location": "Fig 5A",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "1 very strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P2",
+   "finding_id": "P2.F9",
+   "key": "pmid28957663",
+   "quote_start": "Conversely, we found that both recombinant apoE3 and apoE4 specificall",
+   "verdict": "FIX",
+   "set": {
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "Quote verbatim, n=3 from legend, Kd not printed. Fig 5 star key is figure-wide and no image, so P provenance should be ambiguous_panel.",
+   "evidence": "Fig 5 legend key: '*p < 0.05; **p < 0.01; N.S., not significant' for the whole figure; no figure image in the packet, so no visible mark for this panel."
+  },
+  "item": 26
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid28957663/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P2.F10",
+   "Finding description": "More insulin receptor co-immunoprecipitated with recombinant apoE4 than with recombinant apoE3 after solution incubation.",
+   "Finding quote": "We found that more IR was co-immunoprecipitated with apoE4 than with apoE3 (Figure 5C).",
+   "Finding summary": "(apoE3 -> apoE4) -> (greater insulin-receptor association)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Cell-free solution binding of recombinant human apoE at 1 μM and human insulin receptor at 400 nM for one hour at 37°C, followed by apoE immunoprecipitation and insulin-receptor immunoblotting.",
+   "Data location": "Fig 5C",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P2",
+   "finding_id": "P2.F10",
+   "key": "pmid28957663",
+   "quote_start": "We found that more IR was co-immunoprecipitated with apoE4 than with a",
+   "verdict": "FIX",
+   "set": {
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "Quote verbatim; legend for 5C gives no replicate count, so n N/A is right. Fig 5 star key is figure-wide with no image.",
+   "evidence": "Fig 5 legend key: '*p < 0.05; **p < 0.01; N.S., not significant' for the whole figure; no figure image in the packet, so no visible mark for this panel."
+  },
+  "item": 27
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid28957663/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P2.F11",
+   "Finding description": "Insulin increased intracellular IR-GFP after apoE3 treatment but produced no significant increase after apoE4 treatment in three independent experiments.",
+   "Finding quote": "Importantly, insulin stimulation increased the percentage of intracellular IR-GFP in apoE3-treated, but not in apoE4-treated, cells (Figures 6A–C).",
+   "Finding summary": "(apoE3 -> apoE4) -> (reduced insulin-induced increase in intracellular insulin receptor)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Human SH-SY5Y cells transfected with human IR-GFP; overnight 100 nM recombinant apoE followed by 100 nM insulin for 30 minutes; confocal microscopy.",
+   "Data location": "Fig 6C",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P2",
+   "finding_id": "P2.F11",
+   "key": "pmid28957663",
+   "quote_start": "Importantly, insulin stimulation increased the percentage of intracell",
+   "verdict": "FIX",
+   "set": {
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "Quote verbatim and direction correct; Fig 6 key is figure-wide with no image.",
+   "evidence": "Fig 6 legend key: '***p < 0.001; ****p < 0.0001; N.S., not significant' for the whole figure; no figure image in the packet."
+  },
+  "item": 28
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid28957663/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P2.F12",
+   "Finding description": "Without insulin stimulation, apoE4 reduced neuronal surface insulin receptor relative to apoE3 in three independent experiments.",
+   "Finding quote": "In the absence of insulin stimulation, we found that apoE4 but not apoE3 significantly reduced the amount of cell surface IR (Figures 5G, H).",
+   "Finding summary": "(apoE3 -> apoE4) -> (lower neuronal surface insulin receptor)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Primary cortical neurons from embryonic day 16–18 Apoe−/− mice, cultured to DIV10, treated overnight with 100 nM recombinant human apoE; surface biotinylation and insulin-receptor immunoblotting without insulin.",
+   "Data location": "Fig 5G",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P2",
+   "finding_id": "P2.F12",
+   "key": "pmid28957663",
+   "quote_start": "In the absence of insulin stimulation, we found that apoE4 but not apo",
+   "verdict": "FIX",
+   "set": {
+    "Finding description": "Without insulin stimulation, apoE4 but not apoE3 significantly reduced neuronal surface insulin receptor relative to vehicle in three independent experiments.",
+    "Data location": "Fig 5G-H",
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "The text compares each isoform with vehicle ('apoE4 but not apoE3 significantly reduced'; H is normalized to vehicle, one-way ANOVA), not apoE4 directly against apoE3; the quantification is panel H. P key is figure-wide with no image.",
+   "evidence": "'In the absence of insulin stimulation, we found that apoE4 but not apoE3 significantly reduced the amount of cell surface IR (Figures 5G, H).' Legend: 'The values were normalized to the vehicle-treated group (V) ... one-way ANOVA with Tukey's ... (D, E, H, J)'."
+  },
+  "item": 29
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid28957663/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P2.F13",
+   "Finding description": "Insulin internalized approximately 50% of total insulin receptor after apoE3 treatment versus approximately 20% after apoE4 treatment in three independent experiments.",
+   "Finding quote": "Importantly, ~50% of the total IR was internalized in response to insulin in apoE3-treated cells, whereas only ~20% of IR was internalized in apoE4-treated cells upon insulin stimulation (Figure 5I).",
+   "Finding summary": "(apoE3 -> apoE4) -> (less insulin-induced insulin-receptor internalization)",
+   "Finding relevance": 0.8,
+   "Experimental system": "DIV10 primary cortical neurons from embryonic Apoe−/− mice; overnight 100 nM recombinant human apoE isoforms followed by 100 nM insulin for 30 minutes; changes in surface-biotinylated insulin receptor.",
+   "Data location": "Fig 5I",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P2",
+   "finding_id": "P2.F13",
+   "key": "pmid28957663",
+   "quote_start": "Importantly, ~50% of the total IR was internalized in response to insu",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "60%",
+    "Effect size provenance": "printed_in_text",
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "Both group values are printed (~50% apoE3 vs ~20% apoE4 internalized), so the percent change should be given; P key is figure-wide with no image.",
+   "evidence": "'~50% of the total IR was internalized in response to insulin in apoE3-treated cells, whereas only ~20% of IR was internalized in apoE4-treated cells (Figure 5I)'; (50-20)/50 = 60%. Fig 5 legend key: '*p < 0.05; **p < 0.01; N.S., not significant' for the whole figure; no figure image in the packet, so no visible mark for this panel."
+  },
+  "item": 30
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid28957663/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P2.F14",
+   "Finding description": "Surface-biotinylation immunoblots showed lower neuronal surface insulin receptor after apoE4 than apoE3 treatment.",
+   "Finding quote": "As expected, cell surface IR was decreased after treatment with apoE4 compared with apoE3 (Figures S7A, B) without affecting the total IR (Figures S7A, G).",
+   "Finding summary": "(apoE3 -> apoE4) -> (lower neuronal surface insulin receptor)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Primary cortical neurons from embryonic Apoe−/− mice treated with recombinant apoE isoforms; cell-surface biotinylation followed by surface and total protein immunoblotting.",
+   "Data location": "Fig S7A",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "full_text_unavailable",
+   "Sample size": "N/A",
+   "Sample size provenance": "full_text_unavailable",
+   "Directness class": 3,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P2",
+   "finding_id": "P2.F14",
+   "key": "pmid28957663",
+   "quote_start": "As expected, cell surface IR was decreased after treatment with apoE4 ",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig S7A-B"
+   },
+   "reason": "Quote verbatim; the text cites S7A (blot) and S7B (quantification), so location should include B. Supplement unavailable.",
+   "evidence": "'cell surface IR was decreased after treatment with apoE4 compared with apoE3 (Figures S7A, B)'"
+  },
+  "item": 31
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid28957663/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P2.F15",
+   "Finding description": "At 16 μg/ml, apoE4 inhibited insulin–insulin-receptor binding by nearly 50%, versus 25% with apoE3, in three independent experiments.",
+   "Finding quote": "When apoE was co-incubated with insulin and IR, we found that apoE4 (16 μg/ml) reduced insulin-IR binding by nearly 50%, which is significantly higher than apoE3 treatment (25%) (Figure 5F).",
+   "Finding summary": "(apoE3 -> apoE4) -> (greater inhibition of insulin binding to insulin receptor)",
+   "Finding relevance": 0.7,
+   "Experimental system": "Cell-free competition assay with recombinant human apoE, biotinylated human insulin at 8 nM and human insulin receptor at 80 nM; one-hour incubation at 37°C followed by streptavidin capture.",
+   "Data location": "Fig 5F",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P2",
+   "finding_id": "P2.F15",
+   "key": "pmid28957663",
+   "quote_start": "When apoE was co-incubated with insulin and IR, we found that apoE4 (1",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "2.0x",
+    "Effect size provenance": "printed_in_text",
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "Both inhibition values are printed (nearly 50% apoE4 vs 25% apoE3 at 16 ug/ml), so the ratio should be given; text says 'significantly' but no p is printed and the Fig 5 key is figure-wide.",
+   "evidence": "'apoE4 (16 ug/ml) reduced insulin-IR binding by nearly 50%, which is significantly higher than apoE3 treatment (25%) (Figure 5F)'; 50/25 = 2.0."
+  },
+  "item": 32
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid28957663/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P2.F16",
+   "Finding description": "ApoE3 and apoE4 produced no significant difference in IR-GFP colocalization with lysosomes, with or without insulin, in three independent experiments.",
+   "Finding quote": "No differences were observed for the co-localization of IR-GFP with Lysotracker, a lysosomal marker, between apoE3- and apoE4-treated cells, with or without insulin (Figures 6B and 6E).",
+   "Finding summary": "(apoE3 -> apoE4) -> (no significant difference detected in lysosomal insulin-receptor localization)",
+   "Finding relevance": 0.55,
+   "Experimental system": "Human SH-SY5Y cells expressing human IR-GFP; overnight 100 nM recombinant apoE; 10 μM Lysotracker for one hour, with or without 100 nM insulin for 30 minutes; confocal microscopy.",
+   "Data location": "Fig 6E",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P2",
+   "finding_id": "P2.F16",
+   "key": "pmid28957663",
+   "quote_start": "No differences were observed for the co-localization of IR-GFP with Ly",
+   "verdict": "FIX",
+   "set": {
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "Quote verbatim, null result correct, n=3. Legend marks N.S. without a threshold and no image is available, so P stays N/A with ambiguous_panel.",
+   "evidence": "Fig 6 legend key: '***p < 0.001; ****p < 0.0001; N.S., not significant' for the whole figure; no figure image in the packet."
+  },
+  "item": 33
+ }
+]

@@ -1,0 +1,617 @@
+[
+ {
+  "hyp": "H3",
+  "paper_id": "P3",
+  "finding_id": "P3.F1",
+  "key": "pmid15475580",
+  "quote_start": "Furthermore, at higher protein concentration, large species ( s > 10) ",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.24x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Values correct (s>10 fraction 26% apoE4 vs 21% apoE3 at 0.50 mg/ml; s_w 6.5 both); both group values printed in Table 2, so give the ratio 26/21.",
+  "evidence": "Table 2 (0.15 mg/ml column; 1.00 mg/ml column, footnote: full-length at 0.50 mg/ml): ApoE3 11.0-23.1 S 0.24 (21%); ApoE4 10.4-24.4 S 0.28 (26%). Table 1: ApoE3 0.50 s_w 6.5, ApoE4 0.50 s_w 6.5. 'Every sedimentation velocity experiment was repeated twice'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P3",
+  "finding_id": "P3.F2",
+  "key": "pmid15475580",
+  "quote_start": "Furthermore, at higher protein concentration, large species ( s > 10) ",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "2.5x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Description and quote correct; text prints both increases (15% vs 6%), so ratio 15/6 = 2.5x.",
+  "evidence": "'large species ( s > 10) were more significantly increased for the apoE4 protein (by 15%), compared to apoE3 protein (6%)'; Table 2: apoE4 11%->26%, apoE3 15%->21%."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P3",
+  "finding_id": "P3.F3",
+  "key": "pmid15475580",
+  "quote_start": "Similar to the full-length proteins, at higher protein concentrations,",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.75x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Values correct (21% vs 12%, apoE3 major region 77% at 5.9 S); both values printed, ratio 21/12.",
+  "evidence": "'apoE4 72-299 had more abundant larger species ( s > 10, 21%), compared with those of apoE3 72-299 (12%)'; Table 2 1.00 mg/ml: ApoE3 72-299 1.7-8.2 S 5.9 +/- 1.1 0.72 (77%), 10.3-22.8 S 0.11 (12%); ApoE4 72-299 10.1-23.6 S 0.19 (21%)."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P3",
+  "finding_id": "P3.F4",
+  "key": "pmid15475580",
+  "quote_start": "This feature showed that aggregation of apoE4 72-299 protein was more ",
+  "verdict": "FIX",
+  "set": {
+   "Finding quote": "The smallest apoE4 72-299 species with s = 4.6 decreased by 4% at the higher protein concentration. At the same time, species s = 6.6 and 9.4 decreased by 24 and 8%, respectively, species s = 7.7 remained at 23%, and those with s > 10 increased by 14%."
+  },
+  "reason": "Numbers correct (apoE4 7%->21%, apoE3 13%->12%), but the quoted sentence ('This feature...') refers to the 10-vs-5 species count, not the large-species fraction; use the sentence that prints the s>10 increase. Effect left qualitative (isoform comparison of concentration changes, +14 vs -1 points, has no allowed ratio shape).",
+  "evidence": "Table 2: ApoE4 72-299 11.7-20.1 S 0.01 (7%) at 0.15, 10.1-23.6 S 0.19 (21%) at 1.00; ApoE3 72-299 11.0-20.8 S 0.02 (13%) at 0.15, 10.3-22.8 S 0.11 (12%) at 1.00. Text: 'those with s > 10 increased by 14%'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P3",
+  "finding_id": "P3.F5",
+  "key": "pmid15475580",
+  "quote_start": "ApoE4 1-271 was made up of more and larger species ( s > 10; 21%), com",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.62x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Values correct (21% vs 13% at 0.15 mg/ml, 50-400 kDa overlapping c(M)); both printed, ratio 21/13.",
+  "evidence": "'ApoE4 1-271 was made up of more and larger species ( s > 10; 21%), compared to apoE3 1-271 (13%).' Fig 5 legend: proteins at 0.15 mg/ml."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P3",
+  "finding_id": "P3.F6",
+  "key": "pmid15475580",
+  "quote_start": "Both apoE3 and E4 proteins showed a distribution with two major partic",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.31x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Quote and description correct; both values printed (46% vs 35%), ratio 46/35.",
+  "evidence": "DLS at 1.0 mg/ml: 'apoE3 had less 5.0-15.0 nm group particles (35%), compared with those of apoE4 (46%).'"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P3",
+  "finding_id": "P3.F7",
+  "key": "pmid15475580",
+  "quote_start": "ApoE3 72-299 protein existed as one major particle group in the range ",
+  "verdict": "OK",
+  "reason": "Quote verbatim, description correct; no apoE3 large-group value printed, so qualitative is right.",
+  "evidence": "'ApoE3 72-299 protein existed as one major particle group in the range of 4-10 nm, whereas apoE4 72-299 showed two major groups with a particle size of 5.1 nm (62%) and another in the range of 10.0-25.0 nm (36%).'"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P3",
+  "finding_id": "P3.F8",
+  "key": "pmid15475580",
+  "quote_start": "Size distribution of apoE3 and apoE4 full-length proteins showed very ",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.73x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Values correct (apoE4 11% vs apoE3 15% s>10 at 0.15 mg/ml); both printed in Table 2, ratio 11/15. Quote is general but the paper's own.",
+  "evidence": "Table 2 0.15 mg/ml: ApoE3 11.2-23.9 S 0.06 (15%); ApoE4 11.5-23.4 S 0.04 (11%)."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P3",
+  "finding_id": "P3.F9",
+  "key": "pmid15475580",
+  "quote_start": "After calculating the integration by SEDFIT, both apoE 72-299 proteins",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.54x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Values correct (7% vs 13% s>10; s_w 6.4 vs 5.5 S); both printed, ratio 7/13. Quote only says four species were found, weak support but the paper's own.",
+  "evidence": "Table 2 0.15 mg/ml: ApoE3 72-299 11.0-20.8 S 0.02 (13%); ApoE4 72-299 11.7-20.1 S 0.01 (7%). Table 1: ApoE3 72-299 0.15 s_w 5.5; ApoE4 72-299 0.15 s_w 6.4."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P3",
+  "finding_id": "P3.F10",
+  "key": "pmid15475580",
+  "quote_start": "However, when the protein concentration was increased to 1.00 mg/ml, 1",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "2x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Quote and description correct; both counts printed (10 vs 5 species), ratio 2x.",
+  "evidence": "'when the protein concentration was increased to 1.00 mg/ml, 10 species were found in apoE4 72-299 protein, compared with five species of apoE3 72-299'"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P3",
+  "finding_id": "P3.F11",
+  "key": "pmid15475580",
+  "quote_start": "The K d of apoE3 1-191 (556 ± 233 nM) was 19 times larger than that of",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.55x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Kd values correct (16 +/- 1.3 vs 29 +/- 2.8 nM); both printed, so the apoE4/apoE3 Kd ratio 16/29 is available rather than N/A.",
+  "evidence": "'The K d of apoE3 1-191 (556 +/- 233 nM) was 19 times larger than that of apoE3 1-231 (29 +/- 2.8 nM) and 37 times in the case of apoE4 isoforms (592 +/- 323 nM of apoE4 1-191 and 16 +/- 1.3 nM of apoE4 1-231 ).'"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P3",
+  "finding_id": "P3.F12",
+  "key": "pmid15475580",
+  "quote_start": "However, both apoE 41-299 proteins showed less large species of s > 10",
+  "verdict": "OK",
+  "reason": "Quote verbatim, values match Table 2 (apoE4 14%->10%, apoE3 10%->9%); qualitative fine for a no-difference row.",
+  "evidence": "Table 2: ApoE3 41-299 9.7-22.3 S (10%) -> 9.9-22.8 S (9%); ApoE4 41-299 9.2-21.5 S (14%) -> 9.6-22.9 S (10%). 'both apoE 41-299 proteins showed less large species of s > 10 (decreased 1-4%)'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P3",
+  "finding_id": "P3.F13",
+  "key": "pmid15475580",
+  "quote_start": "Both apoE3 and E4 N-terminal domain (1–191) existed with monomers as t",
+  "verdict": "OK",
+  "reason": "Quote is the abstract summarising the paper's own Fig 5 result; description correct; abstract also states 'no significant isoform preference'.",
+  "evidence": "Results: 'both apoE3 1-191 and apoE4 1-191 existed as two major peaks with s = 2.1 and s = 4.5 values ( solid lines in Fig. 5, A and C )... ~22 kDa and 85 kDa... assumed to be monomer and tetramer.'"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P3",
+  "finding_id": "P3.F14",
+  "key": "pmid15475580",
+  "quote_start": "The two-species distribution was still maintained in the case of the a",
+  "verdict": "OK",
+  "reason": "Quote verbatim; description consistent with text (two species maintained; Kd 19x/37x lower for 1-231).",
+  "evidence": "'The two-species distribution was still maintained in the case of the apoE3 1-231 and apoE4 1-231 ( dashed lines in Fig. 5, A and C )'; masses '~30-35 kDa and 110-140 kDa for apoE 1-231'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P3",
+  "finding_id": "P3.F15",
+  "key": "pmid15475580",
+  "quote_start": "However, they did not show a significant tendency to aggregate at high",
+  "verdict": "OK",
+  "reason": "Quote verbatim, data not shown; N/A effect correct.",
+  "evidence": "'However, they did not show a significant tendency to aggregate at higher protein concentration (data not shown).'"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P3",
+  "finding_id": "P3.F16",
+  "key": "pmid15475580",
+  "quote_start": "The K d of apoE3 1-191 (556 ± 233 nM) was 19 times larger than that of",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.06x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Kd values correct (556 +/- 233 vs 592 +/- 323 nM); both printed, so ratio 592/556 instead of N/A (CIs overlap widely; no test reported).",
+  "evidence": "'The K d of apoE3 1-191 (556 +/- 233 nM)... (592 +/- 323 nM of apoE4 1-191 ...)'"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P3",
+  "finding_id": "P3.F17",
+  "key": "pmid15475580",
+  "quote_start": "After calculating the integration by SEDFIT, five species were identif",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.4x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Values correct (14% vs 10% s>10; s_w 3.7 vs 4.4 S); both printed, ratio 14/10. Quote is a weak 'five species' sentence but the paper's own.",
+  "evidence": "Table 2 0.15 mg/ml: ApoE3 41-299 9.7-22.3 S 0.02 (10%); ApoE4 41-299 9.2-21.5 S 0.03 (14%). Table 1: 4.4 vs 3.7 S."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P3",
+  "finding_id": "P3.F18",
+  "key": "pmid15475580",
+  "quote_start": "At an initial protein concentration of 1.00 mg/ml, the major species o",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.11x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Quote verbatim, values correct (10% vs 9%; 72% vs 77%); both printed, ratio 10/9.",
+  "evidence": "Table 2 1.00 mg/ml: ApoE3 41-299 9.9-22.8 S 0.12 (9%), major species 22%+55%=77%; ApoE4 41-299 9.6-22.9 S 0.14 (10%), 31%+41%=72%."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P3",
+  "finding_id": "P3.F19",
+  "key": "pmid15475580",
+  "quote_start": "Finally, the s w of the apoE4 72-299 protein had significantly increas",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.21x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Values correct (Table 1 at 0.50: apoE4 72-299 6.9 S vs apoE3 72-299 5.7 S); both printed, ratio 6.9/5.7. Quote describes the concentration rise (6.4->7.2), related but not this exact comparison.",
+  "evidence": "Table 1: ApoE3 72-299 0.50 0.00537 5.7; ApoE4 72-299 0.50 0.00469 6.9."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P3",
+  "finding_id": "P3.F20",
+  "key": "pmid15475580",
+  "quote_start": "The s w values of apoE and apoE 1-271 proteins were from 6.1 to 6.6 S ",
+  "verdict": "OK",
+  "reason": "Quote verbatim, values match Table 1 (6.6 vs 6.3; 6.5 vs 6.5); null result over two concentrations, N/A acceptable.",
+  "evidence": "'The s w values of apoE and apoE 1-271 proteins were from 6.1 to 6.6 S and did not show any significant difference.'"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P3",
+  "finding_id": "P3.F21",
+  "key": "pmid15475580",
+  "quote_start": "ApoE3 1-231 | 0.15 | 0.00546 | 3.8 | | 0.50 | 0.00660 | 4.2 | ApoE4 1-",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.82x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Quote is the Table 1 row; values correct (3.1 vs 3.8 S); both printed, ratio 3.1/3.8 instead of N/A.",
+  "evidence": "Table 1: ApoE3 1-231 0.15 3.8; ApoE4 1-231 0.15 3.1; text 'apoE3 1-231 had an s w of 3.8-4.2 S and apoE4 1-231 had an s w of 3.1-3.6 S'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P3",
+  "finding_id": "P3.F22",
+  "key": "pmid15475580",
+  "quote_start": "ApoE3 41-299 and apoE4 41-299 proteins showed lower s w values (4.4 an",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.88x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Description values correct from Table 1 (4.3 vs 4.9 S at 0.50; the quoted text's 4.8 for apoE3 is its 1.00 mg/ml value); both printed, ratio 4.3/4.9.",
+  "evidence": "Table 1: ApoE3 41-299 0.50 4.9; ApoE4 41-299 0.50 4.3."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P3",
+  "finding_id": "P3.F23",
+  "key": "pmid15475580",
+  "quote_start": "ApoE3 1-191 | 0.15 | 0.00556 | 2.6 | | 0.50 | 0.00654 | 2.9 | ApoE4 1-",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.04x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Quote is the Table 1 row; values correct (2.7 vs 2.6 S); both printed, ratio 2.7/2.6 instead of N/A.",
+  "evidence": "Table 1: ApoE3 1-191 0.15 2.6; ApoE4 1-191 0.15 2.7."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P27",
+  "finding_id": "P27.F1",
+  "key": "pmid38336940",
+  "quote_start": "apoE-FA | 302 | 0.31 (− 0.46 to 1.08) | 0.43",
+  "verdict": "FIX",
+  "set": {
+   "Sample size": "93",
+   "Sample size provenance": "printed_in_text"
+  },
+  "reason": "Beta 0.31, p 0.43 correct; the Table 5 column header prints the subgroup n (APOE4 N = 20 vs APOE3 N = 73), so n is not ambiguous.",
+  "evidence": "Table 5 header 'APOE4 vs. APOE3 (reference) | | APOE4 (N = 20) vsAPOE3 (N = 73) | ...'; row 'apoE-FA | 302 | 0.31 (- 0.46 to 1.08) | 0.43'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P27",
+  "finding_id": "P27.F2",
+  "key": "pmid38336940",
+  "quote_start": "Compared to APOE3, APOE4 was associated with increased levels of insol",
+  "verdict": "OK",
+  "reason": "Quote verbatim, beta 1.24, p<0.001, N 302 match Table 3.",
+  "evidence": "Table 3: 'apoE-FA | 302 | 1.24 (0.85, 1.64) | < 0.001'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P27",
+  "finding_id": "P27.F3",
+  "key": "pmid38336940",
+  "quote_start": "FA 44 31.1 (0.0, 1731.0) 153 33.7 (0.0, 782.0) 149 128.8 (0.0, 933.8)",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "3.82x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Medians correct (128.8 vs 33.7 ng/mg; n 149+153=302); both values printed in Table S3, so give the ratio 128.8/33.7.",
+  "evidence": "Table S3 apoE (ng/mg protein) FA: APOE2 44 31.1; APOE3 153 33.7 (0.0, 782.0); APOE4 149 128.8 (0.0, 933.8)."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P27",
+  "finding_id": "P27.F4",
+  "key": "pmid38336940",
+  "quote_start": "APOE4 0.51 (-0.13-1.14) 0.12 1.39 (0.85-1.93) &lt;0.001 0.044",
+  "verdict": "FIX",
+  "set": {
+   "Sample size": "150",
+   "Sample size provenance": "supplement_only"
+  },
+  "reason": "Beta 0.51, p 0.12 correct and quote verbatim; Table S9 header prints the subgroup N (No AD-tau pathology N=150).",
+  "evidence": "Table S9 header 'No AD-tau pathology (N=150) | AD-tau pathology (N=197)'; apoE-FA APOE4 row 0.51 (-0.13-1.14) 0.12 1.39 (0.85-1.93) <0.001 0.044."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P27",
+  "finding_id": "P27.F5",
+  "key": "pmid38336940",
+  "quote_start": "Moreover, major AD-related molecules including insoluble Aβ40, Aβ42, a",
+  "verdict": "OK",
+  "reason": "Beta 1.39, p<0.001, N 346 match Table 4 unadjusted; quote is the authors' Discussion summary of their own result.",
+  "evidence": "Table 4: 'APOE4 | 346 | 1.39 (1.03, 1.76) | < 0.001 | 1.25 (0.88, 1.63) | < 0.001 | 0.79 (0.39, 1.18) | < 0.001'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P27",
+  "finding_id": "P27.F6",
+  "key": "pmid38336940",
+  "quote_start": "Moreover, major AD-related molecules including insoluble Aβ40, Aβ42, a",
+  "verdict": "OK",
+  "reason": "Beta 1.25, p<0.001, N 346 match Table 4 age/sex-adjusted.",
+  "evidence": "Table 4 APOE4 row, second column: 1.25 (0.88, 1.63), < 0.001."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P27",
+  "finding_id": "P27.F7",
+  "key": "pmid38336940",
+  "quote_start": "Moreover, major AD-related molecules including insoluble Aβ40, Aβ42, a",
+  "verdict": "OK",
+  "reason": "Beta 0.79, p<0.001, N 346 match Table 4 full multivariable.",
+  "evidence": "Table 4 APOE4 row, third column: 0.79 (0.39, 1.18), < 0.001."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P27",
+  "finding_id": "P27.F8",
+  "key": "pmid38336940",
+  "quote_start": "Although APOE4 was significantly associated with higher levels of inso",
+  "verdict": "FIX",
+  "set": {
+   "Sample size": "40",
+   "Sample size provenance": "printed_in_text"
+  },
+  "reason": "Beta 0.91, p 0.091 correct; the Table 5 Mixed tauopathy header prints APOE4 N = 13 vs APOE3 N = 27.",
+  "evidence": "Table 5 header '... | APOE4 (N = 13) vsAPOE3 (N = 27) |'; apoE-FA row Mixed tauopathy 0.91 (- 0.15 to 1.96) 0.091."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P27",
+  "finding_id": "P27.F9",
+  "key": "pmid38336940",
+  "quote_start": "APOE4 1.27 (0.86, 1.69) &lt;0.001 0.94 (0.05, 1.83) 0.040 0.44",
+  "verdict": "FIX",
+  "set": {
+   "Sample size": "302",
+   "Sample size provenance": "supplement_only"
+  },
+  "reason": "Beta 1.27, p<0.001 correct, quote verbatim; Table S8 header prints the subgroup N (No AGD-tau pathology N=302).",
+  "evidence": "Table S8 header 'No AGD-tau pathology (N=302) | AGD-tau pathology (N=51)'; apoE-FA APOE4 1.27 (0.86, 1.69) <0.001 0.94 (0.05, 1.83) 0.040 0.44."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P27",
+  "finding_id": "P27.F10",
+  "key": "pmid38336940",
+  "quote_start": "Although APOE4 was significantly associated with higher levels of inso",
+  "verdict": "FIX",
+  "set": {
+   "Sample size": "51",
+   "Sample size provenance": "supplement_only"
+  },
+  "reason": "Beta 0.94, p 0.040 and the P<0.0056 threshold are correct; Table S8 header prints AGD-tau pathology N=51.",
+  "evidence": "Table S8 header 'AGD-tau pathology (N=51)'; footnote 'P-values <0.0056 were considered as statistically significant'."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P12",
+  "finding_id": "P12.F1",
+  "key": "pmid33027662",
+  "quote_start": "Using fluorescently-tagged Tf, we again observed that APOE4 astrocytes",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 1G (right, quantification); Fig 1I (representative images)",
+   "Sample size": "12",
+   "Sample size provenance": "printed_in_text"
+  },
+  "reason": "Quote and direction correct, but Fig 1I holds only the representative images; the Tf quantification is in Fig 1G right, whose legend gives n=12 samples (30-50 cells each). Mostly duplicates P12.F2.",
+  "evidence": "Fig 1 legend: '(G) Quantification ... the number of EGF puncta per cell (left) or the internalization of transferrin per cell (right) in one isogenic pair ... Mean +/- SD shown of 30-50 cells per sample for n=12 samples. Representative images displaying (H) EGF endocytosis and (I) transferrin-647 endocytosis'."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P12",
+  "finding_id": "P12.F2",
+  "key": "pmid33027662",
+  "quote_start": "APOE4 astrocytes trend towards internalizing less EGF (Figure 1G,H). U",
+  "verdict": "OK",
+  "reason": "Quote verbatim; n=12 samples (30-50 cells) from the Fig 1G legend; no P value printed in the text or legend.",
+  "evidence": "Fig 1G legend 'Mean +/- SD shown of 30-50 cells per sample for n=12 samples'."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P12",
+  "finding_id": "P12.F3",
+  "key": "pmid33027662",
+  "quote_start": "APOE4 astrocytes trend towards internalizing less EGF (Figure 1G,H).",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 1G (left, quantification); Fig 1H (representative images)",
+   "Sample size": "12",
+   "Sample size provenance": "printed_in_text"
+  },
+  "reason": "The trend comes from the Fig 1G left quantification (n=12 samples); Fig 1H holds only representative images.",
+  "evidence": "Fig 1 legend (G) 'number of EGF puncta per cell (left) ... n=12 samples'; '(H) EGF endocytosis'."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P12",
+  "finding_id": "P12.F4",
+  "key": "pmid33027662",
+  "quote_start": "In contrast to our finding in early endocytic effectors, we noted no d",
+  "verdict": "OK",
+  "reason": "Quote verbatim; S2 supplement is not available, so the full_text_unavailable provenances are right.",
+  "evidence": "'we noted no difference in Rab11 (recycling endosome) levels between cells of the APOE3 and APOE4 genotype (Figure S2A,B).'"
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P12",
+  "finding_id": "P12.F5",
+  "key": "pmid33027662",
+  "quote_start": "In contrast to our finding in early endocytic effectors, we noted no d",
+  "verdict": "OK",
+  "reason": "Quote verbatim and values consistent, but this row duplicates P12.F4 (same quote and claim, S2B only); consider merging.",
+  "evidence": "Same sentence as P12.F4, Results paragraph 1."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P16",
+  "finding_id": "P16.F1",
+  "key": "pmid37290814",
+  "quote_start": "No significant difference in ApoE puncta size was observed after Baf A",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.93x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Quote verbatim, P 0.7064 (Kruskal-Wallis, 4 groups), 3 cultures correct; the means are printed, so give the ApoE4 vs ApoE3 DMSO ratio 9.6/10.3.",
+  "evidence": "Fig 2M legend: 'ApoE3 + DMSO: 10.3 pixels, ApoE3 + Baf A1: 9.0 pixels, ApoE4 + DMSO: 9.6 pixels, and ApoE4 + Baf A1: 9.4 pixels) (Kruskal-Wallis test, P = 0.7064); number of cultures: 3'. Fig 2M image shows four groups with overlapping means around 9-10."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P16",
+  "finding_id": "P16.F2",
+  "key": "pmid37290814",
+  "quote_start": "The percentages of ApoE co-localizing to LAMP1-positive pixels increas",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.72x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Quote verbatim, P 0.4358, n 3 correct; both medians printed (8.7% DMSO, 6.3% Baf A1), ratio 6.3/8.7.",
+  "evidence": "Fig 2L legend 'decreased from 8.7-6.3% (Mann-Whitney test, P = 0.4358) in ApoE4-treated neurons'; Results 'median ApoE-LAMP1 co-localization after Baf A1 ... ApoE4 decreased from 8.7-6.3%'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P16",
+  "finding_id": "P16.F3",
+  "key": "pmid37290814",
+  "quote_start": "However, there was no statistically significant difference in ApoE and",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.86x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Quote verbatim, P 0.2744, 3 cultures correct; the Fig 1I legend prints both means (35.8% ApoE3, 30.7% ApoE4), ratio 30.7/35.8.",
+  "evidence": "Fig 1I legend 'on average 35.8% and 30.7% of ApoE, respectively, co-localized with LAMP1 (t test ..., P = 0.2744; number of cultures ...: 3'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P16",
+  "finding_id": "P16.F4",
+  "key": "pmid37290814",
+  "quote_start": "In comparison with LAMP1, a lower proportion of human ApoE puncta co-l",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.85x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Quote verbatim, P 0.3392, 3 cultures correct; the Fig 1J legend prints both values (14.2% ApoE3, 12.1% ApoE4), ratio 12.1/14.2.",
+  "evidence": "Fig 1J legend '14.2% and 12.1% of the ApoE co-localized with Rab7 ... P = 0.3392; number of cultures ...: 3'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P13",
+  "finding_id": "P13.F1",
+  "key": "pmid16890957",
+  "quote_start": "By 4 h of incubation at 37 oC, apoE4 mostly eluted in the void volume ",
+  "verdict": "OK",
+  "reason": "Quote verbatim (ends mid-parenthesis), description and buffer correct; figimg/1.png is the legend page, no plot to read.",
+  "evidence": "'By 4 h of incubation at 37 oC, apoE4 mostly eluted in the void volume ... Even after 24 h at 37 oC, most of the apoE2 or apoE3 remained tetrameric (Figure 1c).' Legend: '(c). Purified apoE tetramer (0.5 mg/ml) was incubated at 37 oC in AB buffer'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P13",
+  "finding_id": "P13.F2",
+  "key": "pmid16890957",
+  "quote_start": "ApoE3 and apoE2 aggregated far more slowly. Even after 24 h at 37 oC, ",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "At 0.2 mg/ml, aggregation was slower than at 0.5 mg/ml, but recombinant human apoE4 still mostly formed high-molecular-mass aggregates within 4 hours at 37 °C; the text does not state the apoE3 result at this concentration."
+  },
+  "reason": "The text says apoE3 'aggregated far more slowly' only for the 0.5 mg/ml experiment; at 0.2 mg/ml it reports only apoE4. Fig 1d cannot be checked (figimg/1.png is the legend page), so 'faster than apoE3' at 0.2 mg/ml is not supported in the text.",
+  "evidence": "'The rates of aggregation were also slower at lower protein concentrations (0.2 mg/ml), but apoE4 still mostly formed higher mass aggregates within 4 h of incubation (Figure 1d).'"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P13",
+  "finding_id": "P13.F3",
+  "key": "pmid16890957",
+  "quote_start": "Preincubation of tetrameric apoE (0.3 mg/ml) overnight at 37 oC result",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "9x",
+   "Effect size provenance": "printed_in_text",
+   "Data location": "Results, toxicity section, MTT paragraph (preincubated preparations used in Fig 6d)"
+  },
+  "reason": "Values correct (90% vs 10%); both printed, ratio 90/10. The Data location field holds the quote sentence instead of a location.",
+  "evidence": "'Preincubation of tetrameric apoE (0.3 mg/ml) overnight at 37 oC resulted in the aggregation of about 5% of apoE2, 10% of apoE3 and 90% of apoE4. ... (Figure 6d versus 6c).'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P3",
+  "finding_id": "P3.F1",
+  "key": "doi_10_17615_yant_mg96",
+  "quote_start": "Inhibiting or depleting the early endosome proton leak channel NHE6 re",
+  "verdict": "DROP",
+  "reason": "Not the source's own result: a sentence from Chapter 1 (literature review) of a dissertation on lipid-droplet APOE, restating Xian et al. 2018 and Pohlkamp et al. 2021.",
+  "evidence": "Chapter One 'APOE IN THE CENTRAL NERVOUS SYSTEM': 'Inhibiting or depleting the early endosome proton leak channel NHE6 rescued receptor recycling in E4-treated neurons (Xian et al., 2018; Pohlkamp et al., 2021).'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P3",
+  "finding_id": "P3.F2",
+  "key": "doi_10_17615_yant_mg96",
+  "quote_start": "Astrocytes from E4 targeted replacement mice exhibit reduced endolysos",
+  "verdict": "DROP",
+  "reason": "Not the source's own result: the same Chapter 1 review paragraph summarising other work (the paragraph cites Prasad and Rao, 2018); the dissertation's own experiments are on lipid droplets.",
+  "evidence": "Chapter One: 'Astrocytes from E4 targeted replacement mice exhibit reduced endolysosomal pH and reduced surface levels of LRP1, suggesting similar E4-dependent defects ... (Prasad and Rao, 2018).'"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P9",
+  "finding_id": "P9.F1",
+  "key": "pmid30581971",
+  "quote_start": "Under these conditions, apoE3 consistently disaggregated into monomers",
+  "verdict": "OK",
+  "reason": "Quote verbatim, description correct, n '3-4' from the Fig 3 legend; 1 ug/mL cholesterol equals the legend's 2.59 uM. figimg/3.png is too low-resolution to read values.",
+  "evidence": "'apoE3 consistently disaggregated into monomers, whereas apoE2 and apoE4 aggregates were stable for up to 4 hours ... By 48 hours, 70% of the apoE2 and 30% of the apoE4 disappeared from solution (Fig. 3).' Legend: 'Typical results of three to four experiments with each isoform shown.'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P15",
+  "finding_id": "P15.F1",
+  "key": "pmid11369796",
+  "quote_start": "When complexed with DMPC, full-length apoE3 and apoE4 and their 22-kDa",
+  "verdict": "DROP",
+  "reason": "Not the paper's own result: the sentence cites refs 4 and 34 for the DMPC-complex LDLR affinity (the row description itself says 'Cited prior experiments').",
+  "evidence": "'When complexed with DMPC, full-length apoE3 and apoE4 and their 22-kDa fragments have the same affinity for the LDLR (4, 34). In contrast, the affinity of full-length apoE2 is 1% that of apoE3 ... (4).'"
+ }
+]

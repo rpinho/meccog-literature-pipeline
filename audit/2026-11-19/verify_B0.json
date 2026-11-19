@@ -1,0 +1,887 @@
+[
+ {
+  "src": "4",
+  "paper": {
+   "key": "pmid10359567",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid10359567/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P19.F1",
+   "Finding description": "In three repeated human-fibroblast competition experiments with four wells per condition, APOE4-mouse VLDL competed more strongly than APOE3-mouse VLDL for human LDL receptor binding and internalization, with Ki values of 3.6 ± 0.6 mg versus 5.7 ± 1.12 mg.",
+   "Finding quote": "K i determined from 3 repeated experiments, each consisting of quadruple measurements, were 3.6 ± 0.6 mg for 4/4 VLDL and 5.7 ± 1.12 mg for 3/3 VLDL (P = 0.05 by one-way ANOVA). Therefore, the 4/4 VLDL has the ability to compete with human LDL for binding to the human LDL receptor better than the 3/3 VLDL.",
+   "Finding summary": "(APOE3 -> APOE4 in donor mice) -> (lower VLDL competition Ki for human LDL receptor binding and internalization)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Immortalized human fibroblasts supplied by J. Herz, exposed at 37°C to fluorescently labeled human LDL (50 μg/mL) and competing VLDL (0.5–100 μg/mL total protein). VLDL was isolated from plasma pooled from at least six female mice per genotype: human APOE3- or APOE4-targeted-replacement F2 129 × C57BL/6 hybrids, generally 8–20 weeks old, maintained on an HFC diet containing 15.8% fat, 1.25% cholesterol, and 0.5% sodium cholate. Cells received DMEM with 0.5% BSA for 24 hours before the assay. Cellular fluorescence measured LDL association and internalization. Brain cells and receptor recycling were not examined.",
+   "Data location": "Fig 1b; Results, Production of functional apo E4 in mice with human APOE*4",
+   "Effect size": "150%",
+   "Effect size provenance": "printed_in_text",
+   "P value": "0.05",
+   "P value provenance": "printed_in_text",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P19",
+   "finding_id": "P19.F1",
+   "key": "pmid10359567",
+   "quote_start": "K i determined from 3 repeated experiments, each consisting of quadrup",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.6x"
+   },
+   "reason": "The effect size shape is wrong: '150%' reads as a 150% change, whereas the printed Ki values give a 1.6-fold difference (ApoE3 VLDL needs ~1.6x more protein to compete). P = 0.05 and n = 3 are correct as printed. Flag for the lane: directness strength '2 strong' is generous for a non-brain system measuring LDL-receptor competition rather than receptor recycling, which the row's own system note concedes.",
+   "evidence": "Results: 'Ki determined from 3 repeated experiments, each consisting of quadruple measurements, were 3.6 +/- 0.6 mg for 4/4 VLDL and 5.7 +/- 1.12 mg for 3/3 VLDL (P = 0.05 by one-way ANOVA).'; 5.7/3.6 = 1.58"
+  },
+  "item": 1
+ },
+ {
+  "src": "7a",
+  "paper": {
+   "key": "pmid20547867",
+   "hyp": "H2",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3.",
+   "text": "data/papers/pmid20547867/text.txt",
+   "supp": "data/papers/pmid20547867/supp.txt",
+   "figures": [
+    "data/papers/pmid20547867/figimg/1.png",
+    "data/papers/pmid20547867/figimg/2.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P8.F2",
+   "Finding description": "In four independent experiments, primary mouse cortical neurons treated with ApoE4 (3 μg/mL, 15 minutes) had lower surface Apoer2 normalized to total Apoer2 than neurons treated with ApoE3, ApoE2, or control, measured by biotinylation and immunoblotting, with significance reported versus control.",
+   "Finding quote": "Whereas ApoE2 (lane 2) and ApoE3 (lane 3) did not reduce surface expression of Apoer2 compared with the control (lane 1), ApoE4 significantly decreased surface expression of this “dual function” Reelin and ApoE receptor (lane 4), suggesting that Apoer2 availability, and thus function, at the cell surface might be impaired.",
+   "Finding summary": "(ApoE3 -> ApoE4) -> (lower surface Apoer2 normalized to total Apoer2 in primary mouse cortical neurons)",
+   "Finding relevance": 0.5,
+   "Experimental system": "Primary cortical neurons from embryonic day 18 wild-type mice, cultured for 12–13 days in vitro; treated without added Reelin with naturally secreted human ApoE2, ApoE3, or ApoE4 from stably transfected HEK293 cells at 3 μg/mL for 15 minutes at 37 °C, or control conditioned medium; membrane-impermeable surface biotinylation, NeutrAvidin capture, and Apoer2 immunoblotting, normalized to total cellular Apoer2 and standardized to control.",
+   "Data location": "Fig 1B",
+   "Effect size": "~35%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "4",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H2",
+   "paper_id": "P8",
+   "finding_id": "P8.F2",
+   "key": "pmid20547867",
+   "quote_start": "Whereas ApoE2 (lane 2) and ApoE3 (lane 3) did not reduce surface expre",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~24%",
+    "P value": "<0.05",
+    "P value provenance": "visual_only",
+    "Finding description": "In four independent experiments, primary mouse cortical neurons treated with ApoE4 (3 ug/mL, 15 minutes) had lower surface Apoer2 normalized to total Apoer2 than neurons treated with ApoE3, ApoE2, or control, measured by biotinylation and immunoblotting; Fig. 1B carries a bracket with one asterisk over the ApoE3-versus-ApoE4 comparison (P < 0.05 by the legend key)."
+   },
+   "reason": "The row's summary is the ApoE3 -> ApoE4 contrast, but '~35%' is the ApoE4-versus-control drop; off the Fig. 1B axis ApoE3 ~84 and ApoE4 ~64, i.e. ~24%. A bracket joining the ApoE3 and ApoE4 bars carries a single asterisk, and the legend key gives * P < 0.05, so the P value is visible rather than ambiguous.",
+   "evidence": "Fig. 1B bar chart (Surface/total Apoer2, standardized to control; ticks 0/50/100/150): control = 100, ApoE2 ~113, ApoE3 ~84, ApoE4 ~64; a bracket from the ApoE3 bar to the ApoE4 bar is marked '*' and a second bracket from ApoE2 to ApoE4 is marked '**'. Legend: '* P < 0.05; ** P < 0.01 ... unpaired t test ... from four independent experiments'."
+  },
+  "item": 2
+ },
+ {
+  "src": "7a",
+  "paper": {
+   "key": "pmid20547867",
+   "hyp": "H2",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3.",
+   "text": "data/papers/pmid20547867/text.txt",
+   "supp": "data/papers/pmid20547867/supp.txt",
+   "figures": [
+    "data/papers/pmid20547867/figimg/1.png",
+    "data/papers/pmid20547867/figimg/2.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P8.F3",
+   "Finding description": "Primary mouse cortical neurons incubated with Reelin and human ApoE isoforms for 2 hours had substantially lower surface Apoer2 with ApoE4 than with ApoE3 or ApoE2.",
+   "Finding quote": "All ApoE isoforms ( Fig. 1 C , lanes 2–4) significantly decreased surface expression of Apoer2 upon Reelin stimulation compared with control (lane 1). ApoE3 was marginally, but not significantly, more effective than ApoE2, whereas ApoE4 led to a dramatic and statistically highly significant reduction of Apoer2 at the neuronal cell surface.",
+   "Finding summary": "(APOE3 -> APOE4) -> (lower surface Apoer2 in Reelin-stimulated primary mouse cortical neurons)",
+   "Finding relevance": 0.5,
+   "Experimental system": "Primary cortical neurons from wild-type mouse E18 embryos, cultured for 12–13 days in vitro; treated with HEK293-secreted human ApoE isoforms at 3 μg/mL together with Reelin at 2 μg/mL for 2 hours at 37 °C, as specified in Fig. 1C. Surface Apoer2 was measured by membrane-impermeable biotinylation, neutravidin capture and immunoblotting, normalized to total cellular Apoer2; mouse strain was not specified.",
+   "Data location": "Fig. 1C",
+   "Effect size": "~50%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "N/A",
+   "Sample size provenance": "ambiguous_panel",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H2",
+   "paper_id": "P8",
+   "finding_id": "P8.F3",
+   "key": "pmid20547867",
+   "quote_start": "All ApoE isoforms ( Fig. 1 C , lanes 2–4) significantly decreased surf",
+   "verdict": "FIX",
+   "set": {
+    "P value": "<0.01",
+    "P value provenance": "visual_only",
+    "Sample size provenance": "not_found_in_source"
+   },
+   "reason": "Fig. 1C shows a bracket joining the ApoE3+R and ApoE4+R bars marked '**', and the panel's legend key gives ** P < 0.01 for brackets between treatments, so this comparison has a readable P value. No n is stated anywhere for panel C, which is not_found_in_source rather than ambiguous_panel. The '~50%' effect checks out (ApoE3+R ~51, ApoE4+R ~25).",
+   "evidence": "Fig. 1C bar chart (axis 0-120): control+R = 100, ApoE2+R ~60, ApoE3+R ~51, ApoE4+R ~25; bracket ApoE3+R to ApoE4+R marked '**', bracket ApoE2+R to ApoE4+R marked '*'. Legend C: 'Asterisks on brackets indicates significant difference between treatments. * P < 0.05; ** P < 0.01; *** P < 0.001' and no n for this panel."
+  },
+  "item": 3
+ },
+ {
+  "src": "4",
+  "paper": {
+   "key": "pmid20858958",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid20858958/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid20858958/figimg/4.png",
+    "data/papers/pmid20858958/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P10.F2",
+   "Finding description": "After neprilysin inhibition, APOE4 mice had greater large-lysosomal co-localization of apoE with Aβ42 than APOE3 mice, measuring apoE-containing co-localized material without establishing apoE self-aggregation.",
+   "Finding quote": "As shown in Figure 4D, quadruple labeling (Aβ42, I-11, CatD, and apoE4) revealed co-localization of lysosomal apoE with Aβ42 (yellow arrowheads) and with oligo-Aβ42 (yellow arrows). Furthermore, co-localization of these aggregates with large lysosomes was specifically elevated in the thiorphan-treated apoE4 mice (P < 0.02 for the treated apoE4 compared to other mouse groups) (Fig. 4D).",
+   "Finding summary": "(APOE3 -> APOE4) -> (increased lysosomal apoE/Aβ42 co-localization following neprilysin inhibition)",
+   "Finding relevance": 0.55,
+   "Experimental system": "Three- to four-month-old male human APOE3- or APOE4-homozygous targeted-replacement mice on an eight-generation C57BL/6J backcross background; hippocampal CA1 neurons after intracerebroventricular thiorphan; quadruple confocal labeling for apoE, Aβ42, I-11, and Cathepsin D; treatment duration not separately stated for panel D.",
+   "Data location": "Fig 4D, lysosomal apoE–Aβ species",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "<0.002",
+   "P value provenance": "printed_in_text",
+   "Sample size": "4-5",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P10",
+   "finding_id": "P10.F2",
+   "key": "pmid20858958",
+   "quote_start": "As shown in Figure 4D, quadruple labeling (Aβ42, I-11, CatD, and apoE4",
+   "verdict": "FIX",
+   "set": {
+    "P value": "<0.02"
+   },
+   "reason": "The P value is wrong by an order of magnitude: the row prints <0.002 while the paper - inside this row's own quote - gives P < 0.02 for the Fig. 4D comparison. Everything else in the row matches.",
+   "evidence": "Results and the row's own quote: 'co-localization of these aggregates with large lysosomes was specifically elevated in the thiorphan-treated apoE4 mice (P < 0.02 for the treated apoE4 compared to other mouse groups) (Fig. 4D).'"
+  },
+  "item": 4
+ },
+ {
+  "src": "4",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H2",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F2",
+   "Finding description": "Quantification across three independent experiments showed a greater reduction of surface Apoer2 with ApoE4 than ApoE3 in Reelin-treated primary rat neurons.",
+   "Finding quote": "Apoer2 surface levels show a higher reduction with ApoE4 than ApoE3.",
+   "Finding summary": "(APOE3 -> APOE4) -> (lower surface-to-total Apoer2 ratio)",
+   "Finding relevance": 0.75,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; cell-derived ApoE3 or ApoE4 and Reelin; quantification of surface-biotinylated versus total Apoer2 by immunoblotting.",
+   "Data location": "Fig 2C",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H2",
+   "paper_id": "P3",
+   "finding_id": "P3.F2",
+   "key": "pmid30375977",
+   "quote_start": "Apoer2 surface levels show a higher reduction with ApoE4 than ApoE3.",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "2.9x",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "The quantification panel's own source data print both group values, so the row should carry the ratio instead of 'qualitative' (brief rule 3). P stays ambiguous_panel: the Fig. 2 image is too small to attribute the asterisks.",
+   "evidence": "elife-40048-fig2-data1.xlsx, sheet Fig2C, Apoer2 row: E3+R 82.1/73.6/76.3 (mean 77.3) vs E4+R 32.4/27.6/20.3 (mean 26.8); 77.3/26.8 = 2.9"
+  },
+  "item": 5
+ },
+ {
+  "src": "4",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H2",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F3",
+   "Finding description": "In the absence of EMD87580, ApoE4 impaired neuronal Apoer2 surface recycling more than ApoE3 in three independent experiments.",
+   "Finding quote": "As shown in Figure 4D and E, physiological concentrations of ApoE3 (5 µg/ml) also impaired Apoer2 recycling to a small, but significant extent. This was also prevented by EMD87580 at the same concentration (3 µM) at which the effect of ApoE4 on Apoer2 recycling was completely neutralized (Figure 4D,E), suggesting that ApoE3 also, although to a minor extent, may lose solubility upon entering the early endosome, and that this is also prevented by pH lowering.",
+   "Finding summary": "(APOE3 -> APOE4) -> (greater impairment of Apoer2 surface recycling)",
+   "Finding relevance": 0.75,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; cell-derived ApoE3 or ApoE4, ordinarily 5 µg/ml, followed by Reelin; surface biotinylation and Apoer2 immunoblotting, with matched inhibitor-free conditions.",
+   "Data location": "Fig 4D",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H2",
+   "paper_id": "P3",
+   "finding_id": "P3.F3",
+   "key": "pmid30375977",
+   "quote_start": "As shown in Figure 4D and E, physiological concentrations of ApoE3 (5 ",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "2.9x",
+    "Effect size provenance": "supplement_only",
+    "P value provenance": "not_found_in_source"
+   },
+   "reason": "Fig. 4E's source data give both ApoE3 and ApoE4 values at 0 uM EMD87580, so the ratio replaces 'qualitative'. P provenance is wrong: Fig. 4E is legible and its '*' and '***' sit under the E3 and E4 points as Dunnett comparisons against Con, with no mark for ApoE4-vs-ApoE3, so no P exists for this comparison.",
+   "evidence": "elife-40048-fig4-data1.xlsx, sheet Fig4E, 0 uM column: E3+R 86.1/72.7/69.4 (mean 76.1) vs E4+R 22.6/30.7/25.1 (mean 26.1); 76.1/26.1 = 2.9. Fig 4E image: '*' below the E3 point and '***' below the E4 point at 0 uM, both relative to the open Con circle."
+  },
+  "item": 6
+ },
+ {
+  "src": "4",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H2",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F5",
+   "Finding description": "NHE6 shRNA construct 1 restored surface Apoer2 in ApoE4-treated neurons across three independent experiments, whereas NHE5 and NHE9 knockdown did not restore it.",
+   "Finding quote": "Figure 5A–D shows that of all NHEs (1 and 5 through 9) that were targeted by shRNA inhibition, only NHE6-specific shRNAs were able to completely restore Apoer2 expression at the plasma membrane in the presence of ApoE4 (Figure 5A, lane 6, 5C, lanes 8, 10, 12, and quantified in Panels B and D).",
+   "Finding summary": "(NHE6 knockdown with construct 1 in ApoE4-treated neurons) -> (restored surface Apoer2)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; lentiviral NHE6 shRNA construct 1, with experiments 3 days after transduction; ApoE4-conditioned medium plus Reelin; quantified Apoer2 surface biotinylation; supplementary E4+R+shNHE6(1) versus E4+R columns.",
+   "Data location": "Fig 5D; elife-40048-fig5-data1.xlsx, sheet Fig5D, E4+R and E4+R+shNHE6(1)",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 2,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H2",
+   "paper_id": "P3",
+   "finding_id": "P3.F5",
+   "key": "pmid30375977",
+   "quote_start": "Figure 5A–D shows that of all NHEs (1 and 5 through 9) that were targe",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "3.7x",
+    "Effect size provenance": "supplement_only",
+    "P value provenance": "not_found_in_source"
+   },
+   "reason": "Source data for Fig. 5D print both compared groups, so the ratio replaces 'qualitative'. P provenance is wrong: Fig. 5D is legible and its three '***' brackets sit over C+R vs E4+R, the shNHE5 pair and the shNHE9 pair only - no mark over any shNHE6 bar, so this comparison has no P in the source.",
+   "evidence": "elife-40048-fig5-data1.xlsx, sheet Fig5D: E4+R 32.1/22.6/27.4 (mean 27.4) vs E4+R+shNHE6(1) 104.8/98.2/102.5 (mean 101.8); 101.8/27.4 = 3.7. Fig. 5D image: no asterisk bracket over the six shNHE6 bars."
+  },
+  "item": 7
+ },
+ {
+  "src": "4",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H2",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F6",
+   "Finding description": "A second independent NHE6 shRNA restored surface Apoer2 in ApoE4-treated primary rat neurons across three independent experiments.",
+   "Finding quote": "Figure 5A–D shows that of all NHEs (1 and 5 through 9) that were targeted by shRNA inhibition, only NHE6-specific shRNAs were able to completely restore Apoer2 expression at the plasma membrane in the presence of ApoE4 (Figure 5A, lane 6, 5C, lanes 8, 10, 12, and quantified in Panels B and D). Three different shRNAs directed against NHE6 were used in Figure 5C and D.",
+   "Finding summary": "(NHE6 knockdown with construct 2 in ApoE4-treated neurons) -> (restored surface Apoer2)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; lentiviral NHE6 shRNA construct 2, with experiments 3 days after transduction; ApoE4-conditioned medium plus Reelin; quantified Apoer2 surface biotinylation; supplementary E4+R+shNHE6(2) versus E4+R columns.",
+   "Data location": "Fig 5D; elife-40048-fig5-data1.xlsx, sheet Fig5D, E4+R and E4+R+shNHE6(2)",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 2,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H2",
+   "paper_id": "P3",
+   "finding_id": "P3.F6",
+   "key": "pmid30375977",
+   "quote_start": "Figure 5A–D shows that of all NHEs (1 and 5 through 9) that were targe",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "3.7x",
+    "Effect size provenance": "supplement_only",
+    "P value provenance": "not_found_in_source"
+   },
+   "reason": "Same panel and same two corrections for the second NHE6 construct: the source data give the ratio, and Fig. 5D carries no asterisk over the shNHE6 bars.",
+   "evidence": "sheet Fig5D: E4+R mean 27.4 vs E4+R+shNHE6(2) 102.5/97.7/100.4 (mean 100.2); 100.2/27.4 = 3.7. Fig. 5D image: '***' brackets only over C+R/E4+R, shNHE5 and shNHE9 pairs."
+  },
+  "item": 8
+ },
+ {
+  "src": "4",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H2",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F7",
+   "Finding description": "After three hours of exposure, more ApoE4 than ApoE3 co-immunoprecipitated with neuronal Apoer2, interpreted as prolonged intracellular retention in three independent experiments.",
+   "Finding quote": "The delayed recycling of Apoer2 was also apparent by the prolonged retention of cell-derived ApoE4 compared to cell-derived ApoE3 in Apoer2-containing intracellular compartments as shown by co-immunoprecipitation of neuronal lysates (Figure 2D,E).",
+   "Finding summary": "(APOE3 -> APOE4) -> (greater persistence of ApoE–Apoer2 association, interpreted as intracellular retention)",
+   "Finding relevance": 0.6,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; cell-derived ApoE3 or ApoE4, 5 µg/ml for 3 hr at 37°C; anti-Apoer2 co-immunoprecipitation from neuronal lysates followed by ApoE immunoblotting.",
+   "Data location": "Fig 2D",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H2",
+   "paper_id": "P3",
+   "finding_id": "P3.F7",
+   "key": "pmid30375977",
+   "quote_start": "The delayed recycling of Apoer2 was also apparent by the prolonged ret",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.6x",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "The Fig. 2E source data print both isoform values for the Apoer2 co-immunoprecipitation, so the ratio replaces 'qualitative'. P stays ambiguous_panel (Fig. 2 image unreadable at 100x144 px).",
+   "evidence": "elife-40048-fig2-data1.xlsx, sheet Fig2E: E3 108.7/84.6/106.7 (mean 100.0) vs E4 165.2/146.7/153.4 (mean 155.1); 155.1/100.0 = 1.6"
+  },
+  "item": 9
+ },
+ {
+  "src": "4",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H2",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F8",
+   "Finding description": "Increasing EMD87580 concentrations progressively restored surface Apoer2 recycling in ApoE4-treated primary rat neurons across three independent experiments.",
+   "Finding quote": "Increasing concentrations progressively restored normal surface recycling of Apoer2 in the presence of ApoE4 (Figure 4B,C).",
+   "Finding summary": "(NHE inhibition in ApoE4-treated neurons) -> (restored Apoer2 surface recycling)",
+   "Finding relevance": 0.6,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; EMD87580 pretreatment for 1 hr before cell-derived ApoE4 and Reelin; concentration-response assay using surface biotinylation and Apoer2 immunoblotting; inhibitor is not NHE6-selective.",
+   "Data location": "Fig 4C",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 2,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H2",
+   "paper_id": "P3",
+   "finding_id": "P3.F8",
+   "key": "pmid30375977",
+   "quote_start": "Increasing concentrations progressively restored normal surface recycl",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "4.4x",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "Fig. 4C source data give the full dose response, so the maximal restoration can replace 'qualitative'. P is correctly left ambiguous: the 0-vs-3 uM mark in Fig. 4C is '****', which the Fig. 4 legend's key (*, **, ***) does not define.",
+   "evidence": "elife-40048-fig4-data1.xlsx, sheet Fig4C: 0 uM 20.1/27.4/25.3 (mean 24.3) vs 3 uM 102.4/115.3/105.7 (mean 107.8); 107.8/24.3 = 4.4. Fig. 4C image: brackets from the 0 bar with ** (0.3), *** (1) and **** (3)."
+  },
+  "item": 10
+ },
+ {
+  "src": "4",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H2",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F9",
+   "Finding description": "Increasing bafilomycin concentrations reversed EMD87580-mediated restoration of Apoer2 trafficking in ApoE4-treated neurons across three independent experiments.",
+   "Finding quote": "Figure 4F and G show that the resulting increase of the endosomal pH reverses the correction of the ApoE4 recycling deficit by EMD87580 and results in renewed impairment of Apoer2 trafficking.",
+   "Finding summary": "(proton-pump inhibition during EMD87580 treatment in ApoE4 neurons) -> (renewed Apoer2 trafficking impairment)",
+   "Finding relevance": 0.55,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; 3 µM EMD87580 with increasing bafilomycin, preincubated before cell-derived ApoE4 and Reelin; quantified surface-to-total Apoer2 immunoblots; pH change is mechanistically inferred here.",
+   "Data location": "Fig 4G",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 2,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H2",
+   "paper_id": "P3",
+   "finding_id": "P3.F9",
+   "key": "pmid30375977",
+   "quote_start": "Figure 4F and G show that the resulting increase of the endosomal pH r",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "3.0x",
+    "Effect size provenance": "supplement_only",
+    "P value provenance": "not_found_in_source"
+   },
+   "reason": "Fig. 4G source data give both compared groups, so the ratio replaces 'qualitative'. P provenance is wrong: Fig. 4G is legible and every bracket is anchored on bar 1 (no ApoE4 control), not on the E4+EMD bar, so there is no P for the EMD-vs-EMD+bafilomycin comparison this row describes.",
+   "evidence": "elife-40048-fig4-data1.xlsx, sheet Fig4G: E4+EMD 103.3/95.4/102.3 (mean 100.3) vs E4+EMD+Baf100 33.2/29.5/37.3 (mean 33.3); 100.3/33.3 = 3.0. Fig. 4G image: ***, ** and *** brackets all start at the leftmost control bar."
+  },
+  "item": 11
+ },
+ {
+  "src": "4",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H2",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P3.F10",
+   "Finding description": "EMD87580 restored surface GluN2B in ApoE4-treated primary rat neurons across three independent experiments.",
+   "Finding quote": "EMD87580 and the NHE6-specific shRNAs completely restored Apoer2 and glutamate receptor surface expression, while the scrambled shRNA had no effect (Panel B and quantified in Panels C-F).",
+   "Finding summary": "(NHE inhibition in ApoE4-treated neurons) -> (restored surface GluN2B)",
+   "Finding relevance": 0.55,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; ordinarily 3 µM EMD87580 for 1 hr before cell-derived ApoE4 and Reelin; GluN2B surface biotinylation and quantified surface-to-total immunoblotting.",
+   "Data location": "Fig 6D, EMD87580 versus ApoE4 without inhibitor",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 2,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H2",
+   "paper_id": "P3",
+   "finding_id": "P3.F10",
+   "key": "pmid30375977",
+   "quote_start": "EMD87580 and the NHE6-specific shRNAs completely restored Apoer2 and g",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "3.9x",
+    "Effect size provenance": "supplement_only",
+    "P value provenance": "not_found_in_source"
+   },
+   "reason": "Fig. 6D source data print both groups for surface GluN2B, so the ratio replaces 'qualitative'. P provenance is wrong: Fig. 6D is legible and its brackets run from C+R to E4+R and from C+R to E4+R+scramble; the EMD87580 bar carries no mark.",
+   "evidence": "elife-40048-fig6-data1.xlsx, sheet Fig6D (GluN2B): E4+R 26.4/17.3/28.5 (mean 24.1) vs E4+R+EMD87580 107.2/80.2/95.3 (mean 94.2); 94.2/24.1 = 3.9. Fig. 6D image: no asterisk over the EMD87580 bar."
+  },
+  "item": 12
+ },
+ {
+  "src": "7a",
+  "paper": {
+   "key": "pmid38217595",
+   "hyp": "H2",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3.",
+   "text": "data/papers/pmid38217595/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid38217595/figimg/12.png",
+    "data/papers/pmid38217595/figimg/13.png",
+    "data/papers/pmid38217595/figimg/4.png",
+    "data/papers/pmid38217595/figimg/5.png",
+    "data/papers/pmid38217595/figimg/6.png",
+    "data/papers/pmid38217595/figimg/8.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P10.F10",
+   "Finding description": "Double immunofluorescence showed significantly greater insulin receptor colocalization with early endosomes in APOE4 primary mouse neurons (M1 = 0.36±0.02; 34 neurons) than APOE3 neurons (M1 = 0.28±0.02; 48 neurons), with each genotype sampled from four different preparations.",
+   "Finding quote": "Quantification of these results revealed that the colocalization of IR with early endosomes was significantly higher in APOE4 neurons (0.36±0.02, N = 34 from 4 different preparations) than in the APOE3 neurons (0.28±0.02, N = 48, from 4 different preparations, p < 0.05), as was the colocalization of VEGFR with early endosomes which was higher in APOE4 neurons (0.39±0.03, N = 19 from 2 different preparations) than and in APOE3 neurons (0.24±0.02, N = 20, from 2 different preparations, p < 0.01).",
+   "Finding summary": "(APOE3 -> APOE4) -> (greater insulin receptor colocalization with early endosomes in primary mouse neurons)",
+   "Finding relevance": 0.4,
+   "Experimental system": "Primary brain-derived neurons from 1–3-day-old human APOE3 or APOE4 targeted-replacement mouse pups on an α-syn-/- background; cultures pooled 2–3 pups, received FUDR on day 3 to inhibit glial proliferation, and were assayed on culture day 21 without an additional experimental treatment; double immunofluorescence for IR and Rab5, confocal microscopy, and M1 colocalization analysis. Endosomal localization served as a surrogate for trafficking; ARF6 involvement and recycling kinetics were not measured.",
+   "Data location": "Fig 6A",
+   "Effect size": "~30%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.05",
+   "P value provenance": "printed_in_text",
+   "Sample size": "34-48",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H2",
+   "paper_id": "P10",
+   "finding_id": "P10.F10",
+   "key": "pmid38217595",
+   "quote_start": "Quantification of these results revealed that the colocalization of IR",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.3x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "The Results print both group M1 values (0.36 vs 0.28), so the effect must be the printed ratio, not a '~30%' read off the figure; 0.36/0.28 = 1.29.",
+   "evidence": "Results: 'colocalization of IR with early endosomes was significantly higher in APOE4 neurons (0.36+/-0.02, N = 34 from 4 different preparations) than in the APOE3 neurons (0.28+/-0.02, N = 48, from 4 different preparations, p < 0.05)'; Fig. 6A bar chart (InsulinR coloc Early Endosomes) shows ApoE3 ~0.28 and ApoE4 ~0.36 with a single star, consistent."
+  },
+  "item": 13
+ },
+ {
+  "src": "7a",
+  "paper": {
+   "key": "pmid38217595",
+   "hyp": "H2",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3.",
+   "text": "data/papers/pmid38217595/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid38217595/figimg/12.png",
+    "data/papers/pmid38217595/figimg/13.png",
+    "data/papers/pmid38217595/figimg/4.png",
+    "data/papers/pmid38217595/figimg/5.png",
+    "data/papers/pmid38217595/figimg/6.png",
+    "data/papers/pmid38217595/figimg/8.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P10.F11",
+   "Finding description": "Double immunofluorescence and confocal microscopy showed greater VEGFR colocalization with Rab5-positive early endosomes in APOE4 primary mouse neurons (M1: 0.39±0.03; 19 neurons) than APOE3 neurons (M1: 0.24±0.02; 20 neurons), with two independent preparations per genotype.",
+   "Finding quote": "Quantification of these results revealed that the colocalization of IR with early endosomes was significantly higher in APOE4 neurons (0.36±0.02, N = 34 from 4 different preparations) than in the APOE3 neurons (0.28±0.02, N = 48, from 4 different preparations, p < 0.05), as was the colocalization of VEGFR with early endosomes which was higher in APOE4 neurons (0.39±0.03, N = 19 from 2 different preparations) than and in APOE3 neurons (0.24±0.02, N = 20, from 2 different preparations, p < 0.01).",
+   "Finding summary": "(APOE3 -> APOE4) -> (greater VEGFR colocalization with early endosomes in primary mouse neurons)",
+   "Finding relevance": 0.4,
+   "Experimental system": "Primary brain neuronal-enriched cultures from 1–3-day-old APOE3 or APOE4 targeted-replacement mouse pups on an α-syn-/- background; 2–3 pups pooled per culture, FUDR treatment on culture day 3 to inhibit glial proliferation, and experiments on day 21; VEGFR2/Rab5 double immunofluorescence, confocal microscopy, and M1 colocalization analysis of morphologically selected neurons. ARF6 and recycling kinetics were not measured.",
+   "Data location": "Fig 6B",
+   "Effect size": "~65%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.01",
+   "P value provenance": "printed_in_text",
+   "Sample size": "19-20",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H2",
+   "paper_id": "P10",
+   "finding_id": "P10.F11",
+   "key": "pmid38217595",
+   "quote_start": "Quantification of these results revealed that the colocalization of IR",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.6x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Both group values are printed (0.39 vs 0.24), so the figure estimate '~65%' should be the printed ratio 0.39/0.24 = 1.63. Note the Results give p < 0.01 for this comparison while the Fig. 6 legend prints p < 0.001; the row's <0.01 follows the quoted sentence.",
+   "evidence": "Results: 'colocalization of VEGFR with early endosomes which was higher in APOE4 neurons (0.39+/-0.03, N = 19 from 2 different preparations) than and in APOE3 neurons (0.24+/-0.02, N = 20, from 2 different preparations, p < 0.01)'; Fig. 6 legend: 'VEGFR (APOE3 = 0.24+/-0.02, APOE4 = 0.39+/-0.03, p < 0.001)'; Fig. 6B panel shows ApoE3 ~0.24, ApoE4 ~0.39 with '**'."
+  },
+  "item": 14
+ },
+ {
+  "src": "7a",
+  "paper": {
+   "key": "pmid38279679",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid38279679/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid38279679/figimg/3.png"
+   ],
+   "pdf": "data/papers/pmid38279679/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P26.F1",
+   "Finding description": "Fig. 3A includes cells without heparinase. The authors report 1.3-fold higher binding for apoE3 than apoE4, a nonsignificant difference, without assigning that ratio separately to the untreated arm.",
+   "Finding quote": "The binding ability of apoE3-F-EP was 1.3-fold higher than that of apoE4-F-EP; however, the difference was not statistically signiﬁcant.",
+   "Finding summary": "(apoE3 -> apoE4) -> (no significant change in LRP1-associated cell-surface particle binding)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Human GM00701 fibroblasts obtained from Coriell Institute, described as highly expressing LRP1 with little or no LDLR and SDC1; no heparinase pretreatment; synthetic triolein/PC/NBD-PC emulsion particles carrying recombinant human apoE3 or apoE4 at 2.0 mg/dL apoE; incubation for 3 h at 4 °C; whole-cell fluorescence normalized to cellular protein. These were peripheral fibroblasts, not brain cells; receptor recycling and binding kinetics were not measured.",
+   "Data location": "Fig. 3A, apoE3 versus apoE4 across the binding experiments",
+   "Effect size": "1.3x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "ambiguous_panel",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P26",
+   "finding_id": "P26.F1",
+   "key": "pmid38279679",
+   "quote_start": "The binding ability of apoE3-F-EP was 1.3-fold higher than that of apo",
+   "verdict": "FIX",
+   "set": {
+    "Sample size provenance": "not_found_in_source"
+   },
+   "reason": "Quote, 1.3x and the non-significance are all correct and printed. Only the sample-size provenance is wrong: the legend gives no n for this comparison (only 'duplicate determinations ... in at least three separate experiments'), which is not_found_in_source, not ambiguous_panel.",
+   "evidence": "Fig. 3 legend: 'The values (obtained from duplicate determinations of each in at least three separate experiments for NC, apoE2-, apoE3, or apoE4-F-EP, or duplicate determinations in a single experiment for cells alone) were expressed relative to those obtained for the respective NC'; Results: 'The binding ability of apoE3-F-EP was 1.3-fold higher than that of apoE4-F-EP; however, the difference was not statistically significant.'"
+  },
+  "item": 15
+ },
+ {
+  "src": "7a",
+  "paper": {
+   "key": "pmid38279679",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid38279679/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid38279679/figimg/3.png"
+   ],
+   "pdf": "data/papers/pmid38279679/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P26.F2",
+   "Finding description": "Fluorescence microscopy reproduced the reported isoform-dependent binding pattern, with apoE4 below apoE3, but an apoE4-versus-apoE3 microscopy-specific effect size or significance was not stated.",
+   "Finding quote": "These differences among apoE isoforms were also observed under a ﬂuorescence microscope (Fig. 3B).",
+   "Finding summary": "(apoE3 -> apoE4) -> (qualitatively lower cell-associated particle fluorescence)",
+   "Finding relevance": 0.55,
+   "Experimental system": "Human Coriell GM00701 fibroblasts incubated with recombinant human apoE-containing synthetic fluorescent emulsion particles at 2.0 mg/dL apoE for 3 h at 4 °C; fluorescence microscopy at 100× magnification and ImageJ quantification. The legend describes representative images from three independent experiments and relative fluorescence calculated from 30 cells; receptor recycling was not measured.",
+   "Data location": "Fig 3B",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "30",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P26",
+   "finding_id": "P26.F2",
+   "key": "pmid38279679",
+   "quote_start": "These differences among apoE isoforms were also observed under a ﬂuore",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.5x",
+    "Effect size provenance": "printed_in_text",
+    "Finding description": "Fluorescence microscopy of the same binding assay reproduced the isoform pattern, with relative fluorescence printed under the panels as 15.094 +/- 1.787 for apoE3 versus 9.880 +/- 1.090 for apoE4 (1.5-fold lower with apoE4, from 30 cells by ImageJ); the asterisks in the panel mark each apoE condition against control cells, and no apoE4-versus-apoE3 significance is given."
+   },
+   "reason": "Fig. 3B prints the relative fluorescence for each isoform, so the row should not stay qualitative: apoE3 15.094 and apoE4 9.880 give a 1.5x ratio. The *** key applies to the comparison with control cells, so the P value stays N/A for apoE3 versus apoE4.",
+   "evidence": "Fig. 3B of the PDF page image: numbers under the four micrographs read '1.000 +/- 0.983' (without apoE), '4.438 +/- 0.438***' (apoE2), '15.094 +/- 1.787***' (apoE3), '9.880 +/- 1.090***' (apoE4); legend: 'The number below the images represents the relative fluorescence intensity compared with that in control cells, which was calculated from the results obtained for 30 cells by the IMAGE J analysis. ***, P < 0.001.'"
+  },
+  "item": 16
+ },
+ {
+  "src": "4",
+  "paper": {
+   "key": "pmid39880097",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid39880097/text.txt",
+   "supp": "data/papers/pmid39880097/supp.txt",
+   "figures": [
+    "data/papers/pmid39880097/figimg/4.png",
+    "data/papers/pmid39880097/figimg/6.png",
+    "data/papers/pmid39880097/figimg/7.png",
+    "data/papers/pmid39880097/figimg/8.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P12.F2",
+   "Finding description": "Image analysis of electron micrographs found a larger mean-complex-area distribution for LPS-treated APOE4 than APOE3.",
+   "Finding quote": "This difference in aggregate size was confirmed by image analysis, revealing a larger distribution of the mean complex area in samples containing rAPOE4 compared with rAPOE3 (Fig. 6B).",
+   "Finding summary": "(APOE3 -> APOE4) -> (larger LPS-induced APOE aggregate area)",
+   "Finding relevance": 0.7,
+   "Experimental system": "ImageJ analysis of negative-stain TEM images of purified recombinant human APOE3 and APOE4 with E. coli LPS; three independently prepared samples, ten fields examined per preparation; 30-minute incubation at 37 °C; reported size metric differs between Results and methods.",
+   "Data location": "Fig 6B",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P12",
+   "finding_id": "P12.F2",
+   "key": "pmid39880097",
+   "quote_start": "This difference in aggregate size was confirmed by image analysis, rev",
+   "verdict": "FIX",
+   "set": {
+    "P value": "<=0.01",
+    "P value provenance": "visual_only",
+    "Effect size": "~1.6x",
+    "Effect size provenance": "estimated_from_figure"
+   },
+   "reason": "Fig. 6B is fully legible and carries a '**' bracket drawn directly between APOE3+LPS and APOE4+LPS - exactly this row's comparison - so a P is available via the legend's own key, and the two group means can be read off a zero-based axis. The row recorded no P and left the size qualitative.",
+   "evidence": "Fig. 6B (mean gray value/um, axis 0-60): APOE3+LPS mean ~28, APOE4+LPS mean ~45 (45/28 = 1.6), with a '**' bracket spanning those two groups; Fig. 6 legend key: '**p <= 0.01 and ***p <= 0.001'. (Note for the lane: four points are plotted per group in 6B, while the row's n = 3 comes from the Methods' three independent preparations.)"
+  },
+  "item": 17
+ },
+ {
+  "src": "4",
+  "paper": {
+   "key": "pmid39880097",
+   "hyp": "H3",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+   "text": "data/papers/pmid39880097/text.txt",
+   "supp": "data/papers/pmid39880097/supp.txt",
+   "figures": [
+    "data/papers/pmid39880097/figimg/4.png",
+    "data/papers/pmid39880097/figimg/6.png",
+    "data/papers/pmid39880097/figimg/7.png",
+    "data/papers/pmid39880097/figimg/8.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P12.F6",
+   "Finding description": "Mouse macrophages took up significantly more Amytracker-stained LPS-treated APOE4 aggregates than APOE3 aggregates in four independent experiments.",
+   "Finding quote": "Furthermore, the data indicate that uptake by the cells was significantly more pronounced for the LPS-treated E4 isoform when compared with the LPS-treated E3 isoform (Fig. 8A).",
+   "Finding summary": "(APOE3 -> APOE4) -> (greater macrophage-associated uptake of APOE aggregates)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Murine RAW 264.7 macrophage cell line, passages 4–7; recombinant human APOE3 or APOE4, 100 nM, with E. coli LPS, 100 nM, and Amytracker 680; mixtures incubated 30 minutes at room temperature before 1-hour cell exposure at 37 °C; fluorescence after washing; no endosomal or lysosomal marker.",
+   "Data location": "Fig 8A",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "<0.05",
+   "P value provenance": "printed_in_text",
+   "Sample size": "4",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H3",
+   "paper_id": "P12",
+   "finding_id": "P12.F6",
+   "key": "pmid39880097",
+   "quote_start": "Furthermore, the data indicate that uptake by the cells was significan",
+   "verdict": "FIX",
+   "set": {
+    "P value": "N/A",
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "The P value is not printed for this comparison. The text only says 'significantly more pronounced', and the '*p < 0.05' in the Fig. 8 legend is a whole-figure key; the Fig. 8 image supplied is 100x92 px, so no asterisk can be seen over the LPS-treated E3 vs LPS-treated E4 bars. printed_in_text is therefore unsupported.",
+   "evidence": "Results: 'the data indicate that uptake by the cells was significantly more pronounced for the LPS-treated E4 isoform when compared with the LPS-treated E3 isoform (Fig. 8A)' - no number; Fig. 8 legend key: '*p < 0.05, **p < 0.01, and ns = not significant'."
+  },
+  "item": 18
+ }
+]

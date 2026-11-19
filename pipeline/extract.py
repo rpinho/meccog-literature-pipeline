@@ -81,8 +81,9 @@ def code_checks(rec, text):
         problems.append("directness class/strength missing")
     # a result reported from someone else's paper is not this paper's primary finding
     q = str(rec.get("quote", ""))
-    cited = re.search(r"\((?:[A-Z][A-Za-z\-]+(?: et al\.?| and [A-Z][A-Za-z\-]+)?),? (?:19|20)\d\d[a-z]?\)", q) \
-        or re.search(r"\[\d+(?:[,\u2013\-]\s*\d+)*\]\s*\.?$", q.strip())
+    cited = re.search(r"\((?:[^()]*?;\s*)?[A-Z][A-Za-z\-]+(?: et al\.?| and [A-Z][A-Za-z\-]+)?,? (?:19|20)\d\d[a-z]?(?:[;,][^()]*)?\)", q) \
+        or re.search(r"\[\d+(?:[,\u2013\-]\s*\d+)*\]\s*\.?$", q.strip()) \
+        or re.search(r"\s\(\d{1,3}(?:\s*,\s*\d{1,3})+\)", q)  # numbered references "(4, 34)"; not construct names like apoE4-(72-299)
     if cited or re.search(r"literature review|previously reported|review chapter", str(rec.get("description", "")), re.I):
         problems.append("reports cited work, not this paper's own data")
     # a P value printed as a long decimal: same value in e-notation (4.6e-44), which the validator accepts

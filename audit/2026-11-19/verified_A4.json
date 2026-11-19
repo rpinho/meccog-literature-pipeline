@@ -1,0 +1,50 @@
+[
+ {
+  "item": 1,
+  "decision": "CONFIRM",
+  "why": "The quote is verbatim (Results 2.4), and Fig 4A shows only faint ~70 kDa bands in a cell-free reducing Coomassie gel, with no isoform comparison and no endo-lysosomal readout, so class 1 / '2 strong' is a clear error and class 3 / '4 weak' (A itself varied, B only a surrogate) fits."
+ },
+ {
+  "item": 2,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "0.56x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "why": "Text prints KD = 9 nM (ApoE4) and 16 nM (ApoE3), so a fold is allowed, but in the sheet's E4/E3 convention (sibling rows: 0.497/0.410 = 1.21x) that is 9/16 = 0.56x, which matches the row's 'lower KD' summary; a bare '1.8x' would read as a higher ApoE4 KD."
+ },
+ {
+  "item": 3,
+  "decision": "CONFIRM",
+  "why": "Results print Manders 0.497 ± 0.090 (ApoE4) and 0.410 ± 0.049 (ApoE3) for LAMP1-positive vesicles containing ApoE (Fig 2I), so 0.497/0.410 = 1.21x with printed_in_text is right, and the description already names both values."
+ },
+ {
+  "item": 4,
+  "decision": "CONFIRM",
+  "why": "Same printed Fig 2I values (0.497 vs 0.410, so 1.21x), and the new description is accurate (APOE KO iAstrocytes, 1 d of 10 ug/mL POPC-lipApoE per the Fig 2H legend; ApoE4 > ApoE3 internalized). It correctly ties the number to the Manders readout, not to the unprinted internalized amount."
+ },
+ {
+  "item": 5,
+  "decision": "CONFIRM",
+  "why": "Results print ApoE-LAMP1 Manders coefficients of 0.903 ± 0.024 (ApoE3) and 0.900 ± 0.008 (ApoE4), so 0.900/0.903 = 1.0x with printed_in_text is right, and the description names both values."
+ },
+ {
+  "item": 6,
+  "decision": "CONFIRM",
+  "why": "Pixel read of Fig 5H (ticks every 0.2 at y=857.5/818/778.5/738.5/698.5): the ApoE3 median is at ~0.317 and the ApoE4 median at ~0.141 (the legend says the boxes show medians), so 1 - 0.141/0.317 = ~55%, not ~60%. Legend '***p < 0.001 by Student's t test with n = 3 independent differentiations' matches."
+ },
+ {
+  "item": 7,
+  "decision": "CONFIRM",
+  "why": "Same Fig 5H panel and the same median read (~0.317 vs ~0.141, so ~55% reduction), and p<0.001 and n=3 match the legend."
+ },
+ {
+  "item": 8,
+  "decision": "ADJUST",
+  "set": {
+   "Data location": "Fig 3C",
+   "Experimental system": "Male murine Neuro-2a neuroblastoma cells carrying transgenic full-length human APOE3 or APOE4; endogenous mouse Apoe intact; passages 5–10; TMEM192-3xHA LysoIP in biological and technical triplicates followed by quantitative DIA mass spectrometry with normalization to the TMEM192 lysosomal tag; whether the genotype comparison used untreated LysoIPs only is not stated (BafA1-treated and untreated LysoIPs were both collected)."
+  },
+  "why": "Right in substance: HsAPOE is labelled only in Fig 3C (p < 0.05 vs both controls, per the legend), not in the 3B volcano, and 'basal untreated condition' is not stated (Fig 3A and Table S1 include BafA1 and untreated LysoIPs). But the paper says 'transgenic, full-length human APOE3 or APOE4', not 'genomic' transgenes, and it states DIA acquisition, so the system text is corrected on those two points."
+ }
+]

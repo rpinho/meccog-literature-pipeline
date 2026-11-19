@@ -1,0 +1,588 @@
+[
+ {
+  "hyp": "H2",
+  "paper_id": "P1",
+  "finding_id": "P1.F1",
+  "key": "pmid29946028",
+  "quote_start": "First, surface biotinylation revealed that plasma membrane expression ",
+  "verdict": "OK",
+  "reason": "Quote, 50%, P=0.0022 and n=3 match Fig 2B text and legend.",
+  "evidence": "Fig 2B legend: 'depressed by ~50% in ApoE4 astrocytes, relative to ApoE3 (** P = 0.0022, Student's t test; n = 3)'."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P1",
+  "finding_id": "P1.F2",
+  "key": "pmid29946028",
+  "quote_start": "Second, an antibody directed against an external epitope of LRP1 to qu",
+  "verdict": "OK",
+  "reason": "55%, P=4.8e-5 and n=3 match the Fig 2C legend.",
+  "evidence": "Fig 2C legend: '~55% lower surface LRP1 positivity in ApoE4 relative to ApoE3 (**** P = 4.8 x 10-5, Student's t test; n = 3)'."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P1",
+  "finding_id": "P1.F3",
+  "key": "pmid29946028",
+  "quote_start": "Third, this was confirmed by confocal microscopy showing ∼49% lower LR",
+  "verdict": "OK",
+  "reason": "49%, P=2.4e-16 and n=75 per condition match the Fig 2D legend.",
+  "evidence": "Fig 2D legend: 'faint, ~49% lower, labeling on ApoE4 cells (**** P = 2.4 x 10-16, Student's t test; n = 75 per condition)'."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P1",
+  "finding_id": "P1.F4",
+  "key": "pmid29946028",
+  "quote_start": "Confocal microscopy revealed a striking loss of LRP1 from astrocyte pr",
+  "verdict": "OK",
+  "reason": "Qualitative micrograph observation, correctly located; no statistic exists for Fig 2F.",
+  "evidence": "Fig 2F legend: 'Confocal micrographs revealing a striking loss of LRP1 from astrocyte processes (white arrow) and increased perinuclear accumulation in ApoE4 cells'."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P1",
+  "finding_id": "P1.F5",
+  "key": "pmid29946028",
+  "quote_start": "Compared with the weak surface LRP1 staining in vector-transfected Apo",
+  "verdict": "OK",
+  "reason": "2.5x, P=6.02e-12, n=40 per condition match the Fig 4F legend.",
+  "evidence": "Fig 4F legend: '~2.5-fold increase in plasma membrane LRP1 expression in ApoE4 cells expressing exogenous NHE6 (**** P = 6.02 x 10-12, Student's t test; n = 40 per condition)'."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P1",
+  "finding_id": "P1.F6",
+  "key": "pmid29946028",
+  "quote_start": "No difference in LRP1 internalization was observed between ApoE3 and A",
+  "verdict": "OK",
+  "reason": "Quote is the S4E legend; p=0.2112 and n=3 are supplement-only as coded.",
+  "evidence": "Supp Fig S4E legend: 'No difference in LRP1 internalization was observed between ApoE3 and ApoE4 astrocytes (p=0.2112; n=3; Student's t-test)'."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P1",
+  "finding_id": "P1.F7",
+  "key": "pmid29946028",
+  "quote_start": "Similar results were obtained in surface biotinylation experiments tha",
+  "verdict": "OK",
+  "reason": "5.7x is in the main text; p=0.002 and n=3 are in the S7C legend.",
+  "evidence": "Supp Fig S7C legend: 'robust ~5.7-fold higher surface LRP1 levels in ApoE4 cells with restored NHE6 expression, compared to transfection with empty vector (**p=0.002; n=3; Student's t-test)'."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P1",
+  "finding_id": "P1.F8",
+  "key": "pmid29946028",
+  "quote_start": "Consistent with these findings, confocal microscopy revealed a reducti",
+  "verdict": "OK",
+  "reason": "Qualitative S7E observation, quote verbatim from main text.",
+  "evidence": "Supp Fig S7E legend: 'reduction in perinuclear accumulation of LRP1 (green) and partial restoration of staining on astrocyte processes ... in ApoE4 cells with NHE6 expression'."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P1",
+  "finding_id": "P1.F9",
+  "key": "pmid29946028",
+  "quote_start": "Importantly, we observed prominent, approximately twofold higher surfa",
+  "verdict": "OK",
+  "reason": "Twofold, P=0.0037 and n=3 match the Fig 5E text and legend.",
+  "evidence": "Fig 5E legend: 'HDAC inhibition by TSA treatment significantly increased surface levels of LRP1 ... in ApoE4 astrocytes (** P = 0.0037, Student's t test; n = 3)'."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P1",
+  "finding_id": "P1.F10",
+  "key": "pmid29946028",
+  "quote_start": "Note lower LRP1 staining in ApoE4 astrocytes, relative to ApoE3, due t",
+  "verdict": "OK",
+  "reason": "Quote verbatim from the S4D legend; no group values or test for this genotype difference.",
+  "evidence": "Supp S4D legend: 'Note lower LRP1 staining in ApoE4 astrocytes, relative to ApoE3, due to reduced surface expression.' (the p<0.0001 there is 37 vs 4 C, not genotype)."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P1",
+  "finding_id": "P1.F11",
+  "key": "pmid29946028",
+  "quote_start": "In a fourth approach, surface-bound ligand (fluorescent Aβ) measured b",
+  "verdict": "OK",
+  "reason": "66%, P=2.2e-24, n=75 per condition match the Fig 2E legend.",
+  "evidence": "Fig 2E legend: 'Surface-bound Abeta was 66% lower in ApoE4 astrocytes, relative to ApoE3 (**** P = 2.2 x 10-24, Student's t test; n = 75 per condition)'."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P1",
+  "finding_id": "P1.F12",
+  "key": "pmid29946028",
+  "quote_start": "In contrast, cell-associated TFN was 1.5–twofold higher in ApoE4 cells",
+  "verdict": "OK",
+  "reason": "1.5x, P=6.8e-5 and n=3 match the Fig 1D legend.",
+  "evidence": "Fig 1D legend: '(~1.5-fold higher; **** P = 6.8 x 10-5, Student's t test; n = 3)'."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P1",
+  "finding_id": "P1.F13",
+  "key": "pmid29946028",
+  "quote_start": "In contrast, cell-associated TFN was 1.5–twofold higher in ApoE4 cells",
+  "verdict": "OK",
+  "reason": "Twofold, P=3.5e-32 and n=100 per condition match the Fig 1E legend.",
+  "evidence": "Fig 1E legend: 'fluorescence signal was increased by approximately twofold in ApoE4 astrocytes, relative to ApoE3 (**** P = 3.5 x 10-32, Student's t test; n = 100 per condition)'."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P1",
+  "finding_id": "P1.F14",
+  "key": "pmid29946028",
+  "quote_start": "Quantification of FACS analysis showing ∼1.93-fold increase in transfe",
+  "verdict": "OK",
+  "reason": "1.93x, p=5.9e-7, n=3 match the S2B legend; quote is the paper's own supplement result.",
+  "evidence": "Supp Fig S2B legend: '~1.93-fold increase in transferrin (TFN) uptake in ApoE4/4 fibroblasts, relative to ApoE3/3 control (****p=5.9X10-7; n=3; Student's t-test)'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P22",
+  "finding_id": "P22.F1",
+  "key": "pmid16540478",
+  "quote_start": "The full-length apoE proteins with DMPC showed dose-de- pendent compet",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~0.93x",
+   "Effect size provenance": "estimated_from_figure"
+  },
+  "reason": "Fig 5A is readable: bar 4 (apoE3 0.125 mg) and bar 6 (apoE4 0.125 mg) give the per-isoform reductions behind the text's 39-42% range, so the ratio of apoE4 to apoE3 competition can be given.",
+  "evidence": "PDF p.13341 Fig 5A (rendered): bar 4 apoE3 (2.5x) top at 58% bound (42% decrease), bar 6 apoE4 (2.5x) at 61% bound (39% decrease); 39/42 = 0.93. Neither bar has an error bar."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P22",
+  "finding_id": "P22.F2",
+  "key": "pmid16540478",
+  "quote_start": "The LDL-R binding ability of apoE- DMPC was higher than that of LDL at",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.99x"
+  },
+  "reason": "'99%' reads as a 99% change under the sheet's shapes; Table 4 prints apoE4 at 99% of apoE3's binding ability, a ratio of 0.99.",
+  "evidence": "Table 4, With DMPC: ApoE3 decrease 59 (c), ability 100; ApoE4 decrease 58 (c), ability 99. Footnote c: 0.5 mg values interpolated from 0.125 and 1.0 mg."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P22",
+  "finding_id": "P22.F3",
+  "key": "pmid16540478",
+  "quote_start": "The LDL-R binding ability of apoE- DMPC was higher than that of LDL at",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.0x"
+  },
+  "reason": "'100%' reads as a 100% change; Table 4 prints equal decreases (34 and 34) and apoE4 ability 100% of apoE3, a ratio of 1.0.",
+  "evidence": "Table 4, Without DMPC: ApoE3 34 / 100; ApoE4 34 / 100."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P22",
+  "finding_id": "P22.F4",
+  "key": "pmid16540478",
+  "quote_start": "In contrast, the apoE3-(1–231)-DMPC complex lost most of its LDL-R bin",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "2.4x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Both group values are printed (44% vs 18% decrease), so the ratio replaces 'qualitative'. Bars 6-7 of Fig 5B are the right bars.",
+  "evidence": "Table 4, With DMPC: ApoE3-(1-231) 18 / 31; ApoE4-(1-231) 44 / 75. 44/18 = 2.44. Fig 5B legend: bars 6 and 7 = apoE3-(1-231)-DMPC, apoE4-(1-231)-DMPC."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P22",
+  "finding_id": "P22.F5",
+  "key": "pmid16540478",
+  "quote_start": "On the contrary, in a lipid-free environment, the N-terminal trun- cat",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "diff=46",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Both values are printed (38 vs -8; the minus sign is confirmed on the rendered PDF table). A ratio is undefined for a negative value, so give the 46-point difference in 3H-LDL binding decrease.",
+  "evidence": "PDF p.13340 Table 4, Without DMPC: ApoE3-(72-299) decrease -8, ability ND; ApoE4-(72-299) decrease 38, ability 112."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P22",
+  "finding_id": "P22.F6",
+  "key": "pmid16540478",
+  "quote_start": "At the same dose, apoE3-(72–299)- and apoE4-(72–299)-DMPC complexes sh",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.26x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Both group values are printed in Table 4 (34% vs 27% decrease), so the ratio replaces 'qualitative'.",
+  "evidence": "Table 4, With DMPC: ApoE3-(72-299) 27 / 46; ApoE4-(72-299) 34 / 57. 34/27 = 1.26. Fig 5A legend: bar 10 apoE3-(72-299)-DMPC, bar 11 apoE4-(72-299)-DMPC."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P22",
+  "finding_id": "P22.F7",
+  "key": "pmid16540478",
+  "quote_start": "When the C-terminal domain was fully removed, apoE3-(1–191)- and apoE4",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.81x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Both group values are printed (34% vs 42% decrease), so the ratio replaces 'qualitative'.",
+  "evidence": "Table 4, With DMPC: ApoE3-(1-191) 42 / 72; ApoE4-(1-191) 34 / 57. 34/42 = 0.81. Fig 5B bars 4 and 5."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P22",
+  "finding_id": "P22.F8",
+  "key": "pmid16540478",
+  "quote_start": "With the assistance of the 232–271 fragment, the LDL-R binding ability",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.23x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Both group values are printed (58% vs 47% decrease), so the ratio replaces 'qualitative'.",
+  "evidence": "Table 4, With DMPC: ApoE3-(1-271) 47 / 80; ApoE4-(1-271) 58 / 99. 58/47 = 1.23. Fig 5B bars 8 and 9."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P22",
+  "finding_id": "P22.F9",
+  "key": "pmid16540478",
+  "quote_start": "ApoE3-(1–191) 42 72 13 39 ApoE4-(1–191) 34 57 19 57",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.46x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Both group values are printed (19% vs 13% decrease), so the ratio replaces 'qualitative'.",
+  "evidence": "Table 4, Without DMPC: ApoE3-(1-191) 13 / 39; ApoE4-(1-191) 19 / 57. 19/13 = 1.46."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P22",
+  "finding_id": "P22.F10",
+  "key": "pmid16540478",
+  "quote_start": "A 10-fold dose of apoE3-(41–299)-DMPC complex decreased 3H-LDL binding",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.02x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Both group values are printed (47% vs 46% decrease), so the ratio replaces 'qualitative'.",
+  "evidence": "Text: 'A 10-fold dose of apoE3-(41-299)-DMPC complex decreased 3H-LDL binding by 46% and that of apoE4-(41-299)-DMPC complex decreased by 47% (Table 4).' 47/46 = 1.02."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P22",
+  "finding_id": "P22.F11",
+  "key": "pmid16540478",
+  "quote_start": "Different from that of apoE3-(72–166)-DMPC, apoE4-(72–166)- DMPC compl",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "2.1x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Both group values are printed (55% vs 26% decrease), so the ratio replaces 'qualitative'.",
+  "evidence": "Table 4, With DMPC: ApoE3-(72-166) 26 / 44; ApoE4-(72-166) 55 / 94. 55/26 = 2.12. Fig 5B bars 10 and 11."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P22",
+  "finding_id": "P22.F12",
+  "key": "pmid16540478",
+  "quote_start": "ApoE3-(41–299) 46 78 15 44 ApoE4-(41–299) 47 80 20 60",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.33x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Both group values are printed (20% vs 15% decrease), so the ratio replaces 'qualitative'.",
+  "evidence": "Table 4, Without DMPC: ApoE3-(41-299) 15 / 44; ApoE4-(41-299) 20 / 60. 20/15 = 1.33."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P22",
+  "finding_id": "P22.F13",
+  "key": "pmid16540478",
+  "quote_start": "ApoE3-(1–271) 47 80 27 81 ApoE4-(1–271) 58 99 29 86",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.07x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Both group values are printed (29% vs 27% decrease), so the ratio replaces 'qualitative'.",
+  "evidence": "Table 4, Without DMPC: ApoE3-(1-271) 27 / 81; ApoE4-(1-271) 29 / 86. 29/27 = 1.07."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P22",
+  "finding_id": "P22.F14",
+  "key": "pmid16540478",
+  "quote_start": "ApoE3-(72–166) 26 44 14 41 ApoE4-(72–166) 55 94 22 65",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.57x",
+   "Effect size provenance": "printed_in_text",
+   "Directness class": 2
+  },
+  "reason": "Both group values are printed (22% vs 14%), so N/A is wrong. Class 1 is inconsistent: this is the truncated 72-166 fragment, a surrogate A', which every sibling fragment row codes as class 2.",
+  "evidence": "Table 4, Without DMPC: ApoE3-(72-166) 14 / 41; ApoE4-(72-166) 22 / 65. 22/14 = 1.57."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P4",
+  "finding_id": "P4.F1",
+  "key": "pmid40845853",
+  "quote_start": "Similarly, the total amount of Tf after a 20-min pulse was higher in A",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 3-6 differentiations matches the Fig 6B legend (six for pair 1, three for pair 2); no test reported. Fig 6 image in the packet is a 100x145 thumbnail, so no value can be read.",
+  "evidence": "Fig 6 legend: 'six independent differentiations for isogenic pair 1 and three independent differentiations for isogenic pair 2 (B)'."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P4",
+  "finding_id": "P4.F2",
+  "key": "pmid40845853",
+  "quote_start": "Similarly, the total amount of Tf after a 20-min pulse was higher in A",
+  "verdict": "OK",
+  "reason": "Same quote and panel as P4.F1 restricted to Fig 6D; values match. Near-duplicate of P4.F1.",
+  "evidence": "Fig 6 legend: 'Graphs in (C and D) were normalized ... immediately after the pulse in each condition in (D).'"
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P4",
+  "finding_id": "P4.F3",
+  "key": "pmid40845853",
+  "quote_start": "In agreement with previous data on mouse brain endothelial cells (Vill",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~55%"
+  },
+  "reason": "Read on the enlarged Fig 5H, the medians give about a 55% reduction, not 60%. P<0.001 and n=3 match the legend.",
+  "evidence": "Fig 5H (5.png, y-axis 0-0.8, ticks every 0.2): ApoE3 median at ~0.32, ApoE4 median at ~0.14; 1 - 0.14/0.32 = 0.56. Legend: '***p < 0.001 by Student's t test with n = 3 independent differentiations with 20 videos per experiment from isogenic pair 1'."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P4",
+  "finding_id": "P4.F4",
+  "key": "pmid40845853",
+  "quote_start": "In contrast, the number of sorting tubules was substantially reduced i",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~55%"
+  },
+  "reason": "Same Fig 5H reading as P4.F3: medians 0.32 vs 0.14 give about a 55% reduction. Near-duplicate of P4.F3.",
+  "evidence": "Fig 5H boxplot medians: ApoE3 ~0.32, ApoE4 ~0.14 tubules per 1000 um2 per min; legend '***p < 0.001 ... n = 3 independent differentiations'."
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P4",
+  "finding_id": "P4.F5",
+  "key": "pmid40845853",
+  "quote_start": "However, the rate of Tf internalization was similar between ApoE4 and ",
+  "verdict": "OK",
+  "reason": "Quote verbatim; n 3-4 matches the Fig 6A/C legend (four for pair 1, three for pair 2); no test reported.",
+  "evidence": "Fig 6 legend: 'four independent differentiations for isogenic pair 1 and three independent differentiations for isogenic pair 2 (A)'; '(C) normalized to the transferrin intensity at 10 min'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P1",
+  "finding_id": "P1.F1",
+  "key": "pmid39532095",
+  "quote_start": "Interestingly, CE(20:4)-ApoE3 demonstrated the lowest aggregation at b",
+  "verdict": "OK",
+  "reason": "Quote verbatim and is the paper's own result (Fig 5O-Q); direction ApoE4 > ApoE3 at pH 4.5 is right. No per-comparison p in text and no figure image.",
+  "evidence": "Results: 'CE(20:4)-ApoE3 demonstrated the lowest aggregation at both pH 7.4 and pH 4.5'; Fig 5P legend: '2 different batches of CE(20:4)/POPC-lipidated ApoE'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P1",
+  "finding_id": "P1.F2",
+  "key": "pmid39532095",
+  "quote_start": "Interestingly, CE(20:4)-ApoE3 demonstrated the lowest aggregation at b",
+  "verdict": "OK",
+  "reason": "Fig 5P with 2 batches matches the legend; no test for P (legend: 'Except for (P), one-way ANOVA').",
+  "evidence": "Fig 5P legend: 'Quantification of percentage of ApoE recovered in the pellet fraction ... using 2 different batches'; 'Except for (P), one-way ANOVA was performed'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P1",
+  "finding_id": "P1.F3",
+  "key": "pmid39532095",
+  "quote_start": "ApoE isoform differences were manifested in the differential levels of",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.21x",
+   "Effect size provenance": "printed_in_text",
+   "Finding description": "Human APOE-knockout iPSC astrocytes internalized more ApoE4 than ApoE3 after one day of lipidated ApoE treatment; the Manders coefficient for LAMP1-positive vesicles containing ApoE was 0.497 for ApoE4 versus 0.410 for ApoE3."
+  },
+  "reason": "The quote prints both group values for the Fig 2I LAMP1-vesicle readout (0.497 vs 0.410), so a ratio replaces 'qualitative'. The description should say this ratio is for the Manders coefficient, not the internalized amount, which has no printed number.",
+  "evidence": "Results: 'Mander's coefficients = 0.266 +/- 0.045 for ApoE2, 0.410 +/- 0.049 for ApoE3, 0.497 +/- 0.090 for ApoE4) (Figure 2I)'. 0.497/0.410 = 1.21. n 3-4 comes from the general methods ('Normalized data from 3-4 independent experiments were combined')."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P1",
+  "finding_id": "P1.F4",
+  "key": "pmid39532095",
+  "quote_start": "Super-resolution imaging on APOE KO iAstrocytes confirmed internalized",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.0x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Both group values are printed (ApoE4 0.900 vs ApoE3 0.903), so the ratio replaces 'qualitative'.",
+  "evidence": "Results: 'Mander's coefficients for ApoE puncta with colocalizing LAMP1 = 0.823 +/- 0.061 for ApoE2; 0.903 +/- 0.024 for ApoE3; 0.900 +/- 0.008 for ApoE4'. 0.900/0.903 = 1.00."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P1",
+  "finding_id": "P1.F5",
+  "key": "pmid39532095",
+  "quote_start": "CE(20:4)-lipApoE remained largely soluble and mostly recovered in the ",
+  "verdict": "OK",
+  "reason": "The quote supports ApoE3 having the lowest aggregation at pH 7.4 too, so ApoE4 > ApoE3 there is right; it stays qualitative.",
+  "evidence": "Results: 'CE(20:4)-lipApoE remained largely soluble ... at pH 7.4 ... CE(20:4)-ApoE3 demonstrated the lowest aggregation at both pH 7.4 and pH 4.5'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P23",
+  "finding_id": "P23.F1",
+  "key": "pmid36324176",
+  "quote_start": "In the control group, the dimer/monomer quotient was significantly low",
+  "verdict": "FIX",
+  "set": {
+   "Sample size": "5-9",
+   "Sample size provenance": "printed_in_text"
+  },
+  "reason": "5.8x (2.20/0.38) and p=0.006 are right. The group sizes are printed in Table 1 (Gothenburg controls: 9 e3/e3, 5 e3/e4), and Fig 3D shows 9 and 5 points.",
+  "evidence": "Table 1 Gothenburg Control: 'APOE | e3/e3 | e3/e4 ... N | 9 | 5'. Fig 3D (3.png): Ct3/3 9 circles, Ct3/4 5 circles, bracket 'p = 0.006'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P23",
+  "finding_id": "P23.F2",
+  "key": "pmid36324176",
+  "quote_start": "The same situation was found in the AD group, where the dimer/monomer ",
+  "verdict": "FIX",
+  "set": {
+   "Sample size": "15",
+   "Sample size provenance": "printed_in_text"
+  },
+  "reason": "9.5x (2.27/0.24) is right. On Fig 3D the upper p < 0.0001 bracket runs from AD3/3 to AD4/4, so that p holds. n is printed in Table 1 (15 per AD genotype).",
+  "evidence": "Table 1 Gothenburg AD: e3/e3 N 15, e4/e4 N 15. Fig 3D (3.png): top bracket 'p < 0.0001' spans AD3/3 to AD4/4; numbers below axis 2.3+/-1 and 0.1+/-0.2."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P23",
+  "finding_id": "P23.F3",
+  "key": "pmid36324176",
+  "quote_start": "In the AD group, the 100-kDa apoE species levels were significantly lo",
+  "verdict": "OK",
+  "reason": "Quote, p<0.0001 and n=15 per genotype match the text and Table 1. The Fig 4 image is a thumbnail, too small to read a value.",
+  "evidence": "Results: 'the 100-kDa apoE species levels were significantly lower in the APOE e4/e4 group when compared to both e3/e3 (p < 0.0001) and e3/e4 (p < 0.0001) groups'; Table 1 N 15/15/15."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P23",
+  "finding_id": "P23.F4",
+  "key": "pmid36324176",
+  "quote_start": "Within the AD group, the APOE ε4/ε4 samples once again displayed signi",
+  "verdict": "FIX",
+  "set": {
+   "Effect size provenance": "visual_only"
+  },
+  "reason": "The 3.7 and 2.8 medians (24% lower) are printed only on the Fig 5I image, not in the text. p=0.02 and n 9-10 are right.",
+  "evidence": "Fig 5I (5.png): labels under axis 'AD3/3 3.7+/-1.7', 'AD4/4 2.8+/-0.7' (legend: 'numbers below represent median +/- SD'); bracket 'p = 0.02' AD3/3 vs AD4/4; 1 - 2.8/3.7 = 0.24. Text: 'APOE e4/e4 samples once again displayed significantly lower 100-kDa apoE levels compared with e3/e3 cases (p = 0.02)'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P19",
+  "finding_id": "P19.F1",
+  "key": "pmid35471463",
+  "quote_start": "APOE4 carriers showed a greater amount of larger size APOE protein (fr",
+  "verdict": "OK",
+  "reason": "Quote verbatim. ~1.4x matches the Fig 5e fractions 27-29 bars, and N = 4-5 matches the legend. No p is printed for 27-29; p=0.08 is printed only for fraction 26.",
+  "evidence": "Fig 5e (5.png): fractions 27-29 Ctrl E4- ~10.2%, Ctrl E4+ ~14.5% (ratio 1.42); fraction 26 bracket 'p=0.08'. Legend: 'N = 4-5 samples/group in control cases. The student t tests'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P19",
+  "finding_id": "P19.F2",
+  "key": "pmid35471463",
+  "quote_start": "APOE4 carriers showed a greater amount of larger size APOE protein (fr",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~1.4x",
+   "Effect size provenance": "estimated_from_figure"
+  },
+  "reason": "Fig 5e is readable: in fractions 27-29 the two bars give about 1.4x, as already coded for P19.F1. P19.F2 is a near-duplicate of P19.F1.",
+  "evidence": "Fig 5e (5.png, y-axis 0-30): fractions 27-29 Ctrl E4- ~10.2%, Ctrl E4+ ~14.5%; only fraction 26 carries a printed 'p=0.08'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P19",
+  "finding_id": "P19.F3",
+  "key": "pmid35471463",
+  "quote_start": "In AD cases without LB pathology, APOE4 carriers had more large-sized ",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 5b, fractions 27-29 (AD E4- vs AD E4+); size profiles in Fig 5a"
+  },
+  "reason": "The ~1.2x and the comparison come from the Fig 5b bar chart, not Fig 5a, which shows only the profiles. A '*' is shown, but the legend gives no star key, so P N/A is right.",
+  "evidence": "Fig 5b (5.png): fractions 27-29 AD E4- ~15.8%, AD E4+ ~19.0% (ratio 1.2), with a '*' bracket between them; 6 points per bar. Legend: 'N = 6 samples/group in AD cases. Two-way ANOVA with Sidak's ... Only the significantly changed fractions were labeled' (no star threshold given)."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P24",
+  "finding_id": "P24.F1",
+  "key": "pmid23580652",
+  "quote_start": "APOE3 | 29.3 ± 2.1 | 54.3 ± 6.4 a | 1.8 | APOE4 | 39.5 ± 3.2 | 49.9 ± ",
+  "verdict": "OK",
+  "reason": "Kd 39.5 vs 29.3 nM (1.35x), n = 3 assays per group match Table 3; no apoE3-vs-apoE4 test is reported.",
+  "evidence": "Table 3: 'Values are means +/- S.E., n = 3 assays/group.' APOE3 WT-LRPIV Kd 29.3 +/- 2.1; APOE4 39.5 +/- 3.2."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P24",
+  "finding_id": "P24.F2",
+  "key": "pmid23580652",
+  "quote_start": "APOE3 | 29.3 ± 2.1 | 54.3 ± 6.4 a | 1.8 | APOE4 | 39.5 ± 3.2 | 49.9 ± ",
+  "verdict": "FIX",
+  "set": {
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "reason": "The values (49.9 vs 54.3 nM, 0.92x) are right, but the receptor is the engineered therapeutic mutant LRPIV-D3674G, a surrogate B', not a native recycling receptor. Class 1 is a clear error.",
+  "evidence": "Table 3: APOE3 LRPIV-D3674G Kd 54.3 +/- 6.4; APOE4 49.9 +/- 5.4. Text: 'LRPIV-D3674G, a lead new LRPIV analog'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P21",
+  "finding_id": "P21.F1",
+  "key": "pmid40209641",
+  "quote_start": "Incubation with the PUFA-phospholipid PE-18:0/22:4n-6 had no apparent ",
+  "verdict": "OK",
+  "reason": "Quote verbatim from the Fig 5 legend (the paper's own experiment); 'performed three times' supports n=3; qualitative is right.",
+  "evidence": "Fig 5 legend: 'Incubation with the PUFA-phospholipid PE-18:0/22:4n-6 had no apparent effect on ApoE4 dimerization (A) ... Capillary nano-immunoassay chromatograms are representative of experiments performed three times.'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P23",
+  "finding_id": "P23.F1",
+  "key": "pmid2065026",
+  "quote_start": "KD (nM) 20.2±4.6 16.38±6 2.9 7.8 4.55+1.8 0.75 00 9.1",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.56x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Both KD values are printed in Table 2 (E4/E4 9.1 nM vs E3/E3 LpB:E apoE/B=1 16.38 nM), so N/A is wrong; the ratio is 0.56. n=3 is the E3/E3 preparation count only; Table 2 gives no n for LpB E4/E4.",
+  "evidence": "Table 2: 'LpB:E (n=3)' KD 16.38+/-6, apo E molar ratio 1; 'LpB E4/E4' KD 9.1, apo E 1; footnote 'n, number of different preparations'. 9.1/16.38 = 0.556."
+ }
+]
