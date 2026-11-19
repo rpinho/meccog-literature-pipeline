@@ -5,6 +5,14 @@ MecCog Step 1 submission: an open pipeline that finds the papers bearing on a me
 - **Team:** rstack
 - **Hypothesis:** H1 (lower endosome pH), H2 (impaired receptor recycling), H3 (APOE4 aggregation in the endo-lysosome) and H4 (APOE4 binds recycling receptors more tightly) of the [APOE4 endosome set](https://huggingface.co/spaces/MecCog/meccog-challenge), one spreadsheet each. H5 follows with the same pipeline.
 - **Submission date:** H1 and H2 2026-11-17, replaced 2026-11-18 after the figure read; H3 2026-11-18; H4, and replacements for H2 and H3, 2026-11-19
+- **Live sheets** (each built by `build_sheet.py` at the commit named; the acceptance number is the one the submission Space returned):
+
+  | | sheet commit | acceptance number | papers / rows |
+  |---|---|---|---|
+  | H1 | 2ffa2ab | MC-20261118-4523DBE7 | 8 / 20 |
+  | H2 | ff40dc2 | MC-20261119-FD6B0D92 | 14 / 82 |
+  | H3 | ff40dc2 | MC-20261119-D2C393C5 | 27 / 143 |
+  | H4 | ff40dc2 | MC-20261119-6AC28FC1 | 29 / 168 |
 
 Everything here is agent work: AI-written code, AI extraction, an AI referee, and an AI spot-check. Read the numbers with that in mind.
 
