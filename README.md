@@ -3,8 +3,8 @@
 MecCog Step 1 submission: an open pipeline that finds the papers bearing on a mechanism hypothesis and extracts each experimental finding into the MecCog template.
 
 - **Team:** rstack
-- **Hypothesis:** H1 (lower endosome pH), H2 (impaired receptor recycling) and H3 (APOE4 aggregation in the endo-lysosome) of the [APOE4 endosome set](https://huggingface.co/spaces/MecCog/meccog-challenge), one spreadsheet each. H4 and H5 follow with the same pipeline.
-- **Submission date:** H1 and H2 2026-11-17, replaced 2026-11-18 after the figure read; H3 2026-11-18
+- **Hypothesis:** H1 (lower endosome pH), H2 (impaired receptor recycling), H3 (APOE4 aggregation in the endo-lysosome) and H4 (APOE4 binds recycling receptors more tightly) of the [APOE4 endosome set](https://huggingface.co/spaces/MecCog/meccog-challenge), one spreadsheet each. H5 follows with the same pipeline.
+- **Submission date:** H1 and H2 2026-11-17, replaced 2026-11-18 after the figure read; H3 2026-11-18; H4, and replacements for H2 and H3, 2026-11-19
 
 Everything here is agent work: AI-written code, AI extraction, an AI referee, and an AI spot-check. Read the numbers with that in mind.
 
@@ -51,6 +51,7 @@ Hit counts per query, in the order of `config/queries/H*.txt` (Europe PMC search
 | H1 | 67, 6, 2, 1, 66 (HDAC4 and v-ATPase queries returned almost nothing) | 1,255, 104, 241, 34, 1,389 | 73 / 203 |
 | H2 | 1, 14, 8, 1, 24 (the ARF6 and Rab11 queries returned one paper each) | 73, 1,405, 734, 184, 1,319 | 41 / 153 |
 | H3 | 24, 29, 154, 896, 91 | 3,436, 3,858, 8,425, 87, 3,054 | 81 / 118 |
+| H4 | 10, 122, 8, 7, 29 | 603, 2,710, 650, 271, 527 | 83 / 106 |
 
 The funnel per hypothesis is in the table in section 5.
 
@@ -81,23 +82,26 @@ No person checked the findings. Instead:
 | | candidates | passed code filter | kept by screen | full text reached when extracted | rows extracted | referee PASS / FIX / REJECT | in the sheet |
 |---|---|---|---|---|---|---|---|
 | H1 | 983 | 403 | 73 | 58 (79%) | 221 | 51 / 68 / 98 (4 not refereed) | 8 papers, 20 rows |
-| H2 | 960 | 302 | 95 | 79 (83%) | 680 | see note | 13 papers, 72 rows |
-| H3 | 1,267 | 708 | 89 | 68 (76%); 62 extracted, 6 timed out | 262 | 40 / 59 / 163 | 21 papers, 61 rows |
+| H2 | 960 | 302 | 95 | 79 (83%) | 728 | 72 / 86 / 541 (29 rows lost to extraction errors) | 15 papers, 101 rows |
+| H3 | 1,267 | 708 | 89 | 68 (76%) | 462 | 79 / 128 / 255 | 27 papers, 143 rows |
+| H4 | 1,352 | 488 | 138 | 97 (70%) | 738 | 143 / 173 / 422 | 31 papers, 191 rows |
 
-  H2 note: 48 PASS / 64 FIX / 517 REJECT in the first round; the top-up added 5 papers. Rows in the sheet are referee PASS or FIX rows that the scope check kept, at relevance 0.35 or higher, with duplicates merged. The H2 REJECT count is high because 40 H2 papers were extracted with an earlier, more inclusive prompt; the referee removed what was outside the hypothesis.
+  Papers that timed out on the first pass (2 in H2, 6 in H3) were extracted again at medium reasoning effort with a longer limit. Rows in the sheet are referee PASS or FIX rows that the scope check kept, at relevance 0.35 or higher, with duplicates merged. The H2 REJECT count is high because 40 H2 papers were extracted with an earlier, more inclusive prompt; the referee removed what was outside the hypothesis.
 - Claude Code (claude-opus-5-5) read all 21 rows of the first H1 sheet and checked the quote, location, effect size, P value and n of 5 rows against the full text (Prasad and Rao 2018 Fig 3B; Fig 5B; Lysosomal proteomics 2025 Fig 1E; JBC 2025 Fig 4J; Stem Cell Reports 2025 Fig 5F). All 5 matched. It found 2 defective rows: a row quoting a dissertation's literature review (someone else's result) and a duplicate of the same result under its representative-image panel. Both are now caught by code, and the sheet has 20 rows.
+- Claude Code checked 3 H4 rows against the full text (Table 1 kd2 11.2 vs 9.7, P = 0.013; Fig. 12B VEGFR2, 64.1%, P < 0.0001, n 23-27; an insulin-receptor recycling quote whose Figure S8 supplement we did not reach, so P and n are marked full_text_unavailable). All 3 matched. It also checked 5 H3 values read off figures against the images. Three matched (a lysosome paper's Fig 3A colocalization ~3.1x and puncta area ~2.1x, Fig 3B ~61%, n 3). Two were wrong: two CSF dimer/monomer rows took their effect from the rounded medians printed under Fig. 3D (2 vs 0.4, so 5x; 2.3 vs 0.1, so 23x) when the text prints the group means (2.20 vs 0.38, so 5.8x; 2.27 vs 0.24, so 9.5x). Those rows and their two sibling comparisons are fixed in `config/corrections.json`, each with its reason and the printed text it rests on, and the figure read now leaves an effect alone when the quote already prints group values that differ from the figure's.
 - Two papers per hypothesis were drawn by hash before extraction and kept out of all prompt changes, for a later check the pipeline was not tuned on. For H1 neither yielded a row in scope.
 
 ## 6. Anything else
 
 - **Contrary and null findings are kept.** The inventory step asks for them by name, and the referee checks the direction column.
 - **Quotes are matched against the paper by code.** A naive substring test fails correct quotes on markup, the multiplication sign, Greek letters and inline figure references; the matcher in `pipeline/quotes.py` normalises those in tiers and writes the paper's own characters into the sheet. Quotes start at a sentence boundary, so a dropped negation cannot invert a finding.
-- **Values read off figures** (`pipeline/figures.py`, `pipeline/figread.py`, `prompts/figure_read.md`). For rows whose number is only in a figure, one call per figure gets the figure image (taken from the PDF where we have it, else the PMC or Europe PMC figure file) with its legend and that figure's rows, and no paper text. It fills only what is missing: an effect size measured off the bars is written with a leading ~ and estimated_from_figure; group values printed on the figure itself (numbers on the bars) are used as printed and marked printed_in_text, with both values quoted in the description; a P value comes only from significance marks read with that legend's own key (visual_only), never estimated; n from counted points carries a ~. A value already printed in the text is never replaced, and any value the validator would reject is dropped. H1: 15 rows read, 6 changed; H2: 30 rows read, 6 changed; the rest stayed as they were, mostly because the panel showed no number we could defend or the legend gave no key for its stars. Claude checked 3 of the changed values against the images (Prasad 2018 Fig 5D, ~1.1 pH units; Mol Neurobiol 2026 Fig 4D, ~73%; JAD 2024 Fig 6B, ~65%): all matched.
+- **Values read off figures** (`pipeline/figures.py`, `pipeline/figread.py`, `prompts/figure_read.md`). For rows whose number is only in a figure, one call per figure gets the figure image (taken from the PDF where we have it, else the PMC or Europe PMC figure file) with its legend and that figure's rows, and no paper text. It fills only what is missing: an effect size measured off the bars is written with a leading ~ and estimated_from_figure; group values printed on the figure itself (numbers on the bars) are used as printed and marked printed_in_text, with both values quoted in the description; a P value comes only from significance marks read with that legend's own key (visual_only), never estimated; n from counted points carries a ~. A value already printed in the text is never replaced, and any value the validator would reject is dropped. H1: 15 rows read, 6 changed; H2: 30 rows read, 6 changed; H3: 48 rows read, 14 changed; the rest stayed as they were, mostly because the panel showed no number we could defend or the legend gave no key for its stars. Claude checked 3 of the changed values against the images (Prasad 2018 Fig 5D, ~1.1 pH units; Mol Neurobiol 2026 Fig 4D, ~73%; JAD 2024 Fig 6B, ~65%): all matched.
 - **Effect sizes are reported as printed.** Where a paper prints only the two group values (pH 5.38 vs 5.74), the sheet gives the difference or ratio and the description quotes both values.
+- **Duplicates.** Two rows on the same panel are merged when they quote the same sentence for the same result, or when their wording is mostly the same and they compare the same groups. Rows on one panel that compare different groups (controls vs AD, ε3/ε4 vs ε4/ε4) stay separate.
 - **Scope calls.** The hypotheses name non-aged human brain cells, and almost nothing in this literature meets every clause. We keep model-system findings and record the system precisely, as the challenge asks.
 - **Significance stars.** Where a legend gives one key for the whole figure ("*** p < 0.001") but the text does not say which panels carry the stars, the P value is N/A with ambiguous_panel until we read the figure images.
 - **H3 starting reference.** Kaji et al. 2024 (Immunity) is open access but behind a publisher bot wall; it is not in this H3 version and will be added in a replacement.
-- **Known weaknesses.** Papers behind publisher bot walls without a PMC copy are missed. Most effect sizes are "qualitative" because the number is only in a figure and we do not read figures yet. The referee is one model; it fixes and rejects, but it can also be wrong. The H1 sheet is small (8 papers) because rows outside the hypothesis are dropped; we think that is the right call for this challenge, but it means some related lysosome results are not in it.
+- **Known weaknesses.** Papers behind publisher bot walls without a PMC copy are missed. Many effect sizes are still "qualitative": the number is only in a figure the figure read could not use, or, as the H3 spot-check showed, the extraction left a row qualitative although the text prints both group values. The referee is one model; it fixes and rejects, but it can also be wrong. The H1 sheet is small (8 papers) because rows outside the hypothesis are dropped; we think that is the right call for this challenge, but it means some related lysosome results are not in it.
 - Lessons from the organizers' earlier agent collab shaped several steps; see References.
 
 ---
@@ -116,6 +120,7 @@ No person checked the findings. Instead:
 | `pipeline/build_sheet.py`, `pipeline/check_ids.py` | stage 6, sheet, validation, and DOI/PMID check |
 | `pipeline/validate_submission.py` | the organizers' validator, unchanged |
 | `config/` | hypotheses (copied from the submission Space), variables A and B per hypothesis, queries, template |
+| `config/corrections.json` | fixes from spot-checks, each with its reason and source text; applied by `build_sheet.py`, then the same code checks run |
 
 Run, per hypothesis: `search.py H1`, `screen.py H1`, `fetch.py H1`, `supplements.py`, `extract.py H1`, `referee.py H1`, `scope.py H1`, `build_sheet.py H1`. Python 3, `openpyxl`, `pymupdf`, `playwright`; model calls go through the Codex CLI (`pipeline/llm.py`).
 

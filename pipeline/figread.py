@@ -54,7 +54,13 @@ def apply(f, a):
     f["figure_read"] = {"model": FIG_MODEL, **a}
     if a.get("panel_ok") is False:
         return
-    if str(f.get("effect_size", "")).lower() in ("qualitative", "n/a") and a.get("effect_size") not in (None, "", "N/A", "qualitative"):
+    # group values already printed in the quote come from the text, not the figure: leave those for a person
+    # (unless the figure prints the same numbers as the text, e.g. bars labelled 5.38 and 5.74)
+    quote_nums = set(re.findall(r"\d+\.\d+", str(f.get("quote", ""))))
+    text_values = len(quote_nums) >= 2 and not quote_nums & set(re.findall(r"\d+\.\d+", str(a.get("note", ""))))
+    if text_values and a.get("effect_size_provenance") == "printed_on_figure":
+        f["figure_read"]["skipped_effect"] = "the quote prints group values; compute the effect from the text"
+    elif str(f.get("effect_size", "")).lower() in ("qualitative", "n/a") and a.get("effect_size") not in (None, "", "N/A", "qualitative"):
         prov = a.get("effect_size_provenance")
         f["effect_size"] = a["effect_size"]
         f["effect_size_provenance"] = "printed_in_text" if prov == "printed_on_figure" else prov

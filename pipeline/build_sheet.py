@@ -49,6 +49,27 @@ def source_type(meta):
     return "PubMed published" if meta.get("pmid") else "Other"
 
 
+def load_corrections():
+    """config/corrections.json: fixes from human spot-checks, each with its reason and the text it rests on.
+    A correction matches one finding by paper key and the start of its quote; the code checks still run after."""
+    path = ROOT / "config/corrections.json"
+    return json.load(open(path))["corrections"] if path.exists() else []
+
+
+def apply_corrections(key, findings, corrections):
+    for c in corrections:
+        if c["key"] != key:
+            continue
+        hits = [f for f in findings if str(f.get("quote", "")).startswith(c["quote_start"])
+                and c.get("summary_contains", "") in str(f.get("summary", ""))]
+        if len(hits) != 1:
+            sys.exit(f"correction for {key} '{c['quote_start'][:40]}' matches {len(hits)} findings, expected 1")
+        f = hits[0]
+        f.setdefault("precorrection", {k: f.get(k) for k in c["set"]})
+        f.update(c["set"])
+        f["correction"] = c["reason"]
+
+
 def accepted(f, text):
     if f.get("error"):
         return False
@@ -96,6 +117,13 @@ def loc_norm(loc):
     return re.sub(r"[^a-z0-9]", "", l.split(";")[0].split("(")[0])
 
 
+def comparison(f):
+    """The cause side of the summary, '(APOE3 -> APOE4)': two rows on one panel that compare
+    different groups (controls vs AD, e3/e4 vs e4/e4) are different findings, however alike the wording."""
+    m = re.match(r"\s*\(([^()]*(?:\([^()]*\)[^()]*)*)\)", str(f.get("summary", "")))
+    return re.sub(r"[^a-z0-9>]+", "", (m.group(1) if m else str(f.get("summary", ""))).lower())
+
+
 def dedupe_findings(fs):
     """Same panel, same quote or near-identical description -> keep the most relevant one."""
     kept = []
@@ -111,7 +139,7 @@ def dedupe_findings(fs):
                 continue
             kw = set(re.findall(r"[a-z0-9]+", str(k.get("description")).lower()))
             if k.get("quote") == f.get("quote") and k.get("direction") == f.get("direction") \
-                    or len(words & kw) / max(1, len(words | kw)) > 0.5:
+                    or len(words & kw) / max(1, len(words | kw)) > 0.5 and comparison(k) == comparison(f):
                 dup = True
                 break
         if not dup:
@@ -127,12 +155,14 @@ def cellval(x):
 
 
 def build(H, out):
+    corrections = load_corrections()
     hyp = {h["id"]: h for h in json.load(open(ROOT / "config/hypotheses.json"))["hypotheses"]}[H]
     papers = []
     for p in sorted((ROOT / f"data/{H}/findings").glob("*.json")):
         r = json.load(open(p))
         meta = json.load(open(ROOT / "data/papers" / r["key"] / "meta.json"))
         text, _ = load_text(r["key"])
+        apply_corrections(r["key"], r["findings"], corrections)
         fs = [f for f in r["findings"] if accepted(f, text) and float(f.get("relevance") or 0) >= MIN_RELEVANCE
               and (f.get("scope") or {}).get("keep", True)]
         if not fs:

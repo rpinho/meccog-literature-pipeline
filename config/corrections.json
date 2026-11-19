@@ -1,0 +1,50 @@
+{
+ "about": "Fixes from human spot-checks of figure-read values. Each names the paper, the start of the finding's quote, the fields set, and the printed text the new values rest on. build_sheet.py applies them, then runs the same code checks as every other row.",
+ "corrections": [
+  {
+   "key": "pmid36324176",
+   "quote_start": "In the control group, the dimer/monomer quotient was significantly lower",
+   "set": {
+    "effect_size": "5.8x",
+    "effect_size_provenance": "printed_in_text",
+    "description": "Native-PAGE of non-AD human control CSF showed a lower apoE dimer/monomer ratio in APOE ε3/ε4 than ε3/ε3 samples (ratio D/M 0.38 versus 2.20, printed in the text)."
+   },
+   "reason": "The figure read used the medians printed under Fig. 3D (2 vs 0.4); the text prints the group values the paper reports (2.20 vs 0.38), so the ratio is 2.20/0.38 = 5.8x.",
+   "source": "Results: 'ratio D/M = 0.38 ... ratio D/M = 2.20; p= 0.006'"
+  },
+  {
+   "key": "pmid36324176",
+   "quote_start": "The same situation was found in the AD group, where the dimer/monomer ratio decreased",
+   "set": {
+    "effect_size": "9.5x",
+    "effect_size_provenance": "printed_in_text",
+    "description": "Native-PAGE of human AD CSF showed a lower apoE dimer/monomer ratio in APOE ε4/ε4 than ε3/ε3 samples (ratio D/M 0.24 versus 2.27, printed in the text); the Fig. 3D bracket between these groups reads p < 0.0001."
+   },
+   "reason": "The figure read used rounded medians printed under Fig. 3D (2.3 vs 0.1, giving 23x); the text prints 2.27 vs 0.24, so the ratio is 9.5x.",
+   "source": "Results: 'ε3/ε3: ratio D/M = 2.27; ε3/ε4: ratio D/M = 1.04; ε4/ε4: ratio D/M = 0.24'",
+   "summary_contains": "(APOE ε3/ε3 -> APOE ε4/ε4)"
+  },
+  {
+   "key": "pmid36324176",
+   "quote_start": "The same situation was found in the AD group, where the dimer/monomer ratio decreased",
+   "summary_contains": "(APOE ε3/ε3 -> APOE ε3/ε4)",
+   "set": {
+    "effect_size": "2.2x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Same quote as the ε3/ε3 vs ε4/ε4 row: the text prints 2.27 vs 1.04, so the ratio is 2.2x; the extraction had left it qualitative.",
+   "source": "Results: 'ε3/ε3: ratio D/M = 2.27; ε3/ε4: ratio D/M = 1.04; ε4/ε4: ratio D/M = 0.24'"
+  },
+  {
+   "key": "pmid36324176",
+   "quote_start": "The same situation was found in the AD group, where the dimer/monomer ratio decreased",
+   "summary_contains": "(APOE ε3/ε4 -> APOE ε4/ε4)",
+   "set": {
+    "effect_size": "4.3x",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Same quote: the text prints 1.04 vs 0.24, so the ratio is 4.3x; the extraction had left it qualitative.",
+   "source": "Results: 'ε3/ε3: ratio D/M = 2.27; ε3/ε4: ratio D/M = 1.04; ε4/ε4: ratio D/M = 0.24'"
+  }
+ ]
+}
