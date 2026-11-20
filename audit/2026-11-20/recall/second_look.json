@@ -1,0 +1,546 @@
+[
+ {
+  "id": "H1-0-142",
+  "hyp": "H1",
+  "decision": "no",
+  "relevance": 0.2,
+  "primary_data": true,
+  "why": "Urea denaturation of apoE N-terminal domains at pH 4; biophysics, no endosomal pH measured."
+ },
+ {
+  "id": "H2-0-7",
+  "hyp": "H2",
+  "decision": "no",
+  "relevance": 0.25,
+  "primary_data": true,
+  "why": "Lysosomal lipid droplets and ferroptosis in APOE4 astrocytes; no receptor surface or recycling readout."
+ },
+ {
+  "id": "H2-0-95",
+  "hyp": "H2",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "Brain free fatty acid profiles in APOE3/4 FAD mice; no receptor trafficking."
+ },
+ {
+  "id": "H2-0-133",
+  "hyp": "H2",
+  "decision": "no",
+  "relevance": 0.1,
+  "primary_data": true,
+  "why": "NP1 plasma biomarker levels in E4FAD mice; glutamate receptor internalization not measured."
+ },
+ {
+  "id": "H2-1-146",
+  "hyp": "H2",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Review of apoE4 cholesterol trafficking; no primary data."
+ },
+ {
+  "id": "H3-0-42",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.1,
+  "primary_data": true,
+  "why": "ELISA of apoE4 binding to aggregated Abeta intermediates; apoE self-aggregation not measured."
+ },
+ {
+  "id": "H3-0-48",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.15,
+  "primary_data": true,
+  "why": "Murine vs human apoE4 co-deposition with Abeta in plaques/CAA; no apoE3 comparison, not endolysosomal."
+ },
+ {
+  "id": "H3-0-52",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.1,
+  "primary_data": true,
+  "why": "apoE isoform inhibition of alpha-synuclein fibrillation; apoE aggregation itself not measured."
+ },
+ {
+  "id": "H3-0-59",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.15,
+  "primary_data": true,
+  "why": "Docking/MD of apoE-Abeta complex misfolding; in silico, no experimental apoE aggregation."
+ },
+ {
+  "id": "H3-0-94",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.1,
+  "primary_data": true,
+  "why": "Intraneuronal oligomeric Abeta42 in apoE4 mice; apoE aggregation not measured."
+ },
+ {
+  "id": "H3-0-109",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.0,
+  "primary_data": true,
+  "why": "Tramiprosate clinical trial by APOE4 dose; no apoE aggregation readout."
+ },
+ {
+  "id": "H3-0-138",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.15,
+  "primary_data": true,
+  "why": "SPR of apoE isoform binding to heparan/dermatan sulfate; oligomerization only as binding mechanism."
+ },
+ {
+  "id": "H3-0-148",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.1,
+  "primary_data": true,
+  "why": "FRET of apoE interaction with Abeta oligomers; apoE self-aggregation not readout."
+ },
+ {
+  "id": "H3-0-188",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.1,
+  "primary_data": true,
+  "why": "MD/QM of APOE4 misfolding when bound to Abeta; computational, no endolysosomal aggregation."
+ },
+ {
+  "id": "H3-1-2",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.2,
+  "primary_data": true,
+  "why": "MD of apoE3 vs apoE4 monomer stability; aggregation propensity inferred, not measured."
+ },
+ {
+  "id": "H3-1-41",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.1,
+  "primary_data": true,
+  "why": "EPR/SPR of apoE binding to Abeta oligomers; apoE aggregation not measured."
+ },
+ {
+  "id": "H3-1-48",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "apoE4 promotes CAA in Tg2576 mice; Abeta deposition only."
+ },
+ {
+  "id": "H3-1-94",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "apoE4 enhances Abeta nucleation after neprilysin inhibition; Abeta readouts only."
+ },
+ {
+  "id": "H3-1-101",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.1,
+  "primary_data": true,
+  "why": "apoE isoform binding to factor H and Abeta oligomerization; apoE aggregation not measured."
+ },
+ {
+  "id": "H3-1-104",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.15,
+  "primary_data": true,
+  "why": "apoE tetramers cross-link apoC-II/Abeta fibrils, E3 equals E4; no apoE aggregation in endolysosomes."
+ },
+ {
+  "id": "H3-1-131",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.0,
+  "primary_data": true,
+  "why": "Transcriptomics and Seahorse bioenergetics in aged APOE mice; unrelated to apoE aggregation."
+ },
+ {
+  "id": "H3-1-150",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.0,
+  "primary_data": true,
+  "why": "apoE isoform effects on glial cytokines; no aggregation readout."
+ },
+ {
+  "id": "H3-2-3",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.25,
+  "primary_data": true,
+  "why": "RNA-seq and early endosome morphology in APOE4 mice; no apoE protein aggregation readout."
+ },
+ {
+  "id": "H3-2-21",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.15,
+  "primary_data": true,
+  "why": "MD of R61T apoE4 misfolded intermediate dynamics; computational, no aggregation data."
+ },
+ {
+  "id": "H3-2-23",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.1,
+  "primary_data": true,
+  "why": "apoE/Abeta complex ELISA in EFAD mice and human samples; apoE aggregation not measured."
+ },
+ {
+  "id": "H3-2-32",
+  "hyp": "H3",
+  "decision": "maybe",
+  "relevance": 0.4,
+  "primary_data": true,
+  "why": "Sequential TBS/detergent/formic extraction of apoE4 vs apoE3 in EFAD mice; may show insoluble apoE fractions."
+ },
+ {
+  "id": "H3-2-41",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.1,
+  "primary_data": true,
+  "why": "Cross-linking MS of apoE-Abeta binding interface; apoE aggregation not measured."
+ },
+ {
+  "id": "H3-2-61",
+  "hyp": "H3",
+  "decision": "maybe",
+  "relevance": 0.45,
+  "primary_data": true,
+  "why": "Domain interaction lowers apoE4 levels in brain and astrocytes, proposed misfolded-protein degradation; may test apoE turnover."
+ },
+ {
+  "id": "H3-2-88",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "apoE3 not apoE4 induces PKCepsilon synaptic protection; no aggregation readout."
+ },
+ {
+  "id": "H3-2-108",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.0,
+  "primary_data": true,
+  "why": "Tramiprosate trial in APOE4/4 patients; no apoE aggregation readout."
+ },
+ {
+  "id": "H3-2-137",
+  "hyp": "H3",
+  "decision": "no",
+  "relevance": 0.1,
+  "primary_data": true,
+  "why": "apoE4 stabilizes Abeta oligomers in vitro; apoE self-aggregation not measured."
+ },
+ {
+  "id": "H4-0-16",
+  "hyp": "H4",
+  "decision": "no",
+  "relevance": 0.15,
+  "primary_data": true,
+  "why": "apoE oligomer dissociation and DMPC vesicle lipidation kinetics; no receptor binding."
+ },
+ {
+  "id": "H4-0-18",
+  "hyp": "H4",
+  "decision": "maybe",
+  "relevance": 0.45,
+  "primary_data": true,
+  "why": "Lipid-poor apoE4 stimulates LRP-dependent APP recycling more than apoE3; full text may show LRP trafficking."
+ },
+ {
+  "id": "H4-0-23",
+  "hyp": "H4",
+  "decision": "no",
+  "relevance": 0.1,
+  "primary_data": true,
+  "why": "apoE abundance and transcriptome in human cortex by isoform; no receptor binding or recycling measured."
+ },
+ {
+  "id": "H4-0-36",
+  "hyp": "H4",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Review/hypothesis on apoE isoforms in retinal pigment epithelium; no primary data."
+ },
+ {
+  "id": "H4-0-96",
+  "hyp": "H4",
+  "decision": "maybe",
+  "relevance": 0.35,
+  "primary_data": true,
+  "why": "Lower LRP1 protein in apoE4 TR mouse brain; full text may hold receptor level data."
+ },
+ {
+  "id": "H4-0-152",
+  "hyp": "H4",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "alpha-synuclein truncation in APOE3/4 mice; no receptor readout."
+ },
+ {
+  "id": "H4-0-167",
+  "hyp": "H4",
+  "decision": "no",
+  "relevance": 0.1,
+  "primary_data": true,
+  "why": "Intraneuronal Abeta42 in late endosomes of APOE4-TR mice; no receptor binding or recycling."
+ },
+ {
+  "id": "H4-0-170",
+  "hyp": "H4",
+  "decision": "no",
+  "relevance": 0.1,
+  "primary_data": true,
+  "why": "Diabetic dyslipidemia in E4 LDLR-null mice; systemic lipoprotein metabolism, no receptor recycling."
+ },
+ {
+  "id": "H4-0-179",
+  "hyp": "H4",
+  "decision": "no",
+  "relevance": 0.2,
+  "primary_data": true,
+  "why": "25HC alters astrocyte apoE secretion and Ldlr expression; receptor transcription, no binding/recycling readout."
+ },
+ {
+  "id": "H4-1-6",
+  "hyp": "H4",
+  "decision": "no",
+  "relevance": 0.0,
+  "primary_data": true,
+  "why": "CSF/plasma apoC isoforms by APOE4 status; unrelated to receptor binding."
+ },
+ {
+  "id": "H4-1-18",
+  "hyp": "H4",
+  "decision": "no",
+  "relevance": 0.1,
+  "primary_data": true,
+  "why": "apoE isoform affinity for Abeta peptides; non-recycling partner."
+ },
+ {
+  "id": "H4-1-168",
+  "hyp": "H4",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "Diabetic atherosclerosis in apoE4 mice with hLDLR; no receptor binding/recycling comparison."
+ },
+ {
+  "id": "H4-1-171",
+  "hyp": "H4",
+  "decision": "no",
+  "relevance": 0.0,
+  "primary_data": true,
+  "why": "Methamphetamine and muscarinic receptors in apoE3/4 mice; no apoE receptor readout."
+ },
+ {
+  "id": "H4-1-184",
+  "hyp": "H4",
+  "decision": "no",
+  "relevance": 0.0,
+  "primary_data": true,
+  "why": "Docking of phytochemicals to APOE4 for coronary disease; in silico, unrelated."
+ },
+ {
+  "id": "H4-1-195",
+  "hyp": "H4",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "Myeloperoxidase oxidation of apoE isoforms and phospholipid binding; no receptor."
+ },
+ {
+  "id": "H4-2-1",
+  "hyp": "H4",
+  "decision": "no",
+  "relevance": 0.2,
+  "primary_data": true,
+  "why": "apoE4 astrocytes impair BBB tight junctions via LRP1; no binding strength or recycling readout."
+ },
+ {
+  "id": "H4-2-2",
+  "hyp": "H4",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "Lipidomics in APOE3/4 mouse entorhinal cortex; no receptor readout."
+ },
+ {
+  "id": "H4-2-45",
+  "hyp": "H4",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "apoE4 neuronal senescence and acetyl-CoA; no receptor binding or recycling."
+ },
+ {
+  "id": "H4-2-141",
+  "hyp": "H4",
+  "decision": "maybe",
+  "relevance": 0.35,
+  "primary_data": true,
+  "why": "Reduced ApoER2 levels in apoE4 TR hippocampus reversed by VEGF; full text may give receptor data."
+ },
+ {
+  "id": "H4-2-151",
+  "hyp": "H4",
+  "decision": "no",
+  "relevance": 0.1,
+  "primary_data": true,
+  "why": "apoE2 promotes melanoma via LRP1 protein synthesis; no binding/recycling comparison of apoE4."
+ },
+ {
+  "id": "H4-2-162",
+  "hyp": "H4",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "Early-life stress, Reelin and NMDAR2B signaling in apoE4-TR mice; no receptor recycling."
+ },
+ {
+  "id": "H4-2-194",
+  "hyp": "H4",
+  "decision": "maybe",
+  "relevance": 0.5,
+  "primary_data": true,
+  "why": "apoE3 vs apoE4 endosomal routing in human brain neurons and astrocytes; apoE4 enriched in late endosomes."
+ },
+ {
+  "id": "H4-3-6",
+  "hyp": "H4",
+  "decision": "no",
+  "relevance": 0.2,
+  "primary_data": true,
+  "why": "Pericyte loss in AD APOE4 carriers; LRP1 levels similar E4 vs E3, AD tissue only."
+ },
+ {
+  "id": "H4-3-20",
+  "hyp": "H4",
+  "decision": "no",
+  "relevance": 0.1,
+  "primary_data": true,
+  "why": "apoE interaction with Abeta oligomers by FRET; non-recycling partner."
+ },
+ {
+  "id": "H4-3-100",
+  "hyp": "H4",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "apoE knockout BBB leakage; no isoform comparison or receptor recycling."
+ },
+ {
+  "id": "H5-0-24",
+  "hyp": "H5",
+  "decision": "no",
+  "relevance": 0.1,
+  "primary_data": true,
+  "why": "ABCA1 inducer raises apoE lipidation in E3/4FAD mice; no lysosome readout."
+ },
+ {
+  "id": "H5-0-74",
+  "hyp": "H5",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Review/hypothesis on apoE isoforms in AMD; no primary data."
+ },
+ {
+  "id": "H5-0-164",
+  "hyp": "H5",
+  "decision": "no",
+  "relevance": 0.25,
+  "primary_data": true,
+  "why": "Cholesterol storage and apoE secretion in E2/E3/E4 macrophages; peripheral cells, no lysosomal readout."
+ },
+ {
+  "id": "H5-1-49",
+  "hyp": "H5",
+  "decision": "maybe",
+  "relevance": 0.4,
+  "primary_data": true,
+  "why": "Chimeric organoids: astrocytic APOE4 raises neuronal lipid droplets and cholesterol; full text may localize to lysosomes."
+ },
+ {
+  "id": "H5-1-112",
+  "hyp": "H5",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "Plasma uptake of cell-derived cholesterol by apoE phenotype; no lysosome function."
+ },
+ {
+  "id": "H5-1-173",
+  "hyp": "H5",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "Retinoic acid raises apoE secretion in apoE3 astrocytes; no isoform lysosome comparison."
+ },
+ {
+  "id": "H5-1-216",
+  "hyp": "H5",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "apoE isoform effects on inflammatory markers in glia and neurons; no lysosome readout."
+ },
+ {
+  "id": "H5-2-19",
+  "hyp": "H5",
+  "decision": "no",
+  "relevance": 0.2,
+  "primary_data": true,
+  "why": "APOE4 cholesterol drives proteasomal PP2A degradation in atherosclerotic mice; no lysosome readout."
+ },
+ {
+  "id": "H5-2-44",
+  "hyp": "H5",
+  "decision": "no",
+  "relevance": 0.0,
+  "primary_data": true,
+  "why": "Plasma proteome SOMAscan by APOE genotype; no lysosome function."
+ },
+ {
+  "id": "H5-2-197",
+  "hyp": "H5",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "apoE localization to MAMs in hepatocytes, E3 equals E4; no lysosome readout."
+ },
+ {
+  "id": "H5-2-204",
+  "hyp": "H5",
+  "decision": "no",
+  "relevance": 0.0,
+  "primary_data": true,
+  "why": "Electrochemical apoE isoform binding to CLEAR/SirT1 DNA; no lysosome function measured."
+ },
+ {
+  "id": "H5-2-211",
+  "hyp": "H5",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "Plasma and brain lipoprotein levels after ABCA1 agonist; no lysosome readout."
+ }
+]

@@ -1,0 +1,1353 @@
+[
+ {
+  "id": "H3-0-0",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-1",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-2",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-3",
+  "decision": "maybe",
+  "relevance": 0.45,
+  "primary_data": true,
+  "why": "Truncated apoE4 forms cytosolic inclusions containing apoE; isoform comparison, not endolysosomal"
+ },
+ {
+  "id": "H3-0-4",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-5",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-6",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-7",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-8",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-9",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-10",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-11",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-12",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-13",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-14",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-15",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-16",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-17",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-18",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-19",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-20",
+  "decision": "maybe",
+  "relevance": 0.3,
+  "primary_data": true,
+  "why": "Structural study of protective apoE variants; may include oligomerization"
+ },
+ {
+  "id": "H3-0-21",
+  "decision": "maybe",
+  "relevance": 0.3,
+  "primary_data": true,
+  "why": "ApoE4 endosomal trafficking, NHE6; aggregation not clearly measured"
+ },
+ {
+  "id": "H3-0-22",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-23",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-24",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-25",
+  "decision": "maybe",
+  "relevance": 0.5,
+  "primary_data": true,
+  "why": "Isoform-specific apoE fragmentation in TBS/Triton/guanidine fractions of human brain"
+ },
+ {
+  "id": "H3-0-26",
+  "decision": "maybe",
+  "relevance": 0.35,
+  "primary_data": true,
+  "why": "ApoE isoform stability and size-exclusion; oligomerization possibly"
+ },
+ {
+  "id": "H3-0-27",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-28",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-29",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-30",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-31",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-32",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-33",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-34",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-35",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-36",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-37",
+  "decision": "yes",
+  "relevance": 0.7,
+  "primary_data": true,
+  "why": "In vitro apoE oligomer/monomer self-association measured across isoforms"
+ },
+ {
+  "id": "H3-0-38",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-39",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-40",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-41",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-42",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-43",
+  "decision": "maybe",
+  "relevance": 0.4,
+  "primary_data": true,
+  "why": "ApoE C-terminal fragment co-purified with amyloid; in vitro aggregation of apoE fragments"
+ },
+ {
+  "id": "H3-0-44",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-45",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-46",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-47",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-48",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-49",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-50",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-51",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-52",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-53",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-54",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-55",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-56",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-57",
+  "decision": "maybe",
+  "relevance": 0.45,
+  "primary_data": true,
+  "why": "ApoE4 impaired intracellular trafficking, more retained than apoE3; possible lysosomal accumulation"
+ },
+ {
+  "id": "H3-0-58",
+  "decision": "maybe",
+  "relevance": 0.25,
+  "primary_data": true,
+  "why": "ApoE conformation in plaques by FLIM-FRET; isoform differences"
+ },
+ {
+  "id": "H3-0-59",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-60",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-61",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-62",
+  "decision": "maybe",
+  "relevance": 0.3,
+  "primary_data": true,
+  "why": "ApoE4-like destabilization, partially folded intermediates; aggregation unclear"
+ },
+ {
+  "id": "H3-0-63",
+  "decision": "maybe",
+  "relevance": 0.35,
+  "primary_data": true,
+  "why": "Truncated apoE4 fragments accumulate in transgenic mice neurons"
+ },
+ {
+  "id": "H3-0-64",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-65",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-66",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-67",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-68",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-69",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-70",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-71",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-72",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-73",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-74",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-75",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-76",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-77",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-78",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-79",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-80",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-81",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-82",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-83",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-84",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-85",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-86",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-87",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-88",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-89",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-90",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-91",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-92",
+  "decision": "maybe",
+  "relevance": 0.3,
+  "primary_data": true,
+  "why": "Human CNS apoE isoform amounts and structure; fractions possibly insoluble"
+ },
+ {
+  "id": "H3-0-93",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-94",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-95",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-96",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-97",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-98",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-99",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-100",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-101",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-102",
+  "decision": "yes",
+  "relevance": 0.6,
+  "primary_data": true,
+  "why": "Native MS/ion mobility of apoE isoform oligomeric states"
+ },
+ {
+  "id": "H3-0-103",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-104",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-105",
+  "decision": "yes",
+  "relevance": 0.7,
+  "primary_data": true,
+  "why": "ApoE proteinopathy aggregates in human amygdala; likely genotype comparison"
+ },
+ {
+  "id": "H3-0-106",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-107",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-108",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-109",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-110",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-111",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-112",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-113",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-114",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-115",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-116",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-117",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-118",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-119",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-120",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-121",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-122",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-123",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-124",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-125",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-126",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-127",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-128",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-129",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-130",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-131",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-132",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-133",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-134",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-135",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-136",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-137",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-138",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-139",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-140",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-141",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-142",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-143",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-144",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-145",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-146",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-147",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-148",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-149",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-150",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-151",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-152",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-153",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-154",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-155",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-156",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-157",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-158",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-159",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-160",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-161",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-162",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-163",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-164",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-165",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-166",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-167",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-168",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-169",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-170",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-171",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-172",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-173",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-174",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-175",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-176",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-177",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-178",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-179",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-180",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-181",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-182",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-183",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-184",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-185",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-186",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-187",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-188",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-189",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-190",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-191",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ },
+ {
+  "id": "H3-0-192",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No apoE aggregation/endolysosomal readout; off scope (review, clinical, or other readout)"
+ }
+]

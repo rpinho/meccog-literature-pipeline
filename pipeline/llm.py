@@ -28,8 +28,46 @@ def ask(prompt, model=MODEL, timeout=1800, effort=None, images=()):
         if _BUDGET[0] <= 0:
             raise RuntimeError("call budget exhausted (set MECCOG_MAX_CALLS to the approved count)")
         _BUDGET[0] -= 1
+    if model.startswith("claude-"):
+        if images:
+            raise RuntimeError("the Claude backend here takes text only; figure reads stay on Codex")
+        with _CLAUDE_SLOTS:
+            return _ask_claude(prompt, model, timeout)
     with _SLOTS:
         return _ask(prompt, model, timeout, effort, images)
+
+
+# Claude backend (11-20): `claude -p` with no tools, inside clean-room (an empty identity: no personal
+# instructions, memories or MCP servers reach the model, since its output goes into a public sheet).
+_CLAUDE_SLOTS = threading.BoundedSemaphore(int(os.environ.get("MECCOG_MAX_CLAUDE", "3")))
+
+
+def _ask_claude(prompt, model, timeout):
+    with tempfile.TemporaryDirectory() as td:
+        cmd = ["clean-room", "--", "claude", "-p", "--model", model, "--tools", "", "--output-format", "json",
+               "--no-session-persistence", "--strict-mcp-config"]
+        t0 = time.time()
+        p = subprocess.run(cmd, input=prompt, capture_output=True, text=True, timeout=timeout, cwd=td)
+        try:
+            d = json.loads(p.stdout)
+        except json.JSONDecodeError:
+            d = {}
+        text = d.get("result") or ""
+        u = d.get("usage") or {}
+        tokens = sum(int(u.get(k) or 0) for k in ("input_tokens", "cache_creation_input_tokens",
+                                                   "cache_read_input_tokens", "output_tokens")) or None
+        used = list(d.get("modelUsage") or {})
+        LOG.parent.mkdir(exist_ok=True)
+        with open(LOG, "a") as f:
+            f.write(json.dumps({"utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "model": model,
+                                "model_used": used, "effort": None, "secs": round(time.time() - t0, 1),
+                                "rc": p.returncode if not d.get("is_error") else 1, "prompt_chars": len(prompt),
+                                "out_chars": len(text), "tokens": tokens, "backend": "claude"}) + "\n")
+        if used and used != [model]:
+            raise RuntimeError(f"claude answered with {used}, not the pinned {model}")
+        if p.returncode != 0 or d.get("is_error") or not text:
+            raise RuntimeError(f"claude rc={p.returncode}: {(p.stderr or p.stdout)[-800:]}")
+        return text
 
 
 def _ask(prompt, model, timeout, effort, images):

@@ -1,0 +1,1591 @@
+[
+ {
+  "id": "H5-2-0",
+  "decision": "maybe",
+  "relevance": 0.3,
+  "primary_data": true,
+  "why": "APOE4 iPSC astrocyte lipidome and lipid droplets; lysosome readout not evident in abstract"
+ },
+ {
+  "id": "H5-2-1",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-2",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-3",
+  "decision": "maybe",
+  "relevance": 0.25,
+  "primary_data": true,
+  "why": "APOE4 iPSC microglia lipid droplet accumulation; lysosomal function unclear from abstract"
+ },
+ {
+  "id": "H5-2-4",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-5",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-6",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-7",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-8",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-9",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-10",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-11",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-12",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-13",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-14",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-15",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-16",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-17",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-18",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-19",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-20",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-21",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-22",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-23",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-24",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-25",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-26",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-27",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-28",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-29",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-30",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-31",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-32",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-33",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-34",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-35",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-36",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-37",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-38",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-39",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-40",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-41",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-42",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-43",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-44",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-45",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-46",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-47",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-48",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-49",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-50",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-51",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-52",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-53",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-54",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-55",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-56",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-57",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-58",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-59",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-60",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-61",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-62",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-63",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-64",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-65",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-66",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-67",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-68",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-69",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-70",
+  "decision": "maybe",
+  "relevance": 0.35,
+  "primary_data": true,
+  "why": "APOE deletion organoids: lipid droplets, GBA reduction, organelle dysregulation; E4 vs E3 comparison uncertain"
+ },
+ {
+  "id": "H5-2-71",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-72",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-73",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-74",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-75",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-76",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-77",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-78",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-79",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-80",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-81",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-82",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-83",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-84",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-85",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-86",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-87",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-88",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-89",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-90",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-91",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-92",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-93",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-94",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-95",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-96",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-97",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-98",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-99",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-100",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-101",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-102",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-103",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-104",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-105",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-106",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-107",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-108",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-109",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-110",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-111",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-112",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-113",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-114",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-115",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-116",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-117",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-118",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-119",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-120",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-121",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-122",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-123",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-124",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-125",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-126",
+  "decision": "maybe",
+  "relevance": 0.3,
+  "primary_data": true,
+  "why": "ApoE4 neurons accumulate intracellular cholesterol; lysosomal localization or function not stated"
+ },
+ {
+  "id": "H5-2-127",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-128",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-129",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-130",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-131",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-132",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-133",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-134",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-135",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-136",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-137",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-138",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-139",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-140",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-141",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-142",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-143",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-144",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-145",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-146",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-147",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-148",
+  "decision": "yes",
+  "relevance": 0.75,
+  "primary_data": true,
+  "why": "APOE4 iPSC neurons show diminished TRPML1 endolysosomal Ca2+ release; endolysosome defects, though not lipid-linked"
+ },
+ {
+  "id": "H5-2-149",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-150",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-151",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-152",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-153",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-154",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-155",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-156",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-157",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-158",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-159",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-160",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-161",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-162",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-163",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-164",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-165",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-166",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-167",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-168",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-169",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-170",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-171",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-172",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-173",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-174",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-175",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-176",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-177",
+  "decision": "yes",
+  "relevance": 0.85,
+  "primary_data": true,
+  "why": "APOE4 dysregulates autophagy and lysosomal trafficking in cultured cells; direct B readout"
+ },
+ {
+  "id": "H5-2-178",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-179",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-180",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-181",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-182",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-183",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-184",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-185",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-186",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-187",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-188",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-189",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-190",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-191",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-192",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-193",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-194",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-195",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-196",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-197",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-198",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-199",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-200",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-201",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-202",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-203",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-204",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-205",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-206",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-207",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-208",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-209",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-210",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-211",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-212",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-213",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-214",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-215",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-216",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-217",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-218",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-219",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-220",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-221",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-222",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-223",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-224",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-225",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ },
+ {
+  "id": "H5-2-226",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": true,
+  "why": "No late endosome/lysosome readout; review, clinical, or unrelated APOE phenotype"
+ }
+]

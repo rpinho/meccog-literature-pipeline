@@ -1,0 +1,1388 @@
+[
+ {
+  "id": "H4-2-0",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-1",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-2",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-3",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-4",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-5",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-6",
+  "decision": "maybe",
+  "relevance": 0.4,
+  "primary_data": true,
+  "why": "ApoE isoform signaling in human neurons via receptors; abstract unclear whether receptor binding or trafficking is measured."
+ },
+ {
+  "id": "H4-2-7",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-8",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-9",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-10",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-11",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-12",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-13",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-14",
+  "decision": "maybe",
+  "relevance": 0.25,
+  "primary_data": true,
+  "why": "Isoform-differential apoE binding to insulin receptor; not a classic recycling receptor, but binding measured."
+ },
+ {
+  "id": "H4-2-15",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-16",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-17",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-18",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-19",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-20",
+  "decision": "maybe",
+  "relevance": 0.3,
+  "primary_data": true,
+  "why": "apoE isoform effect on lipoprotein receptor shedding/levels via MMP-9; receptor surface level readout possible."
+ },
+ {
+  "id": "H4-2-21",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-22",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-23",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-24",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-25",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-26",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-27",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-28",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-29",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-30",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-31",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-32",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-33",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-34",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-35",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-36",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-37",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-38",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-39",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-40",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-41",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-42",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-43",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-44",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-45",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-46",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-47",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-48",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-49",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-50",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-51",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-52",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-53",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-54",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-55",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-56",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-57",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-58",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-59",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-60",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-61",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-62",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-63",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-64",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-65",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-66",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-67",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-68",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-69",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-70",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-71",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-72",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-73",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-74",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-75",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-76",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-77",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-78",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-79",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-80",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-81",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-82",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-83",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-84",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-85",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-86",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-87",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-88",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-89",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-90",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-91",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-92",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-93",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-94",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-95",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-96",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-97",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-98",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-99",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-100",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-101",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-102",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-103",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-104",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-105",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-106",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-107",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-108",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-109",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-110",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-111",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-112",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-113",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-114",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-115",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-116",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-117",
+  "decision": "maybe",
+  "relevance": 0.25,
+  "primary_data": true,
+  "why": "DHCA rescue in APOE4 astrocytes via LRP1 signaling; unclear if LRP1 levels or trafficking measured."
+ },
+ {
+  "id": "H4-2-118",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-119",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-120",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-121",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-122",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-123",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-124",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-125",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-126",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-127",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-128",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-129",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-130",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-131",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-132",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-133",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-134",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-135",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-136",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-137",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-138",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-139",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-140",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-141",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-142",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-143",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-144",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-145",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-146",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-147",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-148",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-149",
+  "decision": "maybe",
+  "relevance": 0.45,
+  "primary_data": true,
+  "why": "apoE4 versus apoE3 and sortilin receptor uptake of apoE-bound cargo; endocytic receptor, tests receptor-ligand step."
+ },
+ {
+  "id": "H4-2-150",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-151",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-152",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-153",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-154",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-155",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-156",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-157",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-158",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-159",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-160",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-161",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-162",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-163",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-164",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-165",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-166",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-167",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-168",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-169",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-170",
+  "decision": "maybe",
+  "relevance": 0.3,
+  "primary_data": true,
+  "why": "apoE particles and HSPG-mediated uptake; HSPG binding, tie to receptor recycling unclear."
+ },
+ {
+  "id": "H4-2-171",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-172",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-173",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-174",
+  "decision": "maybe",
+  "relevance": 0.4,
+  "primary_data": true,
+  "why": "APOE4 effects depend on LRP1; LRP1 levels by genotype and neuronal LRP1 manipulation."
+ },
+ {
+  "id": "H4-2-175",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-176",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-177",
+  "decision": "maybe",
+  "relevance": 0.5,
+  "primary_data": true,
+  "why": "apoE uptake via LDL receptor; apoE3 but not apoE4 reaches cytoplasm, isoform-specific intracellular trafficking."
+ },
+ {
+  "id": "H4-2-178",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-179",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-180",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-181",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-182",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-183",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-184",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-185",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-186",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-187",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-188",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-189",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-190",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-191",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-192",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-193",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-194",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-195",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-196",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ },
+ {
+  "id": "H4-2-197",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": true,
+  "why": "No apoE receptor binding or receptor recycling readout; unrelated, review, clinical or association study."
+ }
+]

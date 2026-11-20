@@ -1,0 +1,2937 @@
+{
+ "hyp": "H5",
+ "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+ "A": "APOE genotype or apoE isoform (APOE4 vs APOE3), acting through disrupted lipid metabolism (cholesterol, lipid droplets, sphingolipids)",
+ "B": "late endosome / lysosome function (degradation, acidification, cholesterol egress, autophagic flux, lysosomal enzyme activity)",
+ "scope": "IN: late endosome/lysosome function (cholesterol or lipid accumulation in lysosomes, NPC1, lysosomal degradation, cathepsin activity, lysosomal pH, autophagic flux, LAMP1 compartments) measured in APOE4 vs APOE3 cells, especially where linked to lipid/cholesterol metabolism; manipulations of lipid metabolism that change late-endosome/lysosome function in APOE4 cells. OUT: lipid changes with no late-endosome/lysosome readout, mitochondrial respiration alone, inflammation or transcriptomics alone.",
+ "items": [
+  {
+   "id": "H5-2-0",
+   "pmid": "33658354",
+   "title": "&lt;i&gt;APOE4&lt;/i&gt; disrupts intracellular lipid homeostasis in human iPSC-derived glia.",
+   "year": "2021",
+   "journal": "Science translational medicine",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 9
+  },
+  {
+   "id": "H5-2-1",
+   "pmid": "23296339",
+   "title": "Apolipoprotein E and Alzheimer disease: risk, mechanisms and therapy.",
+   "year": "2013",
+   "journal": "Nature reviews. Neurology",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Review",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 8
+  },
+  {
+   "id": "H5-2-2",
+   "pmid": "20547867",
+   "title": "ApoE4 reduces glutamate receptor function and synaptic plasticity by selectively impairing ApoE receptor recycling.",
+   "year": "2010",
+   "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 8
+  },
+  {
+   "id": "H5-2-3",
+   "pmid": "40644302",
+   "title": "Triglyceride metabolism controls inflammation and microglial phenotypes associated with APOE4.",
+   "year": "2025",
+   "journal": "Cell reports",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 7
+  },
+  {
+   "id": "H5-2-4",
+   "pmid": "36358540",
+   "title": "ApoE3 vs. ApoE4 Astrocytes: A Detailed Analysis Provides New Insights into Differences in Cholesterol Homeostasis.",
+   "year": "2022",
+   "journal": "Antioxidants (Basel, Switzerland)",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 6
+  },
+  {
+   "id": "H5-2-5",
+   "pmid": "29632371",
+   "title": "Gain of toxic apolipoprotein E4 effects in human iPSC-derived neurons is ameliorated by a small-molecule structure corrector.",
+   "year": "2018",
+   "journal": "Nature medicine",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 6
+  },
+  {
+   "id": "H5-2-6",
+   "pmid": "25217293",
+   "title": "APOE ε4: the most prevalent yet understudied risk factor for Alzheimer's disease.",
+   "year": "2014",
+   "journal": "Alzheimer's & dementia : the journal of the Alzheimer's Association",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Review",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 5
+  },
+  {
+   "id": "H5-2-7",
+   "pmid": "36871219",
+   "title": "APOE modulates microglial immunometabolism in response to age, amyloid pathology, and inflammatory challenge.",
+   "year": "2023",
+   "journal": "Cell reports",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 5
+  },
+  {
+   "id": "H5-2-8",
+   "pmid": "30394574",
+   "title": "Invited Review: APOE at the interface of inflammation, neurodegeneration and pathological protein spread in Alzheimer's disease.",
+   "year": "2019",
+   "journal": "Neuropathology and applied neurobiology",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "review-article",
+    "Review",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 5
+  },
+  {
+   "id": "H5-2-9",
+   "pmid": "31367008",
+   "title": "Apolipoprotein E and Alzheimer disease: pathobiology and targeting strategies.",
+   "year": "2019",
+   "journal": "Nature reviews. Neurology",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Review",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 4
+  },
+  {
+   "id": "H5-2-10",
+   "pmid": "30890171",
+   "title": "ApoE4: an emerging therapeutic target for Alzheimer's disease.",
+   "year": "2019",
+   "journal": "BMC medicine",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "review-article",
+    "Review",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 4
+  },
+  {
+   "id": "H5-2-11",
+   "pmid": "10359567",
+   "title": "Apo E structure determines VLDL clearance and atherosclerosis risk in mice.",
+   "year": "1999",
+   "journal": "The Journal of clinical investigation",
+   "pubtype": [
+    "Research Support, U.S. Gov't, P.H.S.",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 4
+  },
+  {
+   "id": "H5-2-12",
+   "pmid": "42746101",
+   "title": "Effect of choline supplementation in presymptomatic &lt;i&gt;APOE ε4&lt;/i&gt; carriers: a pilot study.",
+   "year": "2026",
+   "journal": "Alzheimer's & dementia (New York, N. Y.)",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 4
+  },
+  {
+   "id": "H5-2-13",
+   "pmid": "19679070",
+   "title": "The role of apolipoprotein E in Alzheimer's disease.",
+   "year": "2009",
+   "journal": "Neuron",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Review",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 4
+  },
+  {
+   "id": "H5-2-14",
+   "pmid": "23573918",
+   "title": "Targeting ApoE4/ApoE receptor LRP1 in Alzheimer's disease.",
+   "year": "2013",
+   "journal": "Expert opinion on therapeutic targets",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Review",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 4
+  },
+  {
+   "id": "H5-2-15",
+   "pmid": "27174096",
+   "title": "Central Nervous System Lipoproteins: ApoE and Regulation of Cholesterol Metabolism.",
+   "year": "2016",
+   "journal": "Arteriosclerosis, thrombosis, and vascular biology",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Review",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 3
+  },
+  {
+   "id": "H5-2-16",
+   "pmid": "32024799",
+   "title": "<i>APOE</i> genotype regulates pathology and disease progression in synucleinopathy.",
+   "year": "2020",
+   "journal": "Science translational medicine",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 3
+  },
+  {
+   "id": "H5-2-17",
+   "pmid": "29600961",
+   "title": "Targeting of nonlipidated, aggregated apoE with antibodies inhibits amyloid accumulation.",
+   "year": "2018",
+   "journal": "The Journal of clinical investigation",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 3
+  },
+  {
+   "id": "H5-2-18",
+   "pmid": "28846757",
+   "title": "Apolipoprotein E Genotype and Sex Risk Factors for Alzheimer Disease: A Meta-analysis.",
+   "year": "2017",
+   "journal": "JAMA neurology",
+   "pubtype": [
+    "Meta-Analysis",
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Research Support, U.S. Gov't, Non-P.H.S.",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 3
+  },
+  {
+   "id": "H5-2-19",
+   "pmid": "40739848",
+   "title": "APOE4 Exacerbates Cerebral Tau Pathology Through Cholesterol-Induced Degradation of Phosphatase in Atherosclerosis.",
+   "year": "2025",
+   "journal": "CNS neuroscience & therapeutics",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 3
+  },
+  {
+   "id": "H5-2-20",
+   "pmid": "31522977",
+   "title": "PSEN1ΔE9, APPswe, and APOE4 Confer Disparate Phenotypes in Human iPSC-Derived Microglia.",
+   "year": "2019",
+   "journal": "Stem cell reports",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 3
+  },
+  {
+   "id": "H5-2-21",
+   "pmid": "42785300",
+   "title": "A pericyte-to-myofibroblast transition links APOE4 to cerebrovascular degeneration.",
+   "year": "2026",
+   "journal": "Cell",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 3
+  },
+  {
+   "id": "H5-2-22",
+   "pmid": "38468308",
+   "title": "APOE4 genotype and aging impair injury-induced microglial behavior in brain slices, including toward Aβ, through P2RY12.",
+   "year": "2024",
+   "journal": "Molecular neurodegeneration",
+   "pubtype": [
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 3
+  },
+  {
+   "id": "H5-2-23",
+   "pmid": "41703264",
+   "title": "Protective mutations associated with APOE in Alzheimer's disease.",
+   "year": "2026",
+   "journal": "Molecular psychiatry",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Review",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 3
+  },
+  {
+   "id": "H5-2-24",
+   "pmid": "35109920",
+   "title": "Selective reduction of astrocyte apoE3 and apoE4 strongly reduces Aβ accumulation and plaque-related pathology in a mouse model of amyloidosis.",
+   "year": "2022",
+   "journal": "Molecular neurodegeneration",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 3
+  },
+  {
+   "id": "H5-2-25",
+   "pmid": "31130847",
+   "title": "Phagocytosis of Apoptotic Cells Is Specifically Upregulated in ApoE4 Expressing Microglia <i>in vitro</i>.",
+   "year": "2019",
+   "journal": "Frontiers in cellular neuroscience",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 3
+  },
+  {
+   "id": "H5-2-26",
+   "pmid": "30884759",
+   "title": "The Genetic Variability of <i>APOE</i> in Different Human Populations and Its Implications for Longevity.",
+   "year": "2019",
+   "journal": "Genes",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "review-article",
+    "Review",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 3
+  },
+  {
+   "id": "H5-2-27",
+   "pmid": "16890957",
+   "title": "Amino-terminal domain stability mediates apolipoprotein E aggregation into neurotoxic fibrils.",
+   "year": "2006",
+   "journal": "Journal of molecular biology",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 3
+  },
+  {
+   "id": "H5-2-28",
+   "pmid": "25871877",
+   "title": "APOE4 enhances age-dependent decline in cognitive function by down-regulating an NMDA receptor pathway in EFAD-Tg mice.",
+   "year": "2015",
+   "journal": "Molecular neurodegeneration",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 3
+  },
+  {
+   "id": "H5-2-29",
+   "pmid": "27567858",
+   "title": "ABCA1 Agonist Reverses the ApoE4-Driven Cognitive and Brain Pathologies.",
+   "year": "2016",
+   "journal": "Journal of Alzheimer's disease : JAD",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 3
+  },
+  {
+   "id": "H5-2-30",
+   "pmid": "42660456",
+   "title": "Apolipoprotein E lipidation, rather than isoform identity, determines amyloid-β binding and astrocyte clearance.",
+   "year": "2026",
+   "journal": "The Journal of biological chemistry",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-31",
+   "pmid": "34058468",
+   "title": "APOE gene variants in primary dyslipidemia.",
+   "year": "2021",
+   "journal": "Atherosclerosis",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Review",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-32",
+   "pmid": "29216448",
+   "title": "Age-Dependent Effects of apoE Reduction Using Antisense Oligonucleotides in a Model of β-amyloidosis.",
+   "year": "2017",
+   "journal": "Neuron",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-33",
+   "pmid": "27328687",
+   "title": "Apolipoprotein E as a Therapeutic Target in Alzheimer's Disease: A Review of Basic Research and Clinical Evidence.",
+   "year": "2016",
+   "journal": "CNS drugs",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Review",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-34",
+   "pmid": "33559106",
+   "title": "Physiological and Pathological Ageing of Astrocytes in the Human Brain.",
+   "year": "2021",
+   "journal": "Neurochemical research",
+   "pubtype": [
+    "research-article",
+    "Review",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-35",
+   "pmid": "42311497",
+   "title": "APOE4 accelerates menopause-associated brain metabolic shift and disrupts bioenergetic adaptation.",
+   "year": "2026",
+   "journal": "Frontiers in aging neuroscience",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-36",
+   "pmid": "40112813",
+   "title": "APOE genotype determines cell-type-specific pathological landscape of Alzheimer's disease.",
+   "year": "2025",
+   "journal": "Neuron",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-37",
+   "pmid": "38675451",
+   "title": "Discovery of Small Molecule Glycolytic Stimulants for Enhanced ApoE Lipidation in Alzheimer's Disease Cell Model.",
+   "year": "2024",
+   "journal": "Pharmaceuticals (Basel, Switzerland)",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-38",
+   "pmid": "37357229",
+   "title": "Transcriptomic Downregulation of APOE, Polymorphic Variations of APOE, Diet, Social Isolation, and Co-morbidities as Contributing Factors to Alzheimer's Disease: a Case-Control Study of Kashmiri Population.",
+   "year": "2023",
+   "journal": "Molecular neurobiology",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-39",
+   "pmid": "34746703",
+   "title": "Microglial transcription profiles in mouse and human are driven by APOE4 and sex.",
+   "year": "2021",
+   "journal": "iScience",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-40",
+   "pmid": "11487050",
+   "title": "Oxidative damage is the earliest event in Alzheimer disease.",
+   "year": "2001",
+   "journal": "Journal of neuropathology and experimental neurology",
+   "pubtype": [
+    "Research Support, U.S. Gov't, P.H.S.",
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-41",
+   "pmid": "21907569",
+   "title": "Apolipoprotein E isoforms and regulation of the innate immune response in brain of patients with Alzheimer's disease.",
+   "year": "2011",
+   "journal": "Current opinion in neurobiology",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Review",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-42",
+   "pmid": "32376954",
+   "title": "APOE4 leads to blood-brain barrier dysfunction predicting cognitive decline.",
+   "year": "2020",
+   "journal": "Nature",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-43",
+   "pmid": "42423522",
+   "title": "Low frequency blood-oxygen-level-dependent oscillations, &lt;i&gt;APOE4,&lt;/i&gt; and plasma pTau&lt;sub&gt;217&lt;/sub&gt;.",
+   "year": "2026",
+   "journal": "Journal of Alzheimer's disease : JAD",
+   "pubtype": [
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-44",
+   "pmid": "39689057",
+   "title": "APOE genotype and brain amyloid are associated with changes in the plasma proteome in elderly subjects without dementia.",
+   "year": "2025",
+   "journal": "Annals of clinical and translational neurology",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-45",
+   "pmid": "36348357",
+   "title": "ApoE in Alzheimer's disease: pathophysiology and therapeutic strategies.",
+   "year": "2022",
+   "journal": "Molecular neurodegeneration",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "review-article",
+    "Review",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-46",
+   "pmid": "42346084",
+   "title": "Cholinergic Differentiation of Human iPSCs Reveals Early APOE4-Driven Dysregulation of Neuronal Markers, Synaptogenesis and Inflammatory Responses.",
+   "year": "2026",
+   "journal": "Cells",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-47",
+   "pmid": "40920927",
+   "title": "Microglia-to-neuron signaling links &lt;i&gt;APOE4&lt;/i&gt; and inflammation to enhanced neuronal lipid metabolism and network activity.",
+   "year": "2025",
+   "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-48",
+   "pmid": "37018391",
+   "title": "<i>APOE</i>ε4 associates with microglial activation independently of Aβ plaques and tau tangles.",
+   "year": "2023",
+   "journal": "Science advances",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-49",
+   "pmid": "35232622",
+   "title": "APOE mediated neuroinflammation and neurodegeneration in Alzheimer's disease.",
+   "year": "2022",
+   "journal": "Seminars in immunology",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Review",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-50",
+   "pmid": "34300173",
+   "title": "Fatty Acid Binding Protein 3 (FABP3) and Apolipoprotein E4 (ApoE4) as Lipid Metabolism-Related Biomarkers of Alzheimer's Disease.",
+   "year": "2021",
+   "journal": "Journal of clinical medicine",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-51",
+   "pmid": "33556209",
+   "title": "Expression and secretion of apoE isoforms in astrocytes and microglia during inflammation.",
+   "year": "2021",
+   "journal": "Glia",
+   "pubtype": [
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-52",
+   "pmid": "24623176",
+   "title": "Sex modifies the APOE-related risk of developing Alzheimer disease.",
+   "year": "2014",
+   "journal": "Annals of neurology",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-53",
+   "pmid": "19474305",
+   "title": "Human APOE isoform-dependent effects on brain beta-amyloid levels in PDAPP transgenic mice.",
+   "year": "2009",
+   "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-54",
+   "pmid": "42716078",
+   "title": "Plasma phosphorylated tau 217 concentrations, APOE genotype, and timing of cognitive impairment in individuals across diverse racial and ethnic groups: a pooled analysis of prospective cohort studies.",
+   "year": "2026",
+   "journal": "The Lancet. Neurology",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-55",
+   "pmid": "40549157",
+   "title": "APOE4 triggers dysregulated synaptic vesicle release by disrupting SNARE complex assembly.",
+   "year": "2025",
+   "journal": "Cellular and molecular life sciences : CMLS",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-56",
+   "pmid": "15639316",
+   "title": "Endosome function and dysfunction in Alzheimer's disease and other neurodegenerative diseases.",
+   "year": "2005",
+   "journal": "Neurobiology of aging",
+   "pubtype": [
+    "Research Support, U.S. Gov't, P.H.S.",
+    "Research Support, Non-U.S. Gov't",
+    "Review",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-57",
+   "pmid": "26430784",
+   "title": "Amyloid-Related Memory Decline in Preclinical Alzheimer's Disease Is Dependent on APOE ε4 and Is Detectable over 18-Months.",
+   "year": "2015",
+   "journal": "PloS one",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-58",
+   "pmid": "19649144",
+   "title": "Apolipoprotein E and cholesterol in aging and disease in the brain.",
+   "year": "2008",
+   "journal": "Future lipidology",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-59",
+   "pmid": "15014128",
+   "title": "Neuron-specific apolipoprotein e4 proteolysis is associated with increased tau phosphorylation in brains of transgenic mice.",
+   "year": "2004",
+   "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+   "pubtype": [
+    "Research Support, U.S. Gov't, P.H.S.",
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-60",
+   "pmid": "31931141",
+   "title": "APOE alters glucose flux through central carbon pathways in astrocytes.",
+   "year": "2020",
+   "journal": "Neurobiology of disease",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-61",
+   "pmid": "25319703",
+   "title": "Apolipoprotein E4 produced in GABAergic interneurons causes learning and memory deficits in mice.",
+   "year": "2014",
+   "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-62",
+   "pmid": "9724804",
+   "title": "Isoform-specific effects of human apolipoprotein E on brain function revealed in ApoE knockout mice: increased susceptibility of females.",
+   "year": "1998",
+   "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-63",
+   "pmid": "31058310",
+   "title": "Apolipoprotein E associated with reconstituted high-density lipoprotein-like particles is protected from aggregation.",
+   "year": "2019",
+   "journal": "FEBS letters",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-64",
+   "pmid": "24973118",
+   "title": "Apolipoprotein E and lipid homeostasis in the etiology and treatment of sporadic Alzheimer's disease.",
+   "year": "2014",
+   "journal": "Neurobiology of aging",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Review",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-65",
+   "pmid": "29159264",
+   "title": "The effects of apolipoprotein E genotype, α-synuclein deficiency, and sex on brain synaptic and Alzheimer's disease-related pathology.",
+   "year": "2018",
+   "journal": "Alzheimer's & dementia (Amsterdam, Netherlands)",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-66",
+   "pmid": "20217101",
+   "title": "Accumulation of intraneuronal Abeta correlates with ApoE4 genotype.",
+   "year": "2010",
+   "journal": "Acta neuropathologica",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 2
+  },
+  {
+   "id": "H5-2-67",
+   "pmid": "42216420",
+   "title": "The physiological effects of APOE genotype in healthy young/middle-aged individuals.",
+   "year": "2026",
+   "journal": "Biological reviews of the Cambridge Philosophical Society",
+   "pubtype": [
+    "research-article",
+    "Review",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-68",
+   "pmid": "30660866",
+   "title": "Generation of a set of isogenic, gene-edited iPSC lines homozygous for all main APOE variants and an APOE knock-out line.",
+   "year": "2019",
+   "journal": "Stem cell research",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-69",
+   "pmid": "9265639",
+   "title": "Interaction of nascent ApoE2, ApoE3, and ApoE4 isoforms expressed in mammalian cells with amyloid peptide beta (1-40). Relevance to Alzheimer's disease.",
+   "year": "1997",
+   "journal": "Biochemistry",
+   "pubtype": [
+    "Research Support, U.S. Gov't, P.H.S.",
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-70",
+   "pmid": "34453582",
+   "title": "Apolipoprotein E regulates lipid metabolism and α-synuclein pathology in human iPSC-derived cerebral organoids.",
+   "year": "2021",
+   "journal": "Acta neuropathologica",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-71",
+   "pmid": "23407718",
+   "title": "APOE ε4 increases risk for dementia in pure synucleinopathies.",
+   "year": "2013",
+   "journal": "JAMA neurology",
+   "pubtype": [
+    "research-article",
+    "Multicenter Study",
+    "Research Support, U.S. Gov't, Non-P.H.S.",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-72",
+   "pmid": "37930695",
+   "title": "ApoE4 and Connectivity-Mediated Spreading of Tau Pathology at Lower Amyloid Levels.",
+   "year": "2023",
+   "journal": "JAMA neurology",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-73",
+   "pmid": "42650111",
+   "title": "Apolipoprotein E (&lt;i&gt;APOE&lt;/i&gt;) Allele Frequencies and Genotypic Distribution in Huambo, Angola.",
+   "year": "2026",
+   "journal": "Genes",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-74",
+   "pmid": "15888448",
+   "title": "The low density lipoprotein receptor regulates the level of central nervous system human and murine apolipoprotein E but does not modify amyloid plaque pathology in PDAPP mice.",
+   "year": "2005",
+   "journal": "The Journal of biological chemistry",
+   "pubtype": [
+    "Research Support, U.S. Gov't, P.H.S.",
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-75",
+   "pmid": "29801024",
+   "title": "Sex-Specific Association of Apolipoprotein E With Cerebrospinal Fluid Levels of Tau.",
+   "year": "2018",
+   "journal": "JAMA neurology",
+   "pubtype": [
+    "Research Support, N.I.H., Intramural",
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Research Support, U.S. Gov't, Non-P.H.S.",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-76",
+   "pmid": "28003161",
+   "title": "Apolipoprotein E4 causes early olfactory network abnormalities and short-term olfactory memory impairments.",
+   "year": "2017",
+   "journal": "Neuroscience",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-77",
+   "pmid": "26494756",
+   "title": "Reduced grid-cell-like representations in adults at genetic risk for Alzheimer's disease.",
+   "year": "2015",
+   "journal": "Science (New York, N.Y.)",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-78",
+   "pmid": "23592036",
+   "title": "Young APOE4 targeted replacement mice exhibit poor spatial learning and memory, with reduced dendritic spine density in the medial entorhinal cortex.",
+   "year": "2013",
+   "journal": "Learning & memory (Cold Spring Harbor, N.Y.)",
+   "pubtype": [
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-79",
+   "pmid": "39135362",
+   "title": "Impaired cellular copper regulation in the presence of ApoE4.",
+   "year": "2024",
+   "journal": "Journal of neurochemistry",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-80",
+   "pmid": "36215026",
+   "title": "Suppression of Wnt/β-Catenin Signaling Is Associated with Downregulation of Wnt1, PORCN, and Rspo2 in Alzheimer's Disease.",
+   "year": "2023",
+   "journal": "Molecular neurobiology",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-81",
+   "pmid": "17192785",
+   "title": "Systematic meta-analyses of Alzheimer disease genetic association studies: the AlzGene database.",
+   "year": "2007",
+   "journal": "Nature genetics",
+   "pubtype": [
+    "Meta-Analysis",
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-82",
+   "pmid": "15686968",
+   "title": "Human apoE4-targeted replacement mice display synaptic deficits in the absence of neuropathology.",
+   "year": "2005",
+   "journal": "Neurobiology of disease",
+   "pubtype": [
+    "Research Support, U.S. Gov't, P.H.S.",
+    "Research Support, U.S. Gov't, Non-P.H.S.",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-83",
+   "pmid": "42744775",
+   "title": "Regional juxtacortical microstructural changes and gene expression provide insights into neurodegeneration in Alzheimer's disease.",
+   "year": "2026",
+   "journal": "Translational psychiatry",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-84",
+   "pmid": "20493952",
+   "title": "Alterations in multiple measures of white matter integrity in normal women at high risk for Alzheimer's disease.",
+   "year": "2010",
+   "journal": "NeuroImage",
+   "pubtype": [
+    "research-article",
+    "Research Support, U.S. Gov't, Non-P.H.S.",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-85",
+   "pmid": "41588135",
+   "title": "Spatially resolved molecular signatures of Lewy body dementia.",
+   "year": "2026",
+   "journal": "Acta neuropathologica",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-86",
+   "pmid": "41497781",
+   "title": "Examining APOE ε4 and Longitudinal Vascular Brain Injury: The Strong Heart Study.",
+   "year": "2026",
+   "journal": "Neurology open access",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-87",
+   "pmid": "41157904",
+   "title": "APOE ε4 disrupts neuronal and network-level function in the anterior olfactory nucleus: Influence of age and sex.",
+   "year": "2025",
+   "journal": "Alzheimer's & dementia : the journal of the Alzheimer's Association",
+   "pubtype": [
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-88",
+   "pmid": "40855194",
+   "title": "Interplay of genetic predisposition, plasma metabolome and Mediterranean diet in dementia risk and cognitive function.",
+   "year": "2025",
+   "journal": "Nature medicine",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-89",
+   "pmid": "40515488",
+   "title": "Midlife Steroid-Binding Globulin Levels and In Vivo Neuroimaging Measures of Tau in Older Men and Women.",
+   "year": "2025",
+   "journal": "Annals of neurology",
+   "pubtype": [
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-90",
+   "pmid": "39794447",
+   "title": "Female sex is linked to a stronger association between sTREM2 and CSF p-tau in Alzheimer's disease.",
+   "year": "2025",
+   "journal": "EMBO molecular medicine",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-91",
+   "pmid": "38830849",
+   "title": "Neuromodulatory subcortical nucleus integrity is associated with white matter microstructure, tauopathy and APOE status.",
+   "year": "2024",
+   "journal": "Nature communications",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-92",
+   "pmid": "38393618",
+   "title": "The role of ApoE in fatty acid transport from neurons to astrocytes under ischemia/hypoxia conditions.",
+   "year": "2024",
+   "journal": "Molecular biology reports",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-93",
+   "pmid": "38496317",
+   "title": "How are APOE4, changes in body weight, and longevity related? Insights from a causal mediation analysis.",
+   "year": "2024",
+   "journal": "Frontiers in aging",
+   "pubtype": [
+    "brief-report",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-94",
+   "pmid": "38049659",
+   "title": "Florbetapir PET-assessed demyelination is associated with faster tau accumulation in an APOE ε4-dependent manner.",
+   "year": "2024",
+   "journal": "European journal of nuclear medicine and molecular imaging",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-95",
+   "pmid": "36446913",
+   "title": "Oligodendrocytes take centre stage in APOE4-linked Alzheimer disease.",
+   "year": "2023",
+   "journal": "Nature reviews. Drug discovery",
+   "pubtype": [
+    "News"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-96",
+   "pmid": "22836186",
+   "title": "Combination of apolipoprotein E4 and high carbohydrate diet reduces hippocampal BDNF and arc levels and impairs memory in young mice.",
+   "year": "2012",
+   "journal": "Journal of Alzheimer's disease : JAD",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-97",
+   "pmid": "16401069",
+   "title": "Self-assembly of HEK cell-secreted ApoE particles resembles ApoE enrichment of lipoproteins as a ligand for the LDL receptor-related protein.",
+   "year": "2006",
+   "journal": "Biochemistry",
+   "pubtype": [
+    "Comparative Study",
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-98",
+   "pmid": "40141051",
+   "title": "Age- and ApoE Genotype-Dependent Transcriptomic Responses to O&lt;sub&gt;3&lt;/sub&gt; in the Hippocampus of Mice.",
+   "year": "2025",
+   "journal": "International journal of molecular sciences",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-99",
+   "pmid": "31207469",
+   "title": "Cyclic O<sub>3</sub> exposure synergizes with aging leading to memory impairment in male APOE ε3, but not APOE ε4, targeted replacement mice.",
+   "year": "2019",
+   "journal": "Neurobiology of aging",
+   "pubtype": [
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-100",
+   "pmid": "11209921",
+   "title": "Beta-VLDL protects against A beta(1-42) and apoE toxicity in human SH-SY5Y neuroblastoma cells.",
+   "year": "2001",
+   "journal": "Neuroreport",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-101",
+   "pmid": "10716266",
+   "title": "A genetic variation of cathepsin D is a major risk factor for Alzheimer's disease.",
+   "year": "2000",
+   "journal": "Annals of neurology",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-102",
+   "pmid": "9823988",
+   "title": "Possible relationship of the apolipoprotein E (ApoE) epsilon4 allele to prostate cancer.",
+   "year": "1998",
+   "journal": "British journal of cancer",
+   "pubtype": [
+    "Letter",
+    "Comment"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-103",
+   "pmid": "22845771",
+   "title": "Cholesterol metabolism is associated with soluble amyloid precursor protein production in Alzheimer's disease.",
+   "year": "2012",
+   "journal": "Journal of neurochemistry",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-104",
+   "pmid": "14507923",
+   "title": "APOE genotype and an ApoE-mimetic peptide modify the systemic and central nervous system inflammatory response.",
+   "year": "2003",
+   "journal": "The Journal of biological chemistry",
+   "pubtype": [
+    "Research Support, U.S. Gov't, P.H.S.",
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-105",
+   "pmid": "38658772",
+   "title": "Thy1-ApoE4/C/EBPβ double transgenic mice act as a sporadic model with Alzheimer's disease.",
+   "year": "2024",
+   "journal": "Molecular psychiatry",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-106",
+   "pmid": "37852961",
+   "title": "FSH and ApoE4 contribute to Alzheimer's disease-like pathogenesis via C/EBPβ/δ-secretase in female mice.",
+   "year": "2023",
+   "journal": "Nature communications",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-107",
+   "pmid": "7783869",
+   "title": "Interactions of apolipoprotein E genotype, total cholesterol level, age, and sex in prediction of Alzheimer's disease: a case-control study.",
+   "year": "1995",
+   "journal": "Neurology",
+   "pubtype": [
+    "Research Support, U.S. Gov't, P.H.S.",
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-108",
+   "pmid": "33895869",
+   "title": "ApoE4 inhibition of VMAT2 in the locus coeruleus exacerbates Tau pathology in Alzheimer's disease.",
+   "year": "2021",
+   "journal": "Acta neuropathologica",
+   "pubtype": [
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-109",
+   "pmid": "30517106",
+   "title": "Ancestral origin of ApoE ε4 Alzheimer disease risk in Puerto Rican and African American populations.",
+   "year": "2018",
+   "journal": "PLoS genetics",
+   "pubtype": [
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-110",
+   "pmid": "24453080",
+   "title": "APOE ε4 worsens hippocampal CA1 apical neuropil atrophy and episodic memory.",
+   "year": "2014",
+   "journal": "Neurology",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-111",
+   "pmid": "10693931",
+   "title": "Apolipoprotein E exhibits isoform-specific promotion of lipid efflux from astrocytes and neurons in culture.",
+   "year": "2000",
+   "journal": "Journal of neurochemistry",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-112",
+   "pmid": "39380021",
+   "title": "Heparin-enriched plasma proteome is significantly altered in Alzheimer's disease.",
+   "year": "2024",
+   "journal": "Molecular neurodegeneration",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-113",
+   "pmid": "38163875",
+   "title": "Resveratrol differentially affects MMP-9 release from neurons and glia; implications for therapeutic efficacy.",
+   "year": "2024",
+   "journal": "Journal of neurochemistry",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-114",
+   "pmid": "36878326",
+   "title": "CCR5 deficiency normalizes TIMP levels, working memory, and gamma oscillation power in APOE4 targeted replacement mice.",
+   "year": "2023",
+   "journal": "Neurobiology of disease",
+   "pubtype": [
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-115",
+   "pmid": "36638682",
+   "title": "Accumulation of amyloid-β in the brain of mouse models of Alzheimer's disease is modified by altered gene expression in the presence of human apoE isoforms during aging.",
+   "year": "2023",
+   "journal": "Neurobiology of aging",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-116",
+   "pmid": "26921451",
+   "title": "Effects of different isoforms of apoE on aggregation of the α-synuclein protein implicated in Parkinson's disease.",
+   "year": "2016",
+   "journal": "Neuroscience letters",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-117",
+   "pmid": "27207906",
+   "title": "Synergistic Increase of Serum BDNF in Alzheimer Patients Treated with Cerebrolysin and Donepezil: Association with Cognitive Improvement in ApoE4 Cases.",
+   "year": "2016",
+   "journal": "The international journal of neuropsychopharmacology",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-118",
+   "pmid": "16671834",
+   "title": "ApoE plasma levels and risk of cardiovascular mortality in old age.",
+   "year": "2006",
+   "journal": "PLoS medicine",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-119",
+   "pmid": "42603521",
+   "title": "Generation of a human induced pluripotent stem cell line (HEBHMUi019-A) from a 67-year-old male Alzheimer's patient with APOE-ε4/ε4 genotype.",
+   "year": "2026",
+   "journal": "Stem cell research",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-120",
+   "pmid": "41620758",
+   "title": "Protective PLCG2 variants associate with a delayed onset of Alzheimer's disease among heterozygous APOE ε4 carriers.",
+   "year": "2026",
+   "journal": "Alzheimer's research & therapy",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-121",
+   "pmid": "41144349",
+   "title": "Alzheimer's disease pathogenesis and the role of &lt;i&gt;APOE&lt;/i&gt; ε4 in remodeling functional gradients of the default mode network.",
+   "year": "2025",
+   "journal": "Journal of Alzheimer's disease : JAD",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-122",
+   "pmid": "39995873",
+   "title": "Imaging lipid rafts reveals the principle of ApoE4-induced Aβ upregulation in human neurons.",
+   "year": "2025",
+   "journal": "iScience",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-123",
+   "pmid": "40223253",
+   "title": "&lt;i&gt;miR-26b&lt;/i&gt;, &lt;i&gt;miR-30e&lt;/i&gt;, and &lt;i&gt;miR-206&lt;/i&gt; Polymorphisms May Play a Role in &lt;i&gt;BDNF&lt;/i&gt;-mediated Development of Alzheimer's-type Dementia.",
+   "year": "2025",
+   "journal": "Clinical psychopharmacology and neuroscience : the official scientific journal of the Korean College of Neuropsychopharmacology",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-124",
+   "pmid": "38178204",
+   "title": "Identification of female-enriched and disease-associated microglia (FDAMic) contributes to sexual dimorphism in late-onset Alzheimer's disease.",
+   "year": "2024",
+   "journal": "Journal of neuroinflammation",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-125",
+   "pmid": "37863057",
+   "title": "APOE4-promoted gliosis and degeneration in tauopathy are ameliorated by pharmacological inhibition of HMGB1 release.",
+   "year": "2023",
+   "journal": "Cell reports",
+   "pubtype": [
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-126",
+   "pmid": "37336366",
+   "title": "Apolipoprotein E ε4 triggers neurotoxicity via cholesterol accumulation, acetylcholine dyshomeostasis, and PKCε mislocalization in cholinergic neuronal cells.",
+   "year": "2023",
+   "journal": "Biochimica et biophysica acta. Molecular basis of disease",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-127",
+   "pmid": "36640294",
+   "title": "Association between Apolipoprotein E genotype and functional outcome in acute ischemic stroke.",
+   "year": "2023",
+   "journal": "Aging",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-128",
+   "pmid": "36572594",
+   "title": "Predictive link between systemic metabolism and cytokine signatures in the brain of apolipoprotein E ε4 mice.",
+   "year": "2023",
+   "journal": "Neurobiology of aging",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-129",
+   "pmid": "35977506",
+   "title": "APOE4 drives inflammation in human astrocytes via TAGLN3 repression and NF-κB activation.",
+   "year": "2022",
+   "journal": "Cell reports",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-130",
+   "pmid": "35388616",
+   "title": "Transcriptional landscape of human microglia implicates age, sex, and APOE-related immunometabolic pathway perturbations.",
+   "year": "2022",
+   "journal": "Aging cell",
+   "pubtype": [
+    "Meta-Analysis",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-131",
+   "pmid": "35209952",
+   "title": "Serum Thioredoxin-80 is associated with age, ApoE4, and neuropathological biomarkers in Alzheimer's disease: a potential early sign of AD.",
+   "year": "2022",
+   "journal": "Alzheimer's research & therapy",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-132",
+   "pmid": "34572474",
+   "title": "Looking at Alzheimer's Disease Pathogenesis from the Nuclear Side.",
+   "year": "2021",
+   "journal": "Biomolecules",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "review-article",
+    "Review",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-133",
+   "pmid": "34013017",
+   "title": "Retinal imaging demonstrates reduced capillary density in clinically unimpaired <i>APOE</i> ε4 gene carriers.",
+   "year": "2021",
+   "journal": "Alzheimer's & dementia (Amsterdam, Netherlands)",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-134",
+   "pmid": "33725267",
+   "title": "Culture Variabilities of Human iPSC-Derived Cerebral Organoids Are a Major Issue for the Modelling of Phenotypes Observed in Alzheimer's Disease.",
+   "year": "2022",
+   "journal": "Stem cell reviews and reports",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-135",
+   "pmid": "33337362",
+   "title": "APOE4 Copy Number-Dependent Proteomic Changes in the Cerebrospinal Fluid.",
+   "year": "2021",
+   "journal": "Journal of Alzheimer's disease : JAD",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Research Support, U.S. Gov't, Non-P.H.S.",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-136",
+   "pmid": "32543726",
+   "title": "GABAergic dysfunction in excitatory and inhibitory (E/I) imbalance drives the pathogenesis of Alzheimer's disease.",
+   "year": "2020",
+   "journal": "Alzheimer's & dementia : the journal of the Alzheimer's Association",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-137",
+   "pmid": "32362813",
+   "title": "Intracellular Trafficking Mechanisms of Synaptic Dysfunction in Alzheimer's Disease.",
+   "year": "2020",
+   "journal": "Frontiers in cellular neuroscience",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-138",
+   "pmid": "31113487",
+   "title": "APOE genotype and sex affect microglial interactions with plaques in Alzheimer's disease mice.",
+   "year": "2019",
+   "journal": "Acta neuropathologica communications",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-139",
+   "pmid": "31441725",
+   "title": "Integrated Genomic Analysis Revealed Associated Genes for Alzheimer's Disease in APOE4 Non-Carriers.",
+   "year": "2019",
+   "journal": "Current Alzheimer research",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-140",
+   "pmid": "32015339",
+   "title": "Exceptionally low likelihood of Alzheimer's dementia in APOE2 homozygotes from a 5,000-person neuropathological study.",
+   "year": "2020",
+   "journal": "Nature communications",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-141",
+   "pmid": "39347015",
+   "title": "Effects of obesogenic diet and 17β-estradiol in female mice with &lt;i&gt;APOE&lt;/i&gt; 3/3, 3/4, and 4/4 genotypes.",
+   "year": "2024",
+   "journal": "Frontiers in aging neuroscience",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-142",
+   "pmid": "9669695",
+   "title": "Microglial activation in Alzheimer disease: Association with APOE genotype.",
+   "year": "1998",
+   "journal": "Brain pathology (Zurich, Switzerland)",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-143",
+   "pmid": "36837905",
+   "title": "Effects of <i>APOE</i> Genotype and Western Diet on Metabolic Phenotypes in Female Mice.",
+   "year": "2023",
+   "journal": "Metabolites",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-144",
+   "pmid": "42729514",
+   "title": "Hippocampal mediation in the lipid-Alzheimer's disease pathway: A high-dimensional mediation analysis stratified by &lt;i&gt;APOE&lt;/i&gt; and sex.",
+   "year": "2026",
+   "journal": "Alzheimer's & dementia (New York, N. Y.)",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-145",
+   "pmid": "41642643",
+   "title": "APOE-stratified Proteomic and Metabolomic Analysis Reveals Mitochondrial Dysfunction Inflammation and Lipid Dysregulation in Alzheimer's Disease.",
+   "year": "2026",
+   "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-146",
+   "pmid": "40634782",
+   "title": "Plasma proteomics links brain and immune system aging with healthspan and longevity.",
+   "year": "2025",
+   "journal": "Nature medicine",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-147",
+   "pmid": "40565294",
+   "title": "Body Circumference and Cognitive Function: Role of Apolipoprotein E ε4 in the Elderly.",
+   "year": "2025",
+   "journal": "International journal of molecular sciences",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-148",
+   "pmid": "36825945",
+   "title": "The synthetic TRPML1 agonist ML-SA1 rescues Alzheimer-related alterations of the endosomal-autophagic-lysosomal system.",
+   "year": "2023",
+   "journal": "Journal of cell science",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-149",
+   "pmid": "22179327",
+   "title": "Prevalence of apolipoprotein E4 genotype and homozygotes (APOE e4/4) among patients diagnosed with Alzheimer's disease: a systematic review and meta-analysis.",
+   "year": "2012",
+   "journal": "Neuroepidemiology",
+   "pubtype": [
+    "Meta-Analysis",
+    "Research Support, Non-U.S. Gov't",
+    "Systematic Review",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-150",
+   "pmid": "8596645",
+   "title": "Influence of the apolipoprotein E genotype on amyloid deposition and neurofibrillary tangle formation in Alzheimer's disease.",
+   "year": "1995",
+   "journal": "Neuroscience",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-151",
+   "pmid": "30124361",
+   "title": "Apolipoprotein E (APOE) ε4 genotype is associated with reduced neuropsychological performance in military veterans with a history of mild traumatic brain injury.",
+   "year": "2018",
+   "journal": "Journal of clinical and experimental neuropsychology",
+   "pubtype": [
+    "Research Support, U.S. Gov't, Non-P.H.S.",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-152",
+   "pmid": "23013167",
+   "title": "Small-molecule structure correctors target abnormal protein structure and function: structure corrector rescue of apolipoprotein E4-associated neuropathology.",
+   "year": "2012",
+   "journal": "Journal of medicinal chemistry",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Review",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-153",
+   "pmid": "21787325",
+   "title": "Roles of apolipoprotein E4 (ApoE4) in the pathogenesis of Alzheimer's disease: lessons from ApoE mouse models.",
+   "year": "2011",
+   "journal": "Biochemical Society transactions",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-154",
+   "pmid": "19703591",
+   "title": "Mitochondrial DNA variants in a Japanese population of patients with Alzheimer's disease.",
+   "year": "2010",
+   "journal": "Mitochondrion",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-155",
+   "pmid": "18948255",
+   "title": "Understanding the association of apolipoprotein E4 with Alzheimer disease: clues from its structure.",
+   "year": "2009",
+   "journal": "The Journal of biological chemistry",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "review-article",
+    "Review",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-156",
+   "pmid": "15557508",
+   "title": "Impact of APOE in mild cognitive impairment.",
+   "year": "2004",
+   "journal": "Neurology",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-157",
+   "pmid": "27559087",
+   "title": "Novel allele-dependent role for APOE in controlling the rate of synapse pruning by astrocytes.",
+   "year": "2016",
+   "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-158",
+   "pmid": "41103552",
+   "title": "Short-term exposure to polystyrene microplastics alters cognition, immune, and metabolic markers in an apolipoprotein E (APOE) genotype and sex-dependent manner.",
+   "year": "2025",
+   "journal": "Environmental research communications",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-159",
+   "pmid": "34842276",
+   "title": "Brain transcriptomes of zebrafish and mouse Alzheimer's disease knock-in models imply early disrupted energy metabolism.",
+   "year": "2022",
+   "journal": "Disease models & mechanisms",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-160",
+   "pmid": "33321072",
+   "title": "Vascular ApoE4 Impairs Behavior by Modulating Gliovascular Function.",
+   "year": "2021",
+   "journal": "Neuron",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Research Support, U.S. Gov't, Non-P.H.S.",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-161",
+   "pmid": "15760646",
+   "title": "Brain area- and isoform-specific inhibition of synaptic plasticity by apoE4.",
+   "year": "2005",
+   "journal": "Journal of the neurological sciences",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-162",
+   "pmid": "8071364",
+   "title": "Human apolipoprotein E. Role of arginine 61 in mediating the lipoprotein preferences of the E3 and E4 isoforms.",
+   "year": "1994",
+   "journal": "The Journal of biological chemistry",
+   "pubtype": [
+    "Research Support, U.S. Gov't, P.H.S.",
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-163",
+   "pmid": "30082772",
+   "title": "Myeloid apolipoprotein E controls dendritic cell antigen presentation and T cell activation.",
+   "year": "2018",
+   "journal": "Nature communications",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-164",
+   "pmid": "19557866",
+   "title": "Apolipoprotein E-dependent accumulation of Alzheimer disease-related lesions begins in middle age.",
+   "year": "2009",
+   "journal": "Annals of neurology",
+   "pubtype": [
+    "Comparative Study",
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-165",
+   "pmid": "15181252",
+   "title": "ApoE and Abeta1-42 interactions: effects of isoform and conformation on structure and function.",
+   "year": "2004",
+   "journal": "Journal of molecular neuroscience : MN",
+   "pubtype": [
+    "Research Support, U.S. Gov't, P.H.S.",
+    "Research Support, Non-U.S. Gov't",
+    "Review",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-166",
+   "pmid": "7721816",
+   "title": "Purification of apolipoprotein E attenuates isoform-specific binding to beta-amyloid.",
+   "year": "1995",
+   "journal": "The Journal of biological chemistry",
+   "pubtype": [
+    "Research Support, U.S. Gov't, P.H.S.",
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-167",
+   "pmid": "31108099",
+   "title": "Apolipoprotein E/Amyloid-β Complex Accumulates in Alzheimer Disease Cortical Synapses via Apolipoprotein E Receptors and Is Enhanced by APOE4.",
+   "year": "2019",
+   "journal": "The American journal of pathology",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-168",
+   "pmid": "30683808",
+   "title": "ApoE-associated modulation of neuroprotection from Aβ-mediated neurodegeneration in transgenic <i>Caenorhabditis elegans</i>.",
+   "year": "2019",
+   "journal": "Disease models & mechanisms",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-169",
+   "pmid": "28062489",
+   "title": "Lipoprotein(a) Mass Levels Increase Significantly According to <i>APOE</i> Genotype: An Analysis of 431 239 Patients.",
+   "year": "2017",
+   "journal": "Arteriosclerosis, thrombosis, and vascular biology",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-170",
+   "pmid": "27318144",
+   "title": "Intracerebral adeno-associated virus gene delivery of apolipoprotein E2 markedly reduces brain amyloid pathology in Alzheimer's disease mouse models.",
+   "year": "2016",
+   "journal": "Neurobiology of aging",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-171",
+   "pmid": "25523424",
+   "title": "Amyloid-beta protein clearance and degradation (ABCD) pathways and their role in Alzheimer's disease.",
+   "year": "2015",
+   "journal": "Current Alzheimer research",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-172",
+   "pmid": "24894353",
+   "title": "The involvement of lipids in Alzheimer's disease.",
+   "year": "2014",
+   "journal": "Journal of genetics and genomics = Yi chuan xue bao",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Review",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-173",
+   "pmid": "33510477",
+   "title": "Integrating human brain proteomes with genome-wide association data implicates new proteins in Alzheimer's disease pathogenesis.",
+   "year": "2021",
+   "journal": "Nature genetics",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Research Support, U.S. Gov't, Non-P.H.S.",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-174",
+   "pmid": "24491019",
+   "title": "Apolipoprotein E increases cell association of amyloid-β 40 through heparan sulfate and LRP1 dependent pathways.",
+   "year": "2014",
+   "journal": "Amyloid : the international journal of experimental and clinical investigation : the official journal of the International Society of Amyloidosis",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-175",
+   "pmid": "25469919",
+   "title": "Plasma levels of apolipoprotein E and risk of dementia in the general population.",
+   "year": "2015",
+   "journal": "Annals of neurology",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-176",
+   "pmid": "11848621",
+   "title": "Isoform-specific effect of apolipoprotein E on endocytosis of beta-amyloid in cultures of neuroblastoma cells.",
+   "year": "2002",
+   "journal": "Annals of clinical and laboratory science",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-177",
+   "pmid": "38912292",
+   "title": "APOE4 dysregulates autophagy in cultured cells.",
+   "year": "2022",
+   "journal": "Autophagy reports",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-178",
+   "pmid": "31796678",
+   "title": "Carnosic Acid Reverses the Inhibition of ApoE4 on Cell Surface Level of ApoER2 and Reelin Signaling Pathway.",
+   "year": "2020",
+   "journal": "Journal of Alzheimer's disease : JAD",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-179",
+   "pmid": "27922847",
+   "title": "Apolipoprotein E metabolism and functions in brain and its role in Alzheimer's disease.",
+   "year": "2017",
+   "journal": "Current opinion in lipidology",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Review",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-180",
+   "pmid": "27087442",
+   "title": "APOE4 Induces Site-Specific Tau Phosphorylation Through Calpain-CDK5 Signaling Pathway in EFAD-Tg Mice.",
+   "year": "2016",
+   "journal": "Current Alzheimer research",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-181",
+   "pmid": "25358504",
+   "title": "Apolipoprotein E in synaptic plasticity and Alzheimer's disease: potential cellular and molecular mechanisms.",
+   "year": "2014",
+   "journal": "Molecules and cells",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "review-article",
+    "Review",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-182",
+   "pmid": "24163429",
+   "title": "APOE associations with severe CAA-associated vasculopathic changes: collaborative meta-analysis.",
+   "year": "2014",
+   "journal": "Journal of neurology, neurosurgery, and psychiatry",
+   "pubtype": [
+    "Meta-Analysis",
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-183",
+   "pmid": "41761294",
+   "title": "Association of circulating proteasome activity with Alzheimer's pathology and cognitive functions in APOE ε4 carriers.",
+   "year": "2026",
+   "journal": "Alzheimer's research & therapy",
+   "pubtype": [
+    "research-article",
+    "Journal Article",
+    "Observational Study"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-184",
+   "pmid": "33397400",
+   "title": "Identification of epigenome-wide DNA methylation differences between carriers of APOE ε4 and APOE ε2 alleles.",
+   "year": "2021",
+   "journal": "Genome medicine",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-185",
+   "pmid": "16376010",
+   "title": "Implication of apoE isoforms in cholesterol metabolism by primary rat hippocampal neurons and astrocytes.",
+   "year": "2006",
+   "journal": "Biochimie",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-186",
+   "pmid": "31051176",
+   "title": "The Molecular Basis for Apolipoprotein E4 as the Major Risk Factor for Late-Onset Alzheimer's Disease.",
+   "year": "2019",
+   "journal": "Journal of molecular biology",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-187",
+   "pmid": "15477512",
+   "title": "Apolipoprotein E epsilon 4 is a determinant for Alzheimer-type pathologic features in tauopathies, synucleinopathies, and frontotemporal degeneration.",
+   "year": "2004",
+   "journal": "Archives of neurology",
+   "pubtype": [
+    "Comparative Study",
+    "Research Support, U.S. Gov't, P.H.S.",
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-188",
+   "pmid": "42916742",
+   "title": "Mass Spectrometry-Based Structural Proteomics and Analytical Ultracentrifugation Characterize the Structures of Oligomeric Apolipoprotein E4 and Its Variants.",
+   "year": "2026",
+   "journal": "Journal of the American Society for Mass Spectrometry",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-189",
+   "pmid": "38507884",
+   "title": "Dietary fats and the APOE-e4 risk allele in relation to cognitive decline: a longitudinal investigation in a biracial population sample.",
+   "year": "2024",
+   "journal": "The journal of nutrition, health & aging",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-190",
+   "pmid": "37157042",
+   "title": "Inhibition of ACAT as a Therapeutic Target for Alzheimer's Disease Is Independent of ApoE4 Lipidation.",
+   "year": "2023",
+   "journal": "Neurotherapeutics : the journal of the American Society for Experimental NeuroTherapeutics",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-191",
+   "pmid": "35416404",
+   "title": "The small HDL particle hypothesis of Alzheimer's disease.",
+   "year": "2023",
+   "journal": "Alzheimer's & dementia : the journal of the Alzheimer's Association",
+   "pubtype": [
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-192",
+   "pmid": "34486652",
+   "title": "Inflammatory Pathways Are Impaired in Alzheimer Disease and Differentially Associated With Apolipoprotein E Status.",
+   "year": "2021",
+   "journal": "Journal of neuropathology and experimental neurology",
+   "pubtype": [
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-193",
+   "pmid": "28241068",
+   "title": "Liver X receptor agonist treatment significantly affects phenotype and transcriptome of APOE3 and APOE4 Abca1 haplo-deficient mice.",
+   "year": "2017",
+   "journal": "PloS one",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-194",
+   "pmid": "38772917",
+   "title": "The influence of APOE<sup>ε4</sup> on the pTau interactome in sporadic Alzheimer's disease.",
+   "year": "2024",
+   "journal": "Acta neuropathologica",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-195",
+   "pmid": "42865737",
+   "title": "Unraveling changes in mitochondrial processes influenced by ancestry in &lt;i&gt;APOEε&lt;/i&gt;4 carriers with Alzheimer disease.",
+   "year": "2026",
+   "journal": "Frontiers in aging neuroscience",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-196",
+   "pmid": "41692216",
+   "title": "APOE4 induces sex-dependent synaptic mitochondrial cholesterol, proteome, and respiratory function alterations in mice.",
+   "year": "2026",
+   "journal": "Neurochemistry international",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-197",
+   "pmid": "39408926",
+   "title": "Readdressing the Localization of Apolipoprotein E (APOE) in Mitochondria-Associated Endoplasmic Reticulum (ER) Membranes (MAMs): An Investigation of the Hepatic Protein-Protein Interactions of APOE with the Mitochondrial Proteins Lon Protease (LONP1), Mitochondrial Import Receptor Subunit TOM40 (TOMM40) and Voltage-Dependent Anion-Selective Channel 1 (VDAC1).",
+   "year": "2024",
+   "journal": "International journal of molecular sciences",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-198",
+   "pmid": "35977543",
+   "title": "Apolipoprotein E4 impairs the response of neurodegenerative retinal microglia and prevents neuronal loss in glaucoma.",
+   "year": "2022",
+   "journal": "Immunity",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-199",
+   "pmid": "32614373",
+   "title": "Association of APOE With Primary Open-Angle Glaucoma Suggests a Protective Effect for APOE ε4.",
+   "year": "2020",
+   "journal": "Investigative ophthalmology & visual science",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Multicenter Study",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-200",
+   "pmid": "41720779",
+   "title": "Genetic modifiers of APOE-ε4-associated cognitive decline.",
+   "year": "2026",
+   "journal": "Nature communications",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-201",
+   "pmid": "16110302",
+   "title": "The apolipoprotein E gene polymorphism is associated with open angle glaucoma in the Japanese population.",
+   "year": "2005",
+   "journal": "Molecular vision",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-202",
+   "pmid": "39294490",
+   "title": "A cell-autonomous role for border-associated macrophages in ApoE4 neurovascular dysfunction and susceptibility to white matter injury.",
+   "year": "2024",
+   "journal": "Nature neuroscience",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-203",
+   "pmid": "38961225",
+   "title": "Sex-dependent APOE4 neutrophil-microglia interactions drive cognitive impairment in Alzheimer's disease.",
+   "year": "2024",
+   "journal": "Nature medicine",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-204",
+   "pmid": "32006858",
+   "title": "Electrochemical detection of specific interactions between apolipoprotein E isoforms and DNA sequences related to Alzheimer's disease.",
+   "year": "2020",
+   "journal": "Bioelectrochemistry (Amsterdam, Netherlands)",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-205",
+   "pmid": "22914590",
+   "title": "Lymphocytes from young healthy persons carrying the ApoE4 allele overexpress stress-related proteins involved in the pathophysiology of Alzheimer's disease.",
+   "year": "2013",
+   "journal": "Journal of Alzheimer's disease : JAD",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-206",
+   "pmid": "37679610",
+   "title": "Capillary dysfunction in healthy elderly APOE ε4 carriers with raised brain Aβ deposition.",
+   "year": "2024",
+   "journal": "Alzheimer's & dementia : the journal of the Alzheimer's Association",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-207",
+   "pmid": "17119294",
+   "title": "The nucleation growth and reversibility of Amyloid-beta deposition in vivo.",
+   "year": "2006",
+   "journal": "Journal of Alzheimer's disease : JAD",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Review",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-208",
+   "pmid": "15181253",
+   "title": "In vivo effects of ApoE and clusterin on amyloid-beta metabolism and neuropathology.",
+   "year": "2004",
+   "journal": "Journal of molecular neuroscience : MN",
+   "pubtype": [
+    "Research Support, U.S. Gov't, P.H.S.",
+    "Research Support, Non-U.S. Gov't",
+    "Review",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-209",
+   "pmid": "9003067",
+   "title": "Effect of apolipoprotein E on neurite outgrowth and beta-amyloid-induced toxicity in developing rat primary hippocampal cultures.",
+   "year": "1997",
+   "journal": "Journal of neurochemistry",
+   "pubtype": [
+    "Research Support, U.S. Gov't, P.H.S.",
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-210",
+   "pmid": "38972485",
+   "title": "Cognitive deficits in human ApoE4 knock-in mice: A systematic review and meta-analysis.",
+   "year": "2024",
+   "journal": "Behavioural brain research",
+   "pubtype": [
+    "Meta-Analysis",
+    "Research Support, Non-U.S. Gov't",
+    "Systematic Review",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-211",
+   "pmid": "27824936",
+   "title": "Differential Effects of apoE4 and Activation of ABCA1 on Brain and Plasma Lipoproteins.",
+   "year": "2016",
+   "journal": "PloS one",
+   "pubtype": [
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-212",
+   "pmid": "25207746",
+   "title": "The binding of apolipoprotein E to oligomers and fibrils of amyloid-β alters the kinetics of amyloid aggregation.",
+   "year": "2014",
+   "journal": "Biochemistry",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-213",
+   "pmid": "23291160",
+   "title": "ApoE4 confers better spatial memory than apoE3 in young adult hAPP-Yac/apoE-TR mice.",
+   "year": "2013",
+   "journal": "Behavioural brain research",
+   "pubtype": [
+    "Comparative Study",
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-214",
+   "pmid": "19370389",
+   "title": "ApoE4-dependent Abeta-mediated neurodegeneration is associated with inflammatory activation in the hippocampus but not the septum.",
+   "year": "2009",
+   "journal": "Journal of neural transmission (Vienna, Austria : 1996)",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-215",
+   "pmid": "34586066",
+   "title": "<i>APOE4</i> is associated with elevated blood lipids and lower levels of innate immune biomarkers in a tropical Amerindian subsistence population.",
+   "year": "2021",
+   "journal": "eLife",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-216",
+   "pmid": "28143566",
+   "title": "APOE Genotype Differentially Modulates Effects of Anti-Aβ, Passive Immunization in APP Transgenic Mice.",
+   "year": "2017",
+   "journal": "Molecular neurodegeneration",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-217",
+   "pmid": "26556230",
+   "title": "Murine versus human apolipoprotein E4: differential facilitation of and co-localization in cerebral amyloid angiopathy and amyloid plaques in APP transgenic mouse models.",
+   "year": "2015",
+   "journal": "Acta neuropathologica communications",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-218",
+   "pmid": "22993429",
+   "title": "Abca1 deficiency affects Alzheimer's disease-like phenotype in human ApoE4 but not in ApoE3-targeted replacement mice.",
+   "year": "2012",
+   "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+   "pubtype": [
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-219",
+   "pmid": "20595630",
+   "title": "Cellular source of apolipoprotein E4 determines neuronal susceptibility to excitotoxic injury in transgenic mice.",
+   "year": "2010",
+   "journal": "The American journal of pathology",
+   "pubtype": [
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-220",
+   "pmid": "17089130",
+   "title": "The distribution of cerebrovascular amyloid in Alzheimer's disease varies with ApoE genotype.",
+   "year": "2007",
+   "journal": "Acta neuropathologica",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-221",
+   "pmid": "15026113",
+   "title": "Marked regional differences of brain human apolipoprotein E expression in targeted replacement mice.",
+   "year": "2004",
+   "journal": "Neuroscience",
+   "pubtype": [
+    "Research Support, U.S. Gov't, P.H.S.",
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-222",
+   "pmid": "12392781",
+   "title": "APOE and the regulation of microglial nitric oxide production: a link between genetic risk and oxidative stress.",
+   "year": "2002",
+   "journal": "Neurobiology of aging",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-223",
+   "pmid": "11553788",
+   "title": "Introduction of human apolipoprotein E4 \"domain interaction\" into mouse apolipoprotein E.",
+   "year": "2001",
+   "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+   "pubtype": [
+    "Research Support, U.S. Gov't, P.H.S.",
+    "Research Support, Non-U.S. Gov't",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-224",
+   "pmid": "42363270",
+   "title": "Early binding of anti-amyloid antibodies to CAA drives complement activation, inflammation and ARIA in mice.",
+   "year": "2026",
+   "journal": "Molecular neurodegeneration",
+   "pubtype": [
+    "research-article",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-225",
+   "pmid": "8631862",
+   "title": "The interaction between apolipoprotein E and Alzheimer's amyloid beta-peptide is dependent on beta-peptide conformation.",
+   "year": "1996",
+   "journal": "The Journal of biological chemistry",
+   "pubtype": [
+    "Research Support, U.S. Gov't, P.H.S.",
+    "Research Support, Non-U.S. Gov't",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  },
+  {
+   "id": "H5-2-226",
+   "pmid": "3745440",
+   "title": "Abnormal in vivo metabolism of apolipoprotein E4 in humans.",
+   "year": "1986",
+   "journal": "The Journal of clinical investigation",
+   "pubtype": [
+    "Comparative Study",
+    "research-article",
+    "Journal Article"
+   ],
+   "linked_sheet_papers": 1
+  }
+ ],
+ "note": "abstracts removed from this published copy; look them up by PMID (Europe PMC)"
+}

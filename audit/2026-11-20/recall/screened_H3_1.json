@@ -1,0 +1,1353 @@
+[
+ {
+  "id": "H3-1-0",
+  "decision": "maybe",
+  "relevance": 0.35,
+  "primary_data": true,
+  "why": "ApoE4 unfolding on endosomal acidification, NHE6; unclear if apoE aggregation measured"
+ },
+ {
+  "id": "H3-1-1",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-2",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-3",
+  "decision": "yes",
+  "relevance": 0.6,
+  "primary_data": true,
+  "why": "In vitro apoE isoform oligomer association-dissociation kinetics; E4 vs E3, not endolysosomal"
+ },
+ {
+  "id": "H3-1-4",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-5",
+  "decision": "maybe",
+  "relevance": 0.35,
+  "primary_data": true,
+  "why": "Intracellular apoE conformation by FRET in cells, E4 vs E3; aggregation unclear"
+ },
+ {
+  "id": "H3-1-6",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-7",
+  "decision": "maybe",
+  "relevance": 0.3,
+  "primary_data": true,
+  "why": "ApoE4 astrocytes endosomal pH; apoE protein readout unclear"
+ },
+ {
+  "id": "H3-1-8",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-9",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-10",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-11",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-12",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-13",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-14",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-15",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-16",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-17",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-18",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-19",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-20",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-21",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-22",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-23",
+  "decision": "maybe",
+  "relevance": 0.45,
+  "primary_data": true,
+  "why": "ApoE4 L28P thermodynamics and possibly aggregation; abstract cut"
+ },
+ {
+  "id": "H3-1-24",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-25",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-26",
+  "decision": "yes",
+  "relevance": 0.55,
+  "primary_data": true,
+  "why": "ApoE4 truncations form more aggregated species than apoE3; in vitro apoE aggregation"
+ },
+ {
+  "id": "H3-1-27",
+  "decision": "maybe",
+  "relevance": 0.4,
+  "primary_data": true,
+  "why": "ApoE-Abeta complexes precipitate faster with E4; apoE assembly part"
+ },
+ {
+  "id": "H3-1-28",
+  "decision": "maybe",
+  "relevance": 0.35,
+  "primary_data": true,
+  "why": "ApoE isoform peptides form complex species in PBS; aggregation partly"
+ },
+ {
+  "id": "H3-1-29",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-30",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-31",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-32",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-33",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-34",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-35",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-36",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-37",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-38",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-39",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-40",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-41",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-42",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-43",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-44",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-45",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-46",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-47",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-48",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-49",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-50",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-51",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-52",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-53",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-54",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-55",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-56",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-57",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-58",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-59",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-60",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-61",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-62",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-63",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-64",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-65",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-66",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-67",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-68",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-69",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-70",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-71",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-72",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-73",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-74",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-75",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-76",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-77",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-78",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-79",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-80",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-81",
+  "decision": "maybe",
+  "relevance": 0.25,
+  "primary_data": true,
+  "why": "HNE modification of apoE3 vs apoE4 structure; aggregation possible"
+ },
+ {
+  "id": "H3-1-82",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-83",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-84",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-85",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-86",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-87",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-88",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-89",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-90",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-91",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-92",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-93",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-94",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-95",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-96",
+  "decision": "maybe",
+  "relevance": 0.3,
+  "primary_data": true,
+  "why": "ApoE isoform cellular processing in knock-in adipocytes; degradation unclear"
+ },
+ {
+  "id": "H3-1-97",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-98",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-99",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-100",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-101",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-102",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-103",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-104",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-105",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-106",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-107",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-108",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-109",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-110",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-111",
+  "decision": "maybe",
+  "relevance": 0.35,
+  "primary_data": true,
+  "why": "SDS-stable apoE/Abeta assemblies in synapses enhanced by APOE4; apoE aggregation possible"
+ },
+ {
+  "id": "H3-1-112",
+  "decision": "maybe",
+  "relevance": 0.35,
+  "primary_data": true,
+  "why": "ApoE recycling in neuronal cells, isoform comparison; endosomal apoE handling"
+ },
+ {
+  "id": "H3-1-113",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-114",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-115",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-116",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-117",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-118",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-119",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-120",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-121",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-122",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-123",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-124",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-125",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-126",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-127",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-128",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-129",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-130",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-131",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-132",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-133",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-134",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-135",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-136",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-137",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-138",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-139",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-140",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-141",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-142",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-143",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-144",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-145",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-146",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-147",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-148",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-149",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-150",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-151",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-152",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-153",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-154",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-155",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-156",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-157",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-158",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-159",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-160",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-161",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-162",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-163",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-164",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-165",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-166",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-167",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-168",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-169",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-170",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-171",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-172",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-173",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-174",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-175",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-176",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-177",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-178",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-179",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-180",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-181",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-182",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-183",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-184",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-185",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-186",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-187",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-188",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-189",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-190",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-191",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ },
+ {
+  "id": "H3-1-192",
+  "decision": "no",
+  "relevance": 0.05,
+  "primary_data": false,
+  "why": "Does not measure apoE aggregation or endo-lysosomal apoE; out of scope"
+ }
+]

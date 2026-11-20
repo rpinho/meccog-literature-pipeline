@@ -1,0 +1,1213 @@
+[
+ {
+  "id": "H2-1-0",
+  "decision": "maybe",
+  "relevance": 0.45,
+  "primary_data": true,
+  "why": "apoE4 astrocyte tau uptake/trafficking vs apoE3; receptor involvement unclear, endocytic trafficking possible"
+ },
+ {
+  "id": "H2-1-1",
+  "decision": "maybe",
+  "relevance": 0.35,
+  "primary_data": true,
+  "why": "apoE4 cells: lysosomal/late endosome trafficking and internalization of apoE; not receptor recycling directly"
+ },
+ {
+  "id": "H2-1-2",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-3",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-4",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-5",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-6",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-7",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-8",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-9",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-10",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-11",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-12",
+  "decision": "maybe",
+  "relevance": 0.2,
+  "primary_data": true,
+  "why": "apoE isoforms alter neuronal NR1 NMDA receptor expression; trafficking not clear"
+ },
+ {
+  "id": "H2-1-13",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-14",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-15",
+  "decision": "maybe",
+  "relevance": 0.25,
+  "primary_data": true,
+  "why": "apoE3 vs apoE4 association with insulin receptor and neuronal signaling; surface level unclear"
+ },
+ {
+  "id": "H2-1-16",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-17",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-18",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-19",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-20",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-21",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-22",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-23",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-24",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-25",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-26",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-27",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-28",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-29",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-30",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-31",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-32",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-33",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-34",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-35",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-36",
+  "decision": "maybe",
+  "relevance": 0.2,
+  "primary_data": true,
+  "why": "APOE4 vs APOE3 astrocytes lysosomal-related Ca signaling; endosomal recycling not evident"
+ },
+ {
+  "id": "H2-1-37",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-38",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-39",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-40",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-41",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-42",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-43",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-44",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-45",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-46",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-47",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-48",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-49",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-50",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-51",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-52",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-53",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-54",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-55",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-56",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-57",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-58",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-59",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-60",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-61",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-62",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-63",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-64",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-65",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-66",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-67",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-68",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-69",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-70",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-71",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-72",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-73",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-74",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-75",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-76",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-77",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-78",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-79",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-80",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-81",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-82",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-83",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-84",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-85",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-86",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-87",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-88",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-89",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-90",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-91",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-92",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-93",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-94",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-95",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-96",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-97",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-98",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-99",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-100",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-101",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-102",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-103",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-104",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-105",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-106",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-107",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-108",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-109",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-110",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-111",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-112",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-113",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-114",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-115",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-116",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-117",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-118",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-119",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-120",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-121",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-122",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-123",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-124",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-125",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-126",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-127",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-128",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-129",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-130",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-131",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-132",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-133",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-134",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-135",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-136",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-137",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-138",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-139",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-140",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-141",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-142",
+  "decision": "maybe",
+  "relevance": 0.3,
+  "primary_data": true,
+  "why": "apoE4 TR mice: reduced brain LRP1 and NMDAR phosphorylation; receptor level, not trafficking"
+ },
+ {
+  "id": "H2-1-143",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-144",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-145",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-146",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-147",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-148",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-149",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-150",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-151",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-152",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-153",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-154",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-155",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-156",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-157",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-158",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-159",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-160",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-161",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-162",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-163",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-164",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-165",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-166",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-167",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-168",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-169",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-170",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-171",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ },
+ {
+  "id": "H2-1-172",
+  "decision": "no",
+  "relevance": 0.03,
+  "primary_data": false,
+  "why": "No receptor recycling/ARF6 readout in APOE context (review, clinical, or unrelated outcome)"
+ }
+]

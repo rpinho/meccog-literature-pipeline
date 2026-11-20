@@ -4,7 +4,7 @@ MecCog Step 1 submission: an open pipeline that finds the papers bearing on a me
 
 - **Team:** rstack
 - **Hypothesis:** H1 (lower endosome pH), H2 (impaired receptor recycling), H3 (APOE4 aggregation in the endo-lysosome) and H4 (APOE4 binds recycling receptors more tightly) and H5 (APOE4 lipid changes impair late endosome/lysosome function) of the [APOE4 endosome set](https://huggingface.co/spaces/MecCog/meccog-challenge), one spreadsheet each.
-- **Submission date:** H1 and H2 2026-11-17, replaced 2026-11-18 after the figure read; H3 2026-11-18; H4, and replacements for H2 and H3, 2026-11-19; replacements for H1 to H4 after the row audit and directness pass, 2026-11-19; H5, and replacements for H1 to H4, 2026-11-20
+- **Submission date:** H1 and H2 2026-11-17, replaced 2026-11-18 after the figure read; H3 2026-11-18; H4, and replacements for H2 and H3, 2026-11-19; replacements for H1 to H4 after the row audit and directness pass, 2026-11-19; H5, and replacements for H1 to H4, 2026-11-20; replacements for H2, H3 and H5 after the recall round, 2026-11-20
 - **Live sheets** (each built by `build_sheet.py` at the commit named; the acceptance number is the one the submission Space returned):
 
   | | sheet commit | acceptance number | papers / rows |
@@ -44,7 +44,9 @@ Work passes between steps as files under `data/`. Only rows the referee passed, 
 - gpt-6.1-sol (OpenAI), Codex CLI 0.167.0, reasoning effort low for screening and high for inventory and extraction
 - gpt-6.2-astra (OpenAI), Codex CLI 0.167.0, reasoning effort high for the referee, medium for the scope check
 - gpt-6.1-sol (OpenAI), Codex CLI 0.167.0, reasoning effort medium with the figure image attached, figure read
-- claude-opus-5-5 (Anthropic), Claude Code, pipeline author and spot-check
+- claude-opus-5-5 (Anthropic), Claude Code, pipeline author and spot-check; in the recall round (11-20) also the second look at the pre-screen and the extraction of 25 papers (clean-room `claude -p`, no tools; the paper's findings file records the model)
+- claude-sonnet-5-5 (Anthropic), Claude Code subagents, title and abstract pre-screen in the recall round
+- gpt-6.2-astra (OpenAI), Codex CLI 0.167.0, reasoning effort high with figure images attached, audit of the recall-round rows
 
 All model calls are logged with the model id and token count in `runs/llm_calls.jsonl` (not published).
 
@@ -55,6 +57,7 @@ All model calls are logged with the model id and token count in `runs/llm_calls.
 1. PubMed E-utilities, five queries per hypothesis in `config/queries/H*.txt`. The queries name APOE4 and the B variable without a direction word, so null and contrary papers come back too.
 2. Europe PMC search with the same queries (adds preprints, and searches full text).
 3. Citation snowball from the starting reference: its reference list and every paper citing it (OpenAlex).
+4. Recall round (11-20): a second snowball from every paper in the live sheets, their references (NCBI elink) and the papers citing them (Europe PMC), kept when the title or abstract names APOE4 and the record is not a review (`audit/2026-11-20/recall/measure.py`). This found 2,551 papers that were not candidates: H1 151, H2 346, H3 578, H4 794, H5 682.
 
 Hit counts per query, in the order of `config/queries/H*.txt` (Europe PMC searches full text; we keep the top 300 per query):
 
@@ -95,10 +98,10 @@ No person checked the findings. Instead:
 | | candidates | passed code filter | kept by screen | full text reached when extracted | rows extracted | referee PASS / FIX / REJECT | in the sheet |
 |---|---|---|---|---|---|---|---|
 | H1 | 983 | 403 | 73 | 65 (89%) | 241 | 56 / 77 / 104 (4 not refereed) | 10 papers, 26 rows |
-| H2 | 960 | 302 | 95 | 79 (83%) | 728 | 72 / 86 / 541 (29 rows lost to extraction errors) | 14 papers, 81 rows |
-| H3 | 1,267 | 708 | 89 | 68 (76%) | 462 | 79 / 128 / 255 | 26 papers, 142 rows |
+| H2 | 974 | 316 | 109 | 91 (83%) | 763 | 76 / 90 / 568 (29 rows lost to extraction errors) | 15 papers, 85 rows |
+| H3 | 1,310 | 751 | 132 | 98 (74%) | 674 | 97 / 195 / 382 | 37 papers, 180 rows |
 | H4 | 1,352 | 488 | 138 | 97 (70%) | 738 | 143 / 173 / 422 | 26 papers, 180 rows |
-| H5 | 1,039 | 343 | 145 | 122 (84%) | 1,376 | 237 / 174 / 965 | 36 papers, 217 rows |
+| H5 | 1,062 | 366 | 168 | 140 (83%) | 1,464 | 261 / 180 / 1,023 | 41 papers, 233 rows |
 
   Papers that timed out on the first pass (2 in H2, 6 in H3) were extracted again at medium reasoning effort with a longer limit. Rows in the sheet are referee PASS or FIX rows that the scope check kept, at relevance 0.35 or higher, with duplicates merged. The H2 REJECT count is high because 40 H2 papers were extracted with an earlier, more inclusive prompt; the referee removed what was outside the hypothesis.
 - Claude Code (claude-opus-5-5) read all 21 rows of the first H1 sheet and checked the quote, location, effect size, P value and n of 5 rows against the full text (Prasad and Rao 2018 Fig 3B; Fig 5B; Lysosomal proteomics 2025 Fig 1E; JBC 2025 Fig 4J; Stem Cell Reports 2025 Fig 5F). All 5 matched. It found 2 defective rows: a row quoting a dissertation's literature review (someone else's result) and a duplicate of the same result under its representative-image panel. Both are now caught by code, and the sheet has 20 rows.
@@ -120,6 +123,7 @@ No person checked the findings. Instead:
   - Class 1 takes strength 1. The organizers' table defines strength 2 as "one or both measurements are of surrogate variables", which contradicts class 1, so the 45 rows at class 1 with strength 2 became 1/1 (B itself) or class 3 (a surrogate).
   - For H1, ratiometric dextran pH after loading and a chase reads the late endosome and lysosome, as the 11-19 pass had decided for the same readout in other H1 papers, so four rows the second agent put at 1/1 are 3/4 (`apply_directness.py`, OVERRIDES).
 - Claude checked 3 H5 rows against the text, and 5 values from the 11-20 figure reads against the images (Fig 4C and 4F with the legend's star key, Fig 6C, Fig 5C, Fig 5D in four papers): all matched.
+- **Recall round (11-20).** The 2,551 papers from the second snowball (section 3) were screened by title and abstract by Claude subagents with the pipeline's own screen wording plus each hypothesis's scope; a second agent re-read the 68 rejects whose abstracts named the B readout next to an isoform comparison and kept 7 of them. 123 papers went into the candidate files (the screen model is recorded on each), 78 were reached and extracted (25 on Claude Opus 5.5, then the rest on Codex gpt-6.1-sol, when the lane moved off Claude to save its share), and every row was refereed by gpt-6.2-astra as usual. The 60 new rows that reached a sheet were audited by gpt-6.2-astra with the same brief and the directness conventions above, one call per paper with its figure images: 57 FIX, 2 DROP, 1 OK. This audit was not checked by a second model; every change went through the code checks, which reverted two values in shapes the template does not accept, and one proposed effect (a ratio of fitted species counts) was not applied (`audit/2026-11-20/codex_apply.py`, OVERRIDES; the audit is `codex_audit.py` beside it). H2 went from 14 to 15 papers, H3 from 26 to 37 (mostly analytical ultracentrifugation of purified apoE, class 3), H5 from 36 to 41; H4 gained no rows.
 - Two papers per hypothesis were drawn by hash before extraction and kept out of all prompt changes, for a later check the pipeline was not tuned on. For H1 neither yielded a row in scope.
 
 ## 6. Anything else
