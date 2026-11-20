@@ -1,0 +1,921 @@
+{
+ "hyp": "H4",
+ "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+ "A": "APOE genotype or apoE isoform (APOE4 vs APOE3)",
+ "B": "binding/adhesion strength of apoE to recycling receptors (ApoER2, LRP1, LDLR, VLDLR...) and the resulting impeded receptor recycling",
+ "scope": "IN: binding strength or kinetics of apoE isoforms to recycling receptors (ApoER2/LRP8, LRP1, LDLR, VLDLR, heparan sulfate when tied to receptor recycling), pH-dependent dissociation in endosomes, and receptor surface levels/recycling impeded by apoE4 (e.g. ApoER2, glutamate receptors trapped in endosomes), including rescues (NHE6 inhibition) in apoE4 conditions. OUT: receptor-independent effects, binding to non-recycling partners, downstream synaptic function without a receptor-recycling readout.",
+ "items": [
+  {
+   "finding_id": "P1.F1",
+   "row": {
+    "Paper/Finding ID": "P1.F1",
+    "Finding description": "Both lipidated ApoE3 and ApoE4 reduced surface LDLR relative to ApoE2 in APOE-knockout human iPSC-derived astrocytes, without an established additional ApoE4 effect.",
+    "Finding quote": "In H4, WT HAP1, and APOE KO iAstrocytes, incubation with lipApoE3/E4 significantly reduced surface LDLR relative to lipApoE2, revealing impaired LDLR recycling accompanying increased LDLR-mediated lipApoE uptake (Figure 2A–D, Figure S2A–B).",
+    "Finding summary": "(APOE3 -> APOE4) -> (shared astrocyte surface-LDLR depletion; E4-specific additional impairment unresolved)",
+    "Experimental system": "Human iPSC-derived astrocytes differentiated from an APOE-knockout clone of ThermoFisher A18945, originally APOE3/3; exogenous POPC-lipidated ApoE at 10 μg/mL for one day; surface LDLR immunostaining.",
+    "Data location": "Fig 2C",
+    "Directness class": 1,
+    "Directness strength": "1 very strong"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 2,
+    "why": "Isoform varied but the readout is steady surface level of an apoE-binding receptor, a surrogate B' for impeded recycling (endocytosis or synthesis could also move it), so class 3, strength 2, same as every other surface-level row. (was 1/1)"
+   },
+   "item": 1
+  },
+  {
+   "finding_id": "P1.F7",
+   "row": {
+    "Paper/Finding ID": "P1.F7",
+    "Finding description": "One-day pretreatment with either lipidated ApoE3 or ApoE4 nearly abolished subsequent LDL uptake, consistent with impaired surface-LDLR availability but without an established extra ApoE4 effect.",
+    "Finding quote": "When DiI-LDL was spiked into media after 1d pre-treatment with lipApoE3/E4, DiI-LDL uptake was nearly abolished (Figure 2K, L).",
+    "Finding summary": "(APOE3 -> APOE4) -> (shared near-abolition of subsequent LDL uptake)",
+    "Experimental system": "Human H4 neuroglioma cells; 10 μg/mL POPC-lipidated ApoE for one day, followed by 10 μg/mL DiI-LDL for 3–4 h; live confocal imaging.",
+    "Data location": "Fig 2K",
+    "Directness class": 3,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 3,
+    "why": "Receptor localization in early/recycling compartments (or cellular apoE-receptor association) is a surrogate B' for trapping, scored class 3, strength 3 like every other such colocalization row. (was 3/2)"
+   },
+   "item": 2
+  },
+  {
+   "finding_id": "P2.F1",
+   "row": {
+    "Paper/Finding ID": "P2.F1",
+    "Finding description": "Without insulin, nearly 20% of IR-GFP colocalized with transferrin-positive endosomes after apoE4, with less colocalization after apoE3, across three independent experiments.",
+    "Finding quote": "In the absence of insulin, we found that nearly 20% of IR-GFP co-localized with transferrin in the endosomal compartment in apoE4-treated cells whereas less co-localization was observed in apoE3-treated cells (Figures 6A and 6D).",
+    "Finding summary": "(apoE3 -> apoE4) -> (greater insulin-receptor localization in transferrin-positive endosomes)",
+    "Experimental system": "Human SH-SY5Y cells expressing human IR-GFP; overnight 100 nM recombinant apoE, no insulin; Alexa568-transferrin at 20 μg/ml for one hour; confocal colocalization analysis.",
+    "Data location": "Fig 6D",
+    "Directness class": 3,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 3,
+    "why": "Receptor localization in early/recycling compartments (or cellular apoE-receptor association) is a surrogate B' for trapping, scored class 3, strength 3 like every other such colocalization row. (was 3/2)"
+   },
+   "item": 3
+  },
+  {
+   "finding_id": "P2.F7",
+   "row": {
+    "Paper/Finding ID": "P2.F7",
+    "Finding description": "At 60 minutes, apoE4-treated neurons retained significantly more internalized insulin receptor than apoE3-treated neurons, indicating delayed receptor recycling.",
+    "Finding quote": "After 60 minutes treatment with apoE3, the amount of internalized (biotinylated) IR was reduced, reflecting a membrane recycling of IR and subsequent biotin cleavage. Interestingly, apoE4-treated cells exhibited significantly more intracellular IR compared to those treated with apoE3 at 60 minutes, suggesting a delayed recycling of IR in the presence of apoE4 (Figure S8A).",
+    "Finding summary": "(apoE3 -> apoE4) -> (greater intracellular insulin-receptor retention at 60 minutes)",
+    "Experimental system": "Primary cortical neurons from embryonic Apoe−/− mice; surface proteins labeled with cleavable biotin at 4°C, then 100 nM recombinant apoE at 37°C; surface stripping and intracellular insulin-receptor immunoblotting.",
+    "Data location": "Fig S8A",
+    "Directness class": 3,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "Isoform varied and return of internalized receptor to the surface measured directly (B itself), so class 1, strength 1, matching the other receptor-recycling chase assays. (was 3/2)"
+   },
+   "item": 4
+  },
+  {
+   "finding_id": "P2.F10",
+   "row": {
+    "Paper/Finding ID": "P2.F10",
+    "Finding description": "More insulin receptor co-immunoprecipitated with recombinant apoE4 than with recombinant apoE3 after solution incubation.",
+    "Finding quote": "We found that more IR was co-immunoprecipitated with apoE4 than with apoE3 (Figure 5C).",
+    "Finding summary": "(apoE3 -> apoE4) -> (greater insulin-receptor association)",
+    "Experimental system": "Cell-free solution binding of recombinant human apoE at 1 μM and human insulin receptor at 400 nM for one hour at 37°C, followed by apoE immunoprecipitation and insulin-receptor immunoblotting.",
+    "Data location": "Fig 5C",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+   },
+   "item": 5
+  },
+  {
+   "finding_id": "P2.F12",
+   "row": {
+    "Paper/Finding ID": "P2.F12",
+    "Finding description": "Without insulin stimulation, apoE4 but not apoE3 significantly reduced neuronal surface insulin receptor relative to vehicle in three independent experiments.",
+    "Finding quote": "In the absence of insulin stimulation, we found that apoE4 but not apoE3 significantly reduced the amount of cell surface IR (Figures 5G, H).",
+    "Finding summary": "(apoE3 -> apoE4) -> (lower neuronal surface insulin receptor)",
+    "Experimental system": "Primary cortical neurons from embryonic day 16–18 Apoe−/− mice, cultured to DIV10, treated overnight with 100 nM recombinant human apoE; surface biotinylation and insulin-receptor immunoblotting without insulin.",
+    "Data location": "Fig 5G-H",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 2,
+    "why": "Isoform varied but the readout is steady surface level of an apoE-binding receptor, a surrogate B' for impeded recycling (endocytosis or synthesis could also move it), so class 3, strength 2, same as every other surface-level row. (was 1/2)"
+   },
+   "item": 6
+  },
+  {
+   "finding_id": "P2.F15",
+   "row": {
+    "Paper/Finding ID": "P2.F15",
+    "Finding description": "At 16 μg/ml, apoE4 inhibited insulin–insulin-receptor binding by nearly 50%, versus 25% with apoE3, in three independent experiments.",
+    "Finding quote": "When apoE was co-incubated with insulin and IR, we found that apoE4 (16 μg/ml) reduced insulin-IR binding by nearly 50%, which is significantly higher than apoE3 treatment (25%) (Figure 5F).",
+    "Finding summary": "(apoE3 -> apoE4) -> (greater inhibition of insulin binding to insulin receptor)",
+    "Experimental system": "Cell-free competition assay with recombinant human apoE, biotinylated human insulin at 8 nM and human insulin receptor at 80 nM; one-hour incubation at 37°C followed by streptavidin capture.",
+    "Data location": "Fig 5F",
+    "Directness class": 3,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 3/3)"
+   },
+   "item": 7
+  },
+  {
+   "finding_id": "P3.F1",
+   "row": {
+    "Paper/Finding ID": "P3.F1",
+    "Finding description": "SPR measurements showed high-affinity binding of lipid-free apoE3 and apoE4 to VLDLR without reported isoform discrimination; no significant difference was reported.",
+    "Finding quote": "Second, our experi- ments conﬁrmed that the VLDL receptor recognizes all apoE isoforms with equal afﬁnity.",
+    "Finding summary": "(apoE3 -> apoE4) -> (no change in lipid-free apoE binding affinity for VLDLR)",
+    "Experimental system": "Purified lipid-free apoE3 and apoE4 injected over immobilized soluble human VLDLR repeats 1–8 on CM5 SPR chips; receptor density 120 RU; HBS-P buffer, pH 7.4; 3-min binding at 25°C and 10 µl/min as specified in Fig 2; buffer replacement initiated dissociation; no brain cells or receptor recycling measured.",
+    "Data location": "Fig 2B–C; Table 1",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+   },
+   "item": 8
+  },
+  {
+   "finding_id": "P3.F3",
+   "row": {
+    "Paper/Finding ID": "P3.F3",
+    "Finding description": "Immobilized LRP showed weak binding to lipid-free apoE4 but no detectable binding to lipid-free apoE3, although the authors suggested apoE4 aggregation might explain its weak interaction.",
+    "Finding quote": "In contrast, LRP failed to recognize lipid-free apoE2 and apoE3 and bound weakly to lipid-free apoE4 in solution (Fig. 2D–F).",
+    "Finding summary": "(apoE3 -> apoE4) -> (undetectable to weak lipid-free apoE binding to LRP)",
+    "Experimental system": "Purified lipid-free apoE isoforms and human placental LRP immobilized on CM5 SPR chips at 3,500 RU; apoE2/apoE3 disulfide-linked aggregates removed when present; HBS-P buffer, pH 7.4; 3-min binding at 25°C and 10 µl/min; no brain cells, endosomal conditions, or receptor recycling measured.",
+    "Data location": "Fig 2E–F; Results, The VLDL receptor recognizes lipid-free apoE isoforms",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+   },
+   "item": 9
+  },
+  {
+   "finding_id": "P4.F1",
+   "row": {
+    "Paper/Finding ID": "P4.F1",
+    "Finding description": "Human ApoE4 reduced surface Apoer2 more than ApoE3 after Reelin treatment of primary rat cortical neurons in three independent experiments.",
+    "Finding quote": "While Apoer2 quickly recycled in the presence of ApoE3, its reappearance on the cell surface was greatly delayed in the presence of ApoE4 (Figure 2B,C).",
+    "Finding summary": "(apoE3 -> apoE4) -> (lower surface Apoer2; delayed receptor recycling)",
+    "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14, exposed to HEK293-secreted human ApoE particles and Reelin; Results describe 1 h ApoE pretreatment, whereas Methods specify 30 min, followed by 30 min Reelin; surface biotinylation at 4°C and surface/total Apoer2 immunoblotting. No human brain cells were tested.",
+    "Data location": "Fig 2B; supplementary file elife-40048-fig2-data1.xlsx, sheet Fig2C, Apoer2 E3+R versus E4+R",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 2,
+    "why": "Isoform varied but the readout is steady surface level of an apoE-binding receptor, a surrogate B' for impeded recycling (endocytosis or synthesis could also move it), so class 3, strength 2, same as every other surface-level row. (was 1/2)"
+   },
+   "item": 10
+  },
+  {
+   "finding_id": "P4.F3",
+   "row": {
+    "Paper/Finding ID": "P4.F3",
+    "Finding description": "After three hours of neuronal exposure, more ApoE4 than ApoE3 remained associated with immunoprecipitated Apoer2 in three independent experiments.",
+    "Finding quote": "The delayed recycling of Apoer2 was also apparent by the prolonged retention of cell-derived ApoE4 compared to cell-derived ApoE3 in Apoer2-containing intracellular compartments as shown by co-immunoprecipitation of neuronal lysates (Figure 2D,E).",
+    "Finding summary": "(apoE3 -> apoE4) -> (greater retained ApoE–Apoer2 association)",
+    "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; HEK293-secreted human ApoE3 or ApoE4, 5 µg/ml for 3 h at 37°C; anti-Apoer2 co-immunoprecipitation from neuronal lysates and anti-ApoE immunoblot.",
+    "Data location": "Fig 2D; supplementary file elife-40048-fig2-data1.xlsx, sheet Fig2E, E3 versus E4",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 2,
+    "why": "Co-IP of apoE with receptor from neuronal lysates after 3 h measures cellular association/retention, a surrogate B' like the PLA association rows, so class 3, strength 2. (was 1/2)"
+   },
+   "item": 11
+  },
+  {
+   "finding_id": "P4.F5",
+   "row": {
+    "Paper/Finding ID": "P4.F5",
+    "Finding description": "Cell-secreted human ApoE3 and ApoE4 particles showed similar binding to immobilized mouse Apoer2-Fc, with no significant difference reported.",
+    "Finding quote": "ApoE3 and ApoE4 bind Apoer2 with similar affinity, whereas ApoE2 binding to Apoer2 is poor.",
+    "Finding summary": "(apoE3 -> apoE4) -> (no change in Apoer2 binding reported)",
+    "Experimental system": "Cell-free pull-down assay using human ApoE isoforms naturally secreted by transfected HEK293 cells and mouse Apoer2 ectodomain-Fc immobilized on protein-G beads; ApoE 0–10 µg/ml; binding for 4 h at 4°C with 1 mM CaCl2; ApoE immunoblot. No human brain cells were tested.",
+    "Data location": "Fig 1A",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+   },
+   "item": 12
+  },
+  {
+   "finding_id": "P4.F7",
+   "row": {
+    "Paper/Finding ID": "P4.F7",
+    "Finding description": "Quantification showed comparable surface-to-total Lrp1 ratios under ApoE3 and ApoE4 across three independent experiments.",
+    "Finding quote": "Other ApoE receptors, such as low-density lipoprotein receptor-related protein 1 (Lrp1) and low-density lipoprotein receptor (Ldlr), as well as the endocytic receptor for transferrin (TfR) and insulin receptor (IR) exhibit comparable surface levels in the presence of ApoE3 or ApoE4.",
+    "Finding summary": "(apoE3 -> apoE4) -> (comparable surface-to-total Lrp1 ratios)",
+    "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; human ApoE3 or ApoE4 and Reelin; quantitative surface-biotinylation immunoblot assay for Lrp1.",
+    "Data location": "Fig 2C",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 2,
+    "why": "Isoform varied but the readout is steady surface level of an apoE-binding receptor, a surrogate B' for impeded recycling (endocytosis or synthesis could also move it), so class 3, strength 2, same as every other surface-level row. (was 1/2)"
+   },
+   "item": 13
+  },
+  {
+   "finding_id": "P4.F9",
+   "row": {
+    "Paper/Finding ID": "P4.F9",
+    "Finding description": "Increasing bafilomycin concentrations counteracted EMD87580-mediated Apoer2 recycling rescue in ApoE4-treated neurons across three independent experiments.",
+    "Finding quote": "Figure 4F and G show that the resulting increase of the endosomal pH reverses the correction of the ApoE4 recycling deficit by EMD87580 and results in renewed impairment of Apoer2 trafficking.",
+    "Finding summary": "(proton-pump inhibition with apoE4 and EMD87580 present) -> (renewed Apoer2 recycling impairment)",
+    "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; human ApoE4 and Reelin, EMD87580 3 µM, and increasing bafilomycin concentrations; drugs preincubated before ApoE/Reelin; surface-biotinylation Apoer2 assay. Endosomal pH was mechanistically inferred, not directly measured in this panel.",
+    "Data location": "Fig 4G",
+    "Directness class": 2,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 5,
+    "strength": 3,
+    "why": "A is held at APOE4 and a path variable (NHE6/endosomal pH) is manipulated, which does not perturb A even as a surrogate, so class 5 (rescue tests mediation, not A->B); strength one step below the matching isoform readout. (was 2/2)"
+   },
+   "item": 14
+  },
+  {
+   "finding_id": "P4.F11",
+   "row": {
+    "Paper/Finding ID": "P4.F11",
+    "Finding description": "Adding human ApoE4 reduced Reelin-associated surface Apoer2 relative to the no-ApoE4 condition in three independent neuronal experiments.",
+    "Finding quote": "ApoE-conditioned media treatment reduces the surface expression of Apoer2 in presence of Reelin in primary neurons.",
+    "Finding summary": "(no added apoE4 -> added apoE4) -> (lower surface Apoer2)",
+    "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; Fig 2B lane 1 (Reelin alone) versus lane 3 (human cell-secreted ApoE4 then Reelin); ApoE pretreatment 1 h per Results, 30 min per Fig 2A and Methods, followed by 30 min Reelin; surface biotinylation followed by surface/total Apoer2 immunoblotting. Standard Methods concentrations: ApoE4 5 µg/ml and Reelin 2 µg/ml.",
+    "Data location": "Fig 2B-C (lanes 1 and 3); supplementary file elife-40048-fig2-data1.xlsx, sheet Fig2C, Apoer2 C+R versus E4+R",
+    "Directness class": 2,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 4,
+    "strength": 4,
+    "why": "Comparator is no added apoE, not apoE3, so apoE4 addition is a surrogate A' (any apoE ligand drives receptor internalization, shown in P7) and surface/internalized receptor is a surrogate B': class 4, strength 4. (was 2/3)"
+   },
+   "item": 15
+  },
+  {
+   "finding_id": "P4.F13",
+   "row": {
+    "Paper/Finding ID": "P4.F13",
+    "Finding description": "The supplementary surface-Apoer2 measurements were lower with ApoE4 plus Reelin than with control plus Reelin in all three independent experiments.",
+    "Finding quote": "N/A",
+    "Finding summary": "(no added apoE4 -> added apoE4) -> (lower surface-to-total Apoer2)",
+    "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; no-knockdown C+R versus E4+R comparison; surface biotinylation and surface/total Apoer2 immunoblot quantification. Supplement supplies three raw values per group without a printed aggregate effect.",
+    "Data location": "Fig 5B; supplementary file elife-40048-fig5-data1.xlsx, sheet Fig5B, C+R and E4+R columns",
+    "Directness class": 2,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 4,
+    "strength": 4,
+    "why": "Comparator is no added apoE, not apoE3, so apoE4 addition is a surrogate A' (any apoE ligand drives receptor internalization, shown in P7) and surface/internalized receptor is a surrogate B': class 4, strength 4. (was 2/3)"
+   },
+   "item": 16
+  },
+  {
+   "finding_id": "P4.F15",
+   "row": {
+    "Paper/Finding ID": "P4.F15",
+    "Finding description": "Adding ApoE4 reduced neuronal surface Apoer2 relative to the no-ApoE4 condition in three independent experiments.",
+    "Finding quote": "N/A",
+    "Finding summary": "(no added apoE4 -> added apoE4) -> (lower surface Apoer2)",
+    "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; Fig 6B lanes 1 versus 2, both with Reelin, without inhibitor or shRNA; human cell-secreted ApoE4; surface-biotinylation Apoer2 immunoblot.",
+    "Data location": "Fig 6B, Apoer2 blot, lanes 1 and 2; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6C, C+R versus E4+R",
+    "Directness class": 2,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 4,
+    "strength": 4,
+    "why": "Comparator is no added apoE, not apoE3, so apoE4 addition is a surrogate A' (any apoE ligand drives receptor internalization, shown in P7) and surface/internalized receptor is a surrogate B': class 4, strength 4. (was 2/3)"
+   },
+   "item": 17
+  },
+  {
+   "finding_id": "P4.F17",
+   "row": {
+    "Paper/Finding ID": "P4.F17",
+    "Finding description": "Quantification showed lower surface Apoer2 after ApoE4 addition than without ApoE4 in three independent experiments.",
+    "Finding quote": "N/A",
+    "Finding summary": "(no added apoE4 -> added apoE4) -> (lower surface-to-total Apoer2)",
+    "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; no-shRNA/no-inhibitor comparison corresponding to Fig 6B lanes 1 and 2; human ApoE4 and Reelin; surface/total Apoer2 quantification.",
+    "Data location": "Fig 6C; supplementary file elife-40048-fig6-data1.xlsx, sheet Fig6C, C+R versus E4+R",
+    "Directness class": 2,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 4,
+    "strength": 4,
+    "why": "Comparator is no added apoE, not apoE3, so apoE4 addition is a surrogate A' (any apoE ligand drives receptor internalization, shown in P7) and surface/internalized receptor is a surrogate B': class 4, strength 4. (was 2/3)"
+   },
+   "item": 18
+  },
+  {
+   "finding_id": "P4.F28",
+   "row": {
+    "Paper/Finding ID": "P4.F28",
+    "Finding description": "NHE5 knockdown left surface Apoer2 low in ApoE4-treated neurons across three independent experiments.",
+    "Finding quote": "None of the shRNAs directed against NHE1, 5, 7, 8 or 9 had any effect on surface Apoer2 expression, neither in the absence of ApoE4 or in its presence.",
+    "Finding summary": "(NHE5 knockdown with apoE4 present) -> (no change in surface Apoer2)",
+    "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons; lentiviral NHE5 shRNA, assay 3 days after infection; human ApoE4 plus Reelin; surface-biotinylation Apoer2 quantification.",
+    "Data location": "Fig 5D; supplementary file elife-40048-fig5-data1.xlsx, sheet Fig5D, E4+R versus E4+R+shNHE5",
+    "Directness class": 2,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 5,
+    "strength": 3,
+    "why": "A is held at APOE4 and a path variable (NHE6/endosomal pH) is manipulated, which does not perturb A even as a surrogate, so class 5 (rescue tests mediation, not A->B); strength one step below the matching isoform readout. (was 2/3)"
+   },
+   "item": 19
+  },
+  {
+   "finding_id": "P5.F2",
+   "row": {
+    "Paper/Finding ID": "P5.F2",
+    "Finding description": "Equilibrium analysis of the SPR experiments gave a lower LRP1 KD for lipid-free apoE4 than apoE3, with printed values of 236 ± 101 nM versus 398 ± 67 nM.",
+    "Finding quote": "dApoE3 | 4.3 ± 0.8 × 104 | 9.0 ± 0.7 × 10−2 | 9.6 ± 0.1 × 10−3 | 2.6 ± 0.2 × 10−3 | 456 ± 48 | 398 ± 67 dApoE4 | 6.2 ± 0.7 × 104 | 6.5 ± 0.4 × 10−2 | 9.9 ± 0.3 × 10−3 | 2.7 ± 0.3 × 10−3 | 202 ± 51 | 236 ± 101",
+    "Finding summary": "(apoE3 -> apoE4) -> (lower equilibrium KD and higher affinity for LRP1)",
+    "Experimental system": "Cell-free Biacore 3000 SPR of commercial recombinant lipid-free human apoE expressed in E. coli binding immobilized full-length human LRP1 purified from placenta; equilibrium analysis of the apoE concentration series. The associated Fig 6 legend reports six independent experiments; receptor recycling was not assayed.",
+    "Data location": "Table 1 cKD column, ApoE3 and ApoE4 rows",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+   },
+   "item": 20
+  },
+  {
+   "finding_id": "P5.F4",
+   "row": {
+    "Paper/Finding ID": "P5.F4",
+    "Finding description": "Bivalent-model fitting gave apoE4 a numerically higher first association rate constant for LRP1 than apoE3, with ka1 values of (6.2 ± 0.7) × 10^4 versus (4.3 ± 0.8) × 10^4 M−1 s−1; statistical significance was not reported.",
+    "Finding quote": "dApoE3 | 4.3 ± 0.8 × 104 | 9.0 ± 0.7 × 10−2 | 9.6 ± 0.1 × 10−3 | 2.6 ± 0.2 × 10−3 | 456 ± 48 | 398 ± 67 dApoE4 | 6.2 ± 0.7 × 104 | 6.5 ± 0.4 × 10−2 | 9.9 ± 0.3 × 10−3 | 2.7 ± 0.3 × 10−3 | 202 ± 51 | 236 ± 101",
+    "Finding summary": "(apoE3 -> apoE4) -> (higher first association rate constant for LRP1)",
+    "Experimental system": "Cell-free Biacore 3000 SPR; recombinant lipid-free human apoE expressed in E. coli and immobilized full-length human placental LRP1; global bivalent-model fitting of association and dissociation data. Six independent experiments reported in Fig 6 legend; no receptor-recycling measurement.",
+    "Data location": "Table 1 ka1 column, ApoE3 and ApoE4 rows",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+   },
+   "item": 21
+  },
+  {
+   "finding_id": "P5.F6",
+   "row": {
+    "Paper/Finding ID": "P5.F6",
+    "Finding description": "Bivalent-model fitting gave apoE4 a slightly higher numerical second dissociation rate constant than apoE3, with kd2 values of (2.7 ± 0.3) × 10−3 versus (2.6 ± 0.2) × 10−3 s−1, opposing slower dissociation for this individual step; statistical significance was not reported.",
+    "Finding quote": "dApoE3 | 4.3 ± 0.8 × 104 | 9.0 ± 0.7 × 10−2 | 9.6 ± 0.1 × 10−3 | 2.6 ± 0.2 × 10−3 | 456 ± 48 | 398 ± 67 dApoE4 | 6.2 ± 0.7 × 104 | 6.5 ± 0.4 × 10−2 | 9.9 ± 0.3 × 10−3 | 2.7 ± 0.3 × 10−3 | 202 ± 51 | 236 ± 101",
+    "Finding summary": "(apoE3 -> apoE4) -> (slightly higher second dissociation rate constant in the LRP1 bivalent-binding model)",
+    "Experimental system": "Cell-free Biacore 3000 SPR; recombinant lipid-free human apoE expressed in E. coli binding immobilized full-length human placental LRP1; global bivalent-binding model. kd2 describes dissociation from the model's bivalent complex. Six independent experiments reported in Fig 6 legend; endosomal pH-dependent dissociation and recycling were not assayed.",
+    "Data location": "Table 1 kd2 column, ApoE3 and ApoE4 rows",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+   },
+   "item": 22
+  },
+  {
+   "finding_id": "P7.F2",
+   "row": {
+    "Paper/Finding ID": "P7.F2",
+    "Finding description": "During Reelin costimulation, human ApoE4 produced a greater reduction of surface Apoer2 than ApoE3 in primary mouse cortical neurons.",
+    "Finding quote": "ApoE3 was marginally, but not significantly, more effective than ApoE2, whereas ApoE4 led to a dramatic and statistically highly significant reduction of Apoer2 at the neuronal cell surface.",
+    "Finding summary": "(ApoE3 -> ApoE4, with Reelin) -> (lower neuronal surface Apoer2)",
+    "Experimental system": "Primary cortical neurons from embryonic day 18 wild-type mice at 12–13 days in vitro; 3 μg/mL HEK293-secreted human ApoE isoforms plus 2 μg/mL Reelin for 2 hours at 37 °C according to Fig 1C legend; surface biotinylation, NeutrAvidin precipitation, and Apoer2 immunoblotting normalized to total Apoer2. The general SI biotinylation protocol instead specifies 15 minutes. Recipient cells were mouse neurons.",
+    "Data location": "Fig 1C",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 2,
+    "why": "Isoform varied but the readout is steady surface level of an apoE-binding receptor, a surrogate B' for impeded recycling (endocytosis or synthesis could also move it), so class 3, strength 2, same as every other surface-level row. (was 1/2)"
+   },
+   "item": 23
+  },
+  {
+   "finding_id": "P7.F5",
+   "row": {
+    "Paper/Finding ID": "P7.F5",
+    "Finding description": "In acutely Reelin-stimulated primary mouse cortical neurons, ApoE4 treatment reduced surface GluN2B in the ApoE isoform comparison, consistent with impaired glutamate-receptor trafficking.",
+    "Finding quote": "ApoE4 reduces GluA1, GluA2/3, and GluN2B cell-surface levels in acutely Reelin stimulated primary neurons.",
+    "Finding summary": "(ApoE3 -> ApoE4, with Reelin) -> (lower neuronal surface GluN2B)",
+    "Experimental system": "Primary embryonic wild-type mouse cortical neurons at 12–13 days in vitro, exposed to HEK293-secreted human ApoE isoforms and acute Reelin stimulation; surface biotinylation, NeutrAvidin isolation, and GluN2B immunoblotting. The SI surface-biotinylation protocol specifies 3 μg/mL ApoE and 15 minutes at 37 °C. Supplied text does not separately assign subunits to Fig 2H versus Fig 2I. Recipient cells were mouse neurons.",
+    "Data location": "Fig 2I, GluN2B bar group (blots in Fig 2H)",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 3,
+    "why": "Isoform varied, readout is surface level of a receptor not shown to bind apoE, a surrogate one step further from B, so class 3, strength 3 like the other non-apoE-receptor surface rows. (was 1/2)"
+   },
+   "item": 24
+  },
+  {
+   "finding_id": "P9.F2",
+   "row": {
+    "Paper/Finding ID": "P9.F2",
+    "Finding description": "Restoring NHE6 expression in APOE4 mouse astrocytes increased surface-biotinylated LRP1 approximately 5.7-fold relative to empty vector in three biological replicates.",
+    "Finding quote": "Similar results were obtained in surface biotinylation experiments that showed robust, ∼5.7-fold higher surface LRP1 levels in ApoE4 cells with restored NHE6 expression, compared with transfection with empty vector ( SI Appendix , Fig. S7 C ).",
+    "Finding summary": "(NHE6 expression in APOE4 astrocytes) -> (higher surface LRP1)",
+    "Experimental system": "Cultured mouse astrocytes with human APOE4 knock-in on an ApoE-knockout background; age and strain unstated. Lentiviral NHE6-GFP expression versus empty vector; cell-surface biotinylation and LRP1 immunoblotting in three biological replicates. Expression duration unstated. Not human brain cells.",
+    "Data location": "Supplementary Fig S7C, surface LRP1 comparison",
+    "Directness class": 2,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 5,
+    "strength": 3,
+    "why": "A is held at APOE4 and a path variable (NHE6/endosomal pH) is manipulated, which does not perturb A even as a surrogate, so class 5 (rescue tests mediation, not A->B); strength one step below the matching isoform readout. (was 2/2)"
+   },
+   "item": 25
+  },
+  {
+   "finding_id": "P9.F4",
+   "row": {
+    "Paper/Finding ID": "P9.F4",
+    "Finding description": "Live-cell surface antibody labeling found approximately 55% fewer LRP1-positive APOE4 than APOE3 mouse astrocytes in three biological replicates.",
+    "Finding quote": "Second, an antibody directed against an external epitope of LRP1 to quantify surface expression in live cells by flow cytometry analysis showed a reduction of LRP1-positive cells by ∼55% in ApoE4 astrocytes ( Fig. 2 C ) and by ∼51% in patient-derived ApoE4/4 fibroblasts ( SI Appendix , Fig. S2 D ).",
+    "Finding summary": "(APOE3 -> APOE4) -> (lower surface LRP1 positivity)",
+    "Experimental system": "Cultured mouse astrocytes with human APOE3 or APOE4 knock-in on an ApoE-knockout background; age and strain not stated. Live, nonpermeabilized cells labeled on ice with external-epitope anti-LRP1 antibody and analyzed by flow cytometry; Fig 2C specifies 10,000 cells in biological triplicates. Not human brain cells.",
+    "Data location": "Fig 2C",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 2,
+    "why": "Isoform varied but the readout is steady surface level of an apoE-binding receptor, a surrogate B' for impeded recycling (endocytosis or synthesis could also move it), so class 3, strength 2, same as every other surface-level row. (was 1/2)"
+   },
+   "item": 26
+  },
+  {
+   "finding_id": "P9.F6",
+   "row": {
+    "Paper/Finding ID": "P9.F6",
+    "Finding description": "Expressing wild-type NHE6 in APOE4 mouse astrocytes increased surface LRP1 staining approximately 2.5-fold relative to vector-transfected APOE4 cells.",
+    "Finding quote": "Compared with the weak surface LRP1 staining in vector-transfected ApoE4 astrocytes, we observed prominent, ∼2.5-fold higher LRP1 staining in ApoE4 cells expressing ectopic NHE6 ( Fig. 4 F ).",
+    "Finding summary": "(NHE6 expression in APOE4 astrocytes) -> (higher surface LRP1)",
+    "Experimental system": "Cultured mouse astrocytes with human APOE4 knock-in on an ApoE-knockout background; age and strain not stated. Lentiviral expression of wild-type NHE6-GFP versus empty vector; surface immunofluorescence in nonpermeabilized cells, n=40 per condition. Treatment duration not stated; not human brain cells.",
+    "Data location": "Fig 4F",
+    "Directness class": 2,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 5,
+    "strength": 3,
+    "why": "A is held at APOE4 and a path variable (NHE6/endosomal pH) is manipulated, which does not perturb A even as a surrogate, so class 5 (rescue tests mediation, not A->B); strength one step below the matching isoform readout. (was 2/2)"
+   },
+   "item": 27
+  },
+  {
+   "finding_id": "P9.F8",
+   "row": {
+    "Paper/Finding ID": "P9.F8",
+    "Finding description": "TSA treatment of APOE4 mouse astrocytes increased surface LRP1 approximately twofold compared with vehicle in three biological replicates.",
+    "Finding quote": "Importantly, we observed prominent, approximately twofold higher surface LRP1 expression in ApoE4 cells with TSA treatment ( Fig. 5 E and SI Appendix , Fig. S8 G ).",
+    "Finding summary": "(TSA treatment in APOE4 astrocytes) -> (higher surface LRP1)",
+    "Experimental system": "Cultured mouse astrocytes with human APOE4 knock-in on an ApoE-knockout background; age and strain not stated. TSA, 5 μM for 12 hours, versus DMSO; surface LRP1 labeling at 4°C and flow cytometry in biological triplicates. Not human brain cells; HDAC inhibition is a pleiotropic intervention.",
+    "Data location": "Fig 5E",
+    "Directness class": 2,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 5,
+    "strength": 4,
+    "why": "A is held at APOE4 and a receptor knockdown or broad drug (path variable) is manipulated with a localization or indirect readout, so class 5, strength 4. (was 2/3)"
+   },
+   "item": 28
+  },
+  {
+   "finding_id": "P9.F11",
+   "row": {
+    "Paper/Finding ID": "P9.F11",
+    "Finding description": "Surface antibody labeling found approximately 51% lower LRP1 positivity in APOE4/4 AD-patient fibroblasts than in age-matched APOE3/3 control fibroblasts.",
+    "Finding quote": "Second, an antibody directed against an external epitope of LRP1 to quantify surface expression in live cells by flow cytometry analysis showed a reduction of LRP1-positive cells by ∼55% in ApoE4 astrocytes ( Fig. 2 C ) and by ∼51% in patient-derived ApoE4/4 fibroblasts ( SI Appendix , Fig. S2 D ).",
+    "Finding summary": "(APOE3/3 control fibroblasts -> APOE4/4 AD fibroblasts) -> (lower surface LRP1 positivity)",
+    "Experimental system": "Human primary fibroblast lines APOE3/3 AG04387 and AD-patient-derived APOE4/4 AG10788; age matched, exact ages unstated. External-epitope anti-LRP1 labeling of live, nonpermeabilized cells on ice, followed by flow cytometry in biological triplicates. Nonisogenic, nonbrain cells; APOE4 donor has AD.",
+    "Data location": "Supplementary Fig S2D",
+    "Directness class": 1,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 3,
+    "why": "Surface LRP1 is a surrogate B' (class 3); AD-patient versus control fibroblasts adds a disease-status alternative route, so strength 3. (was 1/3)"
+   },
+   "item": 29
+  },
+  {
+   "finding_id": "P10.F2",
+   "row": {
+    "Paper/Finding ID": "P10.F2",
+    "Finding description": "Antibody-labeled sortilin returned to the CHO-cell surface with apoE3, whereas apoE4 caused internalized receptors to remain largely intracellular during the recycling assay.",
+    "Finding quote": "The recycling path of sortilin established in CHO cells was not impacted by the presence of apoE3 in the culture medium (Figure 6B). However, in the presence of apoE4, internalized receptors failed to re-appear on the cell surface and remained largely intracellular (Fig- ure 6B",
+    "Finding summary": "(apoE3 -> apoE4) -> (reduced cell-surface recycling and increased intracellular retention of sortilin)",
+    "Experimental system": "Hamster CHO-S cells stably expressing murine sortilin in apoE3- or apoE4-conditioned medium; surface receptors antibody-labeled at 4 °C, internalized for 15 minutes at 37 °C, then assessed after 60 minutes with dynasore at 37 °C. Immunostaining of permeabilized versus non-permeabilized cells distinguished total and surface receptor pools.",
+    "Data location": "Fig 6B",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "Isoform varied and return of internalized receptor to the surface measured directly (B itself), so class 1, strength 1, matching the other receptor-recycling chase assays. (was 1/2)"
+   },
+   "item": 30
+  },
+  {
+   "finding_id": "P11.F1",
+   "row": {
+    "Paper/Finding ID": "P11.F1",
+    "Finding description": "Across three independent experiments in primary mouse neurons treated with Reelin, human ApoE4 reduced surface ApoER2 more than ApoE3.",
+    "Finding quote": "Receptor surface levels show a stronger reduction with ApoE4 than ApoE3.",
+    "Finding summary": "(ApoE3 -> ApoE4) -> (lower neuronal surface ApoER2 during Reelin stimulation)",
+    "Experimental system": "Primary cortical neurons isolated from E18 Slc9a6 wildtype mouse embryos, with female Slc9a6+/+ and male Slc9a6y/+ littermates represented; no AD-model mutation reported for this assay. At DIV10–14, neurons received human ApoE3 or ApoE4 conditioned medium from transfected HEK293 cells, 5 μg/ml for 30 minutes, followed by Reelin, 2 μg/ml for another 30 minutes. Surface ApoER2 was measured by sulfo-NHS-SS-biotin labeling, NeutrAvidin isolation, and immunoblotting, with total receptor immunoblots. This measures receptor surface availability as a recycling readout, not apoE binding strength or dissociation kinetics; the brain cells were mouse, not human.",
+    "Data location": "Fig 4C",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 2,
+    "why": "Isoform varied but the readout is steady surface level of an apoE-binding receptor, a surrogate B' for impeded recycling (endocytosis or synthesis could also move it), so class 3, strength 2, same as every other surface-level row. (was 1/2)"
+   },
+   "item": 31
+  },
+  {
+   "finding_id": "P11.F3",
+   "row": {
+    "Paper/Finding ID": "P11.F3",
+    "Finding description": "Across three independent experiments, germline NHE6 deletion completely restored the ApoER2 recycling readout in primary mouse neurons exposed to human ApoE4 and Reelin.",
+    "Finding quote": "Apoer2 recycling was completely restored in Slc9a6- neurons treated with ApoE4 (Figure 4C).",
+    "Finding summary": "(NHE6 present -> NHE6 deleted, with ApoE4) -> (restored neuronal surface ApoER2)",
+    "Experimental system": "Primary cortical neurons from E18 germline Slc9a6-knockout mouse embryos and wildtype littermates, including female Slc9a6-/- and male Slc9a6y/- knockouts; no AD-model mutation reported. At DIV10–14, cultures received HEK293-secreted human ApoE4 at 5 μg/ml for 30 minutes, followed by Reelin at 2 μg/ml for another 30 minutes. Surface biotinylation and immunoblotting quantified ApoER2 surface availability. Endosomal pH and apoE–receptor binding were not measured in this neuronal panel; the cells were mouse, not human.",
+    "Data location": "Fig 4C",
+    "Directness class": 2,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 5,
+    "strength": 3,
+    "why": "A is held at APOE4 and a path variable (NHE6/endosomal pH) is manipulated, which does not perturb A even as a surrogate, so class 5 (rescue tests mediation, not A->B); strength one step below the matching isoform readout. (was 2/3)"
+   },
+   "item": 32
+  },
+  {
+   "finding_id": "P12.F6",
+   "row": {
+    "Paper/Finding ID": "P12.F6",
+    "Finding description": "LRP1 knockdown reduced APOER2 early-endosomal colocalization in APOE4 neurons by a reported 38.8%, assessed in 50–53 cells from five preparations.",
+    "Finding quote": "As can be seen, the downregulation of LRP1 had no significant effects on the total levels of the receptors, had no effect on the size of early endosomes (not shown), but did abolish the excess colocalization of these receptors with early endosomes in APOE4 neurons (the percent of reduction when compared to APOE4 control equals to 38.8% in APOER2, 48.9% in IR, and 64.1% in VEGFR).",
+    "Finding summary": "(LRP1 knockdown in APOE4 neurons) -> (lower fraction of APOER2 colocalizing with early endosomes)",
+    "Experimental system": "Brain-derived primary neurons from neonatal human-APOE4 targeted-replacement mice on an α-synuclein-null background; AAV9 LRP1 gRNA plus Cas9 at DIV3; collection ten days later per CRISPR methods; APOER2/Rab5 confocal M1 analysis in transduced cells.",
+    "Data location": "Fig. 12B, APOER2, APOE4-LRP1 AAv versus APOE4 control",
+    "Directness class": 4,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 5,
+    "strength": 4,
+    "why": "A is held at APOE4 and a receptor knockdown or broad drug (path variable) is manipulated with a localization or indirect readout, so class 5, strength 4. (was 4/3)"
+   },
+   "item": 33
+  },
+  {
+   "finding_id": "P12.F11",
+   "row": {
+    "Paper/Finding ID": "P12.F11",
+    "Finding description": "APOER2 knockdown in APOE4 neurons caused no significant difference in LRP1 colocalization with early endosomes.",
+    "Finding quote": "Additionally, knock-down of APOER2 did not affect the intracellular localization of LRP1.",
+    "Finding summary": "(APOER2 knockdown in APOE4 neurons) -> (no change in LRP1 colocalization with early endosomes)",
+    "Experimental system": "Brain-derived primary neurons from neonatal human-APOE4 targeted-replacement mice on an α-synuclein-null background; AAV9 APOER2 gRNA plus Cas9 at DIV3; collection ten days later per CRISPR methods; LRP1/Rab5 confocal M1 analysis in transduced cells.",
+    "Data location": "Fig. 13B, LRP1, APOE4-APOER2 AAv versus APOE4 control",
+    "Directness class": 4,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 5,
+    "strength": 4,
+    "why": "A is held at APOE4 and a receptor knockdown or broad drug (path variable) is manipulated with a localization or indirect readout, so class 5, strength 4. (was 4/3)"
+   },
+   "item": 34
+  },
+  {
+   "finding_id": "P12.F13",
+   "row": {
+    "Paper/Finding ID": "P12.F13",
+    "Finding description": "APOER2 knockdown reduced VEGFR2 early-endosomal colocalization in APOE4 neurons by 52.6%, assessed in 24–28 cells from three preparations.",
+    "Finding quote": "A different pattern was observed with the growth factor receptors IR and VEGFR, where knocking down APOER2 increased the levels of IR (50.9% increase relative to APOE4 control) and VEGFR (21.3% increase relative to APOE4 control) in APOE4 neurons and decreased their colocalization with early endosomes (IR: 55.1% reduction, and VEGFR: 52.6% reduction relative to APOE4 control).",
+    "Finding summary": "(APOER2 knockdown in APOE4 neurons) -> (lower fraction of VEGFR2 colocalizing with early endosomes)",
+    "Experimental system": "Brain-derived primary neurons from neonatal human-APOE4 targeted-replacement mice on an α-synuclein-null background; AAV9 APOER2 gRNA plus Cas9 at DIV3; collection ten days later per CRISPR methods; VEGFR2/Rab5 confocal M1 analysis in transduced cells.",
+    "Data location": "Fig. 13B, VEGFR2, APOE4-APOER2 AAv versus APOE4 control",
+    "Directness class": 4,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 5,
+    "strength": 4,
+    "why": "A is held at APOE4 and a receptor knockdown or broad drug (path variable) is manipulated with a localization or indirect readout, so class 5, strength 4. (was 4/3)"
+   },
+   "item": 35
+  },
+  {
+   "finding_id": "P12.F18",
+   "row": {
+    "Paper/Finding ID": "P12.F18",
+    "Finding description": "LRP1 knockdown reduced VEGFR2 early-endosomal colocalization in APOE4 neurons by 64.1%, assessed in 23–27 cells from three preparations.",
+    "Finding quote": "As can be seen, the downregulation of LRP1 had no significant effects on the total levels of the receptors, had no effect on the size of early endosomes (not shown), but did abolish the excess colocalization of these receptors with early endosomes in APOE4 neurons (the percent of reduction when compared to APOE4 control equals to 38.8% in APOER2, 48.9% in IR, and 64.1% in VEGFR).",
+    "Finding summary": "(LRP1 knockdown in APOE4 neurons) -> (lower fraction of VEGFR2 colocalizing with early endosomes)",
+    "Experimental system": "Brain-derived primary neurons from neonatal human-APOE4 targeted-replacement mice on an α-synuclein-null background; AAV9 LRP1 gRNA plus Cas9 at DIV3; collection ten days later per CRISPR methods; VEGFR2/Rab5 confocal M1 analysis in transduced cells.",
+    "Data location": "Fig. 12B, VEGFR2, APOE4-LRP1 AAv versus APOE4 control",
+    "Directness class": 4,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 5,
+    "strength": 4,
+    "why": "A is held at APOE4 and a receptor knockdown or broad drug (path variable) is manipulated with a localization or indirect readout, so class 5, strength 4. (was 4/3)"
+   },
+   "item": 36
+  },
+  {
+   "finding_id": "P12.F23",
+   "row": {
+    "Paper/Finding ID": "P12.F23",
+    "Finding description": "Insulin-receptor late-endosomal colocalization was 25.80% lower in APOE4 than APOE3 neurons, measured in 25–37 cells from two to three preparations.",
+    "Finding quote": "This decrease in late endosomes was significant for both IR and VEGFR with a similar trend observed in APOER2 (IR: 25.80% decrease, p < 0.05; VEGFR: 47.74% decrease, p < 0.05; APOER2 : 22.09% decrease, p = 0.156).",
+    "Finding summary": "(APOE3 -> APOE4) -> (lower fraction of insulin receptor colocalizing with late endosomes)",
+    "Experimental system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; insulin-receptor/Rab7 double staining, confocal microscopy and M1 colocalization.",
+    "Data location": "Fig. 8C, late endosomes",
+    "Directness class": 3,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 4,
+    "why": "Late-endosome/lysosome colocalization is weakly coupled to recycling (degradation is an alternative route), so class 3, strength 4, same for every receptor in this assay. (was 3/3)"
+   },
+   "item": 37
+  },
+  {
+   "finding_id": "P13.F2",
+   "row": {
+    "Paper/Finding ID": "P13.F2",
+    "Finding description": "Adding apoE4 changed the reported axotomy response from unchanged surface LRP8 without exogenous human apoE to increased surface LRP8, rather than reduced surface availability.",
+    "Finding quote": "With no exogenous human ApoE particles added, axotomy elevated pTyr416 phospho-Src family levels moderately, but did not alter LRP8 distribution. In the presence of added E2, axotomy reduced surface LRP8 and strongly suppressed Src activation. In stark contrast, cultures with E4 showed increased surface LRP8 and Src activation after axotomy.",
+    "Finding summary": "(no added human apoE -> added apoE4) -> (axotomy-associated increase in surface LRP8)",
+    "Experimental system": "Primary cortical neurons from P1 wild-type mice with endogenous mouse ApoE; day-7 axotomy; purified human apoE4 lipoparticles, 12 µg/ml, added 24 hours later versus no exogenous human apoE; day-12 reelin exposure and surface-biotinylation LRP8 immunoblot.",
+    "Data location": "Fig. 4K",
+    "Directness class": 4,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 4,
+    "strength": 4,
+    "why": "Comparator is no added apoE, not apoE3, so apoE4 addition is a surrogate A' (any apoE ligand drives receptor internalization, shown in P7) and surface/internalized receptor is a surrogate B': class 4, strength 4. (was 4/3)"
+   },
+   "item": 38
+  },
+  {
+   "finding_id": "P13.F4",
+   "row": {
+    "Paper/Finding ID": "P13.F4",
+    "Finding description": "Surface LRP5 immunoblots were reported to show no apoE-isoform regulation across axotomy conditions, including no significant difference reported between apoE4 and apoE3.",
+    "Finding quote": "In contrast to LRP8, surface localization of LRP5 and LRP6 was not regulated by axotomy of ApoE (Fig. S4E–S4H).",
+    "Finding summary": "(apoE3 -> apoE4) -> (no change in surface LRP5)",
+    "Experimental system": "P1 wild-type mouse primary cortical neurons from the Fig. 4J experiment; purified human apoE3 or apoE4 lipoparticles, 12 µg/ml; with or without day-7 axotomy; reelin on day 12; surface-biotinylation LRP5 immunoblot.",
+    "Data location": "Supplementary Fig. S4E",
+    "Directness class": 3,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 3,
+    "why": "Isoform varied, readout is surface level of a receptor not shown to bind apoE, a surrogate one step further from B, so class 3, strength 3 like the other non-apoE-receptor surface rows. (was 3/2)"
+   },
+   "item": 39
+  },
+  {
+   "finding_id": "P15.F2",
+   "row": {
+    "Paper/Finding ID": "P15.F2",
+    "Finding description": "Adding apoE4 caused a small increase in internalized ApoER2 relative to untreated controls in mouse N2a-APPsw cells.",
+    "Finding quote": "We observed small increases of ApoER2 and β-secretase in response to ApoE and ApoE4 ( Fig. 2 c ), whereas the increase of APP was much greater, ∼2.5 and fourfold in response to ApoE and ApoE4, respectively ( Fig. 2 c ).",
+    "Finding summary": "(no added apoE4 -> added apoE4) -> (more internalized ApoER2)",
+    "Experimental system": "Mouse Neuro-2a neuroblastoma cells stably expressing human Swedish-mutant APP, supplied by Dr. Riqiang Yan, transiently transfected with murine ApoER2 and human β-secretase. Surface proteins were pulse-labeled with cleavable sulfo-NHS-SS-biotin at 4°C, then allowed to internalize for 15 min at 37°C in control medium or medium containing 10 μg/ml apoE4. Surface biotin was stripped with glutathione; protected intracellular biotinylated proteins were recovered with NeutrAvidin agarose and analyzed by Western blot. This was not a human brain-cell system.",
+    "Data location": "Fig 2C",
+    "Directness class": 3,
+    "Directness strength": "4 weak"
+   },
+   "proposed": {
+    "class": 4,
+    "strength": 4,
+    "why": "Comparator is no added apoE, not apoE3, so apoE4 addition is a surrogate A' (any apoE ligand drives receptor internalization, shown in P7) and surface/internalized receptor is a surrogate B': class 4, strength 4. (was 3/4)"
+   },
+   "item": 40
+  },
+  {
+   "finding_id": "P19.F1",
+   "row": {
+    "Paper/Finding ID": "P19.F1",
+    "Finding description": "In normal human fibroblasts, DMPC-apoE4 produced 50% inhibition of LDL binding at 0.036 μg/ml versus 0.039 μg/ml for DMPC-apoE3, indicating slightly stronger competition without a reported significance test.",
+    "Finding quote": "Competition curves comparing LDLR binding by LDL ( Figure 7A ) and dimyristoyl phosphatidylcholine (DMPC) vesicles ( Figure 7B ) indicate that both LDL and DMPC vesicles exhibit a clear dose response, with 50% binding inhibition at 3.44 μg/ml for LDL, and 0.039 and 0.036 μg/ml for E3-DMPC and E4-DMPC, respectively.",
+    "Finding summary": "(DMPC-apoE3 -> DMPC-apoE4) -> (lower concentration required for 50% inhibition of LDLR binding)",
+    "Experimental system": "Normal human fibroblasts cultured for one week before binding assays; donor age and tissue source unspecified. Recombinant human apoE3 or apoE4 was mixed with DMPC at 1:3.75 protein:lipid by weight. Cells were incubated for 2 hours at 4°C with 2 μg/ml radiolabeled human LDL and varying competitor concentrations. LDL binding was measured in triplicate.",
+    "Data location": "Fig 7B",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+   },
+   "item": 41
+  },
+  {
+   "finding_id": "P20.F2",
+   "row": {
+    "Paper/Finding ID": "P20.F2",
+    "Finding description": "With DMPC, Table 4 reports interpolated ³H-LDL binding reductions of 59% for full-length apoE3 and 58% for apoE4. ApoE4 had 99% of apoE3’s normalized LDLR binding ability. The authors described no isoform specificity and supplied no between-isoform significance test.",
+    "Finding quote": "The LDL-R binding ability of apoE- DMPC was higher than that of LDL at the same dose (20-fold), although apoE with or without DMPC did not show isoform specificity.",
+    "Finding summary": "Full-length apoE4 retained 99% of apoE3’s reported LDLR binding ability with DMPC.",
+    "Experimental system": "Human HepG2 hepatoblastoma cells; E. coli-expressed, C-terminally His-tagged human full-length apoE; Table 4 reports 0.5 mg protein with 0.5 mg DMPC. Full-length 0.5 mg responses were interpolated from 0.125 and 1 mg measurements; 3H-LDL competition at 4 °C for 2 h. No receptor-recycling assay.",
+    "Data location": "Table 4, ApoE3 and ApoE4 rows, With DMPC columns",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+   },
+   "item": 42
+  },
+  {
+   "finding_id": "P21.F1",
+   "row": {
+    "Paper/Finding ID": "P21.F1",
+    "Finding description": "At one apoE molecule per particle, human E4/E4 LpB:E had a lower apparent LDLR dissociation constant than E3/E3 LpB:E, 9.1 versus 16.38±6 nM, indicating stronger binding; the E3/E3 value represented three preparations, whereas the E4/E4 preparation count was unstated.",
+    "Finding quote": "KD (nM) 20.2±4.6 16.38±6 2.9 7.8 4.55+1.8 0.75 00 9.1",
+    "Finding summary": "(apoE3 -> apoE4, one apoE per LpB:E particle) -> (lower apparent LDLR dissociation constant)",
+    "Experimental system": "Human HeLa cells, a non-brain carcinoma cell line of unspecified source, were preincubated for 48 hours with 10% lipoprotein-deficient serum. Human plasma LpB:E particles were isolated by sequential immunoaffinity chromatography from donors phenotyped E3/E3 or E4/E4; both preparations contained one apoB and one apoE per particle, without apoC-III. Direct iodine-125-labeled lipoprotein binding was measured at 4°C to avoid endocytosis, with a 20-fold excess of unlabeled LDL defining nonspecific binding. Apparent dissociation constants were calculated by Scatchard analysis. Receptor recycling was not measured.",
+    "Data location": "Table 2, LpB:E (n=3; apoE/apoB=1) and LpB E4/E4 rows",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+   },
+   "item": 43
+  },
+  {
+   "finding_id": "P23.F1",
+   "row": {
+    "Paper/Finding ID": "P23.F1",
+    "Finding description": "The modeled stable LDLR complex dissociated more slowly for fasting APOE3/E4 VLDL1-rich particles than APOE3/E3 particles, with kd2 values of 9.7 versus 11.2 × 10−4 s−1.",
+    "Finding quote": "Relative to the APOE3/E3 group, the dissociation rate constant (kd2) was lower (P = 0.013) and overall K2 was higher (P = 0.032) for the second step of the binding of fasting APOE3/E4 VLDL1-rich particles to the LDLR.",
+    "Finding summary": "(APOE3/E3 -> APOE3/E4) -> (slower stable VLDL1-LDLR complex dissociation)",
+    "Experimental system": "Fasting human male plasma VLDL1-rich TRL, Sf 60–400, pooled from two subjects per sample; trial mean age 48 ± 16 years. LDLR ectodomain SPR, 5 nM apoB, 25 °C, two-state fit; no endosomal pH or recycling assay.",
+    "Data location": "Table 1, VLDL1-rich TRL kd2",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 3,
+    "why": "Binding of whole native lipoproteins from genotype-differing donors is a surrogate B' for apoE-receptor adhesion (apoB and particle composition also change), so class 3, strength 3 for all native-particle rows. (was 1/2)"
+   },
+   "item": 44
+  },
+  {
+   "finding_id": "P23.F4",
+   "row": {
+    "Paper/Finding ID": "P23.F4",
+    "Finding description": "Postprandial VLDL1-rich particles from APOE3/E4 and APOE3/E3 men showed no significant genotype effect or meal-by-genotype interaction on LDLR binding; genotype-specific values were not presented.",
+    "Finding quote": "There were no significant genotype or meal*genotype interactions observed for the binding of postprandial TRL fractions to the LDLR.",
+    "Finding summary": "(APOE3/E3 -> APOE3/E4) -> (no change in postprandial VLDL1-LDLR binding)",
+    "Experimental system": "Human male crossover trial; VLDL1-rich TRL sampled at individual apoB/apoE peaks, usually 240–360 minutes after SFA, SFA-FO or UNSAT meals; two-subject pools. LDLR ectodomain SPR, 5 nM apoB, 25 °C; no recycling assay.",
+    "Data location": "Results, 'APOE genotype and the binding of postprandial TRL fractions to the LDLR', first sentence; Table 2 presents genotype-combined meal effects",
+    "Directness class": 3,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 3,
+    "why": "Binding of whole native lipoproteins from genotype-differing donors is a surrogate B' for apoE-receptor adhesion (apoB and particle composition also change), so class 3, strength 3 for all native-particle rows. (was 3/2)"
+   },
+   "item": 45
+  },
+  {
+   "finding_id": "P23.F6",
+   "row": {
+    "Paper/Finding ID": "P23.F6",
+    "Finding description": "Fasting VLDL1-rich particles from APOE3/E4 and APOE3/E3 men showed no significant difference in the initial LDLR equilibrium binding constant.",
+    "Finding quote": "K1 × 108 (M−1) | 1.8 ± 0.1 | 1.4 ± 0.2 | 0.005 | 2.0 ± 0.3 | 1.9 ± 0.2 | 0.37",
+    "Finding summary": "(APOE3/E3 -> APOE3/E4) -> (no change in initial VLDL1-LDLR equilibrium binding constant)",
+    "Experimental system": "Fasting human male plasma VLDL1-rich TRL, Sf 60–400, pooled from two subjects per sample; LDLR ectodomain SPR, 5 nM apoB, 25 °C, two-state fit. No receptor recycling measured.",
+    "Data location": "Table 1, VLDL1-rich TRL K1",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 3,
+    "why": "Binding of whole native lipoproteins from genotype-differing donors is a surrogate B' for apoE-receptor adhesion (apoB and particle composition also change), so class 3, strength 3 for all native-particle rows. (was 1/2)"
+   },
+   "item": 46
+  },
+  {
+   "finding_id": "P23.F8",
+   "row": {
+    "Paper/Finding ID": "P23.F8",
+    "Finding description": "Fasting VLDL1-rich particles from APOE3/E4 men initially associated with LDLR more slowly than APOE3/E3 particles, with ka1 values of 9.3 versus 11.3 × 10^5 M−1s−1.",
+    "Finding quote": "A slower association rate was also observed with the fasting VLDL1-rich particles from the APOE3/E4 group, but once the VLDL1-LDLR complex was formed, it was found to be more stable and dissociated at a slower rate than the APOE3/E3 VLDL-1 rich fraction.",
+    "Finding summary": "(APOE3/E3 -> APOE3/E4) -> (slower initial VLDL1-LDLR association)",
+    "Experimental system": "Fasting human male plasma VLDL1-rich TRL, Sf 60–400, pooled from two subjects per sample; trial mean age 48 ± 16 years. LDLR ectodomain SPR, 5 nM apoB, 25 °C, two-state fit; no brain cells or recycling assay.",
+    "Data location": "Table 1, VLDL1-rich TRL ka1",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 3,
+    "why": "Binding of whole native lipoproteins from genotype-differing donors is a surrogate B' for apoE-receptor adhesion (apoB and particle composition also change), so class 3, strength 3 for all native-particle rows. (was 1/2)"
+   },
+   "item": 47
+  },
+  {
+   "finding_id": "P24.F2",
+   "row": {
+    "Paper/Finding ID": "P24.F2",
+    "Finding description": "Fluorescence microscopy of the same binding assay reproduced the isoform pattern, with relative fluorescence printed under the panels as 15.094 ± 1.787 for apoE3 versus 9.880 ± 1.090 for apoE4 (0.65x with apoE4, from 30 cells by ImageJ); the asterisks in the panel mark each apoE condition against control cells, and no apoE4-versus-apoE3 significance is given.",
+    "Finding quote": "These differences among apoE isoforms were also observed under a ﬂuorescence microscope (Fig. 3B).",
+    "Finding summary": "(apoE3 -> apoE4) -> (qualitatively lower cell-associated particle fluorescence)",
+    "Experimental system": "Human Coriell GM00701 fibroblasts incubated with recombinant human apoE-containing synthetic fluorescent emulsion particles at 2.0 mg/dL apoE for 3 h at 4 °C; fluorescence microscopy at 100× magnification and ImageJ quantification. The legend describes representative images from three independent experiments and relative fluorescence calculated from 30 cells; receptor recycling was not measured.",
+    "Data location": "Fig 3B",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+   },
+   "item": 48
+  }
+ ]
+}

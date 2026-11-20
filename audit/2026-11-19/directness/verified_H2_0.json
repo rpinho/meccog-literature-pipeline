@@ -1,0 +1,426 @@
+[
+ {
+  "item": 1,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor surface level measured by surface biotinylation or surface-epitope labelling, which B names explicitly: class 1 strength 1."
+ },
+ {
+  "item": 2,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor surface level measured by surface biotinylation or surface-epitope labelling, which B names explicitly: class 1 strength 1."
+ },
+ {
+  "item": 3,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor surface level measured by surface biotinylation or surface-epitope labelling, which B names explicitly: class 1 strength 1."
+ },
+ {
+  "item": 4,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Receptor or ligand localization in endosomal or lysosomal compartments is a surrogate B' for recycling with a possible but unlikely alternative route: class 3 strength 3, matching the unchanged P7.F1 and P10 localization rows."
+ },
+ {
+  "item": 5,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because the perturbation is lentiviral NHE6 re-expression with APOE genotype or apoE isoform held at APOE4, a manipulation of a pathway step rather than of A or a surrogate of A.",
+  "why": "The manipulation does not act on APOE (not class 2) and the surface or kinetic readout is direct, but it can move receptor surface levels independently of APOE: class 5 strength 4."
+ },
+ {
+  "item": 6,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor internalization or recycling kinetics measured on the receptor or its bound ligand, named as B in the scope: class 1 strength 1."
+ },
+ {
+  "item": 7,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because the perturbation is lentiviral NHE6 re-expression with APOE genotype or apoE isoform held at APOE4, a manipulation of a pathway step rather than of A or a surrogate of A.",
+  "why": "The manipulation does not act on APOE (not class 2) and the surface or kinetic readout is direct, but it can move receptor surface levels independently of APOE: class 5 strength 4."
+ },
+ {
+  "item": 8,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Class 5 because the perturbation is lentiviral NHE6 re-expression with APOE genotype or apoE isoform held at APOE4, a manipulation of a pathway step rather than of A or a surrogate of A.",
+  "why": "The manipulation does not act on APOE and the readout is itself a surrogate for recycling: class 5 strength 5."
+ },
+ {
+  "item": 9,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because the perturbation is the HDAC inhibitor TSA with APOE genotype or apoE isoform held at APOE4, a manipulation of a pathway step rather than of A or a surrogate of A.",
+  "why": "The manipulation does not act on APOE (not class 2) and the surface or kinetic readout is direct, but it can move receptor surface levels independently of APOE: class 5 strength 4."
+ },
+ {
+  "item": 10,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor surface level measured by surface biotinylation or surface-epitope labelling, which B names explicitly: class 1 strength 1."
+ },
+ {
+  "item": 11,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "60-minute cell-associated transferrin mixes surface receptor, internalization and recycling: surrogate class 3 strength 3, matching the unchanged steady-state transferrin rows P1.F12 and P1.F13; non-isogenic donors are a system doubt, not a surrogate route."
+ },
+ {
+  "item": 12,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor surface level measured by surface biotinylation or surface-epitope labelling, which B names explicitly: class 1 strength 1."
+ },
+ {
+  "item": 13,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "ARF6 protein abundance is a regulator level, not recycling; ARF6 function depends on GTP cycling, a known route by which abundance and recycling decouple: class 3 strength 4."
+ },
+ {
+  "item": 14,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Class 5 because the perturbation is ARF6 siRNA knockdown with APOE genotype or apoE isoform held at APOE4, a manipulation of a pathway step rather than of A or a surrogate of A.",
+  "why": "The manipulation does not act on APOE and the readout is itself a surrogate for recycling: class 5 strength 5."
+ },
+ {
+  "item": 15,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Class 5 because the perturbation is the ABCA1-targeting peptide CS-6253 added to HeLa cells with recombinant apoE4 held constant, which does not change apoE isoform.",
+  "why": "The manipulation does not act on APOE and the readout is itself a surrogate for recycling: class 5 strength 5."
+ },
+ {
+  "item": 16,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Class 5 because the perturbation is ARF6 siRNA knockdown combined with CS-6253 with APOE genotype or apoE isoform held at APOE4, a manipulation of a pathway step rather than of A or a surrogate of A.",
+  "why": "The manipulation does not act on APOE and the readout is itself a surrogate for recycling: class 5 strength 5."
+ },
+ {
+  "item": 17,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor surface level measured by surface biotinylation or surface-epitope labelling, which B names explicitly: class 1 strength 1."
+ },
+ {
+  "item": 18,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor surface level measured by surface biotinylation or surface-epitope labelling, which B names explicitly: class 1 strength 1."
+ },
+ {
+  "item": 19,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor surface level measured by surface biotinylation or surface-epitope labelling, which B names explicitly: class 1 strength 1."
+ },
+ {
+  "item": 20,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor surface level measured by surface biotinylation or surface-epitope labelling, which B names explicitly: class 1 strength 1."
+ },
+ {
+  "item": 21,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because the perturbation is NHE6 shRNA knockdown with APOE genotype or apoE isoform held at APOE4, a manipulation of a pathway step rather than of A or a surrogate of A.",
+  "why": "The manipulation does not act on APOE (not class 2) and the surface or kinetic readout is direct, but it can move receptor surface levels independently of APOE: class 5 strength 4."
+ },
+ {
+  "item": 22,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because the perturbation is a second NHE6 shRNA knockdown with APOE genotype or apoE isoform held at APOE4, a manipulation of a pathway step rather than of A or a surrogate of A.",
+  "why": "The manipulation does not act on APOE (not class 2) and the surface or kinetic readout is direct, but it can move receptor surface levels independently of APOE: class 5 strength 4."
+ },
+ {
+  "item": 23,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because the perturbation is the non-selective NHE inhibitor EMD87580 with APOE genotype or apoE isoform held at APOE4, a manipulation of a pathway step rather than of A or a surrogate of A.",
+  "why": "The manipulation does not act on APOE (not class 2) and the surface or kinetic readout is direct, but it can move receptor surface levels independently of APOE: class 5 strength 4."
+ },
+ {
+  "item": 24,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because the perturbation is bafilomycin added to EMD87580 with APOE genotype or apoE isoform held at APOE4, a manipulation of a pathway step rather than of A or a surrogate of A.",
+  "why": "The manipulation does not act on APOE (not class 2) and the surface or kinetic readout is direct, but it can move receptor surface levels independently of APOE: class 5 strength 4."
+ },
+ {
+  "item": 25,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because the perturbation is the non-selective NHE inhibitor EMD87580 with APOE genotype or apoE isoform held at APOE4, a manipulation of a pathway step rather than of A or a surrogate of A.",
+  "why": "The manipulation does not act on APOE (not class 2) and the surface or kinetic readout is direct, but it can move receptor surface levels independently of APOE: class 5 strength 4."
+ },
+ {
+  "item": 26,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor internalization or recycling kinetics measured on the receptor or its bound ligand, named as B in the scope: class 1 strength 1."
+ },
+ {
+  "item": 27,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor internalization or recycling kinetics measured on the receptor or its bound ligand, named as B in the scope: class 1 strength 1."
+ },
+ {
+  "item": 28,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor internalization or recycling kinetics measured on the receptor or its bound ligand, named as B in the scope: class 1 strength 1."
+ },
+ {
+  "item": 29,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor internalization or recycling kinetics measured on the receptor or its bound ligand, named as B in the scope: class 1 strength 1."
+ },
+ {
+  "item": 30,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor surface level measured by surface biotinylation or surface-epitope labelling, which B names explicitly: class 1 strength 1."
+ },
+ {
+  "item": 31,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor surface level measured by surface biotinylation or surface-epitope labelling, which B names explicitly: class 1 strength 1."
+ },
+ {
+  "item": 32,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor internalization or recycling kinetics measured on the receptor or its bound ligand, named as B in the scope: class 1 strength 1."
+ },
+ {
+  "item": 33,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor internalization or recycling kinetics measured on the receptor or its bound ligand, named as B in the scope: class 1 strength 1."
+ },
+ {
+  "item": 34,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "Insulin-induced loss of surface-to-total IR by surface biotinylation is a direct internalization measure with apoE isoform varied: class 1 strength 1."
+ },
+ {
+  "item": 35,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor surface level measured by surface biotinylation or surface-epitope labelling, which B names explicitly: class 1 strength 1."
+ },
+ {
+  "item": 36,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor surface level measured by surface biotinylation or surface-epitope labelling, which B names explicitly: class 1 strength 1."
+ },
+ {
+  "item": 37,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Receptor or ligand localization in endosomal or lysosomal compartments is a surrogate B' for recycling with a possible but unlikely alternative route: class 3 strength 3, matching the unchanged P7.F1 and P10 localization rows."
+ },
+ {
+  "item": 38,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor surface level measured by surface biotinylation or surface-epitope labelling, which B names explicitly: class 1 strength 1."
+ },
+ {
+  "item": 39,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor surface level measured by surface biotinylation or surface-epitope labelling, which B names explicitly: class 1 strength 1."
+ },
+ {
+  "item": 40,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor surface level measured by surface biotinylation or surface-epitope labelling, which B names explicitly: class 1 strength 1."
+ },
+ {
+  "item": 41,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor surface level measured by surface biotinylation or surface-epitope labelling, which B names explicitly: class 1 strength 1."
+ },
+ {
+  "item": 42,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor surface level measured by surface biotinylation or surface-epitope labelling, which B names explicitly: class 1 strength 1."
+ },
+ {
+  "item": 43,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor surface level measured by surface biotinylation or surface-epitope labelling, which B names explicitly: class 1 strength 1."
+ },
+ {
+  "item": 44,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor surface level measured by surface biotinylation or surface-epitope labelling, which B names explicitly: class 1 strength 1."
+ },
+ {
+  "item": 45,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor surface level measured by surface biotinylation or surface-epitope labelling, which B names explicitly: class 1 strength 1."
+ },
+ {
+  "item": 46,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor surface level measured by surface biotinylation or surface-epitope labelling, which B names explicitly: class 1 strength 1."
+ },
+ {
+  "item": 47,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Class 5 because the perturbation is CRISPR knockout of LRP1 within each APOE genotype, a manipulation of a receptor on the pathway rather than of A.",
+  "why": "The manipulation does not act on APOE and the readout is itself a surrogate for recycling: class 5 strength 5."
+ },
+ {
+  "item": 48,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Class 5 because the perturbation is CRISPR knockout of APOER2 within each APOE genotype, a manipulation of a receptor on the pathway rather than of A.",
+  "why": "The manipulation does not act on APOE and the readout is itself a surrogate for recycling: class 5 strength 5."
+ },
+ {
+  "item": 49,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because the perturbation is the exocytosis inhibitor Exo-1 with APOE genotype or apoE isoform held at APOE4, a manipulation of a pathway step rather than of A or a surrogate of A.",
+  "why": "The manipulation does not act on APOE (not class 2) and the surface or kinetic readout is direct, but it can move receptor surface levels independently of APOE: class 5 strength 4."
+ },
+ {
+  "item": 50,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because the perturbation is the endocytosis inhibitor dynasore with the APOE2 plus APOE4 treatment held constant, a manipulation of trafficking machinery rather than of A.",
+  "why": "The manipulation does not act on APOE (not class 2) and the surface or kinetic readout is direct, but it can move receptor surface levels independently of APOE: class 5 strength 4."
+ },
+ {
+  "item": 51,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because the perturbation is GPC-4 shRNA knockdown with APOE genotype or apoE isoform held at APOE4, a manipulation of a pathway step rather than of A or a surrogate of A.",
+  "why": "The manipulation does not act on APOE (not class 2) and the surface or kinetic readout is direct, but it can move receptor surface levels independently of APOE: class 5 strength 4."
+ },
+ {
+  "item": 52,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "A 5-minute transferrin pulse reads initial receptor-mediated internalization (surface receptor times rate), both components of B as scoped, with isogenic APOE3/APOE4 astrocytes: class 1 strength 1."
+ },
+ {
+  "item": 53,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor internalization or recycling kinetics measured on the receptor or its bound ligand, named as B in the scope: class 1 strength 1."
+ },
+ {
+  "item": 54,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "APOE isoform varied and receptor internalization or recycling kinetics measured on the receptor or its bound ligand, named as B in the scope: class 1 strength 1."
+ },
+ {
+  "item": 55,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Class 5 because the perturbation is systemic 2-hydroxypropyl-beta-cyclodextrin (HPCD) treatment with APOE genotype or apoE isoform held at APOE4 (targeted replacement), a manipulation of a pathway step rather than of A or a surrogate of A.",
+  "why": "HPCD does not act on APOE and the readout is a membrane-enriched tissue fraction, not a surface measure: class 5 strength 5."
+ },
+ {
+  "item": 56,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 5,
+  "why": "Cholesterol and CE secretion depend directly on apoE4 itself as the lipid acceptor and on cholesterol synthesis, several routes besides receptor recycling: class 3 strength 5."
+ },
+ {
+  "item": 57,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 5,
+  "why": "Abeta42 uptake runs through several receptors and phagocytosis, weakly coupled to recycling: class 3 strength 5."
+ },
+ {
+  "item": 58,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 5,
+  "why": "Glutamate uptake depends on transporter expression and energy state, weakly coupled to recycling: class 3 strength 5."
+ }
+]

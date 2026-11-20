@@ -1,0 +1,1478 @@
+[
+ {
+  "finding_id": "P1.F1",
+  "quote_start": "In H4, WT HAP1, and APOE KO iAstrocytes, incubation with lipApoE3/E4 s",
+  "summary": "(APOE3 -> APOE4) -> (shared astrocyte surface-LDLR depletion; E4-specific additional impairment unresolved)",
+  "class": 3,
+  "strength": 2,
+  "changed": true,
+  "why": "Isoform varied but the readout is steady surface level of an apoE-binding receptor, a surrogate B' for impeded recycling (endocytosis or synthesis could also move it), so class 3, strength 2, same as every other surface-level row. (was 1/1)"
+ },
+ {
+  "finding_id": "P1.F2",
+  "quote_start": "While all 3 ApoE isoforms impacted LDLR mRNA levels, lipApoE3/E4 abrog",
+  "summary": "(APOE3 -> APOE4) -> (shared astrocyte surface-LDLR depletion; E4-specific additional impairment unresolved)",
+  "class": 3,
+  "strength": 2,
+  "changed": true,
+  "why": "Isoform varied but the readout is steady surface level of an apoE-binding receptor, a surrogate B' for impeded recycling (endocytosis or synthesis could also move it), so class 3, strength 2, same as every other surface-level row. (was 1/1)"
+ },
+ {
+  "finding_id": "P1.F3",
+  "quote_start": "Conversely, lipApoE3 and lipApoE4 both exhibited high affinity binding",
+  "summary": "(APOE3 -> APOE4) -> (no change in reported LDLR-binding EC50)",
+  "class": 1,
+  "strength": 1,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P1.F4",
+  "quote_start": "SPR similarly revealed a high affinity LDLR binding for both lipApoE4 ",
+  "summary": "(APOE3 -> APOE4) -> (nominally lower LDLR-binding KD within author-described comparable affinities)",
+  "class": 1,
+  "strength": 1,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P1.F5",
+  "quote_start": "Super-resolution imaging on APOE KO iAstrocytes confirmed internalized",
+  "summary": "(APOE3 -> APOE4) -> (no change in complete intracellular ApoE–LDLR colocalization)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P1.F6",
+  "quote_start": "Immunostaining of total LDLR (cell surface + intracellular) in H4 cell",
+  "summary": "(APOE3 -> APOE4) -> (shared reduction and clustering of total LDLR; additional E4 effect unresolved)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P1.F7",
+  "quote_start": "When DiI-LDL was spiked into media after 1d pre-treatment with lipApoE",
+  "summary": "(APOE3 -> APOE4) -> (shared near-abolition of subsequent LDL uptake)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Receptor localization in early/recycling compartments (or cellular apoE-receptor association) is a surrogate B' for trapping, scored class 3, strength 3 like every other such colocalization row. (was 3/2)"
+ },
+ {
+  "finding_id": "P1.F8",
+  "quote_start": "Robust cell surface signals were observed for lipApoE3 and lipApoE4, w",
+  "summary": "(APOE3 -> APOE4) -> (robust LDLR surface binding with no reported E4-specific increase)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+ },
+ {
+  "finding_id": "P1.F9",
+  "quote_start": "ApoE isoform differences were manifested in the differential levels of",
+  "summary": "(APOE3 -> APOE4) -> (more internalized ApoE and more ApoE-containing lysosomal compartments)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P1.F10",
+  "quote_start": "When cells were co-treated with lipApoE and DiI-LDL for 3–4 h, both li",
+  "summary": "(APOE3 -> APOE4) -> (shared inhibition of LDL uptake; additional E4 effect unresolved)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P2.F1",
+  "quote_start": "In the absence of insulin, we found that nearly 20% of IR-GFP co-local",
+  "summary": "(apoE3 -> apoE4) -> (greater insulin-receptor localization in transferrin-positive endosomes)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Receptor localization in early/recycling compartments (or cellular apoE-receptor association) is a surrogate B' for trapping, scored class 3, strength 3 like every other such colocalization row. (was 3/2)"
+ },
+ {
+  "finding_id": "P2.F2",
+  "quote_start": "Intriguingly, significantly higher amount of intracellular IR was dete",
+  "summary": "(apoE3 -> apoE4) -> (impaired insulin-receptor recycling at 30 minutes)",
+  "class": 1,
+  "strength": 1,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P2.F3",
+  "quote_start": "Similar to recombinant apoE, we found that apoE4 lipoprotein particles",
+  "summary": "(lipidated apoE3 -> lipidated apoE4) -> (stronger binding to insulin receptor)",
+  "class": 1,
+  "strength": 1,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P2.F4",
+  "quote_start": "In the absence of insulin, the majority of the IR-GFP was localized to",
+  "summary": "(apoE3 -> apoE4) -> (greater intracellular insulin-receptor localization)",
+  "class": 3,
+  "strength": 2,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P2.F5",
+  "quote_start": "Insulin induced IR internalization which increased the co-localization",
+  "summary": "(apoE3 -> apoE4) -> (reduced insulin-induced increase in endosomal insulin receptor)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Ligand-induced internalization is a different trafficking step than recycling (a known alternative route for the readout), so class 3, strength 4, matching the other endocytosis-rate rows. (was 3/3)"
+ },
+ {
+  "finding_id": "P2.F6",
+  "quote_start": "No significant differences were found in the levels of cell surface an",
+  "summary": "(apoE3 -> apoE4) -> (no change in neuronal surface LRP1)",
+  "class": 3,
+  "strength": 2,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P2.F7",
+  "quote_start": "After 60 minutes treatment with apoE3, the amount of internalized (bio",
+  "summary": "(apoE3 -> apoE4) -> (greater intracellular insulin-receptor retention at 60 minutes)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and return of internalized receptor to the surface measured directly (B itself), so class 1, strength 1, matching the other receptor-recycling chase assays. (was 3/2)"
+ },
+ {
+  "finding_id": "P2.F8",
+  "quote_start": "In the presence of apoE3, the plateau of the curve shifted to 15 minut",
+  "summary": "(apoE3 -> apoE4) -> (reduced post-internalization loss of intracellular insulin receptor)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and return of internalized receptor to the surface measured directly (B itself), so class 1, strength 1, matching the other receptor-recycling chase assays. (was 3/2)"
+ },
+ {
+  "finding_id": "P2.F9",
+  "quote_start": "Conversely, we found that both recombinant apoE3 and apoE4 specificall",
+  "summary": "(apoE3 -> apoE4) -> (higher binding affinity for insulin receptor)",
+  "class": 1,
+  "strength": 1,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P2.F10",
+  "quote_start": "We found that more IR was co-immunoprecipitated with apoE4 than with a",
+  "summary": "(apoE3 -> apoE4) -> (greater insulin-receptor association)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+ },
+ {
+  "finding_id": "P2.F11",
+  "quote_start": "Importantly, insulin stimulation increased the percentage of intracell",
+  "summary": "(apoE3 -> apoE4) -> (reduced insulin-induced increase in intracellular insulin receptor)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Ligand-induced internalization is a different trafficking step than recycling (a known alternative route for the readout), so class 3, strength 4, matching the other endocytosis-rate rows. (was 3/3)"
+ },
+ {
+  "finding_id": "P2.F12",
+  "quote_start": "In the absence of insulin stimulation, we found that apoE4 but not apo",
+  "summary": "(apoE3 -> apoE4) -> (lower neuronal surface insulin receptor)",
+  "class": 3,
+  "strength": 2,
+  "changed": true,
+  "why": "Isoform varied but the readout is steady surface level of an apoE-binding receptor, a surrogate B' for impeded recycling (endocytosis or synthesis could also move it), so class 3, strength 2, same as every other surface-level row. (was 1/2)"
+ },
+ {
+  "finding_id": "P2.F13",
+  "quote_start": "Importantly, ~50% of the total IR was internalized in response to insu",
+  "summary": "(apoE3 -> apoE4) -> (less insulin-induced insulin-receptor internalization)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Ligand-induced internalization is a different trafficking step than recycling (a known alternative route for the readout), so class 3, strength 4, matching the other endocytosis-rate rows. (was 3/3)"
+ },
+ {
+  "finding_id": "P2.F14",
+  "quote_start": "As expected, cell surface IR was decreased after treatment with apoE4 ",
+  "summary": "(apoE3 -> apoE4) -> (lower neuronal surface insulin receptor)",
+  "class": 3,
+  "strength": 2,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P2.F15",
+  "quote_start": "When apoE was co-incubated with insulin and IR, we found that apoE4 (1",
+  "summary": "(apoE3 -> apoE4) -> (greater inhibition of insulin binding to insulin receptor)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 3/3)"
+ },
+ {
+  "finding_id": "P2.F16",
+  "quote_start": "No differences were observed for the co-localization of IR-GFP with Ly",
+  "summary": "(apoE3 -> apoE4) -> (no significant difference detected in lysosomal insulin-receptor localization)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Late-endosome/lysosome colocalization is weakly coupled to recycling (degradation is an alternative route), so class 3, strength 4, same for every receptor in this assay. (was 3/3)"
+ },
+ {
+  "finding_id": "P3.F1",
+  "quote_start": "Second, our experi- ments conﬁrmed that the VLDL receptor recognizes a",
+  "summary": "(apoE3 -> apoE4) -> (no change in lipid-free apoE binding affinity for VLDLR)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+ },
+ {
+  "finding_id": "P3.F2",
+  "quote_start": "Thus, the results from this solid-phase assay suggest that both the VL",
+  "summary": "(apoE3 -> apoE4) -> (no change in VLDLR binding reported)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+ },
+ {
+  "finding_id": "P3.F3",
+  "quote_start": "In contrast, LRP failed to recognize lipid-free apoE2 and apoE3 and bo",
+  "summary": "(apoE3 -> apoE4) -> (undetectable to weak lipid-free apoE binding to LRP)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+ },
+ {
+  "finding_id": "P3.F4",
+  "quote_start": "As expected, the LDL receptor did not bind lipid-free apoE isoforms in",
+  "summary": "(apoE3 -> apoE4) -> (no change in detectable lipid-free apoE binding to LDLR)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+ },
+ {
+  "finding_id": "P4.F1",
+  "quote_start": "While Apoer2 quickly recycled in the presence of ApoE3, its reappearan",
+  "summary": "(apoE3 -> apoE4) -> (lower surface Apoer2; delayed receptor recycling)",
+  "class": 3,
+  "strength": 2,
+  "changed": true,
+  "why": "Isoform varied but the readout is steady surface level of an apoE-binding receptor, a surrogate B' for impeded recycling (endocytosis or synthesis could also move it), so class 3, strength 2, same as every other surface-level row. (was 1/2)"
+ },
+ {
+  "finding_id": "P4.F2",
+  "quote_start": "Apoer2 surface levels show a higher reduction with ApoE4 than ApoE3.",
+  "summary": "(apoE3 -> apoE4) -> (lower surface-to-total Apoer2 ratio)",
+  "class": 3,
+  "strength": 2,
+  "changed": true,
+  "why": "Isoform varied but the readout is steady surface level of an apoE-binding receptor, a surrogate B' for impeded recycling (endocytosis or synthesis could also move it), so class 3, strength 2, same as every other surface-level row. (was 1/2)"
+ },
+ {
+  "finding_id": "P4.F3",
+  "quote_start": "The delayed recycling of Apoer2 was also apparent by the prolonged ret",
+  "summary": "(apoE3 -> apoE4) -> (greater retained ApoE–Apoer2 association)",
+  "class": 3,
+  "strength": 2,
+  "changed": true,
+  "why": "Co-IP of apoE with receptor from neuronal lysates after 3 h measures cellular association/retention, a surrogate B' like the PLA association rows, so class 3, strength 2. (was 1/2)"
+ },
+ {
+  "finding_id": "P4.F4",
+  "quote_start": "As shown in Figure 4D and E, physiological concentrations of ApoE3 (5 ",
+  "summary": "(apoE3 -> apoE4) -> (greater Apoer2 recycling impairment)",
+  "class": 3,
+  "strength": 2,
+  "changed": true,
+  "why": "Isoform varied but the readout is steady surface level of an apoE-binding receptor, a surrogate B' for impeded recycling (endocytosis or synthesis could also move it), so class 3, strength 2, same as every other surface-level row. (was 1/2)"
+ },
+ {
+  "finding_id": "P4.F5",
+  "quote_start": "ApoE3 and ApoE4 bind Apoer2 with similar affinity, whereas ApoE2 bindi",
+  "summary": "(apoE3 -> apoE4) -> (no change in Apoer2 binding reported)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+ },
+ {
+  "finding_id": "P4.F6",
+  "quote_start": "By contrast, other endocytic cell surface receptors that do not bind A",
+  "summary": "(apoE3 -> apoE4) -> (comparable surface Lrp1)",
+  "class": 3,
+  "strength": 2,
+  "changed": true,
+  "why": "Isoform varied but the readout is steady surface level of an apoE-binding receptor, a surrogate B' for impeded recycling (endocytosis or synthesis could also move it), so class 3, strength 2, same as every other surface-level row. (was 1/2)"
+ },
+ {
+  "finding_id": "P4.F7",
+  "quote_start": "Other ApoE receptors, such as low-density lipoprotein receptor-related",
+  "summary": "(apoE3 -> apoE4) -> (comparable surface-to-total Lrp1 ratios)",
+  "class": 3,
+  "strength": 2,
+  "changed": true,
+  "why": "Isoform varied but the readout is steady surface level of an apoE-binding receptor, a surrogate B' for impeded recycling (endocytosis or synthesis could also move it), so class 3, strength 2, same as every other surface-level row. (was 1/2)"
+ },
+ {
+  "finding_id": "P4.F8",
+  "quote_start": "Increasing concentrations progressively restored normal surface recycl",
+  "summary": "(increased NHE inhibition with apoE4 present) -> (restored Apoer2 surface recycling)",
+  "class": 5,
+  "strength": 3,
+  "changed": true,
+  "why": "A is held at APOE4 and a path variable (NHE6/endosomal pH) is manipulated, which does not perturb A even as a surrogate, so class 5 (rescue tests mediation, not A->B); strength one step below the matching isoform readout. (was 2/2)"
+ },
+ {
+  "finding_id": "P4.F9",
+  "quote_start": "Figure 4F and G show that the resulting increase of the endosomal pH r",
+  "summary": "(proton-pump inhibition with apoE4 and EMD87580 present) -> (renewed Apoer2 recycling impairment)",
+  "class": 5,
+  "strength": 3,
+  "changed": true,
+  "why": "A is held at APOE4 and a path variable (NHE6/endosomal pH) is manipulated, which does not perturb A even as a surrogate, so class 5 (rescue tests mediation, not A->B); strength one step below the matching isoform readout. (was 2/2)"
+ },
+ {
+  "finding_id": "P4.F10",
+  "quote_start": "Figure 5A–D shows that of all NHEs (1 and 5 through 9) that were targe",
+  "summary": "(NHE6 knockdown with apoE4 present) -> (restored surface Apoer2)",
+  "class": 5,
+  "strength": 3,
+  "changed": true,
+  "why": "A is held at APOE4 and a path variable (NHE6/endosomal pH) is manipulated, which does not perturb A even as a surrogate, so class 5 (rescue tests mediation, not A->B); strength one step below the matching isoform readout. (was 2/2)"
+ },
+ {
+  "finding_id": "P4.F11",
+  "quote_start": "ApoE-conditioned media treatment reduces the surface expression of Apo",
+  "summary": "(no added apoE4 -> added apoE4) -> (lower surface Apoer2)",
+  "class": 4,
+  "strength": 4,
+  "changed": true,
+  "why": "Comparator is no added apoE, not apoE3, so apoE4 addition is a surrogate A' (any apoE ligand drives receptor internalization, shown in P7) and surface/internalized receptor is a surrogate B': class 4, strength 4. (was 2/3)"
+ },
+ {
+  "finding_id": "P4.F12",
+  "quote_start": "(A and C) shRNA knockdown of NHE6, but not other NHEs (NHE1, 5, 7, 8, ",
+  "summary": "(no added apoE4 -> added apoE4) -> (lower surface Apoer2)",
+  "class": 4,
+  "strength": 4,
+  "changed": true,
+  "why": "Comparator is no added apoE, not apoE3, so apoE4 addition is a surrogate A' (any apoE ligand drives receptor internalization, shown in P7) and surface/internalized receptor is a surrogate B': class 4, strength 4. (was 2/3)"
+ },
+ {
+  "finding_id": "P4.F13",
+  "quote_start": "N/A",
+  "summary": "(no added apoE4 -> added apoE4) -> (lower surface-to-total Apoer2)",
+  "class": 4,
+  "strength": 4,
+  "changed": true,
+  "why": "Comparator is no added apoE, not apoE3, so apoE4 addition is a surrogate A' (any apoE ligand drives receptor internalization, shown in P7) and surface/internalized receptor is a surrogate B': class 4, strength 4. (was 2/3)"
+ },
+ {
+  "finding_id": "P4.F14",
+  "quote_start": "N/A",
+  "summary": "(no added apoE4 -> added apoE4) -> (lower surface-to-total Apoer2)",
+  "class": 4,
+  "strength": 4,
+  "changed": true,
+  "why": "Comparator is no added apoE, not apoE3, so apoE4 addition is a surrogate A' (any apoE ligand drives receptor internalization, shown in P7) and surface/internalized receptor is a surrogate B': class 4, strength 4. (was 2/3)"
+ },
+ {
+  "finding_id": "P4.F15",
+  "quote_start": "N/A",
+  "summary": "(no added apoE4 -> added apoE4) -> (lower surface Apoer2)",
+  "class": 4,
+  "strength": 4,
+  "changed": true,
+  "why": "Comparator is no added apoE, not apoE3, so apoE4 addition is a surrogate A' (any apoE ligand drives receptor internalization, shown in P7) and surface/internalized receptor is a surrogate B': class 4, strength 4. (was 2/3)"
+ },
+ {
+  "finding_id": "P4.F16",
+  "quote_start": "N/A",
+  "summary": "(no added apoE4 -> added apoE4, scrambled shRNA) -> (lower surface Apoer2)",
+  "class": 4,
+  "strength": 4,
+  "changed": true,
+  "why": "Comparator is no added apoE, not apoE3, so apoE4 addition is a surrogate A' (any apoE ligand drives receptor internalization, shown in P7) and surface/internalized receptor is a surrogate B': class 4, strength 4. (was 2/3)"
+ },
+ {
+  "finding_id": "P4.F17",
+  "quote_start": "N/A",
+  "summary": "(no added apoE4 -> added apoE4) -> (lower surface-to-total Apoer2)",
+  "class": 4,
+  "strength": 4,
+  "changed": true,
+  "why": "Comparator is no added apoE, not apoE3, so apoE4 addition is a surrogate A' (any apoE ligand drives receptor internalization, shown in P7) and surface/internalized receptor is a surrogate B': class 4, strength 4. (was 2/3)"
+ },
+ {
+  "finding_id": "P4.F18",
+  "quote_start": "EMD87580 and the NHE6-specific shRNAs completely restored Apoer2 and g",
+  "summary": "(NHE inhibition with apoE4 present) -> (restored surface GluN2B)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "A is held at APOE4 and a path variable (NHE6/endosomal pH) is manipulated, which does not perturb A even as a surrogate, so class 5 (rescue tests mediation, not A->B); strength one step below the matching isoform readout. (was 2/2)"
+ },
+ {
+  "finding_id": "P4.F19",
+  "quote_start": "N/A",
+  "summary": "(no added apoE4 -> added apoE4) -> (lower surface GluN2B)",
+  "class": 4,
+  "strength": 4,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P4.F20",
+  "quote_start": "N/A",
+  "summary": "(no added apoE4 -> added apoE4) -> (lower surface GluA1)",
+  "class": 4,
+  "strength": 4,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P4.F21",
+  "quote_start": "N/A",
+  "summary": "(no added apoE4 -> added apoE4) -> (lower surface GluA2/3)",
+  "class": 4,
+  "strength": 4,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P4.F22",
+  "quote_start": "N/A",
+  "summary": "(no added apoE4 -> added apoE4, scrambled shRNA) -> (lower surface GluN2B)",
+  "class": 4,
+  "strength": 4,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P4.F23",
+  "quote_start": "N/A",
+  "summary": "(no added apoE4 -> added apoE4, scrambled shRNA) -> (lower surface GluA1)",
+  "class": 4,
+  "strength": 4,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P4.F24",
+  "quote_start": "N/A",
+  "summary": "(no added apoE4 -> added apoE4, scrambled shRNA) -> (lower surface GluA2/3)",
+  "class": 4,
+  "strength": 4,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P4.F25",
+  "quote_start": "N/A",
+  "summary": "(no added apoE4 -> added apoE4) -> (lower surface-to-total GluN2B)",
+  "class": 4,
+  "strength": 4,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P4.F26",
+  "quote_start": "N/A",
+  "summary": "(no added apoE4 -> added apoE4) -> (lower surface-to-total GluA1)",
+  "class": 4,
+  "strength": 4,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P4.F27",
+  "quote_start": "N/A",
+  "summary": "(no added apoE4 -> added apoE4) -> (lower surface-to-total GluA2/3)",
+  "class": 4,
+  "strength": 4,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P4.F28",
+  "quote_start": "None of the shRNAs directed against NHE1, 5, 7, 8 or 9 had any effect ",
+  "summary": "(NHE5 knockdown with apoE4 present) -> (no change in surface Apoer2)",
+  "class": 5,
+  "strength": 3,
+  "changed": true,
+  "why": "A is held at APOE4 and a path variable (NHE6/endosomal pH) is manipulated, which does not perturb A even as a surrogate, so class 5 (rescue tests mediation, not A->B); strength one step below the matching isoform readout. (was 2/3)"
+ },
+ {
+  "finding_id": "P5.F1",
+  "quote_start": "Kinetic data from the best fit are summarized in Table 1 and reveal th",
+  "summary": "(apoE3 -> apoE4) -> (lower kinetic KD and higher affinity for LRP1)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+ },
+ {
+  "finding_id": "P5.F2",
+  "quote_start": "dApoE3 | 4.3 ± 0.8 × 104 | 9.0 ± 0.7 × 10−2 | 9.6 ± 0.1 × 10−3 | 2.6 ±",
+  "summary": "(apoE3 -> apoE4) -> (lower equilibrium KD and higher affinity for LRP1)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+ },
+ {
+  "finding_id": "P5.F3",
+  "quote_start": "dApoE3 | 4.3 ± 0.8 × 104 | 9.0 ± 0.7 × 10−2 | 9.6 ± 0.1 × 10−3 | 2.6 ±",
+  "summary": "(apoE3 -> apoE4) -> (lower first dissociation rate constant from LRP1)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+ },
+ {
+  "finding_id": "P5.F4",
+  "quote_start": "dApoE3 | 4.3 ± 0.8 × 104 | 9.0 ± 0.7 × 10−2 | 9.6 ± 0.1 × 10−3 | 2.6 ±",
+  "summary": "(apoE3 -> apoE4) -> (higher first association rate constant for LRP1)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+ },
+ {
+  "finding_id": "P5.F5",
+  "quote_start": "dApoE3 | 4.3 ± 0.8 × 104 | 9.0 ± 0.7 × 10−2 | 9.6 ± 0.1 × 10−3 | 2.6 ±",
+  "summary": "(apoE3 -> apoE4) -> (slightly higher second association rate constant in the LRP1 bivalent-binding model)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+ },
+ {
+  "finding_id": "P5.F6",
+  "quote_start": "dApoE3 | 4.3 ± 0.8 × 104 | 9.0 ± 0.7 × 10−2 | 9.6 ± 0.1 × 10−3 | 2.6 ±",
+  "summary": "(apoE3 -> apoE4) -> (slightly higher second dissociation rate constant in the LRP1 bivalent-binding model)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+ },
+ {
+  "finding_id": "P6.F1",
+  "quote_start": "Lipid-poor apoE bound to the abluminal surfaces of isolated mouse brai",
+  "summary": "(lipid-poor apoE3 -> lipid-poor apoE4) -> (lower abluminal microvessel binding)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P6.F2",
+  "quote_start": "Aβ40-apoE2 and Aβ42-apoE2 complexes bound to both VLDLR and LRP1, wher",
+  "summary": "(Aβ40–apoE2 -> Aβ40–apoE4) -> (loss of detectable LRP1 binding)",
+  "class": 5,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P7.F1",
+  "quote_start": "Whereas ApoE2 (lane 2) and ApoE3 (lane 3) did not reduce surface expre",
+  "summary": "(ApoE3 -> ApoE4) -> (lower neuronal surface Apoer2)",
+  "class": 3,
+  "strength": 2,
+  "changed": true,
+  "why": "Isoform varied but the readout is steady surface level of an apoE-binding receptor, a surrogate B' for impeded recycling (endocytosis or synthesis could also move it), so class 3, strength 2, same as every other surface-level row. (was 1/2)"
+ },
+ {
+  "finding_id": "P7.F2",
+  "quote_start": "ApoE3 was marginally, but not significantly, more effective than ApoE2",
+  "summary": "(ApoE3 -> ApoE4, with Reelin) -> (lower neuronal surface Apoer2)",
+  "class": 3,
+  "strength": 2,
+  "changed": true,
+  "why": "Isoform varied but the readout is steady surface level of an apoE-binding receptor, a surrogate B' for impeded recycling (endocytosis or synthesis could also move it), so class 3, strength 2, same as every other surface-level row. (was 1/2)"
+ },
+ {
+  "finding_id": "P7.F3",
+  "quote_start": "All ApoE isoforms ( Fig. 1 C , lanes 2–4) significantly decreased surf",
+  "summary": "(no added ApoE -> ApoE4, with Reelin) -> (lower neuronal surface Apoer2)",
+  "class": 4,
+  "strength": 4,
+  "changed": true,
+  "why": "Comparator is no added apoE, not apoE3, so apoE4 addition is a surrogate A' (any apoE ligand drives receptor internalization, shown in P7) and surface/internalized receptor is a surrogate B': class 4, strength 4. (was 1/2)"
+ },
+ {
+  "finding_id": "P7.F4",
+  "quote_start": "Consistent with the earlier reports, ApoE4 release into the culture me",
+  "summary": "(ApoE3 -> ApoE4) -> (delayed ApoE recycling and greater intracellular ApoE retention)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P7.F5",
+  "quote_start": "ApoE4 reduces GluA1, GluA2/3, and GluN2B cell-surface levels in acutel",
+  "summary": "(ApoE3 -> ApoE4, with Reelin) -> (lower neuronal surface GluN2B)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Isoform varied, readout is surface level of a receptor not shown to bind apoE, a surrogate one step further from B, so class 3, strength 3 like the other non-apoE-receptor surface rows. (was 1/2)"
+ },
+ {
+  "finding_id": "P8.F1",
+  "quote_start": "By imaging APOE/LRP1 proximity ligation in pericytes we demonstrated t",
+  "summary": "(APOE3 -> APOE4) -> (lower apoE–LRP1 association in pericytes)",
+  "class": 3,
+  "strength": 2,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P9.F1",
+  "quote_start": "Confocal microscopy revealed a striking loss of LRP1 from astrocyte pr",
+  "summary": "(APOE3 -> APOE4) -> (greater intracellular LRP1 accumulation and less LRP1 in processes)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Receptor localization in early/recycling compartments (or cellular apoE-receptor association) is a surrogate B' for trapping, scored class 3, strength 3 like every other such colocalization row. (was 1/2)"
+ },
+ {
+  "finding_id": "P9.F2",
+  "quote_start": "Similar results were obtained in surface biotinylation experiments tha",
+  "summary": "(NHE6 expression in APOE4 astrocytes) -> (higher surface LRP1)",
+  "class": 5,
+  "strength": 3,
+  "changed": true,
+  "why": "A is held at APOE4 and a path variable (NHE6/endosomal pH) is manipulated, which does not perturb A even as a surrogate, so class 5 (rescue tests mediation, not A->B); strength one step below the matching isoform readout. (was 2/2)"
+ },
+ {
+  "finding_id": "P9.F3",
+  "quote_start": "First, surface biotinylation revealed that plasma membrane expression ",
+  "summary": "(APOE3 -> APOE4) -> (lower surface LRP1)",
+  "class": 3,
+  "strength": 2,
+  "changed": true,
+  "why": "Isoform varied but the readout is steady surface level of an apoE-binding receptor, a surrogate B' for impeded recycling (endocytosis or synthesis could also move it), so class 3, strength 2, same as every other surface-level row. (was 1/2)"
+ },
+ {
+  "finding_id": "P9.F4",
+  "quote_start": "Second, an antibody directed against an external epitope of LRP1 to qu",
+  "summary": "(APOE3 -> APOE4) -> (lower surface LRP1 positivity)",
+  "class": 3,
+  "strength": 2,
+  "changed": true,
+  "why": "Isoform varied but the readout is steady surface level of an apoE-binding receptor, a surrogate B' for impeded recycling (endocytosis or synthesis could also move it), so class 3, strength 2, same as every other surface-level row. (was 1/2)"
+ },
+ {
+  "finding_id": "P9.F5",
+  "quote_start": "Third, this was confirmed by confocal microscopy showing ∼49% lower LR",
+  "summary": "(APOE3 -> APOE4) -> (lower surface LRP1 staining)",
+  "class": 3,
+  "strength": 2,
+  "changed": true,
+  "why": "Isoform varied but the readout is steady surface level of an apoE-binding receptor, a surrogate B' for impeded recycling (endocytosis or synthesis could also move it), so class 3, strength 2, same as every other surface-level row. (was 1/2)"
+ },
+ {
+  "finding_id": "P9.F6",
+  "quote_start": "Compared with the weak surface LRP1 staining in vector-transfected Apo",
+  "summary": "(NHE6 expression in APOE4 astrocytes) -> (higher surface LRP1)",
+  "class": 5,
+  "strength": 3,
+  "changed": true,
+  "why": "A is held at APOE4 and a path variable (NHE6/endosomal pH) is manipulated, which does not perturb A even as a surrogate, so class 5 (rescue tests mediation, not A->B); strength one step below the matching isoform readout. (was 2/2)"
+ },
+ {
+  "finding_id": "P9.F7",
+  "quote_start": "Consistent with these findings, confocal microscopy revealed a reducti",
+  "summary": "(NHE6 expression in APOE4 astrocytes) -> (less perinuclear LRP1 and restored process localization)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "A is held at APOE4 and a receptor knockdown or broad drug (path variable) is manipulated with a localization or indirect readout, so class 5, strength 4. (was 4/3)"
+ },
+ {
+  "finding_id": "P9.F8",
+  "quote_start": "Importantly, we observed prominent, approximately twofold higher surfa",
+  "summary": "(TSA treatment in APOE4 astrocytes) -> (higher surface LRP1)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "A is held at APOE4 and a receptor knockdown or broad drug (path variable) is manipulated with a localization or indirect readout, so class 5, strength 4. (was 2/3)"
+ },
+ {
+  "finding_id": "P9.F9",
+  "quote_start": "Note lower LRP1 staining in ApoE4 astrocytes, relative to ApoE3, due t",
+  "summary": "(APOE3 -> APOE4) -> (lower surface LRP1 during internalization assay)",
+  "class": 3,
+  "strength": 2,
+  "changed": true,
+  "why": "Isoform varied but the readout is steady surface level of an apoE-binding receptor, a surrogate B' for impeded recycling (endocytosis or synthesis could also move it), so class 3, strength 2, same as every other surface-level row. (was 1/2)"
+ },
+ {
+  "finding_id": "P9.F10",
+  "quote_start": "In a fourth approach, surface-bound ligand (fluorescent Aβ) measured b",
+  "summary": "(APOE3 -> APOE4) -> (lower surface Aβ binding)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P9.F11",
+  "quote_start": "Second, an antibody directed against an external epitope of LRP1 to qu",
+  "summary": "(APOE3/3 control fibroblasts -> APOE4/4 AD fibroblasts) -> (lower surface LRP1 positivity)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Surface LRP1 is a surrogate B' (class 3); AD-patient versus control fibroblasts adds a disease-status alternative route, so strength 3. (was 1/3)"
+ },
+ {
+  "finding_id": "P9.F12",
+  "quote_start": "The rate of LRP1 endocytosis (at 37 °C for 10 min) in ApoE3 and ApoE4 ",
+  "summary": "(APOE3 -> APOE4) -> (no change in normalized LRP1 internalization)",
+  "class": 3,
+  "strength": 4,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P10.F1",
+  "quote_start": "In these studies, the amount of receptors recycling back to the cell s",
+  "summary": "(apoE3 -> apoE4) -> (reduced sortilin recycling to the cell surface)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and return of internalized receptor to the surface measured directly (B itself), so class 1, strength 1, matching the other receptor-recycling chase assays. (was 1/2)"
+ },
+ {
+  "finding_id": "P10.F2",
+  "quote_start": "The recycling path of sortilin established in CHO cells was not impact",
+  "summary": "(apoE3 -> apoE4) -> (reduced cell-surface recycling and increased intracellular retention of sortilin)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and return of internalized receptor to the surface measured directly (B itself), so class 1, strength 1, matching the other receptor-recycling chase assays. (was 1/2)"
+ },
+ {
+  "finding_id": "P10.F3",
+  "quote_start": "Colocalization of receptor/ligand complexes in Tf-positive cell compar",
+  "summary": "(apoE3 -> apoE4) -> (higher Manders tM1 colocalization of sortilin–apoE complexes with transferrin)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Receptor localization in early/recycling compartments (or cellular apoE-receptor association) is a surrogate B' for trapping, scored class 3, strength 3 like every other such colocalization row. (was 3/2)"
+ },
+ {
+  "finding_id": "P10.F4",
+  "quote_start": "The extent of co-localization of sortilin/apoE complexes (PLA signal) ",
+  "summary": "(apoE3 -> apoE4) -> (greater sortilin–apoE complex localization in transferrin-positive endocytic/recycling compartments)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P10.F5",
+  "quote_start": "Co-localization of sortilin with apoE3 was seen in a scattered vesicul",
+  "summary": "(apoE3 -> apoE4) -> (juxtamembrane rather than dispersed cytoplasmic localization of sortilin–apoE complexes)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P11.F1",
+  "quote_start": "Receptor surface levels show a stronger reduction with ApoE4 than ApoE",
+  "summary": "(ApoE3 -> ApoE4) -> (lower neuronal surface ApoER2 during Reelin stimulation)",
+  "class": 3,
+  "strength": 2,
+  "changed": true,
+  "why": "Isoform varied but the readout is steady surface level of an apoE-binding receptor, a surrogate B' for impeded recycling (endocytosis or synthesis could also move it), so class 3, strength 2, same as every other surface-level row. (was 1/2)"
+ },
+ {
+  "finding_id": "P11.F2",
+  "quote_start": "ApoE-conditioned media treatment reduces the surface expression of Apo",
+  "summary": "(No added apoE -> added ApoE4) -> (lower neuronal surface ApoER2 during Reelin stimulation)",
+  "class": 4,
+  "strength": 4,
+  "changed": true,
+  "why": "Comparator is no added apoE, not apoE3, so apoE4 addition is a surrogate A' (any apoE ligand drives receptor internalization, shown in P7) and surface/internalized receptor is a surrogate B': class 4, strength 4. (was 2/3)"
+ },
+ {
+  "finding_id": "P11.F3",
+  "quote_start": "Apoer2 recycling was completely restored in Slc9a6- neurons treated wi",
+  "summary": "(NHE6 present -> NHE6 deleted, with ApoE4) -> (restored neuronal surface ApoER2)",
+  "class": 5,
+  "strength": 3,
+  "changed": true,
+  "why": "A is held at APOE4 and a path variable (NHE6/endosomal pH) is manipulated, which does not perturb A even as a surrogate, so class 5 (rescue tests mediation, not A->B); strength one step below the matching isoform readout. (was 2/3)"
+ },
+ {
+  "finding_id": "P11.F4",
+  "quote_start": "In addition, genetic loss of NHE6 equally restored the ApoE4-impaired ",
+  "summary": "(NHE6 present -> NHE6 deleted, with ApoE4) -> (restored neuronal surface GluN2B)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "A is held at APOE4 and a path variable (NHE6/endosomal pH) is manipulated, which does not perturb A even as a surrogate, so class 5 (rescue tests mediation, not A->B); strength one step below the matching isoform readout. (was 2/3)"
+ },
+ {
+  "finding_id": "P12.F1",
+  "quote_start": "The results obtained show that the ratio of the externally oriented re",
+  "summary": "(APOE3 -> APOE4) -> (lower neuronal APOER2 surface-to-total ratio)",
+  "class": 3,
+  "strength": 2,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P12.F2",
+  "quote_start": "Similar analysis of the effect of the APOE genotype on the colocalizat",
+  "summary": "(APOE3 -> APOE4) -> (higher fraction of APOER2 colocalizing with early endosomes)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P12.F3",
+  "quote_start": "A different colocalization pattern was seen in APOER2, IR, and VEGFR, ",
+  "summary": "(APOE3 -> APOE4) -> (higher fraction of APOER2 colocalizing with early endosomes)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P12.F4",
+  "quote_start": "The results obtained show that the ratio of the externally oriented re",
+  "summary": "(APOE3 -> APOE4) -> (lower neuronal LRP1 surface-to-total ratio)",
+  "class": 3,
+  "strength": 2,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P12.F5",
+  "quote_start": "Additionally, there was also a decrease in the colocalization of the r",
+  "summary": "(APOE3 -> APOE4) -> (no change in APOER2 colocalization with recycling endosomes)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P12.F6",
+  "quote_start": "As can be seen, the downregulation of LRP1 had no significant effects ",
+  "summary": "(LRP1 knockdown in APOE4 neurons) -> (lower fraction of APOER2 colocalizing with early endosomes)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "A is held at APOE4 and a receptor knockdown or broad drug (path variable) is manipulated with a localization or indirect readout, so class 5, strength 4. (was 4/3)"
+ },
+ {
+  "finding_id": "P12.F7",
+  "quote_start": "Evaluation of the extent of colocalization of the ApoE receptors with ",
+  "summary": "(APOE3 -> APOE4) -> (lower fraction of LRP1 colocalizing with early endosomes)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P12.F8",
+  "quote_start": "The first pattern which was observed with LRP1, shows that lower level",
+  "summary": "(APOE3 -> APOE4) -> (lower fraction of LRP1 colocalizing with early endosomes)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P12.F9",
+  "quote_start": "The first pattern which was observed with LRP1, shows that lower level",
+  "summary": "(APOE3 -> APOE4) -> (no change in LRP1 colocalization with recycling endosomes)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P12.F10",
+  "quote_start": "This decrease in late endosomes was significant for both IR and VEGFR ",
+  "summary": "(APOE3 -> APOE4) -> (no change in APOER2 colocalization with late endosomes)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Late-endosome/lysosome colocalization is weakly coupled to recycling (degradation is an alternative route), so class 3, strength 4, same for every receptor in this assay. (was 3/3)"
+ },
+ {
+  "finding_id": "P12.F11",
+  "quote_start": "Additionally, knock-down of APOER2 did not affect the intracellular lo",
+  "summary": "(APOER2 knockdown in APOE4 neurons) -> (no change in LRP1 colocalization with early endosomes)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "A is held at APOE4 and a receptor knockdown or broad drug (path variable) is manipulated with a localization or indirect readout, so class 5, strength 4. (was 4/3)"
+ },
+ {
+  "finding_id": "P12.F12",
+  "quote_start": "A different pattern was observed with the growth factor receptors IR a",
+  "summary": "(APOER2 knockdown in APOE4 neurons) -> (lower fraction of insulin receptor colocalizing with early endosomes)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "A is held at APOE4 and a receptor knockdown or broad drug (path variable) is manipulated with a localization or indirect readout, so class 5, strength 4. (was 4/3)"
+ },
+ {
+  "finding_id": "P12.F13",
+  "quote_start": "A different pattern was observed with the growth factor receptors IR a",
+  "summary": "(APOER2 knockdown in APOE4 neurons) -> (lower fraction of VEGFR2 colocalizing with early endosomes)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "A is held at APOE4 and a receptor knockdown or broad drug (path variable) is manipulated with a localization or indirect readout, so class 5, strength 4. (was 4/3)"
+ },
+ {
+  "finding_id": "P12.F14",
+  "quote_start": "Quantification of these results revealed that the colocalization of IR",
+  "summary": "(APOE3 -> APOE4) -> (higher fraction of insulin receptor colocalizing with early endosomes)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P12.F15",
+  "quote_start": "Additionally, there was also a decrease in the colocalization of the r",
+  "summary": "(APOE3 -> APOE4) -> (lower fraction of insulin receptor colocalizing with recycling endosomes)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P12.F16",
+  "quote_start": "Additionally, there was also a decrease in the colocalization of the r",
+  "summary": "(APOE3 -> APOE4) -> (lower fraction of VEGFR2 colocalizing with recycling endosomes)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P12.F17",
+  "quote_start": "As can be seen, the downregulation of LRP1 had no significant effects ",
+  "summary": "(LRP1 knockdown in APOE4 neurons) -> (lower fraction of insulin receptor colocalizing with early endosomes)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "A is held at APOE4 and a receptor knockdown or broad drug (path variable) is manipulated with a localization or indirect readout, so class 5, strength 4. (was 4/3)"
+ },
+ {
+  "finding_id": "P12.F18",
+  "quote_start": "As can be seen, the downregulation of LRP1 had no significant effects ",
+  "summary": "(LRP1 knockdown in APOE4 neurons) -> (lower fraction of VEGFR2 colocalizing with early endosomes)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "A is held at APOE4 and a receptor knockdown or broad drug (path variable) is manipulated with a localization or indirect readout, so class 5, strength 4. (was 4/3)"
+ },
+ {
+  "finding_id": "P12.F19",
+  "quote_start": "Similar, though less prominent, pattern was evident in IR (Fig. 4 C, 2",
+  "summary": "(APOE3 -> APOE4) -> (no change in neuronal insulin-receptor surface-to-total ratio)",
+  "class": 3,
+  "strength": 2,
+  "changed": true,
+  "why": "Isoform varied but the readout is steady surface level of an apoE-binding receptor, a surrogate B' for impeded recycling (endocytosis or synthesis could also move it), so class 3, strength 2, same as every other surface-level row. (was 3/3)"
+ },
+ {
+  "finding_id": "P12.F20",
+  "quote_start": "Similar, though less prominent, pattern was evident in IR (Fig. 4 C, 2",
+  "summary": "(APOE3 -> APOE4) -> (no change in neuronal VEGFR2 surface-to-total ratio)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P12.F21",
+  "quote_start": "The first pattern which was observed with LRP1, shows that lower level",
+  "summary": "(APOE3 -> APOE4) -> (lower fraction of LRP1 colocalizing with late endosomes)",
+  "class": 3,
+  "strength": 4,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P12.F22",
+  "quote_start": "Additionally, there was also a decrease in the colocalization of the r",
+  "summary": "(APOE3 -> APOE4) -> (lower fraction of APOER2 colocalizing with lysosomes)",
+  "class": 3,
+  "strength": 4,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P12.F23",
+  "quote_start": "This decrease in late endosomes was significant for both IR and VEGFR ",
+  "summary": "(APOE3 -> APOE4) -> (lower fraction of insulin receptor colocalizing with late endosomes)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Late-endosome/lysosome colocalization is weakly coupled to recycling (degradation is an alternative route), so class 3, strength 4, same for every receptor in this assay. (was 3/3)"
+ },
+ {
+  "finding_id": "P12.F24",
+  "quote_start": "This decrease in late endosomes was significant for both IR and VEGFR ",
+  "summary": "(APOE3 -> APOE4) -> (lower fraction of VEGFR2 colocalizing with late endosomes)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Late-endosome/lysosome colocalization is weakly coupled to recycling (degradation is an alternative route), so class 3, strength 4, same for every receptor in this assay. (was 3/3)"
+ },
+ {
+  "finding_id": "P12.F25",
+  "quote_start": "The first pattern which was observed with LRP1, shows that lower level",
+  "summary": "(APOE3 -> APOE4) -> (lower fraction of LRP1 colocalizing with lysosomes)",
+  "class": 3,
+  "strength": 4,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P13.F1",
+  "quote_start": "In stark contrast, cultures with E4 showed increased surface LRP8 and ",
+  "summary": "(apoE3 -> apoE4, after axotomy) -> (greater surface LRP8 response)",
+  "class": 3,
+  "strength": 2,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P13.F2",
+  "quote_start": "With no exogenous human ApoE particles added, axotomy elevated pTyr416",
+  "summary": "(no added human apoE -> added apoE4) -> (axotomy-associated increase in surface LRP8)",
+  "class": 4,
+  "strength": 4,
+  "changed": true,
+  "why": "Comparator is no added apoE, not apoE3, so apoE4 addition is a surrogate A' (any apoE ligand drives receptor internalization, shown in P7) and surface/internalized receptor is a surrogate B': class 4, strength 4. (was 4/3)"
+ },
+ {
+  "finding_id": "P13.F3",
+  "quote_start": "Without injury, excess human ApoE did not substantially alter surface ",
+  "summary": "(no added human apoE -> added apoE4, without axotomy) -> (no change in surface LRP8)",
+  "class": 4,
+  "strength": 4,
+  "changed": true,
+  "why": "Comparator is no added apoE, not apoE3, so apoE4 addition is a surrogate A' (any apoE ligand drives receptor internalization, shown in P7) and surface/internalized receptor is a surrogate B': class 4, strength 4. (was 4/3)"
+ },
+ {
+  "finding_id": "P13.F4",
+  "quote_start": "In contrast to LRP8, surface localization of LRP5 and LRP6 was not reg",
+  "summary": "(apoE3 -> apoE4) -> (no change in surface LRP5)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Isoform varied, readout is surface level of a receptor not shown to bind apoE, a surrogate one step further from B, so class 3, strength 3 like the other non-apoE-receptor surface rows. (was 3/2)"
+ },
+ {
+  "finding_id": "P13.F5",
+  "quote_start": "By contrast, the subcellular distribution of LRP5 and LRP6 receptors i",
+  "summary": "(APOE3 -> APOE4) -> (no change in cortical neuronal LRP5 localization)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P14.F1",
+  "quote_start": "Similarly, the total amount of Tf after a 20-min pulse was higher in A",
+  "summary": "(APOE3 -> APOE4) -> (no change in normalized transferrin recycling rate)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P15.F1",
+  "quote_start": "Compared with controls, the remaining cell-surface ApoER2, APP, and β-",
+  "summary": "(no added apoE4 -> added apoE4) -> (lower cell-surface ApoER2)",
+  "class": 4,
+  "strength": 4,
+  "changed": true,
+  "why": "Comparator is no added apoE, not apoE3, so apoE4 addition is a surrogate A' (any apoE ligand drives receptor internalization, shown in P7) and surface/internalized receptor is a surrogate B': class 4, strength 4. (was 3/3)"
+ },
+ {
+  "finding_id": "P15.F2",
+  "quote_start": "We observed small increases of ApoER2 and β-secretase in response to A",
+  "summary": "(no added apoE4 -> added apoE4) -> (more internalized ApoER2)",
+  "class": 4,
+  "strength": 4,
+  "changed": true,
+  "why": "Comparator is no added apoE, not apoE3, so apoE4 addition is a surrogate A' (any apoE ligand drives receptor internalization, shown in P7) and surface/internalized receptor is a surrogate B': class 4, strength 4. (was 3/4)"
+ },
+ {
+  "finding_id": "P16.F1",
+  "quote_start": "Altered sorting of sortilin–FABP7 complexes in the presence of apoE4 w",
+  "summary": "(apoE3 -> apoE4) -> (greater recycling-endosomal colocalization of sortilin–FABP7 complexes)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P16.F2",
+  "quote_start": "PLA signals for sortilin–FABP7 complexes change from a dispersed vesic",
+  "summary": "(apoE3 -> apoE4) -> (more perinuclear localization of sortilin)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P16.F3",
+  "quote_start": "As shown in Fig. 7E, the intracellular distribution of sortilin–FABP7 ",
+  "summary": "(apoE3 -> apoE4) -> (more confined perinuclear localization of sortilin–FABP7 complexes)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P17.F1",
+  "quote_start": "K i determined from 3 repeated experiments, each consisting of quadrup",
+  "summary": "(APOE3 -> APOE4 in donor mice) -> (lower VLDL competition Ki for human LDL receptor binding and internalization)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Binding of whole native lipoproteins from genotype-differing donors is a surrogate B' for apoE-receptor adhesion (apoB and particle composition also change), so class 3, strength 3 for all native-particle rows. (was 1/2)"
+ },
+ {
+  "finding_id": "P18.F1",
+  "quote_start": "The prominent apoE-binding bands had apparent molecular masses of 280,",
+  "summary": "(APOE3 -> APOE4) -> (no change in detectable binding to Neuro-2a membrane proteins)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P19.F1",
+  "quote_start": "Competition curves comparing LDLR binding by LDL ( Figure 7A ) and dim",
+  "summary": "(DMPC-apoE3 -> DMPC-apoE4) -> (lower concentration required for 50% inhibition of LDLR binding)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+ },
+ {
+  "finding_id": "P19.F2",
+  "quote_start": "When 125 I-apoE4 was used in the single-cycle endocytosis assay, simil",
+  "summary": "(apoE3 -> apoE4) -> (no change in reported single-cycle apoE trafficking kinetics)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P20.F1",
+  "quote_start": "The full-length apoE proteins with DMPC showed dose-de- pendent compet",
+  "summary": "Full-length apoE3 and apoE4 showed similar observed LDLR competition at 0.125 mg with DMPC.",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+ },
+ {
+  "finding_id": "P20.F2",
+  "quote_start": "The LDL-R binding ability of apoE- DMPC was higher than that of LDL at",
+  "summary": "Full-length apoE4 retained 99% of apoE3’s reported LDLR binding ability with DMPC.",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+ },
+ {
+  "finding_id": "P20.F3",
+  "quote_start": "The LDL-R binding ability of apoE- DMPC was higher than that of LDL at",
+  "summary": "Full-length apoE3 and apoE4 gave identical reported LDLR competition without DMPC.",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+ },
+ {
+  "finding_id": "P20.F4",
+  "quote_start": "In contrast, the apoE3-(1–231)-DMPC complex lost most of its LDL-R bin",
+  "summary": "(apoE3-(1–231) -> apoE4-(1–231)) -> (greater LDLR competition with DMPC)",
+  "class": 2,
+  "strength": 2,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P20.F5",
+  "quote_start": "On the contrary, in a lipid-free environment, the N-terminal trun- cat",
+  "summary": "(apoE3-(72–299) -> apoE4-(72–299)) -> (greater LDLR competition without DMPC)",
+  "class": 2,
+  "strength": 2,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P20.F6",
+  "quote_start": "At the same dose, apoE3-(72–299)- and apoE4-(72–299)-DMPC complexes sh",
+  "summary": "(apoE3-(72–299) -> apoE4-(72–299)) -> (greater LDLR competition with DMPC)",
+  "class": 2,
+  "strength": 2,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P20.F7",
+  "quote_start": "When the C-terminal domain was fully removed, apoE3-(1–191)- and apoE4",
+  "summary": "(apoE3-(1–191) -> apoE4-(1–191)) -> (lower LDLR competition with DMPC)",
+  "class": 2,
+  "strength": 2,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P20.F8",
+  "quote_start": "With the assistance of the 232–271 fragment, the LDL-R binding ability",
+  "summary": "(apoE3-(1–271) -> apoE4-(1–271)) -> (greater LDLR competition with DMPC)",
+  "class": 2,
+  "strength": 2,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P20.F9",
+  "quote_start": "ApoE3-(1–191) 42 72 13 39 ApoE4-(1–191) 34 57 19 57",
+  "summary": "(apoE3-(1–191) -> apoE4-(1–191)) -> (greater LDLR competition without DMPC)",
+  "class": 2,
+  "strength": 2,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P20.F10",
+  "quote_start": "A 10-fold dose of apoE3-(41–299)-DMPC complex decreased 3H-LDL binding",
+  "summary": "(apoE3-(41–299) -> apoE4-(41–299)) -> (slightly greater LDLR competition with DMPC)",
+  "class": 2,
+  "strength": 2,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P20.F11",
+  "quote_start": "Different from that of apoE3-(72–166)-DMPC, apoE4-(72–166)- DMPC compl",
+  "summary": "(apoE3-(72–166) -> apoE4-(72–166)) -> (greater LDLR competition with DMPC)",
+  "class": 2,
+  "strength": 2,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P20.F12",
+  "quote_start": "ApoE3-(41–299) 46 78 15 44 ApoE4-(41–299) 47 80 20 60",
+  "summary": "(apoE3-(41–299) -> apoE4-(41–299)) -> (greater LDLR competition without DMPC)",
+  "class": 2,
+  "strength": 2,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P20.F13",
+  "quote_start": "ApoE3-(1–271) 47 80 27 81 ApoE4-(1–271) 58 99 29 86",
+  "summary": "(apoE3-(1–271) -> apoE4-(1–271)) -> (slightly greater LDLR competition without DMPC)",
+  "class": 2,
+  "strength": 2,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P20.F14",
+  "quote_start": "ApoE3-(72–166) 26 44 14 41 ApoE4-(72–166) 55 94 22 65",
+  "summary": "(apoE3-(72–166) -> apoE4-(72–166)) -> (greater LDLR competition without DMPC)",
+  "class": 2,
+  "strength": 2,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P21.F1",
+  "quote_start": "KD (nM) 20.2±4.6 16.38±6 2.9 7.8 4.55+1.8 0.75 00 9.1",
+  "summary": "(apoE3 -> apoE4, one apoE per LpB:E particle) -> (lower apparent LDLR dissociation constant)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+ },
+ {
+  "finding_id": "P22.F1",
+  "quote_start": "APOE3 | 29.3 ± 2.1 | 54.3 ± 6.4 a | 1.8 | APOE4 | 39.5 ± 3.2 | 49.9 ± ",
+  "summary": "(apoE3 -> apoE4) -> (higher Kd and weaker binding to WT-LRPIV)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+ },
+ {
+  "finding_id": "P22.F2",
+  "quote_start": "APOE3 | 29.3 ± 2.1 | 54.3 ± 6.4 a | 1.8 | APOE4 | 39.5 ± 3.2 | 49.9 ± ",
+  "summary": "(apoE3 -> apoE4) -> (lower Kd and stronger binding to LRPIV-D3674G)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P23.F1",
+  "quote_start": "Relative to the APOE3/E3 group, the dissociation rate constant (kd2) w",
+  "summary": "(APOE3/E3 -> APOE3/E4) -> (slower stable VLDL1-LDLR complex dissociation)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Binding of whole native lipoproteins from genotype-differing donors is a surrogate B' for apoE-receptor adhesion (apoB and particle composition also change), so class 3, strength 3 for all native-particle rows. (was 1/2)"
+ },
+ {
+  "finding_id": "P23.F2",
+  "quote_start": "KA × 109 (M−1) | 0.7 ± 0.0 | 0.5 ± 0.0 | 0.019 | 2.7 ± 0.4 | 3.3 ± 0.3",
+  "summary": "(APOE3/E3 -> APOE3/E4) -> (no change in overall VLDL1-LDLR binding affinity)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Binding of whole native lipoproteins from genotype-differing donors is a surrogate B' for apoE-receptor adhesion (apoB and particle composition also change), so class 3, strength 3 for all native-particle rows. (was 1/2)"
+ },
+ {
+  "finding_id": "P23.F3",
+  "quote_start": "There were no significant genotype effects observed for the binding of",
+  "summary": "(APOE3/E3 -> APOE3/E4) -> (no change in stable VLDL2-LDLR complex dissociation rate)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P23.F4",
+  "quote_start": "There were no significant genotype or meal*genotype interactions obser",
+  "summary": "(APOE3/E3 -> APOE3/E4) -> (no change in postprandial VLDL1-LDLR binding)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Binding of whole native lipoproteins from genotype-differing donors is a surrogate B' for apoE-receptor adhesion (apoB and particle composition also change), so class 3, strength 3 for all native-particle rows. (was 3/2)"
+ },
+ {
+  "finding_id": "P23.F5",
+  "quote_start": "kd1 × 10−3 (s−1) | 11.7 ± 0.2 | 12.7 ± 0.3 | 0.042 | 6.2 ± 0.8 | 5.2 ±",
+  "summary": "(APOE3/E3 -> APOE3/E4) -> (no change in initial VLDL1-LDLR dissociation rate)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Binding of whole native lipoproteins from genotype-differing donors is a surrogate B' for apoE-receptor adhesion (apoB and particle composition also change), so class 3, strength 3 for all native-particle rows. (was 1/2)"
+ },
+ {
+  "finding_id": "P23.F6",
+  "quote_start": "K1 × 108 (M−1) | 1.8 ± 0.1 | 1.4 ± 0.2 | 0.005 | 2.0 ± 0.3 | 1.9 ± 0.2",
+  "summary": "(APOE3/E3 -> APOE3/E4) -> (no change in initial VLDL1-LDLR equilibrium binding constant)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Binding of whole native lipoproteins from genotype-differing donors is a surrogate B' for apoE-receptor adhesion (apoB and particle composition also change), so class 3, strength 3 for all native-particle rows. (was 1/2)"
+ },
+ {
+  "finding_id": "P23.F7",
+  "quote_start": "However, in our study, a similar ka2 constant was observed for both fa",
+  "summary": "(APOE3/E3 -> APOE3/E4) -> (no change in VLDL1-LDLR stable-complex formation rate)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Binding of whole native lipoproteins from genotype-differing donors is a surrogate B' for apoE-receptor adhesion (apoB and particle composition also change), so class 3, strength 3 for all native-particle rows. (was 1/2)"
+ },
+ {
+  "finding_id": "P23.F8",
+  "quote_start": "A slower association rate was also observed with the fasting VLDL1-ric",
+  "summary": "(APOE3/E3 -> APOE3/E4) -> (slower initial VLDL1-LDLR association)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Binding of whole native lipoproteins from genotype-differing donors is a surrogate B' for apoE-receptor adhesion (apoB and particle composition also change), so class 3, strength 3 for all native-particle rows. (was 1/2)"
+ },
+ {
+  "finding_id": "P24.F1",
+  "quote_start": "The binding ability of apoE3-F-EP was 1.3-fold higher than that of apo",
+  "summary": "(apoE3 -> apoE4) -> (no significant change in LRP1-associated cell-surface particle binding)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+ },
+ {
+  "finding_id": "P24.F2",
+  "quote_start": "These differences among apoE isoforms were also observed under a ﬂuore",
+  "summary": "(apoE3 -> apoE4) -> (qualitatively lower cell-associated particle fluorescence)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+ },
+ {
+  "finding_id": "P25.F1",
+  "quote_start": "Each VLDL particle competed efficiently (fig. 4), except for the recom",
+  "summary": "(apoE3 -> apoE4) -> (no change in reported ability of apoE-enriched VLDL to compete for LDL receptor binding)",
+  "class": 1,
+  "strength": 1,
+  "changed": true,
+  "why": "Isoform varied and apoE binding to the receptor measured directly (B itself), so class 1, strength 1, same as every other direct binding/affinity/competition row with a defined apoE ligand. (was 1/2)"
+ },
+ {
+  "finding_id": "P26.F1",
+  "quote_start": "In contrast, APOE4 enhanced the trafficking of surface LRP1 levels (Fi",
+  "summary": "(no added APOE4 -> added APOE4) -> (higher neuronal surface LRP1)",
+  "class": 4,
+  "strength": 4,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P26.F2",
+  "quote_start": "(A–C) Western blot analysis from primary neuronal culture treated with",
+  "summary": "(no added APOE4 -> added APOE4) -> (higher neuronal surface LRP1)",
+  "class": 4,
+  "strength": 4,
+  "changed": false,
+  "why": ""
+ },
+ {
+  "finding_id": "P26.F3",
+  "quote_start": "(K–M) Western blot analysis from neuronal culture treated with ACM alo",
+  "summary": "(ACM alone -> ACM plus APOE4) -> (higher neuronal surface LRP1)",
+  "class": 4,
+  "strength": 4,
+  "changed": false,
+  "why": ""
+ }
+]

@@ -1,0 +1,959 @@
+{
+ "hyp": "H3",
+ "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+ "A": "APOE genotype or apoE isoform (APOE4 vs APOE3)",
+ "B": "aggregation of apoE protein itself in the endosome/lysosome (endo-lysosomal apoE aggregates, oligomers)",
+ "scope": "IN: aggregation, oligomerization, misfolding or insoluble/high-molecular-weight apoE itself, especially inside endosomes/lysosomes or at acidic pH (in cells, tissue or in vitro), compared between apoE4 and apoE3; lysosomal accumulation or impaired degradation of apoE protein; apoE aggregates seeding other proteins when apoE aggregation itself is measured. OUT: amyloid-beta or tau aggregation without measuring apoE aggregation, general lysosomal function without apoE protein readouts.",
+ "items": [
+  {
+   "finding_id": "P1.F1",
+   "row": {
+    "Paper/Finding ID": "P1.F1",
+    "Finding description": "At pH 4.5, PUFA-CE–lipidated ApoE4 formed more sedimentable aggregates than ApoE3 after four days at 37°C in a cell-free assay.",
+    "Finding quote": "Interestingly, CE(20:4)-ApoE3 demonstrated the lowest aggregation at both pH 7.4 and pH 4.5, while CE(20:4)-ApoE2 exhibited the highest aggregation at pH 7.4 but comparable aggregation as CE(20:4)-ApoE4 at pH 4.5 (Figure 5O–Q, Figure S5K).",
+    "Finding summary": "(ApoE3 -> ApoE4) -> (higher ApoE aggregation at lysosomal pH)",
+    "Experimental system": "Cell-free HEK293-derived human ApoE lipidated with POPC and CE(20:4); 0.5 mg/mL protein in PBS adjusted to pH 4.5, four days at 37°C; ultracentrifugation at 150,000 × g for 30 minutes and non-reducing SDS-PAGE of supernatant and pellet.",
+    "Data location": "Fig 5O, pH 4.5",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 1
+  },
+  {
+   "finding_id": "P1.F3",
+   "row": {
+    "Paper/Finding ID": "P1.F3",
+    "Finding description": "Human APOE-knockout iPSC astrocytes internalized more ApoE4 than ApoE3 after one day of lipidated ApoE treatment; the Manders coefficient for LAMP1-positive vesicles containing ApoE was 0.497 for ApoE4 versus 0.410 for ApoE3.",
+    "Finding quote": "ApoE isoform differences were manifested in the differential levels of internalized lipApoE (ApoE4 > ApoE3 > ApoE2), giving rise to the same isoform trend for LAMP1-positive vesicles containing ApoE immunoreactivity (Mander’s coefficients = 0.266 ± 0.045 for ApoE2, 0.410 ± 0.049 for ApoE3, 0.497 ± 0.090 for ApoE4) (Figure 2I).",
+    "Finding summary": "(ApoE3 -> ApoE4) -> (higher intracellular ApoE protein accumulation)",
+    "Experimental system": "Human APOE-knockout iPSC-derived astrocytes from ThermoFisher A18945; one-day treatment with 10 μg/mL HEK293-derived POPC-lipidated human ApoE; fixed-cell ApoE immunofluorescence with super-resolution imaging.",
+    "Data location": "Fig 2I, internalized lipApoE quantification",
+    "Directness class": 3,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 4,
+    "why": "Lysosomal/late-endosomal localization or abundance of apoE is a surrogate B' with a known alternative (APOE4 alters receptor uptake and endosomal recycling, putting more apoE in lysosomes without aggregation); all such rows are 3/4."
+   },
+   "item": 2
+  },
+  {
+   "finding_id": "P1.F5",
+   "row": {
+    "Paper/Finding ID": "P1.F5",
+    "Finding description": "At pH 7.4, PUFA-CE–lipidated ApoE3 showed less aggregation than ApoE4 after four days at 37°C, although the preparations remained largely soluble.",
+    "Finding quote": "CE(20:4)-lipApoE remained largely soluble and mostly recovered in the supernatant fraction upon incubation at pH 7.4, but abundant protein was found in the pellet fraction indicative of aggregation after incubation at pH 4.5, which mimics lysosomal pH (Figure 5O–P). Interestingly, CE(20:4)-ApoE3 demonstrated the lowest aggregation at both pH 7.4 and pH 4.5, while CE(20:4)-ApoE2 exhibited the highest aggregation at pH 7.4 but comparable aggregation as CE(20:4)-ApoE4 at pH 4.5 (Figure 5O–Q, Figure S5K).",
+    "Finding summary": "(ApoE3 -> ApoE4) -> (higher ApoE aggregation at neutral pH)",
+    "Experimental system": "Cell-free HEK293-derived human ApoE3 or ApoE4 lipidated with POPC and CE(20:4); 0.5 mg/mL protein in PBS, pH 7.4, four days at 37°C; ultracentrifugation and non-reducing SDS-PAGE.",
+    "Data location": "Fig 5O, pH 7.4",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 3
+  },
+  {
+   "finding_id": "P3.F1",
+   "row": {
+    "Paper/Finding ID": "P3.F1",
+    "Finding description": "At 0.50 mg/ml, full-length apoE4 had a larger large-species fraction than apoE3, 26% versus 21%, despite identical weight-average sedimentation coefficients of 6.5 S.",
+    "Finding quote": "Furthermore, at higher protein concentration, large species ( s > 10) were more significantly increased for the apoE4 protein (by 15%), compared to apoE3 protein (6%). These observations support the greater aggregation of apoE4 protein.",
+    "Finding summary": "(apoE3 -> apoE4) -> (higher fraction of large apoE species at 0.50 mg/ml)",
+    "Experimental system": "Purified recombinant human full-length apoE3 and apoE4 with C-terminal His tags; PBS, pH 7.3; sedimentation velocity at 20°C and 40,000 rpm. Table 2 specifies that its higher-concentration full-length samples were 0.50 mg/ml.",
+    "Data location": "Fig 4A–B; Table 2, higher-concentration full-length rows and footnote; Table 1",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 4
+  },
+  {
+   "finding_id": "P3.F3",
+   "row": {
+    "Paper/Finding ID": "P3.F3",
+    "Finding description": "At 1.00 mg/ml, apoE4 72–299 had more large species than apoE3 72–299, 21% versus 12%, and a more heterogeneous distribution; the apoE3 major region contained 77% at 5.9 S.",
+    "Finding quote": "Similar to the full-length proteins, at higher protein concentrations, apoE4 72-299 had more abundant larger species ( s > 10, 21%), compared with those of apoE3 72-299 (12%). ApoE4 72-299 therefore shows a greater tendency to aggregate.",
+    "Finding summary": "(apoE3 72–299 -> apoE4 72–299) -> (higher large-species fraction and greater heterogeneity)",
+    "Experimental system": "Purified recombinant human apoE3 and apoE4 residues 72–299; 1.00 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C and 40,000 rpm; continuous c(s) analysis.",
+    "Data location": "Fig 4E–F; Table 2, 1.00 mg/ml rows",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 5
+  },
+  {
+   "finding_id": "P3.F5",
+   "row": {
+    "Paper/Finding ID": "P3.F5",
+    "Finding description": "At 0.15 mg/ml, apoE4 1–271 contained more large species than apoE3 1–271, 21% versus 13%, with overlapping oligomer distributions spanning approximately 50–400 kDa.",
+    "Finding quote": "ApoE4 1-271 was made up of more and larger species ( s > 10; 21%), compared to apoE3 1-271 (13%).",
+    "Finding summary": "(apoE3 1–271 -> apoE4 1–271) -> (higher fraction of large apoE oligomers)",
+    "Experimental system": "Purified recombinant human apoE3 and apoE4 residues 1–271; 0.15 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C; continuous sedimentation and molar-mass distributions.",
+    "Data location": "Fig 5A–D, dotted curves; Results, Size distribution of C-terminal truncated apoE3 and apoE4 proteins",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 6
+  },
+  {
+   "finding_id": "P3.F7",
+   "row": {
+    "Paper/Finding ID": "P3.F7",
+    "Finding description": "ApoE4 72–299 showed a 10.0–25.0 nm large-particle group comprising 36% and a 5.1 nm group comprising 62%, whereas apoE3 72–299 had one major 4–10 nm group.",
+    "Finding quote": "ApoE3 72-299 protein existed as one major particle group in the range of 4–10 nm, whereas apoE4 72-299 showed two major groups with a particle size of 5.1 nm (62%) and another in the range of 10.0–25.0 nm (36%).",
+    "Finding summary": "(apoE3 72–299 -> apoE4 72–299) -> (appearance of a larger apoE particle population)",
+    "Experimental system": "Purified recombinant human apoE3 and apoE4 residues 72–299; 1.0 mg/ml in PBS, pH 7.3; dynamic light scattering at 20°C, 30–40 minutes per sample.",
+    "Data location": "Results, Dynamic light scattering of apoE proteins, final sentence",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 7
+  },
+  {
+   "finding_id": "P3.F9",
+   "row": {
+    "Paper/Finding ID": "P3.F9",
+    "Finding description": "At 0.15 mg/ml, apoE4 72–299 had a smaller large-species fraction than apoE3 72–299, 7% versus 13%, although its overall weight-average sedimentation was higher, 6.4 versus 5.5 S.",
+    "Finding quote": "After calculating the integration by SEDFIT, both apoE 72-299 proteins showed four species at 0.15 mg/ml protein concentration ( Table 2 ).",
+    "Finding summary": "(apoE3 72–299 -> apoE4 72–299) -> (lower large-species fraction but higher overall sedimentation at low concentration)",
+    "Experimental system": "Purified recombinant human apoE3 and apoE4 residues 72–299, deleting N-terminal helices 1 and 2; 0.15 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C.",
+    "Data location": "Fig 4E–F; Table 2, 0.15 mg/ml rows; Table 1",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 8
+  },
+  {
+   "finding_id": "P3.F12",
+   "row": {
+    "Paper/Finding ID": "P3.F12",
+    "Finding description": "Raising concentration from 0.15 to 1.00 mg/ml reduced the large-species fraction of both 41–299 fragments, from 14% to 10% for apoE4 and from 10% to 9% for apoE3.",
+    "Finding quote": "However, both apoE 41-299 proteins showed less large species of s > 10 (decreased 1–4%). Neither apoE3 41-299 nor apoE4 41-299 therefore showed a tendency to aggregate.",
+    "Finding summary": "(apoE3 41–299 -> apoE4 41–299) -> (no greater concentration-dependent aggregation)",
+    "Experimental system": "Purified recombinant human apoE3 and apoE4 residues 41–299; 0.15 and 1.00 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C.",
+    "Data location": "Fig 4C–D; Table 2; Results, Size distribution of N-terminal truncated apoE3 and apoE4 proteins",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 9
+  },
+  {
+   "finding_id": "P3.F14",
+   "row": {
+    "Paper/Finding ID": "P3.F14",
+    "Finding description": "Both apoE3 1–231 and apoE4 1–231 retained monomer and tetramer populations, with no significant isoform difference reported, while adding residues 192–231 increased tetramerization in both.",
+    "Finding quote": "The two-species distribution was still maintained in the case of the apoE3 1-231 and apoE4 1-231 ( dashed lines in Fig. 5, A and C ), whereas the s values were shifted to 2.4 and 5.5 and the ratio of the two species also changed.",
+    "Finding summary": "(apoE3 1–231 -> apoE4 1–231) -> (no significant change in monomer/tetramer distribution reported)",
+    "Experimental system": "Purified recombinant human apoE3 and apoE4 residues 1–231; 0.15 mg/ml in PBS, pH 7.3; sedimentation velocity and c(s)/c(M) analysis at 20°C; estimated masses approximately 30–35 and 110–140 kDa.",
+    "Data location": "Fig 5A–D, dashed curves; Results, Size distribution of C-terminal truncated apoE3 and apoE4 proteins",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 10
+  },
+  {
+   "finding_id": "P3.F16",
+   "row": {
+    "Paper/Finding ID": "P3.F16",
+    "Finding description": "Monomer–tetramer modeling gave similar dissociation constants for apoE3 1–191 and apoE4 1–191, 556 ± 233 and 592 ± 323 nM, with no significant isoform variation reported.",
+    "Finding quote": "The K d of apoE3 1-191 (556 ± 233 nM) was 19 times larger than that of apoE3 1-231 (29 ± 2.8 nM) and 37 times in the case of apoE4 isoforms (592 ± 323 nM of apoE4 1-191 and 16 ± 1.3 nM of apoE4 1-231 ).",
+    "Finding summary": "(apoE3 1–191 -> apoE4 1–191) -> (no significant change in tetramerization affinity reported)",
+    "Experimental system": "Purified recombinant human apoE3 and apoE4 residues 1–191 in PBS, pH 7.3; sedimentation velocity at 20°C fitted with the SEDPHAT monomer–tetramer rapid self-association model.",
+    "Data location": "Results, Size distribution of C-terminal truncated apoE3 and apoE4 proteins, dissociation-constant paragraph",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 11
+  },
+  {
+   "finding_id": "P3.F18",
+   "row": {
+    "Paper/Finding ID": "P3.F18",
+    "Finding description": "At 1.00 mg/ml, apoE4 41–299 had a large-species fraction of 10% versus 9% for apoE3, and their two major species comprised 72% versus 77%; neither fragment showed a concentration-dependent aggregation tendency.",
+    "Finding quote": "At an initial protein concentration of 1.00 mg/ml, the major species of apoE3 41-299 with s = 3.7 and 5.0 accounted for 77% of the total amount. In the case of apoE4 41-299 , the major species with s = 3.6 and 5.1 constituted 72% of the total protein amount.",
+    "Finding summary": "(apoE3 41–299 -> apoE4 41–299) -> (slightly higher large-species fraction at 1.00 mg/ml)",
+    "Experimental system": "Purified recombinant human apoE3 and apoE4 residues 41–299; 1.00 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C and 40,000 rpm.",
+    "Data location": "Fig 4C–D; Table 2, 1.00 mg/ml rows",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 12
+  },
+  {
+   "finding_id": "P4.F1",
+   "row": {
+    "Paper/Finding ID": "P4.F1",
+    "Finding description": "Native PAGE showed greater high-molecular-weight oligomer formation by ApoE4 than ApoE3, with ApoE4 species exceeding 1048 kDa after 24 hours at 37 °C.",
+    "Finding quote": "Native gel shows the formation of higher oligomeric species for ApoE4 (> 1048 kDa) but not E2 and E3 after incubation at 37°C for 24 h.",
+    "Finding summary": "(apoE3 -> apoE4) -> (increased high-molecular-weight apoE oligomerization)",
+    "Experimental system": "Purified full-length recombinant human ApoE from E. coli, incubated in 20 mM phosphate buffer, pH 7.4, at 37 °C for 24 hours; native PAGE, with samples diluted to 3 μM for loading.",
+    "Data location": "Fig 4A",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 13
+  },
+  {
+   "finding_id": "P4.F3",
+   "row": {
+    "Paper/Finding ID": "P4.F3",
+    "Finding description": "TEM showed small round and amorphous species without mature filaments in an equal ApoE3/ApoE4 mixture, whereas ApoE4 alone formed long mature fibrils.",
+    "Finding quote": "TEM micrographs were produced for the mixed sample and showed the presence of small round and small amorphous species instead of the long mature fibrils observed for ApoE4 alone (Fig. 6b).",
+    "Finding summary": "(apoE4 alone -> equal apoE3/apoE4 mixture) -> (inhibited mature apoE filament formation)",
+    "Experimental system": "Purified recombinant human ApoE3 and ApoE4, each 12.5 μM, total 25 μM, in phosphate buffer, pH 7.4, incubated 24 hours at 37 °C; negative-stain TEM, compared with ApoE4-alone morphology.",
+    "Data location": "Fig. 6b (1:1 mixture) and Fig. 4c (ApoE4 alone, 24 h)",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 14
+  },
+  {
+   "finding_id": "P4.F8",
+   "row": {
+    "Paper/Finding ID": "P4.F8",
+    "Finding description": "Before-versus-after ThT scans were reported to show a significant three-day fluorescence change only for ApoE4, rather than ApoE3, indicating greater ApoE4 self-assembly.",
+    "Finding quote": "Comparison between ThT fluorescence scans taken before and after a 3-day incubation period shows significant differences in signal only for ApoE4, indicative of self-assembly.",
+    "Finding summary": "(apoE3 -> apoE4) -> (greater incubation-associated ThT signal change)",
+    "Experimental system": "Purified recombinant human ApoE isoforms incubated with ThT for three days at 37 °C in 20 mM phosphate buffer, pH 7.4; fluorescence scans before and after incubation.",
+    "Data location": "Supplementary Fig S5",
+    "Directness class": 3,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 2,
+    "why": "Amyloid-dye signal (ThT/Amytracker) is a surrogate B' for apoE aggregation; in a purified-protein assay there is no plausible route other than aggregation, so all dye readouts are 3/2."
+   },
+   "item": 15
+  },
+  {
+   "finding_id": "P4.F10",
+   "row": {
+    "Paper/Finding ID": "P4.F10",
+    "Finding description": "Sedimentation profiles in phosphate buffer showed no significant difference reported between ApoE3 and ApoE4 in baseline oligomerization.",
+    "Finding quote": "AUC revealed no differences in sedimentation velocity between the three isoforms in either buffer (Fig. S3, Fig. 1c and d, Table 2a), and the major species was characterized with a molecular mass of 130 kDa (Table 2a).",
+    "Finding summary": "(apoE3 -> apoE4) -> (no change in baseline oligomerization in phosphate buffer)",
+    "Experimental system": "Purified recombinant human ApoE, 8 μM in 20 mM phosphate buffer, pH 7.4; analytical ultracentrifugation at 20 °C, 40,000 rpm; Lamm-equation fitting and residual analysis.",
+    "Data location": "Supplementary Fig S3B",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 16
+  },
+  {
+   "finding_id": "P4.F12",
+   "row": {
+    "Paper/Finding ID": "P4.F12",
+    "Finding description": "SEC of purified recombinant human ApoE isoforms showed no significant difference reported between ApoE3 and ApoE4 in their baseline elution pattern, consistent with similar oligomerization.",
+    "Finding quote": "Gel filtration and size exclusion chromatography (SEC) coupled with multi-angle light scattering (SEC-MALS) showed multimerization of all three proteins consistent with a tetramer in solution with a molecular weight (MW) of 139–151 kDa (Fig. 1a and b, Table 1).",
+    "Finding summary": "(apoE3 -> apoE4) -> (no change in baseline oligomerization detected by SEC)",
+    "Experimental system": "Full-length recombinant human ApoE expressed in E. coli Rosetta2(DE3), purified by affinity chromatography and SEC; Superdex 200 chromatography in 20 mM HEPES, 300 mM NaCl, 10% glycerol, pH 8.0; no cells or endo-lysosomal compartment.",
+    "Data location": "Fig 1A",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 17
+  },
+  {
+   "finding_id": "P4.F14",
+   "row": {
+    "Paper/Finding ID": "P4.F14",
+    "Finding description": "Gel-filtration estimates were shared across ApoE3 and ApoE4 with no significant difference reported, including an apparent mass of 333 kDa and Stokes radius of 5.8 nm.",
+    "Finding quote": "A hydrodynamic radius of 5.8–6.5 nm was calculated for each isoform, and a frictional ratio f/f0 above 1.7 suggests elongated shape for the homotetramers (Table 1).",
+    "Finding summary": "(apoE3 -> apoE4) -> (no change in reported gel-filtration oligomer properties)",
+    "Experimental system": "Purified recombinant human ApoE isoforms analyzed on calibrated Superdex 200 in HEPES/NaCl/glycerol SEC buffer, pH 8.0; apparent mass and hydrodynamic properties inferred from elution.",
+    "Data location": "Table 1",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 18
+  },
+  {
+   "finding_id": "P5.F1",
+   "row": {
+    "Paper/Finding ID": "P5.F1",
+    "Finding description": "APOE4–mCh showed significantly greater colocalization with LAMP1-marked lysosomes than APOE3–mCh in human HEK293 cells, using three wells per isoform.",
+    "Finding quote": "Imaris analysis revealed that APOE4–mCh cells had significantly higher colocalization between APOE and lysosomes, and significantly greater average surface area of individual lysosomal and APOE puncta (Fig. 3A) than did APOE3–mCh cells, suggesting greater trafficking to lysosomes.",
+    "Finding summary": "(APOE3 -> APOE4) -> (greater APOE–lysosome colocalization)",
+    "Experimental system": "Human HEK293 cells, ATCC CRL-1573; stable APOE3–mCherry versus APOE4–mCherry expression; transient CellLight LAMP1–GFP lysosomal labeling; live confocal microscopy and Imaris colocalization analysis; three images per well.",
+    "Data location": "Fig 3A",
+    "Directness class": 3,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 4,
+    "why": "Lysosomal/late-endosomal localization or abundance of apoE is a surrogate B' with a known alternative (APOE4 alters receptor uptake and endosomal recycling, putting more apoE in lysosomes without aggregation); all such rows are 3/4."
+   },
+   "item": 19
+  },
+  {
+   "finding_id": "P5.F3",
+   "row": {
+    "Paper/Finding ID": "P5.F3",
+    "Finding description": "After uptake into rat ST14A cells, APOE4 showed significantly greater colocalization with late than early endosomes whereas APOE3 did not, using three wells per genotype without a reported direct between-isoform significance test.",
+    "Finding quote": "APOE4 colocalized with late endosomes significantly more than with early endosomes, whereas APOE3 did not.",
+    "Finding summary": "(extracellular APOE3 -> APOE4) -> (late-over-early endosomal localization preference observed for APOE4)",
+    "Experimental system": "Immortalized rat neuron-like ST14A cells; 24 h exposure to conditioned medium containing human APOE3–mCherry or APOE4–mCherry; fixed-cell staining for mCherry and early-endosomal EEA1 or late-endosomal Rab7; confocal imaging and Imaris colocalization analysis.",
+    "Data location": "Fig 7C; Supplementary Table S5",
+    "Directness class": 3,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 4,
+    "why": "Lysosomal/late-endosomal localization or abundance of apoE is a surrogate B' with a known alternative (APOE4 alters receptor uptake and endosomal recycling, putting more apoE in lysosomes without aggregation); all such rows are 3/4."
+   },
+   "item": 20
+  },
+  {
+   "finding_id": "P5.F5",
+   "row": {
+    "Paper/Finding ID": "P5.F5",
+    "Finding description": "Rat neuron-like ST14A cells accumulated more intracellular red fluorescence from APOE4–mCh than APOE3–mCh conditioned medium during the uptake time course, using three wells per medium genotype.",
+    "Finding quote": "Internalization levels were isoform-dependent, with the highest fluorescence observed in both cell types treated with APOE4–mCh, and the lowest in APOE2–mCh-treated cells (Fig. 7A,B).",
+    "Finding summary": "(extracellular APOE3 -> APOE4) -> (higher intracellular APOE-associated fluorescence during uptake)",
+    "Experimental system": "Immortalized rat neuronally derived ST14A cells, supplied by Elena Cattaneo's laboratory; no endogenous APOE detected by western blot; human HEK293T conditioned medium containing APOE3–mCherry or APOE4–mCherry, mixed 1:1 with fresh medium; IncuCyte fluorescence normalized to phase area over time. Endpoint duration is not stated in the supplied Fig 7B text.",
+    "Data location": "Fig 7B; Supplementary Table S5",
+    "Directness class": 3,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 5,
+    "why": "Whole-cell apoE abundance or uptake without compartment or aggregate readout is weakly coupled to endo-lysosomal aggregation (clone expression, secretion, uptake all differ), so 3/5."
+   },
+   "item": 21
+  },
+  {
+   "finding_id": "P5.F7",
+   "row": {
+    "Paper/Finding ID": "P5.F7",
+    "Finding description": "Bafilomycin significantly increased APOE4–mCh protein abundance in human HEK293 cells, testing lysosomal degradation within a fixed APOE4 background using three wells per treatment.",
+    "Finding quote": "Baf treatment significantly increased the abundance of APOE3–mCh and APOE4–mCh (Fig. 1B), and red fluorescence of APOE3–mCh and APOE4–mCh cells (Fig. 2).",
+    "Finding summary": "(lysosomal inhibition in APOE4 cells) -> (higher intracellular APOE4 protein abundance)",
+    "Experimental system": "Human HEK293 cells, ATCC CRL-1573, stably expressing APOE4–mCherry; bafilomycin A1, 50 nM for 4 h, versus untreated cells; whole-cell western blotting.",
+    "Data location": "Fig 1B; Supplementary Table S5",
+    "Directness class": 5,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 5,
+    "strength": 5,
+    "why": "Other: a lysosome/autophagy drug is varied within a fixed APOE4 background, so A is not varied (a path variable, not A' for A) and the abundance/localization readout is weakly coupled to aggregation; 5/5."
+   },
+   "item": 22
+  },
+  {
+   "finding_id": "P5.F9",
+   "row": {
+    "Paper/Finding ID": "P5.F9",
+    "Finding description": "Bafilomycin significantly increased intracellular APOE4–mCh red fluorescence in human HEK293 cells, testing lysosomal degradation within a fixed APOE4 background using four wells per treatment.",
+    "Finding quote": "Baf treatment significantly increased the abundance of APOE3–mCh and APOE4–mCh (Fig. 1B), and red fluorescence of APOE3–mCh and APOE4–mCh cells (Fig. 2).",
+    "Finding summary": "(lysosomal inhibition in APOE4 cells) -> (higher intracellular APOE4-associated fluorescence)",
+    "Experimental system": "Human HEK293 cells, ATCC CRL-1573, stably expressing APOE4–mCherry; bafilomycin A1, 50 nM, versus untreated cells; live-cell fluorescence imaging. The figure legend specifies a 4 h treatment.",
+    "Data location": "Fig 2; Supplementary Table S5",
+    "Directness class": 5,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 5,
+    "strength": 5,
+    "why": "Other: a lysosome/autophagy drug is varied within a fixed APOE4 background, so A is not varied (a path variable, not A' for A) and the abundance/localization readout is weakly coupled to aggregation; 5/5."
+   },
+   "item": 23
+  },
+  {
+   "finding_id": "P6.F1",
+   "row": {
+    "Paper/Finding ID": "P6.F1",
+    "Finding description": "Whole-cell fractionation immunoblots showed greater relative amounts of aggregated apoE in ApoE4 than ApoE3 primary mouse astrocytes, with three independent experiments reported for the associated quantification.",
+    "Finding quote": "The relative amount of aggregated ABCA1 and ApoE were significantly increased in ApoE4 primary astrocytes compared with ApoE3 primary astrocytes ( Fig. 4 D , E ).",
+    "Finding summary": "(APOE3 -> APOE4) -> (increased aggregated apoE in primary mouse astrocytes)",
+    "Experimental system": "Primary cortical astrocytes from 1–3-day-old mice homozygous for human APOE3 or APOE4 targeted replacement, backcrossed onto C57BL/6J for 10 generations; cultures approximately 95% astrocytes. Whole-cell lysates were separated into RIPA-soluble and RIPA-insoluble, guanidine-HCl-soluble fractions and immunoblotted for apoE. No endosomal or lysosomal localization of apoE aggregates was measured.",
+    "Data location": "Fig 4D, E",
+    "Directness class": 3,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 3,
+    "why": "Detergent-insoluble apoE in cells, CSF or non-amyloid tissue is an aggregation surrogate B' (could be lipid- or membrane-bound apoE) with a possible but unlikely alternative; all such rows are 3/3."
+   },
+   "item": 24
+  },
+  {
+   "finding_id": "P6.F4",
+   "row": {
+    "Paper/Finding ID": "P6.F4",
+    "Finding description": "Quantification of three independent recombinant-protein experiments found no significant difference in aggregation between apoE4 and apoE3 after four hours at 37°C (p=0.2), despite a numerical increase for apoE4.",
+    "Finding quote": "rApoE4 protein formed more aggregates than rApoE3 protein when incubated ex vivo for 4 h at 37°C, although the observed increase in ApoE4 aggregation were not statistically significant ( p = 0.2; Fig. 4 H , I ).",
+    "Finding summary": "(apoE3 -> apoE4) -> (no change in recombinant apoE aggregation reaching statistical significance)",
+    "Experimental system": "Recombinant human apoE3 versus apoE4, 10 μg per preparation, incubated in RIPA buffer for four hours at 37°C; densitometric quantification of Western blots of RIPA-soluble and guanidine-HCl-soluble fractions. No cells, acidic-pH manipulation, or organelle localization.",
+    "Data location": "Fig 4I",
+    "Directness class": 3,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 25
+  },
+  {
+   "finding_id": "P8.F1",
+   "row": {
+    "Paper/Finding ID": "P8.F1",
+    "Finding description": "During recombinant-protein incubation, apoE3 disaggregated into monomers whereas apoE4 aggregates remained stable for up to four hours and subsequently precipitated, with 30% of apoE4 disappearing from solution by 48 hours; three to four experiments were reported per isoform.",
+    "Finding quote": "Under these conditions, apoE3 consistently disaggregated into monomers, whereas apoE2 and apoE4 aggregates were stable for up to 4 hours, thereafter gradually precipitating onto the walls of the sample vial. By 48 hours, 70% of the apoE2 and 30% of the apoE4 disappeared from solution (Fig. 3).",
+    "Finding summary": "(recombinant apoE3 -> recombinant apoE4) -> (greater aggregate persistence and less dissociation into monomers)",
+    "Experimental system": "Cell-free recombinant human apoE3 versus apoE4 at 1.0 μg/mL (29 nM), incubated at 35°C with 1 μg/mL micellar cholesterol and protease inhibitors; time-course size-exclusion HPLC A280 profiles. Chromatography used pH 6.65 eluent; no endosomal or lysosomal cellular compartment was studied.",
+    "Data location": "Fig. 3B; Fig. 3C; Results subsection 'ApoE3 more readily dissociates from aggregates'",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 26
+  },
+  {
+   "finding_id": "P9.F2",
+   "row": {
+    "Paper/Finding ID": "P9.F2",
+    "Finding description": "After neprilysin inhibition, APOE4 mice had greater large-lysosomal co-localization of apoE with Aβ42 than APOE3 mice, measuring apoE-containing co-localized material without establishing apoE self-aggregation.",
+    "Finding quote": "As shown in Figure 4D, quadruple labeling (Aβ42, I-11, CatD, and apoE4) revealed co-localization of lysosomal apoE with Aβ42 (yellow arrowheads) and with oligo-Aβ42 (yellow arrows). Furthermore, co-localization of these aggregates with large lysosomes was specifically elevated in the thiorphan-treated apoE4 mice (P < 0.02 for the treated apoE4 compared to other mouse groups) (Fig. 4D).",
+    "Finding summary": "(APOE3 -> APOE4) -> (increased lysosomal apoE/Aβ42 co-localization following neprilysin inhibition)",
+    "Experimental system": "Three- to four-month-old male human APOE3- or APOE4-homozygous targeted-replacement mice on an eight-generation C57BL/6J backcross background; hippocampal CA1 neurons after intracerebroventricular thiorphan; quadruple confocal labeling for apoE, Aβ42, I-11, and Cathepsin D; treatment duration not separately stated for panel D.",
+    "Data location": "Fig 4D, lysosomal apoE–Aβ species",
+    "Directness class": 3,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 4,
+    "why": "Lysosomal/late-endosomal localization or abundance of apoE is a surrogate B' with a known alternative (APOE4 alters receptor uptake and endosomal recycling, putting more apoE in lysosomes without aggregation); all such rows are 3/4."
+   },
+   "item": 27
+  },
+  {
+   "finding_id": "P10.F1",
+   "row": {
+    "Paper/Finding ID": "P10.F1",
+    "Finding description": "A2E plus complement exposure increased the fraction of large apoE3 condensates but produced no stress-induced increase in apoE4 condensates in primary porcine RPE, opposing greater stress-induced condensation of apoE4; 15–29 cells were analyzed per condition.",
+    "Finding quote": "We also observed a small but significant increase in large condensates in ApoE3-RPE exposed to A2E and NHS, whereas ApoE4-RPE were completely resistant to this stress-induced phase separation (Figure 5A).",
+    "Finding summary": "(APOE3 -> APOE4) -> (resistance to stress-induced enlargement of intracellular apoE condensates)",
+    "Experimental system": "Primary adult porcine RPE monolayers expressing human mCherry-tagged apoE3 or apoE4; A2E treatment at 10 μM for 6 hours followed by a 48-hour chase, with normal human serum as a complement source. Live confocal imaging and 3D reconstruction measured the percentage of apoE condensates exceeding 0.6 μm3. Endo-lysosomal localization was not established.",
+    "Data location": "Fig 5A",
+    "Directness class": 3,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 3,
+    "why": "Imaged intracellular apoE puncta/condensate size or surface aggregates are aggregation surrogates B' with a possible alternative (vesicle size, identity of structures); all such rows are 3/3."
+   },
+   "item": 28
+  },
+  {
+   "finding_id": "P11.F2",
+   "row": {
+    "Paper/Finding ID": "P11.F2",
+    "Finding description": "Image analysis of electron micrographs found a larger mean-complex-area distribution for LPS-treated APOE4 than APOE3.",
+    "Finding quote": "This difference in aggregate size was confirmed by image analysis, revealing a larger distribution of the mean complex area in samples containing rAPOE4 compared with rAPOE3 (Fig. 6B).",
+    "Finding summary": "(APOE3 -> APOE4) -> (larger LPS-induced APOE aggregate area)",
+    "Experimental system": "ImageJ analysis of negative-stain TEM images of purified recombinant human APOE3 and APOE4 with E. coli LPS; three independently prepared samples, ten fields examined per preparation; 30-minute incubation at 37 °C; reported size metric differs between Results and methods.",
+    "Data location": "Fig 6B",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 29
+  },
+  {
+   "finding_id": "P11.F4",
+   "row": {
+    "Paper/Finding ID": "P11.F4",
+    "Finding description": "Fluorescence microscopy found a higher Amytracker aggregate signal for LPS-treated APOE4 than APOE3 and showed LPS within the stained aggregates.",
+    "Finding quote": "With this fluorescent probe, an increase in fluorescence signal was detected in rAPOE4 compared with rAPOE3 (5 μM) exposed to 5 μM of E. coli LPS (Fig. 7).",
+    "Finding summary": "(APOE3 -> APOE4) -> (higher LPS-associated Amytracker-positive APOE aggregate signal)",
+    "Experimental system": "Purified recombinant human APOE3 and APOE4, 5 μM, exposed to E. coli LPS-FITC and stained with Amytracker 680; fluorescence microscopy; methods specify 5 μM LPS-FITC for 30 minutes at 37 °C followed by staining for 30 minutes at room temperature, whereas legend specifies 10 μM LPS-FITC; three independent experiments.",
+    "Data location": "Fig 7A, APOE3; Fig 7B, APOE4.",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 2,
+    "why": "Amyloid-dye signal (ThT/Amytracker) is a surrogate B' for apoE aggregation; in a purified-protein assay there is no plausible route other than aggregation, so all dye readouts are 3/2."
+   },
+   "item": 30
+  },
+  {
+   "finding_id": "P11.F6",
+   "row": {
+    "Paper/Finding ID": "P11.F6",
+    "Finding description": "Mouse macrophages took up significantly more Amytracker-stained LPS-treated APOE4 aggregates than APOE3 aggregates in four independent experiments.",
+    "Finding quote": "Furthermore, the data indicate that uptake by the cells was significantly more pronounced for the LPS-treated E4 isoform when compared with the LPS-treated E3 isoform (Fig. 8A).",
+    "Finding summary": "(APOE3 -> APOE4) -> (greater macrophage-associated uptake of APOE aggregates)",
+    "Experimental system": "Murine RAW 264.7 macrophage cell line, passages 4–7; recombinant human APOE3 or APOE4, 100 nM, with E. coli LPS, 100 nM, and Amytracker 680; mixtures incubated 30 minutes at room temperature before 1-hour cell exposure at 37 °C; fluorescence after washing; no endosomal or lysosomal marker.",
+    "Data location": "Fig 8A",
+    "Directness class": 3,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 4,
+    "why": "Macrophage uptake of preformed aggregates is a surrogate B' with a known alternative (isoform-specific receptor binding), so 3/4."
+   },
+   "item": 31
+  },
+  {
+   "finding_id": "P11.F8",
+   "row": {
+    "Paper/Finding ID": "P11.F8",
+    "Finding description": "Amytracker microscopy detected no aggregate formation by either APOE3 or APOE4 alone, providing a qualitative baseline null without a reported statistical isoform comparison.",
+    "Finding quote": "It is important to note that rAPOE isoforms alone did not exhibit the formation of aggregates (Fig. S5).",
+    "Finding summary": "(APOE3 -> APOE4) -> (no change in detectable baseline aggregates by Amytracker microscopy)",
+    "Experimental system": "Purified recombinant human APOE3 and APOE4, 5 μM, without LPS; Amytracker 680 fluorescence microscopy; three independent experiments; cell-free assay, no acidic or endo-lysosomal compartment.",
+    "Data location": "Supplementary Fig S5",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 2,
+    "why": "Amyloid-dye signal (ThT/Amytracker) is a surrogate B' for apoE aggregation; in a purified-protein assay there is no plausible route other than aggregation, so all dye readouts are 3/2."
+   },
+   "item": 32
+  },
+  {
+   "finding_id": "P12.F2",
+   "row": {
+    "Paper/Finding ID": "P12.F2",
+    "Finding description": "At 0.2 mg/ml, recombinant human apoE4 aggregated faster than apoE3 and mostly formed high-molecular-mass aggregates within 4 hours at 37 °C.",
+    "Finding quote": "ApoE3 and apoE2 aggregated far more slowly. Even after 24 h at 37 oC, most of the apoE2 or apoE3 remained tetrameric (Figure 1c). The rates of aggregation were also slower at lower protein concentrations (0.2 mg/ml), but apoE4 still mostly formed higher mass aggregates within 4 h of incubation (Figure 1d).",
+    "Finding summary": "(apoE3 -> apoE4) -> (faster formation of high-molecular-mass apoE aggregates at lower protein concentration)",
+    "Experimental system": "Purified, lipid-free recombinant human apoE expressed in E. coli; isolated low-mass apoE at 0.2 mg/ml in 100 mM NH4HCO3, pH 7.8; incubation at 37 °C followed by analytical gel filtration. Comparable behavior was reported in PBS and TBS at pH 7.4. No cells or endo-lysosomal compartments were examined.",
+    "Data location": "Fig 1D",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 33
+  },
+  {
+   "finding_id": "P13.F1",
+   "row": {
+    "Paper/Finding ID": "P13.F1",
+    "Finding description": "Native PAGE supported greater aggregation of lipid-free recombinant human ApoE4 than ApoE3; data represent two independently prepared ApoE isoform samples.",
+    "Finding quote": "Together, these results suggest that lipid‐free ApoE has the tendency to aggregate in solution at a concentration of 0.1 mg·mL−1, whereas lipidation is capable of impeding this behavior. This tendency is isoform dependent, with the most pronounced aggregation for ApoE4, followed by ApoE3 and ApoE2 (Fig. 3).",
+    "Finding summary": "(ApoE3 -> ApoE4) -> (greater lipid-free apoE aggregation in vitro)",
+    "Experimental system": "Commercial recombinant human ApoE3 and ApoE4 from Leinco Technologies, lipid-free at 0.1 mg·mL−1 in PBS; native 4–20% Tris-glycine PAGE, with 3 μg ApoE loaded and electrophoresis at 4 °C for 16 h. Cell-free; no endo-lysosomal localization or acidic-pH condition.",
+    "Data location": "Fig 3A",
+    "Directness class": 3,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 34
+  },
+  {
+   "finding_id": "P14.F1",
+   "row": {
+    "Paper/Finding ID": "P14.F1",
+    "Finding description": "After purification, apoE4M lacking residues 1–23 aggregated almost instantaneously, whereas the corresponding apoE3M construct required several hours.",
+    "Finding quote": "Interestingly, while the aggregation of ApoE4M-AP occurred almost instantaneously, it took several hours to observe the aggregation of ApoE3M-AP.",
+    "Finding summary": "(apoE3M-AP -> apoE4M-AP) -> (faster apoE aggregation)",
+    "Experimental system": "Purified recombinant human apoE3M and apoE4M, each carrying F257A/W264R/V269A/L279Q/V287E and deletion of residues 1–23. Aggregation observed following size-exclusion purification. This is an engineered, lipid-free protein system without endo-lysosomes.",
+    "Data location": "Results accompanying Fig. 3G: “Interestingly, while the aggregation of ApoE4M-AP occurred almost instantaneously, it took several hours to observe the aggregation of ApoE3M-AP.”",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 35
+  },
+  {
+   "finding_id": "P14.F3",
+   "row": {
+    "Paper/Finding ID": "P14.F3",
+    "Finding description": "Truncated apoE4M aggregated almost instantaneously, while four additional interface alanine substitutions prevented aggregation; the photographed AP/AS comparison was reproduced in at least two independent experiments.",
+    "Finding quote": "Interestingly, while the aggregation of ApoE4M-AP occurred almost instantaneously, it took several hours to observe the aggregation of ApoE3M-AP. Subsequent transmission electron microscopy (TEM) analysis of these aggregates revealed fibril-like morphology in both cases (Fig. 3H). Conversely, no aggregation was observed for ApoE3M-AS and ApoE4M-AS.",
+    "Finding summary": "(apoE4M-AP -> apoE4M-AS interface mutations) -> (suppressed apoE aggregation)",
+    "Experimental system": "Purified recombinant ApoE3M and ApoE4M truncation constructs (residues 1-23 deleted); AS variants carry R38A/E45A/E49A/R145A. The Results identify both isoforms for the AP aggregation and AS suppression observations; the Fig. 3G photo is labelled ApoE4M-AS (left) and ApoE4M-AP (right), two hours after purification.",
+    "Data location": "Fig. 3G and accompanying Results",
+    "Directness class": 2,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 5,
+    "strength": 3,
+    "why": "Other: a small molecule or interface mutation acts on apoE4 self-association downstream of the isoform rather than changing the isoform (a path variable, not A'), while aggregation is measured directly; 5/3."
+   },
+   "item": 36
+  },
+  {
+   "finding_id": "P14.F5",
+   "row": {
+    "Paper/Finding ID": "P14.F5",
+    "Finding description": "Adaptive simulations showed apoE3 dimer dissociation after approximately 2.5 µs of cumulative sampling, whereas apoE4 did not dissociate even after approximately 10 µs.",
+    "Finding quote": "While the ApoE3 dimeric unit dissociated after ~ 2.5 µs, the dissociation of the ApoE4 dimeric unit did not occur even after ~ 10 µs.",
+    "Finding summary": "(apoE3 -> apoE4) -> (greater simulated persistence of the N-terminal dimer)",
+    "Experimental system": "Adaptive molecular dynamics of human apoE N-terminal dimers initialized from apoE3 structure 1BZ4 and apoE4 structure 8AX9. Simulations used 310 K, pH 7.4 protonation and 0.1 M salt. Reported times are cumulative adaptive sampling, not measured cellular lifetimes.",
+    "Data location": "Fig. 4C",
+    "Directness class": 5,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 4,
+    "why": "Simulation varies the isoform sequence and computes a structural surrogate B' that is weakly validated against real aggregation; all simulation rows are 3/4."
+   },
+   "item": 37
+  },
+  {
+   "finding_id": "P14.F8",
+   "row": {
+    "Paper/Finding ID": "P14.F8",
+    "Finding description": "Simulations showed partial unfolding at H3 residues 89–94 in apoE3 but not apoE4, whereas apoE4 lost helical content at residues 120–124 near Q123.",
+    "Finding quote": "The results showed partial unfolding at the N-terminus of the H3 helix (residues 89–94) in the case of ApoE3, while no change was observed in ApoE4. Conversely, we observed a significant decrease in α-helical content at the end of the H3 helix (residues 120–124) in ApoE4.",
+    "Finding summary": "(apoE3M -> apoE4M) -> (less N-terminal but greater C-terminal H3 unfolding)",
+    "Experimental system": "Adaptive simulations of full-length human apoE3M and apoE4M, twenty microseconds cumulative sampling per system at 310 K. Residue-level helical content calculated using DSSP. Misfolding-related structural readout, without endo-lysosomal localization.",
+    "Data location": "Fig. 5E; Supplementary Fig. 4",
+    "Directness class": 5,
+    "Directness strength": "4 weak"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 4,
+    "why": "Simulation varies the isoform sequence and computes a structural surrogate B' that is weakly validated against real aggregation; all simulation rows are 3/4."
+   },
+   "item": 38
+  },
+  {
+   "finding_id": "P14.F15",
+   "row": {
+    "Paper/Finding ID": "P14.F15",
+    "Finding description": "Both apoE3M and apoE4M were characterized as monomerized, rather than showing greater apoE4 oligomerization; no statistical between-isoform difference was reported.",
+    "Finding quote": "Moreover, we observed that the five mutations previously introduced into the ApoE code to monomerize both isoforms (ApoEM) simultaneously inhibit their aggregation (Supplementary Figs. 5 and 6).",
+    "Finding summary": "(apoE3M -> apoE4M) -> (shared monomerized state)",
+    "Experimental system": "Purified recombinant human apoE3M and apoE4M carrying F257A/W264R/V269A/L279Q/V287E. Sedimentation velocity analytical ultracentrifugation at 0.8 mg/ml, 20 °C and 50,000 rpm, analyzed by continuous c(s) distributions. The supplied figure image is unavailable.",
+    "Data location": "Supplementary Figs. 5 and 6",
+    "Directness class": 1,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 39
+  },
+  {
+   "finding_id": "P14.F18",
+   "row": {
+    "Paper/Finding ID": "P14.F18",
+    "Finding description": "In simulations, the dominant W34 side-chain population was around χ1 = 180° in apoE3M and around χ1 = 300° in apoE4M.",
+    "Finding quote": "We found that ApoE3M displayed a majority of its population around χ1 = 180° while ApoE4M was mostly around χ1 = 300°.",
+    "Finding summary": "(apoE3M -> apoE4M) -> (different W34 conformation at the self-association interface)",
+    "Experimental system": "Adaptive molecular dynamics of full-length human apoE3M and homology-modeled apoE4M, with five C-terminal monomerizing mutations. Twenty microseconds cumulative sampling per system at 310 K and pH 7.4 protonation; W34 χ1 distributions measured. Structural surrogate, not an aggregate measurement.",
+    "Data location": "Fig. 5C",
+    "Directness class": 5,
+    "Directness strength": "4 weak"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 4,
+    "why": "Simulation varies the isoform sequence and computes a structural surrogate B' that is weakly validated against real aggregation; all simulation rows are 3/4."
+   },
+   "item": 40
+  },
+  {
+   "finding_id": "P18.F1",
+   "row": {
+    "Paper/Finding ID": "P18.F1",
+    "Finding description": "SEC profiling of control brain lysates showed a trend toward more large-sized soluble apoE in APOE4 carriers, but no significant difference from non-carriers was reported for the control comparison.",
+    "Finding quote": "APOE4 carriers showed a greater amount of larger size APOE protein (fraction #26 to #30) than APOE4 non-carriers, although the difference was not significant due to large sample-to-sample variations (Fig. 5e).",
+    "Finding summary": "(APOE4 non-carrier -> APOE4 carrier) -> (no change in large-sized soluble apoE reaching statistical significance in control brains)",
+    "Experimental system": "Human postmortem control superior temporal cortex from the a brain bank Jacksonville brain bank; bulk tissue without identified cell types or endo-lysosomal localization. Control cohort APOE4 non-carriers had median age 82.5 years, range 79–91; carriers had median age 87 years, range 61–97. Ages and exact genotypes of the 4–5 SEC samples per group were not separately specified. TBS-soluble lysates underwent tandem Superose 6 SEC at pH 7.4 and apoE ELISA. Fig. 5d displays size distributions; the reported genotype comparison is summarized in Fig. 5e. ApoE molecular size does not establish endo-lysosomal aggregation.",
+    "Data location": "Fig. 5d; corresponding control fraction comparisons in Fig. 5e",
+    "Directness class": 4,
+    "Directness strength": "4 weak"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 4,
+    "why": "Large-size apoE by SEC of brain lysate is a surrogate B' with a known alternative (apoE lipoprotein particle size differs by isoform); carrier vs non-carrier is A itself (natural genotype variation), so class 3, not 4."
+   },
+   "item": 41
+  },
+  {
+   "finding_id": "P18.F3",
+   "row": {
+    "Paper/Finding ID": "P18.F3",
+    "Finding description": "SEC followed by apoE ELISA showed more large-sized soluble apoE in fractions 27–29 in AD brains without LB pathology from APOE4 carriers than non-carriers, using six pooled samples per group.",
+    "Finding quote": "In AD cases without LB pathology, APOE4 carriers had more large-sized APOE (fractions #27-#29) compared to APOE4 non-carriers (Fig. 5a–c).",
+    "Finding summary": "(APOE4 non-carrier -> APOE4 carrier) -> (more large-sized soluble apoE in AD brains without LB pathology)",
+    "Experimental system": "Human postmortem superior temporal cortex from autopsy-confirmed AD cases without LB pathology, a brain bank Jacksonville brain bank; bulk tissue, with no cell-type or endo-lysosomal localization. APOE4 non-carriers included APOE2/3 and APOE3/3; carriers included APOE2/4, APOE3/4, and APOE4/4. Respective cohort age medians were 81 and 83 years, with ranges 55–96 and 55–100; SEC-subset ages were not separately reported. Six samples per group, each pooling equal amounts of TBS lysate from 3–4 brains. Tandem Superose 6 SEC at pH 7.4 followed by apoE ELISA measured molecular-size distributions, without establishing whether larger species were apoE homo-oligomers or other apoE-containing complexes.",
+    "Data location": "Fig 5b, fractions 27-29 (AD E4- vs AD E4+); size profiles in Fig 5a",
+    "Directness class": 4,
+    "Directness strength": "4 weak"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 4,
+    "why": "Large-size apoE by SEC of brain lysate is a surrogate B' with a known alternative (apoE lipoprotein particle size differs by isoform); carrier vs non-carrier is A itself (natural genotype variation), so class 3, not 4."
+   },
+   "item": 42
+  },
+  {
+   "finding_id": "P20.F1",
+   "row": {
+    "Paper/Finding ID": "P20.F1",
+    "Finding description": "In recombinant-protein experiments performed three times, PUFA-phospholipid incubation induced disulfide-linked ApoE3 dimerization but had no apparent effect on ApoE4 dimerization, opposing increased ApoE4 oligomerization under these cell-free conditions.",
+    "Finding quote": "Incubation with the PUFA-phospholipid PE-18:0/22:4n-6 had no apparent effect on ApoE4 dimerization (A). By contrast, incubation of ApoE3 (B) and ApoE2 (C) with PE-18:0/22:4n-6 produced prominent peaks with molecular weights corresponding to ApoE dimers and multimers, respectively.",
+    "Finding summary": "(ApoE3 -> ApoE4) -> (less PUFA-phospholipid-induced disulfide-linked apoE dimerization)",
+    "Experimental system": "Cell-free recombinant human ApoE3 and ApoE4 incubated with PE-18:0/22:4n-6; protein separation and anti-ApoE immunodetection using the Jess automated capillary nano-immunoassay with chemiluminescence. DTT reversal supported disulfide dependence. Incubation duration and pH were not supplied; no brain cells or endosomal/lysosomal localization were examined.",
+    "Data location": "Fig 5A and Fig 5B; Fig 5 legend",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   "proposed": {
+    "class": 1,
+    "strength": 1,
+    "why": "APOE isoform varied and apoE aggregation/oligomer state measured directly on purified protein (sedimentation, size exclusion, native gel, EM, DLS, AUC); class 1 with no surrogate gets strength 1, the cell-free system is not a strength penalty."
+   },
+   "item": 43
+  },
+  {
+   "finding_id": "P22.F1",
+   "row": {
+    "Paper/Finding ID": "P22.F1",
+    "Finding description": "Native-PAGE of non-AD human control CSF showed a lower apoE dimer/monomer ratio in APOE ε3/ε4 than ε3/ε3 samples (ratio D/M 0.38 versus 2.20, printed in the text).",
+    "Finding quote": "In the control group, the dimer/monomer quotient was significantly lower in the APOE ε3/ε4 group (ratio D/M = 0.38) compared to that of the ε3/ε3 group (ratio D/M = 2.20; p= 0.006), associated to the inability of the apoE4 isoform to form disulfide-linked dimers.",
+    "Finding summary": "(APOE ε3/ε3 -> APOE ε3/ε4) -> (lower CSF apoE dimer/monomer ratio)",
+    "Experimental system": "Human non-AD Gothenburg control lumbar CSF; APOE ε3/ε3 versus ε3/ε4; corresponding cohort mean ages 69±2 and 62±5 years; unheated native-PAGE and AB178479 immunoblotting. Bands were assigned as monomers and dimers using denatured CSF and recombinant apoE3 references. No cellular or endo-lysosomal localization was measured.",
+    "Data location": "Fig. 3D quantification; Fig. 3C representative native blots; Supplementary p. 7 complete source blots",
+    "Directness class": 3,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 4,
+    "why": "CSF apoE dimer/complex bands are surrogates B' with a known alternative: apoE4 lacks Cys112 and cannot form the disulfide-linked dimers and heterocomplexes apoE3 forms, independent of aggregation; all P22 rows are 3/4."
+   },
+   "item": 44
+  },
+  {
+   "finding_id": "P23.F2",
+   "row": {
+    "Paper/Finding ID": "P23.F2",
+    "Finding description": "At 12 months, insoluble whole-hemibrain apoE levels appeared higher in APPPS1:E4 mice than APPPS1:E3 mice, but there was no significant difference.",
+    "Finding quote": "Mice with the APOE4 allele appeared to have higher apoE levels at 12 and 16 months, but the difference was insignificant.",
+    "Finding summary": "(APOE3 -> APOE4) -> (no change in insoluble whole-hemibrain apoE levels at 12 months)",
+    "Experimental system": "Whole hemibrains from 12-month-old APPswe/PS1dE9 heterozygous mice homozygous for human APOE3 or APOE4 targeted replacement, C57BL/6 background; sexes pooled; Tper-insoluble material extracted with guanidine hydrochloride and apoE measured using HJ15.6 capture and HJ15.4b detection antibodies; legend reports 3-11 mice/group across this panel; no subcellular localization.",
+    "Data location": "Fig 4T, 12-month comparison",
+    "Directness class": 3,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 4,
+    "why": "Insoluble or high-molecular-weight apoE in amyloid-bearing or aged/diseased tissue is a surrogate B' with a known alternative (apoE co-deposition with Abeta plaques, which APOE4 increases); carrier vs non-carrier is still A itself (natural genotype variation), so class 3 and strength 4."
+   },
+   "item": 45
+  },
+  {
+   "finding_id": "P26.F1",
+   "row": {
+    "Paper/Finding ID": "P26.F1",
+    "Finding description": "Among donors negative for both defined tau pathologies, age- and sex-adjusted analysis found no significant difference in detergent-insoluble cortical apoE between APOE4 and APOE3.",
+    "Finding quote": "apoE-FA | 302 | 0.31 (− 0.46 to 1.08) | 0.43",
+    "Finding summary": "APOE4 versus APOE3 showed no statistically significant difference in insoluble cortical apoE among donors negative for both defined tau pathologies.",
+    "Experimental system": "Human non-Hispanic White autopsy temporal cortex; older cohort, ages 54–103 years overall. Subgroup with Braak stage <4 and no AGD, which does not establish absence of all AD pathology. APOE ε3/ε4 or ε4/ε4 versus ε3/ε3. Formic-acid-solubilized detergent-insoluble apoE ELISA normalized to protein; age/sex-adjusted regression. No organelle localization measured.",
+    "Data location": "Table 5, APOE4 vs. APOE3, apoE-FA row, No tau pathology column",
+    "Directness class": 3,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 4,
+    "why": "Insoluble or high-molecular-weight apoE in amyloid-bearing or aged/diseased tissue is a surrogate B' with a known alternative (apoE co-deposition with Abeta plaques, which APOE4 increases); carrier vs non-carrier is still A itself (natural genotype variation), so class 3 and strength 4."
+   },
+   "item": 46
+  },
+  {
+   "finding_id": "P26.F3",
+   "row": {
+    "Paper/Finding ID": "P26.F3",
+    "Finding description": "Descriptively, median detergent-insoluble cortical apoE was higher in 149 APOE4 donors at 128.8 ng/mg protein than in 153 APOE3 donors at 33.7 ng/mg protein.",
+    "Finding quote": "FA 44 31.1 (0.0, 1731.0) 153 33.7 (0.0, 782.0) 149 128.8 (0.0, 933.8)",
+    "Finding summary": "(APOE3 -> APOE4) -> (higher median detergent-insoluble cortical apoE)",
+    "Experimental system": "Human non-Hispanic White autopsy temporal cortex; older cohort, ages 54–103 years overall. APOE ε3/ε4 or ε4/ε4 versus ε3/ε3. Formic-acid-solubilized detergent-insoluble apoE measured by sandwich ELISA and normalized to total protein. Unadjusted descriptive medians; no endo-lysosomal localization or aggregate-specific assay.",
+    "Data location": "Table S3, apoE (ng/mg protein), FA row, APOE3 and APOE4 columns",
+    "Directness class": 3,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 4,
+    "why": "Insoluble or high-molecular-weight apoE in amyloid-bearing or aged/diseased tissue is a surrogate B' with a known alternative (apoE co-deposition with Abeta plaques, which APOE4 increases); carrier vs non-carrier is still A itself (natural genotype variation), so class 3 and strength 4."
+   },
+   "item": 47
+  },
+  {
+   "finding_id": "P26.F5",
+   "row": {
+    "Paper/Finding ID": "P26.F5",
+    "Finding description": "Unadjusted analysis found higher detergent-insoluble cortical apoE in APOE4 carriers than noncarriers, using insolubility as an aggregation surrogate without compartment localization.",
+    "Finding quote": "Moreover, major AD-related molecules including insoluble Aβ40, Aβ42, apoE, and pTau181 were significantly increased in the presence of APOE4.",
+    "Finding summary": "(APOE4 absent -> APOE4 present) -> (higher detergent-insoluble cortical apoE)",
+    "Experimental system": "Human non-Hispanic White autopsy temporal cortex from an older, neuropathologically characterized cohort, ages 54–103 years overall. Formic-acid-solubilized detergent-insoluble apoE measured by sandwich ELISA and normalized to total protein. APOE4 carriers versus noncarriers, including APOE2 and APOE3 genotypes; unadjusted linear regression.",
+    "Data location": "Table 4, Association with apoE-FA, APOE4 row, Unadjusted analysis",
+    "Directness class": 4,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 4,
+    "why": "Insoluble or high-molecular-weight apoE in amyloid-bearing or aged/diseased tissue is a surrogate B' with a known alternative (apoE co-deposition with Abeta plaques, which APOE4 increases); carrier vs non-carrier is still A itself (natural genotype variation), so class 3 and strength 4."
+   },
+   "item": 48
+  },
+  {
+   "finding_id": "P26.F7",
+   "row": {
+    "Paper/Finding ID": "P26.F7",
+    "Finding description": "Full multivariable analysis retained an association between APOE4 carriage and higher detergent-insoluble cortical apoE, an aggregation surrogate without endo-lysosomal localization.",
+    "Finding quote": "Moreover, major AD-related molecules including insoluble Aβ40, Aβ42, apoE, and pTau181 were significantly increased in the presence of APOE4.",
+    "Finding summary": "(APOE4 absent -> APOE4 present) -> (higher detergent-insoluble cortical apoE after multivariable adjustment)",
+    "Experimental system": "Human non-Hispanic White autopsy temporal cortex from an older, neuropathologically characterized cohort, ages 54–103 years overall. Formic-acid-solubilized detergent-insoluble apoE measured by sandwich ELISA and normalized to total protein. APOE4 carriers versus noncarriers; full model adjusted for age, sex, and other measures associated with apoE-FA at unadjusted P<0.05.",
+    "Data location": "Table 4, Association with apoE-FA, APOE4 row, Full multivariable analysis",
+    "Directness class": 4,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 4,
+    "why": "Insoluble or high-molecular-weight apoE in amyloid-bearing or aged/diseased tissue is a surrogate B' with a known alternative (apoE co-deposition with Abeta plaques, which APOE4 increases); carrier vs non-carrier is still A itself (natural genotype variation), so class 3 and strength 4."
+   },
+   "item": 49
+  },
+  {
+   "finding_id": "P26.F9",
+   "row": {
+    "Paper/Finding ID": "P26.F9",
+    "Finding description": "Among AGD-negative donors, APOE4 carriage was associated with higher detergent-insoluble cortical apoE than noncarriage after adjustment for age and sex.",
+    "Finding quote": "APOE4 1.27 (0.86, 1.69) &lt;0.001 0.94 (0.05, 1.83) 0.040 0.44",
+    "Finding summary": "(APOE4 absent -> APOE4 present) -> (higher detergent-insoluble cortical apoE without AGD)",
+    "Experimental system": "Human non-Hispanic White autopsy temporal cortex; older cohort, ages 54–103 years overall. AGD-negative subgroup, with and without AD-tau. APOE4 carriers versus noncarriers including APOE2 and APOE3. Formic-acid-solubilized detergent-insoluble apoE ELISA normalized to protein; age/sex-adjusted regression. No organelle localization measured.",
+    "Data location": "Table S8, Association with apoE-FA, APOE4 row, No AGD-tau pathology column",
+    "Directness class": 4,
+    "Directness strength": "3 moderate"
+   },
+   "proposed": {
+    "class": 3,
+    "strength": 4,
+    "why": "Insoluble or high-molecular-weight apoE in amyloid-bearing or aged/diseased tissue is a surrogate B' with a known alternative (apoE co-deposition with Abeta plaques, which APOE4 increases); carrier vs non-carrier is still A itself (natural genotype variation), so class 3 and strength 4."
+   },
+   "item": 50
+  }
+ ]
+}

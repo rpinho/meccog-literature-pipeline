@@ -1,0 +1,69 @@
+The directness class
+
+Every hypothesis in this challenge has the same form: A change in one system variable A causes a change in another system variable B.
+
+ABCA1 is used on this page and in the example sheet only as a worked example. It is not one of the five challenge hypotheses.
+
+The directness class says how the experiment behind your finding lines up with that shape. It describes what the experiment did, not what the evidence is worth. Use one of:
+
+ΔAΔB
+1Direct
+A itself was perturbed, or varies naturally, and B itself was measured
+
+ΔA′ΔAΔB
+2Indirect input
+A perturbation in A is assumed to have been introduced by a perturbation in surrogate variable A’. For example, a microRNA (A’) is introduced that alters the expression of a protein (A). B itself was measured.
+
+ΔAΔBΔB′
+3Indirect output
+A itself was perturbed, and B was inferred from measuring a change in a surrogate variable B’ expected to be affected by a change in B. For example, the change in the amount of cholesterol exported from cells (B’) is measured, and assumed to indicate the change in the abundance of a cholesterol exporter protein (B).
+
+ΔA′ΔAΔBΔB′
+4Indirect input and output
+There is a perturbation of surrogate variable for A and measurement of a surrogate variable for B.
+
+?
+
+5Other
+None of the classes above fit. Say why in the Finding description.
+
+the variable itself a surrogate another route the perturbation could take
+
+A perturbation does not have to be introduced by the experimenter. Natural variation counts: for example, comparing APOE4 carriers with APOE3 carriers is considered a perturbation of A, the APOE genotype. Do not drop a finding to a lower class because the experiment observed A rather than manipulated it.
+
+The class belongs to the finding, not to the paper. One paper can hold findings of several classes, so the cell is filled on finding rows and left empty on paper rows. The validator rejects a class on a paper row.
+
+The class is relative to the hypothesis you selected. The same experiment may take a different class against a different hypothesis, so do not carry your classes from one hypothesis to another.
+
+The strength of the link. The class describes the form of the experiment. An additional parameter, d, is required, describing strength of the link between that experiment and the hypothesis, on a scale of 1 to 5. 1 is the strongest link and 5 the weakest, so a low number always means the experiment is closer to the hypothesis. The template offers the number with its word, 1 very strong through 5 very weak, and a bare number is accepted too.
+
+‘d’ can be regarded as a measure of how misleading the use of surrogate variables might be. For example, for a class 2 experiment where A’ is measured, how likely is it that A’ might affect the value of B by some other mechanism than causing a perturbation of A. Similarly, for a class 3 experiment, where a change in B’ is measured rather than the change in B, how likely is it that the perturbation of A could cause a perturbation of B’ by some other mechanism than as a consequence of a change in B.
+
+Strength
+When
+
+1 very strong
+Usually for a Class 1 experiment, where changes in A and B are directly measured.
+
+2 strong
+One or both measurements are of surrogate variables, but there is no plausible way by which the observations could be made other than by a change in A causing a change in B.
+
+3 moderate
+A possible alternative route exists but it is unlikely to invalidate the hypothesis that the A change causes the B change.
+
+4 weak
+There is a known mechanism by which the surrogate variable(s) changes could be related other than because A causes a change in B.
+
+5 very weak
+There are several such alternative mechanisms, or one or both surrogates are weakly coupled to the A and B variables.
+
+Class 4 has a surrogate variable at both ends, so there are two places an alternative mechanism could be involved, and d is unlikely to be lower than 3. A class 5 finding is judged on the same question and explained in Finding description.
+
+The validator checks the pair for the one error that is easy to make. A class 1 finding with a strength of 4 or 5 is flagged, because class 1 has no stand-in at either end, so that combination usually means the scale was read upside down.
+
+How You’ll Be Evaluated
+
+Unlike most community challenges to date, this one has no ground truth
+against which to assess the results. Thus, the performance assessment
+methods break new ground and may evolve as the project progresses.
+Community challenges differ in the extent to which they predefine

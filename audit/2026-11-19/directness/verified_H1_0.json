@@ -1,0 +1,133 @@
+[
+ {
+  "item": 1,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "Isogenic APOE3/APOE4 pairs with a ratiometric pHrodo/AF647-transferrin readout of endosomal pH: A varied and B measured, class 1 strength 1."
+ },
+ {
+  "item": 2,
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 4,
+  "why": "A 24 h dextran load with a 24 h chase is the standard terminal-lysosome loading protocol, the same dextran-chase compartment read in P5.F2 and P7.F1 (scored 3/4), and P5 shows that compartment can move opposite to transferrin-endosome pH, so the paper's 'endolysosomal' label does not make it B: class 3, strength 4, matching those rows."
+ },
+ {
+  "item": 3,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 5,
+  "why": "Single-wavelength LysoTracker intensity mixes acidity with compartment number and volume, and reads the lysosomal pool rather than endosomes: surrogate B' with several alternative routes, class 3 strength 5."
+ },
+ {
+  "item": 4,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Calibrated LysoSensor Yellow/Blue reads the lysosome-dominated acidic-organelle pool, a neighbouring-compartment surrogate that P5 shows can diverge from endosomal pH: class 3 strength 4."
+ },
+ {
+  "item": 5,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "Calibrated ratiometric transferrin endosomal pH with APOE isoform varied: class 1 strength 1."
+ },
+ {
+  "item": 6,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Calibrated ratiometric dextran-chase pH is lysosomal, not B, and moves opposite to endosomal pH in this same paper: class 3 strength 4."
+ },
+ {
+  "item": 7,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "NHE6 protein abundance is a regulator-level surrogate for endosomal pH whose activity is also controlled post-translationally and by paralogs (NHE9): class 3 strength 4, matching P4.F2 and P5.F7."
+ },
+ {
+  "item": 8,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "NHE6 transcript abundance is a regulator-level surrogate one step further from endosomal pH than protein: class 3 strength 4, matching the other regulator-expression rows."
+ },
+ {
+  "item": 9,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because the perturbation is a pan-HDAC inhibitor (TSA) applied with APOE genotype held constant, so it acts on a proposed pathway step rather than on A or a surrogate of A.",
+  "why": "TSA does not act on APOE (genotype held at APOE4), so not class 2; endosomal pH is read directly but HDAC inhibition can shift it in any cell: class 5 strength 4."
+ },
+ {
+  "item": 10,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because the perturbation is NHE6 overexpression (wild-type versus loss-of-function variants) with APOE genotype held at APOE4, a manipulation of a pathway step rather than of A.",
+  "why": "Lentiviral NHE6 expression does not act on APOE; it alkalinizes endosomes by a route that does not need APOE4: class 5 strength 4."
+ },
+ {
+  "item": 11,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 5,
+  "why": "Nuclear HDAC4 sits two steps upstream of endosomal pH and has many other targets, a weakly coupled surrogate: class 3 strength 5."
+ },
+ {
+  "item": 12,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Class 5 because the perturbation is the ionophore monensin applied with APOE genotype held at APOE4, a generic pH manipulation that does not act on A.",
+  "why": "Monensin is a generic ionophore applied with APOE held constant; it alkalinizes acidic compartments in any cell, so it says almost nothing about APOE4 causing the change: class 5 strength 5."
+ },
+ {
+  "item": 13,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 5,
+  "why": "Single-wavelength LysoSensor Green intensity on the lysosomal pool is read the same way as LysoTracker rows: class 3 strength 5."
+ },
+ {
+  "item": 14,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Calibrated ratiometric dextran-chase lysosomal pH, the same measurement as P5.F2: class 3 strength 4."
+ },
+ {
+  "item": 15,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 5,
+  "why": "LysoTracker intensity, same as the other acidotropic-dye rows: class 3 strength 5."
+ },
+ {
+  "item": 16,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Class 5 because the perturbation is TMED5 siRNA knockdown with APOE genotype held at APOE4, a manipulation of a candidate pathway gene rather than of A, read out as lysosomal pH.",
+  "why": "TMED5 knockdown does not act on APOE and the readout is lysosomal, not endosomal, pH: class 5 strength 5."
+ },
+ {
+  "item": 17,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Class 5 because the perturbation is LGALS3BP siRNA knockdown with APOE genotype held at APOE3, a manipulation of a candidate pathway gene rather than of A, read out as lysosomal pH.",
+  "why": "LGALS3BP knockdown does not act on APOE and the readout is lysosomal, not endosomal, pH: class 5 strength 5."
+ },
+ {
+  "item": 18,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 5,
+  "why": "Total somatic LysoTracker intensity, uncalibrated, same as the other acidotropic-dye rows: class 3 strength 5."
+ }
+]

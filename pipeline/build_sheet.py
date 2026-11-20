@@ -105,6 +105,13 @@ def apply_corrections(key, findings, corrections, unmatched=None, hyp=None):
     def norm(x):
         return re.sub(r"\s+", " ", str(x)).strip()
     mine = [c for c in corrections if c["key"] == key and c.get("hyp") in (None, hyp)]
+    # stage 1 (spot-checks, row audit) matches the rows as extracted; stage 2 (directness pass) was
+    # reviewed on the corrected sheet, so it matches the rows as stage 1 left them
+    for stage in sorted({c.get("stage", 1) for c in mine}):
+        _apply_stage(key, findings, [c for c in mine if c.get("stage", 1) == stage], unmatched, norm)
+
+
+def _apply_stage(key, findings, mine, unmatched, norm):
     plan = []
     for c in mine:
         hits = [f for f in findings if norm(f.get("quote", "")).startswith(norm(c["quote_start"]))
@@ -120,7 +127,9 @@ def apply_corrections(key, findings, corrections, unmatched=None, hyp=None):
         plan.append((c, hits))
     for c, hits in plan:
         for f in hits:
-            f.setdefault("precorrection", {k: f.get(k) for k in c["set"]})
+            pre = f.setdefault("precorrection", {})
+            for k in c["set"]:
+                pre.setdefault(k, f.get(k))
             f.update(c["set"])
             f["correction"] = c["reason"]
             if c.get("drop"):

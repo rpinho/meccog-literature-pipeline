@@ -1,0 +1,393 @@
+[
+ {
+  "item": 1,
+  "finding_id": "P1.F2",
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 3,
+  "why": "Isoform varied (A itself) but steady-state surface level of an apoE receptor is a surrogate B' for impeded recycling; increased apoE-driven endocytosis, synthesis or degradation are possible alternative routes, which is the definition of strength 3, not 2."
+ },
+ {
+  "item": 2,
+  "finding_id": "P1.F8",
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "Isoform varied with a defined apoE ligand and apoE binding to a recycling receptor measured directly; B has no location qualifier, so class 1, and strength 1 is usual for class 1."
+ },
+ {
+  "item": 3,
+  "finding_id": "P2.F5",
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Isoform varied; ligand-induced internalization is a different trafficking step from recycling and apoE4 reducing insulin binding (P2.F15) is a known alternative route, so class 3, strength 4."
+ },
+ {
+  "item": 4,
+  "finding_id": "P2.F8",
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "Isoform varied and return of internalized receptor (impeded recycling, part of B as defined) measured with a chase assay, so class 1, strength 1."
+ },
+ {
+  "item": 5,
+  "finding_id": "P2.F11",
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Isoform varied; ligand-induced internalization is a different trafficking step from recycling and apoE4 reducing insulin binding (P2.F15) is a known alternative route, so class 3, strength 4."
+ },
+ {
+  "item": 6,
+  "finding_id": "P2.F13",
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Isoform varied; ligand-induced internalization is a different trafficking step from recycling and apoE4 reducing insulin binding (P2.F15) is a known alternative route, so class 3, strength 4."
+ },
+ {
+  "item": 7,
+  "finding_id": "P2.F16",
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Isoform varied; late-endosome/lysosome localization is weakly coupled to recycling (degradation is a known alternative route), so class 3, strength 4."
+ },
+ {
+  "item": 8,
+  "finding_id": "P3.F2",
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "Isoform varied with a defined apoE ligand and apoE binding to a recycling receptor measured directly; B has no location qualifier, so class 1, and strength 1 is usual for class 1."
+ },
+ {
+  "item": 9,
+  "finding_id": "P3.F4",
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "Isoform varied with a defined apoE ligand and apoE binding to a recycling receptor measured directly; B has no location qualifier, so class 1, and strength 1 is usual for class 1."
+ },
+ {
+  "item": 10,
+  "finding_id": "P4.F2",
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 3,
+  "why": "Isoform varied (A itself) but steady-state surface level of an apoE receptor is a surrogate B' for impeded recycling; increased apoE-driven endocytosis, synthesis or degradation are possible alternative routes, which is the definition of strength 3, not 2."
+ },
+ {
+  "item": 11,
+  "finding_id": "P4.F4",
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 3,
+  "why": "Isoform varied (A itself) but steady-state surface level of an apoE receptor is a surrogate B' for impeded recycling; increased apoE-driven endocytosis, synthesis or degradation are possible alternative routes, which is the definition of strength 3, not 2."
+ },
+ {
+  "item": 12,
+  "finding_id": "P4.F6",
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 3,
+  "why": "Isoform varied (A itself) but steady-state surface level of an apoE receptor is a surrogate B' for impeded recycling; increased apoE-driven endocytosis, synthesis or degradation are possible alternative routes, which is the definition of strength 3, not 2."
+ },
+ {
+  "item": 13,
+  "finding_id": "P4.F8",
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because the experiment holds APOE4 fixed and manipulates NHE6/endosomal pH, a mediator rather than APOE genotype or isoform, so it tests mediation of the receptor-recycling defect, not A itself.",
+  "why": "APOE4 is held fixed and NHE6/NHE/endosomal acidification is manipulated, which does not act on APOE, so class 5; NHE6/pH changes trafficking of many cargoes independently of apoE4 (known alternative route) and there is no apoE3 arm, so strength 4."
+ },
+ {
+  "item": 14,
+  "finding_id": "P4.F10",
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because the experiment holds APOE4 fixed and manipulates NHE6/endosomal pH, a mediator rather than APOE genotype or isoform, so it tests mediation of the receptor-recycling defect, not A itself.",
+  "why": "APOE4 is held fixed and NHE6/NHE/endosomal acidification is manipulated, which does not act on APOE, so class 5; NHE6/pH changes trafficking of many cargoes independently of apoE4 (known alternative route) and there is no apoE3 arm, so strength 4."
+ },
+ {
+  "item": 15,
+  "finding_id": "P4.F12",
+  "decision": "ACCEPT",
+  "class": 4,
+  "strength": 4,
+  "why": "Comparator is no added apoE rather than apoE3, so apoE4 addition is a surrogate A' and any apoE ligand drives receptor internalization (known mechanism), with a surface/internalized B': class 4, strength 4."
+ },
+ {
+  "item": 16,
+  "finding_id": "P4.F14",
+  "decision": "ACCEPT",
+  "class": 4,
+  "strength": 4,
+  "why": "Comparator is no added apoE rather than apoE3, so apoE4 addition is a surrogate A' and any apoE ligand drives receptor internalization (known mechanism), with a surface/internalized B': class 4, strength 4."
+ },
+ {
+  "item": 17,
+  "finding_id": "P4.F16",
+  "decision": "ACCEPT",
+  "class": 4,
+  "strength": 4,
+  "why": "Comparator is no added apoE rather than apoE3, so apoE4 addition is a surrogate A' and any apoE ligand drives receptor internalization (known mechanism), with a surface/internalized B': class 4, strength 4."
+ },
+ {
+  "item": 18,
+  "finding_id": "P4.F18",
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because the experiment holds APOE4 fixed and manipulates NHE6/endosomal pH, a mediator rather than APOE genotype or isoform, so it tests mediation of the receptor-recycling defect, not A itself.",
+  "why": "A is held at APOE4 and a non-APOE path variable is manipulated with a co-trafficked, localization or pleiotropic readout, so class 5, strength 4 as proposed."
+ },
+ {
+  "item": 19,
+  "finding_id": "P5.F1",
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "Isoform varied with a defined apoE ligand and apoE binding to a recycling receptor measured directly; B has no location qualifier, so class 1, and strength 1 is usual for class 1."
+ },
+ {
+  "item": 20,
+  "finding_id": "P5.F3",
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "Isoform varied with a defined apoE ligand and apoE binding to a recycling receptor measured directly; B has no location qualifier, so class 1, and strength 1 is usual for class 1."
+ },
+ {
+  "item": 21,
+  "finding_id": "P5.F5",
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "Isoform varied with a defined apoE ligand and apoE binding to a recycling receptor measured directly; B has no location qualifier, so class 1, and strength 1 is usual for class 1."
+ },
+ {
+  "item": 22,
+  "finding_id": "P7.F1",
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 3,
+  "why": "Isoform varied (A itself) but steady-state surface level of an apoE receptor is a surrogate B' for impeded recycling; increased apoE-driven endocytosis, synthesis or degradation are possible alternative routes, which is the definition of strength 3, not 2."
+ },
+ {
+  "item": 23,
+  "finding_id": "P7.F3",
+  "decision": "ACCEPT",
+  "class": 4,
+  "strength": 4,
+  "why": "Comparator is no added apoE rather than apoE3, so apoE4 addition is a surrogate A' and any apoE ligand drives receptor internalization (known mechanism), with a surface/internalized B': class 4, strength 4."
+ },
+ {
+  "item": 24,
+  "finding_id": "P9.F1",
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Isoform varied; localization in early/recycling compartments is a surrogate B' for trapping with possible alternative routes, so class 3, strength 3."
+ },
+ {
+  "item": 25,
+  "finding_id": "P9.F3",
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 3,
+  "why": "Isoform varied (A itself) but steady-state surface level of an apoE receptor is a surrogate B' for impeded recycling; increased apoE-driven endocytosis, synthesis or degradation are possible alternative routes, which is the definition of strength 3, not 2."
+ },
+ {
+  "item": 26,
+  "finding_id": "P9.F5",
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 3,
+  "why": "Isoform varied (A itself) but steady-state surface level of an apoE receptor is a surrogate B' for impeded recycling; increased apoE-driven endocytosis, synthesis or degradation are possible alternative routes, which is the definition of strength 3, not 2."
+ },
+ {
+  "item": 27,
+  "finding_id": "P9.F7",
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because the experiment holds APOE4 fixed and manipulates NHE6/endosomal pH, a mediator rather than APOE genotype or isoform, so it tests mediation of the receptor-recycling defect, not A itself.",
+  "why": "A is held at APOE4 and a non-APOE path variable is manipulated with a co-trafficked, localization or pleiotropic readout, so class 5, strength 4 as proposed."
+ },
+ {
+  "item": 28,
+  "finding_id": "P9.F9",
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 3,
+  "why": "Isoform varied (A itself) but steady-state surface level of an apoE receptor is a surrogate B' for impeded recycling; increased apoE-driven endocytosis, synthesis or degradation are possible alternative routes, which is the definition of strength 3, not 2."
+ },
+ {
+  "item": 29,
+  "finding_id": "P10.F1",
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "Isoform varied and return of internalized receptor (impeded recycling, part of B as defined) measured with a chase assay, so class 1, strength 1."
+ },
+ {
+  "item": 30,
+  "finding_id": "P10.F3",
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Isoform varied; localization in early/recycling compartments is a surrogate B' for trapping with possible alternative routes, so class 3, strength 3."
+ },
+ {
+  "item": 31,
+  "finding_id": "P11.F2",
+  "decision": "ACCEPT",
+  "class": 4,
+  "strength": 4,
+  "why": "Comparator is no added apoE rather than apoE3, so apoE4 addition is a surrogate A' and any apoE ligand drives receptor internalization (known mechanism), with a surface/internalized B': class 4, strength 4."
+ },
+ {
+  "item": 32,
+  "finding_id": "P11.F4",
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because the experiment holds APOE4 fixed and manipulates NHE6/endosomal pH, a mediator rather than APOE genotype or isoform, so it tests mediation of the receptor-recycling defect, not A itself.",
+  "why": "A is held at APOE4 and a non-APOE path variable is manipulated with a co-trafficked, localization or pleiotropic readout, so class 5, strength 4 as proposed."
+ },
+ {
+  "item": 33,
+  "finding_id": "P12.F10",
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Isoform varied; late-endosome/lysosome localization is weakly coupled to recycling (degradation is a known alternative route), so class 3, strength 4."
+ },
+ {
+  "item": 34,
+  "finding_id": "P12.F12",
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because APOE4 is held fixed and a receptor (LRP1 or APOER2) is knocked down, which does not act on APOE genotype or isoform.",
+  "why": "A is held at APOE4 and a receptor knockdown (not acting on APOE) is the manipulation with a colocalization readout, so class 5, strength 4."
+ },
+ {
+  "item": 35,
+  "finding_id": "P12.F17",
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because APOE4 is held fixed and a receptor (LRP1 or APOER2) is knocked down, which does not act on APOE genotype or isoform.",
+  "why": "A is held at APOE4 and a receptor knockdown (not acting on APOE) is the manipulation with a colocalization readout, so class 5, strength 4."
+ },
+ {
+  "item": 36,
+  "finding_id": "P12.F19",
+  "decision": "REJECT",
+  "class": 3,
+  "strength": 3,
+  "why": "Surface-to-total insulin receptor is a surface-level surrogate B' with possible alternative routes, same as every other surface row, so the old class 3, strength 3 stands."
+ },
+ {
+  "item": 37,
+  "finding_id": "P12.F24",
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Isoform varied; late-endosome/lysosome localization is weakly coupled to recycling (degradation is a known alternative route), so class 3, strength 4."
+ },
+ {
+  "item": 38,
+  "finding_id": "P13.F3",
+  "decision": "ACCEPT",
+  "class": 4,
+  "strength": 4,
+  "why": "Comparator is no added apoE rather than apoE3, so apoE4 addition is a surrogate A' and any apoE ligand drives receptor internalization (known mechanism), with a surface/internalized B': class 4, strength 4."
+ },
+ {
+  "item": 39,
+  "finding_id": "P15.F1",
+  "decision": "ACCEPT",
+  "class": 4,
+  "strength": 4,
+  "why": "Comparator is no added apoE rather than apoE3, so apoE4 addition is a surrogate A' and any apoE ligand drives receptor internalization (known mechanism), with a surface/internalized B': class 4, strength 4."
+ },
+ {
+  "item": 40,
+  "finding_id": "P17.F1",
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Genotype varied (A itself) but binding of whole native lipoproteins also depends on apoB and particle composition, a surrogate B' for apoE-receptor adhesion: class 3, strength 3."
+ },
+ {
+  "item": 41,
+  "finding_id": "P20.F1",
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "Isoform varied with a defined apoE ligand and apoE binding to a recycling receptor measured directly; B has no location qualifier, so class 1, and strength 1 is usual for class 1."
+ },
+ {
+  "item": 42,
+  "finding_id": "P20.F3",
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "Isoform varied with a defined apoE ligand and apoE binding to a recycling receptor measured directly; B has no location qualifier, so class 1, and strength 1 is usual for class 1."
+ },
+ {
+  "item": 43,
+  "finding_id": "P22.F1",
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "Isoform varied with a defined apoE ligand and apoE binding to a recycling receptor measured directly; B has no location qualifier, so class 1, and strength 1 is usual for class 1."
+ },
+ {
+  "item": 44,
+  "finding_id": "P23.F2",
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Genotype varied (A itself) but binding of whole native lipoproteins also depends on apoB and particle composition, a surrogate B' for apoE-receptor adhesion: class 3, strength 3."
+ },
+ {
+  "item": 45,
+  "finding_id": "P23.F5",
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Genotype varied (A itself) but binding of whole native lipoproteins also depends on apoB and particle composition, a surrogate B' for apoE-receptor adhesion: class 3, strength 3."
+ },
+ {
+  "item": 46,
+  "finding_id": "P23.F7",
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Genotype varied (A itself) but binding of whole native lipoproteins also depends on apoB and particle composition, a surrogate B' for apoE-receptor adhesion: class 3, strength 3."
+ },
+ {
+  "item": 47,
+  "finding_id": "P24.F1",
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "Isoform varied with a defined apoE ligand and apoE binding to a recycling receptor measured directly; B has no location qualifier, so class 1, and strength 1 is usual for class 1."
+ },
+ {
+  "item": 48,
+  "finding_id": "P25.F1",
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "Isoform varied with a defined apoE ligand and apoE binding to a recycling receptor measured directly; B has no location qualifier, so class 1, and strength 1 is usual for class 1."
+ }
+]
