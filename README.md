@@ -9,10 +9,10 @@ MecCog Step 1 submission: an open pipeline that finds the papers bearing on a me
 
   | | sheet commit | acceptance number | papers / rows |
   |---|---|---|---|
-  | H1 | db17c8a | MC-20261119-F23AA90D | 8 / 20 |
-  | H2 | b137327 | MC-20261119-36F83312 | 14 / 82 |
-  | H3 | b137327 | MC-20261119-1F2CE180 | 26 / 142 |
-  | H4 | b137327 | MC-20261119-79864A62 | 26 / 164 |
+  | H1 | 4c2ec6e | MC-20261120-0E561A1E | 8 / 20 |
+  | H2 | 4c2ec6e | MC-20261120-AFE0664F | 14 / 82 |
+  | H3 | 4c2ec6e | MC-20261120-CB6541BE | 26 / 142 |
+  | H4 | 4c2ec6e | MC-20261120-3DFAB9F6 | 26 / 164 |
 
 Everything here is agent work: AI-written code, AI extraction, an AI referee, an AI audit of every row, and an AI spot-check. Read the numbers with that in mind.
 
