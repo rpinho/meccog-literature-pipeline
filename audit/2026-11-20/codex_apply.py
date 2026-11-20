@@ -12,7 +12,7 @@ COL = {"Finding description": "description", "Finding quote": "quote", "Finding 
        "P value provenance": "p_value_provenance", "Sample size": "sample_size",
        "Sample size provenance": "sample_size_provenance"}
 rows = {}
-for pk in ("packet7_a.json", "packet7_b.json"):
+for pk in ("packet7_a.json", "packet7_b.json", "packet_8a.json"):
     for g in json.load(open(D / pk)):
         for r in g["rows"]:
             rows[(g["key"], r["Paper/Finding ID"], str(r["Finding quote"])[:40])] = (g, r)
@@ -20,7 +20,7 @@ for pk in ("packet7_a.json", "packet7_b.json"):
 OVERRIDES = {("H3", "P18.F12"): (["Effect size", "Effect size provenance"],
                                  "a ratio of fitted species counts (6/6) is not an effect size")}
 new, n = [], collections.Counter()
-for rp in ("codex_result_a.json", "codex_result_b.json"):
+for rp in ("codex_result_a.json", "codex_result_b.json", "codex_result_8a.json"):
     if not (D / rp).exists():
         continue
     for a in json.load(open(D / rp)):
@@ -76,6 +76,19 @@ for rp in ("codex_result_a.json", "codex_result_b.json"):
                             "reason": f"Directness 11-20b (Codex gpt-6.2-astra, {g['hyp']} {a['finding_id']}): {dn.get('why')}",
                             "source": "organizers' directness definitions; runs/audit_1120/CONVENTIONS_1120.md"})
                 n["directness_changed"] += 1
+# rows still breaking the class rules after the audit, fixed by the written conventions (general 11-20: "fixed or
+# dropped per the rules, never kept as-is"): manual_1120b.json
+import glob as _g
+doi_key = {}
+for mp in _g.glob(str(ROOT / "data/papers/*/meta.json")):
+    m = json.load(open(mp))
+    if m.get("doi"):
+        doi_key[m["doi"].lower()] = m["key"]
+for m in json.load(open(D / "manual_1120b.json")):
+    new.append({"key": doi_key[m["doi"].lower()], "hyp": "H5", "stage": 4, "quote_start": m["quote_start"],
+                "summary_contains": m["summary_contains"], "description_start": m["description_start"], "set": m["set"],
+                "reason": "Directness 11-20b (conventions applied by Claude): " + m["why"],
+                "source": "runs/audit_1120/CONVENTIONS_1120.md"})
 print(dict(n), "-> corrections", len(new))
 if "--write" in sys.argv:
     cf = ROOT / "config/corrections.json"

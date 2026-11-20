@@ -1,0 +1,618 @@
+[
+ {
+  "hyp": "H5",
+  "paper_id": "P17",
+  "finding_id": "P17.F8",
+  "key": "pmid40675218",
+  "quote_start": "When we compared our ApoE groups at 18 DIV there were no differences i",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.17x",
+   "Effect size provenance": "printed_in_text",
+   "Finding summary": "Dendritic DQ-BSA degradation signal at 18 DIV was numerically higher in ApoE4 than ApoE3 neurons. No significant genotype difference was detected."
+  },
+  "reason": "The quote describes the authors’ dendritic result. The Fig 2H legend supplies both means and n. Its P value is for the three-group test, so the pairwise P value remains N/A.",
+  "evidence": "Fig 2H, dendritic DQ-BSA integrated density at 8 h: E3 = 0.326 ± 0.109, E4 = 0.382 ± 0.059. E4/E3 = 1.17. N (embryo) = 4. Three-group Kruskal–Wallis p = 0.219.",
+  "directness": {
+   "class": 1,
+   "strength": 1,
+   "why": "Varying APOE genotype and measuring lysosomal degradation by DQ-BSA cleavage directly tests H5’s functional endpoint."
+  }
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P17",
+  "finding_id": "P17.F11",
+  "key": "pmid40675218",
+  "quote_start": "Even though cholesterol seemed to have an impact on endosomes, includi",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.99x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "The quote and panel support similar vesicle sizes across genotypes after cholesterol loading. The between-genotype ratio is available from the legend. The legend reports only a three-group P value.",
+  "evidence": "Fig 6L, somatic LAMP1-positive vesicle size normalized to untreated E3: cholesterol-treated E3 = 1.2 ± 0.26, cholesterol-treated E4 = 1.19 ± 0.33. E4/E3 = 0.99. N (embryo) = 4–5. Three-group ANOVA p = 0.334.",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "why": "Both genotypes received cholesterol, and LAMP1-positive vesicle size is a morphological surrogate for lysosomal function."
+  }
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P17",
+  "finding_id": "P17.F19",
+  "key": "pmid40675218",
+  "quote_start": "Even though cholesterol seemed to have an impact on endosomes, includi",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.95x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "The quote identifies S4E as the count panel. The supplementary table supplies both treated-group means, and the S4E legend confirms n. It reports only a three-group P value.",
+  "evidence": "Fig S4E on supplement page 4 shows somatic LAMP1-positive vesicle counts normalized to untreated E3, with N (embryo) = 6–7 and Kruskal–Wallis p = 0.612. The S4E entry on page 8 gives E3 = 1.06 ± 0.17, E4 = 1.01 ± 0.39. E4/E3 = 0.95.",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "why": "The comparison varies APOE genotype under common cholesterol loading and measures LAMP1-positive compartment abundance."
+  }
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P17",
+  "finding_id": "P17.F24",
+  "key": "pmid40675218",
+  "quote_start": "However, we did detect a significantly higher number of LAMP1+ vesicle",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.951x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "The quote supports the somatic size result. The legend supplies both means. The significant E3–E4 comparison in Fig 1I applies to dendritic counts and does not supply a P value for Fig 1J.",
+  "evidence": "Fig 1J, average somatic punctum size in µm²: E3 = 0.832 ± 0.046, E4 = 0.791 ± 0.043. E4/E3 = 0.951. N (embryo) = 3. Three-group ANOVA p = 0.115.",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "why": "Somatic LAMP1-positive vesicle size is a morphological surrogate for lysosomal function in the APOE genotype comparison."
+  }
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P17",
+  "finding_id": "P17.F25",
+  "key": "pmid40675218",
+  "quote_start": "However, we did detect a significantly higher number of LAMP1+ vesicle",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.996x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Fig 1K supports the quote’s dendritic size result. The printed means preserve the small numerical difference lost by rounding to 1.0x. The legend reports only a three-group P value for size.",
+  "evidence": "Fig 1K, average dendritic punctum size in µm²: E3 = 0.258 ± 0.027, E4 = 0.257 ± 0.036. E4/E3 = 0.996. N (embryo) = 3. Three-group ANOVA p = 0.823.",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "why": "Dendritic LAMP1-positive vesicle size is a morphological surrogate for lysosomal function in the APOE genotype comparison."
+  }
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P17",
+  "finding_id": "P17.F28",
+  "key": "pmid40675218",
+  "quote_start": "Despite no apparent difference in the number and size of LAMP1+ late e",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.12x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "The quote summarizes the authors’ experiment. Fig 4C identifies the dendritic count and prints the means needed for the ratio. The pairwise P value remains N/A.",
+  "evidence": "Fig 4C, LAMP1-positive puncta per 100 µm of dendrite: E3 = 121 ± 34, E4 = 136 ± 23. E4/E3 = 1.12. N (embryo) = 4. Three-group ANOVA p = 0.356.",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "why": "Dendritic LAMP1-positive compartment number is a marker-based surrogate for lysosomal function."
+  }
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P17",
+  "finding_id": "P17.F30",
+  "key": "pmid40675218",
+  "quote_start": "Despite no apparent difference in the number and size of LAMP1+ late e",
+  "verdict": "OK",
+  "set": {},
+  "reason": "The quote describes the authors’ result, and the location correctly distinguishes the representative images from the four quantified endpoints. N/A is appropriate for a single effect size. The reported n belongs to the accompanying quantifications.",
+  "evidence": "Fig 4A shows LAMP1 and MAP2 in somata and dendrites. Fig 4B–E give E3 versus E4 means for somatic count (37 versus 37), dendritic count (121 versus 136), somatic size (0.616 versus 0.643 µm²), and dendritic size (0.237 versus 0.223 µm²). Each quantification used N (embryo) = 4 and reports a three-group test only.",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "why": "The images illustrate the same LAMP1 morphology measured in Fig 4B–E and carry the same surrogate classification."
+  }
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P17",
+  "finding_id": "P17.F31",
+  "key": "pmid40675218",
+  "quote_start": "Despite no apparent difference in the number and size of LAMP1+ late e",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.04x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Fig 4D supplies the somatic size means underlying the quoted result. The E4 mean was slightly higher. The legend reports only a three-group P value.",
+  "evidence": "Fig 4D, average somatic punctum size in µm²: E3 = 0.616 ± 0.074, E4 = 0.643 ± 0.187. E4/E3 = 1.04. N (embryo) = 4. Three-group ANOVA p = 0.952.",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "why": "Somatic LAMP1-positive vesicle size is a morphological surrogate for lysosomal function."
+  }
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P17",
+  "finding_id": "P17.F32",
+  "key": "pmid40675218",
+  "quote_start": "Despite no apparent difference in the number and size of LAMP1+ late e",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.941x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Fig 4E supplies the dendritic size means underlying the quoted result. The E4 mean was slightly lower. The legend reports only a three-group P value.",
+  "evidence": "Fig 4E, average dendritic punctum size in µm²: E3 = 0.237 ± 0.023, E4 = 0.223 ± 0.030. E4/E3 = 0.941. N (embryo) = 4. Three-group Kruskal–Wallis p = 0.351.",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "why": "Dendritic LAMP1-positive vesicle size is a morphological surrogate for lysosomal function."
+  }
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P17",
+  "finding_id": "P17.F33",
+  "key": "pmid40675218",
+  "quote_start": "Although non-significant, we could detect a trend toward higher levels",
+  "verdict": "FIX",
+  "set": {
+   "Finding summary": "Somatic cathepsin D-positive vesicle counts were numerically higher in ApoE4 than ApoE3 neurons. No significant genotype difference was detected.",
+   "Effect size": "1.46x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "The quote reports the authors’ numerical trend. Fig 4M is representative, and the cited Fig 4O provides a counts-based effect specifically for somata. Its P value is for the three-group ANOVA.",
+  "evidence": "Fig 4O, cathepsin D-positive puncta per cell body: E3 = 178.5 ± 45.1, E4 = 260.6 ± 59.7. E4/E3 = 1.46. N (embryo) = 5. Three-group ANOVA p = 0.09. The Results state that the antibody detects both inactivated and activated protease.",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "why": "Counting cathepsin D-immunopositive vesicles measures marker abundance and matches the H5 cathepsin D marker reference."
+  }
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P17",
+  "finding_id": "P17.F34",
+  "key": "pmid40675218",
+  "quote_start": "Although non-significant, we could detect a trend toward higher levels",
+  "verdict": "FIX",
+  "set": {
+   "Finding summary": "Somatic CD63-positive vesicle counts were numerically higher in ApoE4 than ApoE3 neurons. No significant genotype difference was detected.",
+   "Effect size": "1.77x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "The quote and Fig 4N support the higher numerical count in ApoE4. Both means are printed in the legend. Its P value is for the three-group ANOVA.",
+  "evidence": "Fig 4N, CD63-positive puncta per cell body: E3 = 132.5 ± 39.1, E4 = 234.6 ± 105.1. E4/E3 = 1.77. N (embryo) = 5. Three-group ANOVA p = 0.206.",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "why": "Somatic CD63-positive vesicle count measures late-endosomal marker abundance and matches the H5 CD63 reference."
+  }
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P1",
+  "finding_id": "P1.F10",
+  "key": "doi_10_64898_2026_05_12_724612",
+  "quote_start": "These data were in agreement with our scRNAseq results, also indicatin",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~dZ=1.8"
+  },
+  "reason": "The quote is verbatim and reports the authors’ proteomics result. The plotted HEXB values support a decrease of about 1.8 Z-score units. HEXB abundance takes strength 3 under the H5 lysosomal-proteomics convention.",
+  "evidence": "In S3C, the three HEXB points per genotype average about +0.9 for APOE33 and −0.9 for APOE44. A single star is visible above HEXB. The S3 legend defines * as p < 0.05 and specifies Benjamini-Hochberg correction and “n = 3 wells each.”",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "why": "Whole-cell HEXB protein abundance is a surrogate for lysosomal function and receives the same score as the matched HEXA measurement."
+  }
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P1",
+  "finding_id": "P1.F11",
+  "key": "doi_10_64898_2026_05_12_724612",
+  "quote_start": "These data were in agreement with our scRNAseq results, also indicatin",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~dZ=1.8",
+   "Effect size provenance": "estimated_from_figure"
+  },
+  "reason": "The verbatim Results quote and S3C support lower abundance of all four proteins in APOE44. Each protein’s genotype difference rounds to about 1.8 Z-score units when read separately.",
+  "evidence": "In S3C, the APOE33 points average near +0.9 and the APOE44 points near −0.9 for each of LAMP1, LAMP2, HEXA and HEXB. Each protein has its own single star, supporting <0.05 for each comparison. The legend specifies Benjamini-Hochberg correction and three wells per genotype.",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "why": "The genotype comparison measures lysosomal protein abundance, an H5 surrogate for organelle function."
+  }
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P1",
+  "finding_id": "P1.F14",
+  "key": "doi_10_64898_2026_05_12_724612",
+  "quote_start": "Further, p62 (SQSTM1) and LC3B (MAP1LC3B2) were both upregulated, supp",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "The verbatim Results quote and the plotted values support higher MAP1LC3B2 abundance. Keep the P value as N/A because the only visible star in S3E belongs to SQSTM1.",
+  "evidence": "In S3E, MAP1LC3B2 is the right-hand comparison. Its points average about −0.8 for APOE33 and +0.8 for APOE44, consistent with the recorded difference of about 1.7 Z-score units. The single star is above the left-hand SQSTM1 comparison. The legend gives three wells per genotype.",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "why": "Static LC3B abundance is a surrogate for autophagic flux and receives the same score as the companion p62 measurement."
+  }
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P14",
+  "finding_id": "P14.F2",
+  "key": "pmid28684412",
+  "quote_start": "When comparing the interactions between corresponding combinations of ",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~2.0x",
+   "P value": "≤0.001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "The E4/E3 ratio of the plotted means is about 2.0. The shorter significance line explicitly connects E3 and E4. The quote is verbatim from the authors’ Results and supports the direction.",
+  "evidence": "Fig. 3C, middle N+C triplet. The mean markers are about 0.95 for E3 and 1.94 for E4. The shorter E3–E4 line carries ***, which the Fig. 3 legend defines as p ≤ 0.001. The legend gives six independent experiments.",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "reason_for_description": "",
+   "why": "Whole-cell intermolecular FRET measures proximity between tagged apoE termini, a surrogate for endo-lysosomal apoE aggregation."
+  }
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P14",
+  "finding_id": "P14.F3",
+  "key": "pmid28684412",
+  "quote_start": "When comparing the interactions between corresponding combinations of ",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~1.2x"
+  },
+  "reason": "The plotted E4/E3 mean ratio rounds to 1.2 at one decimal place. The quote supports the descriptive increase. The single-star line spans E2–E4, so the existing E3–E4 P-value fields are appropriate.",
+  "evidence": "Fig. 3B, left C+C triplet. E3 is at 1.00 and the E4 mean is about 1.24. The only comparison line runs from the first group to the third. The legend gives six independent experiments.",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "reason_for_description": "",
+   "why": "Whole-cell C+C FRET measures proximity between apoE molecules, while H3 specifies aggregation inside the endo-lysosome."
+  }
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P14",
+  "finding_id": "P14.F4",
+  "key": "pmid28684412",
+  "quote_start": "When comparing the interactions between corresponding combinations of ",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~1.3x"
+  },
+  "reason": "Using the E3 mean from the same N+C triplet gives an E4/E3 ratio of about 1.3. The quote supports the descriptive increase. The single-star line spans E2–E4, so the existing E3–E4 P-value fields are appropriate.",
+  "evidence": "Fig. 3B, middle N+C triplet. Mean normalized emission ratios are about 0.83 for E3 and 1.06 for E4. The only comparison line runs from the first group to the third. The legend gives six independent experiments.",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "reason_for_description": "",
+   "why": "Whole-cell N+C FRET measures proximity between apoE molecules, while H3 specifies aggregation inside the endo-lysosome."
+  }
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P14",
+  "finding_id": "P14.F5",
+  "key": "pmid28684412",
+  "quote_start": "When comparing the interactions between corresponding combinations of ",
+  "verdict": "FIX",
+  "set": {
+   "P value": "≤0.001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "The shorter significance line explicitly connects E3 and E4. The existing ~1.5x estimate agrees with the plotted means, and the Results quote supports the direction.",
+  "evidence": "Fig. 3E, left C+C triplet. Mean markers are about 1.00 for E3 and 1.47 for E4. The shorter E3–E4 line carries ***, defined in the Fig. 3 legend as p ≤ 0.001. The legend gives seven independent experiments.",
+  "directness": {
+   "class": 3,
+   "strength": 4,
+   "reason_for_description": "",
+   "why": "C+C FRET in secreted lipoparticles measures extracellular apoE proximity, a weak surrogate for endo-lysosomal aggregation."
+  }
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P14",
+  "finding_id": "P14.F6",
+  "key": "pmid28684412",
+  "quote_start": "When comparing the interactions between corresponding combinations of ",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~1.6x",
+   "P value": "≤0.001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "The E4/E3 ratio of the plotted means is about 1.6. The shorter significance line explicitly connects E3 and E4. The Results quote supports the direction.",
+  "evidence": "Fig. 3E, middle N+C triplet. Mean markers are about 1.02 for E3 and 1.64 for E4. The shorter E3–E4 line carries ***, defined in the Fig. 3 legend as p ≤ 0.001. The legend gives seven independent experiments.",
+  "directness": {
+   "class": 3,
+   "strength": 4,
+   "reason_for_description": "",
+   "why": "N+C FRET in secreted lipoparticles measures extracellular apoE proximity, a weak surrogate for endo-lysosomal aggregation."
+  }
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P25",
+  "finding_id": "P25.F5",
+  "key": "pmid23132858",
+  "quote_start": "We found that apoE3 was transported into lysosomes and degraded more e",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "N2a cells had less cell-associated apoE4 than apoE3 both with and without lysosomal inhibitors. With inhibitors, cell-associated apoE4 was approximately 92% lower than apoE3.",
+   "Finding summary": "(apoE3 -> apoE4, with lysosomal inhibitors) -> (lower cell-associated apoE)",
+   "Data location": "Fig. 7A, right-hand E3 versus E4 pair (+ lysosomal inhibitor) for the effect estimate",
+   "P value": "<0.01",
+   "P value provenance": "visual_only"
+  },
+  "reason": "The quote is verbatim and reports the authors’ joint interpretation of Fig. 7A and 7B. The ~92% estimate belongs specifically to cell-associated apoE under inhibition in 7A. Panel B reports the separate inhibitor-subtraction estimate of degradation.",
+  "evidence": "In Fig. 7A the inhibitor-treated bars are approximately 10.3 for E3 and 0.8–0.9 for E4. A ** bracket spans that pair, and a separate ** bracket spans the untreated pair. The panel A legend gives “( n = 3). **, p < 0.01.”",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "why": "Total cell-associated apoE under a fixed inhibitor condition is a surrogate for lysosomal function because its abundance also depends on cellular uptake."
+  }
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P25",
+  "finding_id": "P25.F7",
+  "key": "pmid23132858",
+  "quote_start": "The more efficient trafficking of apoE3 than apoE4 was confirmed by im",
+  "verdict": "FIX",
+  "set": {
+   "P value": "<0.05",
+   "P value provenance": "visual_only"
+  },
+  "reason": "The verbatim Results quote supports the direction of the finding. Panel D quantifies the staining shown in C and supports the existing ~35% estimate. Its bracket identifies the isoform comparison, and the H5 apoE–LAMP1 colocalization convention assigns strength 4.",
+  "evidence": "In Fig. 7D the E3 bar is 1.0 and the E4 bar is approximately 0.65–0.66. A single * bracket spans E3 and E4. The panel D legend gives “( n = 9). *, p < 0.05.”",
+  "directness": {
+   "class": 3,
+   "strength": 4,
+   "why": "The amount of apoE colocalized with LAMP1 measures cargo localization, matching the H5 reference rows for lysosome-associated apoE."
+  }
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P3",
+  "finding_id": "P3.F4",
+  "key": "pmid30375977",
+  "quote_start": "As shown in Figure 4D and E, physiological concentrations of ApoE3 (5 ",
+  "verdict": "FIX",
+  "set": {},
+  "reason": "Change strength to 1. The verbatim Results quote describes the authors’ experiment, and Fig 4E supports the inhibitor-free comparison. The stars at zero inhibitor do not identify an ApoE4-versus-ApoE3 P value.",
+  "evidence": "In Fig 4E at 0 µM EMD87580, surface-to-total Apoer2 is about 82% of control for ApoE3 and 23% for ApoE4. Relative to ApoE3, that is about 72% lower. The legend reports three independent experiments.",
+  "directness": {
+   "class": 1,
+   "strength": 1,
+   "why": "The experiment varies the ApoE isoform and directly measures surface-to-total Apoer2 after Reelin-induced endocytosis."
+  }
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P3",
+  "finding_id": "P3.F6",
+  "key": "pmid30375977",
+  "quote_start": "Other ApoE receptors, such as low-density lipoprotein receptor-related",
+  "verdict": "FIX",
+  "set": {},
+  "reason": "Change strength to 1. The verbatim Fig 2 legend supports the description of comparable Lrp1 surface levels. The small numerical difference is a defensible figure estimate, and the paper gives no P value for the Lrp1 isoform comparison.",
+  "evidence": "In the Fig 2C Lrp1 group, E3+R is about 105% of control and E4+R about 101%, roughly 4% lower relative to E3+R. The significance brackets in panel C are confined to Apoer2. The legend reports three independent experiments.",
+  "directness": {
+   "class": 1,
+   "strength": 1,
+   "why": "The experiment compares ApoE3 with ApoE4 using the surface-to-total Lrp1 readout, matching the H2 surface-Lrp1 reference rows."
+  }
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P3",
+  "finding_id": "P3.F10",
+  "key": "pmid30375977",
+  "quote_start": "The delayed recycling of Apoer2 was also apparent by the prolonged ret",
+  "verdict": "FIX",
+  "set": {
+   "P value": "<0.01",
+   "P value provenance": "visual_only",
+   "Finding description": "After 3 hr of exposure, more ApoE4 than ApoE3 co-immunoprecipitated with neuronal Apoer2 across three independent experiments. The authors interpreted this as prolonged intracellular retention.",
+   "Finding summary": "More ApoE4 than ApoE3 remained associated with Apoer2 at 3 hr."
+  },
+  "reason": "Fig 2E marks the exact two-group comparison. The verbatim Results quote gives the authors’ interpretation, while the revised wording identifies what the single-time-point assay measured.",
+  "evidence": "Fig 2E shows E3 at about 100 and E4 at about 158 on the ApoE3-normalized scale, supporting ~1.6x. Two stars appear over the line spanning E3 and E4. The Fig 2 legend defines ** as p<0.01, specifies Student’s t-test for panel E, and reports three independent experiments.",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "why": "Apoer2-associated ApoE in neuronal lysates is a surrogate for receptor recycling and matches the scored co-immunoprecipitation reference row."
+  }
+ },
+ {
+  "hyp": "H2",
+  "paper_id": "P3",
+  "finding_id": "P3.F14",
+  "key": "pmid30375977",
+  "quote_start": "EMD87580 and the NHE6-specific shRNAs completely restored Apoer2 and g",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "EMD87580 restored surface-to-total GluA2/3 to near the control level in ApoE4- and Reelin-treated primary rat neurons across three independent experiments. Class 5 (other): the experiment varies NHE inhibition while holding ApoE4 exposure fixed."
+  },
+  "reason": "Score the within-ApoE4 drug rescue as class 5, strength 4. The verbatim Results quote and Fig 6F support the rescue. Neither significance bracket connects the two groups used for the effect estimate.",
+  "evidence": "In Fig 6F, bar 2 (E4+R) is about 27% of control and bar 3 (E4+R+EMD87580) about 95%, supporting ~3.5x. The starred brackets connect bars 1 and 2 and bars 1 and 5. The legend reports three independent experiments.",
+  "directness": {
+   "class": 5,
+   "strength": 4,
+   "reason_for_description": "Class 5 (other): the experiment varies NHE inhibition while holding ApoE4 exposure fixed.",
+   "why": "The drug rescue measures an in-scope receptor surface level and matches the H2 EMD87580 rescue reference for surface GluN2B."
+  }
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P23",
+  "finding_id": "P23.F3",
+  "key": "pmid39468688",
+  "quote_start": "We detected increased autophagosomes (remaining yellow dots in Fig. 5i",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "With PHF present in both groups, the tandem LC3 reporter showed a higher autophagosome percentage per cell under ApoE4 than under ApoE3, consistent with impaired autophagic processing. The authors analyzed 10–12 fields from three biological replicates.",
+   "Finding summary": "(ApoE3 -> ApoE4, with PHF) -> (higher autophagosome percentage per cell and lower autophagic flux)",
+   "Data location": "Fig. 5j, left plot (autophagosome percentage per cell)",
+   "Effect size": "~2.4x"
+  },
+  "reason": "The quote is verbatim and reports the authors’ result. The fold estimate applies to the autophagosome percentage in the left plot. The existing P value and field-count provenance are supported.",
+  "evidence": "In Fig. 5j, left, the ApoE3 + PHF bar is about 35% and the ApoE4 + PHF bar is about 85%, giving about 2.4x. The comparison is labeled P<0.0001. The right plot also shows lower autophagy flux under ApoE4 + PHF. The legend specifies “n = 10–12 fields from 3 biological replicates”.",
+  "directness": {
+   "class": 1,
+   "strength": 1,
+   "why": "The experiment varies ApoE isoform under the same PHF challenge and measures autophagic flux with the tandem LC3 reporter, a direct H5 readout."
+  }
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P23",
+  "finding_id": "P23.F4",
+  "key": "pmid39468688",
+  "quote_start": "ApoE4 significantly increased the accumulation of cholesterol in lysos",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "Class 5 (other): Capsaicin was varied while ApoE4 and PHF exposure were held fixed. Capsaicin decreased the fraction of total filipin III area localized to lysosomes in BV2 microglia. The authors analyzed 8–18 fields from three biological replicates.",
+   "Data location": "Fig. 5k (images) and Fig. 5l, right plot (lysosomal filipin III / total filipin III area)",
+   "Effect size": "~80%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.0001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "The quote is verbatim and its second clause supports the capsaicin comparison. Fig. 5l quantifies the decrease and gives a comparison-specific P value.",
+  "evidence": "In Fig. 5l, right, the lysosomal fraction of total filipin III area falls from about 0.5 for ApoE4 + PHF to about 0.1 with capsaicin, an approximately 80% decrease. The red-to-blue comparison is labeled P<0.0001. The legend specifies “n = 8–18 fields from 3 biological replicates”.",
+  "directness": {
+   "class": 5,
+   "strength": 5,
+   "reason_for_description": "Class 5 (other): Capsaicin was varied while ApoE4 and PHF exposure were held fixed.",
+   "why": "Capsaicin acts on TRPV1 at fixed ApoE4 exposure, and lysosomal cholesterol accumulation is a surrogate for lysosomal function under H5."
+  }
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P2",
+  "finding_id": "P2.F5",
+  "key": "pmid34919811",
+  "quote_start": "Immunofluorescent detection of lysosomes by LAMP2 (Figure 4C) or Dextr",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "The authors observed no difference in Dextran-Alexa 555 lysosomal labeling across APOE genotypes, including APOE3 and APOE4 iAstrocytes.",
+   "Finding summary": "(APOE3 -> APOE4) -> (no observed difference in dextran-labeled lysosomes in iAstrocytes)"
+  },
+  "reason": "The quote is verbatim and reports the authors’ own result. “No significant difference” implies a pairwise statistical test that the Results sentence does not document. Fig. S3 could not be inspected. The available text supports a qualitative effect (printed_in_text) and gives neither a pairwise P value nor an S3-specific sample size, so both remain N/A (not_found_in_source).",
+  "evidence": "“Immunofluorescent detection of lysosomes by LAMP2 (Figure 4C) or Dextran-Alexa 555 (Figure S3) showed no difference between genotypes.” [Results, p. 116](https://pmc.ncbi.nlm.nih.gov/articles/PMC8758949/)",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "why": "The experiment varies APOE genotype and uses dextran to label the lysosomal compartment, a surrogate for lysosomal function scored like the LAMP2 imaging reference row."
+  }
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P5",
+  "finding_id": "P5.F13",
+  "key": "pmid32517777",
+  "quote_start": "Surprisingly, measurement of Ca2+ stored inside acidic organelles using",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "Switching APOE3 astrocytes from FBS-containing DMEM to lipid-free Krebs medium produced no detectable increase in GPN-releasable acidic-store calcium. Class 5 (other): the experiment varied the medium within the APOE3 genotype.",
+   "Finding summary": "(FBS-containing DMEM -> lipid-free KH in APOE3 astrocytes) -> (no significant increase detected in GPN-releasable acidic-store calcium)",
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "The quote is verbatim and reports the authors’ own Fig. 7b result. The ~33% higher mean AUC in KH is a defensible figure estimate despite the lack of a significant increase. The P value remains N/A because the figure-wide star key has no corresponding mark in panel b. The legend confirms N = 3.",
+  "evidence": "Fig. 7b shows mean AUC of about 15 in APOE3 FBS and 20 in APOE3 KH on a 0–50 axis, with no star over either bar or the comparison. The Results say “showed no increased Ca2+ loading in APOE3 cells kept in KH (Fig. 7b)”. The legend specifies 200 μM GPN, N = 3, and an unpaired parametric t-test for panels b and c.",
+  "directness": {
+   "class": 5,
+   "strength": 5,
+   "reason_for_description": "Class 5 (other): the experiment varied the medium within the APOE3 genotype.",
+   "why": "GPN-releasable calcium is an indirect readout of lysosomal function, and this within-genotype medium comparison matches the APOE4 reference row scored 5/5."
+  }
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P18",
+  "finding_id": "P18.F2",
+  "key": "pmid42239208",
+  "quote_start": "Compared to APOE3 astrocytes, APOE4 astrocytes showed decreased levels",
+  "verdict": "OK",
+  "set": {},
+  "reason": "The quote is verbatim from the authors’ Results and supports the reported decrease in RAB7 staining. The methods confirm four days of serum withdrawal and fixed-cell confocal imaging with intensity normalized to cell area.",
+  "evidence": "Fig. 2H shows representative RAB7 staining. Fig. 2I shows median RAB7 intensity per cell area near 1.0 for APOE3 and near 0.75 for APOE4, supporting ~25% lower median intensity (estimated_from_figure). The genotype bracket reads “p = 0.0006” (visual_only). The Fig. 2 legend states “N=18 wells per genotype, across two iPSC lines” (printed_in_text).",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "reason_for_description": "",
+   "why": "The experiment varies APOE genotype and measures RAB7 staining, a late-endosome marker scored as a moderate surrogate for late-endosome function under H5."
+  }
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P22",
+  "finding_id": "P22.F3",
+  "key": "pmid41103078",
+  "quote_start": "In concordance with our observations in Neuro-2a cells, we found that ",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text"
+  },
+  "reason": "The quote is verbatim and reports the authors’ own result. The rightmost images in Fig. 6C illustrate the higher LAMP1–TMED5 PLA signal in APOE4 neurons. Keep the effect qualitative and P value N/A for this image panel. The biological sample size is three independent differentiations.",
+  "evidence": "The Fig. 6 legend identifies C as “Representative images for panel B.” The four-star bracket spans the TMED5 genotype pair in B. Panel C has no significance mark or intensity axis. The PLA methods state, “The experiment was performed in triplicate, using neurons from three different differentiations.” Each plotted point in B represents an individual neuron.",
+  "directness": {
+   "class": 3,
+   "strength": 4,
+   "why": "LAMP1–TMED5 proximity measures protein localization as a surrogate for lysosomal function, matching the LAMP1–LGALS3BP PLA reference scored 3/4."
+  }
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P33",
+  "finding_id": "P33.F4",
+  "key": "pmid32709881",
+  "quote_start": "Accordingly, APOE3 astrocytes treated with CCCP combined with chloroqu",
+  "verdict": "FIX",
+  "set": {},
+  "reason": "Change directness to 1/1. The quote is verbatim and reports the authors’ own result. The description, summary, treatment schedule and data location match the experiment.",
+  "evidence": "In Fig. 3d’s LC3-II abundance graph, the CCCP+CQ bars are approximately 14 for APOE3 and 1.8 for APOE4. This gives about 87% lower abundance in APOE4, supporting the rounded ~90% estimate. The APOE4 bar visibly carries **, but the panel-d legend omits the numeric threshold for **, so retain N/A with ambiguous_panel. The same legend prints n = 3 without specifying the experimental unit.",
+  "directness": {
+   "class": 1,
+   "strength": 1,
+   "reason_for_description": "",
+   "why": "The experiment compares APOE3 and APOE4 astrocytes using LC3-II accumulation with and without chloroquine after CCCP challenge, a direct H5 autophagic-flux assay."
+  }
+ }
+]

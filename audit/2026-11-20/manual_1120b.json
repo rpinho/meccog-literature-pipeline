@@ -1,0 +1,36 @@
+[
+ {
+  "doi": "10.1080/15548627.2025.2576613",
+  "quote_start": "We found that the HsAPOE4-expressing cells exhibited significantly dec",
+  "summary_contains": "(APOE3 -> APOE4) -> (lower lysosomal cathepsin B substrate cleavage)",
+  "description_start": "Across three independent experiments, APOE4 Neuro-2a cells h",
+  "set": {
+   "directness_class": 1,
+   "directness_strength": "1"
+  },
+  "why": "Magic Red cathepsin B cleavage is lysosomal enzyme activity, B itself: 1/1 (H5 convention; class 1 takes strength 1)."
+ },
+ {
+  "doi": "10.1186/s40035-024-00445-6",
+  "quote_start": "ApoE4 significantly increased the accumulation of cholesterol in lysos",
+  "summary_contains": "(ApoE3 -> ApoE4, with PHF) -> (increased lysosomal cholesterol accumulation)",
+  "description_start": "Quantified filipin and LysoTracker staining showed increased",
+  "set": {
+   "directness_class": 3,
+   "directness_strength": "3"
+  },
+  "why": "filipin cholesterol in lysosomes is a surrogate for cholesterol egress: 3/3 (H5 convention)."
+ },
+ {
+  "doi": "10.1186/s40035-024-00445-6",
+  "quote_start": "Treatment with TRPV1 agonist capsaicin restored the autophagy lysosoma",
+  "summary_contains": "(vehicle -> capsaicin, with ApoE4 and PHF) -> (restored autophagy lysosomal pathway)",
+  "description_start": "Quantified tandem LC3 reporter activity indicated restoratio",
+  "set": {
+   "directness_class": 5,
+   "directness_strength": "4",
+   "description": "Quantified tandem LC3 reporter activity indicated restoration of autophagic processing after capsaicin in ApoE4-plus-PHF BV2 microglia, using 10–12 fields from three biological replicates; ApoE isoform remained fixed. Class 5 (other): capsaicin, a TRPV1 agonist, is applied within ApoE4 cells; the APOE isoform is not varied."
+  },
+  "why": "capsaicin (TRPV1 agonist) is applied within ApoE4 cells; the readout, tandem LC3 flux, is B itself: class 5, strength 4 (H5 convention)."
+ }
+]
