@@ -1,0 +1,59 @@
+[
+ {
+  "item": 1,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": ">0.05",
+   "P value provenance": "visual_only",
+   "Data location": "Fig 3G, untreated APOE33 vs untreated APOE44"
+  },
+  "why": "Effect qualitative/printed_in_text is right (text: both ~5.15, 'did not differ'), and the now-readable Fig 3G has an 'ns' bracket joining exactly untreated APOE33 and untreated APOE44 (legend key: *p < 0.05 ... ns, non-significant; pairwise post-hoc marks, not the omnibus test), so P is >0.05 visual_only instead of N/A."
+ },
+ {
+  "item": 2,
+  "decision": "CONFIRM",
+  "why": "Quote verbatim; Fig S3D is a Venn diagram printing 53 of 84 identified lysosomal enzymes in the downregulated overlap with no P, so P N/A is not_found_in_source (full text is available), and n=3 wells is printed for the proteomics."
+ },
+ {
+  "item": 3,
+  "decision": "CONFIRM",
+  "why": "Repaired quote is the verbatim sentence (PDF hyphen 'ac- tivity' joined); my pixel read of Fig 3G (axis 0-80) gives ApoE3 ~40.4 vs ApoE4 ~54.8 a.u., ~36% higher, consistent with ~35% estimated_from_figure, and '****' over this two-bar panel with the Student's t-test key supports <0.0001 visual_only."
+ },
+ {
+  "item": 4,
+  "decision": "CONFIRM",
+  "why": "Fig 4F's only mark is an unbracketed '***' over the untreated ApoE4 bar in a Dunnett's design, with no mark over ApoE4+MbCD, so the row's <0.05 is unsupported (N/A, ambiguous_panel); my pixel read gives ApoE4 ~65.8 vs ApoE4+MbCD ~49.4 a.u., a ~25% decrease."
+ },
+ {
+  "item": 5,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "After organoid-debris challenge, human isogenic APOE33 microglia acidified from about pH 5.15 to 5.05 (*** vs untreated APOE33 in Fig 3G), whereas APOE44 microglia did not acidify significantly (ns vs untreated APOE44); debris-treated APOE44 late-endosomal/lysosomal pH was about 0.08 units higher than debris-treated APOE33 (about 5.13 vs 5.05, read from Fig 3G), with three wells per group.",
+   "Data location": "Fig 3G, APOE33+debris vs APOE44+debris (also each vs its untreated genotype)",
+   "Effect size": "~dpH=0.08",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.05",
+   "P value provenance": "visual_only",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text"
+  },
+  "why": "Fig 3G has a '*' bracket joining exactly APOE33+debris and APOE44+debris (legend key *p < 0.05; other brackets: APOE33 vs APOE33+debris ***, APOE44 vs APOE44+debris ns, APOE33 vs APOE44 ns), and the means read ~5.05 vs ~5.13 on the 5.0-5.6 axis, so the APOE4-minus-APOE3 difference under challenge is ~dpH=0.08; n=3 wells is printed in the legend."
+ },
+ {
+  "item": 6,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "In the female UCI5 isogenic pair, organoid-debris challenge lowered APOE33 microglial late-endosomal/lysosomal pH (about 5.30 to 5.24, * vs untreated in Fig 7M) but raised APOE44 pH (about 5.29 to 5.40, *** vs untreated); debris-treated APOE44 pH was about 0.17 units higher than debris-treated APOE33 (about 5.40 vs 5.24, read from Fig 7M), with three wells per group.",
+   "Data location": "Fig 7M, UCI5 (33)+debris vs UCI5 (44)+debris (also each vs its untreated genotype)",
+   "Effect size": "~dpH=0.17",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.0001",
+   "P value provenance": "visual_only",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text"
+  },
+  "why": "Fig 7M (unpaired two-tailed t-tests per the legend) has a '****' bracket joining exactly UCI5 (33)+debris and UCI5 (44)+debris, key ****p < 0.0001, with means ~5.24 vs ~5.40 on the 5.2-5.5 axis (~dpH=0.17, APOE4 higher); no bracket joins the untreated pair, and n=3 wells is printed in the legend."
+ }
+]

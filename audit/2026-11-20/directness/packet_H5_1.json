@@ -1,0 +1,490 @@
+{
+ "hyp": "H5",
+ "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+ "A": "APOE genotype or apoE isoform (APOE4 vs APOE3), acting through disrupted lipid metabolism (cholesterol, lipid droplets, sphingolipids)",
+ "B": "late endosome / lysosome function (degradation, acidification, cholesterol egress, autophagic flux, lysosomal enzyme activity)",
+ "scope": "IN: late endosome/lysosome function (cholesterol or lipid accumulation in lysosomes, NPC1, lysosomal degradation, cathepsin activity, lysosomal pH, autophagic flux, LAMP1 compartments) measured in APOE4 vs APOE3 cells, especially where linked to lipid/cholesterol metabolism; manipulations of lipid metabolism that change late-endosome/lysosome function in APOE4 cells. OUT: lipid changes with no late-endosome/lysosome readout, mitochondrial respiration alone, inflammation or transcriptomics alone.",
+ "papers": [
+  {
+   "paper_id": "P4",
+   "doi": "10.1016/j.cell.2024.10.027",
+   "rows": [
+    {
+     "Paper/Finding ID": "P4.F1",
+     "Finding description": "Replacing ApoE4-associated CE(20:4) with CE(18:1) significantly reduced neuronal acidic-compartment tau-fibril accumulation.",
+     "Finding quote": "Indeed, CE(18:1)-lipApoE4 produced significantly lower accumulation of pHrodo-tau pffs than CE(20:4)-lipApoE4 (Figure 6L–M), consistent with lipofuscin-potentiated tau pff accumulation.",
+     "Finding summary": "(ApoE4 cargo CE(20:4) -> CE(18:1)) -> (less endolysosomal tau-fibril accumulation)",
+     "Experimental system": "Human NGN2 iPSC-derived neurons; 14-day 20 μg/mL lipidated ApoE4 pretreatment followed by 14 days of 2.5 μg/mL pHrodo-P301S-tau fibrils; ApoE replenished during incubation; confocal imaging.",
+     "Data location": "Fig 6L–M",
+     "Directness class": 4,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P4.F2",
+     "Finding description": "Human neurons treated with PUFA-cholesteryl-ester–ApoE4 accumulated more lipofuscin than ApoE3-treated neurons after 21 days.",
+     "Finding quote": "Therefore, we assessed the pathogenic potential of peroxidation-prone PUFA-CE by treating iNeurons with CE(20:4)-lipApoE isoforms. We observed accumulation of lipofuscin along with an established toxic product of arachidonic acid peroxidation, 4-HNE, following the allelic series of ApoE4 > ApoE3 > ApoE2.",
+     "Finding summary": "(ApoE3 -> ApoE4 carrying CE(20:4)) -> (more neuronal lysosomal lipofuscin)",
+     "Experimental system": "Human doxycycline-inducible NGN2 iPSC-derived neurons, Sigma 66540561; CE(20:4)/POPC-ApoE initially 20 μg/mL, replenished weekly with 10 μg/mL; 21-day exposure; autofluorescence imaging.",
+     "Data location": "Fig 5A–B",
+     "Directness class": 3,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P4.F3",
+     "Finding description": "Replacing peroxidation-prone CE(20:4) with CE(18:1) in ApoE4 particles abolished lipofuscin induction in human H4 cells.",
+     "Finding quote": "Replacing CE(20:4) with CE(18:1) in the POPC-ApoE4 lipoproteins abolished lipofuscin induction (Figure 5J–K), denoting a PUFA requirement.",
+     "Finding summary": "(ApoE4 cargo CE(20:4) -> CE(18:1)) -> (loss of lipofuscin induction)",
+     "Experimental system": "Human H4 neuroglioma cells; three-day 20 μg/mL CE(20:4)/POPC-ApoE4 versus CE(18:1)/POPC-ApoE4 exposure; lipofuscin autofluorescence.",
+     "Data location": "Fig 5J–K",
+     "Directness class": 4,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P4.F4",
+     "Finding description": "After fourteen days, neuronal lipofuscin increasingly distinguished CE(20:4)-ApoE4 from ApoE3, with greater accumulation after ApoE4 treatment in three independent experiments.",
+     "Finding quote": "After longer incubation (14 d and 21 d), a progressively larger difference between ApoE4 and ApoE3 emerged (Figure S5G, Figure 5B).",
+     "Finding summary": "(ApoE3 -> ApoE4 carrying CE(20:4)) -> (more fourteen-day neuronal lipofuscin)",
+     "Experimental system": "Human NGN2 iPSC-derived neurons; 14-day CE(20:4)/POPC-ApoE treatment, initially 20 μg/mL and replenished after seven days; autofluorescence imaging.",
+     "Data location": "Supplementary Fig S5E and S5G, quantification",
+     "Directness class": 3,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P4.F5",
+     "Finding description": "In three independent H4-cell experiments, CE(20:4)-ApoE3 and CE(20:4)-ApoE4 modestly but significantly reduced lysosomal cathepsin activity relative to low-lipofuscin treatments; an E4–E3 difference was not reported.",
+     "Finding quote": "Cathepsin activity measured by the 6QC probe40 showed a modest but significant reduction with CE(20:4)-lipApoE3 or CE(20:4)-lipApoE4 treatment compared to other treatments that minimally induced lipofuscin (Figure S6G–H).",
+     "Finding summary": "(CE(20:4)-ApoE4 versus low-lipofuscin treatments) -> (lower lysosomal cathepsin activity)",
+     "Experimental system": "Human H4 neuroglioma cells; three-day CE(20:4)/POPC-ApoE isoform or CE(18:1)/POPC-ApoE treatment; 5 μM fluorogenic 6QC probe for two hours; live imaging of cathepsin-dependent fluorescence.",
+     "Data location": "Supplementary Fig S6G–H",
+     "Directness class": 3,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P4.F6",
+     "Finding description": "Replacing ApoE4-associated CE(20:4) with CE(18:1) prevented the neuronal lipofuscin phenotype in the tau-fibril accumulation experiment.",
+     "Finding quote": "To confirm the effect of PUFA-CE-lipApoE4 on tau pff accumulation is causally linked to lipofuscin, we directly compared CE(20:4)-lipApoE4 with CE(18:1)-lipApoE4, which did not induce lipofuscin as CE(18:1) is not prone to peroxidation (Figure 6J–K).",
+     "Finding summary": "(ApoE4 cargo CE(20:4) -> CE(18:1)) -> (less neuronal lipofuscin)",
+     "Experimental system": "Human NGN2 iPSC-derived neurons; 14-day 20 μg/mL CE(20:4)/POPC-ApoE4 or CE(18:1)/POPC-ApoE4 pretreatment followed by 14 days with 2.5 μg/mL pHrodo-tau fibrils and continued ApoE replenishment; autofluorescence.",
+     "Data location": "Fig 6J–K",
+     "Directness class": 4,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P4.F7",
+     "Finding description": "Blocking receptor engagement with LDLR extracellular domain dramatically reduced ApoE4–PUFA-cholesteryl-ester–induced lipofuscin in human neurons.",
+     "Finding quote": "LDLR ECD co-treatment with CE(20:4)-lipApoE4 dramatically reduced lipofuscin (Figure 5F–G), confirming LDLR dependency.",
+     "Finding summary": "(CE(20:4)-ApoE4 + LDLR competition) -> (less neuronal lipofuscin)",
+     "Experimental system": "Human NGN2 iPSC-derived neurons, Sigma 66540561; three-day treatment with 20 μg/mL CE(20:4)/POPC-ApoE4, with or without 20 μg/mL LDLR ECD; autofluorescence imaging.",
+     "Data location": "Fig 5F–G",
+     "Directness class": 4,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P4.F8",
+     "Finding description": "Human neurons pretreated with CE(20:4)-ApoE4 showed a trend toward more acidic-compartment tau-fibril signal than ApoE3-treated neurons (ApoE4 > ApoE3 > ApoE2 > K146E ApoE4), more pronounced among lipofuscin-positive neurons, across three independent experiments; the text calls it a trend and gives no P for the E4-E3 contrast.",
+     "Finding quote": "After another 13–14 d incubation, total pHrodo signals from tau pffs that were internalized and accumulated in the endolysosomes demonstrated a trend of ApoE4 > ApoE3 > ApoE2 > K146E ApoE4, with the isoform-dependent difference being more pronounced among lipofuscin-positive neurons (Figure 6H–I), suggesting neuronal accumulation of tau pffs is augmented by a higher lipofuscin load.",
+     "Finding summary": "(ApoE3 -> ApoE4 carrying CE(20:4)) -> (more endolysosomal tau-fibril accumulation)",
+     "Experimental system": "Human NGN2 iPSC-derived neurons, Sigma 66540561; 14-day CE(20:4)/POPC-ApoE pretreatment, initially 20 μg/mL; 2.5 μg/mL pHrodo-labeled P301S tau fibrils for another 13 days; all neurons and cells with more than three lipofuscin spots analyzed.",
+     "Data location": "Fig 6H–I",
+     "Directness class": 3,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P4.F9",
+     "Finding description": "CE(20:4)-ApoE3 and CE(20:4)-ApoE4 caused prominent LAMP1-positive lysosomal clustering in three independent H4-cell experiments; the text did not establish a difference between those isoforms.",
+     "Finding quote": "LAMP1 immunostaining revealed no treatment effect on the total lysosomal area, but CE(20:4)-lipApoE3/E4 treatment resulted in prominent lysosomal clustering (Figure S6I–K), a phenotype previously observed in association with lysosomal impairment41,42.",
+     "Finding summary": "(CE(20:4)-ApoE3 or ApoE4 treatment) -> (greater LAMP1-positive lysosomal clustering)",
+     "Experimental system": "Human H4 neuroglioma cells after three-day lipidated ApoE treatment; fixed-cell LAMP1 immunostaining; clustering index calculated from clustered versus total LAMP1 spot area.",
+     "Data location": "Supplementary Fig S6I and S6K",
+     "Directness class": 3,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P4.F10",
+     "Finding description": "Introducing the Christchurch receptor-binding mutation into ApoE4 significantly attenuated PUFA-cholesteryl-ester–induced lipofuscin in human H4 cells.",
+     "Finding quote": "Lastly, CE(20:4)-lipidated Christchurch mutants showed significantly attenuated lipofuscinosis (Figure 7F–G).",
+     "Finding summary": "(ApoE4 -> ApoE4 R136S carrying CE(20:4)) -> (less lipofuscin)",
+     "Experimental system": "Human H4 neuroglioma cells; three-day 20 μg/mL CE(20:4)/POPC-lipidated ApoE isoforms and Christchurch variants; lipofuscin autofluorescence imaging.",
+     "Data location": "Fig 7F–G",
+     "Directness class": 4,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P4.F11",
+     "Finding description": "In human astrocytes, ApoE4 produced greater internalized ApoE signals and occupancy of LAMP1 compartments than ApoE3; printed ApoE-positive LAMP1 fractions were 0.497 ± 0.090 versus 0.410 ± 0.049.",
+     "Finding quote": "ApoE isoform differences were manifested in the differential levels of internalized lipApoE (ApoE4 > ApoE3 > ApoE2), giving rise to the same isoform trend for LAMP1-positive vesicles containing ApoE immunoreactivity (Mander’s coefficients = 0.266 ± 0.045 for ApoE2, 0.410 ± 0.049 for ApoE3, 0.497 ± 0.090 for ApoE4) (Figure 2I).",
+     "Finding summary": "(ApoE3 -> ApoE4) -> (greater ApoE accumulation and ApoE occupancy of LAMP1 compartments)",
+     "Experimental system": "Human APOE-KO iPSC-derived astrocytes originating from ThermoFisher A18945, originally APOE3/3; 10 μg/mL POPC-ApoE for one day; super-resolution immunofluorescence and Mander’s overlap analysis.",
+     "Data location": "Fig 2H–I",
+     "Directness class": 3,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P4.F12",
+     "Finding description": "Human H4 cells reproduced isoform-dependent lipofuscin accumulation after PUFA-cholesteryl-ester–ApoE treatment, with LDLR extracellular domain blocking the phenotype.",
+     "Finding quote": "ApoE isoform-dependent lipofuscin accumulation was replicated in WT H4 and HAP1 cells, similarly blocked by LDLR ECD or KO of LDLR, but not LRP1 (Figure 5H–I, Figure S5H–I).",
+     "Finding summary": "(ApoE3 -> ApoE4 carrying CE(20:4)) -> (greater lipofuscin burden)",
+     "Experimental system": "Human H4 neuroglioma cells, ATCC HTB-148; three-day 20 μg/mL CE(20:4)/POPC-ApoE treatment, with or without 20 μg/mL LDLR ECD; autofluorescence imaging.",
+     "Data location": "Fig 5H–I",
+     "Directness class": 3,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P4.F13",
+     "Finding description": "After seven days, ApoE3- and ApoE4-associated CE(20:4) produced weak neuronal lipofuscin whereas ApoE2 produced minimal signal, in three independent experiments; an E4–E3 difference was not stated.",
+     "Finding quote": "At 7 d, lipofuscin induced by CE(20:4)-lipApoE3/E4 was weakly detectable, while signals for CE(20:4)-ApoE2 were minimal.",
+     "Finding summary": "(CE(20:4)-ApoE3 or ApoE4 treatment) -> (early neuronal lipofuscin accumulation)",
+     "Experimental system": "Human NGN2 iPSC-derived neurons, Sigma 66540561; seven-day 20 μg/mL CE(20:4)/POPC-ApoE exposure; live lipofuscin autofluorescence, normalized using endpoint nuclear counts.",
+     "Data location": "Supplementary Fig S5E–F",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P4.F14",
+     "Finding description": "Lipidated ApoE treatments produced no reported treatment effect on total LAMP1-positive lysosomal area in three independent H4-cell experiments.",
+     "Finding quote": "LAMP1 immunostaining revealed no treatment effect on the total lysosomal area, but CE(20:4)-lipApoE3/E4 treatment resulted in prominent lysosomal clustering (Figure S6I–K), a phenotype previously observed in association with lysosomal impairment41,42.",
+     "Finding summary": "(Lipidated ApoE treatment, including ApoE3 and ApoE4) -> (no change in total lysosomal area)",
+     "Experimental system": "Human H4 neuroglioma cells after three-day CE(20:4)/POPC-ApoE isoform or CE(18:1)/POPC-ApoE treatment; total LAMP1 spot area quantified by immunofluorescence.",
+     "Data location": "Supplementary Fig S6J",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P4.F15",
+     "Finding description": "Internalized ApoE3 and ApoE4 localized predominantly to LAMP1 compartments, with printed Mander’s coefficients of 0.903 ± 0.024 and 0.900 ± 0.008, respectively; no significance comparison was reported.",
+     "Finding quote": "Super-resolution imaging on APOE KO iAstrocytes confirmed internalized lipApoE completely colocalized with endogenous LDLR (Mander’s coefficient for ApoE puncta with colocalizing LDLR = 1 for all 3 isoforms), largely inside LAMP1 compartments (Figure 2H) (Mander’s coefficients for ApoE puncta with colocalizing LAMP1 = 0.823 ± 0.061 for ApoE2; 0.903 ± 0.024 for ApoE3; 0.900 ± 0.008 for ApoE4).",
+     "Finding summary": "(ApoE3 -> ApoE4) -> (similar proportion of internalized ApoE localized to LAMP1 compartments)",
+     "Experimental system": "Human APOE-KO A18945-derived iPSC astrocytes; one-day 10 μg/mL POPC-ApoE treatment; super-resolution ApoE, LDLR and LAMP1 imaging.",
+     "Data location": "Results accompanying Fig 2H",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P4.F16",
+     "Finding description": "ApoE3 and ApoE4 similarly promoted acidic-compartment HDL accumulation relative to ApoE2 or no ApoE, and LDLR extracellular domain suppressed both; an ApoE4-specific functional defect was not established.",
+     "Finding quote": "Pre-complexing pHrodo-HDL with ApoE isoforms promoted its uptake in the order of ApoE4 ~ ApoE3 > ApoE2 (Figure 3A, C). LDLR ECD suppressed pHrodo-HDL uptake with ApoE3 or ApoE4, indicating a key role of LDLR in ApoE-mediated HDL internalization.",
+     "Finding summary": "(ApoE3 -> ApoE4) -> (similar acidic-compartment HDL accumulation)",
+     "Experimental system": "Human H4 neuroglioma cells; one-day treatment with 10 μg/mL pHrodo-HDL precomplexed with 10 μg/mL recombinant ApoE, with or without 20 μg/mL LDLR ECD; confocal imaging.",
+     "Data location": "Fig 3A, Fig 3C",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  },
+  {
+   "paper_id": "P13",
+   "doi": "10.1016/j.nbd.2022.105615",
+   "rows": [
+    {
+     "Paper/Finding ID": "P13.F1",
+     "Finding description": "Following a three-hour myelin pulse, E4 microglia exhibited a significantly longer half-life of intracellular pHrodo-myelin fluorescence than E3 microglia, suggesting slower degradation of internalized myelin.",
+     "Finding quote": "We also observe a significantly longer half-life of red fluorescence decay in E4 microglia relative to E3, WT and KO microglia, which were not significantly different from one another (Figure S4b, see Methods). This suggests that in addition to exhibiting increased phagocytic uptake, E4 microglia may exhibit impaired ability to degrade internalized myelin.",
+     "Finding summary": "(APOE3 -> APOE4) -> (longer internalized-myelin fluorescence half-life, suggesting impaired degradation)",
+     "Experimental system": "Primary microglia from pooled P1–3 forebrains of homozygous human APOE3 or APOE4 targeted-replacement mice, C57BL/6 background; approximately four-week culture; three-hour pulse of 10 μg/ml pHrodo-red myelin followed by washout and hourly IncuCyte imaging for six days; phase-confluence-normalized fluorescence fitted with a one-phase exponential decay model using the six-hour fluorescence value as Y0; half-life calculated as ln(2)/K.",
+     "Data location": "Supplementary Fig. S4B, E4 versus E3",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P13.F2",
+     "Finding description": "Following myelin challenge, E3 microglia significantly acidified their lysosomes whereas E4 microglia showed no significant further acidification and a nonsignificant pH increase, without a reported genotype-by-treatment interaction test.",
+     "Finding quote": "Following treatment with myelin, E3 microglia significantly acidified their lysosomes (Figure S3). Interestingly, a similar decrease in lysosomal pH was observed in E4 microglia relative to E3 microglia at baseline. As lysosome function is optimal at lower pH, these effects may reflect activation of the lysosomal degradation machinery to cope with the increased burden of internalized debris following myelin challenge in E3 microglia, or in E4 vs E3 microglia even before myelin challenge. E4 microglia did not exhibit further acidification following myelin challenge but rather a slight (albeit not significant) increase of their lysosomal pH (Figure S3).",
+     "Finding summary": "(APOE3 -> APOE4) -> (no significant further lysosomal acidification after myelin challenge)",
+     "Experimental system": "Primary microglia from pooled P1–3 forebrains of homozygous human APOE3 or APOE4 targeted-replacement mice, C57BL/6 background; approximately four-week culture; untreated cells compared with cells exposed to myelin for three hours and assessed at 24 hours; lysosomal pH measured using LysoSensor and flow cytometry.",
+     "Data location": "Supplementary Fig. S3; baseline-to-myelin pH responses, exact panels unavailable",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P13.F3",
+     "Finding description": "After myelin challenge, E4 and E3 microglia showed no significant difference in neutral-lipid colocalization with late-endosomal RAB7 across four independent experiments per group.",
+     "Finding quote": "Low levels of colocalization between BODIPY and RAB7 were observed and no statistically significant difference across genotypes could be inferred (Fig. 3e), suggesting a portion of neutral lipids accumulated in early endosomes or other RAB5-positive organelles rather than RAB7-positive organelles.",
+     "Finding summary": "(APOE3 -> APOE4) -> (no change in neutral-lipid colocalization with late-endosomal RAB7)",
+     "Experimental system": "Primary microglia from pooled P1–3 forebrains of homozygous human APOE3 or APOE4 targeted-replacement mice, C57BL/6 background; approximately four-week culture; three-hour myelin challenge and analysis at 24 hours; BODIPY neutral-lipid staining and RAB7 immunofluorescence colocalization assessed using Pearson correlation, Fisher transformation, and a two-sample z-test.",
+     "Data location": "Fig. 3E, RAB7/BODIPY comparison",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P13.F4",
+     "Finding description": "At baseline, E4 microglia had significantly more acidic lysosomes than E3 microglia, opposing a simple APOE4-associated failure of lysosomal acidification.",
+     "Finding quote": "We then further used LysoSensor dye to measure the pH of lysosomes, which were significantly more acidic in E4 microglia when compared to E3 microglia (Figure S3).",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower lysosomal pH at baseline)",
+     "Experimental system": "Primary microglia from pooled P1–3 forebrains of homozygous human APOE3 or APOE4 targeted-replacement mice, C57BL/6 background; approximately four-week culture and enrichment; untreated baseline cells assessed using 2 μM LysoSensor Green DND-189 for 10 minutes and live-cell flow cytometry, with an intracellular pH calibration procedure described in Methods.",
+     "Data location": "Supplementary Fig. S3; baseline E4-versus-E3 pH comparison, exact panel unavailable",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P13.F5",
+     "Finding description": "After myelin challenge, E4 microglia had greater LysoTracker fluorescence than E3 microglia across four independent experiments per group, interpreted as increased lysosomal mass.",
+     "Finding quote": "E4 microglia again exhibited increased lysosomal mass relative to E3 microglia as measured by both Lyso-Tracker gMFI via flow cytometry (Fig. 3f) and CD68 immunostaining integrated density via fluorescence microscopy (Fig. 3g).",
+     "Finding summary": "(APOE3 -> APOE4) -> (higher LysoTracker-estimated lysosomal mass after myelin challenge)",
+     "Experimental system": "Primary microglia from pooled P1–3 forebrains of homozygous human APOE3 or APOE4 targeted-replacement mice, C57BL/6 background; approximately four-week culture; three-hour myelin challenge followed by washout; LysoTracker Red DND-99 staining and live-cell flow cytometry at 24 hours.",
+     "Data location": "Fig. 3F, E4 versus E3",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P13.F6",
+     "Finding description": "At 72 hours after myelin application, E4 microglia retained higher intracellular pHrodo-myelin fluorescence than E3 microglia across three to five independent experiments, consistent with greater cargo persistence but confounded by greater initial uptake.",
+     "Finding quote": "Post-hoc t-tests at select time points identified significant differences (FDR adj. p-value = q < 0.05) between E4 microglia and microglia of other genotypes as early as 3 hours (E4 vs E3: q = 2.2 × 10−06, d = 3.7 CI95% [0.7, 6.6]; E4 vs KO: q = 1.1 × 10−06, d = 2.2 CI95% [0.3, 4.0], E4 vs WT, q = 2.6 × 10−06, d = 3.9 CI95% [1.1, 6.6]) and up to 72 hours (E4 vs E3: q = 0.001, d = 4.7 CI95% [1.7, 7.6], E4 vs KO, q = 0.1, d = 2.3 CI95% [0.4, 4.1], E4 vs WT, q = 0.03, d = 4.6 CI95% [1.4, 7.7]) post-treatment.",
+     "Finding summary": "(APOE3 -> APOE4) -> (higher persistent intracellular myelin fluorescence at 72 hours)",
+     "Experimental system": "Primary microglia from pooled P1–3 forebrains of homozygous human APOE3 or APOE4 targeted-replacement mice, C57BL/6 background; approximately four-week culture and enrichment; three-hour pulse of 10 μg/ml pHrodo-red myelin followed by washout; normalized IncuCyte fluorescence measured 72 hours after initial application.",
+     "Data location": "Fig. 2C, E4 versus E3 at 72 hours",
+     "Directness class": 3,
+     "Directness strength": "4 weak"
+    },
+    {
+     "Paper/Finding ID": "P13.F7",
+     "Finding description": "At 24 hours after myelin application, E4 microglia had higher late-endosomal RAB7 staining than E3 microglia across four independent experiments per group.",
+     "Finding quote": "E4 microglia again displayed higher levels of both RAB5 and RAB7 relative to E3 microglia (Fig. 3c, d).",
+     "Finding summary": "(APOE3 -> APOE4) -> (higher late-endosomal RAB7 abundance after myelin challenge)",
+     "Experimental system": "Primary microglia from pooled P1–3 forebrains of homozygous human APOE3 or APOE4 targeted-replacement mice, C57BL/6 background; approximately four-week culture and enrichment; three-hour myelin challenge followed by washout; RAB7 immunofluorescence integrated density per cell measured 24 hours after initial application.",
+     "Data location": "Fig. 3D",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P13.F8",
+     "Finding description": "After myelin challenge, E4 microglia had higher CD68 staining than E3 microglia across four independent experiments per group, providing a surrogate for increased lysosomal mass.",
+     "Finding quote": "E4 microglia again exhibited increased lysosomal mass relative to E3 microglia as measured by both Lyso-Tracker gMFI via flow cytometry (Fig. 3f) and CD68 immunostaining integrated density via fluorescence microscopy (Fig. 3g).",
+     "Finding summary": "(APOE3 -> APOE4) -> (higher lysosome-associated CD68 abundance after myelin challenge)",
+     "Experimental system": "Primary microglia from pooled P1–3 forebrains of homozygous human APOE3 or APOE4 targeted-replacement mice, C57BL/6 background; approximately four-week culture; three-hour myelin challenge followed by washout; CD68 immunofluorescence integrated density per cell at 24 hours.",
+     "Data location": "Fig. 3G",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P13.F9",
+     "Finding description": "At baseline, E4 microglia had higher RAB7 immunostaining than E3 microglia across four independent experiments per group, indicating greater late-endosomal marker abundance without establishing impaired function.",
+     "Finding quote": "In addition, the levels of both early endosome (RAB5) and late endosome (RAB7) markers were increased in E4 microglia relative to E3 microglia (Fig. 1e), which may be reflective of an increased number and/or size of endosomes.",
+     "Finding summary": "(APOE3 -> APOE4) -> (higher late-endosomal RAB7 abundance)",
+     "Experimental system": "Primary microglia isolated from pooled forebrains of P1–3 human APOE3 or APOE4 homozygous targeted-replacement mice, C57BL/6 background; enriched after approximately 28 days in mixed glial culture, replated and allowed to adhere overnight; baseline RAB7 immunofluorescence integrated density per cell. These are mouse cells expressing human APOE, not human brain cells.",
+     "Data location": "Fig. 1E, RAB7 comparison",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P13.F10",
+     "Finding description": "At baseline, E4 microglia had higher CD68 staining than E3 microglia across four independent experiments per group, providing another surrogate for increased lysosomal mass.",
+     "Finding quote": "In addition, integrated density of fluorescent immunostaining of the lysosome-associated protein CD68 was increased in E4 microglia relative to E3 microglia, further demonstrating an increase in lysosomal mass (Fig. 1g).",
+     "Finding summary": "(APOE3 -> APOE4) -> (higher lysosome-associated CD68 abundance)",
+     "Experimental system": "Primary microglia from pooled P1–3 forebrains of homozygous human APOE3 or APOE4 targeted-replacement mice, C57BL/6 background; approximately 28-day mixed glial culture followed by enrichment and overnight adhesion; untreated cells assessed by CD68 immunofluorescence integrated density per cell.",
+     "Data location": "Fig. 1G",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P13.F11",
+     "Finding description": "Following a three-hour myelin pulse, E4 microglia showed higher intracellular pHrodo-myelin fluorescence than E3 microglia during six-day monitoring across three to five independent experiments, a composite readout of uptake, acidification, and cargo persistence.",
+     "Finding quote": "E4 microglia exhibited significantly higher integrated intensity of red fluorescence relative to E3 microglia as well as microglia from mice homozygous for the WT or KO allele of mouse Apoe (Fig. 2b).",
+     "Finding summary": "(APOE3 -> APOE4) -> (higher intracellular acid-sensitive myelin fluorescence over time)",
+     "Experimental system": "Primary microglia from pooled P1–3 forebrains of homozygous human APOE3 or APOE4 targeted-replacement mice, C57BL/6 background; enriched after approximately four weeks in culture; exposed to 10 μg/ml pHrodo-red-labeled wild-type mouse myelin for three hours, washed, and imaged hourly for six days using IncuCyte; fluorescence normalized to phase confluence.",
+     "Data location": "Fig. 2B, E4 versus E3 trajectory",
+     "Directness class": 3,
+     "Directness strength": "4 weak"
+    }
+   ]
+  },
+  {
+   "paper_id": "P17",
+   "doi": "10.1074/jbc.m112109200",
+   "rows": [
+    {
+     "Paper/Finding ID": "P17.F1",
+     "Finding description": "Across two experiments, Aβ1–42-induced lysosomal leakage occurred in more than 25% of apoE4-transfected cells versus 15% of apoE3-transfected cells.",
+     "Finding quote": "Lysosomal leakage was seen in only 15% of the neo- and apoE3-transfected cells but in more than 25% of the apoE4-transfected cells (Fig. 2A).",
+     "Finding summary": "(apoE3 -> apoE4) -> (greater proportion of cells with Aβ1–42-induced lysosomal leakage)",
+     "Experimental system": "Mouse Neuro-2a neuroblastoma cells stably expressing human apoE3 or apoE4; Lucifer Yellow loading followed by aggregated Aβ1–42 at 20 μM for 20 h at 37 °C, as specified by reference to Fig 1; fluorescence microscopy scoring diffuse cytosolic staining across 15 fields, approximately 30 cells per field; two experiments.",
+     "Data location": "Fig 2A, Aβ1–42 comparison",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P17.F2",
+     "Finding description": "Aβ1–42 increased cytosolic β-hexosaminidase activity by approximately 85% in apoE4 cells and approximately 30% in apoE3 cells across two experiments performed in duplicate.",
+     "Finding quote": "A treatment increased cytosolic -hexosaminidase activity to a significantly greater extent in apoE4-transfected cells than in neo- and apoE3-transfected cells (85% versus 40 and 30%, respec- tively; p  0.001).",
+     "Finding summary": "(apoE3 -> apoE4) -> (greater Aβ1–42-induced release of lysosomal β-hexosaminidase into cytosol)",
+     "Experimental system": "Mouse Neuro-2a neuroblastoma cells stably expressing human apoE3 or apoE4; grown to approximately 90% confluence and treated with aggregated Aβ1–42 at 20 μM for 24 h at 37 °C; cytosolic fractions isolated by homogenization and ultracentrifugation; β-hexosaminidase activity assayed in 20 μg cytosolic protein; two experiments in duplicate. This measures enzyme leakage, not loss of intrinsic catalytic activity.",
+     "Data location": "Fig 2B",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P17.F3",
+     "Finding description": "After aggregated Aβ1–42 treatment, more apoE4- than apoE3-transfected Neuro-2a cells showed diffuse Lucifer Yellow fluorescence, indicating greater lysosomal leakage.",
+     "Finding quote": "After treatment with A1–42, however, it was readily apparent that more apoE4-transfected Neuro-2a cells than neo- or apoE3-transfected cells displayed a diffuse intracellular pattern of fluorescence, indicating lysosomal leak- age into the cytosol (Fig. 1, arrows).",
+     "Finding summary": "(apoE3 -> apoE4) -> (greater Aβ1–42-induced lysosomal membrane leakage)",
+     "Experimental system": "Mouse Neuro-2a neuroblastoma cells stably expressing human apoE3 or apoE4, generally secreting 80 ng apoE/ml medium/24 h; Lucifer Yellow loading at 100 μg/ml for 20 h, washing, then aggregated Aβ1–42 at 20 μM for 20 h at 37 °C; confocal microscopy. Aβ was aggregated for 72 h at 37 °C before use.",
+     "Data location": "Fig 1, Aβ-treated bottom row",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P17.F4",
+     "Finding description": "In two experiments, apoE4 also increased Aβ1–40-induced lysosomal leakage relative to apoE3, although less markedly than with Aβ1–42.",
+     "Finding quote": "ApoE4 also potentiated lysosomal leakage induced by A1–40 (Fig. 2A), albeit to a lesser extent than that induced by A1–42.",
+     "Finding summary": "(apoE3 -> apoE4) -> (greater Aβ1–40-induced lysosomal leakage)",
+     "Experimental system": "Mouse Neuro-2a neuroblastoma cells stably expressing human apoE3 or apoE4; Lucifer Yellow loading followed by aggregated Aβ1–40 at 20 μM for 20 h at 37 °C, following the Fig 1 protocol; diffuse cytosolic fluorescence scored in 15 fields, approximately 30 cells per field; two experiments.",
+     "Data location": "Fig 2A, Aβ1–40 comparison",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P17.F5",
+     "Finding description": "Without Aβ treatment, neither apoE3- nor apoE4-transfected Neuro-2a cells showed significant lysosomal leakage; no significant difference between isoforms was reported.",
+     "Finding quote": "No significant ly- sosomal leakage was observed in untreated apoE3- or apoE4- transfected cells.",
+     "Finding summary": "(apoE3 -> apoE4) -> (no change in detectable baseline lysosomal leakage)",
+     "Experimental system": "Mouse Neuro-2a neuroblastoma cells stably transfected with human apoE3 or apoE4 genomic DNA, generally secreting 80 ng apoE/ml medium/24 h; untreated controls after Lucifer Yellow loading at 100 μg/ml for 20 h at 37 °C; confocal microscopy of punctate versus diffuse fluorescence. No donor age or human brain cells were studied.",
+     "Data location": "Fig 1, untreated top row; Results, ApoE4 Potentiates Aβ-induced Lysosomal Leakage",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    }
+   ]
+  },
+  {
+   "paper_id": "P22",
+   "doi": "10.1074/jbc.m112.420224",
+   "rows": [
+    {
+     "Paper/Finding ID": "P22.F1",
+     "Finding description": "In mouse N2a cells, inhibitor-derived lysosomal Aβ42 degradation was greater with apoE3 than apoE4, with apoE3 producing 1.75-fold the degradation measured with apoE4.",
+     "Finding quote": "When lysosomal degradation of Aβ42 was calculated by subtracting the cell-associated Aβ in the absence of inhibitors from that in the presence of inhibitors, apoE3 enhanced Aβ42 lysosomal degradation by 1.75-fold when compared with apoE4 ( Fig. 5 B ).",
+     "Finding summary": "(apoE3 -> apoE4) -> (lower inhibitor-derived lysosomal Aβ42 degradation)",
+     "Experimental system": "Mouse N2a neuroblastoma cells; recombinant human apoE3 or apoE4, 500 nM, with Aβ42, 500 nM, for 24 h in serum-free medium, with or without pepstatin A, leupeptin, and E-64d; degradation calculated as cell-associated Aβ42 with inhibitors minus that without inhibitors, using ELISA. Lipid metabolism was not measured.",
+     "Data location": "Fig 5B",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P22.F2",
+     "Finding description": "Inhibitor-derived lysosomal degradation of apoE4 was lower than that of apoE3 in mouse N2a cells exposed to Aβ42.",
+     "Finding quote": "We found that apoE3 was transported into lysosomes and degraded more efficiently than apoE4 ( Fig. 7 , A and B ).",
+     "Finding summary": "(apoE3 -> apoE4) -> (lower inhibitor-derived lysosomal apoE degradation)",
+     "Experimental system": "Mouse N2a neuroblastoma cells; recombinant human apoE3 or apoE4, 500 nM, with Aβ42, 500 nM, for 24 h, with or without lysosomal inhibitors; degraded apoE calculated as cell-associated apoE with inhibitors minus that without inhibitors, using ELISA. Lipid metabolism was not measured.",
+     "Data location": "Fig 7B",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P22.F3",
+     "Finding description": "Confocal imaging of mouse N2a cells treated with lysosomal inhibitors showed less lysosome-associated Aβ42 with apoE4 than apoE3, with the image comparison quantified in Fig 5D.",
+     "Finding quote": "In addition, confocal microscopy also revealed that internalized FAM-Aβ42, which was largely co-localized with LysoTracker, was greatly increased in the presence of apoE ( Fig. 5 C ). Upon quantification, we confirmed that the amounts of Aβ42 in lysosomes were higher in apoE3-treated cells than apoE4-treated cells ( Fig. 5 D ).",
+     "Finding summary": "(apoE3 -> apoE4) -> (lower Aβ42 delivery to LysoTracker-positive compartments)",
+     "Experimental system": "Mouse N2a neuroblastoma cells; FAM-Aβ42, 500 nM, and recombinant human apoE3 or apoE4, 500 nM, for 24 h with lysosomal inhibitors; LysoTracker Red, 75 nM, during the final hour; confocal fluorescence microscopy. This was a localization assay, not a calibrated lysosomal pH assay; lipid metabolism was not measured.",
+     "Data location": "Fig 5C, representative images quantified in Fig 5D",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P22.F4",
+     "Finding description": "Quantification of confocal images showed less Aβ42 associated with lysosomes in apoE4-treated mouse N2a cells than in apoE3-treated cells during lysosomal inhibition.",
+     "Finding quote": "Upon quantification, we confirmed that the amounts of Aβ42 in lysosomes were higher in apoE3-treated cells than apoE4-treated cells ( Fig. 5 D ).",
+     "Finding summary": "(apoE3 -> apoE4) -> (lower lysosome-associated Aβ42)",
+     "Experimental system": "Mouse N2a neuroblastoma cells; FAM-Aβ42, 500 nM, with recombinant human apoE3 or apoE4, 500 nM, for 24 h with lysosomal inhibitors; LysoTracker Red, 75 nM, during the final hour; ImageJ quantification of lysosome-associated Aβ fluorescence. Lipid metabolism was not measured.",
+     "Data location": "Fig 5D",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P22.F5",
+     "Finding description": "Immunostaining of mouse N2a cells during lysosomal inhibition showed less efficient trafficking of apoE4 than apoE3 to LAMP1-positive lysosomal compartments.",
+     "Finding quote": "The more efficient trafficking of apoE3 than apoE4 was confirmed by immunostaining and confocal microscopy ( Fig. 7 , C and D ).",
+     "Finding summary": "(apoE3 -> apoE4) -> (less efficient apoE trafficking to LAMP1-positive compartments)",
+     "Experimental system": "Mouse N2a neuroblastoma cells; recombinant human apoE3 or apoE4, 500 nM, with Aβ42, 500 nM, for 24 h in the presence of lysosomal inhibitors; immunostaining for apoE and LAMP1 followed by confocal microscopy. Lipid metabolism was not measured.",
+     "Data location": "Fig 7C-D",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  },
+  {
+   "paper_id": "P21",
+   "doi": "10.1074/jbc.m506646200",
+   "rows": [
+    {
+     "Paper/Finding ID": "P21.F1",
+     "Finding description": "In the NH4Cl-confirmation experiments, Aβ-treated apoE4-expressing Neuro-2a cells had about fivefold greater cytosolic β-hexosaminidase activity than Aβ-treated apoE3-expressing cells.",
+     "Finding quote": "In apoE4-transfected Neuro-2a cells, A1–42 increased cytosolic -hexosaminidase activity by about 5-fold com- pared with values in A-treated Neo- and apoE3-transfected cells.",
+     "Finding summary": "(apoE3 -> apoE4) -> (greater Aβ-induced lysosomal enzyme leakage)",
+     "Experimental system": "Human apoE3- or apoE4-transfected mouse Neuro-2a cells; Aβ1–42 challenge; cytosolic β-hexosaminidase activity in the text-only NH4Cl confirmation experiment.",
+     "Data location": "Results, Low pH Required for ApoE4 Potentiation: sentence beginning 'In apoE4-transfected Neuro-2a cells'",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P21.F2",
+     "Finding description": "Raising lysosomal pH with NH4Cl reduced Aβ-induced lysosomal enzyme leakage in apoE4-expressing Neuro-2a cells to the range observed in Aβ-treated Neo controls.",
+     "Finding quote": "NH4Cl treatment of the apoE4-transfected cells decreased lysosomal leakage induced by A1–42 to the range seen for A1–42-treated Neo- transfected cells.",
+     "Finding summary": "(NH4Cl in apoE4 cells) -> (less Aβ-induced lysosomal enzyme leakage)",
+     "Experimental system": "Human apoE4-transfected mouse Neuro-2a cells; 5 mM NH4Cl for 8 h to raise lysosomal pH; Aβ1–42 challenge; cytosolic β-hexosaminidase activity.",
+     "Data location": "Results, Low pH Required for ApoE4 Potentiation: sentence beginning 'NH4Cl treatment of the apoE4-transfected cells'",
+     "Directness class": 2,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P21.F3",
+     "Finding description": "LRP siRNA strongly reduced apoE4 potentiation of Abeta-induced lysosomal beta-hexosaminidase leakage in Neuro-2a cells (E4 cells: ~116% increase over control with Abeta vs ~48% with Abeta plus siRNA).",
+     "Finding quote": "Notably, LRP siRNA very significantly reduced apoE4 potentiation of A-in- duced lysosomal leakage (Fig. 11B).",
+     "Finding summary": "(LRP knockdown in apoE4 cells) -> (less Aβ-induced lysosomal enzyme leakage)",
+     "Experimental system": "Human apoE4-expressing mouse Neuro-2a cells; LRP siRNA at 1.5 μg/ml with Lipofectamine; 20 μM Aβ1–42 added 48 h after transfection; assay at 72 h; cytosolic β-hexosaminidase.",
+     "Data location": "Fig 11B",
+     "Directness class": 2,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P21.F4",
+     "Finding description": "Aβ-treated apoE3- and apoE4-expressing cells showed similar fourfold increases in LAMP1 labeling, with no significant difference between isoforms reported.",
+     "Finding quote": "ApoE3- and apoE4-transfected cells treated with A1–42 had a similar 4-fold increase in immunocytochemical labeling in the cells.",
+     "Finding summary": "(apoE3 -> apoE4) -> (no change in reported Aβ-induced LAMP1-labeling response)",
+     "Experimental system": "Human apoE3/apoE4-transfected mouse Neuro-2a cells; 20 μM Aβ for 0, 8, or 16 h; LAMP1 immunofluorescence images. The fourfold increases are within-group responses, not an E4/E3 ratio.",
+     "Data location": "Fig 12C, quantification of the staining illustrated in Fig 12B; Discussion, page 9",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  },
+  {
+   "paper_id": "P10",
+   "doi": "10.1016/j.cell.2022.05.017",
+   "rows": [
+    {
+     "Paper/Finding ID": "P10.F1",
+     "Finding description": "Isogenic human APOE4 astrocytes had lower SMPD1, NPC1 and NPC2 levels than APOE3 astrocytes, consistent with impaired lysosomal cholesterol export.",
+     "Finding quote": "Negatively enriched Lysosome (Figures 2F and S3D) and lower SMPD1, NPC1 and NPC2 in APOE4 vs. APOE3 astrocytes (Figure S6D) indicates cholesterol transport out of lysosomes may be impaired by APOE4.",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower astrocyte SMPD1, NPC1 and NPC2 levels)",
+     "Experimental system": "Human hiPSC-derived isogenic APOE4 and APOE3 astrocytes in the cholesterol-trafficking experiments using Indiv1 and Indiv2, which share local haplotype hap.03. The available text identifies the measured regulators but does not specify this supplementary panel's assay, treatment duration or n.",
+     "Data location": "Supplementary Fig 6D",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  },
+  {
+   "paper_id": "P30",
+   "doi": "10.1038/s41590-023-01627-6",
+   "rows": [
+    {
+     "Paper/Finding ID": "P30.F1",
+     "Finding description": "Sixteen hours after apoptotic-neuron injection, confocal imaging showed greater accumulation of LAMP1-positive lysosomes in APOE4-expressing than APOE3-expressing mouse microglia.",
+     "Finding quote": "Immunostaining of microglia in the injection site showed accumulation of LAMP1+ lysosomes in IBA1+ APOE4-expressing microglia compared to in APOE3-expressing microglia (Fig. 1i,j).",
+     "Finding summary": "(APOE3 -> APOE4) -> (greater accumulation of LAMP1-positive lysosomes in microglia)",
+     "Experimental system": "Mouse cortical and hippocampal microglia in 8-month-old human APOE3-knock-in versus APOE4-knock-in mice, without an APP/PS1 or P301S background in this experiment; fluorescent apoptotic primary mouse neurons injected stereotaxically, followed 16 hours later by confocal IBA1/LAMP1 immunostaining; lipid mediation and lysosomal degradation, acidification, and flux were not measured.",
+     "Data location": "Fig. 1i,j",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  }
+ ],
+ "reference_rows": [
+  {
+   "finding_id": "P18.F1",
+   "summary": "(APOE3 -> APOE4) -> (higher lysosomal pH in mouse astrocytes)",
+   "system": "Cultured mouse astrocytes from ApoE-knockout mice with isogenic knock-in of human ApoE3 or ApoE4, supplied by David M. Holtzman; donor age and mouse background ",
+   "class": 1,
+   "strength": "2 strong"
+  }
+ ]
+}

@@ -1,0 +1,1553 @@
+[
+ {
+  "item": 1,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Lysosomal degradation assay (DQ-BSA/self-quenched substrate dequenching, lysosomal activity kit, or lysosome-inhibitor-sensitive cargo turnover) in APOE4 vs APOE3 cells measures B itself (degradation), so class 1 strength 1 under the class 1 rule, for every row of this assay."
+ },
+ {
+  "item": 2,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static cholesterol or neutral-lipid content in lysosomes/late endosomes (filipin, D4H*, Bodipy-cholesterol, BODIPY, EM lipid whorls) is a surrogate B' for cholesterol egress; greater delivery is a possible but unlikely-to-invalidate route, so 3/3 for every lysosomal-lipid row."
+ },
+ {
+  "item": 3,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Lysosomal degradation assay (DQ-BSA/self-quenched substrate dequenching, lysosomal activity kit, or lysosome-inhibitor-sensitive cargo turnover) in APOE4 vs APOE3 cells measures B itself (degradation), so class 1 strength 1 under the class 1 rule, for every row of this assay."
+ },
+ {
+  "item": 4,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Cholesterol supplementation is a lipid manipulation that does not act on APOE, and the readout (Filipin in LAMP1 compartments) is a surrogate for cholesterol egress.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 5,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static cholesterol or neutral-lipid content in lysosomes/late endosomes (filipin, D4H*, Bodipy-cholesterol, BODIPY, EM lipid whorls) is a surrogate B' for cholesterol egress; greater delivery is a possible but unlikely-to-invalidate route, so 3/3 for every lysosomal-lipid row."
+ },
+ {
+  "item": 6,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Cholesterol supplementation is a lipid manipulation that does not act on APOE; the comparison is treated versus untreated within ApoE4 cultures.",
+  "why": "The manipulation does not act on APOE (class 5) and carries a known non-APOE route of its own; the readout is B itself or a tight surrogate, so strength 4 under the class 5 convention."
+ },
+ {
+  "item": 7,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Lysosomal degradation assay (DQ-BSA/self-quenched substrate dequenching, lysosomal activity kit, or lysosome-inhibitor-sensitive cargo turnover) in APOE4 vs APOE3 cells measures B itself (degradation), so class 1 strength 1 under the class 1 rule, for every row of this assay."
+ },
+ {
+  "item": 8,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Lysosomal degradation assay (DQ-BSA/self-quenched substrate dequenching, lysosomal activity kit, or lysosome-inhibitor-sensitive cargo turnover) in APOE4 vs APOE3 cells measures B itself (degradation), so class 1 strength 1 under the class 1 rule, for every row of this assay."
+ },
+ {
+  "item": 9,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Lipofuscin autofluorescence is a lysosomal-storage surrogate that oxidative or lipid-peroxidation load raises without a lysosomal defect (a known route), so 3/4 for every lipofuscin row."
+ },
+ {
+  "item": 10,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Lysosomal degradation assay (DQ-BSA/self-quenched substrate dequenching, lysosomal activity kit, or lysosome-inhibitor-sensitive cargo turnover) in APOE4 vs APOE3 cells measures B itself (degradation), so class 1 strength 1 under the class 1 rule, for every row of this assay."
+ },
+ {
+  "item": 11,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Lysosomal degradation assay (DQ-BSA/self-quenched substrate dequenching, lysosomal activity kit, or lysosome-inhibitor-sensitive cargo turnover) in APOE4 vs APOE3 cells measures B itself (degradation), so class 1 strength 1 under the class 1 rule, for every row of this assay."
+ },
+ {
+  "item": 12,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 2,
+  "why": "Number of DQ-BSA-positive (degradation-active) compartments is a surrogate for degradative capacity tied to the same dequenching assay, so 3/2 stays."
+ },
+ {
+  "item": 13,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "LysoTracker intensity or spot count reflects lysosome number as well as acidity, a surrogate for acidification with a possible alternative route, so 3/3 for every LysoTracker row."
+ },
+ {
+  "item": 14,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "LysoTracker intensity or spot count reflects lysosome number as well as acidity, a surrogate for acidification with a possible alternative route, so 3/3 for every LysoTracker row."
+ },
+ {
+  "item": 15,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Lysosomal degradation assay (DQ-BSA/self-quenched substrate dequenching, lysosomal activity kit, or lysosome-inhibitor-sensitive cargo turnover) in APOE4 vs APOE3 cells measures B itself (degradation), so class 1 strength 1 under the class 1 rule, for every row of this assay."
+ },
+ {
+  "item": 16,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static cholesterol or neutral-lipid content in lysosomes/late endosomes (filipin, D4H*, Bodipy-cholesterol, BODIPY, EM lipid whorls) is a surrogate B' for cholesterol egress; greater delivery is a possible but unlikely-to-invalidate route, so 3/3 for every lysosomal-lipid row."
+ },
+ {
+  "item": 17,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 18,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 19,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Lipofuscin autofluorescence is a lysosomal-storage surrogate that oxidative or lipid-peroxidation load raises without a lysosomal defect (a known route), so 3/4 for every lipofuscin row."
+ },
+ {
+  "item": 20,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Cholesterol supplementation is a lipid manipulation that does not act on APOE, and LAMP1 compartment size is a structural surrogate for lysosome function.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 21,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 22,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 23,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 24,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 25,
+  "decision": "REJECT",
+  "class": 1,
+  "strength": 1,
+  "why": "Lysosomal degradation assay (DQ-BSA/self-quenched substrate dequenching, lysosomal activity kit, or lysosome-inhibitor-sensitive cargo turnover) in APOE4 vs APOE3 cells measures B itself (degradation), so class 1 strength 1 under the class 1 rule, for every row of this assay."
+ },
+ {
+  "item": 26,
+  "decision": "ACCEPT",
+  "class": 1,
+  "strength": 1,
+  "why": "Lysosomal degradation assay (DQ-BSA/self-quenched substrate dequenching, lysosomal activity kit, or lysosome-inhibitor-sensitive cargo turnover) in APOE4 vs APOE3 cells measures B itself (degradation), so class 1 strength 1 under the class 1 rule, for every row of this assay."
+ },
+ {
+  "item": 27,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "2HβCD is a lipid (cholesterol-extraction) manipulation within APOE4 astrocytes that does not act on APOE.",
+  "why": "The manipulation does not act on APOE (class 5) and carries a known non-APOE route of its own; the readout is B itself or a tight surrogate, so strength 4 under the class 5 convention."
+ },
+ {
+  "item": 28,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "MβCD is a lipid (cholesterol-extraction) manipulation within APOE4 astrocytes that does not act on APOE.",
+  "why": "The manipulation does not act on APOE (class 5) and carries a known non-APOE route of its own; the readout is B itself or a tight surrogate, so strength 4 under the class 5 convention."
+ },
+ {
+  "item": 29,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Whole-cell loss of internalized cargo after washout is not localized to the lysosome (proteasome or release could also lower it), a possible route, so 3/3."
+ },
+ {
+  "item": 30,
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 4,
+  "why": "Colocalization of a cargo, receptor or apoE itself with late-endosome/lysosome markers reports delivery set by upstream endosomal sorting, a known route that changes it without any change in lysosome function, so 3/4 for every cargo-colocalization row."
+ },
+ {
+  "item": 31,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "MβCD is a lipid (cholesterol-extraction) manipulation within APOE4 astrocytes that does not act on APOE; the readout is α-Syn/LysoTracker colocalization.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 32,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "The contrast compares MβCD-treated APOE4 with vehicle APOE3 astrocytes, so genotype and a cholesterol-extraction drug change together and no clean change in A is isolated.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 33,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 34,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "MβCD is a lipid (cholesterol-extraction) manipulation within APOE4 astrocytes that does not act on APOE; LysoTracker signal is a surrogate for lysosome abundance and acidity.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 35,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static cholesterol or neutral-lipid content in lysosomes/late endosomes (filipin, D4H*, Bodipy-cholesterol, BODIPY, EM lipid whorls) is a surrogate B' for cholesterol egress; greater delivery is a possible but unlikely-to-invalidate route, so 3/3 for every lysosomal-lipid row."
+ },
+ {
+  "item": 36,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Lysosomal degradation assay (DQ-BSA/self-quenched substrate dequenching, lysosomal activity kit, or lysosome-inhibitor-sensitive cargo turnover) in APOE4 vs APOE3 cells measures B itself (degradation), so class 1 strength 1 under the class 1 rule, for every row of this assay."
+ },
+ {
+  "item": 37,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 38,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 39,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 40,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "INPP5D overexpression within APOE4 astrocytes does not act on APOE; RAB7 staining is a structural late-endosome marker.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 41,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "INPP5D overexpression within APOE4 astrocytes does not act on APOE; LAMP1 staining is a structural lysosome marker.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 42,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static cholesterol or neutral-lipid content in lysosomes/late endosomes (filipin, D4H*, Bodipy-cholesterol, BODIPY, EM lipid whorls) is a surrogate B' for cholesterol egress; greater delivery is a possible but unlikely-to-invalidate route, so 3/3 for every lysosomal-lipid row."
+ },
+ {
+  "item": 43,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static cholesterol or neutral-lipid content in lysosomes/late endosomes (filipin, D4H*, Bodipy-cholesterol, BODIPY, EM lipid whorls) is a surrogate B' for cholesterol egress; greater delivery is a possible but unlikely-to-invalidate route, so 3/3 for every lysosomal-lipid row."
+ },
+ {
+  "item": 44,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 45,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Swaps the cholesteryl-ester cargo of ApoE4 particles (CE(20:4) to CE(18:1)) within one isoform, a lipid manipulation that does not vary APOE genotype or isoform.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 46,
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 4,
+  "why": "Lipofuscin autofluorescence is a lysosomal-storage surrogate that oxidative or lipid-peroxidation load raises without a lysosomal defect (a known route), so 3/4 for every lipofuscin row."
+ },
+ {
+  "item": 47,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Swaps the cholesteryl-ester cargo of ApoE4 particles (CE(20:4) to CE(18:1)) within one isoform, a lipid manipulation that does not vary APOE genotype or isoform.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 48,
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 4,
+  "why": "Lipofuscin autofluorescence is a lysosomal-storage surrogate that oxidative or lipid-peroxidation load raises without a lysosomal defect (a known route), so 3/4 for every lipofuscin row."
+ },
+ {
+  "item": 49,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "The reported contrast is CE(20:4)-loaded apoE3/apoE4 particles against low-lipofuscin treatments such as CE(18:1) particles, a lipid-cargo manipulation with no APOE4-versus-APOE3 difference reported, so APOE genotype is not the varied factor.",
+  "why": "The manipulation does not act on APOE (class 5) and carries a known non-APOE route of its own; the readout is B itself or a tight surrogate, so strength 4 under the class 5 convention."
+ },
+ {
+  "item": 50,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Swaps the cholesteryl-ester cargo of ApoE4 particles (CE(20:4) to CE(18:1)) within one isoform, a lipid manipulation that does not vary APOE genotype or isoform.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 51,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Blocks ApoE4 particle binding with LDLR extracellular domain within one isoform, a receptor manipulation that does not vary APOE genotype or isoform.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 52,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Accumulated pHrodo-cargo signal mixes uptake with acidification and persistence, a known non-lysosomal route (uptake), so 3/4 for every pHrodo accumulation row."
+ },
+ {
+  "item": 53,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "The reported contrast is CE(20:4)-loaded apoE3/apoE4 particles against other lipidated-apoE treatments, a lipid-cargo manipulation with no APOE4-versus-APOE3 difference established, so APOE genotype is not the varied factor.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 54,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Introduces the Christchurch R136S receptor-binding mutation into ApoE4, testing receptor binding within one isoform rather than varying APOE4 vs APOE3.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 55,
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 4,
+  "why": "Colocalization of a cargo, receptor or apoE itself with late-endosome/lysosome markers reports delivery set by upstream endosomal sorting, a known route that changes it without any change in lysosome function, so 3/4 for every cargo-colocalization row."
+ },
+ {
+  "item": 56,
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 4,
+  "why": "Lipofuscin autofluorescence is a lysosomal-storage surrogate that oxidative or lipid-peroxidation load raises without a lysosomal defect (a known route), so 3/4 for every lipofuscin row."
+ },
+ {
+  "item": 57,
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 4,
+  "why": "Lipofuscin autofluorescence is a lysosomal-storage surrogate that oxidative or lipid-peroxidation load raises without a lysosomal defect (a known route), so 3/4 for every lipofuscin row."
+ },
+ {
+  "item": 58,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 59,
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 4,
+  "why": "Colocalization of a cargo, receptor or apoE itself with late-endosome/lysosome markers reports delivery set by upstream endosomal sorting, a known route that changes it without any change in lysosome function, so 3/4 for every cargo-colocalization row."
+ },
+ {
+  "item": 60,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Accumulated pHrodo-cargo signal mixes uptake with acidification and persistence, a known non-lysosomal route (uptake), so 3/4 for every pHrodo accumulation row."
+ },
+ {
+  "item": 61,
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 2,
+  "why": "Pulse-chase decay half-life of internalized pHrodo-myelin normalizes uptake and is lost only by cargo degradation or loss of acidity, both B, so it is a tight surrogate (3/2) rather than B measured directly."
+ },
+ {
+  "item": 62,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Calibrated or ratiometric lysosomal / late-endosomal pH in APOE4 vs APOE3 cells is acidification, B itself, so 1/1 for every pH row (the class 1 rule overrides the 1/2 reference)."
+ },
+ {
+  "item": 63,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static cholesterol or neutral-lipid content in lysosomes/late endosomes (filipin, D4H*, Bodipy-cholesterol, BODIPY, EM lipid whorls) is a surrogate B' for cholesterol egress; greater delivery is a possible but unlikely-to-invalidate route, so 3/3 for every lysosomal-lipid row."
+ },
+ {
+  "item": 64,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Calibrated or ratiometric lysosomal / late-endosomal pH in APOE4 vs APOE3 cells is acidification, B itself, so 1/1 for every pH row (the class 1 rule overrides the 1/2 reference)."
+ },
+ {
+  "item": 65,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "LysoTracker intensity or spot count reflects lysosome number as well as acidity, a surrogate for acidification with a possible alternative route, so 3/3 for every LysoTracker row."
+ },
+ {
+  "item": 66,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Accumulated pHrodo-cargo signal mixes uptake with acidification and persistence, a known non-lysosomal route (uptake), so 3/4 for every pHrodo accumulation row."
+ },
+ {
+  "item": 67,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 68,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 69,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 70,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 71,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Accumulated pHrodo-cargo signal mixes uptake with acidification and persistence, a known non-lysosomal route (uptake), so 3/4 for every pHrodo accumulation row."
+ },
+ {
+  "item": 72,
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 2,
+  "why": "Lysosomal membrane leakage (Lucifer Yellow release, cytosolic lysosomal enzyme by fractionation, galectin puncta) is not one of B's listed functions, so it is a surrogate B', but a permeabilized lysosome necessarily loses its acid gradient and hydrolases, so 3/2 for every leakage row."
+ },
+ {
+  "item": 73,
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 2,
+  "why": "Lysosomal membrane leakage (Lucifer Yellow release, cytosolic lysosomal enzyme by fractionation, galectin puncta) is not one of B's listed functions, so it is a surrogate B', but a permeabilized lysosome necessarily loses its acid gradient and hydrolases, so 3/2 for every leakage row."
+ },
+ {
+  "item": 74,
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 2,
+  "why": "Lysosomal membrane leakage (Lucifer Yellow release, cytosolic lysosomal enzyme by fractionation, galectin puncta) is not one of B's listed functions, so it is a surrogate B', but a permeabilized lysosome necessarily loses its acid gradient and hydrolases, so 3/2 for every leakage row."
+ },
+ {
+  "item": 75,
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 2,
+  "why": "Lysosomal membrane leakage (Lucifer Yellow release, cytosolic lysosomal enzyme by fractionation, galectin puncta) is not one of B's listed functions, so it is a surrogate B', but a permeabilized lysosome necessarily loses its acid gradient and hydrolases, so 3/2 for every leakage row."
+ },
+ {
+  "item": 76,
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 2,
+  "why": "Lysosomal membrane leakage (Lucifer Yellow release, cytosolic lysosomal enzyme by fractionation, galectin puncta) is not one of B's listed functions, so it is a surrogate B', but a permeabilized lysosome necessarily loses its acid gradient and hydrolases, so 3/2 for every leakage row."
+ },
+ {
+  "item": 77,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Lysosomal degradation assay (DQ-BSA/self-quenched substrate dequenching, lysosomal activity kit, or lysosome-inhibitor-sensitive cargo turnover) in APOE4 vs APOE3 cells measures B itself (degradation), so class 1 strength 1 under the class 1 rule, for every row of this assay."
+ },
+ {
+  "item": 78,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Lysosomal degradation assay (DQ-BSA/self-quenched substrate dequenching, lysosomal activity kit, or lysosome-inhibitor-sensitive cargo turnover) in APOE4 vs APOE3 cells measures B itself (degradation), so class 1 strength 1 under the class 1 rule, for every row of this assay."
+ },
+ {
+  "item": 79,
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 4,
+  "why": "Colocalization of a cargo, receptor or apoE itself with late-endosome/lysosome markers reports delivery set by upstream endosomal sorting, a known route that changes it without any change in lysosome function, so 3/4 for every cargo-colocalization row."
+ },
+ {
+  "item": 80,
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 4,
+  "why": "Colocalization of a cargo, receptor or apoE itself with late-endosome/lysosome markers reports delivery set by upstream endosomal sorting, a known route that changes it without any change in lysosome function, so 3/4 for every cargo-colocalization row."
+ },
+ {
+  "item": 81,
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 4,
+  "why": "Colocalization of a cargo, receptor or apoE itself with late-endosome/lysosome markers reports delivery set by upstream endosomal sorting, a known route that changes it without any change in lysosome function, so 3/4 for every cargo-colocalization row."
+ },
+ {
+  "item": 82,
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 2,
+  "why": "Lysosomal membrane leakage (Lucifer Yellow release, cytosolic lysosomal enzyme by fractionation, galectin puncta) is not one of B's listed functions, so it is a surrogate B', but a permeabilized lysosome necessarily loses its acid gradient and hydrolases, so 3/2 for every leakage row."
+ },
+ {
+  "item": 83,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Treats apoE4 cells with NH4Cl to raise lysosomal pH, a drug that does not act on APOE genotype or isoform.",
+  "why": "The manipulation does not act on APOE (class 5) and carries a known non-APOE route of its own; the readout is B itself or a tight surrogate, so strength 4 under the class 5 convention."
+ },
+ {
+  "item": 84,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Knocks down the LRP receptor within apoE4 cells, a manipulation that does not act on APOE genotype or isoform.",
+  "why": "The manipulation does not act on APOE (class 5) and carries a known non-APOE route of its own; the readout is B itself or a tight surrogate, so strength 4 under the class 5 convention."
+ },
+ {
+  "item": 85,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 86,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 87,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 88,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Lysosomal degradation assay (DQ-BSA/self-quenched substrate dequenching, lysosomal activity kit, or lysosome-inhibitor-sensitive cargo turnover) in APOE4 vs APOE3 cells measures B itself (degradation), so class 1 strength 1 under the class 1 rule, for every row of this assay."
+ },
+ {
+  "item": 89,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 2,
+  "why": "Lysosomal membrane leakage (Lucifer Yellow release, cytosolic lysosomal enzyme by fractionation, galectin puncta) is not one of B's listed functions, so it is a surrogate B', but a permeabilized lysosome necessarily loses its acid gradient and hydrolases, so 3/2 for every leakage row."
+ },
+ {
+  "item": 90,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Autophagic flux by lysosomal-inhibitor LC3-II turnover or the tandem mRFP-GFP-LC3 autolysosome readout in APOE4 vs APOE3 cells is autophagic flux, B itself, so 1/1 for every flux-assay row."
+ },
+ {
+  "item": 91,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Autophagic flux by lysosomal-inhibitor LC3-II turnover or the tandem mRFP-GFP-LC3 autolysosome readout in APOE4 vs APOE3 cells is autophagic flux, B itself, so 1/1 for every flux-assay row."
+ },
+ {
+  "item": 92,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 93,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Whole-cell abundance of lysosomal proteins (hydrolases, V-ATPases, MFSD1) is a surrogate for lysosome function; lower abundance without a functional deficit is possible but unlikely to invalidate, so 3/3 for every lysosomal-proteomics row."
+ },
+ {
+  "item": 94,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static LC3-II, LC3-II/LC3-I, p62 or autophagic-vacuole staining without a turnover assay is a surrogate for autophagic flux; induction can move it but is unlikely to invalidate the link, so 3/3 for every static LC3/p62 row."
+ },
+ {
+  "item": 95,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static LC3-II, LC3-II/LC3-I, p62 or autophagic-vacuole staining without a turnover assay is a surrogate for autophagic flux; induction can move it but is unlikely to invalidate the link, so 3/3 for every static LC3/p62 row."
+ },
+ {
+  "item": 96,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static LC3-II, LC3-II/LC3-I, p62 or autophagic-vacuole staining without a turnover assay is a surrogate for autophagic flux; induction can move it but is unlikely to invalidate the link, so 3/3 for every static LC3/p62 row."
+ },
+ {
+  "item": 97,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "The manipulation is apilimod (a PIKfyve inhibitor) applied within each genotype and does not act on APOE, so no class 1-4 form fits; the genotype comparison showed no interaction.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 98,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Accumulated pHrodo-cargo signal mixes uptake with acidification and persistence, a known non-lysosomal route (uptake), so 3/4 for every pHrodo accumulation row."
+ },
+ {
+  "item": 99,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "TOM-20 mitochondrial mass is a loose mitophagy surrogate that mitochondrial biogenesis changes without any lysosomal change, so 3/4."
+ },
+ {
+  "item": 100,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "TOM-20 mitochondrial mass is a loose mitophagy surrogate that mitochondrial biogenesis changes without any lysosomal change, so 3/4."
+ },
+ {
+  "item": 101,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Accumulated pHrodo-cargo signal mixes uptake with acidification and persistence, a known non-lysosomal route (uptake), so 3/4 for every pHrodo accumulation row."
+ },
+ {
+  "item": 102,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 103,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static cholesterol or neutral-lipid content in lysosomes/late endosomes (filipin, D4H*, Bodipy-cholesterol, BODIPY, EM lipid whorls) is a surrogate B' for cholesterol egress; greater delivery is a possible but unlikely-to-invalidate route, so 3/3 for every lysosomal-lipid row."
+ },
+ {
+  "item": 104,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static cholesterol or neutral-lipid content in lysosomes/late endosomes (filipin, D4H*, Bodipy-cholesterol, BODIPY, EM lipid whorls) is a surrogate B' for cholesterol egress; greater delivery is a possible but unlikely-to-invalidate route, so 3/3 for every lysosomal-lipid row."
+ },
+ {
+  "item": 105,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static cholesterol or neutral-lipid content in lysosomes/late endosomes (filipin, D4H*, Bodipy-cholesterol, BODIPY, EM lipid whorls) is a surrogate B' for cholesterol egress; greater delivery is a possible but unlikely-to-invalidate route, so 3/3 for every lysosomal-lipid row."
+ },
+ {
+  "item": 106,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static cholesterol or neutral-lipid content in lysosomes/late endosomes (filipin, D4H*, Bodipy-cholesterol, BODIPY, EM lipid whorls) is a surrogate B' for cholesterol egress; greater delivery is a possible but unlikely-to-invalidate route, so 3/3 for every lysosomal-lipid row."
+ },
+ {
+  "item": 107,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static cholesterol or neutral-lipid content in lysosomes/late endosomes (filipin, D4H*, Bodipy-cholesterol, BODIPY, EM lipid whorls) is a surrogate B' for cholesterol egress; greater delivery is a possible but unlikely-to-invalidate route, so 3/3 for every lysosomal-lipid row."
+ },
+ {
+  "item": 108,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 109,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 110,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static cholesterol or neutral-lipid content in lysosomes/late endosomes (filipin, D4H*, Bodipy-cholesterol, BODIPY, EM lipid whorls) is a surrogate B' for cholesterol egress; greater delivery is a possible but unlikely-to-invalidate route, so 3/3 for every lysosomal-lipid row."
+ },
+ {
+  "item": 111,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 112,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 113,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static cholesterol or neutral-lipid content in lysosomes/late endosomes (filipin, D4H*, Bodipy-cholesterol, BODIPY, EM lipid whorls) is a surrogate B' for cholesterol egress; greater delivery is a possible but unlikely-to-invalidate route, so 3/3 for every lysosomal-lipid row."
+ },
+ {
+  "item": 114,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Autophagic flux by lysosomal-inhibitor LC3-II turnover or the tandem mRFP-GFP-LC3 autolysosome readout in APOE4 vs APOE3 cells is autophagic flux, B itself, so 1/1 for every flux-assay row."
+ },
+ {
+  "item": 115,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Autophagic flux by lysosomal-inhibitor LC3-II turnover or the tandem mRFP-GFP-LC3 autolysosome readout in APOE4 vs APOE3 cells is autophagic flux, B itself, so 1/1 for every flux-assay row."
+ },
+ {
+  "item": 116,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static LC3-II, LC3-II/LC3-I, p62 or autophagic-vacuole staining without a turnover assay is a surrogate for autophagic flux; induction can move it but is unlikely to invalidate the link, so 3/3 for every static LC3/p62 row."
+ },
+ {
+  "item": 117,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static LC3-II, LC3-II/LC3-I, p62 or autophagic-vacuole staining without a turnover assay is a surrogate for autophagic flux; induction can move it but is unlikely to invalidate the link, so 3/3 for every static LC3/p62 row."
+ },
+ {
+  "item": 118,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static LC3-II, LC3-II/LC3-I, p62 or autophagic-vacuole staining without a turnover assay is a surrogate for autophagic flux; induction can move it but is unlikely to invalidate the link, so 3/3 for every static LC3/p62 row."
+ },
+ {
+  "item": 119,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static LC3-II, LC3-II/LC3-I, p62 or autophagic-vacuole staining without a turnover assay is a surrogate for autophagic flux; induction can move it but is unlikely to invalidate the link, so 3/3 for every static LC3/p62 row."
+ },
+ {
+  "item": 120,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Whole-cell loss of internalized cargo after washout is not localized to the lysosome (proteasome or release could also lower it), a possible route, so 3/3."
+ },
+ {
+  "item": 121,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Autophagic flux by lysosomal-inhibitor LC3-II turnover or the tandem mRFP-GFP-LC3 autolysosome readout in APOE4 vs APOE3 cells is autophagic flux, B itself, so 1/1 for every flux-assay row."
+ },
+ {
+  "item": 122,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Autophagic flux by lysosomal-inhibitor LC3-II turnover or the tandem mRFP-GFP-LC3 autolysosome readout in APOE4 vs APOE3 cells is autophagic flux, B itself, so 1/1 for every flux-assay row."
+ },
+ {
+  "item": 123,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Lysosomal degradation assay (DQ-BSA/self-quenched substrate dequenching, lysosomal activity kit, or lysosome-inhibitor-sensitive cargo turnover) in APOE4 vs APOE3 cells measures B itself (degradation), so class 1 strength 1 under the class 1 rule, for every row of this assay."
+ },
+ {
+  "item": 124,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Lysosomal degradation assay (DQ-BSA/self-quenched substrate dequenching, lysosomal activity kit, or lysosome-inhibitor-sensitive cargo turnover) in APOE4 vs APOE3 cells measures B itself (degradation), so class 1 strength 1 under the class 1 rule, for every row of this assay."
+ },
+ {
+  "item": 125,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static LC3-II, LC3-II/LC3-I, p62 or autophagic-vacuole staining without a turnover assay is a surrogate for autophagic flux; induction can move it but is unlikely to invalidate the link, so 3/3 for every static LC3/p62 row."
+ },
+ {
+  "item": 126,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static cholesterol or neutral-lipid content in lysosomes/late endosomes (filipin, D4H*, Bodipy-cholesterol, BODIPY, EM lipid whorls) is a surrogate B' for cholesterol egress; greater delivery is a possible but unlikely-to-invalidate route, so 3/3 for every lysosomal-lipid row."
+ },
+ {
+  "item": 127,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Autophagic flux by lysosomal-inhibitor LC3-II turnover or the tandem mRFP-GFP-LC3 autolysosome readout in APOE4 vs APOE3 cells is autophagic flux, B itself, so 1/1 for every flux-assay row."
+ },
+ {
+  "item": 128,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "The manipulation is the TRPV1 agonist capsaicin at fixed ApoE4 exposure, which does not act on APOE, so no class 1-4 form fits.",
+  "why": "The manipulation does not act on APOE (class 5) and carries a known non-APOE route of its own; the readout is B itself or a tight surrogate, so strength 4 under the class 5 convention."
+ },
+ {
+  "item": 129,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Lysosomal degradation assay (DQ-BSA/self-quenched substrate dequenching, lysosomal activity kit, or lysosome-inhibitor-sensitive cargo turnover) in APOE4 vs APOE3 cells measures B itself (degradation), so class 1 strength 1 under the class 1 rule, for every row of this assay."
+ },
+ {
+  "item": 130,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Both manipulations (Lilrb4a knockdown and PPAR-γ inhibition) are applied within one APOE4 genotype and do not act on APOE, so no class 1-4 form fits.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 131,
+  "decision": "REJECT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static LC3-II, LC3-II/LC3-I, p62 or autophagic-vacuole staining without a turnover assay is a surrogate for autophagic flux; induction can move it but is unlikely to invalidate the link, so 3/3 for every static LC3/p62 row."
+ },
+ {
+  "item": 132,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 133,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Colocalization of a cargo, receptor or apoE itself with late-endosome/lysosome markers reports delivery set by upstream endosomal sorting, a known route that changes it without any change in lysosome function, so 3/4 for every cargo-colocalization row."
+ },
+ {
+  "item": 134,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Beclin1/ATG7 abundance reports autophagy-initiation machinery upstream of the lysosome, which induction signalling changes independently of lysosome function, so 3/4."
+ },
+ {
+  "item": 135,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Colocalization of a cargo, receptor or apoE itself with late-endosome/lysosome markers reports delivery set by upstream endosomal sorting, a known route that changes it without any change in lysosome function, so 3/4 for every cargo-colocalization row."
+ },
+ {
+  "item": 136,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Colocalization of a cargo, receptor or apoE itself with late-endosome/lysosome markers reports delivery set by upstream endosomal sorting, a known route that changes it without any change in lysosome function, so 3/4 for every cargo-colocalization row."
+ },
+ {
+  "item": 137,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "LysoIP cargo composition reflects delivery to lysosomes (upstream mitophagy and trafficking) as much as lysosome function, a known alternative route, so 3/4 for every LysoIP row."
+ },
+ {
+  "item": 138,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Rapamycin is an mTOR drug that does not act on APOE; the finding is a drug response compared across genotypes, so it fits none of classes 1-4.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 139,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "LysoIP cargo composition reflects delivery to lysosomes (upstream mitophagy and trafficking) as much as lysosome function, a known alternative route, so 3/4 for every LysoIP row."
+ },
+ {
+  "item": 140,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "LysoIP cargo composition reflects delivery to lysosomes (upstream mitophagy and trafficking) as much as lysosome function, a known alternative route, so 3/4 for every LysoIP row."
+ },
+ {
+  "item": 141,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "LysoIP cargo composition reflects delivery to lysosomes (upstream mitophagy and trafficking) as much as lysosome function, a known alternative route, so 3/4 for every LysoIP row."
+ },
+ {
+  "item": 142,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "LysoIP cargo composition reflects delivery to lysosomes (upstream mitophagy and trafficking) as much as lysosome function, a known alternative route, so 3/4 for every LysoIP row."
+ },
+ {
+  "item": 143,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "LysoIP cargo composition reflects delivery to lysosomes (upstream mitophagy and trafficking) as much as lysosome function, a known alternative route, so 3/4 for every LysoIP row."
+ },
+ {
+  "item": 144,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "LysoIP cargo composition reflects delivery to lysosomes (upstream mitophagy and trafficking) as much as lysosome function, a known alternative route, so 3/4 for every LysoIP row."
+ },
+ {
+  "item": 145,
+  "decision": "REJECT",
+  "class": 1,
+  "strength": 1,
+  "why": "Calibrated or ratiometric lysosomal / late-endosomal pH in APOE4 vs APOE3 cells is acidification, B itself, so 1/1 for every pH row (the class 1 rule overrides the 1/2 reference)."
+ },
+ {
+  "item": 146,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Lysosomal degradation assay (DQ-BSA/self-quenched substrate dequenching, lysosomal activity kit, or lysosome-inhibitor-sensitive cargo turnover) in APOE4 vs APOE3 cells measures B itself (degradation), so class 1 strength 1 under the class 1 rule, for every row of this assay."
+ },
+ {
+  "item": 147,
+  "decision": "REJECT",
+  "class": 1,
+  "strength": 1,
+  "why": "Calibrated or ratiometric lysosomal / late-endosomal pH in APOE4 vs APOE3 cells is acidification, B itself, so 1/1 for every pH row (the class 1 rule overrides the 1/2 reference)."
+ },
+ {
+  "item": 148,
+  "decision": "REJECT",
+  "class": 1,
+  "strength": 1,
+  "why": "Calibrated or ratiometric lysosomal / late-endosomal pH in APOE4 vs APOE3 cells is acidification, B itself, so 1/1 for every pH row (the class 1 rule overrides the 1/2 reference)."
+ },
+ {
+  "item": 149,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static cholesterol or neutral-lipid content in lysosomes/late endosomes (filipin, D4H*, Bodipy-cholesterol, BODIPY, EM lipid whorls) is a surrogate B' for cholesterol egress; greater delivery is a possible but unlikely-to-invalidate route, so 3/3 for every lysosomal-lipid row."
+ },
+ {
+  "item": 150,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static cholesterol or neutral-lipid content in lysosomes/late endosomes (filipin, D4H*, Bodipy-cholesterol, BODIPY, EM lipid whorls) is a surrogate B' for cholesterol egress; greater delivery is a possible but unlikely-to-invalidate route, so 3/3 for every lysosomal-lipid row."
+ },
+ {
+  "item": 151,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Whole-cell abundance of lysosomal proteins (hydrolases, V-ATPases, MFSD1) is a surrogate for lysosome function; lower abundance without a functional deficit is possible but unlikely to invalidate, so 3/3 for every lysosomal-proteomics row."
+ },
+ {
+  "item": 152,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static cholesterol or neutral-lipid content in lysosomes/late endosomes (filipin, D4H*, Bodipy-cholesterol, BODIPY, EM lipid whorls) is a surrogate B' for cholesterol egress; greater delivery is a possible but unlikely-to-invalidate route, so 3/3 for every lysosomal-lipid row."
+ },
+ {
+  "item": 153,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Whole-cell abundance of lysosomal proteins (hydrolases, V-ATPases, MFSD1) is a surrogate for lysosome function; lower abundance without a functional deficit is possible but unlikely to invalidate, so 3/3 for every lysosomal-proteomics row."
+ },
+ {
+  "item": 154,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Whole-cell abundance of lysosomal proteins (hydrolases, V-ATPases, MFSD1) is a surrogate for lysosome function; lower abundance without a functional deficit is possible but unlikely to invalidate, so 3/3 for every lysosomal-proteomics row."
+ },
+ {
+  "item": 155,
+  "decision": "REJECT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static LC3-II, LC3-II/LC3-I, p62 or autophagic-vacuole staining without a turnover assay is a surrogate for autophagic flux; induction can move it but is unlikely to invalidate the link, so 3/3 for every static LC3/p62 row."
+ },
+ {
+  "item": 156,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 157,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 158,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Colocalization of a cargo, receptor or apoE itself with late-endosome/lysosome markers reports delivery set by upstream endosomal sorting, a known route that changes it without any change in lysosome function, so 3/4 for every cargo-colocalization row."
+ },
+ {
+  "item": 159,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Colocalization of a cargo, receptor or apoE itself with late-endosome/lysosome markers reports delivery set by upstream endosomal sorting, a known route that changes it without any change in lysosome function, so 3/4 for every cargo-colocalization row."
+ },
+ {
+  "item": 160,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Colocalization of a cargo, receptor or apoE itself with late-endosome/lysosome markers reports delivery set by upstream endosomal sorting, a known route that changes it without any change in lysosome function, so 3/4 for every cargo-colocalization row."
+ },
+ {
+  "item": 161,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Colocalization of a cargo, receptor or apoE itself with late-endosome/lysosome markers reports delivery set by upstream endosomal sorting, a known route that changes it without any change in lysosome function, so 3/4 for every cargo-colocalization row."
+ },
+ {
+  "item": 162,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Colocalization of a cargo, receptor or apoE itself with late-endosome/lysosome markers reports delivery set by upstream endosomal sorting, a known route that changes it without any change in lysosome function, so 3/4 for every cargo-colocalization row."
+ },
+ {
+  "item": 163,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Colocalization of a cargo, receptor or apoE itself with late-endosome/lysosome markers reports delivery set by upstream endosomal sorting, a known route that changes it without any change in lysosome function, so 3/4 for every cargo-colocalization row."
+ },
+ {
+  "item": 164,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Colocalization of a cargo, receptor or apoE itself with late-endosome/lysosome markers reports delivery set by upstream endosomal sorting, a known route that changes it without any change in lysosome function, so 3/4 for every cargo-colocalization row."
+ },
+ {
+  "item": 165,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Colocalization of a cargo, receptor or apoE itself with late-endosome/lysosome markers reports delivery set by upstream endosomal sorting, a known route that changes it without any change in lysosome function, so 3/4 for every cargo-colocalization row."
+ },
+ {
+  "item": 166,
+  "decision": "REJECT",
+  "class": 3,
+  "strength": 2,
+  "why": "Lysosomal membrane leakage (Lucifer Yellow release, cytosolic lysosomal enzyme by fractionation, galectin puncta) is not one of B's listed functions, so it is a surrogate B', but a permeabilized lysosome necessarily loses its acid gradient and hydrolases, so 3/2 for every leakage row."
+ },
+ {
+  "item": 167,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Cathepsin D retention in lysosomes by imaging or microsomal fraction is a surrogate for lysosomal integrity and enzyme content, with missorting a possible route, so 3/3."
+ },
+ {
+  "item": 168,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Cathepsin D retention in lysosomes by imaging or microsomal fraction is a surrogate for lysosomal integrity and enzyme content, with missorting a possible route, so 3/3."
+ },
+ {
+  "item": 169,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Cathepsin D retention in lysosomes by imaging or microsomal fraction is a surrogate for lysosomal integrity and enzyme content, with missorting a possible route, so 3/3."
+ },
+ {
+  "item": 170,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "GNE-317 is a PI3K inhibitor applied within the APOE4/4 genotype and does not act on APOE, so the perturbation is neither A nor a surrogate A'.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 171,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Cells within one APOE4/4 genotype are stratified by lipid-droplet presence, an observational within-genotype comparison that does not vary APOE, so it fits none of classes 1-4.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 172,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Colocalization of a cargo, receptor or apoE itself with late-endosome/lysosome markers reports delivery set by upstream endosomal sorting, a known route that changes it without any change in lysosome function, so 3/4 for every cargo-colocalization row."
+ },
+ {
+  "item": 173,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "TOFA is an acetyl-CoA carboxylase (lipid-synthesis) inhibitor given within APOE4-expressing worms without an APOE3 arm, so APOE is not varied and the perturbation is not a surrogate A'.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 174,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Calibrated or ratiometric lysosomal / late-endosomal pH in APOE4 vs APOE3 cells is acidification, B itself, so 1/1 for every pH row (the class 1 rule overrides the 1/2 reference)."
+ },
+ {
+  "item": 175,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 176,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Class 5: Ned-19, an NAADP-pathway inhibitor, was applied within APOE4 astrocytes, so APOE itself was not varied and the readout is ATP-evoked cytosolic calcium rather than lysosome function.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 177,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Lysosomal or acidic-store calcium content is a surrogate for lysosome state, not one of B's listed functions, with a possible alternative route, so 3/3."
+ },
+ {
+  "item": 178,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Class 5: bafilomycin A1 was applied within APOE4 astrocytes, so APOE itself was not varied and the readout is ATP-evoked cytosolic calcium rather than lysosome function.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 179,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 180,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Class 5: bafilomycin A1 was applied within APOE4 astrocytes, so APOE itself was not varied and the readout is basal cytosolic calcium rather than lysosome function.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 181,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Isolated lysosomal-membrane lipid composition is weakly coupled to lysosome function (lipid supply alone changes it), so 3/4."
+ },
+ {
+  "item": 182,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Class 5: extracellular lipids were removed within APOE4 astrocytes, so APOE itself was not varied and the readout is GPN-released acidic-store calcium rather than lysosome function.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 183,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Isolated lysosomal-membrane lipid composition is weakly coupled to lysosome function (lipid supply alone changes it), so 3/4."
+ },
+ {
+  "item": 184,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Isolated lysosomal-membrane lipid composition is weakly coupled to lysosome function (lipid supply alone changes it), so 3/4."
+ },
+ {
+  "item": 185,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Class 5: bafilomycin A1 was applied within APOE3 astrocytes, so APOE itself was not varied and the readout is ATP-evoked cytosolic calcium rather than lysosome function.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 186,
+  "decision": "ADJUST",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Class 5: bafilomycin A1 was applied within APOE3 astrocytes, so APOE itself was not varied and the readout is basal cytosolic calcium rather than lysosome function.",
+  "why": "The manipulation does not act on APOE (class 5) and the readout is itself a looser surrogate of B, so alternative routes sit at both ends and strength is 5 under the class 5 convention."
+ },
+ {
+  "item": 187,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Live cathepsin activity (Magic Red substrate cleavage) in APOE4 vs APOE3 cells is lysosomal enzyme activity, B itself, so 1/1."
+ },
+ {
+  "item": 188,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Colocalization of a cargo, receptor or apoE itself with late-endosome/lysosome markers reports delivery set by upstream endosomal sorting, a known route that changes it without any change in lysosome function, so 3/4 for every cargo-colocalization row."
+ },
+ {
+  "item": 189,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "mtKeima reports mitochondrial delivery to acidic lysosomes, a surrogate for lysosome-dependent mitophagy flux with upstream damage signalling as a possible route, so 3/3."
+ },
+ {
+  "item": 190,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "mtKeima reports mitochondrial delivery to acidic lysosomes, a surrogate for lysosome-dependent mitophagy flux with upstream damage signalling as a possible route, so 3/3."
+ },
+ {
+  "item": 191,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Colocalization of a cargo, receptor or apoE itself with late-endosome/lysosome markers reports delivery set by upstream endosomal sorting, a known route that changes it without any change in lysosome function, so 3/4 for every cargo-colocalization row."
+ },
+ {
+  "item": 192,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Colocalization of a cargo, receptor or apoE itself with late-endosome/lysosome markers reports delivery set by upstream endosomal sorting, a known route that changes it without any change in lysosome function, so 3/4 for every cargo-colocalization row."
+ },
+ {
+  "item": 193,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "LysoTracker intensity or spot count reflects lysosome number as well as acidity, a surrogate for acidification with a possible alternative route, so 3/3 for every LysoTracker row."
+ },
+ {
+  "item": 194,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "mtKeima reports mitochondrial delivery to acidic lysosomes, a surrogate for lysosome-dependent mitophagy flux with upstream damage signalling as a possible route, so 3/3."
+ },
+ {
+  "item": 195,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static LC3-II, LC3-II/LC3-I, p62 or autophagic-vacuole staining without a turnover assay is a surrogate for autophagic flux; induction can move it but is unlikely to invalidate the link, so 3/3 for every static LC3/p62 row."
+ },
+ {
+  "item": 196,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Qualitative LAMP1-LC3 colocalization under bafilomycin, which itself perturbs fusion and acidity, is a surrogate for fusion with a known confounding route, so 3/4."
+ },
+ {
+  "item": 197,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 198,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Lysosomal or acidic-store calcium content is a surrogate for lysosome state, not one of B's listed functions, with a possible alternative route, so 3/3."
+ },
+ {
+  "item": 199,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "LysoTracker intensity or spot count reflects lysosome number as well as acidity, a surrogate for acidification with a possible alternative route, so 3/3 for every LysoTracker row."
+ },
+ {
+  "item": 200,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static LC3-II, LC3-II/LC3-I, p62 or autophagic-vacuole staining without a turnover assay is a surrogate for autophagic flux; induction can move it but is unlikely to invalidate the link, so 3/3 for every static LC3/p62 row."
+ },
+ {
+  "item": 201,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static LC3-II, LC3-II/LC3-I, p62 or autophagic-vacuole staining without a turnover assay is a surrogate for autophagic flux; induction can move it but is unlikely to invalidate the link, so 3/3 for every static LC3/p62 row."
+ },
+ {
+  "item": 202,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static LC3-II, LC3-II/LC3-I, p62 or autophagic-vacuole staining without a turnover assay is a surrogate for autophagic flux; induction can move it but is unlikely to invalidate the link, so 3/3 for every static LC3/p62 row."
+ },
+ {
+  "item": 203,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static LC3-II, LC3-II/LC3-I, p62 or autophagic-vacuole staining without a turnover assay is a surrogate for autophagic flux; induction can move it but is unlikely to invalidate the link, so 3/3 for every static LC3/p62 row."
+ },
+ {
+  "item": 204,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static LC3-II, LC3-II/LC3-I, p62 or autophagic-vacuole staining without a turnover assay is a surrogate for autophagic flux; induction can move it but is unlikely to invalidate the link, so 3/3 for every static LC3/p62 row."
+ },
+ {
+  "item": 205,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static LC3-II, LC3-II/LC3-I, p62 or autophagic-vacuole staining without a turnover assay is a surrogate for autophagic flux; induction can move it but is unlikely to invalidate the link, so 3/3 for every static LC3/p62 row."
+ },
+ {
+  "item": 206,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Proteomic response to lysosomal and/or proteasomal blockade is a surrogate for lysosome-dependent clearance that mixes in proteasomal turnover, so 3/3."
+ },
+ {
+  "item": 207,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Proteomic response to lysosomal and/or proteasomal blockade is a surrogate for lysosome-dependent clearance that mixes in proteasomal turnover, so 3/3."
+ },
+ {
+  "item": 208,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Proteomic response to lysosomal and/or proteasomal blockade is a surrogate for lysosome-dependent clearance that mixes in proteasomal turnover, so 3/3."
+ },
+ {
+  "item": 209,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Proteomic response to lysosomal and/or proteasomal blockade is a surrogate for lysosome-dependent clearance that mixes in proteasomal turnover, so 3/3."
+ },
+ {
+  "item": 210,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Baseline abundance of clearance-sensitive proteins is changed by synthesis as well as clearance, a known route, so 3/4."
+ },
+ {
+  "item": 211,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Cleaved delta-secretase on lysosomal-fraction blots is a surrogate for lysosomal enzyme activity that rises with expression (the paper's own C/EBPb route), a known alternative, so 3/4."
+ },
+ {
+  "item": 212,
+  "decision": "ADJUST",
+  "class": 3,
+  "strength": 2,
+  "why": "Lysosomal membrane leakage (Lucifer Yellow release, cytosolic lysosomal enzyme by fractionation, galectin puncta) is not one of B's listed functions, so it is a surrogate B', but a permeabilized lysosome necessarily loses its acid gradient and hydrolases, so 3/2 for every leakage row."
+ },
+ {
+  "item": 213,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Cleaved delta-secretase on lysosomal-fraction blots is a surrogate for lysosomal enzyme activity that rises with expression (the paper's own C/EBPb route), a known alternative, so 3/4."
+ },
+ {
+  "item": 214,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static LC3-II, LC3-II/LC3-I, p62 or autophagic-vacuole staining without a turnover assay is a surrogate for autophagic flux; induction can move it but is unlikely to invalidate the link, so 3/3 for every static LC3/p62 row."
+ },
+ {
+  "item": 215,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Static LC3-II, LC3-II/LC3-I, p62 or autophagic-vacuole staining without a turnover assay is a surrogate for autophagic flux; induction can move it but is unlikely to invalidate the link, so 3/3 for every static LC3/p62 row."
+ },
+ {
+  "item": 216,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "Late-endosome/lysosome marker abundance, compartment number, area, size or position (LAMP1/2, CD63, CD68, RAB7, cathepsin D immunostaining, NPC1/NPC2, V-ATPase subunit) is a structural surrogate B'; biogenesis is a possible but unlikely-to-invalidate route, so 3/3 for every marker row."
+ },
+ {
+  "item": 217,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Reference row: ratiometric lysosomal pH in APOE4 vs APOE3 astrocytes is acidification, B itself, so the class 1 rule makes it 1/1 and the 11-19 value 1/2 does not stand."
+ }
+]

@@ -1,0 +1,489 @@
+[
+ {
+  "hyp": "H5",
+  "paper_id": "P4",
+  "finding_id": "P4.F1",
+  "key": "pmid39532095",
+  "quote_start": "Indeed, CE(18:1)-lipApoE4 produced significantly lower accumulation of",
+  "verdict": "OK",
+  "reason": "Quote verbatim in Results; Fig 6L-M is the CE(18:1) vs CE(20:4)-ApoE4 tau pff comparison. No P or n printed for this panel in text (legend: each dot one independent experiment, two-tailed unpaired test; figure image not available).",
+  "evidence": "Results: 'Indeed, CE(18:1)-lipApoE4 produced significantly lower accumulation of pHrodo-tau pffs than CE(20:4)-lipApoE4 (Figure 6L-M)'. Fig 6 legend (J-M): '14 d treatment ... followed by 14 d incubation with 2.5 ug/mL pHrodo red-labeled tau pffs ... For (K) and (M), each dot represents one independent experiment, with two-tailed unpaired test performed.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P4",
+  "finding_id": "P4.F2",
+  "key": "pmid39532095",
+  "quote_start": "Therefore, we assessed the pathogenic potential of peroxidation-prone ",
+  "verdict": "OK",
+  "reason": "Quote is verbatim from the Discussion but summarizes the authors' own iNeuron experiment (Fig 5A-B, 21 d per legend), with the allelic series E4>E3>E2; supports the description. No P/n printed for Fig 5B in the main legend.",
+  "evidence": "Discussion: 'Therefore, we assessed the pathogenic potential of peroxidation-prone PUFA-CE by treating iNeurons with CE(20:4)-lipApoE isoforms. We observed accumulation of lipofuscin ... following the allelic series of ApoE4 > ApoE3 > ApoE2.' Fig 5 legend: '(A and B) ... lipofuscin ... in NGN2 iNeurons after 21 d incubation with 20 ug/mL CE(20:4)/POPC-lipidated ApoE isoforms.' Results equivalent: 'After longer incubation (14 d and 21 d), a progressively larger difference between ApoE4 and ApoE3 emerged (Figure S5G, Figure 5B).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P4",
+  "finding_id": "P4.F3",
+  "key": "pmid39532095",
+  "quote_start": "Replacing CE(20:4) with CE(18:1) in the POPC-ApoE4 lipoproteins abolis",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig 5J-K is H4 cells, 3 d, 20 ug/mL CE(20:4) vs CE(18:1)/POPC-ApoE4 per legend.",
+  "evidence": "Results: 'Replacing CE(20:4) with CE(18:1) in the POPC-ApoE4 lipoproteins abolished lipofuscin induction (Figure 5J-K), denoting a PUFA requirement.' Legend: '(F), (H), and (J) ... in H4 cells (H and J) after 3 d incubation with 20 ug/mL ... or with 20 ug/mL CE(18:1)/POPC-lipidated ApoE4.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P4",
+  "finding_id": "P4.F4",
+  "key": "pmid39532095",
+  "quote_start": "After longer incubation (14 d and 21 d), a progressively larger differ",
+  "verdict": "OK",
+  "reason": "Quote verbatim; S5E/S5G cover the 7 d and 14 d iNeuron lipofuscin quantification, n = 3 independent experiments in the supplementary legend.",
+  "evidence": "Results: 'After longer incubation (14 d and 21 d), a progressively larger difference between ApoE4 and ApoE3 emerged (Figure S5G, Figure 5B).' Fig S5 legend: '(E) ... after 7 d or 14 d incubation ... (F) and (G) Quantifications of lipofuscin in (E) (n = 3 independent experiments, one-way ANOVA, Holm-Sidak's multiple comparisons).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P4",
+  "finding_id": "P4.F5",
+  "key": "pmid39532095",
+  "quote_start": "Cathepsin activity measured by the 6QC probe40 showed a modest but sig",
+  "verdict": "FIX",
+  "set": {
+   "Directness class": "3"
+  },
+  "reason": "Quote, location and n are right, but the finding is CE(20:4)-ApoE3 and -ApoE4 together versus low-lipofuscin treatments with no ApoE4-vs-ApoE3 contrast, so it is not a direct test of the hypothesis's E4-vs-E3 A->B; class 1 is a clear error (the paper's analogous S6 rows F9/F14 are class 3).",
+  "evidence": "Results: 'Cathepsin activity measured by the 6QC probe40 showed a modest but significant reduction with CE(20:4)-lipApoE3 or CE(20:4)-lipApoE4 treatment compared to other treatments that minimally induced lipofuscin (Figure S6G-H).' S6 legend: '(H) Quantification of 6QC signals in (G) (n = 3 independent experiments, one-way ANOVA, Holm-Sidak's multiple comparisons).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P4",
+  "finding_id": "P4.F6",
+  "key": "pmid39532095",
+  "quote_start": "To confirm the effect of PUFA-CE-lipApoE4 on tau pff accumulation is c",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig 6J-K is the lipofuscin readout of the CE(20:4) vs CE(18:1)-ApoE4 iNeuron experiment.",
+  "evidence": "Results: '...we directly compared CE(20:4)-lipApoE4 with CE(18:1)-lipApoE4, which did not induce lipofuscin as CE(18:1) is not prone to peroxidation (Figure 6J-K).' Legend: '(J-M) ... lipofuscin (J-K) and pHrodo signals (L-M) ... after 14 d treatment with 20 ug/mL CE(20:4)/POPC-lipidated ApoE4 or CE(18:1)/POPC-lipidated ApoE4 followed by 14 d incubation with 2.5 ug/mL pHrodo red-labeled tau pffs.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P4",
+  "finding_id": "P4.F7",
+  "key": "pmid39532095",
+  "quote_start": "LDLR ECD co-treatment with CE(20:4)-lipApoE4 dramatically reduced lipo",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig 5F-G is iNeurons, 3 d, 20 ug/mL CE(20:4)-ApoE4 +/- 20 ug/mL LDLR ECD per legend and methods.",
+  "evidence": "Results: 'LDLR ECD co-treatment with CE(20:4)-lipApoE4 dramatically reduced lipofuscin (Figure 5F-G), confirming LDLR dependency.' Methods: 'live imaging for lipofuscin was performed after 3 d treatment of 20 ug/mL CE(20:4)/POPC-lipidated ApoE4 with or without 20 ug/m LDLR ECD'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P4",
+  "finding_id": "P4.F8",
+  "key": "pmid39532095",
+  "quote_start": "After another 13–14 d incubation, total pHrodo signals from tau pffs t",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "Human neurons pretreated with CE(20:4)-ApoE4 showed a trend toward more acidic-compartment tau-fibril signal than ApoE3-treated neurons (ApoE4 > ApoE3 > ApoE2 > K146E ApoE4), more pronounced among lipofuscin-positive neurons, across three independent experiments; the text calls it a trend and gives no P for the E4-E3 contrast."
+  },
+  "reason": "The paper calls this a 'trend' (ApoE4 > ApoE3 > ApoE2 > K146E ApoE4) and gives no significance for E4 vs E3; the description states 'accumulated more' as an established difference. Quote, n = 3 and location are right.",
+  "evidence": "Results: 'total pHrodo signals from tau pffs ... demonstrated a trend of ApoE4 > ApoE3 > ApoE2 > K146E ApoE4, with the isoform-dependent difference being more pronounced among lipofuscin-positive neurons (Figure 6H-I)'. Legend: '(I) ... (3 independent experiments, one-way ANOVA, Holm-Sidak's multiple comparisons).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P4",
+  "finding_id": "P4.F9",
+  "key": "pmid39532095",
+  "quote_start": "LAMP1 immunostaining revealed no treatment effect on the total lysosom",
+  "verdict": "OK",
+  "reason": "Quote verbatim; S6I/S6K are the LAMP1 images and clustering index, n = 3 independent experiments in the supplementary legend.",
+  "evidence": "S6 legend: '(K) Quantification of LAMP1 clustering index ... for (I) (n = 3 independent experiments, one-way ANOVA, Holm-Sidak's multiple comparisons).' Results: 'CE(20:4)-lipApoE3/E4 treatment resulted in prominent lysosomal clustering (Figure S6I-K)'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P4",
+  "finding_id": "P4.F10",
+  "key": "pmid39532095",
+  "quote_start": "Lastly, CE(20:4)-lipidated Christchurch mutants showed significantly a",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig 7F-G is H4 cells, 3 d, 20 ug/mL CE(20:4)/POPC-lipidated ApoE isoforms incl. Christchurch variants. No P/n printed in text.",
+  "evidence": "Results: 'Lastly, CE(20:4)-lipidated Christchurch mutants showed significantly attenuated lipofuscinosis (Figure 7F-G).' Legend: '(F and G) ... lipofuscin in H4 cells after 3 d incubation with 20 ug/mL CE(20:4)/POPC-lipidated ApoE isoforms.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P4",
+  "finding_id": "P4.F11",
+  "key": "pmid39532095",
+  "quote_start": "ApoE isoform differences were manifested in the differential levels of",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.21x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Quote verbatim; the text prints both group values (Mander's 0.410 ApoE3, 0.497 ApoE4), so the fold ApoE4/ApoE3 = 0.497/0.410 = 1.21x should replace 'qualitative'. The paper gives no P or n for this comparison.",
+  "evidence": "Results: '(Mander's coefficients = 0.266 +/- 0.045 for ApoE2, 0.410 +/- 0.049 for ApoE3, 0.497 +/- 0.090 for ApoE4) (Figure 2I).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P4",
+  "finding_id": "P4.F12",
+  "key": "pmid39532095",
+  "quote_start": "ApoE isoform-dependent lipofuscin accumulation was replicated in WT H4",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig 5H-I is H4 cells, 3 d, 20 ug/mL CE(20:4)/POPC-ApoE +/- LDLR ECD.",
+  "evidence": "Results: 'ApoE isoform-dependent lipofuscin accumulation was replicated in WT H4 and HAP1 cells, similarly blocked by LDLR ECD or KO of LDLR, but not LRP1 (Figure 5H-I, Figure S5H-I).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P4",
+  "finding_id": "P4.F13",
+  "key": "pmid39532095",
+  "quote_start": "At 7 d, lipofuscin induced by CE(20:4)-lipApoE3/E4 was weakly detectab",
+  "verdict": "OK",
+  "reason": "Quote verbatim; S5E-F is the 7 d iNeuron lipofuscin quantification, n = 3, normalized with endpoint nuclear counts as the legend notes.",
+  "evidence": "Results: 'At 7 d, lipofuscin induced by CE(20:4)-lipApoE3/E4 was weakly detectable, while signals for CE(20:4)-ApoE2 were minimal.' S5 legend: '(F) and (G) Quantifications of lipofuscin in (E) (n = 3 independent experiments ...). Note that nuclear counts from the endpoint imaging (21 d incubation as shown in Figure 5A) were used for per cell quantifications.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P4",
+  "finding_id": "P4.F14",
+  "key": "pmid39532095",
+  "quote_start": "LAMP1 immunostaining revealed no treatment effect on the total lysosom",
+  "verdict": "OK",
+  "reason": "Quote verbatim; S6J is total LAMP1 spot area, n = 3 independent experiments, and the text reports no treatment effect.",
+  "evidence": "S6 legend: '(J) Quantification of total LAMP1 spot area for (I) (n = 3 independent experiments).' Results: 'LAMP1 immunostaining revealed no treatment effect on the total lysosomal area'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P4",
+  "finding_id": "P4.F15",
+  "key": "pmid39532095",
+  "quote_start": "Super-resolution imaging on APOE KO iAstrocytes confirmed internalized",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.00x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Quote verbatim; the text prints both group values (0.903 ApoE3, 0.900 ApoE4), so the fold ApoE4/ApoE3 = 0.900/0.903 = 1.00x (0.997) replaces 'qualitative'. No P or n reported.",
+  "evidence": "Results: '(Mander's coefficients for ApoE puncta with colocalizing LAMP1 = 0.823 +/- 0.061 for ApoE2; 0.903 +/- 0.024 for ApoE3; 0.900 +/- 0.008 for ApoE4).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P4",
+  "finding_id": "P4.F16",
+  "key": "pmid39532095",
+  "quote_start": "Pre-complexing pHrodo-HDL with ApoE isoforms promoted its uptake in th",
+  "verdict": "OK",
+  "reason": "Quote verbatim (two consecutive sentences); Fig 3A,C is H4 cells, 1 d, 10 ug/mL pHrodo-HDL precomplexed with 10 ug/mL ApoE +/- 20 ug/mL LDLR ECD. The paper gives the ApoE4 ~ ApoE3 order only, with no numbers.",
+  "evidence": "Results: 'Pre-complexing pHrodo-HDL with ApoE isoforms promoted its uptake in the order of ApoE4 ~ ApoE3 > ApoE2 (Figure 3A, C). LDLR ECD suppressed pHrodo-HDL uptake with ApoE3 or ApoE4'. Fig 3 legend '(A and C) ... after 1 d incubation with 10 ug/mL pHrodo red-labeled HDL pre-complexed with 10 ug/mL ApoE with and without co-treatment of 20 ug/ml LDLR ECD.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P3",
+  "finding_id": "P3.F1",
+  "key": "pmid42636814",
+  "quote_start": "APOE4/4 astrocytes showed significantly reduced lysosomal DQ-BSA signa",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Donor 1 P = 0.0032 in text; Fig 4d legend gives n = 3-4 biological replicates, flow cytometry at 24 h in DAPI-negative cells.",
+  "evidence": "Results: '(Donor #1: p= 0.0032; Donor #2: p < 0.0001, Figure 4d)'. Fig 4 legend: 'd. DQ-BSA Green mean fluorescence intensity measured in DAPI negative cell population by flow cytometry after 24 hours in two isogenic iPSC lines. Data are mean +/- SEM (n = 3-4 biological replicates). P-values by two-tailed, unpaired t-tests.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P3",
+  "finding_id": "P3.F2",
+  "key": "pmid42636814",
+  "quote_start": "To distinguish between reduced lysosomal number and reduced lysosomal ",
+  "verdict": "OK",
+  "reason": "Quote verbatim; P = 0.0098 printed for the dextran-normalized genotype comparison; the supplementary figure legends (Document S1) are not in the source, so n unavailable is correct.",
+  "evidence": "Results: 'Even after dextran normalization, APOE4/4 astrocytes retained significantly lower proteolytic activity (p = 0.0098; Figure S4e)'. Source lists 'Document S1. Supplemental Figures S1-S5.' with no legend text."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P3",
+  "finding_id": "P3.F3",
+  "key": "pmid42636814",
+  "quote_start": "Treatment with 2-hydroxypropyl-β-cyclodextrin (2HβCD) and methyl-β-cyc",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 2HbCD P = 0.0002 in text; Fig 5b legend n = 4 biological replicates; 100 uM 2HbCD and the 4-day pretreatment/reseeding protocol match methods. Donor 1 by default per methods.",
+  "evidence": "Results: '(2HbCD: p = 0.0002; MbCD: p = 0.019) (Figure 5b)'. Fig 5 legend: 'b. ... DQ-BSA Red integrated intensity over 24 hours ... (n = 4 biological replicates). Bottom: area under the curve ... P-values by 2-way ANOVA and Tukey's test.' Methods: 'For all figures where the donor number is not indicated, we have used Donor 1 (AG09173 iPSCs).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P3",
+  "finding_id": "P3.F4",
+  "key": "pmid42636814",
+  "quote_start": "Increased lysosomal proteolytic activity with MβCD was replicated in a",
+  "verdict": "OK",
+  "reason": "Quote verbatim; P = 0.0045 printed; S5c legend not in source so n unavailable.",
+  "evidence": "Results: 'Increased lysosomal proteolytic activity with MbCD was replicated in astrocytes from a second donor (p = 0.0045; Figure S5c).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P3",
+  "finding_id": "P3.F5",
+  "key": "pmid42636814",
+  "quote_start": "To assess degradation, extracellular α-Syn was removed after 24 hours,",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig 4c legend n = 4 biological replicates, 2-way ANOVA. The printed P values are within-genotype (E3 p < 0.0001, E4 p = 0.694), with no direct E4-vs-E3 clearance P, so P = N/A is defensible.",
+  "evidence": "Results: 'APOE3/3 astrocytes showed a significant reduction in intracellular a-Syn-HiLyte signal (p < 0.0001), whereas APOE4/4 astrocytes showed no significant decrease (p = 0.694; Figure 4c)'. Fig 4 legend c: '(n = 4 biological replicates). P-values by 2-way ANOVA and Tukey's test.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P3",
+  "finding_id": "P3.F6",
+  "key": "pmid42636814",
+  "quote_start": "To validate that the α-Syn was being endocytosed into the endolysosoma",
+  "verdict": "OK",
+  "reason": "Quote verbatim; P = 0.0395 printed for APOE4/4 vs APOE3/3; S5f legend not in source.",
+  "evidence": "Results: 'the percentage of a-Syn-HiLyte that co-localized with LysoTracker decreased in APOE4/4 astrocytes compared to APOE3/3 (p = 0.0395; Figure S5f).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P3",
+  "finding_id": "P3.F7",
+  "key": "pmid42636814",
+  "quote_start": "However, APOE4/4 astrocytes treated with MβCD showed increased colocal",
+  "verdict": "OK",
+  "reason": "Quote verbatim; P = 0.0343 printed for MbCD vs vehicle in APOE4/4.",
+  "evidence": "Results: 'APOE4/4 astrocytes treated with MbCD showed increased colocalization of a-Syn-HiLyte with LysoTracker compared to vehicle-treated APOE4/4 astrocytes (p = 0.0343).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P3",
+  "finding_id": "P3.F8",
+  "key": "pmid42636814",
+  "quote_start": "Strikingly APOE4/4 astrocytes treated with MβCD showed similar α-Syn l",
+  "verdict": "OK",
+  "reason": "Quote verbatim; P = 0.946 printed for MbCD-APOE4/4 vs vehicle APOE3/3.",
+  "evidence": "Results: 'Strikingly APOE4/4 astrocytes treated with MbCD showed similar a-Syn lysosomal localization as vehicle-treated APOE3/3 astrocytes (p = 0.946; Figure S5f).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P3",
+  "finding_id": "P3.F9",
+  "key": "pmid42636814",
+  "quote_start": "Consistent with this, immunoreactivity for the lysosomal membrane prot",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Donor 1 LAMP1 P = 0.0002 printed; S4d legend not in source.",
+  "evidence": "Results: 'immunoreactivity for the lysosomal membrane protein LAMP1 was also significantly reduced in APOE4/4 astrocytes compared to isogenic APOE3/3 astrocytes (Donor #1: p = 0.0002 and Donor #2: p = 0.0001, Figure S4d).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P3",
+  "finding_id": "P3.F10",
+  "key": "pmid42636814",
+  "quote_start": "Consistent with improved lysosomal capacity, MβCD increased LysoTracke",
+  "verdict": "OK",
+  "reason": "Quote verbatim; P = 0.044 printed for MbCD in APOE4/4 (Fig 5d); legend n = 5-6 biological replicates, LysoTracker normalized to Hoechst area.",
+  "evidence": "Results: 'MbCD increased LysoTracker-positive lysosomal signal in APOE4/4 astrocytes (p = 0.044; Figure 5d)'. Fig 5 legend d: 'LysoTracker mean intensity was normalized by Hoechst (blue) area and APOE3/3. Data are mean +/- SEM (n = 5-6 biological replicates). P-values by 2-way ANOVA and Sidak test.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P17",
+  "finding_id": "P17.F1",
+  "key": "pmid11912196",
+  "quote_start": "Lysosomal leakage was seen in only 15% of the neo- and apoE3-transfect",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~1.5x",
+   "Effect size provenance": "estimated_from_figure"
+  },
+  "reason": "Quote, P (<0.05, legend) and n = 2 experiments are right. The text gives '15%' vs 'more than 25%' (an inequality), so the fold is read from Fig 2A: Abeta1-42 bars E3 ~17.3% vs E4 ~26.6% of cells -> ~1.5x.",
+  "evidence": "Fig 2A rendered from fulltext.pdf p.3 (y-axis 0-30, ticks every 5, zero baseline): black (Abeta1-42) bar E3-transfected ~17.3, E4-transfected ~26.6. Legend: 'Values are the mean +/- S.D. of two separate experiments. *, apoE4-transfected cells treated with Abeta1-42 versus neo- and apoE3-transfected cells treated with Abeta1-42 (p < 0.05).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P17",
+  "finding_id": "P17.F2",
+  "key": "pmid11912196",
+  "quote_start": "A treatment increased cytosolic -hexosaminidase activity to a signific",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.42x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Quote matches the extracted text (the PDF reads '~85% versus ~40 and ~30%; p < 0.001'); P and n are right. The printed increases give Abeta-treated cytosolic beta-hexosaminidase of ~185% vs ~130% of each line's control, so the E4/E3 fold is 185/130 = 1.42x (the Fig 2B bars agree: E3 ~131, E4 ~186).",
+  "evidence": "PDF p.3 Results: 'Abeta treatment increased cytosolic beta-hexosaminidase activity to a significantly greater extent in apoE4-transfected cells than in neo- and apoE3-transfected cells (~85% versus ~40 and ~30%, respectively; p < 0.001).' Fig 2B y-axis 'beta-Hexosaminidase Release (% of control)'. Legend: 'two separate experiments performed in duplicate'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P17",
+  "finding_id": "P17.F3",
+  "key": "pmid11912196",
+  "quote_start": "After treatment with A1–42, however, it was readily apparent that more",
+  "verdict": "OK",
+  "reason": "Quote verbatim (Results); Fig 1 bottom panels are the Abeta1-42-treated cells, with arrows marking diffuse staining; protocol matches the Fig 1 legend and methods (100 ug/ml LY 20 h, 20 uM Abeta1-42 20 h; Abeta aggregated 72 h; 80 ng apoE/ml/24 h).",
+  "evidence": "Fig 1 legend: 'apoE4-transfected cells showed the most marked lysosomal leakage (bottom panels, arrows). The cells were labeled with Lucifer Yellow (100 ug/ml) at 37 C for 20 h and washed. The cells were then incubated with 20 uM Abeta1-42 at 37 C for 20 h'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P17",
+  "finding_id": "P17.F4",
+  "key": "pmid11912196",
+  "quote_start": "ApoE4 also potentiated lysosomal leakage induced by A1–40 (Fig. 2A), a",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~2.1x",
+   "Effect size provenance": "estimated_from_figure"
+  },
+  "reason": "Quote and n = 2 are right; the legend star is for Abeta1-42 only, so P = N/A is right. The Abeta1-40 (gray) bars are readable on Fig 2A: E3 ~4.4% vs E4 ~9.3% -> ~2.1x.",
+  "evidence": "Fig 2A rendered from fulltext.pdf p.3: gray bars (Abeta1-40 +) E3-transfected ~4.4, E4-transfected ~9.3 on a 0-30% axis with zero baseline; no star over the gray bars."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P17",
+  "finding_id": "P17.F5",
+  "key": "pmid11912196",
+  "quote_start": "No significant ly- sosomal leakage was observed in untreated apoE3- or",
+  "verdict": "OK",
+  "reason": "Quote verbatim; the paper states no significant leakage in untreated cells and prints no numbers or statistics for it.",
+  "evidence": "Results: 'No significant lysosomal leakage was observed in untreated apoE3- or apoE4-transfected cells.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P23",
+  "finding_id": "P23.F1",
+  "key": "pmid23132858",
+  "quote_start": "When lysosomal degradation of Aβ42 was calculated by subtracting the c",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 1.75-fold is stated by the paper (written as the paper writes it); Fig 5B legend n = 3 with a two-level star key and no Fig 5 image available (the packet's 5.png actually shows Fig 7), so ambiguous_panel is right.",
+  "evidence": "Results: 'apoE3 enhanced Abeta42 lysosomal degradation by 1.75-fold when compared with apoE4 ( Fig. 5 B ).' Legend B: 'Data are plotted as mean +/- S.E. ( n = 3). *, p < 0.05; **, p < 0.01.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P23",
+  "finding_id": "P23.F2",
+  "key": "pmid23132858",
+  "quote_start": "We found that apoE3 was transported into lysosomes and degraded more e",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~0.22x",
+   "Effect size provenance": "estimated_from_figure"
+  },
+  "reason": "Quote, P (<0.01, the only key in the Fig 7B legend, star over the E3-E4 bracket) and n = 3 are right. Fig 7B is readable (ratio to E3, zero baseline): E4 degraded apoE ~0.22 of E3.",
+  "evidence": "Packet image figimg/5.png is actually Fig 7 (panels: cell-associated apoE, degraded apoE, apoE/LAMP1, apoE in lysosomes). Panel B: E3 bar = 1.0, E4 bar ~0.22 (pixel read: baseline y=271, E3 top y=100, E4 top y=234); '**' over the E3-E4 bracket. Legend 7B: '( n = 3). **, p < 0.01.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P23",
+  "finding_id": "P23.F3",
+  "key": "pmid23132858",
+  "quote_start": "In addition, confocal microscopy also revealed that internalized FAM-A",
+  "verdict": "OK",
+  "reason": "Quote verbatim (two consecutive sentences); Fig 5D legend n = 9 with a two-level star key and no Fig 5 image available, so ambiguous_panel is right.",
+  "evidence": "Legend 5C: 'FAM-Abeta42 (500 nM) ... in the presence of lysosomal inhibitors for 24 h. LysoTracker Red (75 nM) was included in the final hour'. 5D: 'Data are plotted as mean +/- S.E. ( n = 9). *, p < 0.05; **, p < 0.01.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P23",
+  "finding_id": "P23.F4",
+  "key": "pmid23132858",
+  "quote_start": "Upon quantification, we confirmed that the amounts of Aβ42 in lysosome",
+  "verdict": "OK",
+  "reason": "Quote verbatim; n = 9 and ambiguous_panel P match the Fig 5D legend (no Fig 5 image available).",
+  "evidence": "Results: 'Upon quantification, we confirmed that the amounts of Abeta42 in lysosomes were higher in apoE3-treated cells than apoE4-treated cells ( Fig. 5 D ).' Legend 5D: '( n = 9). *, p < 0.05; **, p < 0.01.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P23",
+  "finding_id": "P23.F5",
+  "key": "pmid23132858",
+  "quote_start": "The more efficient trafficking of apoE3 than apoE4 was confirmed by im",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 7C-D",
+   "Effect size": "~0.66x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.05",
+   "P value provenance": "printed_in_text",
+   "Sample size": "9",
+   "Sample size provenance": "printed_in_text"
+  },
+  "reason": "The quote cites Fig 7 C and D, and 7D quantifies the confocal result: the legend gives n = 9 and only '*, p < 0.05', and the image shows the star over the E3-E4 bracket. E4 apoE-in-lysosomes reads ~0.66 of E3.",
+  "evidence": "Legend 7D: 'the amounts of apoE that co-localized with lysosomes were quantified by ImageJ. Data are plotted as mean +/- S.E. ( n = 9). *, p < 0.05.' Packet image figimg/5.png (actually Fig 7) panel D: E3 = 1.0 (top y=541), E4 ~0.66 (top y=600, baseline y=713), '*' over the bracket."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P9",
+  "finding_id": "P9.F1",
+  "key": "pmid33716161",
+  "quote_start": "Remarkably, 27-OHC strongly augmented δ-secretase levels and triggered",
+  "verdict": "OK",
+  "reason": "Quote verbatim (two consecutive sentences); Fig 1H-I legend: three independent experiments, one star key for the joint panels and no image, so ambiguous_panel is right.",
+  "evidence": "Fig 1 legend (H-I): 'SY-SY5Y cells were treated with vehicle, cholesterol (50 uM), 27-OHC (10 uM) or/and rApoE3/4 (100 nM) for 3 days ... Data represent of three independent experiments (*p < 0.05, **p < 0.01, one-way ANOVA and Bonferroni's multiple comparison test).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P9",
+  "finding_id": "P9.F2",
+  "key": "pmid33716161",
+  "quote_start": "By contrast, cholesterol weakly activated δ-secretase in the lysosomes",
+  "verdict": "OK",
+  "reason": "Quote verbatim; this is a null (failed translocation), so not_found_in_source for P is fine; n = 3 from the legend; the description correctly notes the 'rat neuronal medium' wording versus the SH-SY5Y legend.",
+  "evidence": "Results: 'By contrast, cholesterol weakly activated d-secretase in the lysosomes in the presence of rApoE4 but not rApoE3, but it failed to elicit active d-secretase cytosolic translocation or secretion (Figure 1H-I).' Earlier: 'Though d-secretase FL was demonstrable in the rat neuronal medium under all conditions'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P9",
+  "finding_id": "P9.F3",
+  "key": "pmid33716161",
+  "quote_start": "By contrast, cholesterol weakly activated δ-secretase in the lysosomes",
+  "verdict": "OK",
+  "reason": "Quote verbatim; n = 3 and ambiguous_panel match the joint Fig 1H-I legend.",
+  "evidence": "Same sentence as P9.F2; Fig 1 legend (H-I): 'Data represent of three independent experiments (*p < 0.05, **p < 0.01 ...)'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P22",
+  "finding_id": "P22.F1",
+  "key": "pmid34472467",
+  "quote_start": "In these astrocytes, autophagy was found to be defective at the initia",
+  "verdict": "DROP",
+  "reason": "This is a perspective article; the sentence restates Simonovitch et al. (2016), a cited study, not a result of this paper.",
+  "evidence": "Text: 'the effects of APOE3 and APOE4 expression on autophagy in astrocytes ... were determined ... (Simonovitch et al., 2016). In these astrocytes, autophagy was found to be defective at the initiation step (autophagosome formation) and at the cargo degradation step.' The supplement is the open peer review calling it a 'perspective article'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P22",
+  "finding_id": "P22.F2",
+  "key": "pmid34472467",
+  "quote_start": "In addition, the interaction of the autophagic proteins LC3-II and p62",
+  "verdict": "DROP",
+  "reason": "Perspective article; the sentence restates Schmukler et al. (2020), a cited study, not a result of this paper.",
+  "evidence": "Text: 'Indeed, in these astrocytes, reduced proteasomal and lysosomal turnover of parkin underlie increased parkin levels (Schmukler et al., 2020) ... In addition, the interaction of the autophagic proteins LC3-II and p62 with the mitochondria, and the lysosomal degradation of mitochondrial LC3-II and p62 were reduced in APOE4 astrocytes.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P6",
+  "finding_id": "P6.F1",
+  "key": "pmid36385529",
+  "quote_start": "APOE4 oligodendroglia exhibited significantly (p = 0.0069) more Bodipy",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "5.4x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Quote, P = 0.0069 and n = 4 (legend) are right. The paper's Extended Data source data (sheet '7d', 4 replicates per genotype) give APOE3/3 mean 100.0 vs APOE4/4 mean 539.8 -> 5.4x. (A Student t-test on those values gives p = 0.004 rather than 0.0069, so keep the printed P.)",
+  "evidence": "supp/NIHMS1855680-supplement-Extended_Data_Figure_Source_Data.xlsx, sheet 7d: 'APOE3/3 (P)' 80.20, 169.49, 100.38, 49.92; 'APOE4/4 (I)' 571.06, 306.29, 517.91, 763.76. ED Fig 7 legend d: 'Percent of Bodipy-cholesterol staining in lysosome ... Bars represent means from four biological replicates. p value was calculated using unpaired, two-tailed student's t-test.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P18",
+  "finding_id": "P18.F1",
+  "key": "pmid29946028",
+  "quote_start": "In contrast, we observed >1 pH unit elevation of lysosomal pH in ApoE4",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "dpH=1.12",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Quote, P = 0.0009 and n = 3 are right. Fig 3C prints the group means on the bars (ApoE3 4.08, ApoE4 5.20), so the effect is dpH = 1.12 rather than 'qualitative'.",
+  "evidence": "figimg/3.png panel C 'Lysosomal pH': bar labels ApoE3 4.08, ApoE4 5.20, '***' bracket. Legend: '( C ) Lysosomal pH was elevated by >1 pH unit in ApoE4 astrocytes (*** P = 0.0009, Student's t test; n = 3).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P36",
+  "finding_id": "P36.F1",
+  "key": "pmid18448646",
+  "quote_start": "Double-labeling confocal microscopy, using the lysosomal marker cathep",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig 8 is representative cathepsin D/Abeta confocal images with no quantification, P or n; the system details (male, 3-4 months, 8 backcross generations, 0.25 ul/h Alzet pumps) match methods.",
+  "evidence": "Results: 'the CA1 neurons of the thiorphan-treated apoE4 mice contained intracellular punctate cathepsin D-positive lysosomes, the size and levels of which were markedly higher than those of the corresponding apoE3 mice ... ( Fig. 8 ).' Legend: 'apoE4-treated mice have higher punctated and diffuse lysosomal staining than the corresponding apoE3 mice.'"
+ }
+]

@@ -21,6 +21,7 @@ import subprocess
 import sys
 
 import openpyxl
+from openpyxl.cell.cell import ILLEGAL_CHARACTERS_RE
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "pipeline"))
@@ -99,12 +100,28 @@ def load_corrections():
     return json.load(open(path))["corrections"] if path.exists() else []
 
 
+_DOI = {}
+
+
+def same_paper(k1, k2):
+    for k in (k1, k2):
+        if k not in _DOI:
+            mp = ROOT / "data/papers" / k / "meta.json"
+            _DOI[k] = str(json.load(open(mp)).get("doi") or "").lower() if mp.exists() else ""
+    return bool(_DOI[k1]) and _DOI[k1] == _DOI[k2]
+
+
 def apply_corrections(key, findings, corrections, unmatched=None, hyp=None):
     """Match every correction against the findings as extracted (before any correction changes a quote or
     summary), then apply. Identical duplicate findings all take the correction (dedupe keeps one)."""
     def norm(x):
-        return re.sub(r"\s+", " ", str(x)).strip()
-    mine = [c for c in corrections if c["key"] == key and c.get("hyp") in (None, hyp)]
+        # the sheet strips control characters (PDF fonts sometimes encode a Greek letter as \x02), so match without
+        # them; dashes count as one character, since a correction may rewrite "7–10" as "7-10"
+        x = re.sub("[‐-―−]", "-", ILLEGAL_CHARACTERS_RE.sub("", str(x)))
+        return re.sub(r"\s+", " ", x).strip()
+    # a paper can have two keys with one DOI (a bioRxiv preprint that PubMed also indexes): a correction
+    # written against either key applies to the copy that is in the sheet
+    mine = [c for c in corrections if c.get("hyp") in (None, hyp) and (c["key"] == key or same_paper(c["key"], key))]
     # stage 1 (spot-checks, row audit) matches the rows as extracted; stage 2 (directness pass) was
     # reviewed on the corrected sheet, so it matches the rows as stage 1 left them
     for stage in sorted({c.get("stage", 1) for c in mine}):
@@ -226,10 +243,20 @@ def comparison(f):
 def dedupe_findings(fs):
     """Same panel, same quote or near-identical description -> keep the most relevant one."""
     kept = []
+    def numeric(x):
+        return str(x.get("effect_size", "")).lower() not in ("qualitative", "n/a", "")
     for f in fs:  # fs sorted by relevance, highest first
         words = set(re.findall(r"[a-z0-9]+", str(f.get("description")).lower()))
         dup = False
-        for k in kept:
+        for n, k in enumerate(kept):
+            if k.get("quote") not in (None, "", "N/A") and k.get("quote") == f.get("quote") \
+                    and str(k.get("summary")).strip() == str(f.get("summary")).strip():
+                # the same comparison told by the same sentence, e.g. a representative-image panel and its
+                # quantification: keep the row that carries a number
+                if numeric(f) and not numeric(k):
+                    kept[n] = f
+                dup = True
+                break
             if k.get("quote") not in (None, "", "N/A") and k.get("quote") == f.get("quote") \
                     and k.get("direction") == f.get("direction") and k.get("effect_size") == f.get("effect_size"):
                 dup = True  # same sentence, same result: e.g. a quantification panel and its representative images
@@ -280,11 +307,19 @@ def build(H, out):
             if f.get("correction"):
                 code_checks(f, text)
                 if f.get("code_problems"):
-                    print(f"correction undone ({'; '.join(f['code_problems'])}): {r['key']} '{str(f.get('quote'))[:50]}'")
-                    f.update(f["precorrection"])
+                    # undo only the corrected fields the checks complain about (a stale provenance must not
+                    # take a valid directness change down with it); undo everything if that is not enough
+                    probs = f["code_problems"]
+                    bad = [k for k in f["precorrection"] if any(k.split("_provenance")[0] in p for p in probs)]
+                    print(f"correction partly undone ({'; '.join(probs)}; fields {bad}): {r['key']} '{str(f.get('quote'))[:50]}'")
+                    for k in bad:
+                        f[k] = f["precorrection"][k]
                     code_checks(f, text)
                     if f.get("code_problems"):
-                        continue
+                        f.update(f["precorrection"])
+                        code_checks(f, text)
+                        if f.get("code_problems"):
+                            continue
             kept.append(f)
         fs = kept
         if not fs:

@@ -1,0 +1,241 @@
+[
+ {
+  "item": 1,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "After cholesterol supplementation from 15 to 18 DIV, somatic DQ-BSA degradation was numerically lower in ApoE4 than ApoE3 neurons (0.54 vs 1.04 of untreated ApoE3) but not significantly different (one-way ANOVA across KO/E3/E4, p = 0.18; no pairwise ApoE4-vs-ApoE3 test reported); n counts embryos.",
+   "Effect size": "0.52x",
+   "Effect size provenance": "supplement_only",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source"
+  },
+  "why": "Group means, fold and n check against the text, but p = 0.18 is the three-group one-way ANOVA including the KO arm, not a pairwise ApoE4-vs-ApoE3 test, so P stays N/A (not_found_in_source) and the omnibus p moves into the description."
+ },
+ {
+  "item": 2,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "Across all cholesterol-supplemented cultures, accumulated Filipin puncta within LAMP1+ vesicles were numerically higher in ApoE4 than ApoE3 neurons (9.7 vs 4.7 per cell body) but not significantly different (one-way ANOVA across KO/E3/E4, p = 0.207; no pairwise ApoE4-vs-ApoE3 test reported); n counts embryo-derived cultures.",
+   "Effect size": "2.06x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source"
+  },
+  "why": "Group means, fold and n check against the text, but p = 0.207 is the three-group one-way ANOVA including the KO arm, not a pairwise ApoE4-vs-ApoE3 test, so P stays N/A (not_found_in_source) and the omnibus p moves into the description."
+ },
+ {
+  "item": 3,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "After three-day cholesterol supplementation at 25 DIV, somatic DQ-BSA degradation was 0.59 (ApoE4) vs 0.70 (ApoE3) of untreated ApoE3, not significantly different (Kruskal-Wallis across KO/E3/E4, p = 0.272; no pairwise ApoE4-vs-ApoE3 test reported); n counts embryos.",
+   "Effect size": "0.84x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source"
+  },
+  "why": "Group means, fold and n check against the text, but p = 0.272 is the three-group Kruskal-Wallis including the KO arm, not a pairwise ApoE4-vs-ApoE3 test, so P stays N/A (not_found_in_source) and the omnibus p moves into the description."
+ },
+ {
+  "item": 4,
+  "decision": "CONFIRM",
+  "why": "Fig 6 legend prints Tukey's E3 vs E4 p = 0.0006 (80.8% mean difference) with J means E3 = 6.4, E4 = 15.0, and Methods define 'Mean difference = difference/average', so the clarified description is right and the paper's own 80.8% stays as the effect."
+ },
+ {
+  "item": 5,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "At 18 DIV, eight-hour DQ-BSA integrated density in neuronal somata was 0.351 (ApoE4) vs 0.333 (ApoE3), not significantly different (one-way ANOVA across KO/E3/E4, p = 0.582; no pairwise ApoE4-vs-ApoE3 test reported); n counts embryos.",
+   "Effect size": "1.05x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source"
+  },
+  "why": "Group means, fold and n check against the text, but p = 0.582 is the three-group one-way ANOVA including the KO arm, not a pairwise ApoE4-vs-ApoE3 test, so P stays N/A (not_found_in_source) and the omnibus p moves into the description."
+ },
+ {
+  "item": 6,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "After 48-hour bicuculline, somatic DQ-BSA degradation relative to genotype-matched untreated controls was 1.13 (ApoE4) vs 1.26 (ApoE3), not significantly different (one-way ANOVA across KO/E3/E4, p = 0.366; no pairwise ApoE4-vs-ApoE3 test reported); n counts embryos.",
+   "Effect size": "0.90x",
+   "Effect size provenance": "supplement_only",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source"
+  },
+  "why": "Group means, fold and n check against the text, but p = 0.366 is the three-group one-way ANOVA including the KO arm, not a pairwise ApoE4-vs-ApoE3 test, so P stays N/A (not_found_in_source) and the omnibus p moves into the description."
+ },
+ {
+  "item": 7,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "At 25 DIV, mean DQ-BSA fluorescence per somatic punctum was 0.32 (ApoE4) vs 0.35 (ApoE3), not significantly different (one-way ANOVA across KO/E3/E4, p = 0.309; no pairwise ApoE4-vs-ApoE3 test reported); n counts embryos.",
+   "Effect size": "0.91x",
+   "Effect size provenance": "supplement_only",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source"
+  },
+  "why": "Group means, fold and n check against the text, but p = 0.309 is the three-group one-way ANOVA including the KO arm, not a pairwise ApoE4-vs-ApoE3 test, so P stays N/A (not_found_in_source) and the omnibus p moves into the description."
+ },
+ {
+  "item": 8,
+  "decision": "CONFIRM",
+  "why": "Table S4 row S4B prints E3 = 0.40 and E4 = 0.43 (0.43/0.40 = 1.08x, supplement_only), and the S4B legend gives no test or N, so P and n correctly stay N/A."
+ },
+ {
+  "item": 9,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "At 18 DIV, somatic LAMP1-positive compartment number was 41 (ApoE4) vs 40 (ApoE3), not significantly different (one-way ANOVA across KO/E3/E4, p = 0.98; no pairwise ApoE4-vs-ApoE3 test reported); n counts independent embryo-derived cultures.",
+   "Effect size": "1.03x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source"
+  },
+  "why": "Group means, fold and n check against the text, but p = 0.98 is the three-group one-way ANOVA including the KO arm, not a pairwise ApoE4-vs-ApoE3 test, so P stays N/A (not_found_in_source) and the omnibus p moves into the description."
+ },
+ {
+  "item": 10,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "At 25 DIV, neuronal autofluorescent-granule area (lipofuscin surrogate) was 0.453 (ApoE4) vs 0.304 (ApoE3), a trend that was not significant (one-way ANOVA across KO/E3/E4, p = 0.0684; no pairwise ApoE4-vs-ApoE3 test reported); n counts embryos.",
+   "Effect size": "1.49x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source"
+  },
+  "why": "Group means, fold and n check against the text, but p = 0.0684 is the three-group one-way ANOVA including the KO arm, not a pairwise ApoE4-vs-ApoE3 test, so P stays N/A (not_found_in_source) and the omnibus p moves into the description."
+ },
+ {
+  "item": 11,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "After three-day cholesterol supplementation, somatic CD63-positive compartment number was 1.34 (ApoE4) vs 1.18 (ApoE3) of untreated ApoE3, not significantly different (one-way ANOVA across KO/E3/E4, p = 0.173; no pairwise ApoE4-vs-ApoE3 test reported); n counts embryos.",
+   "Effect size": "1.14x",
+   "Effect size provenance": "supplement_only",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source"
+  },
+  "why": "Group means, fold and n check against the text, but p = 0.173 is the three-group one-way ANOVA including the KO arm, not a pairwise ApoE4-vs-ApoE3 test, so P stays N/A (not_found_in_source) and the omnibus p moves into the description."
+ },
+ {
+  "item": 12,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "At 25–26 DIV, somatic LAMP1-positive compartment number was 37 in both ApoE4 and ApoE3 neurons, not significantly different (one-way ANOVA across KO/E3/E4, p = 0.288; no pairwise ApoE4-vs-ApoE3 test reported); n counts embryos.",
+   "Effect size": "1.00x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source"
+  },
+  "why": "Group means, fold and n check against the text, but p = 0.288 is the three-group one-way ANOVA including the KO arm, not a pairwise ApoE4-vs-ApoE3 test, so P stays N/A (not_found_in_source) and the omnibus p moves into the description."
+ },
+ {
+  "item": 13,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "At 25–26 DIV, somatic cathepsin D-positive compartment number was 260.6 (ApoE4) vs 178.5 (ApoE3), a nonsignificant trend (one-way ANOVA across KO/E3/E4, p = 0.09; no pairwise ApoE4-vs-ApoE3 test reported); n counts embryos.",
+   "Effect size": "1.46x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source"
+  },
+  "why": "Group means, fold and n check against the text, but p = 0.09 is the three-group one-way ANOVA including the KO arm, not a pairwise ApoE4-vs-ApoE3 test, so P stays N/A (not_found_in_source) and the omnibus p moves into the description."
+ },
+ {
+  "item": 14,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "At 18 DIV, whole-culture LAMP1 protein (normalized to β-actin) was 0.81 (ApoE4) vs 1.09 (ApoE3), not significantly different (Kruskal-Wallis across KO/E3/E4, p = 0.196; no pairwise ApoE4-vs-ApoE3 test reported); n counts embryos.",
+   "Effect size": "0.74x",
+   "Effect size provenance": "supplement_only",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source"
+  },
+  "why": "Group means, fold and n check against the text, but p = 0.196 is the three-group Kruskal-Wallis including the KO arm, not a pairwise ApoE4-vs-ApoE3 test, so P stays N/A (not_found_in_source) and the omnibus p moves into the description."
+ },
+ {
+  "item": 15,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "Magic Red Cathepsin B quantification across three independent experiments showed reduced lysosomal cathepsin-dependent proteolysis in APOE4 versus APOE3 Neuro-2a cells (APOE3 normalized to 1.0, APOE4 ~0.75).",
+   "Data location": "Fig 1G",
+   "Effect size": "~25%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source"
+  },
+  "why": "Fig 1G is the quantification (APOE4 bar ~0.76 of APOE3), but its single '*' cannot be used: the Fig 1 key is garbled ('*p < .05, ****p < .01, *p < .0001' assigns '*' two thresholds) and the brief's ruling allows only '****' for this paper, so P stays N/A (note for the lane: p < .05 would hold under either reading of '*', if the ruling is ever relaxed)."
+ },
+ {
+  "item": 16,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "~35%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.0005",
+   "P value provenance": "visual_only"
+  },
+  "why": "Fig 6B shows '****' over the LGALS3BP pair (APOE3 ~95, APOE4 ~60 on a 0-600 axis), but the Fig 6 legend literally prints '****p < .0005', so the safe bound is <0.0005, not the reconstructed <0.0001."
+ },
+ {
+  "item": 17,
+  "decision": "ADJUST",
+  "set": {
+   "P value": "<0.01",
+   "P value provenance": "visual_only"
+  },
+  "why": "Fig 1I has '****' over the FCCP APOE3-vs-APOE4 pair, but the Fig 1 key literally prints '****p < .01'; per the ruling for this paper only that literal bound is usable, not p < 0.0001."
+ },
+ {
+  "item": 18,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "~57%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.01",
+   "P value provenance": "visual_only"
+  },
+  "why": "Fig 1A DMSO bars read APOE3 1.0 vs APOE4 ~0.43 with '****' on that bracket, but the Fig 1 key literally prints '****p < .01', so P is <0.01, not <0.0001."
+ },
+ {
+  "item": 19,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "~10%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.01",
+   "P value provenance": "visual_only"
+  },
+  "why": "Fig 1H bars read APOE3 ~0.88 vs APOE4 ~0.79 with '****', but the Fig 1 key literally prints '****p < .01', so P is <0.01, not <0.0001."
+ },
+ {
+  "item": 20,
+  "decision": "CONFIRM",
+  "why": "The supplement legend has S1E as the representative LC3 blot and S1F as the LC3-II:LC3-I quantification across three replicates, and the quote cites Fig. S1D-F, so S1E-F is the right location."
+ },
+ {
+  "item": 21,
+  "decision": "CONFIRM",
+  "why": "The supplement legend defines S1C as 'Lysosomal density per cell based on images such as those in panel B', so the density result is in S1C."
+ },
+ {
+  "item": 22,
+  "decision": "CONFIRM",
+  "why": "Fig 4M reads E3 ~0.62 to ~0.95 (~1.5-fold) and E4 ~0.45 to ~1.01 (~2.2-fold) with no E3-vs-E4 bracket, so ~1.2x matches no comparison and the response ratio ~1.5x, with both folds named, fits the row's 'greater surface LRP8 response'; the legend confirms excess reelin and three experiments."
+ },
+ {
+  "item": 23,
+  "decision": "CONFIRM",
+  "why": "Fig 4M prints 'p < 0.0001' on the E4 axotomy(-) vs (+) bracket and 'p = 0.8156' on Ctrl, numbers printed on the figure count as printed_in_text, and the ~2.2x fold matches the bars."
+ },
+ {
+  "item": 24,
+  "decision": "CONFIRM",
+  "why": "Fig 2K prints p = 0.0311 on the APOE3-APOE4 bracket, the legend gives N = 18 wells per genotype across two lines with an unpaired t-test, and the APOE4 mean reads ~0.8 of APOE3, so the quantified row is right."
+ },
+ {
+  "item": 25,
+  "decision": "CONFIRM",
+  "why": "Fig 5J prints p = 0.0359 on the darkGFP-vs-INPP5D bracket, and the INPP5D mean (~0.5) against darkGFP (~1.0) gives ~0.5x, matching the quoted result."
+ }
+]

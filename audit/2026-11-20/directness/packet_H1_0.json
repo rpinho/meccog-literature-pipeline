@@ -1,0 +1,223 @@
+{
+ "hyp": "H1",
+ "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes reduced endosome pH compared with APOE3.",
+ "A": "APOE genotype or apoE isoform (APOE4 vs APOE3)",
+ "B": "endosomal pH (endosome/endolysosome luminal acidity)",
+ "scope": "IN: endosomal or endolysosomal luminal pH/acidity, and lysosomal pH as a neighbouring compartment (a contrary or related result); acidity probes of those compartments (ratiometric dextran/transferrin pH probes, LysoTracker, LysoSensor, pHrodo when read as acidity); regulators on the path to endosomal pH (NHE6/NHE9 expression or function, V-ATPase, the HDAC-CREB-NHE6 axis) measured or manipulated in an APOE4 context. OUT: mitochondrial/mitophagy pH, mTOR or other signalling readouts, whole-proteome changes, cell viability, amyloid or cargo uptake not read as compartment acidity.",
+ "papers": [
+  {
+   "paper_id": "P2",
+   "doi": "10.64898/2026.05.12.724612",
+   "rows": [
+    {
+     "Paper/Finding ID": "P2.F1",
+     "Finding description": "Human isogenic APOE33 and APOE44 iPSC-derived microglia showed no significant difference in baseline late-endosomal/lysosomal pH, reported as approximately 5.15, with three wells per group.",
+     "Finding quote": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (∼5.15), APOE33 iMG exhibited further acidification upon challenge (∼5.05), whereas APOE44 iMG failed to do so (Figure 3G).",
+     "Finding summary": "(APOE3 -> APOE4) -> (no change in baseline late-endosomal/lysosomal pH in human iPSC-derived microglia)",
+     "Experimental system": "Human isogenic APOE33 and APOE44 iPSC-derived microglia from the male KOLF background; Jackson Laboratory lines JIPSC001000 and JIPSC001150. Untreated baseline late-endosomal/lysosomal pH measured ratiometrically with dextran polymers labeled with pH-sensitive ApHID and pH-independent Alexa 647; three wells per group, nine imaging frames per well. Donor age and AD status were not specified for this isogenic pair.",
+     "Data location": "Fig 3G, untreated APOE33 vs untreated APOE44",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P2.F2",
+     "Finding description": "After organoid-debris challenge, human isogenic APOE33 microglia acidified from about pH 5.15 to 5.05 (*** vs untreated APOE33 in Fig 3G), whereas APOE44 microglia did not acidify significantly (ns vs untreated APOE44); debris-treated APOE44 late-endosomal/lysosomal pH was about 0.08 units higher than debris-treated APOE33 (about 5.13 vs 5.05, read from Fig 3G), with three wells per group.",
+     "Finding quote": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (∼5.15), APOE33 iMG exhibited further acidification upon challenge (∼5.05), whereas APOE44 iMG failed to do so (Figure 3G).",
+     "Finding summary": "(APOE3 -> APOE4) -> (impaired challenge-induced late-endosomal/lysosomal acidification in human iPSC-derived microglia)",
+     "Experimental system": "Human isogenic APOE33 and APOE44 iPSC-derived microglia from the male KOLF background; Jackson Laboratory lines JIPSC001000 and JIPSC001150. Organoid-debris challenge followed by ratiometric late-endosomal/lysosomal pH imaging using dextran-conjugated ApHID and Alexa 647; three wells per group, nine frames per well. Challenge duration and donor age/AD status were not specified in the supplied text.",
+     "Data location": "Fig 3G, APOE33+debris vs APOE44+debris (also each vs its untreated genotype)",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P2.F3",
+     "Finding description": "In the female UCI5 isogenic pair, organoid-debris challenge lowered APOE33 microglial late-endosomal/lysosomal pH (about 5.30 to 5.24, * vs untreated in Fig 7M) but raised APOE44 pH (about 5.29 to 5.40, *** vs untreated); debris-treated APOE44 pH was about 0.17 units higher than debris-treated APOE33 (about 5.40 vs 5.24, read from Fig 7M), with three wells per group.",
+     "Finding quote": "Upon challenge with organoid debris, UCI5 APOE44 iMG lysosomes failed to mount an adaptive acidification response and instead shifted toward alkalinization (Figure 7M).",
+     "Finding summary": "(APOE3 -> APOE4) -> (impaired adaptive endolysosomal acidification, with challenge-induced alkalinization reported in APOE4 microglia)",
+     "Experimental system": "Human iPSC-derived microglia from the additional female UCI5 APOE33/APOE44 isogenic pair, assayed untreated and after organoid-debris challenge. Late-endosomal/lysosomal acidity measured ratiometrically with dextran polymers labeled with ApHID and Alexa 647; three wells per group, 25 frames per well. Donor age, AD status, and challenge duration were not specified in the supplied text.",
+     "Data location": "Fig 7M, UCI5 (33)+debris vs UCI5 (44)+debris (also each vs its untreated genotype)",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P2.F4",
+     "Finding description": "Proteomics comparing human isogenic APOE44 with APOE33 microglia found significant downregulation of 53 of 84 identified lysosomal hydrolases and V-ATPases, without separately reporting the V-ATPase subset.",
+     "Finding quote": "Of the 84 identified lysosomal hydrolases and V-ATPases, 53 were significantly downregulated in APOE44 iMG, supporting lysosomal impairment (Figure S3D).",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower abundance of a combined lysosomal hydrolase/V-ATPase protein set)",
+     "Experimental system": "Proteomic analysis of human isogenic APOE33 and APOE44 iPSC-derived microglia from the male KOLF background; Jackson Laboratory lines JIPSC001000 and JIPSC001150. Identified lysosomal proteins were assessed for differential abundance. This measures a protein set containing acidification regulators rather than luminal pH itself.",
+     "Data location": "Supplementary Fig S3D; numerical counts reported in main Results",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  },
+  {
+   "paper_id": "P8",
+   "doi": "10.1016/j.celrep.2023.113183",
+   "rows": [
+    {
+     "Paper/Finding ID": "P8.F1",
+     "Finding description": "APOE4 astrocytes showed significantly higher lysosomal LysoTracker mean intensity than isogenic APOE3 astrocytes (about 41 vs 55 a.u. read from Fig 3G, ~35% higher), consistent with increased acidic-compartment staining but without a measured luminal pH difference.",
+     "Finding quote": "We also observed that ApoE4 increased the intensity of LysoTracker, which is positively associated with lysosomal ac- tivity (Figure 3G",
+     "Finding summary": "(APOE3 -> APOE4) -> (higher lysosomal LysoTracker intensity in human astrocytes)",
+     "Experimental system": "Human AG10788 AD-donor iPSC-derived APOE4 astrocytes and CRISPR-corrected isogenic APOE3 astrocytes; donor female, age 87; serum withdrawn at least 4 days; LysoTracker Red DND-99 staining at 250 nM for 30 minutes, fixation, confocal imaging, and mean signal-intensity quantification; no ratiometric pH calibration.",
+     "Data location": "Fig 3G",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P8.F2",
+     "Finding description": "Four-day methyl-β-cyclodextrin treatment lowered elevated LysoTracker intensity in APOE4 astrocytes; cholesterol is a downstream intervention target and LysoTracker intensity is an indirect acidity readout.",
+     "Finding quote": "We further observed restoration of lysosomal activity, as indicated by the mitigated intensity of LysoTracker after lysosomal cholesterol depletion (Figures 4D and 4F).",
+     "Finding summary": "(cholesterol depletion in APOE4 astrocytes) -> (lower lysosomal LysoTracker intensity)",
+     "Experimental system": "Human AG10788 AD-donor iPSC-derived APOE4 astrocytes, female donor age 87; methyl-β-cyclodextrin versus untreated APOE4 cells for 4 days; confocal quantification of lysosomal LysoTracker intensity; no calibrated luminal pH measurement.",
+     "Data location": "Fig 4F, APOE4 plus methyl-β-cyclodextrin versus untreated APOE4",
+     "Directness class": 5,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  }
+ ],
+ "reference_rows": [
+  {
+   "finding_id": "P1.F1",
+   "summary": "(APOE3 -> APOE4) -> (higher endosomal pH in human iPSC-derived brain endothelial cells)",
+   "system": "Human iPSC-derived brain endothelial cells (iCE-BECs), homozygous APOE3 versus APOE4 in two isogenic pairs: Bioni037-A (16423) versus Bioni037-A4 (I40-53), orig",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P3.F1",
+   "summary": "(APOE3 -> APOE4) -> (no change in endolysosomal pH in human iPSC-derived cortical neurons)",
+   "system": "Human cortical neurons differentiated from EBiSC isogenic iPSC lines APOE ε3/ε3 (BIONi010-C-2), APOE ε4/ε4 (BIONi010-C-4), APOE ε2/ε2 (BIONi010-C-6), and APOE-n",
+   "class": 1,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P4.F1",
+   "summary": "(APOE3 -> APOE4) -> (lower LysoTracker fluorescence in human astrocytes, suggesting reduced lysosomal acidity and higher lysosomal pH)",
+   "system": "Human APOE3- versus APOE4-expressing astrocyte cultures previously described in reference 23; derivation, donor age, and isogenic status are not specified in th",
+   "class": 3,
+   "strength": "5 very weak"
+  },
+  {
+   "finding_id": "P5.F1",
+   "summary": "(APOE3 -> APOE4) -> (higher acidic-organellar pH in immortalized mouse astrocytes)",
+   "system": "Immortalized mouse astrocytes from human APOE3 or APOE4 targeted-replacement mice, provided by Dr. Holtzman; donor age and strain background not stated for thes",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P5.F2",
+   "summary": "(APOE3 -> APOE4) -> (higher V-ATPase V0D1 expression in immortalized mouse astrocytes)",
+   "system": "Immortalized mouse astrocytes from human APOE3 or APOE4 targeted-replacement mice, provided by Dr. Holtzman; donor age and strain background not stated for thes",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P6.F1",
+   "summary": "(APOE3 -> APOE4) -> (lower endosomal pH in mouse astrocytes)",
+   "system": "Cultured mouse astrocytes from ApoE-knockout mice with isogenic knock-in of human APOE3 or APOE4, provided by David M. Holtzman; donor age, strain background, a",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P6.F2",
+   "summary": "(APOE3 -> APOE4) -> (higher lysosomal pH in mouse astrocytes)",
+   "system": "Cultured mouse astrocytes from ApoE-knockout mice with isogenic knock-in of human APOE3 or APOE4, provided by David M. Holtzman; donor age and strain background",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P6.F3",
+   "summary": "(APOE3 -> APOE4) -> (lower NHE6 protein abundance in mouse astrocytes)",
+   "system": "Cultured mouse astrocytes from ApoE-knockout mice with isogenic knock-in of human APOE3 or APOE4, provided by David M. Holtzman; maintained in DME-F12 with 10% ",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P6.F4",
+   "summary": "(APOE3 -> APOE4) -> (lower NHE6 transcript abundance in mouse astrocytes); (APOE-knockout -> APOE3) -> (no change in NHE6 transcript abundance)",
+   "system": "Cultured mouse astrocytes from ApoE-knockout mice with isogenic knock-in of human APOE3 or APOE4, compared with isogenic ApoE-knockout astrocytes; provided by D",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P6.F5",
+   "summary": "(DMSO -> TSA treatment in APOE4 astrocytes) -> (higher endosomal pH)",
+   "system": "Cultured mouse astrocytes from ApoE-knockout mice with isogenic knock-in of human APOE4, provided by David M. Holtzman; TSA (5 μM, 12 h) versus DMSO. Endosomal ",
+   "class": 5,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P6.F6",
+   "summary": "Wild-type NHE6 raised endosomal pH in APOE4 mouse astrocytes. Neither tested variant reproduced that effect.",
+   "system": "Cultured mouse astrocytes from ApoE-knockout mice with isogenic human APOE4 knock-in, supplied by David M. Holtzman; lentiviral expression of GFP-tagged wild-ty",
+   "class": 5,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P6.F7",
+   "summary": "(APOE3 -> APOE4) -> (lower NHE9 and lysosomal V-ATPase V0a1 transcripts; no change in plasma-membrane NHE1 transcripts in mouse astrocytes)",
+   "system": "Cultured mouse astrocytes from ApoE-knockout mice with isogenic knock-in of human APOE3 or APOE4, provided by David M. Holtzman; maintained in DME-F12 with 10% ",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P6.F8",
+   "summary": "(APOE3 -> APOE4) -> (greater HDAC4 colocalization with nuclear DAPI in mouse astrocytes)",
+   "system": "Cultured mouse astrocytes from ApoE-knockout mice with isogenic knock-in of human APOE3 or APOE4, supplied by David M. Holtzman; no additional treatment specifi",
+   "class": 3,
+   "strength": "5 very weak"
+  },
+  {
+   "finding_id": "P6.F9",
+   "summary": "(vehicle -> monensin) -> (higher endosomal pH in APOE4 mouse astrocytes)",
+   "system": "Cultured mouse astrocytes from ApoE-knockout mice with isogenic human APOE4 knock-in, provided by David M. Holtzman; donor age and mouse strain background unspe",
+   "class": 5,
+   "strength": "5 very weak"
+  },
+  {
+   "finding_id": "P7.F1",
+   "summary": "(APOE3 -> APOE4) -> (lower baseline lysosomal pH in primary mouse microglia); (myelin challenge) -> (lower lysosomal pH in APOE3 microglia; no change in lysosomal pH in APOE4 microglia)",
+   "system": "Primary microglia from pooled forebrains of P1–3 homozygous human APOE3 or APOE4 targeted-replacement mice on a C57BL/6 background; enriched after approximately",
+   "class": 3,
+   "strength": "5 very weak"
+  },
+  {
+   "finding_id": "P9.F1",
+   "summary": "(APOE3 -> APOE4) -> (higher lysosomal pH in murine Neuro-2a cells)",
+   "system": "Male murine Neuro-2a neuroblastoma cell lines expressing transgenic full-length human APOE3 or APOE4, compared with parental cells lacking human APOE; endogenou",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P9.F2",
+   "summary": "(HsAPOE3 -> HsAPOE4) -> (reduced acidic-compartment LysoTracker staining in mouse Neuro-2a cells)",
+   "system": "Murine male Neuro-2a neuroblastoma cell lines modified to express full-length human APOE3 or APOE4 from the human APOE locus with flanking genomic regions; endo",
+   "class": 3,
+   "strength": "5 very weak"
+  },
+  {
+   "finding_id": "P9.F3",
+   "summary": "(TMED5 knockdown vs scrambled control in APOE4 Neuro-2a cells) -> (lower relative lysosomal pH)",
+   "system": "Murine male Neuro-2a neuroblastoma cells modified to express full-length human APOE4, with endogenous mouse Apoe intact; human APOE3-expressing Neuro-2a cells t",
+   "class": 5,
+   "strength": "5 very weak"
+  },
+  {
+   "finding_id": "P9.F4",
+   "summary": "(LGALS3BP knockdown in HsAPOE3 Neuro-2a cells) -> (higher relative lysosomal pH)",
+   "system": "Murine male Neuro-2a neuroblastoma cells expressing transgenic full-length human APOE3, with endogenous mouse Apoe intact; passages 5–10; 48 h siRNA-mediated Lg",
+   "class": 5,
+   "strength": "5 very weak"
+  },
+  {
+   "finding_id": "P10.F1",
+   "summary": "(APOE3 -> APOE4) -> (lower total somatic LysoTracker intensity in primary mouse neurons, consistent with reduced endolysosomal acidification)",
+   "system": "Primary neurons in mixed hippocampal/cortical cultures harvested from embryonic day 15–17 human APOE3 or APOE4 targeted-replacement mice, cultured to 25–26 DIV ",
+   "class": 3,
+   "strength": "5 very weak"
+  }
+ ]
+}

@@ -1,0 +1,148 @@
+[
+ {
+  "item": 0,
+  "decision": "CONFIRM",
+  "why": "Fig 7H re-measured: apoE3 mean ~0.20, apoE4 ~0.27 tM1 on the 0-0.5 axis, ~1.3x; '**' over the bracket with the legend key P<0.01 and n=34/33 cells as printed."
+ },
+ {
+  "item": 1,
+  "decision": "CONFIRM",
+  "why": "Fig 4C is readable and its only brackets run from C+R (Dunnett vs control); no E3+R vs E4+R mark exists, so not_found_in_source is right; pixel reading E3+R ~78, E4+R ~27 keeps ~64%."
+ },
+ {
+  "item": 2,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "~3.6x",
+   "P value provenance": "not_found_in_source"
+  },
+  "why": "No bracket spans the two genotypes, so not_found_in_source is right, but pixel measurement (0 at y=446, 100 at y=339.3) puts Slc9a6- E4+R at ~99 and Slc9a6+ E4+R at ~27.2, i.e. ~3.6x, not 3.7x."
+ },
+ {
+  "item": 3,
+  "decision": "CONFIRM",
+  "why": "Effect ~67% is within reading of Fig 4D (E3+R ~75, E4+R ~26) and no E3-vs-E4 mark exists; the class change rests on B being a surrogate (surface level of a non-apoE-binding, co-trafficked receptor, not recycling or binding), matching the identical-form ApoER2 row (class 3), not on the cells being mouse."
+ },
+ {
+  "item": 4,
+  "decision": "CONFIRM",
+  "why": "Fig 4E reads E3+R ~76, E4+R ~34 (~55%); class 1 is inconsistent with the identical-form ApoER2 row and the GluA1 surface level is a surrogate B readout, so class 3 / 3 moderate is justified on form, not species."
+ },
+ {
+  "item": 5,
+  "decision": "CONFIRM",
+  "why": "Fig 4F reads E3+R ~77, E4+R ~31 (~60%); same surrogate-B reasoning as the GluN2B/GluA1 rows supports class 3 / 3 moderate."
+ },
+ {
+  "item": 6,
+  "decision": "CONFIRM",
+  "why": "Pixel measurement of Fig 4D gives Slc9a6- E4+R ~93 over Slc9a6+ E4+R ~25.7, ~3.6x; no cross-genotype bracket on a readable panel, so not_found_in_source."
+ },
+ {
+  "item": 7,
+  "decision": "CONFIRM",
+  "why": "Same NHE6-rescue design as P11.F3/F8 (APOE4 fixed, NHE6 manipulated), a form-relative-to-A reason for class 5; Fig 4E Slc9a6- E4+R ~98 vs Slc9a6+ E4+R ~34 keeps ~2.9x."
+ },
+ {
+  "item": 8,
+  "decision": "CONFIRM",
+  "why": "Same NHE6-rescue form as P11.F3/F8, so class 5 / 4 weak is consistent; Fig 4F ~98 vs ~31 keeps ~3.2x."
+ },
+ {
+  "item": 9,
+  "decision": "CONFIRM",
+  "why": "Fig 3G re-measured: E3 ~0.99, E4 ~1.26 (~1.3x) on a zero-based axis; the only bracket is E2-E4 '*' and the text itself limits significance to E4 > E2, so a non-significant E3-E4 difference cannot be '2 strong' and the new description is accurate."
+ },
+ {
+  "item": 10,
+  "decision": "CONFIRM",
+  "why": "Fig 4E Lamp2 panel (zero-based, E3 = 1.0) reads E4 ~0.57; a '**' bracket spans E3-E4 and the legend keys **p < 0.01 with Tukey post hoc (pairwise)."
+ },
+ {
+  "item": 11,
+  "decision": "CONFIRM",
+  "why": "Fig 1A LC3 ratio (zero-based) reads APOE3 ~1450, APOE4 ~2670 (~1.8x) with a '****' APOE3-APOE4 bracket; legend keys ****P<0.0001 after multiple-comparisons correction; dropping the unrelated APOE clause from Data location is right."
+ },
+ {
+  "item": 12,
+  "decision": "CONFIRM",
+  "why": "Fig 3A Lysosome area (axis 25-45) reads APOE3 ~29.4, APOE4 ~39.9 (~1.36x), '**' bracket, two-group t-test keyed **P<0.01."
+ },
+ {
+  "item": 13,
+  "decision": "CONFIRM",
+  "why": "Fig 7C left panel reads APOE4 EEA1 ~0.029 and APOE4 Rab7 ~0.102 (~3.5x Rab7 over EEA1, matching the summary's comparison) with a '*' bracket over the APOE4 pair only; legend key *P<0.05 with Tukey-Kramer."
+ },
+ {
+  "item": 14,
+  "decision": "CONFIRM",
+  "why": "Fig 1C Beclin1 reads APOE3 ~166, APOE4 ~207 (~1.24x) with a '*' APOE3-APOE4 bracket; ATG7 ~688 vs ~622 (~0.90x) with '**'; the LAMP2A clause did not belong in Data location."
+ },
+ {
+  "item": 15,
+  "decision": "CONFIRM",
+  "why": "Fig 3A colocalization panel (zero-based) reads APOE3 ~0.011, APOE4 ~0.037 (~3.3x), '**' bracket, legend key **P<0.01 (t-test)."
+ },
+ {
+  "item": 16,
+  "decision": "CONFIRM",
+  "why": "Fig 3B (zero-based) reads APOE3 ~2.15, APOE4 ~0.79 (~0.37x, comparison over reference), '*' bracket, legend key *P<0.05 (t-test)."
+ },
+ {
+  "item": 17,
+  "decision": "CONFIRM",
+  "why": "Quote verified verbatim; the text states the direction ('significantly longer half-life'), so qualitative/printed_in_text is right, while Fig S4b is absent (empty supp), so P and n stay full_text_unavailable."
+ },
+ {
+  "item": 18,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "Directness class": "1",
+   "Directness strength": "2 strong"
+  },
+  "why": "Quote verified and the direction is stated in text, so qualitative/printed_in_text is right; the class change rests on the cells being mouse knock-in microglia, which the organizers' rule excludes, so class 1 / 2 strong is kept for the directness pass."
+ },
+ {
+  "item": 19,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "Directness class": "1",
+   "Directness strength": "2 strong"
+  },
+  "why": "Quote verified ('significantly more acidic in E4 microglia when compared to E3'), so qualitative/printed_in_text is right; the class change is justified only by mouse cells, which the rule excludes, so the old class and strength stay."
+ },
+ {
+  "item": 20,
+  "decision": "CONFIRM",
+  "why": "Fig 6C shows three points per group (APOE4 triangles at ~11,800, ~11,000, ~7,200), so the figure-wide legend 'n = 4 to 5' does not fit this panel and ~3 estimated_from_figure is the better value."
+ },
+ {
+  "item": 21,
+  "decision": "CONFIRM",
+  "why": "Extended Data source data sheet 7d gives APOE3/3 values 80.20, 169.49, 100.38, 49.92 (mean 100.0) and APOE4/4 571.06, 306.29, 517.91, 763.76 (mean 539.8), 5.4x, so supplement_only is right; the printed P = 0.0069 and n = 4 stay."
+ },
+ {
+  "item": 22,
+  "decision": "CONFIRM",
+  "why": "The text prints both peaks ('around chi1 = 180 deg' for ApoE3M, '300 deg' for ApoE4M), already named in the description, so dAngle=120 computed from printed values is printed_in_text."
+ },
+ {
+  "item": 23,
+  "decision": "CONFIRM",
+  "why": "The quote cites 'Fig. 1i,j' and the legend says i is the confocal images and j is the LAMP1-per-IBA1 quantification (n = 6 / 7 mice), so the location should include j."
+ },
+ {
+  "item": 24,
+  "decision": "CONFIRM",
+  "why": "Fig 4h left panel has only the two rapamycin bars (zero-based): E3 ~6.9, E4 ~2.35 (~0.34x), '****' over E4, and the legend keys ****P < 0.0005 (1-tailed t-test, N = 3)."
+ },
+ {
+  "item": 25,
+  "decision": "CONFIRM",
+  "why": "Checked by the orchestrating Claude session against the figure image (the verifier's file missed this item): Fig. 4h left, T98G-E3 ~6.9, T98G-E4 ~2.4 on a zero-based axis, **** over E4; legend keys ****P < 0.0005."
+ }
+]

@@ -1,0 +1,1023 @@
+{
+ "hyp": "H3",
+ "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+ "A": "APOE genotype or apoE isoform (APOE4 vs APOE3)",
+ "B": "aggregation of apoE protein itself in the endosome/lysosome (endo-lysosomal apoE aggregates, oligomers)",
+ "scope": "IN: aggregation, oligomerization, misfolding or insoluble/high-molecular-weight apoE itself, especially inside endosomes/lysosomes or at acidic pH (in cells, tissue or in vitro), compared between apoE4 and apoE3; lysosomal accumulation or impaired degradation of apoE protein; apoE aggregates seeding other proteins when apoE aggregation itself is measured. OUT: amyloid-beta or tau aggregation without measuring apoE aggregation, general lysosomal function without apoE protein readouts.",
+ "papers": [
+  {
+   "paper_id": "P11",
+   "doi": "10.1016/j.jbc.2025.108236",
+   "rows": [
+    {
+     "Paper/Finding ID": "P11.F6",
+     "Finding description": "Without LPS, APOE4 showed higher ThT-inferred β-sheet content than APOE3 in the cell-free aggregation assay.",
+     "Finding quote": "Notably, rAPOE4 exhibited a higher β-sheet content, both in isolation and when exposed to LPS, compared with the rAPOE3 isoform (Fig. 6C).",
+     "Finding summary": "(APOE3 -> APOE4) -> (higher baseline ThT-inferred amyloid-like APOE aggregation)",
+     "Experimental system": "Purified recombinant human APOE3 and APOE4, 5 μM in 10 mM Tris, pH 7.4; untreated baseline samples in a ThT aggregation assay; methods specify 30 minutes at 37 °C followed by 100 μM ThT for 15 minutes; four independent experiments.",
+     "Data location": "Fig 6C, no-LPS comparison.",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  },
+  {
+   "paper_id": "P23",
+   "doi": "10.3390/ijms25115754",
+   "rows": [
+    {
+     "Paper/Finding ID": "P23.F3",
+     "Finding description": "At 16 months, insoluble whole-hemibrain apoE levels appeared higher in APPPS1:E4 mice than APPPS1:E3 mice, but there was no significant difference.",
+     "Finding quote": "Mice with the APOE4 allele appeared to have higher apoE levels at 12 and 16 months, but the difference was insignificant.",
+     "Finding summary": "(APOE3 -> APOE4) -> (no change in insoluble whole-hemibrain apoE levels at 16 months)",
+     "Experimental system": "Whole hemibrains from 16-month-old APPswe/PS1dE9 heterozygous mice homozygous for human APOE3 or APOE4 targeted replacement, C57BL/6 background; sexes pooled; Tper-insoluble material extracted with guanidine hydrochloride and apoE measured using HJ15.6 capture and HJ15.4b detection antibodies; legend reports 3-11 mice/group across this panel; no subcellular localization.",
+     "Data location": "Fig 4T, 16-month comparison",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  }
+ ],
+ "reference_rows": [
+  {
+   "finding_id": "P1.F1",
+   "summary": "(ApoE3 -> ApoE4) -> (higher ApoE aggregation at lysosomal pH)",
+   "system": "Cell-free HEK293-derived human ApoE lipidated with POPC and CE(20:4); 0.5 mg/mL protein in PBS adjusted to pH 4.5, four days at 37°C; ultracentrifugation at 150",
+   "class": 3,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P1.F2",
+   "summary": "(ApoE3 -> ApoE4) -> (higher pelletable ApoE at lysosomal pH across preparation batches)",
+   "system": "Two independently prepared batches of HEK293-derived human CE(20:4)/POPC-lipidated ApoE; four-day incubation at 37°C and pH 4.5; ultracentrifugation followed by",
+   "class": 3,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P1.F3",
+   "summary": "(ApoE3 -> ApoE4) -> (higher intracellular ApoE protein accumulation)",
+   "system": "Human APOE-knockout iPSC-derived astrocytes from ThermoFisher A18945; one-day treatment with 10 μg/mL HEK293-derived POPC-lipidated human ApoE; fixed-cell ApoE ",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P1.F4",
+   "summary": "(lipidated ApoE4 exposure) -> (predominantly lysosomal localization of internalized ApoE4)",
+   "system": "Human APOE-knockout iPSC-derived astrocytes generated from ThermoFisher A18945, originally APOE3/3; one-day treatment with 10 μg/mL POPC-lipidated ApoE4; ApoE, ",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P1.F5",
+   "summary": "(ApoE3 -> ApoE4) -> (higher ApoE aggregation at neutral pH)",
+   "system": "Cell-free HEK293-derived human ApoE3 or ApoE4 lipidated with POPC and CE(20:4); 0.5 mg/mL protein in PBS, pH 7.4, four days at 37°C; ultracentrifugation and non",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P2.F1",
+   "summary": "(APOE3 -> APOE4) -> (lower urea concentration for maximal intermediate formation and higher maximal intermediate fraction)",
+   "system": "Model-derived equilibrium populations of native, intermediate, and unfolded states for recombinant human apoE3 and apoE4 22-kDa amino-terminal fragments at pH 4",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P2.F2",
+   "summary": "(APOE3 -> APOE4) -> (greater proteolytic susceptibility at pH 4.0 in 3.75 M urea)",
+   "system": "Recombinant human apoE3 and apoE4 22-kDa amino-terminal fragments, 0.1 mg/ml, at pH 4.0 in 3.75 M urea; room-temperature limited pepsin digestion at a 250:1 apo",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P2.F3",
+   "summary": "(APOE3 -> APOE4) -> (greater susceptibility to acidic-pH unfolding, with stable intermediates in both)",
+   "system": "Bacterially expressed recombinant human apoE2, apoE3, and apoE4 22-kDa amino-terminal fragments; overnight urea equilibration at 4 °C in sodium acetate buffer, ",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P2.F4",
+   "summary": "(APOE3 -> APOE4) -> (no change in the reported pepsin-cleavage pattern without urea at pH 4.0)",
+   "system": "Recombinant human apoE3 and apoE4 22-kDa amino-terminal fragments, 0.1 mg/ml, at pH 4.0 without urea; room-temperature limited pepsin digestion at a 10:1 apoE:p",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P2.F5",
+   "summary": "(3.75 M -> 4.75 M urea) -> (smaller APOE4–APOE3 difference in proteolytic susceptibility at pH 4.0)",
+   "system": "Recombinant human apoE3 and apoE4 22-kDa amino-terminal fragments, 0.1 mg/ml, at pH 4.0 in 4.75 M urea; room-temperature limited pepsin digestion at a 2000:1 ap",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P2.F6",
+   "summary": "(APOE3 -> APOE4) -> (lower urea concentration required for unfolding at pH 7.4)",
+   "system": "Bacterially expressed recombinant human apoE3 and apoE4 22-kDa amino-terminal fragments; protein incubated overnight at 4 °C across urea concentrations in sodiu",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P2.F7",
+   "summary": "Both apoE3 and apoE4 acidic-pH unfolding curves were described as excellent fits to the three-state model.",
+   "system": "Three-state equilibrium-model analysis of circular-dichroism denaturation data from recombinant human apoE3 and apoE4 22-kDa amino-terminal fragments at pH 4.0;",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P3.F1",
+   "summary": "(apoE3 -> apoE4) -> (higher fraction of large apoE species at 0.50 mg/ml)",
+   "system": "Purified recombinant human full-length apoE3 and apoE4 with C-terminal His tags; PBS, pH 7.3; sedimentation velocity at 20°C and 40,000 rpm. Table 2 specifies t",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P3.F2",
+   "summary": "(apoE3 -> apoE4) -> (greater concentration-dependent increase in large apoE species)",
+   "system": "Purified recombinant human full-length apoE3 and apoE4; PBS, pH 7.3; 0.15 and 0.50 mg/ml; sedimentation velocity at 20°C and 40,000 rpm.",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P3.F3",
+   "summary": "(apoE3 72–299 -> apoE4 72–299) -> (higher large-species fraction and greater heterogeneity)",
+   "system": "Purified recombinant human apoE3 and apoE4 residues 72–299; 1.00 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C and 40,000 rpm; continuous c(s) analysis.",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P3.F4",
+   "summary": "(apoE3 72–299 -> apoE4 72–299) -> (greater concentration-dependent aggregation)",
+   "system": "Purified recombinant human apoE3 and apoE4 residues 72–299; 0.15 and 1.00 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C.",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P3.F5",
+   "summary": "(apoE3 1–271 -> apoE4 1–271) -> (higher fraction of large apoE oligomers)",
+   "system": "Purified recombinant human apoE3 and apoE4 residues 1–271; 0.15 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C; continuous sedimentation and molar-mass di",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P3.F6",
+   "summary": "(apoE3 -> apoE4) -> (higher fraction of larger apoE particles)",
+   "system": "Purified recombinant human full-length apoE3 and apoE4; 1.0 mg/ml in PBS, pH 7.3; DynaPro-MS/X dynamic light scattering at 20°C, total detection 30–40 minutes p",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P3.F7",
+   "summary": "(apoE3 72–299 -> apoE4 72–299) -> (appearance of a larger apoE particle population)",
+   "system": "Purified recombinant human apoE3 and apoE4 residues 72–299; 1.0 mg/ml in PBS, pH 7.3; dynamic light scattering at 20°C, 30–40 minutes per sample.",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P3.F8",
+   "summary": "(apoE3 -> apoE4) -> (lower fraction of large apoE species at 0.15 mg/ml)",
+   "system": "Purified recombinant human full-length apoE3 and apoE4, expressed in E. coli BL21(DE3), with C-terminal His tags; lipid-free PBS, pH 7.3; sedimentation velocity",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P3.F9",
+   "summary": "(apoE3 72–299 -> apoE4 72–299) -> (lower large-species fraction but higher overall sedimentation at low concentration)",
+   "system": "Purified recombinant human apoE3 and apoE4 residues 72–299, deleting N-terminal helices 1 and 2; 0.15 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C.",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P3.F10",
+   "summary": "(apoE3 72–299 -> apoE4 72–299) -> (more resolved sedimenting species)",
+   "system": "Purified recombinant human apoE3 and apoE4 residues 72–299; 1.00 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C; distribution regularization confidence 0.",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P3.F11",
+   "summary": "(apoE3 1–231 -> apoE4 1–231) -> (lower modeled tetramer dissociation constant)",
+   "system": "Purified recombinant human apoE3 and apoE4 residues 1–231 in PBS, pH 7.3; sedimentation velocity at 20°C fitted with the SEDPHAT monomer–tetramer rapid self-ass",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P3.F12",
+   "summary": "(apoE3 41–299 -> apoE4 41–299) -> (no greater concentration-dependent aggregation)",
+   "system": "Purified recombinant human apoE3 and apoE4 residues 41–299; 0.15 and 1.00 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C.",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P3.F13",
+   "summary": "(apoE3 1–191 -> apoE4 1–191) -> (no significant change in monomer/tetramer distribution reported)",
+   "system": "Purified recombinant human apoE3 and apoE4 residues 1–191; 0.15 mg/ml in PBS, pH 7.3; sedimentation velocity and c(s)/c(M) analysis at 20°C; estimated species m",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P3.F14",
+   "summary": "(apoE3 1–231 -> apoE4 1–231) -> (no significant change in monomer/tetramer distribution reported)",
+   "system": "Purified recombinant human apoE3 and apoE4 residues 1–231; 0.15 mg/ml in PBS, pH 7.3; sedimentation velocity and c(s)/c(M) analysis at 20°C; estimated masses ap",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P3.F15",
+   "summary": "No significant concentration-dependent aggregation was reported for either 1–271 fragment.",
+   "system": "Purified recombinant human apoE3 and apoE4 residues 1–271; sedimentation-velocity concentration comparison in PBS, pH 7.3, at 20°C; associated experiments used ",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P3.F16",
+   "summary": "(apoE3 1–191 -> apoE4 1–191) -> (no significant change in tetramerization affinity reported)",
+   "system": "Purified recombinant human apoE3 and apoE4 residues 1–191 in PBS, pH 7.3; sedimentation velocity at 20°C fitted with the SEDPHAT monomer–tetramer rapid self-ass",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P3.F17",
+   "summary": "(apoE3 41–299 -> apoE4 41–299) -> (higher large-species fraction but lower overall sedimentation)",
+   "system": "Purified recombinant human apoE3 and apoE4 residues 41–299, deleting N-terminal helix 1; 0.15 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C and 40,000 rp",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P3.F18",
+   "summary": "(apoE3 41–299 -> apoE4 41–299) -> (slightly higher large-species fraction at 1.00 mg/ml)",
+   "system": "Purified recombinant human apoE3 and apoE4 residues 41–299; 1.00 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C and 40,000 rpm.",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P3.F19",
+   "summary": "(apoE3 72–299 -> apoE4 72–299) -> (higher weight-average sedimentation at 0.50 mg/ml)",
+   "system": "Purified recombinant human apoE3 and apoE4 residues 72–299; 0.50 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C.",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P3.F20",
+   "summary": "(apoE3 -> apoE4) -> (no significant change in full-length apoE weight-average sedimentation)",
+   "system": "Purified recombinant human full-length apoE3 and apoE4; PBS, pH 7.3; 0.15 and 0.50 mg/ml; sedimentation velocity at 20°C; second-moment integration.",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P3.F21",
+   "summary": "(apoE3 1–231 -> apoE4 1–231) -> (lower weight-average sedimentation at 0.15 mg/ml)",
+   "system": "Purified recombinant human apoE3 and apoE4 residues 1–231; 0.15 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C.",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P3.F22",
+   "summary": "(apoE3 41–299 -> apoE4 41–299) -> (lower weight-average sedimentation at 0.50 mg/ml)",
+   "system": "Purified recombinant human apoE3 and apoE4 residues 41–299; 0.50 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C.",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P3.F23",
+   "summary": "(apoE3 1–191 -> apoE4 1–191) -> (slightly higher weight-average sedimentation at 0.15 mg/ml)",
+   "system": "Purified recombinant human apoE3 and apoE4 residues 1–191; 0.15 mg/ml in PBS, pH 7.3; sedimentation velocity at 20°C.",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P4.F1",
+   "summary": "(apoE3 -> apoE4) -> (increased high-molecular-weight apoE oligomerization)",
+   "system": "Purified full-length recombinant human ApoE from E. coli, incubated in 20 mM phosphate buffer, pH 7.4, at 37 °C for 24 hours; native PAGE, with samples diluted ",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P4.F2",
+   "summary": "(apoE3 -> apoE4) -> (increased formation of mature apoE filaments)",
+   "system": "Purified recombinant human ApoE in 20 mM phosphate buffer, pH 7.4, incubated at 37 °C for 24 hours or three days; negative-stain TEM using uranyl acetate.",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P4.F3",
+   "summary": "(apoE4 alone -> equal apoE3/apoE4 mixture) -> (inhibited mature apoE filament formation)",
+   "system": "Purified recombinant human ApoE3 and ApoE4, each 12.5 μM, total 25 μM, in phosphate buffer, pH 7.4, incubated 24 hours at 37 °C; negative-stain TEM, compared wi",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P4.F4",
+   "summary": "(apoE3 -> apoE4) -> (additional baseline high-molecular-weight apoE multimers)",
+   "system": "Purified recombinant human ApoE isoforms in 20 mM phosphate buffer; native PAGE; no prolonged incubation specified in this supplementary legend.",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P4.F5",
+   "summary": "(apoE3 -> apoE4) -> (faster apoE assembly-associated ThT fluorescence increase)",
+   "system": "Purified recombinant human ApoE, approximately 25 μM in 20 mM phosphate buffer, pH 7.4, incubated with ThT at 37 °C for three days; fluorescence excitation 440 ",
+   "class": 3,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P4.F6",
+   "summary": "(apoE3 -> apoE4) -> (shorter lag before apoE assembly-associated ThT fluorescence)",
+   "system": "Purified recombinant human ApoE, approximately 25 μM in 20 mM phosphate buffer, pH 7.4, with ThT at 37 °C; first 24 hours of the fluorescence time course.",
+   "class": 3,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P4.F7",
+   "summary": "(apoE4 alone -> equal apoE3/apoE4 mixture) -> (reduced apoE assembly-associated ThT kinetics)",
+   "system": "Purified recombinant human ApoE in 20 mM phosphate buffer, pH 7.4, incubated at 37 °C for 24 hours; ApoE3 alone or ApoE4 alone at 25 μM versus 12.5 μM of each i",
+   "class": 3,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P4.F8",
+   "summary": "(apoE3 -> apoE4) -> (greater incubation-associated ThT signal change)",
+   "system": "Purified recombinant human ApoE isoforms incubated with ThT for three days at 37 °C in 20 mM phosphate buffer, pH 7.4; fluorescence scans before and after incub",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P4.F9",
+   "summary": "(apoE3 -> apoE4) -> (no change in baseline oligomerization after phosphate-buffer dialysis)",
+   "system": "Purified recombinant human ApoE, 8 μM, dialyzed into 20 mM phosphate buffer, pH 7.4; analytical ultracentrifugation at 20 °C and 40,000 rpm.",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P4.F10",
+   "summary": "(apoE3 -> apoE4) -> (no change in baseline oligomerization in phosphate buffer)",
+   "system": "Purified recombinant human ApoE, 8 μM in 20 mM phosphate buffer, pH 7.4; analytical ultracentrifugation at 20 °C, 40,000 rpm; Lamm-equation fitting and residual",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P4.F11",
+   "summary": "(apoE3 -> apoE4) -> (no change in baseline tetrameric oligomerization)",
+   "system": "Purified full-length recombinant human ApoE from E. coli; SEC-MALS at room temperature using 5 mg/mL protein in 20 mM HEPES, 300 mM NaCl, 1 mM TCEP, pH 8.0.",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P4.F12",
+   "summary": "(apoE3 -> apoE4) -> (no change in baseline oligomerization detected by SEC)",
+   "system": "Full-length recombinant human ApoE expressed in E. coli Rosetta2(DE3), purified by affinity chromatography and SEC; Superdex 200 chromatography in 20 mM HEPES, ",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P4.F13",
+   "summary": "(apoE3 -> apoE4) -> (no change in interpreted SAXS-derived baseline oligomerization)",
+   "system": "Purified recombinant human ApoE analyzed by SEC-SAXS at 20 °C in HEPES/NaCl buffer, pH 8.0; ATSAS and ScÅtter analysis, including volume-of-correlation mass est",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P4.F14",
+   "summary": "(apoE3 -> apoE4) -> (no change in reported gel-filtration oligomer properties)",
+   "system": "Purified recombinant human ApoE isoforms analyzed on calibrated Superdex 200 in HEPES/NaCl/glycerol SEC buffer, pH 8.0; apparent mass and hydrodynamic propertie",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P4.F15",
+   "summary": "(apoE3 -> apoE4) -> (no change in native-gel mobility reported in Discussion)",
+   "system": "Purified recombinant human ApoE; SDS-PAGE of ApoE4 fibrils and native electrophoresis comparing ApoE species; precise sample timing and handling are unspecified",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P4.F16",
+   "summary": "(apoE3 -> apoE4) -> (no change in baseline oligomer architecture detected by SAXS)",
+   "system": "Purified recombinant human ApoE; inline SEC-SAXS at 20 °C, loaded at 10 mg/mL, in 20 mM HEPES and 300 mM NaCl, pH 8.0; Fig 2C compared with Fig 2B.",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P4.F17",
+   "summary": "(apoE3 -> apoE4) -> (no change in baseline oligomer dimensions)",
+   "system": "Purified recombinant human ApoE analyzed by inline SEC-SAXS at 20 °C in 20 mM HEPES and 300 mM NaCl, pH 8.0; pair-distance distribution analysis.",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P5.F1",
+   "summary": "(APOE3 -> APOE4) -> (greater APOE–lysosome colocalization)",
+   "system": "Human HEK293 cells, ATCC CRL-1573; stable APOE3–mCherry versus APOE4–mCherry expression; transient CellLight LAMP1–GFP lysosomal labeling; live confocal microsc",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P5.F2",
+   "summary": "(APOE3 -> APOE4) -> (lower green-to-red reporter ratio, indicating greater lysosomal APOE localization)",
+   "system": "Human HEK293 cells, ATCC CRL-1573; stable expression of APOE3–mCherry–SepHluorin versus APOE4–mCherry–SepHluorin; live confocal imaging and Imaris fluorescence-",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P5.F3",
+   "summary": "(extracellular APOE3 -> APOE4) -> (late-over-early endosomal localization preference observed for APOE4)",
+   "system": "Immortalized rat neuron-like ST14A cells; 24 h exposure to conditioned medium containing human APOE3–mCherry or APOE4–mCherry; fixed-cell staining for mCherry a",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P5.F4",
+   "summary": "(APOE3 -> APOE4) -> (greater fluorescence accumulation during lysosomal inhibition)",
+   "system": "Human HEK293 cells, ATCC CRL-1573; stable clonal APOE3–mCherry versus APOE4–mCherry expression; bafilomycin A1 treatment, 50 nM; live-cell fluorescence time cou",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P5.F5",
+   "summary": "(extracellular APOE3 -> APOE4) -> (higher intracellular APOE-associated fluorescence during uptake)",
+   "system": "Immortalized rat neuronally derived ST14A cells, supplied by Elena Cattaneo's laboratory; no endogenous APOE detected by western blot; human HEK293T conditioned",
+   "class": 3,
+   "strength": "5 very weak"
+  },
+  {
+   "finding_id": "P5.F6",
+   "summary": "(APOE3 -> APOE4) -> (higher intracellular APOE protein abundance)",
+   "system": "Human embryonic kidney HEK293 cells, ATCC CRL-1573; one selected stable clonal line per APOE–mCherry construct; baseline whole-cell western blotting. These are ",
+   "class": 3,
+   "strength": "5 very weak"
+  },
+  {
+   "finding_id": "P5.F7",
+   "summary": "(lysosomal inhibition in APOE4 cells) -> (higher intracellular APOE4 protein abundance)",
+   "system": "Human HEK293 cells, ATCC CRL-1573, stably expressing APOE4–mCherry; bafilomycin A1, 50 nM for 4 h, versus untreated cells; whole-cell western blotting.",
+   "class": 5,
+   "strength": "5 very weak"
+  },
+  {
+   "finding_id": "P5.F8",
+   "summary": "(APOE3 -> APOE4) -> (higher intracellular APOE-associated fluorescence)",
+   "system": "Human HEK293 cells, ATCC CRL-1573; stable clonal APOE3–mCherry versus APOE4–mCherry expression; live-cell fluorescence imaging. Fluorescence measures intracellu",
+   "class": 3,
+   "strength": "5 very weak"
+  },
+  {
+   "finding_id": "P5.F9",
+   "summary": "(lysosomal inhibition in APOE4 cells) -> (higher intracellular APOE4-associated fluorescence)",
+   "system": "Human HEK293 cells, ATCC CRL-1573, stably expressing APOE4–mCherry; bafilomycin A1, 50 nM, versus untreated cells; live-cell fluorescence imaging. The figure le",
+   "class": 5,
+   "strength": "5 very weak"
+  },
+  {
+   "finding_id": "P5.F10",
+   "summary": "(rapamycin treatment in APOE4 cells) -> (higher intracellular APOE4 protein abundance)",
+   "system": "Human HEK293 cells, ATCC CRL-1573, stably expressing APOE4–mCherry; rapamycin, 10 nM for 4 h, versus untreated cells; whole-cell western blotting.",
+   "class": 5,
+   "strength": "5 very weak"
+  },
+  {
+   "finding_id": "P5.F11",
+   "summary": "(extracellular APOE3 -> APOE4) -> (higher reported fraction of LC3A/B spots colocalizing with APOE)",
+   "system": "Immortalized rat neuron-like ST14A cells; 24 h exposure to conditioned medium containing human APOE3–mCherry or APOE4–mCherry; endogenous LC3A/B and mCherry imm",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P6.F1",
+   "summary": "(APOE3 -> APOE4) -> (increased aggregated apoE in primary mouse astrocytes)",
+   "system": "Primary cortical astrocytes from 1–3-day-old mice homozygous for human APOE3 or APOE4 targeted replacement, backcrossed onto C57BL/6J for 10 generations; cultur",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P6.F2",
+   "summary": "(APOE3 -> APOE4) -> (increased aggregated apoE in mouse hippocampus)",
+   "system": "Age-matched, 4-month-old male mice homozygous for human APOE3 or APOE4 targeted replacement on a C57BL/6J background. Hippocampal homogenates were separated int",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P6.F3",
+   "summary": "(apoE3 -> apoE4) -> (no change in recombinant apoE aggregation reaching statistical significance)",
+   "system": "Recombinant human apoE3 versus apoE4, 10 μg per preparation, incubated in RIPA buffer for four hours at 37°C; densitometric quantification of Western blots of R",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P6.F4",
+   "summary": "(APOE ε3/ε3 -> APOE ε4/ε4) -> (increased aggregated apoE percentage in human CSF)",
+   "system": "Human CSF from six APOE ε3/ε3 and five APOE ε4/ε4 age- and sex-matched carriers; RIPA-soluble and guanidine-HCl-soluble apoE detected by Western blot, with Ponc",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P7.F1",
+   "summary": "(APOE3/3 -> APOE4/4) -> (more high-molecular-weight apoE-containing complexes in anterior cingulate cortex)",
+   "system": "Postmortem human anterior cingulate cortex from two siblings with C9ORF72 repeat expansions and familial FTLD-MND, one APOE ε4/ε4 and one APOE ε3/ε3. Reported a",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P8.F1",
+   "summary": "(recombinant apoE3 -> recombinant apoE4) -> (greater aggregate persistence and less dissociation into monomers)",
+   "system": "Cell-free recombinant human apoE3 versus apoE4 at 1.0 μg/mL (29 nM), incubated at 35°C with 1 μg/mL micellar cholesterol and protease inhibitors; time-course si",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P9.F1",
+   "summary": "(APOE3 -> APOE4) -> (increased apoE accumulation in large neuronal lysosomes following neprilysin inhibition)",
+   "system": "Three- to four-month-old male human APOE3- or APOE4-homozygous targeted-replacement mice, backcrossed eight generations to C57BL/6J; hippocampal CA1 neurons fol",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P9.F2",
+   "summary": "(APOE3 -> APOE4) -> (increased lysosomal apoE/Aβ42 co-localization following neprilysin inhibition)",
+   "system": "Three- to four-month-old male human APOE3- or APOE4-homozygous targeted-replacement mice on an eight-generation C57BL/6J backcross background; hippocampal CA1 n",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P9.F3",
+   "summary": "(APOE3 -> APOE4) -> (preferential large-lysosomal apoE occupancy by day 7 following neprilysin inhibition)",
+   "system": "Three- to four-month-old male human APOE3- and APOE4-homozygous targeted-replacement mice, backcrossed eight generations to C57BL/6J; hippocampal CA1 neurons af",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P10.F1",
+   "summary": "(APOE3 -> APOE4) -> (resistance to stress-induced enlargement of intracellular apoE condensates)",
+   "system": "Primary adult porcine RPE monolayers expressing human mCherry-tagged apoE3 or apoE4; A2E treatment at 10 μM for 6 hours followed by a 48-hour chase, with normal",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P10.F2",
+   "summary": "(APOE3 -> APOE4) -> (higher baseline mean intracellular apoE condensate volume)",
+   "system": "Primary adult porcine RPE monolayers transiently expressing human mCherry-tagged apoE3 or apoE4; baseline live confocal imaging and 3D surface reconstruction, w",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P10.F3",
+   "summary": "ApoE4 had higher descriptive mean and median baseline condensate volumes than ApoE3. The fraction above 0.6 μm³ has no stated ApoE4-versus-ApoE3 result.",
+   "system": "Primary adult porcine RPE monolayers transiently expressing human mCherry-tagged apoE3 or apoE4; baseline live confocal imaging, Imaris 3D surface reconstructio",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P10.F4",
+   "summary": "Intracellular condensates were visible with both ApoE3 and ApoE4. This shared presence gives no direction for a difference in aggregation burden.",
+   "system": "Primary adult porcine retinal pigment epithelial cells isolated from freshly harvested eyes, plated as confluent monolayers and transiently expressing human mCh",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P11.F1",
+   "summary": "(APOE3 -> APOE4) -> (larger LPS-induced APOE aggregates)",
+   "system": "Purified recombinant human APOE3 and APOE4 with E. coli LPS; cell-free negative-stain TEM after 30 minutes at 37 °C; methods specify 5 μM protein and 5 μM endot",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P11.F2",
+   "summary": "(APOE3 -> APOE4) -> (larger LPS-induced APOE aggregate area)",
+   "system": "ImageJ analysis of negative-stain TEM images of purified recombinant human APOE3 and APOE4 with E. coli LPS; three independently prepared samples, ten fields ex",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P11.F3",
+   "summary": "(APOE3 -> APOE4) -> (higher LPS-associated ThT-inferred amyloid-like APOE aggregation)",
+   "system": "Purified recombinant human APOE3 and APOE4, 5 μM, with E. coli LPS at 5, 10, or 20 μM in 10 mM Tris, pH 7.4; 30 minutes at 37 °C, then 100 μM ThT for 15 minutes",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P11.F4",
+   "summary": "(APOE3 -> APOE4) -> (higher LPS-associated Amytracker-positive APOE aggregate signal)",
+   "system": "Purified recombinant human APOE3 and APOE4, 5 μM, exposed to E. coli LPS-FITC and stained with Amytracker 680; fluorescence microscopy; methods specify 5 μM LPS",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P11.F5",
+   "summary": "(APOE3 -> APOE4) -> (greater apparent complex formation at lower LPS exposure)",
+   "system": "Purified recombinant human APOE3 and APOE4, 5 μM, with E. coli LPS at protein:LPS ratios 1:1, 1:2, and 1:4 in 10 mM Tris, pH 7.4; blue-native PAGE followed by a",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P11.F7",
+   "summary": "(APOE3 -> APOE4) -> (greater macrophage-associated uptake of APOE aggregates)",
+   "system": "Murine RAW 264.7 macrophage cell line, passages 4–7; recombinant human APOE3 or APOE4, 100 nM, with E. coli LPS, 100 nM, and Amytracker 680; mixtures incubated ",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P11.F8",
+   "summary": "(APOE3 -> APOE4) -> (reduced apparent aggregation response to isolated lipid A)",
+   "system": "Purified recombinant human APOE3 and APOE4, 5 μM, exposed to P. aeruginosa LPS, E. coli lipid A, or Tris buffer; negative-stain TEM; methods describe 5 μM endot",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P11.F9",
+   "summary": "(APOE3 -> APOE4) -> (no change in detectable baseline aggregates by Amytracker microscopy)",
+   "system": "Purified recombinant human APOE3 and APOE4, 5 μM, without LPS; Amytracker 680 fluorescence microscopy; three independent experiments; cell-free assay, no acidic",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P12.F1",
+   "summary": "(apoE3 -> apoE4) -> (faster formation of high-molecular-mass apoE aggregates)",
+   "system": "Purified, lipid-free recombinant human apoE expressed in E. coli; gel-filtration-isolated low-mass material termed tetramer by the authors; 0.5 mg/ml in 100 mM ",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P12.F2",
+   "summary": "(apoE3 -> apoE4) -> (faster formation of high-molecular-mass apoE aggregates at lower protein concentration)",
+   "system": "Purified, lipid-free recombinant human apoE expressed in E. coli; isolated low-mass apoE at 0.2 mg/ml in 100 mM NH4HCO3, pH 7.8; incubation at 37 °C followed by",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P12.F3",
+   "summary": "(apoE3 -> apoE4) -> (higher fraction of apoE aggregated after overnight preincubation)",
+   "system": "Purified, lipid-free recombinant human apoE expressed in E. coli; tetrameric preparations at 0.3 mg/ml preincubated overnight at 37 °C before neuronal toxicity ",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P13.F1",
+   "summary": "(ApoE3 -> ApoE4) -> (greater lipid-free apoE aggregation in vitro)",
+   "system": "Commercial recombinant human ApoE3 and ApoE4 from Leinco Technologies, lipid-free at 0.1 mg·mL−1 in PBS; native 4–20% Tris-glycine PAGE, with 3 μg ApoE loaded a",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P13.F2",
+   "summary": "(ApoE3 -> ApoE4) -> (greater lipid-free apoE self-assembly in vitro)",
+   "system": "Commercial recombinant human ApoE3 and ApoE4 from Leinco Technologies, lipid-free at 0.1 mg·mL−1 in PBS; asymmetrical flow field flow fractionation with differe",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P14.F1",
+   "summary": "(apoE3M-AP -> apoE4M-AP) -> (faster apoE aggregation)",
+   "system": "Purified recombinant human apoE3M and apoE4M, each carrying F257A/W264R/V269A/L279Q/V287E and deletion of residues 1–23. Aggregation observed following size-exc",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P14.F2",
+   "summary": "(SPA added to apoE4) -> (reduced apoE aggregation)",
+   "system": "Purified recombinant human wild-type apoE4 at approximately 10 µM, with 20 mM SPA, a 2000-fold molar excess. Static light scattering at 266 nm over 15 hours in ",
+   "class": 5,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P14.F3",
+   "summary": "(apoE4M-AP -> apoE4M-AS interface mutations) -> (suppressed apoE aggregation)",
+   "system": "Purified recombinant ApoE3M and ApoE4M truncation constructs (residues 1-23 deleted); AS variants carry R38A/E45A/E49A/R145A. The Results identify both isoforms",
+   "class": 5,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P14.F4",
+   "summary": "(apoE3M-AP -> apoE4M-AP) -> (fibril-like aggregates present in both)",
+   "system": "Purified recombinant human apoE3M-AP and apoE4M-AP, carrying five monomerizing substitutions and deletion of residues 1–23. Negative-stain TEM using approximate",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P14.F5",
+   "summary": "(apoE3 -> apoE4) -> (greater simulated persistence of the N-terminal dimer)",
+   "system": "Adaptive molecular dynamics of human apoE N-terminal dimers initialized from apoE3 structure 1BZ4 and apoE4 structure 8AX9. Simulations used 310 K, pH 7.4 proto",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P14.F6",
+   "summary": "(apoE3 -> apoE4) -> (stronger simulated electrostatic dimer association)",
+   "system": "Human apoE N-terminal dimer adaptive molecular dynamics without SPA. Linear interaction energies calculated over the first 500 ns of concatenated trajectories w",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P14.F7",
+   "summary": "(apoE3WT -> apoE4WT) -> (different protease-inaccessible regions at the self-association interface)",
+   "system": "Purified recombinant human wild-type apoE3 and apoE4, compared with monomerizing-mutant proteins, using proteolysis and LC-MS/MS peptide mapping. Missing covera",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P14.F8",
+   "summary": "(apoE3M -> apoE4M) -> (less N-terminal but greater C-terminal H3 unfolding)",
+   "system": "Adaptive simulations of full-length human apoE3M and apoE4M, twenty microseconds cumulative sampling per system at 310 K. Residue-level helical content calculat",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P14.F9",
+   "summary": "(apoE3 -> apoE4) -> (greater preference for V-shaped N-terminal self-association)",
+   "system": "Comparative crystallographic analysis of human apoE N-terminal domains, combining existing structures with four newly determined apoE4 structures. New crystals ",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P14.F10",
+   "summary": "(apoE3 -> apoE4) -> (smaller angle between self-associating N-terminal domains)",
+   "system": "Human apoE N-terminal crystal structures; interchain angles derived from principal axes of inertia. Comparison concerns crystal-associated dimers, without cellu",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P14.F11",
+   "summary": "(apoE3 C112 -> apoE4 R112) -> (altered intradomain contacts and destabilized four-helix bundle)",
+   "system": "Comparative analysis of recombinant human apoE N-terminal crystal structures. The proposed domino mechanism links local structural differences to self-associati",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P14.F12",
+   "summary": "(apoE3 -> apoE4) -> (additional contact within a shared self-association interface)",
+   "system": "Human apoE N-terminal crystal dimers, comparing apoE3-preferred T-shaped and apoE4-preferred V-shaped interfaces. No cellular compartment or aggregation amount ",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P14.F13",
+   "summary": "(apoE3WT -> apoE4WT) -> (altered solvent accessibility in aggregation-associated protein regions)",
+   "system": "Purified recombinant human wild-type apoE3 and apoE4; HDX-MS at room temperature in Tris/NaCl buffer, D2O buffer pHread 7.1. Exchange measured at 60, 120 and 60",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P14.F14",
+   "summary": "(apoE3M -> apoE4M) -> (increased H3 bending)",
+   "system": "Full-length human apoE3M and apoE4M adaptive molecular dynamics, twenty microseconds cumulative sampling per system at 310 K. H3 bending measured using the Cα a",
+   "class": 3,
+   "strength": "5 very weak"
+  },
+  {
+   "finding_id": "P14.F15",
+   "summary": "(apoE3M -> apoE4M) -> (shared monomerized state)",
+   "system": "Purified recombinant human apoE3M and apoE4M carrying F257A/W264R/V269A/L279Q/V287E. Sedimentation velocity analytical ultracentrifugation at 0.8 mg/ml, 20 °C a",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P14.F16",
+   "summary": "(apoE3 -> apoE4) -> (slightly stronger simulated van der Waals dimer association)",
+   "system": "Human apoE N-terminal dimers without SPA; linear interaction energies from the first 500 ns of associated, concatenated adaptive MD trajectories at 310 K and pH",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P14.F17",
+   "summary": "(apoE3 + SPA -> apoE4 + SPA) -> (stronger simulated electrostatic dimer association)",
+   "system": "Human apoE N-terminal dimer adaptive MD with SPA; energies computed during the first 500 ns of concatenated associated trajectories. Simulations at 310 K, pH 7.",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P14.F18",
+   "summary": "(apoE3M -> apoE4M) -> (different W34 conformation at the self-association interface)",
+   "system": "Adaptive molecular dynamics of full-length human apoE3M and homology-modeled apoE4M, with five C-terminal monomerizing mutations. Twenty microseconds cumulative",
+   "class": 3,
+   "strength": "5 very weak"
+  },
+  {
+   "finding_id": "P15.F1",
+   "summary": "(ApoE3 -> ApoE4, with or without lysosomal inhibition) -> (no change in neuritic ApoE puncta size)",
+   "system": "Primary cortical/hippocampal cultures from embryonic ApoE-knockout mice at DIV19; conditioned media from primary human APOE3- or APOE4-targeted-replacement mous",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P15.F2",
+   "summary": "(lysosomal acidification inhibition in ApoE4-treated neurons) -> (no change in ApoE–LAMP1 overlap)",
+   "system": "Primary cortical/hippocampal cultures from embryonic ApoE-knockout mice at DIV19; 10 nM bafilomycin A1 or DMSO for one hour before four-hour co-treatment with c",
+   "class": 5,
+   "strength": "5 very weak"
+  },
+  {
+   "finding_id": "P15.F3",
+   "summary": "(ApoE3 -> ApoE4) -> (no change in ApoE–LAMP1 pixel overlap)",
+   "system": "Mouse N2a cells treated with 2.5 μg/ml recombinant human ApoE3 or ApoE4 for four hours; representative epifluorescence images stained for ApoE and LAMP1. Corres",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P15.F4",
+   "summary": "(ApoE3 -> ApoE4) -> (no change in ApoE–Rab7 pixel overlap)",
+   "system": "Mouse N2a cells treated with 2.5 μg/ml recombinant human ApoE3 or ApoE4 for four hours; representative ApoE and Rab7 epifluorescence images. Corresponding quant",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P16.F1",
+   "summary": "(APOE3 -> APOE4) -> (more pronounced age-associated increase in the cortical insoluble-to-soluble apoE ratio)",
+   "system": "Human APOE3- or APOE4-targeted-replacement mice, with the endogenous murine Apoe locus replaced by human APOE; mixed sexes, 3 and 22 months old; cortical RIPA-s",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P17.F1",
+   "summary": "(apoE3 -> apoE4) -> (more evident fibrillar-like apoE aggregates on cell surfaces)",
+   "system": "Human SH-SY5Y neuroblastoma cells, differentiated WT cells and stable SDC3-overexpressing derivatives; recombinant apoE3 or apoE4 at 500 nM for 3 or 18 h at 37 ",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P18.F1",
+   "summary": "(APOE4 non-carrier -> APOE4 carrier) -> (no change in large-sized soluble apoE reaching statistical significance in control brains)",
+   "system": "Human postmortem control superior temporal cortex from the a brain bank brain bank; bulk tissue without identified cell types or endo-lysosomal loca",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P18.F2",
+   "summary": "(APOE4 non-carrier -> APOE4 carrier) -> (no change in large-sized soluble apoE reaching statistical significance in control brain fractions 26–30)",
+   "system": "Human postmortem control superior temporal cortex from the a brain bank brain bank; bulk tissue with no specified cell type or organelle localizatio",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P18.F3",
+   "summary": "(APOE4 non-carrier -> APOE4 carrier) -> (more large-sized soluble apoE in AD brains without LB pathology)",
+   "system": "Human postmortem superior temporal cortex from autopsy-confirmed AD cases without LB pathology, a brain bank brain bank; bulk tissue, with no cell-t",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P19.F1",
+   "summary": "(ApoE3 -> ApoE4) -> (relative ApoE dimer abundance unresolved; ApoE dimers reported in the isoform experiment)",
+   "system": "Cell-free recombinant human ApoE3 and ApoE4 preparations, with lipid-free and DOPC/cholesterol-lipidated samples included. Fig 4A examines samples after 70 h at",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P20.F1",
+   "summary": "(ApoE3 -> ApoE4) -> (less PUFA-phospholipid-induced disulfide-linked apoE dimerization)",
+   "system": "Cell-free recombinant human ApoE3 and ApoE4 incubated with PE-18:0/22:4n-6; protein separation and anti-ApoE immunodetection using the Jess automated capillary ",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P21.F1",
+   "summary": "(APOE3 -> APOE4) -> (higher lysosomal APOE abundance)",
+   "system": "Male murine Neuro-2a neuroblastoma cells carrying transgenic full-length human APOE3 or APOE4; endogenous mouse Apoe intact; passages 5–10; TMEM192-3xHA LysoIP ",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P22.F1",
+   "summary": "(APOE ε3/ε3 -> APOE ε3/ε4) -> (lower CSF apoE dimer/monomer ratio)",
+   "system": "Human non-AD Gothenburg control lumbar CSF; APOE ε3/ε3 versus ε3/ε4; corresponding cohort mean ages 69±2 and 62±5 years; unheated native-PAGE and AB178479 immun",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P22.F2",
+   "summary": "(APOE ε3/ε3 -> APOE ε4/ε4) -> (lower CSF apoE dimer/monomer ratio in AD)",
+   "system": "Human Gothenburg AD lumbar CSF, APOE ε3/ε3 versus ε4/ε4; corresponding cohort mean ages 79±2 and 73±1 years; unheated native-PAGE and AB178479 immunoblotting. E",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P22.F3",
+   "summary": "(APOE ε3/ε3 -> APOE ε4/ε4) -> (lower reducing-agent-resistant ~100-kDa CSF apoE complex abundance in AD)",
+   "system": "Human Gothenburg AD lumbar CSF, APOE ε3/ε3 versus ε4/ε4; 15 patients per genotype, mean ages 79±2 and 73±1 years; samples heated at 98°C for 5 minutes and analy",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P22.F4",
+   "summary": "(APOE ε3/ε3 -> APOE ε4/ε4) -> (lower reducing-agent-resistant ~100-kDa CSF apoE complex abundance in AD)",
+   "system": "Human Barcelona SPIN cohort AD lumbar CSF, APOE ε3/ε3 versus ε4/ε4; ten and nine patients, respectively, mean ages 75±2 and 72±2 years; heated reducing SDS-PAGE",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P23.F1",
+   "summary": "(APOE3 -> APOE4) -> (no change in insoluble whole-hemibrain apoE levels)",
+   "system": "Whole hemibrains from eight-, 12-, and 16-month-old APPswe/PS1dE9 heterozygous mice homozygous for human APOE3 or APOE4 targeted replacement, C57BL/6 background",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P23.F2",
+   "summary": "(APOE3 -> APOE4) -> (no change in insoluble whole-hemibrain apoE levels at 12 months)",
+   "system": "Whole hemibrains from 12-month-old APPswe/PS1dE9 heterozygous mice homozygous for human APOE3 or APOE4 targeted replacement, C57BL/6 background; sexes pooled; T",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P24.F1",
+   "summary": "(ApoE3 -> ApoE4) -> (higher simulated intermediate-like conformational population at 300–310 K)",
+   "system": "Human full-length apoE monomers in implicit-solvent REX/DMD; conformations at 300–310 K classified against each isoform's own T3 intermediate centroid using N-t",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P24.F2",
+   "summary": "(ApoE3 -> ApoE4) -> (higher simulated intermediate-like population at 300–310 K)",
+   "system": "Human full-length apoE monomer REX/DMD; intermediate-like conformations defined by N-terminal helical RMSD less than 15 Å from each isoform's own intermediate c",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P24.F3",
+   "summary": "(ApoE3 -> ApoE4) -> (isoform-specific simulated misfolded intermediate with separated helix–1)",
+   "system": "Human full-length apoE monomers in implicit-solvent REX/DMD; centroid structures of the most populated N-terminal RMSD clusters from PMF basins; ApoE3 at 338 K ",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P24.F4",
+   "summary": "(ApoE3 -> ApoE4) -> (distinct, more compact simulated intermediate conformational landscape)",
+   "system": "Human full-length apoE monomer models in implicit-solvent REX/DMD; ApoE3 at 338 K versus ApoE4 at 328 K; potential-of-mean-force landscapes using N-terminal hel",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P24.F5",
+   "summary": "(ApoE3 -> ApoE4) -> (retained isoform-specific inter-domain contacts in the simulated misfolded intermediate)",
+   "system": "Human full-length apoE monomers, implicit-solvent REX/DMD; ApoE3 at 338 K versus ApoE4 at 328 K; pairwise distance analysis of the intermediate ensembles; repor",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P25.F1",
+   "summary": "(APOE3 -> APOE4; neuronal LRP1 intact) -> (higher insoluble hippocampal apoE)",
+   "system": "Male and female 9-month-old APPswe/PSEN1ΔE9 mice with homozygous human APOE3-targeted replacement or APOE4-targeted replacement, Lrp1 floxed alleles, and no αCa",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P26.F1",
+   "summary": "APOE4 versus APOE3 showed no statistically significant difference in insoluble cortical apoE among donors negative for both defined tau pathologies.",
+   "system": "Human non-Hispanic White autopsy temporal cortex; older cohort, ages 54–103 years overall. Subgroup with Braak stage <4 and no AGD, which does not establish abs",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P26.F2",
+   "summary": "(APOE3 -> APOE4) -> (higher detergent-insoluble cortical apoE)",
+   "system": "Human non-Hispanic White autopsy donors selected across APOE genotypes; cohort ages 54–103 years. Frozen temporal cortex, sequential extraction, formic-acid-sol",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P26.F3",
+   "summary": "(APOE3 -> APOE4) -> (higher median detergent-insoluble cortical apoE)",
+   "system": "Human non-Hispanic White autopsy temporal cortex; older cohort, ages 54–103 years overall. APOE ε3/ε4 or ε4/ε4 versus ε3/ε3. Formic-acid-solubilized detergent-i",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P26.F4",
+   "summary": "Among AD-tau-negative donors, the APOE4 carrier–noncarrier difference in insoluble cortical apoE was statistically nonsignificant.",
+   "system": "Human non-Hispanic White autopsy temporal cortex; older cohort, ages 54–103 years overall. Braak stage <4 subgroup, with and without AGD; absence of defined AD-",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P26.F5",
+   "summary": "(APOE4 absent -> APOE4 present) -> (higher detergent-insoluble cortical apoE)",
+   "system": "Human non-Hispanic White autopsy temporal cortex from an older, neuropathologically characterized cohort, ages 54–103 years overall. Formic-acid-solubilized det",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P26.F6",
+   "summary": "(APOE4 absent -> APOE4 present) -> (higher detergent-insoluble cortical apoE after multivariable adjustment)",
+   "system": "Human non-Hispanic White autopsy temporal cortex from an older, neuropathologically characterized cohort, ages 54–103 years overall. Formic-acid-solubilized det",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P26.F7",
+   "summary": "Among AGD-positive donors, the APOE4–APOE3 difference in insoluble cortical apoE was positive and statistically nonsignificant.",
+   "system": "Human non-Hispanic White autopsy temporal cortex; older cohort, ages 54–103 years overall. AGD-positive subgroup pooling Braak stage <4 and ≥4. APOE ε3/ε4 or ε4",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P26.F8",
+   "summary": "(APOE4 absent -> APOE4 present) -> (higher detergent-insoluble cortical apoE without AGD)",
+   "system": "Human non-Hispanic White autopsy temporal cortex; older cohort, ages 54–103 years overall. AGD-negative subgroup, with and without AD-tau. APOE4 carriers versus",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P26.F9",
+   "summary": "Among AGD-positive donors, APOE4 carriers had a positive insoluble apoE estimate that missed the corrected significance threshold.",
+   "system": "Human non-Hispanic White autopsy temporal cortex; older cohort, ages 54–103 years overall. AGD-positive subgroup pooling AD-tau statuses. APOE4 carriers versus ",
+   "class": 3,
+   "strength": "4 weak"
+  }
+ ]
+}

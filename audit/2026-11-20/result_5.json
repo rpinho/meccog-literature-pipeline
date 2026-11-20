@@ -1,0 +1,560 @@
+[
+ {
+  "hyp": "H5",
+  "paper_id": "P19",
+  "finding_id": "P19.F1",
+  "key": "pmid41103078",
+  "quote_start": "We found that the HsAPOE4-expressing cells exhibited significantly dec",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "Magic Red Cathepsin B quantification across three independent experiments showed reduced lysosomal cathepsin-dependent proteolysis in APOE4 versus APOE3 Neuro-2a cells (APOE3 normalized to 1.0, APOE4 ~0.75).",
+   "Data location": "Fig 1G",
+   "Effect size": "~25%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.05",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quantification is Fig 1G (1F is images); bar values readable (APOE3 normalized 1.0, APOE4 ~0.75) and the bracket carries one star, the legend's *p<.05 (unpaired t-test).",
+  "evidence": "Fig 1G image: y-axis 0-1.5, APOE3 bar at 1.0, APOE4 bar top ~0.75; '*' over APOE3-APOE4 bracket. Legend: '(G) MR-CTSB quantification ... unpaired, two-tailed t-test (G). *p < .05'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P19",
+  "finding_id": "P19.F2",
+  "key": "pmid41103078",
+  "quote_start": "In concordance with our observations in Neuro-2a cells, we found that ",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~35%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.0001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Fig 6B LGALS3BP pair is readable (APOE3 ~92, APOE4 ~60 PLA intensity, axis 0-600) and carries ****; Fig 1/Fig 6 legend star keys are garbled in the extracted text ('*p < .05, ****p < .01, *p < .0001'; Fig 6: '*p < .05; ****p < .0005; *p < .0001'); the three-level order (.05/.01/.0001) matches the three mark types on the figure (*, **, ****), so **** = p<.0001.",
+  "evidence": "Fig 6B image: ticks 0/200/400/600; LGALS3BP grey bar top ~92, pink ~60 (pixel-measured), '****' over the LGALS3BP bracket. Text: 'APOE4 iPSC-derived neurons harbored less lysosomal LGALS3BP ... (Figure 6B,C)'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P19",
+  "finding_id": "P19.F3",
+  "key": "pmid41103078",
+  "quote_start": "While FCCP triggered mitophagy in both HsAPOE3- and HsAPOE4-expressing",
+  "verdict": "FIX",
+  "set": {
+   "P value": "<0.0001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Fig 1I shows '****' over the FCCP APOE3-vs-APOE4 bracket (2-way ANOVA + Bonferroni); Fig 1/Fig 6 legend star keys are garbled in the extracted text ('*p < .05, ****p < .01, *p < .0001'; Fig 6: '*p < .05; ****p < .0005; *p < .0001'); the three-level order (.05/.01/.0001) matches the three mark types on the figure (*, **, ****), so **** = p<.0001. Effect left qualitative (log2 density plot, small mean difference).",
+  "evidence": "Fig 1I image: '****' over FCCP pair, 'ns' over FCCP+BafA1 pair. Legend: 'analyzed ... by 2-way ANOVA followed post-hoc by Bonferroni's multiple comparisons test (A,E,H,I)'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P19",
+  "finding_id": "P19.F4",
+  "key": "pmid41103078",
+  "quote_start": "While BafA1 as expected reduced the acidic mtKeima signal, it intrigui",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig 1I FCCP+BafA1 bracket reads 'ns', no number; qualitative/N/A correct.",
+  "evidence": "Fig 1I image: 'ns' over FCCP+BafA1 APOE3/APOE4 bracket."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P19",
+  "finding_id": "P19.F5",
+  "key": "pmid41103078",
+  "quote_start": "While we could not observe differences in lysosomal LGALS3BP localizat",
+  "verdict": "OK",
+  "reason": "Quote verbatim (main text, own result); supplementary figure images not available, S6 legend gives five images from three experiments, t-test, no P printed.",
+  "evidence": "Supp: 'Five images from three independent experiments were analyzed by a two-tailed unpaired t-test.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P19",
+  "finding_id": "P19.F6",
+  "key": "pmid41103078",
+  "quote_start": "While we could not observe differences in lysosomal LGALS3BP localizat",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 'slight increase' in lysosomal TMED5 is the paper's own statement; no numbers printed for S6D.",
+  "evidence": "Text: 'we could observe a slight increase in lysosomal TMED5 immunoreactivity and colocalization (Fig. S6D-E)'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P19",
+  "finding_id": "P19.F7",
+  "key": "pmid41103078",
+  "quote_start": "We found that the LysoTracker intensity was significantly reduced in H",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~57%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.0001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Fig 1A values readable (APOE3 normalized 1.0, APOE4 ~0.43 under DMSO) with '****' over this bracket; Fig 1/Fig 6 legend star keys are garbled in the extracted text ('*p < .05, ****p < .01, *p < .0001'; Fig 6: '*p < .05; ****p < .0005; *p < .0001'); the three-level order (.05/.01/.0001) matches the three mark types on the figure (*, **, ****), so **** = p<.0001.",
+  "evidence": "Fig 1A image: y-axis 0-1.5, APOE3 DMSO bar 1.0, APOE4 DMSO bar ~0.43, 3 points each; '****' over APOE3-APOE4 DMSO bracket."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P19",
+  "finding_id": "P19.F8",
+  "key": "pmid41103078",
+  "quote_start": "Under basal conditions, we observed a modest impairment of mitophagy i",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~10%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.0001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Fig 1H bars readable (APOE3 ~0.88, APOE4 ~0.79 mtKeima acid:neutral) with '****' over the bracket; Fig 1/Fig 6 legend star keys are garbled in the extracted text ('*p < .05, ****p < .01, *p < .0001'; Fig 6: '*p < .05; ****p < .0005; *p < .0001'); the three-level order (.05/.01/.0001) matches the three mark types on the figure (*, **, ****), so **** = p<.0001.",
+  "evidence": "Fig 1H image: axis 0.0-2.0, APOE3 bar top ~0.88, APOE4 ~0.79; '****' over bracket."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P19",
+  "finding_id": "P19.F9",
+  "key": "pmid41103078",
+  "quote_start": "Autophagy appeared generally functional in these cells, despite the ba",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Supplementary Fig S1E-F"
+  },
+  "reason": "The quantification of basal autophagy (LC3-II:LC3-I, three replicates) is S1F; S1E is only the representative blot.",
+  "evidence": "Supp legend: '(E) Representative western blot of LC3-I and LC3-II ... (F) Quantification of LC3-II:LC3-I ratio ... across three independent replicates.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P19",
+  "finding_id": "P19.F10",
+  "key": "pmid41103078",
+  "quote_start": "Immunofluorescence of LAMP1 and LC3 shows lysosome-autophagosome fusio",
+  "verdict": "OK",
+  "reason": "Quote is the S1D legend's own result statement; qualitative, no n given.",
+  "evidence": "Supp legend S1D, verbatim."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P19",
+  "finding_id": "P19.F11",
+  "key": "pmid41103078",
+  "quote_start": "We therefore stained the cells for the lysosomal membrane marker LAMP1",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Supplementary Fig S1C"
+  },
+  "reason": "Lysosomal density per cell is quantified in S1C; S1B is the image/puncta panel.",
+  "evidence": "Supp legend: '(C) Lysosomal density per cell based on images such as those in panel B.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P19",
+  "finding_id": "P19.F12",
+  "key": "pmid41103078",
+  "quote_start": "Using GPN to release lysosomal calcium [61], we found lysosomal calciu",
+  "verdict": "OK",
+  "reason": "Quote verbatim; calcium panels S1G-M, no numbers printed; n=3 from Methods general statement.",
+  "evidence": "Text: 'lysosomal calcium levels to be comparable ... (Fig. S1G-L) ... (Fig. S1M)'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P35",
+  "finding_id": "P35.F1",
+  "key": "doi_10_1101_2025_11_11_687891",
+  "quote_start": "Furthermore, while both neuronal EE’s and LE’s showed an increasing pa",
+  "verdict": "FIX",
+  "set": {
+   "P value": "<0.05",
+   "P value provenance": "visual_only",
+   "Sample size": "10"
+  },
+  "reason": "Fig 4B neuronal LAMP1 panel shows '*' on the APOE3-APOE4 bracket (and '**' on APOE2-APOE4); legend key p<0.05:*. Fig 4 is a young-only model with sex as a covariate (both sexes pooled): 'N = 5 animals per sex, age, APOE genotype', so each genotype in this contrast has 5 male + 5 female = 10 mice.",
+  "evidence": "Fig 4B image, lower-right (Lysosome, neuronal): short bracket APOE3-APOE4 '*', long bracket APOE2-APOE4 '**'. Legend: 'p<0.05: *, p<0.01:**. N = 5 animals per sex, age, APOE genotype.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P35",
+  "finding_id": "P35.F2",
+  "key": "doi_10_1101_2025_11_11_687891",
+  "quote_start": "At the same time, N-LE-Ch levels showed similar expression to N-LE’s, ",
+  "verdict": "FIX",
+  "set": {
+   "Sample size": "10"
+  },
+  "reason": "Quote and null result correct (no bracket on Fig 4D neuronal LY-Ch). Fig 4 is a young-only model with sex as a covariate (both sexes pooled): 'N = 5 animals per sex, age, APOE genotype', so each genotype in this contrast has 5 male + 5 female = 10 mice.",
+  "evidence": "Fig 4D lower-right panel: no significance bars."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P35",
+  "finding_id": "P35.F3",
+  "key": "doi_10_1101_2025_11_11_687891",
+  "quote_start": "There was also a decrease in T-LE-Ch in APOE3<E2, with no change in AP",
+  "verdict": "FIX",
+  "set": {
+   "Sample size": "10"
+  },
+  "reason": "Quote verbatim; Fig 4E neuronal LE-Ch and total/neuronal LY-Ch panels have no brackets. Fig 4 is a young-only model with sex as a covariate (both sexes pooled): 'N = 5 animals per sex, age, APOE genotype', so each genotype in this contrast has 5 male + 5 female = 10 mice.",
+  "evidence": "Fig 4E: only '*' APOE2-APOE3 on total LE-Ch; none on neuronal LE-Ch or LY-Ch."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P35",
+  "finding_id": "P35.F4",
+  "key": "doi_10_1101_2025_11_11_687891",
+  "quote_start": "There was a striking decrease in both total and neuronal EE-Ch and LE-",
+  "verdict": "FIX",
+  "set": {
+   "Sample size": "10"
+  },
+  "reason": "Fig 4F lysosome panels have no brackets; null correct. Fig 4 is a young-only model with sex as a covariate (both sexes pooled): 'N = 5 animals per sex, age, APOE genotype', so each genotype in this contrast has 5 male + 5 female = 10 mice.",
+  "evidence": "Fig 4F lysosome panels: no significance bars."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P35",
+  "finding_id": "P35.F5",
+  "key": "doi_10_1101_2025_11_11_687891",
+  "quote_start": "Total LE-Ch was decreased in APOE3 females compared to APOE2 and APOE4",
+  "verdict": "FIX",
+  "set": {
+   "P value": "<0.05",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Fig 9D Young total LE-Ch panel shows '*' on the bracket from female APOE3 to female APOE4 (FDR-corrected, p<0.05:*). n=5 per sex/genotype/age is right.",
+  "evidence": "Fig 9D Young, top row: brackets '*' female APOE2-APOE3, '*' APOE3 male-female, '*' female APOE3-APOE4. Legend: 'P-values were FDR-corrected across contrasts, p<0.05: *'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P35",
+  "finding_id": "P35.F6",
+  "key": "doi_10_1101_2025_11_11_687891",
+  "quote_start": "The only significant difference measured on N-LY-Ch levels was in the ",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "Young (5-6 months) female APOE4 mice had significantly higher cortical neuronal lysosomal cholesterol than young female APOE3 mice (also higher than APOE2 females and APOE4 males), five mice per sex/genotype/age group.",
+   "Finding summary": "(APOE3 -> APOE4, young females) -> (higher cortical neuronal lysosomal cholesterol colocalization)",
+   "Experimental system": "Female human-APOE3/3 and APOE4/4 knock-in mice, 5-6 months (young panel of Fig 10B); fixed neocortex; neuronal D4H*-LAMP1 colocalization fraction divided by NeuN volume.",
+   "Data location": "Fig 10B, Young panel, neuronal lysosomal cholesterol",
+   "P value": "<0.01",
+   "P value provenance": "visual_only"
+  },
+  "reason": "The figure assigns the age: in Fig 10B neuronal LY-Ch the brackets are in the Young panel (APOE4 female vs APOE2 female '*', vs APOE3 female '**', vs APOE4 male '***'); so age is young (5-6 months) and the APOE3-vs-APOE4 female contrast is p<0.01.",
+  "evidence": "Fig 10B lower row, Young panel: '**' bracket from APOE3 female to APOE4 female; Middle-age panel only a single '*' male-female at APOE4. Legend key p<0.05:*, p<0.01:**, p<0.001:***."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P35",
+  "finding_id": "P35.F7",
+  "key": "doi_10_1101_2025_11_11_687891",
+  "quote_start": "In the HIPP, the total levels of EE’s, LE’s, and LY’s were not affecte",
+  "verdict": "FIX",
+  "set": {
+   "Sample size": "10"
+  },
+  "reason": "Quote verbatim; Fig 4B total LE/LY and neuronal LE panels have no brackets. Fig 4 is a young-only model with sex as a covariate (both sexes pooled): 'N = 5 animals per sex, age, APOE genotype', so each genotype in this contrast has 5 male + 5 female = 10 mice.",
+  "evidence": "Fig 4B: only the neuronal lysosome panel carries brackets."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P35",
+  "finding_id": "P35.F8",
+  "key": "doi_10_1101_2025_11_11_687891",
+  "quote_start": "Both total and neuronal LE’s were decreased in APOE4<E2, while lysosom",
+  "verdict": "FIX",
+  "set": {
+   "Sample size": "10"
+  },
+  "reason": "Quote verbatim; Fig 4C lysosome panels have no brackets. Fig 4 is a young-only model with sex as a covariate (both sexes pooled): 'N = 5 animals per sex, age, APOE genotype', so each genotype in this contrast has 5 male + 5 female = 10 mice.",
+  "evidence": "Fig 4C lysosome panels: no significance bars."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P35",
+  "finding_id": "P35.F9",
+  "key": "doi_10_1101_2025_11_11_687891",
+  "quote_start": "The largest effect was observed in the young EC, with neuronal LE’s, E",
+  "verdict": "FIX",
+  "set": {
+   "Sample size": "10"
+  },
+  "reason": "Discussion sentence restates the paper's own Fig 4F result (APOE4<APOE2 '*' on total and neuronal LE-Ch, APOE3 between, no APOE3-APOE4 bracket). Fig 4 is a young-only model with sex as a covariate (both sexes pooled): 'N = 5 animals per sex, age, APOE genotype', so each genotype in this contrast has 5 male + 5 female = 10 mice.",
+  "evidence": "Fig 4F Late endosome top and bottom: '*' APOE2-APOE4 only."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P35",
+  "finding_id": "P35.F10",
+  "key": "doi_10_1101_2025_11_11_687891",
+  "quote_start": "However, paired contrasts showed that N-LY’s in the EC were increased ",
+  "verdict": "FIX",
+  "set": {
+   "P value": "<0.01",
+   "P value provenance": "visual_only",
+   "Sample size": "15"
+  },
+  "reason": "Fig 7C EC neuronal LY panel shows a grey (APOE pairwise, per legend) '**' bracket from female APOE3 to female APOE4, and black '*' APOE4 male-female. Fig 7 pools the three ages, so each female genotype has 5 x 3 = 15 mice.",
+  "evidence": "Fig 7C lower-right (EC): grey '**' APOE3F-APOE4F, black '*' APOE4 M-F. Legend: 'Significance bars in grey show APOE genotype pairwise comparisons ... p<0.05: *, p<0.01:**, p<0.001:***. N = 5 animals per sex, age, APOE genotype.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P35",
+  "finding_id": "P35.F11",
+  "key": "doi_10_1101_2025_11_11_687891",
+  "quote_start": "In the EC, there were no significant three-way interactions observed a",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig 9E has no brackets; n=5 per sex/genotype/age cell.",
+  "evidence": "Fig 9E: no significance bars."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P35",
+  "finding_id": "P35.F12",
+  "key": "doi_10_1101_2025_11_11_687891",
+  "quote_start": "There were no differences in total LY-Ch levels in the EC (Fig. 10F).",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig 10F total LY-Ch panels have no brackets.",
+  "evidence": "Fig 10F top row: no significance bars."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P4",
+  "finding_id": "P4.F5",
+  "key": "pmid30375977",
+  "quote_start": "As shown in Figure 4D and E, physiological concentrations of ApoE3 (5 ",
+  "verdict": "OK",
+  "reason": "Quote verbatim and supports the smaller ApoE3 effect; Fig 4E at 0 uM EMD reads ApoE3 ~81, ApoE4 ~24 (~70% lower), consistent with ~72%. Stars at 0 uM are Dunnett vs Con, not E3 vs E4, so P N/A is right. Note: the Fig4E source sheet gives 76.1 vs 26.1 (66%), slightly off the plotted points.",
+  "evidence": "Fig 4E image: E3 ~81 '*', E4 ~24 '***' at 0 uM; supp Fig4E sheet E3+R 86.1/72.7/69.4, E4+R 22.6/30.7/25.1."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P4",
+  "finding_id": "P4.F6",
+  "key": "pmid30375977",
+  "quote_start": "ApoE3 and ApoE4 bind Apoer2 with similar affinity, whereas ApoE2 bindi",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "Quantification of the Apoer2-Fc pull-down showed similar binding of human ApoE3 and ApoE4 (specific binding at 10 ug/ml: ApoE3 18.4, ApoE4 18.9), with no significant difference reported.",
+   "Effect size": "1.03x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Exact values exist in the Fig 1B source data: at 10 ug/ml specific binding ApoE3 18.4, ApoE4 18.9 (1.03x).",
+  "evidence": "Supp Fig1B sheet: row 10: E2 7.4 | E3 18.4 | E4 18.9."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P4",
+  "finding_id": "P4.F8",
+  "key": "pmid30375977",
+  "quote_start": "Other ApoE receptors, such as low-density lipoprotein receptor-related",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "Quantification showed comparable surface-to-total Lrp1 ratios under ApoE3 (104.7% of control) and ApoE4 (101.5%) across three independent experiments.",
+   "Effect size": "3%",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Fig 2C source data give exact Lrp1 surface/total: ApoE3+R mean 104.7, ApoE4+R mean 101.5 (3% lower); figure matches.",
+  "evidence": "Supp Fig2C sheet: Lrp1 E3+R 115.7/94.8/103.6, E4+R 103.5/94.3/106.6."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P4",
+  "finding_id": "P4.F9",
+  "key": "pmid30375977",
+  "quote_start": "Increasing concentrations progressively restored normal surface recycl",
+  "verdict": "OK",
+  "reason": "Quote verbatim. Fig 4C plot reads 0 uM ~24 and 3 uM ~128 (~5.3x), within reading error of ~5.6x. Caution: the Fig4C source sheet (24.3 vs 107.8 = 4.4x; Con 99.9) does not match the plotted bars (Con ~112), so the figure estimate is kept. The '****' bracket is not in the legend key (only up to ***), so P stays N/A.",
+  "evidence": "Fig 4C image: Con ~112, 0 uM ~24, 3 uM ~128, '****' 0 vs 3 uM; legend key '*p<0.05, **p<0.01, ***p<0.001'; supp Fig4C sheet 0: 20.1/27.4/25.3, 3: 102.4/115.3/105.7."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P4",
+  "finding_id": "P4.F10",
+  "key": "pmid30375977",
+  "quote_start": "Figure 4F and G show that the resulting increase of the endosomal pH r",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "67%",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Fig 4G source data match the plot: ApoE4+EMD mean 100.3 vs ApoE4+EMD+100 nM bafilomycin 33.3 (67% lower). The *** brackets are vs untreated control, not this comparison.",
+  "evidence": "Supp Fig4G sheet: E4+EMD 103.3/95.4/102.3; E4+EMD+Baf(100) 33.2/29.5/37.3."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P4",
+  "finding_id": "P4.F13",
+  "key": "pmid30375977",
+  "quote_start": "ApoE-conditioned media treatment reduces the surface expression of Apo",
+  "verdict": "FIX",
+  "set": {
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9-14; Reelin with or without human cell-secreted ApoE4 (no EMD87580); surface biotinylation and surface/total Apoer2 immunoblot quantification.",
+   "Data location": "Fig 2C, Apoer2",
+   "Effect size": "73%",
+   "Effect size provenance": "supplement_only",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "The quote is the Fig 2B,C legend sentence, not Fig 4C; Fig 2C quantifies control+Reelin vs ApoE4+Reelin Apoer2 surface/total (100.0 vs 26.8, 73% lower) with '***' on that bracket (legend ***p<0.001, Dunnett).",
+  "evidence": "Fig 2 legend: 'ApoE-conditioned media treatment reduces the surface expression of Apoer2 in presence of Reelin in primary neurons.' Fig 2C image: '***' C+R vs E4+R. Supp Fig2C sheet Apoer2: C+R 103.1/96.8/100.1, E4+R 32.4/27.6/20.3."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P4",
+  "finding_id": "P4.F21",
+  "key": "pmid30375977",
+  "quote_start": "EMD87580 and the NHE6-specific shRNAs completely restored Apoer2 and g",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "4.1x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Fig 6D source data give exact values: ApoE4+R 24.1 vs ApoE4+R+shNHE6(1) 99.5 (4.1x); matches the plot. No bracket on this comparison.",
+  "evidence": "Supp Fig6D sheet: E4+R 26.4/17.3/28.5; E4+R+shNHE6(1) 96.7/102.2/99.7."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P4",
+  "finding_id": "P4.F22",
+  "key": "pmid30375977",
+  "quote_start": "EMD87580 and the NHE6-specific shRNAs completely restored Apoer2 and g",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "3.5x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Fig 6F source data: ApoE4+R 27.5 vs ApoE4+R+EMD87580 95.2 (3.5x); matches the plot.",
+  "evidence": "Supp Fig6F sheet: E4+R 27.4/33.1/21.9; E4+R+EMD87580 102.2/89.2/94.3."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P4",
+  "finding_id": "P4.F23",
+  "key": "pmid30375977",
+  "quote_start": "EMD87580 and the NHE6-specific shRNAs completely restored Apoer2 and g",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "3.6x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Fig 6F source data: ApoE4+R 27.5 vs ApoE4+R+shNHE6(1) 100.0 (3.6x); value unchanged, provenance is the printed source data.",
+  "evidence": "Supp Fig6F sheet: E4+R 27.4/33.1/21.9; E4+R+shNHE6(1) 103.5/96.4/100.1."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P4",
+  "finding_id": "P4.F33",
+  "key": "pmid30375977",
+  "quote_start": "None of the shRNAs directed against NHE1, 5, 7, 8 or 9 had any effect ",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.98x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Fig 5D source data: ApoE4+R 27.4 vs ApoE4+R+shNHE5 26.9 (0.98x); matches the plot.",
+  "evidence": "Supp Fig5D sheet: E4+R 32.1/22.6/27.4; E4+R+shNHE5 25.5/29.2/26.1."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P21",
+  "finding_id": "P21.F1",
+  "key": "pmid16298992",
+  "quote_start": "In apoE4-transfected Neuro-2a cells, A1–42 increased cytosolic -hexosa",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 'about 5-fold' printed; no P or n in the sentence.",
+  "evidence": "Results: 'A1-42 increased cytosolic -hexosaminidase activity by about 5-fold compared with values in A-treated Neo- and apoE3-transfected cells.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P21",
+  "finding_id": "P21.F2",
+  "key": "pmid16298992",
+  "quote_start": "NH4Cl treatment of the apoE4-transfected cells decreased lysosomal lea",
+  "verdict": "OK",
+  "reason": "Quote verbatim; text-only result, qualitative.",
+  "evidence": "Results sentence beginning 'NH4Cl treatment of the apoE4-transfected cells'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P21",
+  "finding_id": "P21.F3",
+  "key": "pmid16298992",
+  "quote_start": "Notably, LRP siRNA very significantly reduced apoE4 potentiation of A-",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "LRP siRNA strongly reduced apoE4 potentiation of Abeta-induced lysosomal beta-hexosaminidase leakage in Neuro-2a cells (E4 cells: ~116% increase over control with Abeta vs ~48% with Abeta plus siRNA).",
+   "Effect size": "~59%",
+   "Effect size provenance": "estimated_from_figure"
+  },
+  "reason": "Fig 11B (on page image 12.png) is readable: in E4 cells Abeta-induced hexosaminidase leakage ~116% above control vs ~48% with Abeta+siRNA (~59% lower). No P or n printed.",
+  "evidence": "Fig 11B image: y-axis 0-125 (% increase vs control); E4 cells hatched Abeta bar ~116, black Abeta+siRNA bar ~48."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P21",
+  "finding_id": "P21.F4",
+  "key": "pmid16298992",
+  "quote_start": "ApoE3- and apoE4-transfected cells treated with A1–42 had a similar 4-",
+  "verdict": "OK",
+  "reason": "Discussion sentence restates the paper's own Fig 12 result; n=10 cells is printed in Methods ('mean pixel number of immunofluorescence was obtained from 10 cells'). Fig 12C image not available.",
+  "evidence": "Discussion: 'had a similar 4-fold increase in immunocytochemical labeling'; Methods line on 10 cells."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P14",
+  "finding_id": "P14.F1",
+  "key": "pmid38480892",
+  "quote_start": "In addition, PI3K inhibition with GNE-317 reversed the lysosomal accum",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Extended Data Fig 7e not available as image and no P printed in legend (one-way ANOVA); n=3 wells printed.",
+  "evidence": "ED Fig 7 legend: 'e, Quantification of lysotracker staining ... (n = 3 replicate wells per condition; one-way ANOVA; mean +/- s.e.m.)'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P14",
+  "finding_id": "P14.F2",
+  "key": "pmid38480892",
+  "quote_start": "In accordance with these RNA-seq results, phenotypic measurements of L",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~2.1x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "0.0148",
+   "P value provenance": "printed_in_text"
+  },
+  "reason": "Fig 3s prints P = 0.0148 on the panel; bars readable (LD- ~67, LD+ ~143 LysoTracker area per well, axis 0-200), ~2.1x.",
+  "evidence": "Fig 3s image: 'P = 0.0148' over LD-/LD+ bracket; ticks 0/50/100/150/200; LD- bar ~67, LD+ ~143. Legend: 's, ... (n = 3 replicate wells per condition; unpaired, two-sided t-test)'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P16",
+  "finding_id": "P16.F1",
+  "key": "pmid34557909",
+  "quote_start": "Altered sorting of sortilin–FABP7 complexes in the presence of apoE4 w",
+  "verdict": "OK",
+  "reason": "Fig 7I: means ~0.22 (apoE3) and ~0.27 (apoE4), ~1.2x; '*' over the bracket with legend key; n=38 per condition printed.",
+  "evidence": "Fig 7I image; legend '(I) (n=38 cells for each condition) ... *P<0.05'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P16",
+  "finding_id": "P16.F3",
+  "key": "pmid34557909",
+  "quote_start": "Altered sorting of sortilin–FABP7 complexes in the presence of apoE4 w",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~1.3x"
+  },
+  "reason": "Fig 7H mean lines read ~0.20 (apoE3) and ~0.27 (apoE4) on the 0-0.5 tM1 axis, ~1.3x rather than ~1.4x. P and n are correct.",
+  "evidence": "Fig 7H image: ticks 0.1-0.5; apoE3 mean line ~0.203, apoE4 ~0.266; '**' over bracket; legend 'n=34 cells for apoE3 and 33 cells for apoE4'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P33",
+  "finding_id": "P33.F1",
+  "key": "pmid42330346",
+  "quote_start": "In both APOE3 and APOE4‐derived microglia, Lilrb4a knockdown enhanced ",
+  "verdict": "OK",
+  "reason": "Quote verbatim (Results, own experiment, Figure 4L-O); Fig 4M n=3 printed; no figure image or P value in the text.",
+  "evidence": "Text: 'In both APOE3 and APOE4-derived microglia, Lilrb4a knockdown enhanced ... (Figure 4L-O)'; legend '(M) ... (n = 3)'."
+ }
+]

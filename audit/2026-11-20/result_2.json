@@ -1,0 +1,550 @@
+[
+ {
+  "hyp": "H5",
+  "paper_id": "P7",
+  "finding_id": "P7.F1",
+  "key": "pmid40457456",
+  "quote_start": "Since cathepsins play an essential role in lysosomal degradation, we f",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~0.48x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.05",
+   "P value provenance": "visual_only",
+   "Sample size": "~3-5",
+   "Sample size provenance": "estimated_from_figure"
+  },
+  "reason": "Quote and direction are right; Fig. 1H shows the genotype bars and a star over this comparison, so the effect, P and line counts can be read off the panel.",
+  "evidence": "Fig. 1H: axis 50,000-200,000; E3/E3 bar ~120,000 MFI (5 dots: blue, green, red, black, orange), E4/E4 bar ~58,000 (3 dots); one star on the E3/E3-E4/E4 bracket; legend: 'Mann-Whitney test (H, L). *, p < 0.05'. 58k/120k = 0.48."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P7",
+  "finding_id": "P7.F2",
+  "key": "pmid40457456",
+  "quote_start": "As shown in Fig. 4F, H, the formation of galectin puncta, detected wit",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~4.4x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.001",
+   "P value provenance": "visual_only",
+   "Sample size": "~3",
+   "Sample size provenance": "estimated_from_figure"
+  },
+  "reason": "Quote and direction are right; Fig. 4H shows the Abeta42 genotype bars with *** over this comparison (legend key ***, p < 0.001).",
+  "evidence": "Fig. 4H (LGALS1 puncta, Nr per cell): Abeta42 E3/E3 bar ~0.33, E4/E4 bar ~1.47 (axis 0-2.5); '***' over the Abeta42 E3/E3 vs E4/E4 bracket; 3 dots per group (E4/E4 ~2.07, ~1.33, ~1.0; consistent with 3 E3 and 3 E4 points in Fig. 4I). Legend: 'two-way repeated measures ANOVA with Sidak's posthoc tests (B, D, H, K) ... ***, p < 0.001'. 1.47/0.33 = 4.4."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P7",
+  "finding_id": "P7.F3",
+  "key": "pmid40457456",
+  "quote_start": "As expected, blocking autophagic flux by inhibiting lysosomal acidific",
+  "verdict": "OK",
+  "reason": "Quote verbatim (Results); null genotype result in Fig. 1D, no genotype mark on the panel.",
+  "evidence": "'...led to increased LC3-II: LC3-I ratio compared to the basal levels (Fig. 1C, D), but there was no significant difference between the genotypes.' Fig. 1D: stars only for NT vs Bafi."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P7",
+  "finding_id": "P7.F4",
+  "key": "pmid40457456",
+  "quote_start": "Similarly, treatment with rapamycin, an inhibitor of the mTORC1 comple",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig. 1E shows stars only for the treatment effect, none between genotypes.",
+  "evidence": "'Similarly, treatment with rapamycin ... did not reveal any significant differences between the genotypes (Fig. 1C, E).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P7",
+  "finding_id": "P7.F5",
+  "key": "pmid40457456",
+  "quote_start": "Interestingly, lysosomal-associated membrane protein 2 (LAMP-2), a key",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~0.52x",
+   "Effect size provenance": "estimated_from_figure"
+  },
+  "reason": "Quote and 'tended to be reduced' framing are right; the NT LAMP2 bars are readable on Fig. 4D, so a figure estimate can replace 'qualitative'. No significance mark on the panel, P stays N/A.",
+  "evidence": "Fig. 4D LAMP2 (normalised to beta-actin, axis 0-10,000): NT E3/E3 bar ~6,050, NT E4/E4 bar ~3,150; no star on the LAMP2 panel. 3,150/6,050 = 0.52."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P7",
+  "finding_id": "P7.F6",
+  "key": "pmid40457456",
+  "quote_start": "Since proteomic analysis comparing two (isogenic to each other) E4/E4 ",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Table S4 is not in the extracted supplement, so qualitative is right; n=2 E4/E4 lines is printed.",
+  "evidence": "'Since proteomic analysis comparing two (isogenic to each other) E4/E4 lines to E3/E3 lines revealed a downregulation of two other lysosomal proteins MFSD1 and GLMP in E4/E4 iMGs at basal conditions (Fig. 3B, Table S4)'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P7",
+  "finding_id": "P7.F7",
+  "key": "pmid40457456",
+  "quote_start": "Further, we analyzed LC3-II levels by WB, and found that, similarly to",
+  "verdict": "OK",
+  "reason": "Quote verbatim; p = 0.04 is the Abeta42 treatment effect, correctly not used as a genotype P.",
+  "evidence": "'Aβ42 strongly increased intracellular LC3-II (p = 0.04), irrespective of the APOE genotype (Fig. 4B, C).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P7",
+  "finding_id": "P7.F8",
+  "key": "pmid40457456",
+  "quote_start": "Under basal conditions, E4/E4 iMGs exhibited significantly lower LC3-I",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~0.54x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.05",
+   "P value provenance": "visual_only",
+   "Sample size": "~3-5",
+   "Sample size provenance": "estimated_from_figure"
+  },
+  "reason": "Quote and direction right; Fig. 1B has a star over the E3/E3 vs E4/E4 bracket and readable bars.",
+  "evidence": "Fig. 1B (LC3 II, normalised to GAPDH, axis 0-15,000): E3/E3 bar ~8,200 (5 dots), E4/E4 bar ~4,450 (3 dots); one star on the bracket; legend: 'unpaired t-test (B, F, I) ... *, p < 0.05'. 4,450/8,200 = 0.54."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P7",
+  "finding_id": "P7.F9",
+  "key": "pmid40457456",
+  "quote_start": "Consistent with the proteomics data, this WB analysis confirmed that 4",
+  "verdict": "OK",
+  "reason": "Quote verbatim; genotype null result, no Fig. 3 image to read.",
+  "evidence": "'...strongly increased the accumulation of LC3-II as well as glutamine synthetase (GLUL), although the protein levels were not affected by the APOE genotype (Fig. 3C, D).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P7",
+  "finding_id": "P7.F10",
+  "key": "pmid40457456",
+  "quote_start": "Moreover, when endosome maturation and degradation were blocked by api",
+  "verdict": "OK",
+  "reason": "Quote verbatim; p < 0.001 is time x treatment as the row says; legend prints N = 3 iPSC lines for M.",
+  "evidence": "'(repeated measures ANOVA, time x treatment p < 0.001, Fig. 1M)'; legend M: 'in the presence or absence of apilimod, N = 3 iPSC lines.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P7",
+  "finding_id": "P7.F11",
+  "key": "pmid40457456",
+  "quote_start": "To assess pinocytosis (fluid-phase endocytosis), we added pHrodo-conju",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~0.49x",
+   "Effect size provenance": "estimated_from_figure",
+   "Sample size": "~3-5",
+   "Sample size provenance": "estimated_from_figure"
+  },
+  "reason": "Quote and P (time x genotype p = 0.01) are right; the time course in Fig. 1K is readable, and the same assay's per-line dots in Fig. 1L give the line counts.",
+  "evidence": "Fig. 1K (pHrodo-dextran, axis 0-10,000): at ~20 h E3/E3 ~6,900, E4/E4 ~3,400 (0.49). Fig. 1L (3 h, same assay): E3/E3 5 dots (bar ~690), E4/E4 3 dots (bar ~260). Text: 'two-way repeated measures ANOVA, time x genotype p = 0.01; Fig. 1J, L'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P7",
+  "finding_id": "P7.F12",
+  "key": "pmid40457456",
+  "quote_start": "Under basal conditions or after treatment with bafilomycin A, there we",
+  "verdict": "OK",
+  "reason": "Quote verbatim; null result in Supplementary Fig. 2C (no image).",
+  "evidence": "'Under basal conditions or after treatment with bafilomycin A, there were no differences in TOM-20 protein levels between the genotypes (Supplementary Fig. 2C).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P7",
+  "finding_id": "P7.F13",
+  "key": "pmid40457456",
+  "quote_start": "Similarly, treatment with rapamycin, with or without bafilomycin A, di",
+  "verdict": "OK",
+  "reason": "Quote verbatim; null result in Supplementary Fig. 2D.",
+  "evidence": "'Similarly, treatment with rapamycin, with or without bafilomycin A, did not reveal any differences in mitochondrial mass between the genotypes...(Supplementary Fig. 2D).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P7",
+  "finding_id": "P7.F14",
+  "key": "pmid40457456",
+  "quote_start": "Interestingly, the APOE genotype did not significantly affect the upta",
+  "verdict": "OK",
+  "reason": "Quote verbatim; null result, supplementary figure not available.",
+  "evidence": "'Interestingly, the APOE genotype did not significantly affect the uptake of pHrodo-conjugated zymosan-coated beads (Supplementary Fig. 2E-G)...'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P1",
+  "finding_id": "P1.F1",
+  "key": "doi_10_64898_2026_05_12_724612",
+  "quote_start": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Quote verbatim and values (~5.15, ~5.05) correctly carried in the description. No figure image is available; the legend gives one test and one star key for the panel ('*p < 0.05; **p < 0.01; ***p < 0.001; ****p < 0.0001'), so the P is ambiguous_panel, not not_found_in_source.",
+  "evidence": "Fig. 3 legend: '(G) Late endosomal and lysosomal acidity ... (n=3 wells each, 9 frames per well) ... (G, H) One way ANOVA, mean ± SEM.*p < 0.05; **p < 0.01; ***p < 0.001; ****p < 0.0001, ns, non-significant'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P1",
+  "finding_id": "P1.F2",
+  "key": "doi_10_64898_2026_05_12_724612",
+  "quote_start": "Consistently, lysosomal degradative capacity, assessed by DQ-BSA, was ",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Quote verbatim, n = 3 wells per group printed. No figure image is available; the legend gives one test and one star key for the panel ('*p < 0.05; **p < 0.01; ***p < 0.001; ****p < 0.0001'), so the P is ambiguous_panel, not not_found_in_source.",
+  "evidence": "Fig. 3 legend: '(H) DQ-BSA ... (for each group, 3 wells were imaged, 9 frames each). One way ANOVA, mean ± SEM.' plus the figure-wide star key."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P1",
+  "finding_id": "P1.F3",
+  "key": "doi_10_64898_2026_05_12_724612",
+  "quote_start": "Upon challenge with organoid debris, UCI5 APOE44 iMG lysosomes failed ",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Quote verbatim, n = 3 wells printed. No figure image is available; the legend gives one test and one star key for the panel ('*p < 0.05; **p < 0.01; ***p < 0.001; ****p < 0.0001'), so the P is ambiguous_panel, not not_found_in_source.",
+  "evidence": "Fig. 7 legend: '(M) ... UCI5 APOE33 and APOE44 iMG untreated and treated with organoid debris (n=3 wells each, 25 frames per well) ... (D-G, I-M) Unpaired t-test, two-tailed ... *p < 0.05; **p < 0.01; ***p < 0.001; ****p < 0.0001'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P1",
+  "finding_id": "P1.F4",
+  "key": "doi_10_64898_2026_05_12_724612",
+  "quote_start": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Quote verbatim; baseline null with ~5.15 in both groups is right. The Fig. 3 legend has a key including 'ns', with no image to place it, so ambiguous_panel.",
+  "evidence": "'While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (∼5.15)'; Fig. 3 legend key '... ns, non-significant'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P1",
+  "finding_id": "P1.F5",
+  "key": "doi_10_64898_2026_05_12_724612",
+  "quote_start": "To assess this possibility, we quantified colocalization of BODIPY and",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Quote verbatim; legend prints n = 2 wells x 9 frames per line. No figure image is available; the legend gives one test and one star key for the panel ('*p < 0.05; **p < 0.01; ***p < 0.001; ****p < 0.0001'), so the P is ambiguous_panel, not not_found_in_source.",
+  "evidence": "Fig. 3 legend: '(E) BODIPY-493/503 and LysoTracker Red DND-99 colocalization ... (n = 2 wells x 9 frames per line)' and '(B-E) Unpaired t-test, two-tailed, mean ± SEM.' with star key."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P1",
+  "finding_id": "P1.F6",
+  "key": "doi_10_64898_2026_05_12_724612",
+  "quote_start": "To assess this possibility, we quantified colocalization of BODIPY and",
+  "verdict": "OK",
+  "reason": "Quote verbatim and the paper's own result; the row duplicates P1.F5 (same quote) pointing to the representative images in S3B, which carry no statistics. Not a DROP criterion.",
+  "evidence": "Fig. S3 legend: '(B) BODIPY-493/503, LysoTracker Red DND-99 and colocalization representative image. Scale bar = 50µm.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P1",
+  "finding_id": "P1.F7",
+  "key": "doi_10_64898_2026_05_12_724612",
+  "quote_start": "Of the 84 identified lysosomal hydrolases and V-ATPases, 53 were signi",
+  "verdict": "OK",
+  "reason": "Quote verbatim; S3D is a Venn diagram with no test in its legend, and Table S6 is not available, so full_text_unavailable for P is defensible.",
+  "evidence": "'Of the 84 identified lysosomal hydrolases and V-ATPases, 53 were significantly downregulated in APOE44 iMG, supporting lysosomal impairment (Figure S3D).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P1",
+  "finding_id": "P1.F8",
+  "key": "doi_10_64898_2026_05_12_724612",
+  "quote_start": "As an orthogonal approach to visualize lysosomes, we performed transmi",
+  "verdict": "OK",
+  "reason": "Quote verbatim; EM 'instances', qualitative, no test in the legend for 3F.",
+  "evidence": "'Indeed, we found instances in which lysosomes from APOE44 appeared more electron dense, with a concentric, whorled membranous structure, indicative of lipid buildup (Figure 3F).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P1",
+  "finding_id": "P1.F9",
+  "key": "doi_10_64898_2026_05_12_724612",
+  "quote_start": "These data were in agreement with our scRNAseq results, also indicatin",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Quote verbatim; the S3C legend prints the test, n and a star key, but no image is available, so the P is ambiguous_panel rather than full_text_unavailable.",
+  "evidence": "Fig. S3 legend: '(C) LAMP1, LAMP2, HEXA and HEXB protein levels ... (C, E, F) Unpaired t-test, two-tailed, mean ± SEM, corrected with Benjamini-Hochberg (n = 3 wells each). *p < 0.05; ****p < 0.0001'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P1",
+  "finding_id": "P1.F10",
+  "key": "doi_10_64898_2026_05_12_724612",
+  "quote_start": "Nevertheless, both lines at the proteomic level show an increase in MH",
+  "verdict": "OK",
+  "reason": "Quote verbatim; S7I is a log2FC comparison with enrichment, no per-comparison P in the legend.",
+  "evidence": "'Nevertheless, both lines at the proteomic level show an increase in MHC Class II response and inflammatory response and a decrease in lysosomal proteins (Figure S7I).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P1",
+  "finding_id": "P1.F11",
+  "key": "doi_10_64898_2026_05_12_724612",
+  "quote_start": "Further, p62 (SQSTM1) and LC3B (MAP1LC3B2) were both upregulated, supp",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "ambiguous_panel"
+  },
+  "reason": "Quote verbatim; the S3E legend prints the test, n = 3 wells and a star key, with no image available, so the P is ambiguous_panel.",
+  "evidence": "Fig. S3 legend: '(E) SQSTM1 (p62) and MAP1LC3B2 protein levels ... (C, E, F) Unpaired t-test ... (n = 3 wells each). *p < 0.05; ****p < 0.0001'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P11",
+  "finding_id": "P11.F1",
+  "key": "pmid42274838",
+  "quote_start": "Moreover, APOE3-expressing astrocytes showed higher lysosomal activity",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~0.27x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote verbatim, direction right; the P comes from a star whose meaning is given only by the legend key, so it is visual_only, and the bars are readable.",
+  "evidence": "Fig. 4D (LysoTracker mean fluorescence, axis 0-150): APOE3 bar ~101, APOE4 bar ~27; one star on the APOE3-APOE4 bracket; legend: 'means ± SEM, *p < 0.05, ratio paired t-test (n = 3)'. 27/101 = 0.27."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P11",
+  "finding_id": "P11.F2",
+  "key": "pmid42274838",
+  "quote_start": "As shown in Fig. 3A, the levels of p62 were significantly higher in AP",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig. 3 p62 quantification (labelled panel B in the figure image; the text cites Fig. 3A), control APOE3 vs APOE4",
+   "Effect size": "~1.42x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.005",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote verbatim, but the figure image labels the p62 quantification as panel B (panel A is LC3-II/LC3-I), the reverse of the text's citation. The p62 panel has ** over the control APOE3 vs APOE4 bracket.",
+  "evidence": "Fig. 3 image, p62 panel (labelled B, p62/Actin % of APOE3 control): control APOE3 ~100, control APOE4 ~142, '**' on that bracket; legend: '* < 0.05, **q < 0.005, ****q < 0.001, two-way ANOVA with post hoc linear contrast and the two-stage FDR correction (n = 6)'. Note these are FDR q values."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P11",
+  "finding_id": "P11.F3",
+  "key": "pmid42274838",
+  "quote_start": "However, the levels of LC3-II were significantly lower in APOE4 compar",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "APOE4 astrocytes had significantly lower basal LC3-II than APOE3 astrocytes (the quantified panel plots the LC3-II/LC3-I ratio as % of APOE3 control), consistent with altered autophagy although steady-state LC3 alone does not establish flux.",
+   "Data location": "Fig. 3 LC3 quantification (labelled panel A in the figure image, LC3-II/LC3-I ratio; the text cites Fig. 3B), control APOE3 vs APOE4",
+   "Effect size": "~0.52x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote verbatim, but the quantified panel is labelled A in the image and plots the LC3-II/LC3-I ratio (not LC3-II alone); **** sits over the control APOE3 vs APOE4 bracket.",
+  "evidence": "Fig. 3 image, panel A (LC3-II/LC3-I, % of APOE3 control): control APOE3 100, control APOE4 ~52, '****' on that bracket; legend key '****q < 0.001 ... (n = 6)'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P11",
+  "finding_id": "P11.F4",
+  "key": "pmid42274838",
+  "quote_start": "The LC3-II/LC3-I ratio was significantly higher in APOE3 compared to A",
+  "verdict": "OK",
+  "reason": "Quote verbatim; in Fig. 7B each genotype is plotted as % of its own control, so no genotype comparison or mark is visible; qualitative and ambiguous_panel are right, n = 5 printed.",
+  "evidence": "Fig. 7 legend: 'presented as fold induction related to control ... (n = 5)'; Fig. 7B image: separate APOE3 and APOE4 graphs, each control = 100."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P11",
+  "finding_id": "P11.F5",
+  "key": "pmid42274838",
+  "quote_start": "Combined treatment of MPP+ and rapamycin reduced p62 levels compared t",
+  "verdict": "OK",
+  "reason": "Quote verbatim; the ^ marks in Fig. 7B are within-genotype (MPP+ vs rapamycin + MPP+), no genotype interaction test.",
+  "evidence": "Legend: '^q < 0.05, MPP+ compared to rapamycin + MPP+'; Fig. 7B p62: APOE3 MPP+ ~145 -> ~52 with rapamycin; APOE4 ~125 -> ~93."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P11",
+  "finding_id": "P11.F6",
+  "key": "pmid42274838",
+  "quote_start": "As shown in Fig. 3A, the levels of p62 were significantly higher in AP",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig. 3 p62 quantification (labelled panel B in the figure image; the text cites Fig. 3A), alpha-synuclein response within each genotype"
+  },
+  "reason": "Quote verbatim and description right, but the p62 quantification is labelled panel B in the figure image (the text says 3A). The only star for this response is APOE3 control vs alpha-synuclein; no genotype x treatment test is shown.",
+  "evidence": "Fig. 3 image, p62 panel (labelled B): '*' on APOE3 control vs APOE3 alpha-synuclein (~100 -> ~139); APOE4 control ~142 vs alpha-synuclein ~133 with no mark."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P11",
+  "finding_id": "P11.F7",
+  "key": "pmid42274838",
+  "quote_start": "As shown in Fig. 3B, α-synuclein treatment significantly reduced the l",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig. 3 LC3 quantification (labelled panel A in the figure image, LC3-II/LC3-I ratio; the text cites Fig. 3B), alpha-synuclein response within each genotype"
+  },
+  "reason": "Quote verbatim and description right, but the LC3 quantification is labelled panel A in the figure image and plots LC3-II/LC3-I (the text says 3B).",
+  "evidence": "Fig. 3 image, panel A (LC3-II/LC3-I): '*' on APOE3 control vs APOE3 alpha-synuclein (100 -> ~79); APOE4 control ~52 vs alpha-synuclein ~46, no mark."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P30",
+  "finding_id": "P30.F1",
+  "key": "pmid32709881",
+  "quote_start": "Furthermore, using the tandem LC3-GFP-RFP reporter30, we found that fo",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.61x",
+   "Effect size provenance": "printed_in_text",
+   "Finding description": "Following CCCP, approximately 55% of autophagosomes in APOE4 astrocytes versus approximately 90% in APOE3 astrocytes were reported fused with lysosomes (APOE4/APOE3 = 0.61x)."
+  },
+  "reason": "Quote verbatim; the text prints both group values (~90% vs ~55% fused), so a ratio can replace 'qualitative'. The ** on the APOE4 CCCP bar marks a puncta-area segment, not the fused percentage itself, so P stays ambiguous_panel.",
+  "evidence": "'...following CCCP treatment, ~90% of autophagosomes in the APOE3 astrocytes were fused with lysosomes, compared to ~55% in the APOE4 astrocytes (Fig. 3c).' Fig. 3c prints segment values: APOE3 CCCP RFP-only 3.31 / GFP-RFP 0.29; APOE4 CCCP 2.94 / 2.24 (92% vs 57%). 55/90 = 0.61."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P30",
+  "finding_id": "P30.F2",
+  "key": "pmid32709881",
+  "quote_start": "Accordingly, APOE3 astrocytes treated with CCCP combined with chloroqu",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~96%",
+   "Effect size provenance": "estimated_from_figure"
+  },
+  "reason": "Quote verbatim; the Delta +/- CQ graph in Fig. 3d is readable. The ** over the APOE4 CCCP bar has no threshold in the 3d part of the legend ('*p < 0.05 and **, APOE3 compared with APOE4'), so P stays ambiguous_panel.",
+  "evidence": "Fig. 3d right graph (Delta LC3-II +/- CQ, axis 0-1.4): CCCP APOE3 ~0.99, APOE4 ~0.04 (bar barely above zero), '**' over APOE4; CTRL APOE3 ~0.48, APOE4 ~0.10. (0.99-0.04)/0.99 = 96% lower."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P30",
+  "finding_id": "P30.F3",
+  "key": "pmid32709881",
+  "quote_start": "As shown in Fig. 2a, increased accumulation (differences between CQ tr",
+  "verdict": "OK",
+  "reason": "Quote verbatim, the paper's own result; Fig. 2 image not available, legend gives n >= 3 and a shared key.",
+  "evidence": "Fig. 2 legend: '(normalized to AIF; fold of APOE3; n ≥ 3) ... *p < 0.05 and **p < 0.01, APOE3-expressing compared with APOE4-expressing cells; ^p < 0.05, CQ-treated compared to untreated cells.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P30",
+  "finding_id": "P30.F4",
+  "key": "pmid32709881",
+  "quote_start": "Additionally, treatment with chloroquine/MG-132 led to parkin accumula",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig. 4e image not available, legend n >= 3 with a shared key.",
+  "evidence": "'Additionally, treatment with chloroquine/MG-132 led to parkin accumulation only in the APOE3 astrocytes (Fig. 4e, f)'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P30",
+  "finding_id": "P30.F5",
+  "key": "pmid32709881",
+  "quote_start": "In addition, 12 µM CCCP treatment reduced p62 levels only in the APOE3",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig. S1b legend gives n > 3 and a shared key, no image.",
+  "evidence": "'In addition, 12 µM CCCP treatment reduced p62 levels only in the APOE3 astrocytes, indicating increased p62 degradation in these cells (Fig. S1b).'"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P11",
+  "finding_id": "P11.F3",
+  "key": "pmid39880097",
+  "quote_start": "Notably, rAPOE4 exhibited a higher β-sheet content, both in isolation ",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 6C, 1:1 (5 μM LPS) APOE4 vs APOE3 bars; ~2.5-2.6x at 1:2 and 1:4."
+  },
+  "reason": "Quote verbatim and the ~2.3x matches only the 1:1 (5 uM LPS) pair; at 1:2 and 1:4 the APOE4/APOE3 ratio is ~2.5-2.6x. The location should name the 5 uM pair the effect comes from.",
+  "evidence": "Fig. 6C (ThT fluorescence, axis 0-150+): APOE3 baseline ~47, 1:1 ~53, 1:2 ~57, 1:4 ~60; APOE4 baseline ~102, 1:1 ~121, 1:2 ~146, 1:4 ~155. 121/53 = 2.3. Stars are each isoform vs its own baseline (Dunnett), none for APOE4 vs APOE3."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P11",
+  "finding_id": "P11.F6",
+  "key": "pmid39880097",
+  "quote_start": "Notably, rAPOE4 exhibited a higher β-sheet content, both in isolation ",
+  "verdict": "OK",
+  "reason": "Quote verbatim; baseline bars ~47 (APOE3) vs ~102 (APOE4) give ~2.2x; no star for the isoform comparison; n = 4 printed.",
+  "evidence": "Fig. 6C: APOE3 baseline ~47, APOE4 baseline ~102; legend '(n = 4). ∗∗p ≤ 0.01 and ∗∗∗p ≤ 0.001' for treatment-vs-baseline marks."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P11",
+  "finding_id": "P11.F7",
+  "key": "pmid39880097",
+  "quote_start": "Furthermore, the data indicate that uptake by the cells was significan",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig. 8A shows a star on the APOE3+LPS vs APOE4+LPS bracket and means ~34 vs ~44 (~1.3x), n = 4 dots each.",
+  "evidence": "Fig. 8A: APOE3 +LPS mean ~34.3, APOE4 +LPS mean ~44.4, grey '*' bracket between them; legend '(n = 4). ∗p < 0.05, ∗∗p < 0.01'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P23",
+  "finding_id": "P23.F2",
+  "key": "pmid38891941",
+  "quote_start": "Mice with the APOE4 allele appeared to have higher apoE levels at 12 a",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~1.4x",
+   "Effect size provenance": "estimated_from_figure"
+  },
+  "reason": "Quote verbatim and non-significance is right, but the 12-month bars read ~0.081 (APOE3) vs ~0.113 (APOE4), i.e. ~1.4x, not ~1.3x.",
+  "evidence": "Fig. 4T (apoE ug/mg, axis 0-0.5): 12 months APPPS1:E3 bar ~0.081, APPPS1:E4 bar ~0.113; text: 'There was no main effect of the APOE allele ... (Figure 4T, p = 0.2003)'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P23",
+  "finding_id": "P23.F3",
+  "key": "pmid38891941",
+  "quote_start": "Mice with the APOE4 allele appeared to have higher apoE levels at 12 a",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~1.3x",
+   "Effect size provenance": "estimated_from_figure"
+  },
+  "reason": "Quote verbatim and non-significance is right, but the 16-month bars read ~0.146 (APOE3) vs ~0.184 (APOE4), i.e. ~1.3x, not ~1.5x.",
+  "evidence": "Fig. 4T: 16 months APPPS1:E3 bar ~0.146, APPPS1:E4 bar ~0.184 (184/146 = 1.26); no star on panel T."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P27",
+  "finding_id": "P27.F1",
+  "key": "pmid31641056",
+  "quote_start": "Greater colocalization of ABCA1 with the late endosome marker LAMP2 an",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig 2A (images), 2B (quantification)",
+   "Effect size": "~1.3x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote verbatim; the quantification is Fig. 2B, which shows *** over rApoE3 vs rApoE4 and readable means.",
+  "evidence": "Fig. 2B (ABCA1 with LAMP2, % colocalization): rApoE3 mean ~44.7, rApoE4 mean ~56.2, '***' on the bracket; legend: 'The colocalization of ABCA1 with LAMP2 (lysosomal marker) ( A , B ) ... *** p < 0.001.' 56.2/44.7 = 1.26."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P37",
+  "finding_id": "P37.F1",
+  "key": "pmid38891941",
+  "quote_start": "Additionally, APPPS1:E4 mice had higher levels of lysosomal accumulati",
+  "verdict": "OK",
+  "reason": "Quote verbatim. In Fig. 7D the 8-month APPPS1:E3 value is ~0 (dots on the axis) against ~0.085 for APPPS1:E4, so no fold can be defined, and the panel has no significance mark. Qualitative, n 2-8 and P N/A stand.",
+  "evidence": "Fig. 7D (LAMP1 % ROI in FC): 8 months E3 ~0.00, E4 ~0.085; no star in panel D; legend '(D) (n = 2–8 mice/genotype group)'."
+ }
+]

@@ -1,0 +1,151 @@
+[
+ {
+  "item": 1,
+  "decision": "CONFIRM",
+  "why": "Fig 8 legend prints IR lysosomes APOE3 = 0.33±0.017, APOE4 = 0.33±0.034, p = 0.19, so 1.00x printed_in_text is right."
+ },
+ {
+  "item": 2,
+  "decision": "CONFIRM",
+  "why": "Text prints APOER2 early-endosome M1 0.50±0.03 (APOE4, N=31) vs 0.37±0.04 (APOE3, N=20), p < 0.05; 0.50/0.37 = 1.35x."
+ },
+ {
+  "item": 3,
+  "decision": "CONFIRM",
+  "why": "Text prints LRP1 early-endosome 0.24±0.02 (APOE3) vs 0.11±0.016 (APOE4), p < 0.001; APOE4/APOE3 = 0.46x, correct direction."
+ },
+ {
+  "item": 4,
+  "decision": "CONFIRM",
+  "why": "Fig 8 legend prints LRP1 recycling endosomes APOE3 = 0.12±0.024, APOE4 = 0.12±0.023 with no P, so 1.0x printed_in_text with P N/A is right."
+ },
+ {
+  "item": 5,
+  "decision": "CONFIRM",
+  "why": "Text prints VEGFR early-endosome 0.39±0.03 vs 0.24±0.02 (p < 0.01; legend says p < 0.001), so 1.63x is right and keeping the text's p < 0.01 is defensible."
+ },
+ {
+  "item": 6,
+  "decision": "CONFIRM",
+  "why": "Fig 8 legend prints VEGFR early endosomes APOE3 = 0.22±0.03, APOE4 = 0.36±0.04, p < 0.05; 0.36/0.22 = 1.64x."
+ },
+ {
+  "item": 7,
+  "decision": "CONFIRM",
+  "why": "Fig 3s prints P = 0.0148 over LD- vs LD+; my pixel read on the 0-200 axis gives LD- ~67, LD+ ~144, so ~2.1x (n = 3 wells, unpaired t-test) holds."
+ },
+ {
+  "item": 8,
+  "decision": "CONFIRM",
+  "why": "My pixel read of Fig 4T at 12 months gives APOE3 ~0.08 vs APOE4 ~0.11 ug/mg (ratio ~1.37), so ~1.4x fits better than ~1.3x; no between-genotype mark."
+ },
+ {
+  "item": 9,
+  "decision": "CONFIRM",
+  "why": "My pixel read of Fig 4T at 16 months gives APOE3 ~0.145 vs APOE4 ~0.183 ug/mg (ratio ~1.26), so ~1.3x, not ~1.5x."
+ },
+ {
+  "item": 10,
+  "decision": "CONFIRM",
+  "why": "Legend says (k) images and (l) quantification; the lysosomal/total filipin panel of 5l prints P<0.0001 on the ApoE3+PHF vs ApoE4+PHF bracket (Tukey pairwise post hoc, not omnibus); leaving the effect qualitative is defensible given the near-zero ApoE3+PHF bar."
+ },
+ {
+  "item": 11,
+  "decision": "CONFIRM",
+  "why": "Fig 5j % autophagosome/cell: my pixel read gives ApoE3+PHF ~35-37 vs ApoE4+PHF ~78-81 (~2.2-2.3x), and the ApoE3+PHF vs ApoE4+PHF bracket prints P<0.0001 (Tukey pairwise)."
+ },
+ {
+  "item": 12,
+  "decision": "CONFIRM",
+  "why": "Fig 5j: ApoE4+PHF ~78-81 vs ApoE4+PHF+CAP ~37-39 (~52% decrease), with P<0.0001 printed on that pairwise Tukey bracket; quantification is 5j, not 5i."
+ },
+ {
+  "item": 13,
+  "decision": "CONFIRM",
+  "why": "The finding compares CE(20:4)-ApoE3 and -ApoE4 together against low-lipofuscin treatments with no ApoE4-vs-ApoE3 contrast, so it is not a direct A->B test; class 3 is a correction of the experiment's form relative to A, not a model-system change."
+ },
+ {
+  "item": 14,
+  "decision": "CONFIRM",
+  "why": "Results say 'demonstrated a trend of ApoE4 > ApoE3 > ApoE2 > K146E ApoE4' and give no P for E4 vs E3 (no figure image available), so the 'trend' wording is correct."
+ },
+ {
+  "item": 15,
+  "decision": "CONFIRM",
+  "why": "Results print LAMP1 Mander's 0.410 ± 0.049 (ApoE3) and 0.497 ± 0.090 (ApoE4); 0.497/0.410 = 1.21x."
+ },
+ {
+  "item": 16,
+  "decision": "CONFIRM",
+  "why": "Results print LAMP1 Mander's 0.903 ± 0.024 (ApoE3) and 0.900 ± 0.008 (ApoE4); ratio 0.997 = 1.00x."
+ },
+ {
+  "item": 17,
+  "decision": "ADJUST",
+  "set": {
+   "Data location": "Fig 6C, 1:1 (5 μM LPS) APOE3 vs APOE4 bars",
+   "P value provenance": "not_found_in_source"
+  },
+  "why": "My read of Fig 6C matches (1:1: ~53 vs ~120, ~2.3x; 1:2 and 1:4 ~2.5-2.6x), but the location column should name the panel and bars only, not other effect sizes. The legend's Dunnett stars are each isoform vs its own baseline and the readable image shows no APOE4-vs-APOE3 mark, so P provenance is not_found_in_source, not ambiguous_panel."
+ },
+ {
+  "item": 18,
+  "decision": "CONFIRM",
+  "why": "Class 3 holds on the A side, not species: the N9 tandem-LC3 experiment changes APOE genotype with no lipid-metabolism readout, so A (lipid disruption) is only a genotype surrogate. This matches the same paper's other N9 rows (class 3)."
+ },
+ {
+  "item": 19,
+  "decision": "CONFIRM",
+  "why": "Text prints 41.03% vs 13.84% (0.34x). On Fig 6B '****' sits above the E4 RAPA red (RFP-only) segment, and the legend keys '****p < 0.001 ... APOE3- compared with APOE4', so <0.001 is visual_only. Class 3 holds for the same A-surrogate reason as item 18 (no lipid readout), not because of species."
+ },
+ {
+  "item": 20,
+  "decision": "CONFIRM",
+  "why": "Text prints p62 0.592 (APOE3) vs 0.932 (APOE4) at 0.5 h (1.57x). Fig 3B (p62/Actin) shows '##' between the curves at 0.5 h, keyed '## p < 0.01 between groups (APOE3 compared to APOE4)'."
+ },
+ {
+  "item": 21,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "1.36x",
+   "Effect size provenance": "printed_in_text",
+   "P value provenance": "not_found_in_source"
+  },
+  "why": "1.055/0.777 = 1.36x is right. Fig 4B is readable and its stars sit only over the APOE3 bars (treated vs untreated), with no genotype mark anywhere, so P is N/A with not_found_in_source rather than ambiguous_panel."
+ },
+ {
+  "item": 22,
+  "decision": "CONFIRM",
+  "why": "In Fig 2B (zero-based 0-1.5 axis) the bracket arms sit at ~0.84 (ApoE4) and ~0.25-0.26 (ApoE3) at 4.25 h, giving ~3.2x retained signal. The *** bracket joins the curves and the legend keys '*** p < 0.001' (unpaired t-test), and the new description states the ratio's meaning."
+ },
+ {
+  "item": 23,
+  "decision": "CONFIRM",
+  "why": "Fig 1H: E3/E3 ~121k vs E4/E4 ~58k MFI (~0.48x); the '*' sits on the genotype bracket (Mann-Whitney, *p < 0.05); 5 vs 3 per-line dots (legend: dots = iPSC lines)."
+ },
+ {
+  "item": 24,
+  "decision": "CONFIRM",
+  "why": "Fig 4H Aβ42: E3/E3 ~0.33 vs E4/E4 ~1.47 puncta per cell (~4.4x) with '***' on that Sidak post hoc bracket (key ***p < 0.001); 3 line dots per group, consistent with Fig 4I."
+ },
+ {
+  "item": 25,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "~0.52x",
+   "Effect size provenance": "estimated_from_figure",
+   "Data location": "Fig. 4D (LAMP2, NT bars), 4E; supplementary raw-blot PDF page 11"
+  },
+  "why": "My read of Fig 4D LAMP2 matches (NT E3/E3 ~6,000 vs E4/E4 ~3,150, 0.52x; no mark). The panel has NT, Aβ42 and Aβ42+Bafi pairs (the Aβ42 ratio is ~0.65x), so the location must name the NT bars the estimate comes from."
+ },
+ {
+  "item": 26,
+  "decision": "CONFIRM",
+  "why": "Fig 1B: E3/E3 ~8,200 vs E4/E4 ~4,400 (~0.54x) with '*' on the genotype bracket (unpaired t-test, *p < 0.05); 5 vs 3 line dots."
+ },
+ {
+  "item": 27,
+  "decision": "CONFIRM",
+  "why": "Fig 1K at ~20 h: E3/E3 ~6,850 vs E4/E4 ~3,400 (~0.49x). Line counts come from the same assay's per-line dots in Fig 1L (5 vs 3), and P stays the printed time x genotype p = 0.01."
+ }
+]

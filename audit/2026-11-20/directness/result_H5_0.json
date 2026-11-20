@@ -1,0 +1,383 @@
+[
+ {
+  "finding_id": "P15.F1",
+  "quote_start": "Similar to at 25 DIV, cholesterol supplementation also occasionally re",
+  "summary": "(APOE3 -> APOE4 under cholesterol loading at 18 DIV) -> (no change in somatic DQ-BSA degradation)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P15.F2",
+  "quote_start": "I-J, quantification of number of accumulated Filipin puncta within LAM",
+  "summary": "(APOE3 -> APOE4 under cholesterol loading) -> (no change in LAMP1-associated cholesterol accumulation across all cultures)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Lysosomal cholesterol/lipid content is a surrogate B' for cholesterol egress (as in the organizers' exported-cholesterol example), and APOE4 could raise it through greater cholesterol delivery rather than impaired egress."
+ },
+ {
+  "finding_id": "P15.F3",
+  "quote_start": "Even though cholesterol seemed to have an impact on endosomes, includi",
+  "summary": "(APOE3 -> APOE4 under cholesterol loading) -> (no change in somatic DQ-BSA degradation)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P15.F4",
+  "quote_start": "Without cholesterol supplementation, Filipin dye is only seen in cell ",
+  "summary": "(cholesterol supplementation) -> (cholesterol accumulation in LAMP1-positive compartments)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "Cholesterol loading raises lysosomal cholesterol by delivery alone, a known route other than impaired egress, and the readout is a surrogate, matching the other class 5 surrogate-readout rows at 4.",
+  "reason_for_description": "Cholesterol supplementation is a lipid manipulation that does not act on APOE, and the readout (Filipin in LAMP1 compartments) is a surrogate for cholesterol egress."
+ },
+ {
+  "finding_id": "P15.F5",
+  "quote_start": "Thus, when only comparing cultures with detected cholesterol accumulat",
+  "summary": "(APOE3 -> APOE4 under cholesterol loading, accumulating cultures selected) -> (greater LAMP1-associated cholesterol accumulation)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Lysosomal cholesterol/lipid content is a surrogate B' for cholesterol egress (as in the organizers' exported-cholesterol example), and APOE4 could raise it through greater cholesterol delivery rather than impaired egress."
+ },
+ {
+  "finding_id": "P15.F6",
+  "quote_start": "Even though cholesterol seemed to have an impact on endosomes, includi",
+  "summary": "(cholesterol supplementation in APOE4 cultures) -> (lower DQ-BSA degradation)",
+  "class": 5,
+  "strength": 3,
+  "changed": false,
+  "reason_for_description": "Cholesterol supplementation is a lipid manipulation that does not act on APOE; the comparison is treated versus untreated within ApoE4 cultures."
+ },
+ {
+  "finding_id": "P15.F7",
+  "quote_start": "When we compared our ApoE groups at 18 DIV there were no differences i",
+  "summary": "(APOE3 -> APOE4) -> (no change in somatic DQ-BSA degradation)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P15.F8",
+  "quote_start": "Although we did not detect significant differences in LAMP1+ vesicle n",
+  "summary": "(APOE3 -> APOE4) -> (lower somatic lysosomal cargo degradation)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P15.F9",
+  "quote_start": "When comparing the ApoE groups at 25 DIV, we could detect a trend towa",
+  "summary": "(APOE3 -> APOE4) -> (greater astrocytic lipofuscin-surrogate accumulation)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Unstained autofluorescent-granule area is weakly specific for lysosomal lipofuscin and lipofuscin also rises with oxidative load, and this matches the identical neuronal readout P15.F19 at 4."
+ },
+ {
+  "finding_id": "P15.F10",
+  "quote_start": "However, we did not detect an ApoE-dependent alteration in either endo",
+  "summary": "(APOE3 -> APOE4 during increased excitability) -> (no change in the somatic DQ-BSA degradation response)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P15.F11",
+  "quote_start": "Despite no apparent difference in the number and size of LAMP1+ late e",
+  "summary": "(APOE3 -> APOE4) -> (lower somatic DQ-BSA degradation)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P15.F12",
+  "quote_start": "We further noticed that the number of vesicles containing DQ BSA in th",
+  "summary": "(APOE3 -> APOE4) -> (fewer somatic degradation-active compartments)",
+  "class": 3,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P15.F13",
+  "quote_start": "Remarkedly, similar to the DQ BSA results, we detected a 19.8% lower n",
+  "summary": "(APOE3 -> APOE4) -> (lower somatic LysoTracker total intensity)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P15.F14",
+  "quote_start": "Remarkedly, similar to the DQ BSA results, we detected a 19.8% lower n",
+  "summary": "(APOE3 -> APOE4) -> (fewer somatic acidic compartments)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P15.F15",
+  "quote_start": "There was, however, no difference in mean puncta DQ BSA intensity in t",
+  "summary": "(APOE3 -> APOE4) -> (no change in somatic DQ-BSA mean punctum intensity)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P15.F16",
+  "quote_start": "S4B KO = 0.46 ± 0.1, E3 = 0.40 ± 0.10, E4 = 0.43 ± 0.16",
+  "summary": "(APOE3 -> APOE4 under cholesterol loading) -> (slightly higher numerical Filipin–LAMP1 colocalization)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Filipin-LAMP1 colocalization is the same lysosomal-cholesterol readout as P15.F2/F5, so it gets the same class and strength."
+ },
+ {
+  "finding_id": "P15.F17",
+  "quote_start": "However, we did detect a significantly higher number of LAMP1+ vesicle",
+  "summary": "(APOE3 -> APOE4) -> (no change in somatic LAMP1-positive compartment number)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P15.F18",
+  "quote_start": "However, we did detect a significantly higher number of LAMP1+ vesicle",
+  "summary": "(APOE3 -> APOE4) -> (more dendritic LAMP1-positive compartments)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P15.F19",
+  "quote_start": "When comparing the ApoE groups at 25 DIV, we could detect a trend towa",
+  "summary": "(APOE3 -> APOE4) -> (no change in neuronal lipofuscin-surrogate accumulation)",
+  "class": 3,
+  "strength": 4,
+  "changed": false
+ },
+ {
+  "finding_id": "P15.F20",
+  "quote_start": "Even though cholesterol seemed to have an impact on endosomes, includi",
+  "summary": "(cholesterol supplementation in APOE4 cultures) -> (larger LAMP1-positive compartments)",
+  "class": 5,
+  "strength": 4,
+  "changed": false,
+  "reason_for_description": "Cholesterol supplementation is a lipid manipulation that does not act on APOE, and LAMP1 compartment size is a structural surrogate for lysosome function."
+ },
+ {
+  "finding_id": "P15.F21",
+  "quote_start": "C-D. Quantification of number of CD63 vesicles in cell bodies (C) and ",
+  "summary": "(APOE3 -> APOE4 under cholesterol loading) -> (no change in somatic CD63-positive compartment number)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Lysosomal marker compartment count or abundance is scored 3/3 like the other LAMP1/LAMP2 marker rows in this packet."
+ },
+ {
+  "finding_id": "P15.F22",
+  "quote_start": "Despite no apparent difference in the number and size of LAMP1+ late e",
+  "summary": "(APOE3 -> APOE4) -> (no change in somatic LAMP1-positive compartment number)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P15.F23",
+  "quote_start": "Although non-significant, we could detect a trend toward higher levels",
+  "summary": "(APOE3 -> APOE4) -> (no change in somatic cathepsin D-positive compartment number)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Lysosomal marker compartment count or abundance is scored 3/3 like the other LAMP1/LAMP2 marker rows in this packet."
+ },
+ {
+  "finding_id": "P15.F24",
+  "quote_start": "However, we could not detect any significant differences in protein le",
+  "summary": "(APOE3 -> APOE4) -> (no change in LAMP1 protein abundance)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Whole-lysate LAMP1 abundance is the same marker-abundance readout as the LAMP2 western in P2.F4, so it gets the same 3/3."
+ },
+ {
+  "finding_id": "P3.F1",
+  "quote_start": "APOE4/4 astrocytes showed significantly reduced lysosomal DQ-BSA signa",
+  "summary": "(APOE3 -> APOE4) -> (lower lysosomal proteolytic activity in Donor 1 astrocytes)",
+  "class": 1,
+  "strength": 2,
+  "changed": true,
+  "why": "Unnormalized DQ-BSA signal also reflects uptake, so it matches the P15 DQ-BSA rows at 1/2; only the dextran-normalized assay (P3.F2) removes that and stays at 1."
+ },
+ {
+  "finding_id": "P3.F2",
+  "quote_start": "To distinguish between reduced lysosomal number and reduced lysosomal ",
+  "summary": "(APOE3 -> APOE4) -> (lower dextran-normalized lysosomal proteolytic activity in astrocytes)",
+  "class": 1,
+  "strength": 1,
+  "changed": false
+ },
+ {
+  "finding_id": "P3.F3",
+  "quote_start": "Treatment with 2-hydroxypropyl-β-cyclodextrin (2HβCD) and methyl-β-cyc",
+  "summary": "(2HβCD-mediated cholesterol reduction in APOE4 astrocytes) -> (higher lysosomal proteolytic activity)",
+  "class": 5,
+  "strength": 3,
+  "changed": true,
+  "why": "Cyclodextrin removes cholesterol within APOE4 cells and does not act on APOE, so no change in A is introduced; scored like the cholesterol-supplementation DQ-BSA row (P15.F6).",
+  "reason_for_description": "2HβCD is a lipid (cholesterol-extraction) manipulation within APOE4 astrocytes that does not act on APOE."
+ },
+ {
+  "finding_id": "P3.F4",
+  "quote_start": "Increased lysosomal proteolytic activity with MβCD was replicated in a",
+  "summary": "(MβCD-mediated cholesterol reduction in APOE4 astrocytes) -> (higher lysosomal proteolytic activity in Donor 2)",
+  "class": 5,
+  "strength": 3,
+  "changed": true,
+  "why": "Cyclodextrin removes cholesterol within APOE4 cells and does not act on APOE, so no change in A is introduced; scored like the cholesterol-supplementation DQ-BSA row (P15.F6).",
+  "reason_for_description": "MβCD is a lipid (cholesterol-extraction) manipulation within APOE4 astrocytes that does not act on APOE."
+ },
+ {
+  "finding_id": "P3.F5",
+  "quote_start": "To assess degradation, extracellular α-Syn was removed after 24 hours,",
+  "summary": "(APOE3 -> APOE4) -> (impaired intracellular clearance of exogenous α-Syn in astrocytes)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Whole-cell loss of internalized α-Syn signal is not localized to the lysosome (proteasomal degradation or release could also lower it), so it is a surrogate B' for lysosomal degradation."
+ },
+ {
+  "finding_id": "P3.F6",
+  "quote_start": "To validate that the α-Syn was being endocytosed into the endolysosoma",
+  "summary": "(APOE3 -> APOE4) -> (lower lysosomal localization of exogenous α-Syn in astrocytes)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P3.F7",
+  "quote_start": "However, APOE4/4 astrocytes treated with MβCD showed increased colocal",
+  "summary": "(MβCD-mediated cholesterol reduction in APOE4 astrocytes) -> (higher lysosomal localization of exogenous α-Syn)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "Cyclodextrin removes cholesterol within APOE4 cells and does not act on APOE, and the readout is a lysosome surrogate, so other routes are known at both ends.",
+  "reason_for_description": "MβCD is a lipid (cholesterol-extraction) manipulation within APOE4 astrocytes that does not act on APOE; the readout is α-Syn/LysoTracker colocalization."
+ },
+ {
+  "finding_id": "P3.F8",
+  "quote_start": "Strikingly APOE4/4 astrocytes treated with MβCD showed similar α-Syn l",
+  "summary": "MβCD-treated APOE4/4 and vehicle-treated APOE3/3 astrocytes showed no statistically significant difference in α-Syn lysosomal localization.",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "Genotype and cyclodextrin differ at once in this contrast, so it is not a perturbation of A alone; the readout is a surrogate.",
+  "reason_for_description": "The contrast compares MβCD-treated APOE4 with vehicle APOE3 astrocytes, so genotype and a cholesterol-extraction drug change together and no clean change in A is isolated."
+ },
+ {
+  "finding_id": "P3.F9",
+  "quote_start": "Consistent with this, immunoreactivity for the lysosomal membrane prot",
+  "summary": "(APOE3 -> APOE4) -> (lower LAMP1-positive lysosomal compartment signal in Donor 1 astrocytes)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P3.F10",
+  "quote_start": "Consistent with improved lysosomal capacity, MβCD increased LysoTracke",
+  "summary": "(MβCD-mediated cholesterol reduction in APOE4 astrocytes) -> (higher LysoTracker-positive lysosomal signal)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "Cyclodextrin removes cholesterol within APOE4 cells and does not act on APOE, and the readout is a lysosome surrogate, so other routes are known at both ends.",
+  "reason_for_description": "MβCD is a lipid (cholesterol-extraction) manipulation within APOE4 astrocytes that does not act on APOE; LysoTracker signal is a surrogate for lysosome abundance and acidity."
+ },
+ {
+  "finding_id": "P2.F1",
+  "quote_start": "Further colocalization of Filipin III with Dextran-Alexa 555 was highe",
+  "summary": "(APOE3 -> APOE4) -> (greater cholesterol localization in iAstrocyte lysosomes)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Lysosomal cholesterol/lipid content is a surrogate B' for cholesterol egress (as in the organizers' exported-cholesterol example), and APOE4 could raise it through greater cholesterol delivery rather than impaired egress."
+ },
+ {
+  "finding_id": "P2.F2",
+  "quote_start": "Lysosomal activity in APOE3 and APOE4 was significantly lower than in ",
+  "summary": "(APOE3 -> APOE4) -> (no change in lysosomal activity in iAstrocytes)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P2.F3",
+  "quote_start": "Immunofluorescent detection of lysosomes by LAMP2 (Figure 4C) or Dextr",
+  "summary": "(APOE3 -> APOE4) -> (no change in LAMP2-positive lysosomal area in iAstrocytes)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P2.F4",
+  "quote_start": "However, protein levels of LAMP2 detected by western blot were signifi",
+  "summary": "(APOE3 -> APOE4) -> (lower LAMP2 protein abundance in iAstrocytes)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P16.F1",
+  "quote_start": "Compared to APOE3 astrocytes, APOE4 astrocytes showed decreased levels",
+  "summary": "(APOE3 -> APOE4) -> (decreased LAMP1-positive lysosome staining in human astrocytes)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P16.F2",
+  "quote_start": "Increasing either PICALM or INPP5D expression had no detectable effect",
+  "summary": "(increased INPP5D expression in APOE4 astrocytes) -> (no change in RAB7-positive late endosome staining)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "INPP5D overexpression within APOE4 astrocytes does not act on APOE, so no change in A is introduced; the readout is a structural compartment marker.",
+  "reason_for_description": "INPP5D overexpression within APOE4 astrocytes does not act on APOE; RAB7 staining is a structural late-endosome marker."
+ },
+ {
+  "finding_id": "P16.F3",
+  "quote_start": "Increased INPP5D expression did result in reduced LAMP1-positive lysos",
+  "summary": "(increased INPP5D expression in APOE4 astrocytes) -> (decreased LAMP1-positive lysosome staining)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "INPP5D overexpression within APOE4 astrocytes does not act on APOE, so no change in A is introduced; the readout is a structural compartment marker.",
+  "reason_for_description": "INPP5D overexpression within APOE4 astrocytes does not act on APOE; LAMP1 staining is a structural lysosome marker."
+ },
+ {
+  "finding_id": "P6.F1",
+  "quote_start": "APOE4 oligodendroglia exhibited significantly (p = 0.0069) more Bodipy",
+  "summary": "(APOE3 -> APOE4) -> (increased lysosomal cholesterol accumulation in human iPSC-derived oligodendroglia)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Lysosomal cholesterol/lipid content is a surrogate B' for cholesterol egress (as in the organizers' exported-cholesterol example), and APOE4 could raise it through greater cholesterol delivery rather than impaired egress."
+ },
+ {
+  "finding_id": "P27.F1",
+  "quote_start": "Importantly, while we did not detect substantial levels of neutral or ",
+  "summary": "(APOE3 -> APOE4, with P301S tauopathy) -> (increased phagolysosomal neutral-lipid accumulation; impaired degradation inferred)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P36.F1",
+  "quote_start": "Additionally, APPPS1:E4 mice had higher levels of lysosomal accumulati",
+  "summary": "(APOE3 -> APOE4) -> (higher frontal cortical LAMP1-positive area at 8 months)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ }
+]

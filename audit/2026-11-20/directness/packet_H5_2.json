@@ -1,0 +1,490 @@
+{
+ "hyp": "H5",
+ "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+ "A": "APOE genotype or apoE isoform (APOE4 vs APOE3), acting through disrupted lipid metabolism (cholesterol, lipid droplets, sphingolipids)",
+ "B": "late endosome / lysosome function (degradation, acidification, cholesterol egress, autophagic flux, lysosomal enzyme activity)",
+ "scope": "IN: late endosome/lysosome function (cholesterol or lipid accumulation in lysosomes, NPC1, lysosomal degradation, cathepsin activity, lysosomal pH, autophagic flux, LAMP1 compartments) measured in APOE4 vs APOE3 cells, especially where linked to lipid/cholesterol metabolism; manipulations of lipid metabolism that change late-endosome/lysosome function in APOE4 cells. OUT: lipid changes with no late-endosome/lysosome readout, mitochondrial respiration alone, inflammation or transcriptomics alone.",
+ "papers": [
+  {
+   "paper_id": "P7",
+   "doi": "10.1186/s12974-025-03470-y",
+   "rows": [
+    {
+     "Paper/Finding ID": "P7.F1",
+     "Finding description": "APOE4/4 microglia produced significantly less fluorescence from a lysosomal degradation substrate than APOE3/3 cells, although reduced substrate uptake could contribute.",
+     "Finding quote": "Since cathepsins play an essential role in lysosomal degradation, we further analyzed lysosomal activity in iMGs using flow cytometry with an Abcam’s proprietary self-quenched substrate and found that E4/E4 iMGs exhibited significantly lower lysosomal degradation activity compared to E3/E3 cells (Fig. 1G-H). Bafilomycin-treated cells served as a negative control (Fig. 1I). Lysosomal degradation activity can be influenced by the efficiency of substrate uptake into endosomes.",
+     "Finding summary": "(APOE3/3 -> APOE4/4) -> (lower lysosomal substrate degradation signal)",
+     "Experimental system": "Human APOE3/3 and APOE4/4 iPSC-derived microglia under basal conditions; Abcam ab234622 self-quenched substrate incubated for 1 hour; FITC-channel mean fluorescence measured by flow cytometry.",
+     "Data location": "Fig. 1H; gating in Fig. 1G and APOE3/3 bafilomycin control in Fig. 1I",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P7.F2",
+     "Finding description": "After Aβ42 exposure, APOE4/4 microglia had significantly more galectin-1 puncta than APOE3/3 cells, indicating greater lysosomal membrane damage.",
+     "Finding quote": "As shown in Fig. 4F, H, the formation of galectin puncta, detected with galectin (LGALS)-1-specific antibody, was significantly higher in E4/E4 iMGs than in E3/E3 iMGs after Aβ42 exposure, indicating increased lysosomal leakage in E4/E4 iMGs.",
+     "Finding summary": "(APOE3/3 -> APOE4/4 under Aβ42) -> (greater lysosomal membrane permeabilization)",
+     "Experimental system": "Human APOE3/3 and APOE4/4 iPSC-derived microglia; 200 nM soluble Aβ42 oligomer preparation for 48 hours; LGALS1 immunostaining and confocal galectin-puncta assay. Puncta were normalized to nuclei; the Methods reports three images per line per treatment, not the number of lines.",
+     "Data location": "Fig. 4F,H",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P7.F3",
+     "Finding description": "Bafilomycin-based LC3-II:LC3-I measurements showed no significant difference in basal autophagic flux between APOE4/4 and APOE3/3 microglia.",
+     "Finding quote": "As expected, blocking autophagic flux by inhibiting lysosomal acidification with bafilomycin A led to increased LC3-II: LC3-I ratio compared to the basal levels (Fig. 1C, D), but there was no significant difference between the genotypes.",
+     "Finding summary": "No significant genotype difference was detected in basal autophagic flux.",
+     "Experimental system": "Human APOE3/3 and APOE4/4 iPSC-derived microglia; basal cultures compared with bafilomycin A1 treatment for 3 hours; immunoblot LC3-II:LC3-I ratios used to assess autophagic flux.",
+     "Data location": "Fig. 1C,D; supplementary raw-blot PDF pages 2–3, 6–7",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P7.F4",
+     "Finding description": "Rapamycin-induced autophagic-flux measurements showed no significant difference between APOE4/4 and APOE3/3 microglia.",
+     "Finding quote": "Similarly, treatment with rapamycin, an inhibitor of the mTORC1 complex and a well-known autophagy inducer, did not reveal any significant differences between the genotypes (Fig. 1C, E).",
+     "Finding summary": "No significant genotype difference was detected in rapamycin-induced autophagic flux.",
+     "Experimental system": "Human APOE3/3 and APOE4/4 iPSC-derived microglia; 100 nM rapamycin for 6 hours, with or without bafilomycin A1; LC3 immunoblotting and LC3-II:LC3-I ratios.",
+     "Data location": "Fig. 1C,E; supplementary raw-blot PDF pages 4–7",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P7.F5",
+     "Finding description": "LAMP2 protein tended to be lower in APOE4/4 than APOE3/3 microglia, but the text does not establish a significant genotype difference.",
+     "Finding quote": "Interestingly, lysosomal-associated membrane protein 2 (LAMP-2), a key mediator of autophagosome-lysosome fusion [57, 58], was unaffected by Aβ42 stimulation but tended to be reduced in E4/E4 iMGs (Fig. 4D, E).",
+     "Finding summary": "(APOE3/3 -> APOE4/4) -> (trend toward lower LAMP2 protein)",
+     "Experimental system": "Human APOE3/3 and APOE4/4 iPSC-derived microglia; basal and 48-hour 200 nM soluble Aβ42 conditions, with bafilomycin conditions also shown; LAMP2 immunoblotting. LAMP2 abundance is a surrogate for lysosomal content/fusion capacity, not a direct fusion measurement.",
+     "Data location": "Fig. 4D (LAMP2, NT bars), 4E; supplementary raw-blot PDF page 11",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P7.F6",
+     "Finding description": "Basal proteomics comparing two mutually isogenic APOE4/4 lines with APOE3/3 lines found lower MFSD1 protein, a lysosomal-content surrogate.",
+     "Finding quote": "Since proteomic analysis comparing two (isogenic to each other) E4/E4 lines to E3/E3 lines revealed a downregulation of two other lysosomal proteins MFSD1 and GLMP in E4/E4 iMGs at basal conditions (Fig. 3B, Table S4), the overall lysosomal protein content may be reduced by E4/E4 genotype.",
+     "Finding summary": "(APOE3/3 -> APOE4/4) -> (lower basal lysosomal MFSD1 protein)",
+     "Experimental system": "Human iPSC-derived microglia under basal conditions; DIA-PASEF LC-MS/MS proteomics. Two APOE4/4 lines were isogenic to each other; this does not establish that the entire APOE4/4-versus-APOE3/3 comparison was isogenic. Sample size 2 counts the reported APOE4/4 lines only.",
+     "Data location": "Fig. 3B; Table S4",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P7.F7",
+     "Finding description": "Aβ42-associated LC3-II accumulation showed no significant difference between APOE4/4 and APOE3/3 microglia.",
+     "Finding quote": "Further, we analyzed LC3-II levels by WB, and found that, similarly to LPS/IFNγ stimulation, Aβ42 strongly increased intracellular LC3-II (p = 0.04), irrespective of the APOE genotype (Fig. 4B, C).",
+     "Finding summary": "Aβ42 increased LC3-II, with no significant genotype difference reported.",
+     "Experimental system": "Human APOE3/3 and APOE4/4 iPSC-derived microglia; 200 nM soluble Aβ42 oligomer preparation for 48 hours; LC3-II immunoblotting. The preparation contained measurable endotoxin.",
+     "Data location": "Fig. 4B,C; supplementary raw-blot PDF pages 12, 14",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P7.F8",
+     "Finding description": "Under basal conditions, human APOE4/4 iPSC-derived microglia had significantly lower LC3-II protein levels than APOE3/3 cells, a surrogate that does not itself establish impaired lysosomal degradation.",
+     "Finding quote": "Under basal conditions, E4/E4 iMGs exhibited significantly lower LC3-II levels compared to E3/E3 cells (Fig. 1A, B).",
+     "Finding summary": "(APOE3/3 -> APOE4/4) -> (lower basal LC3-II in human iPSC-derived microglia)",
+     "Experimental system": "Human iPSC-derived microglia from multiple APOE3/3 and APOE4/4 lines, including an isogenic pair; unstimulated cultures; LC3 immunoblotting. The study-wide eight APOE3/3 and six APOE4/4 lines are not a panel-specific sample size. Available donor ages include 63–80 years; cellular aging was not experimentally established.",
+     "Data location": "Fig. 1A,B; corresponding uncropped LC3 blots in supplementary PDF pages 1–3, 6, 8–9",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P7.F9",
+     "Finding description": "After 48 hours of LPS/IFNγ stimulation, LC3-II accumulation showed no significant difference between APOE4/4 and APOE3/3 microglia.",
+     "Finding quote": "Consistent with the proteomics data, this WB analysis confirmed that 48-h stimulation with LPS/IFNγ strongly increased the accumulation of LC3-II as well as glutamine synthetase (GLUL), although the protein levels were not affected by the APOE genotype (Fig. 3C, D).",
+     "Finding summary": "No significant genotype difference was reported in LC3-II accumulation after LPS/IFNγ.",
+     "Experimental system": "Human APOE3/3 and APOE4/4 iPSC-derived microglia; 50 ng/ml LPS plus 15 ng/ml IFNγ for 48 hours; LC3-II immunoblotting in an experiment independent of the proteomics.",
+     "Data location": "Fig. 3C,D; supplementary raw-blot PDF page 10",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P7.F10",
+     "Finding description": "Blocking endosome maturation and degradation with apilimod increased dextran accumulation in both APOE4/4 and APOE3/3 microglia; the legend reports N=3 iPSC lines.",
+     "Finding quote": "Moreover, when endosome maturation and degradation were blocked by apilimod, a significant accumulation of dextran was observed over 24 h, irrespective of the APOE genotype (repeated measures ANOVA, time x treatment p < 0.001, Fig. 1M).",
+     "Finding summary": "Apilimod increased dextran accumulation irrespective of APOE genotype. P < 0.001 applies to time × treatment.",
+     "Experimental system": "Human APOE3/3 and APOE4/4 iPSC-derived microglia; 0.683 µM apilimod versus DMSO vehicle; pHrodo-dextran fluorescence accumulation reported over 24 hours. The legend's N=3 iPSC lines does not specify allocation by genotype.",
+     "Data location": "Fig. 1M",
+     "Directness class": 5,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P7.F11",
+     "Finding description": "Basal pHrodo-dextran fluorescence accumulated less in APOE4/4 than APOE3/3 microglia over time, but this assay cannot separate reduced uptake from altered acidification.",
+     "Finding quote": "To assess pinocytosis (fluid-phase endocytosis), we added pHrodo-conjugated dextran (MW 10 kDa) and monitored intracellular fluorescence over 20 h using the IncuCyte live imaging system (Fig. 1J, K). Under basal conditions, pinocytosis was significantly reduced in E4/E4 iMGs compared to E3/E3 iMGs (two-way repeated measures ANOVA, time x genotype p = 0.01; Fig. 1J, L).",
+     "Finding summary": "(APOE3/3 -> APOE4/4) -> (lower basal pHrodo-dextran signal in endolysosomal compartments)",
+     "Experimental system": "Human APOE3/3 and APOE4/4 iPSC-derived microglia; basal exposure to 10 kDa pHrodo-dextran at 16.7–20 µg/ml; IncuCyte fluorescence monitoring over 20 hours, normalized to cell confluence. This is an uptake/acidic-compartment surrogate, not a calibrated lysosomal-pH assay.",
+     "Data location": "Fig. 1J,K; Results associates the longitudinal test with Fig. 1J,L, whereas the legend assigns the time-course quantification to K",
+     "Directness class": 3,
+     "Directness strength": "4 weak"
+    },
+    {
+     "Paper/Finding ID": "P7.F12",
+     "Finding description": "Under basal conditions, TOM-20 protein showed no significant difference between APOE4/4 and APOE3/3 microglia, providing an indirect mitochondrial-mass/mitophagy readout.",
+     "Finding quote": "Under basal conditions or after treatment with bafilomycin A, there were no differences in TOM-20 protein levels between the genotypes (Supplementary Fig. 2C).",
+     "Finding summary": "No significant genotype difference was reported in basal TOM-20.",
+     "Experimental system": "Human APOE3/3 and APOE4/4 iPSC-derived microglia; basal cultures; TOM-20 immunoblotting as a mitochondrial-mass surrogate used by the authors to assess mitophagy.",
+     "Data location": "Supplementary Fig. 2C; supplementary raw-blot PDF pages 2–3",
+     "Directness class": 3,
+     "Directness strength": "4 weak"
+    },
+    {
+     "Paper/Finding ID": "P7.F13",
+     "Finding description": "After rapamycin treatment, mitochondrial mass assessed through TOM-20 showed no significant difference between APOE4/4 and APOE3/3 microglia.",
+     "Finding quote": "Similarly, treatment with rapamycin, with or without bafilomycin A, did not reveal any differences in mitochondrial mass between the genotypes, suggesting similar levels of mitophagy (Supplementary Fig. 2D).",
+     "Finding summary": "No significant genotype difference was reported in TOM-20-assessed mitochondrial mass after rapamycin.",
+     "Experimental system": "Human APOE3/3 and APOE4/4 iPSC-derived microglia; 100 nM rapamycin for 6 hours; TOM-20 immunoblotting as an indirect mitochondrial-mass/mitophagy readout.",
+     "Data location": "Supplementary Fig. 2D; supplementary raw-blot PDF pages 4–5, 7",
+     "Directness class": 3,
+     "Directness strength": "4 weak"
+    },
+    {
+     "Paper/Finding ID": "P7.F14",
+     "Finding description": "Uptake of pHrodo-conjugated zymosan-coated beads showed no significant difference between APOE4/4 and APOE3/3 microglia, although this acid-dependent uptake signal is only an indirect lysosomal surrogate.",
+     "Finding quote": "Interestingly, the APOE genotype did not significantly affect the uptake of pHrodo-conjugated zymosan-coated beads (Supplementary Fig. 2E-G) or fibrillar Aβ42 (Supplementary Fig. 2H, I).",
+     "Finding summary": "(APOE3/3 -> APOE4/4) -> (no change in pHrodo-zymosan uptake signal)",
+     "Experimental system": "Human APOE3/3 and APOE4/4 iPSC-derived microglia; pHrodo-conjugated zymosan-coated bead uptake assay. The supplied text does not specify panel-by-panel content, incubation duration or biological sample size. Uptake and phagolysosomal acidification are unresolved.",
+     "Data location": "Supplementary Fig. 2E–G",
+     "Directness class": 3,
+     "Directness strength": "4 weak"
+    }
+   ]
+  },
+  {
+   "paper_id": "P34",
+   "doi": "10.1101/2025.11.11.687891",
+   "rows": [
+    {
+     "Paper/Finding ID": "P34.F1",
+     "Finding description": "Young APOE4 mice had significantly more hippocampal neuronal lysosomal compartments than APOE3 mice in five mice per sex/genotype group.",
+     "Finding quote": "Furthermore, while both neuronal EE’s and LE’s showed an increasing pattern with APOE genotype, only N-LY’s showed a significant upregulation in APOE4 (APOE2<E4;E3<E4).",
+     "Finding summary": "(APOE3 -> APOE4, young hippocampus) -> (higher neuronal LAMP1-compartment abundance)",
+     "Experimental system": "Male and female human-APOE3/3 and APOE4/4 mice, 5–6 months; fixed CA1 hippocampus; LAMP1 objects within NeuN soma per neuronal volume; no direct degradation, pH, enzyme-activity, or flux assay.",
+     "Data location": "Fig 4B, neuronal LAMP1 objects",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P34.F2",
+     "Finding description": "Young cortical neuronal lysosomal cholesterol showed no significant APOE-dependent change in five mice per sex/genotype group.",
+     "Finding quote": "At the same time, N-LE-Ch levels showed similar expression to N-LE’s, while N-LY-Ch levels did not show an APOE dependent change.",
+     "Finding summary": "(APOE genotype variation including APOE3 -> APOE4, young cortex) -> (no change in neuronal lysosomal cholesterol colocalization reaching significance)",
+     "Experimental system": "Male and female human-APOE2/2, APOE3/3, and APOE4/4 mice, 5–6 months; fixed neocortex; neuronal D4H* spots overlapping LAMP1, normalized to neuronal D4H* spots and NeuN volume.",
+     "Data location": "Fig 4D, neuronal lysosomal cholesterol",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P34.F3",
+     "Finding description": "Young hippocampal neuronal late-endosomal cholesterol and total and neuronal lysosomal cholesterol showed no significant APOE-genotype differences in five mice per sex/genotype group.",
+     "Finding quote": "There was also a decrease in T-LE-Ch in APOE3<E2, with no change in APOE4, and N-LE-Ch levels were not affected. Similar to the cortex, there was no effect of APOE genotype on total or neuronal LY-Ch, even though neuronal LY levels were increased, indicating that this upregulation is not linked to the LY capacity to process cholesterol.",
+     "Finding summary": "(APOE genotype variation including APOE3 -> APOE4, young hippocampus) -> (no change in neuronal late-endosomal or total/neuronal lysosomal cholesterol reaching significance)",
+     "Experimental system": "Male and female human-APOE knock-in mice, 5–6 months; fixed CA1 hippocampus; D4H*–CD63 or D4H*–LAMP1 colocalization fractions normalized to DAPI nuclei or NeuN volume; no direct processing-capacity assay.",
+     "Data location": "Fig 4E, neuronal late-endosomal and total/neuronal lysosomal cholesterol",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P34.F4",
+     "Finding description": "Young entorhinal total and neuronal lysosomal cholesterol showed no significant APOE-genotype difference in five mice per sex/genotype group.",
+     "Finding quote": "There was a striking decrease in both total and neuronal EE-Ch and LE-Ch (APOE4<E2), while there was a complete absence of APOE effect on LY-Ch levels (Fig. 4F).",
+     "Finding summary": "(APOE genotype variation including APOE3 -> APOE4, young entorhinal cortex) -> (no change in lysosomal cholesterol colocalization reaching significance)",
+     "Experimental system": "Male and female human-APOE2/2, APOE3/3, and APOE4/4 mice, 5–6 months; fixed entorhinal cortex; total and neuronal D4H*–LAMP1 colocalization fractions normalized to nuclei or neuronal volume.",
+     "Data location": "Fig 4F, total and neuronal lysosomal cholesterol",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P34.F5",
+     "Finding description": "Young female APOE4 mice had significantly higher hippocampal total late-endosomal cholesterol colocalization than young female APOE3 mice in five mice per sex/genotype group.",
+     "Finding quote": "Total LE-Ch was decreased in APOE3 females compared to APOE2 and APOE4, as well as APOE3 males.",
+     "Finding summary": "(APOE3 -> APOE4, young females) -> (higher hippocampal total late-endosomal cholesterol colocalization)",
+     "Experimental system": "Female human-APOE3/3 and APOE4/4 mice, 5–6 months; fixed CA1 hippocampus; total D4H* spots colocalized with CD63 divided by total D4H* spots and DAPI nuclei; cholesterol accumulation/egress inferred from static localization.",
+     "Data location": "Fig 9D, total late-endosomal cholesterol, young females",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P34.F6",
+     "Finding description": "Young (5-6 months) female APOE4 mice had significantly higher cortical neuronal lysosomal cholesterol than young female APOE3 mice (also higher than APOE2 females and APOE4 males), five mice per sex/genotype/age group.",
+     "Finding quote": "The only significant difference measured on N-LY-Ch levels was in the APOE4 females, which showed a significant increase compared to APOE2 and APOE3 females, and APOE4 males in the cortex (Fig. 10B).",
+     "Finding summary": "(APOE3 -> APOE4, young females) -> (higher cortical neuronal lysosomal cholesterol colocalization)",
+     "Experimental system": "Female human-APOE3/3 and APOE4/4 knock-in mice, 5-6 months (young panel of Fig 10B); fixed neocortex; neuronal D4H*-LAMP1 colocalization fraction divided by NeuN volume.",
+     "Data location": "Fig 10B, Young panel, neuronal lysosomal cholesterol",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P34.F7",
+     "Finding description": "Young hippocampal total late-endosome and lysosome abundance showed no significant APOE-genotype effect, and neuronal late-endosome increases were not significant, in five mice per sex/genotype group.",
+     "Finding quote": "In the HIPP, the total levels of EE’s, LE’s, and LY’s were not affected by APOE genotype (Fig. 4B). Furthermore, while both neuronal EE’s and LE’s showed an increasing pattern with APOE genotype, only N-LY’s showed a significant upregulation in APOE4 (APOE2<E4;E3<E4).",
+     "Finding summary": "(APOE genotype variation including APOE3 -> APOE4, young hippocampus) -> (no change in total late-endosome/lysosome or neuronal late-endosome abundance reaching significance)",
+     "Experimental system": "Male and female human-APOE2/2, APOE3/3, and APOE4/4 mice, 5–6 months; fixed CA1 hippocampus; total CD63/LAMP1 objects per DAPI nucleus and neuronal CD63 spots per NeuN volume.",
+     "Data location": "Fig 4B, total CD63/LAMP1 and neuronal CD63 measurements",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P34.F8",
+     "Finding description": "Young entorhinal total and neuronal lysosome abundance showed no significant APOE-genotype difference in five mice per sex/genotype group.",
+     "Finding quote": "Both total and neuronal LE’s were decreased in APOE4<E2, while lysosomes were not affected by APOE genotype.",
+     "Finding summary": "(APOE genotype variation including APOE3 -> APOE4, young entorhinal cortex) -> (no change in lysosome abundance reaching significance)",
+     "Experimental system": "Male and female human-APOE2/2, APOE3/3, and APOE4/4 mice, 5–6 months; fixed entorhinal cortex; total LAMP1 objects per DAPI nucleus and neuronal LAMP1 objects per NeuN volume.",
+     "Data location": "Fig 4C, total and neuronal LAMP1 measurements",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P34.F9",
+     "Finding description": "Young entorhinal total and neuronal late-endosomal cholesterol were qualitatively lower in APOE4 than intermediate APOE3 levels in five mice per sex/genotype group, while the stated significant contrast was APOE4 versus APOE2.",
+     "Finding quote": "The largest effect was observed in the young EC, with neuronal LE’s, EE’s, as well as total/neuronal EE-Ch and LE-Ch decreasing in APOE4<APOE2 (while APOE3 levels were in between).",
+     "Finding summary": "(APOE3 -> APOE4, young entorhinal cortex) -> (qualitatively lower total and neuronal late-endosomal cholesterol colocalization)",
+     "Experimental system": "Male and female human-APOE knock-in mice, 5–6 months; fixed entorhinal cortex; total and neuronal D4H*–CD63 colocalization fractions divided by DAPI nuclei or NeuN volume.",
+     "Data location": "Fig 4F; Discussion, APOE genotype effects at young age",
+     "Directness class": 3,
+     "Directness strength": "4 weak"
+    },
+    {
+     "Paper/Finding ID": "P34.F10",
+     "Finding description": "Female APOE4 mice had significantly greater entorhinal neuronal lysosome abundance than female APOE3 mice in five mice per sex/genotype/age group, with ages pooled.",
+     "Finding quote": "However, paired contrasts showed that N-LY’s in the EC were increased in APOE4 female compared to male mice, and compared to APOE3 females.",
+     "Finding summary": "(APOE3 -> APOE4, females) -> (higher entorhinal neuronal LAMP1-compartment abundance)",
+     "Experimental system": "Female human-APOE3/3 and APOE4/4 mice from young, middle-aged, and old groups; age-adjusted pooled analysis; fixed entorhinal cortex; neuronal LAMP1 objects per NeuN volume.",
+     "Data location": "Fig 7C, entorhinal neuronal lysosomes, female APOE4 versus APOE3",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P34.F11",
+     "Finding description": "Entorhinal total and neuronal late-endosome abundance showed no significant three-way interaction or pairwise differences across sex, age, and APOE genotype in five mice per sex/genotype/age group.",
+     "Finding quote": "In the EC, there were no significant three-way interactions observed affecting CD63 LE levels, and no pairwise differences were detected (Fig. 9E).",
+     "Finding summary": "(APOE3 -> APOE4, sex- and age-stratified entorhinal cortex) -> (no change in late-endosome abundance reaching significance)",
+     "Experimental system": "Male and female human-APOE2/2, APOE3/3, and APOE4/4 mice, three ages; fixed entorhinal cortex; total CD63 spots per DAPI nucleus and neuronal CD63 spots per NeuN volume.",
+     "Data location": "Fig 9E, total and neuronal late-endosomes",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P34.F12",
+     "Finding description": "Entorhinal total lysosomal cholesterol showed no significant differences in the sex-, age-, and APOE-stratified analysis of five mice per sex/genotype/age group.",
+     "Finding quote": "There were no differences in total LY-Ch levels in the EC (Fig. 10F).",
+     "Finding summary": "(APOE genotype variation including APOE3 -> APOE4, entorhinal cortex) -> (no change in total lysosomal cholesterol colocalization reaching significance)",
+     "Experimental system": "Male and female human-APOE2/2, APOE3/3, and APOE4/4 mice, three ages; fixed entorhinal cortex; total D4H* spots overlapping LAMP1 divided by total D4H* spots and DAPI nuclei.",
+     "Data location": "Fig 10F, total lysosomal cholesterol",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  },
+  {
+   "paper_id": "P28",
+   "doi": "10.1007/s00011-025-02016-5",
+   "rows": [
+    {
+     "Paper/Finding ID": "P28.F1",
+     "Finding description": "After rapamycin, APOE4 microglia displayed less tandem-LC3 reporter conversion to red-only puncta than APOE3 microglia, interpreted as impaired autophagosome delivery to lysosomes.",
+     "Finding quote": "Thus, autophagosomes delivery to lysosomes is hampered in APOE4 microglia.",
+     "Finding summary": "(APOE3 -> APOE4) -> (less autophagosome delivery to lysosomes)",
+     "Experimental system": "Murine N9 microglia stably expressing human FLAG-APOE3 or FLAG-APOE4 and transiently transfected with tandem LC3-EGFP-mRFP; 48 h after transfection, 150 nM rapamycin for 24 h; confocal microscopy of yellow and red-only puncta. No lipid-metabolism assay.",
+     "Data location": "Fig. 6A, representative confocal images",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P28.F2",
+     "Finding description": "Following rapamycin, the reported red-only LC3 fraction was lower in APOE4 than APOE3 microglia, 13.84% ± 1.96 versus 41.03% ± 3.268, with at least 50 cells per treatment analyzed.",
+     "Finding quote": "We found that following rapamycin treatment, 41.03% ± 3.268 of autophagosomes were fused with the lysosomes (RFP-tagged red puncta), compared to 13.84% ± 1.96 in the APOE4 expressing microglia (Fig. 6).",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower red-only LC3 fraction indicating reduced autolysosome formation)",
+     "Experimental system": "Stable human FLAG-APOE3- or FLAG-APOE4-expressing murine N9 microglia; transient tandem LC3-EGFP-mRFP reporter; 150 nM rapamycin for 24 h beginning 48 h after transfection; confocal imaging and puncta-area quantification. Acid-sensitive reporter behavior supports a flux/lysosomal-delivery interpretation but does not isolate fusion from acidification.",
+     "Data location": "Fig. 6B",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P28.F3",
+     "Finding description": "Following chloroquine treatment, normalized p62 was lower in APOE4 than APOE3 microglia, 0.629 ± 0.068 versus 0.954 ± 0.059, supporting reduced autophagic flux. Effect is the ratio of the two group values printed in the quote (0.954 ± 0.059 and 0.629 ± 0.068).",
+     "Finding quote": "However, the levels of p62 following chloroquine treatment were significantly higher in APOE3 microglia compared to APOE4 microglia (0.954 ± 0.059 and 0.629 ± 0.068, respectively).",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower p62 accumulation during lysosomal blockade)",
+     "Experimental system": "Stable human FLAG-APOE3- or FLAG-APOE4-expressing murine N9 microglia; experiment used 1 h EBSS with or without 10 µM chloroquine; p62 western blot densitometry normalized to APOE3 control. The numerical CQ comparison is not unambiguously assigned to CQ alone versus EBSS plus CQ in the supplied narrative.",
+     "Data location": "Fig. 5B",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P28.F4",
+     "Finding description": "After 0.5 h starvation, normalized p62 remained higher in APOE4 than APOE3 microglia: 0.932 ± 0.065 versus 0.592 ± 0.012.",
+     "Finding quote": "Moreover, the levels of p62, which is associated with the degradation steps during autophagy, decreased following amino acid starvation more rapidly in APOE3 microglia compared to APOE4 microglia (0.592 ± 0.012 and 0.592 ± 0.011 compared to 0.932 ± 0.065, and 0.889 ± 0.053, respectively).",
+     "Finding summary": "(APOE3 -> APOE4) -> (less p62 reduction after 0.5 h starvation)",
+     "Experimental system": "Stable human FLAG-APOE3- or FLAG-APOE4-expressing murine N9 microglia; 0.5 h EBSS starvation; p62 western blot densitometry normalized to each line's time-zero control. p62 abundance is used as a degradation surrogate; lipid metabolism was not measured.",
+     "Data location": "Fig. 3B",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P28.F5",
+     "Finding description": "After 100 nM rapamycin, normalized p62 was higher in APOE4 than APOE3 microglia: 1.055 ± 0.055 versus 0.777 ± 0.063, indicating less p62 reduction.",
+     "Finding quote": "Accordingly, the LC3II/actin ratio under these conditions was 1.508 ± 0.043 and 1.522 ± 0.069 in APOE3 expressing microglia, compared to 1.171 ± 0.078 and 1.33 ± 0.112, in APOE4 expressing microglia, (Fig. 4) whereas the corresponding p62 levels were 0.777 ± 0.063 and 0.706 ± 0.079, compared to 1.055 ± 0.055 and 1.026 ± 0.063, in APOE4 expressing microglia, which did not show any change in p62 levels during the experimental time frame (Fig. 4).",
+     "Finding summary": "(APOE3 -> APOE4) -> (less p62 reduction with 100 nM rapamycin)",
+     "Experimental system": "Stable human FLAG-APOE3- or FLAG-APOE4-expressing murine N9 microglia; 100 nM rapamycin for 24 h; p62 western blot densitometry normalized to each line's untreated control. p62 abundance is an autophagic-degradation surrogate; lipid mediation was not tested.",
+     "Data location": "Fig. 4, unlettered p62 densitometry, 100 nM",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P28.F6",
+     "Finding description": "Starvation-induced LC3 and p62 changes in APOE4 microglia were interpreted as weaker autophagy induction than in APOE3 microglia.",
+     "Finding quote": "Thus, the results suggest that induction of autophagy may be also impaired in APOE4 microglia.",
+     "Finding summary": "(APOE3 -> APOE4) -> (weaker starvation-induced autophagy-marker responses)",
+     "Experimental system": "Murine N9 microglia stably expressing human FLAG-APOE3 or FLAG-APOE4; amino-acid starvation in EBSS; LC3-I, LC3-II and p62 measured by western blot. No lipid-metabolism measurements or human-derived cells.",
+     "Data location": "Fig. 3A, representative immunoblots",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P28.F7",
+     "Finding description": "Following Abeta washout, APOE4 microglia retained more fluorescent Abeta than APOE3 microglia (at 4.25 h, ~0.84 vs ~0.26 fold of control; effect is the APOE4/APOE3 ratio of remaining fluorescence), interpreted as lower Abeta degradation.",
+     "Finding quote": "Next, we measured the rate of Aβ degradation in APOE3 compared to APOE4 cells, and as shown the degradation of Aβ was significantly higher in APOE3 expressing cells compared to APOE4 expressing microglial cells (Fig. 2B).",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower apparent intracellular Aβ degradation)",
+     "Experimental system": "Murine N9 microglia stably expressing human FLAG-APOE3 or FLAG-APOE4; loaded with 0.1 µM HiLyte 488-Aβ1–42 for 2 h, washed twice with PBS, then imaged for 2 h in Aβ-free medium; intracellular fluorescence loss used as degradation readout. Lysosomal specificity and lipid mediation were not established.",
+     "Data location": "Fig. 2B",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  },
+  {
+   "paper_id": "P29",
+   "doi": "10.1038/s41419-020-02776-4",
+   "rows": [
+    {
+     "Paper/Finding ID": "P29.F1",
+     "Finding description": "Following CCCP, approximately 55% of autophagosomes in APOE4 astrocytes versus approximately 90% in APOE3 astrocytes were reported fused with lysosomes (APOE4/APOE3 = 0.61x).",
+     "Finding quote": "Furthermore, using the tandem LC3-GFP-RFP reporter30, we found that following CCCP treatment, ~90% of autophagosomes in the APOE3 astrocytes were fused with lysosomes, compared to ~55% in the APOE4 astrocytes (Fig. 3c).",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower autophagosome maturation/fusion with lysosomes after CCCP)",
+     "Experimental system": "Immortalized mouse APOE3/APOE4 astrocyte lines transiently expressing LC3-EGFP-mRFP; 10 μM CCCP for 4 h; dual-positive versus red-only puncta area analysis; at least 50 cells per treatment. Lipid metabolism was not measured.",
+     "Data location": "Fig. 3c",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P29.F2",
+     "Finding description": "Chloroquine-sensitive LC3-II turnover after CCCP was lower in APOE4 than APOE3 astrocytes, indicating reduced autophagic flux.",
+     "Finding quote": "Accordingly, APOE3 astrocytes treated with CCCP combined with chloroquine showed increased accumulation of LC3-II compared to APOE4 astrocytes, indicating higher autophagic flux30 (Fig. 3d).",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower autophagic flux after mitochondrial damage)",
+     "Experimental system": "Immortalized mouse APOE3/APOE4 astrocyte lines; 10 μM chloroquine for 48 h with or without 7.5 μM CCCP during the final 24 h; LC3-II difference with versus without chloroquine; n = 3, experimental unit unspecified.",
+     "Data location": "Fig. 3d, Δ ± CQ graph",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P29.F3",
+     "Finding description": "Chloroquine caused less mitochondrial p62 accumulation in APOE4 than APOE3 astrocytes, suggesting reduced lysosome-dependent cargo turnover.",
+     "Finding quote": "As shown in Fig. 2a, increased accumulation (differences between CQ treated and untreated cells) of parkin, p62, LC3-II and ubiquitin was observed in the mitochondrial fraction of the APOE3 astrocytes following treatment, suggesting their degradation is reduced in APOE4 astrocytes.",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower chloroquine-sensitive mitochondrial p62 turnover)",
+     "Experimental system": "Immortalized mouse astrocyte lines expressing human APOE3 or APOE4; 10 μM chloroquine for 24 h versus untreated controls; mitochondrial p62 immunoblotting normalized to AIF.",
+     "Data location": "Fig. 2a",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P29.F4",
+     "Finding description": "Chloroquine increased parkin abundance only in APOE3 astrocytes, suggesting reduced lysosome-dependent parkin degradation in APOE4 astrocytes.",
+     "Finding quote": "Additionally, treatment with chloroquine/MG-132 led to parkin accumulation only in the APOE3 astrocytes (Fig. 4e, f), indicating its reduced mitophagic and proteasomal degradation, respectively, in the APOE4 astrocytes.",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower chloroquine-sensitive parkin degradation)",
+     "Experimental system": "Immortalized mouse APOE3/APOE4 astrocyte lines; 10 μM chloroquine for 24 h versus untreated controls; whole-cell parkin immunoblotting.",
+     "Data location": "Fig. 4e",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P29.F5",
+     "Finding description": "At 12 μM CCCP, p62 abundance decreased only in APOE3 astrocytes, suggesting reduced p62 degradation in APOE4 astrocytes.",
+     "Finding quote": "In addition, 12 µM CCCP treatment reduced p62 levels only in the APOE3 astrocytes, indicating increased p62 degradation in these cells (Fig. S1b).",
+     "Finding summary": "(APOE3 -> APOE4) -> (less CCCP-associated p62 degradation)",
+     "Experimental system": "Immortalized mouse APOE3/APOE4 astrocyte lines; 12 μM CCCP for 24 h versus untreated controls; p62 immunoblotting.",
+     "Data location": "Supplementary Fig. S1b",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  },
+  {
+   "paper_id": "P20",
+   "doi": "10.1186/s40035-024-00445-6",
+   "rows": [
+    {
+     "Paper/Finding ID": "P20.F1",
+     "Finding description": "Compared with ApoE3, ApoE4 increased cholesterol accumulation in lysosomes of PHF-treated BV2 microglia, assessed by filipin and LysoTracker imaging in 8–18 fields from three biological replicates.",
+     "Finding quote": "ApoE4 significantly increased the accumulation of cholesterol in lysosomes of microglia treated with PHF compared to ApoE3, while treatment with capsaicin significantly decreased it (Fig. 5k, l).",
+     "Finding summary": "(ApoE3 -> ApoE4, with PHF) -> (increased lysosomal cholesterol accumulation)",
+     "Experimental system": "Mouse BV2 immortalized microglial cells, not non-aged human brain cells. Recombinant human ApoE3 or ApoE4, 4 μg/ml for 6 h with 10% FBS, washing and 4 h in fresh medium, then 1 μg/ml tau PHF for 24 h. Lysosomes were labeled with 50 nM LysoTracker Red for 30 min and cholesterol with filipin III; confocal imaging assessed lysosomal cholesterol accumulation.",
+     "Data location": "Fig. 5l",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P20.F2",
+     "Finding description": "In the ApoE isoform treatment experiment, ApoE4 plus PHF produced more autophagosomes relative to autolysosomes, indicating impaired autophagic processing in BV2 microglia; the panel legend reports 10–12 fields from three biological replicates.",
+     "Finding quote": "We detected increased autophagosomes (remaining yellow dots in Fig. 5i) relative to autolysosomes in microglia treated with ApoE4 in the presence of PHF, indicating impaired autophagy lysosomal pathway.",
+     "Finding summary": "(ApoE3 -> ApoE4, with PHF) -> (increased autophagosomes relative to autolysosomes)",
+     "Experimental system": "Mouse BV2 immortalized microglial cell line from the Cell Bank of the Chinese Academy of Sciences, not non-aged human brain cells. Recombinant human ApoE3 or ApoE4, 4 μg/ml for 6 h with 10% FBS, followed by washing, 4 h in fresh medium and 1 μg/ml tau PHF for 24 h. Fixed-cell tandem mRFP-GFP-LC3 fluorescence imaging assessed autophagosome versus autolysosome puncta. No donor age or strain background was reported.",
+     "Data location": "Fig. 5j",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P20.F3",
+     "Finding description": "Capsaicin restored the tandem LC3 reporter pattern interpreted as autophagic processing in ApoE4-plus-PHF BV2 microglia, with 10–12 fields from three biological replicates; this tests rescue at fixed ApoE4 exposure.",
+     "Finding quote": "Treatment with TRPV1 agonist capsaicin restored the autophagy lysosomal pathway in microglia (Fig. 5i, j).",
+     "Finding summary": "(vehicle -> capsaicin, with ApoE4 and PHF) -> (restored autophagy lysosomal pathway)",
+     "Experimental system": "Mouse BV2 immortalized microglial cells loaded with recombinant human ApoE4, 4 μg/ml for 6 h in 10% FBS, washed and incubated for 4 h in fresh medium. Cells received vehicle or 1 μM capsaicin for 30 min before 1 μg/ml tau PHF for 24 h. Tandem mRFP-GFP-LC3 fluorescence images assessed autophagosome and autolysosome puncta.",
+     "Data location": "Fig. 5j",
+     "Directness class": 5,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  },
+  {
+   "paper_id": "P12",
+   "doi": "10.1016/j.neuron.2018.05.008",
+   "rows": [
+    {
+     "Paper/Finding ID": "P12.F1",
+     "Finding description": "Following Aβ42 treatment, lysosomal inhibition produced greater intracellular Aβ42 accumulation in APOE3 than isogenic APOE4 astrocytes, suggesting reduced lysosome-dependent Aβ42 degradation in APOE4 cells, although lipid mediation was not tested.",
+     "Finding quote": "Since lysosomal activity can affect Aβ levels, we also examined lysosome-dependent degradation of Aβ42 by measuring intracellular Aβ with or without lysosomal inhibitors following Aβ42 treatment. We observed increased Aβ42 accumulation following lysosome inhibition in APOE3 astrocytes compared to APOE4 astrocytes, suggesting reduced lysosome-dependent Aβ42 degradation in APOE4 astrocytes (Figure S3D).",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower inferred lysosome-dependent Aβ42 degradation in human iPSC-derived astrocytes)",
+     "Experimental system": "Human iPSC-derived astrocytes from unaffected female donor line AG09173, donor age 75, comparing parental homozygous APOE3 with CRISPR/Cas9-generated isogenic homozygous APOE4; cultured differentiated cells, with no cellular-aging intervention reported. Intracellular Aβ42 was measured after Aβ42 treatment with or without lysosomal inhibitors. Methods specify 48-hour treatment with leupeptin (50 μM), chloroquine (50 μM), and ammonium chloride (10 mM). The supplementary panel and its complete assay details were unavailable.",
+     "Data location": "Supplementary Fig S3D",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  },
+  {
+   "paper_id": "P32",
+   "doi": "10.1002/advs.202524167",
+   "rows": [
+    {
+     "Paper/Finding ID": "P32.F1",
+     "Finding description": "Adding the PPAR-γ inhibitor GW9662 abolished the Lilrb4a-knockdown-associated enhancement of Aβ uptake and degradation in APOE4 mouse microglia, with n=3 and replicate identity unspecified.",
+     "Finding quote": "In both APOE3 and APOE4‐derived microglia, Lilrb4a knockdown enhanced Aβ phagocytosis and degradation, whereas PPAR‐γ inhibition abolished the enhancement of Aβ phagocytosis and degradation induced by Lilrb4a knockdown (Figure 4L–O).",
+     "Finding summary": "(Lilrb4a ASO -> Lilrb4a ASO plus PPAR-γ inhibition in APOE4 microglia) -> (loss of enhanced Aβ uptake and degradation)",
+     "Experimental system": "Primary cortical CD11b-enriched microglia from 12-month-old human APOE4 knock-in mice given intraperitoneal LPS, 3 mg/kg, 24 hours before isolation. Ex vivo ASO-L4a plus GW9662 was compared with ASO-L4a alone; ASO dose was 5 pmol per 10,000 cells and GW9662 concentration was 10 µM. Uptake assays used 36-hour ASO pretreatment followed by 24 hours with the indicated PPAR treatment, a 6-hour LPS challenge, and 1.5-hour FAM-Aβ uptake. Degradation assays used 3-hour FAM-Aβ loading followed by 24 hours in substrate-free medium with the indicated ASO and inhibitor treatments; flow cytometry measured residual intracellular fluorescence. Lipid composition, lysosomal pH, and lysosomal enzyme activity were not measured.",
+     "Data location": "Fig 4M, uptake and degradation quantification",
+     "Directness class": 4,
+     "Directness strength": "4 weak"
+    }
+   ]
+  }
+ ],
+ "reference_rows": [
+  {
+   "finding_id": "P18.F1",
+   "summary": "(APOE3 -> APOE4) -> (higher lysosomal pH in mouse astrocytes)",
+   "system": "Cultured mouse astrocytes from ApoE-knockout mice with isogenic knock-in of human ApoE3 or ApoE4, supplied by David M. Holtzman; donor age and mouse background ",
+   "class": 1,
+   "strength": "2 strong"
+  }
+ ]
+}

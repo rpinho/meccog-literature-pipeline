@@ -1,0 +1,248 @@
+[
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid42274838",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid42274838/text.txt",
+   "supp": "data/papers/pmid42274838/supp.txt",
+   "figures": [
+    "data/papers/pmid42274838/figimg/3.png",
+    "data/papers/pmid42274838/figimg/4.png",
+    "data/papers/pmid42274838/figimg/7.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P11.F1",
+   "Finding description": "APOE4 astrocytes had lower LysoTracker fluorescence than APOE3 astrocytes, interpreted as impaired lysosomal activity or acidity although this assay did not provide calibrated lysosomal pH.",
+   "Finding quote": "Moreover, APOE3-expressing astrocytes showed higher lysosomal activity as indicated by higher lysotracker signal compared to APOE4-expressing cells (Fig. 4D).",
+   "Finding summary": "(APOE3 -> APOE4) -> (lower LysoTracker fluorescence in astrocytes)",
+   "Finding relevance": 0.9,
+   "Experimental system": "Human APOE-expressing astrocytes of unspecified derivation and age; 60 nM LysoTracker Deep Red for 30 min at 37 °C; washed and trypsinized cells analyzed by flow cytometry; ratio paired t-test.",
+   "Data location": "Fig. 4D",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "<0.05",
+   "P value provenance": "printed_in_text",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P11",
+   "finding_id": "P11.F1",
+   "key": "pmid42274838",
+   "quote_start": "Moreover, APOE3-expressing astrocytes showed higher lysosomal activity",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~0.27x",
+    "Effect size provenance": "estimated_from_figure",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Quote verbatim, direction right; the P comes from a star whose meaning is given only by the legend key, so it is visual_only, and the bars are readable.",
+   "evidence": "Fig. 4D (LysoTracker mean fluorescence, axis 0-150): APOE3 bar ~101, APOE4 bar ~27; one star on the APOE3-APOE4 bracket; legend: 'means ± SEM, *p < 0.05, ratio paired t-test (n = 3)'. 27/101 = 0.27."
+  },
+  "item": 1
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid42274838",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid42274838/text.txt",
+   "supp": "data/papers/pmid42274838/supp.txt",
+   "figures": [
+    "data/papers/pmid42274838/figimg/3.png",
+    "data/papers/pmid42274838/figimg/4.png",
+    "data/papers/pmid42274838/figimg/7.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P11.F2",
+   "Finding description": "Untreated APOE4 astrocytes had higher p62 levels than APOE3 astrocytes, consistent with impaired autophagic degradation but not establishing flux or a lipid-mediated mechanism.",
+   "Finding quote": "As shown in Fig. 3A, the levels of p62 were significantly higher in APOE4-expressing cells, yet α-synuclein treatment increased the levels of p62 in the APOE3 but not in APOE4 cells in which the levels of p62 were high to begin with.",
+   "Finding summary": "(APOE3 -> APOE4) -> (higher basal p62 in astrocytes)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Human APOE3- and APOE4-expressing astrocytes previously described in reference 23; derivation, age and genetic matching unspecified; untreated comparison within a 2 h α-synuclein experiment; p62 immunoblot normalized to actin.",
+   "Data location": "Fig. 3A, basal genotype comparison",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "6",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P11",
+   "finding_id": "P11.F2",
+   "key": "pmid42274838",
+   "quote_start": "As shown in Fig. 3A, the levels of p62 were significantly higher in AP",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig. 3 p62 quantification (labelled panel B in the figure image; the text cites Fig. 3A), control APOE3 vs APOE4",
+    "Effect size": "~1.42x",
+    "Effect size provenance": "estimated_from_figure",
+    "P value": "<0.005",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Quote verbatim, but the figure image labels the p62 quantification as panel B (panel A is LC3-II/LC3-I), the reverse of the text's citation. The p62 panel has ** over the control APOE3 vs APOE4 bracket.",
+   "evidence": "Fig. 3 image, p62 panel (labelled B, p62/Actin % of APOE3 control): control APOE3 ~100, control APOE4 ~142, '**' on that bracket; legend: '* < 0.05, **q < 0.005, ****q < 0.001, two-way ANOVA with post hoc linear contrast and the two-stage FDR correction (n = 6)'. Note these are FDR q values."
+  },
+  "item": 2
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid42274838",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid42274838/text.txt",
+   "supp": "data/papers/pmid42274838/supp.txt",
+   "figures": [
+    "data/papers/pmid42274838/figimg/3.png",
+    "data/papers/pmid42274838/figimg/4.png",
+    "data/papers/pmid42274838/figimg/7.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P11.F3",
+   "Finding description": "APOE4 astrocytes had significantly lower basal LC3-II than APOE3 astrocytes, consistent with altered autophagy although steady-state LC3-II alone does not establish flux.",
+   "Finding quote": "However, the levels of LC3-II were significantly lower in APOE4 compared to APOE3-expressing astrocytes, and α-synuclein treatment had no effect on LC3-II levels in APOE4 astrocytes.",
+   "Finding summary": "(APOE3 -> APOE4) -> (lower basal LC3-II in astrocytes)",
+   "Finding relevance": 0.75,
+   "Experimental system": "Human APOE-expressing astrocytes of unspecified derivation and age; untreated genotype comparison within a 2 h α-synuclein experiment; LC3 immunoblot normalized to actin.",
+   "Data location": "Fig. 3B, basal genotype comparison",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "6",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P11",
+   "finding_id": "P11.F3",
+   "key": "pmid42274838",
+   "quote_start": "However, the levels of LC3-II were significantly lower in APOE4 compar",
+   "verdict": "FIX",
+   "set": {
+    "Finding description": "APOE4 astrocytes had significantly lower basal LC3-II than APOE3 astrocytes (the quantified panel plots the LC3-II/LC3-I ratio as % of APOE3 control), consistent with altered autophagy although steady-state LC3 alone does not establish flux.",
+    "Data location": "Fig. 3 LC3 quantification (labelled panel A in the figure image, LC3-II/LC3-I ratio; the text cites Fig. 3B), control APOE3 vs APOE4",
+    "Effect size": "~0.52x",
+    "Effect size provenance": "estimated_from_figure",
+    "P value": "<0.001",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Quote verbatim, but the quantified panel is labelled A in the image and plots the LC3-II/LC3-I ratio (not LC3-II alone); **** sits over the control APOE3 vs APOE4 bracket.",
+   "evidence": "Fig. 3 image, panel A (LC3-II/LC3-I, % of APOE3 control): control APOE3 100, control APOE4 ~52, '****' on that bracket; legend key '****q < 0.001 ... (n = 6)'."
+  },
+  "item": 3
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid42274838",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid42274838/text.txt",
+   "supp": "data/papers/pmid42274838/supp.txt",
+   "figures": [
+    "data/papers/pmid42274838/figimg/3.png",
+    "data/papers/pmid42274838/figimg/4.png",
+    "data/papers/pmid42274838/figimg/7.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P11.F6",
+   "Finding description": "α-Synuclein increased p62 in APOE3 astrocytes but produced no significant change in APOE4 astrocytes with already elevated p62, indicating different genotype-associated responses.",
+   "Finding quote": "As shown in Fig. 3A, the levels of p62 were significantly higher in APOE4-expressing cells, yet α-synuclein treatment increased the levels of p62 in the APOE3 but not in APOE4 cells in which the levels of p62 were high to begin with.",
+   "Finding summary": "(APOE3 -> APOE4) -> (loss of the α-synuclein-associated increase in p62)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Human APOE3- and APOE4-expressing astrocytes, control versus 0.5 μM α-synuclein for 2 h within each genotype; p62 immunoblot normalized to actin. The paper does not specify a vehicle.",
+   "Data location": "Fig. 3A, genotype-dependent α-synuclein response",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "6",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P11",
+   "finding_id": "P11.F6",
+   "key": "pmid42274838",
+   "quote_start": "As shown in Fig. 3A, the levels of p62 were significantly higher in AP",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig. 3 p62 quantification (labelled panel B in the figure image; the text cites Fig. 3A), alpha-synuclein response within each genotype"
+   },
+   "reason": "Quote verbatim and description right, but the p62 quantification is labelled panel B in the figure image (the text says 3A). The only star for this response is APOE3 control vs alpha-synuclein; no genotype x treatment test is shown.",
+   "evidence": "Fig. 3 image, p62 panel (labelled B): '*' on APOE3 control vs APOE3 alpha-synuclein (~100 -> ~139); APOE4 control ~142 vs alpha-synuclein ~133 with no mark."
+  },
+  "item": 4
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid42274838",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid42274838/text.txt",
+   "supp": "data/papers/pmid42274838/supp.txt",
+   "figures": [
+    "data/papers/pmid42274838/figimg/3.png",
+    "data/papers/pmid42274838/figimg/4.png",
+    "data/papers/pmid42274838/figimg/7.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P11.F7",
+   "Finding description": "α-Synuclein significantly reduced LC3-II in APOE3 astrocytes but produced no significant change in APOE4 astrocytes, which already had lower LC3-II.",
+   "Finding quote": "As shown in Fig. 3B, α-synuclein treatment significantly reduced the levels of LC3-II in APOE3-expressing astrocytes. However, the levels of LC3-II were significantly lower in APOE4 compared to APOE3-expressing astrocytes, and α-synuclein treatment had no effect on LC3-II levels in APOE4 astrocytes.",
+   "Finding summary": "(APOE3 -> APOE4) -> (loss of the α-synuclein-associated decrease in LC3-II)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Human APOE3- and APOE4-expressing astrocytes, control versus 0.5 μM α-synuclein for 2 h within each genotype; LC3 immunoblot normalized to actin. The paper does not specify a vehicle.",
+   "Data location": "Fig. 3B, genotype-dependent α-synuclein response",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "6",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P11",
+   "finding_id": "P11.F7",
+   "key": "pmid42274838",
+   "quote_start": "As shown in Fig. 3B, α-synuclein treatment significantly reduced the l",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig. 3 LC3 quantification (labelled panel A in the figure image, LC3-II/LC3-I ratio; the text cites Fig. 3B), alpha-synuclein response within each genotype"
+   },
+   "reason": "Quote verbatim and description right, but the LC3 quantification is labelled panel A in the figure image and plots LC3-II/LC3-I (the text says 3B).",
+   "evidence": "Fig. 3 image, panel A (LC3-II/LC3-I): '*' on APOE3 control vs APOE3 alpha-synuclein (100 -> ~79); APOE4 control ~52 vs alpha-synuclein ~46, no mark."
+  },
+  "item": 5
+ }
+]

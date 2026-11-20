@@ -1,0 +1,20 @@
+[
+ {
+  "finding_id": "P11.F6",
+  "quote_start": "Notably, rAPOE4 exhibited a higher β-sheet content, both in isolation ",
+  "summary": "(APOE3 -> APOE4) -> (higher baseline ThT-inferred amyloid-like APOE aggregation)",
+  "class": 3,
+  "strength": 3,
+  "changed": false,
+  "why": "Cell-free recombinant ThT beta-sheet aggregation at neutral pH outside the endo-lysosome, the same assay as the same paper's reference P11.F3 (3/3)."
+ },
+ {
+  "finding_id": "P23.F3",
+  "quote_start": "Mice with the APOE4 allele appeared to have higher apoE levels at 12 a",
+  "summary": "(APOE3 -> APOE4) -> (no change in insoluble whole-hemibrain apoE levels at 16 months)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Was 3/3. Insoluble whole-hemibrain apoE in APPPS1 mice without subcellular localization, the same measurement at another age as references P23.F1 and P23.F2 (3/4)."
+ }
+]

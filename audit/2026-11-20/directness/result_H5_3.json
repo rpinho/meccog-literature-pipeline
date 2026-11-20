@@ -1,0 +1,379 @@
+[
+ {
+  "finding_id": "P23.F1",
+  "quote_start": "APOE4–mCh cells had a significantly higher LC3II/LC3I ratio and signif",
+  "summary": "(APOE3 -> APOE4) -> (higher baseline LC3II/LC3I ratio and LC3 abundance)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Static autophagy-marker abundance without a flux assay: increased autophagy induction is a known route to the same change without any lysosomal defect, so strength 4."
+ },
+ {
+  "finding_id": "P23.F2",
+  "quote_start": "Imaris analysis revealed that APOE4–mCh cells had significantly higher",
+  "summary": "(APOE3 -> APOE4) -> (larger LAMP1-positive lysosomal compartments)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P23.F3",
+  "quote_start": "APOE4 colocalized with late endosomes significantly more than with ear",
+  "summary": "Rab7 versus EEA1 colocalization was significantly greater within APOE4-treated cells. APOE3-treated cells showed no significant preference. An isoform-by-marker interaction was not reported.",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Cargo or receptor colocalization with late endosomes/lysosomes reflects upstream endosomal sorting and recycling, a known route that changes it without any change in lysosomal function, so strength 4 (harmonized across all cargo-colocalization rows)."
+ },
+ {
+  "finding_id": "P23.F4",
+  "quote_start": "Relative to APOE3–mCh cells, APOE4–mCh cells had increased Beclin1 pro",
+  "summary": "(APOE3 -> APOE4) -> (higher Beclin1 and lower ATG7 protein abundance)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Beclin1/ATG7 abundance reports autophagy initiation machinery, which induction signalling changes independently of lysosomal function, a known alternative route, so strength 4."
+ },
+ {
+  "finding_id": "P23.F5",
+  "quote_start": "Imaris analysis revealed that APOE4–mCh cells had significantly higher",
+  "summary": "(APOE3 -> APOE4) -> (greater APOE–LAMP1 colocalization)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Cargo or receptor colocalization with late endosomes/lysosomes reflects upstream endosomal sorting and recycling, a known route that changes it without any change in lysosomal function, so strength 4 (harmonized across all cargo-colocalization rows)."
+ },
+ {
+  "finding_id": "P23.F6",
+  "quote_start": "APOE4–mCh–SepH cells had a significantly lower ratio of green to red f",
+  "summary": "(APOE3 -> APOE4) -> (lower green/red APOE fluorescence ratio and greater acidic-compartment localization)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "The SepHluorin ratio reports APOE cargo localization to acidic compartments, not lysosomal pH or function; cargo localization follows upstream sorting, a known alternative route, so strength 4 like the other cargo-colocalization rows."
+ },
+ {
+  "finding_id": "P23.F7",
+  "quote_start": "This suggests that the depletion of prohibitin from the LysoIP eluate ",
+  "summary": "(APOE3 medium -> APOE4 medium) -> (lower lysosomal prohibitin abundance)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "LysoIP cargo composition reflects delivery to lysosomes (upstream mitophagy and trafficking) as much as lysosomal function, a known alternative route, so strength 4 for every LysoIP row."
+ },
+ {
+  "finding_id": "P23.F8",
+  "quote_start": "However, LC3 abundance was increased with Rap only in APOE3–mCh and mC",
+  "summary": "(rapamycin) -> (LC3 abundance increased in APOE3 and mCherry controls, with no change reported in APOE4)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "Rapamycin does not act on APOE, and the readout is static LC3 abundance, whose change has the known induction-versus-block ambiguity, so strength 4.",
+  "reason_for_description": "Rapamycin is an mTOR drug that does not act on APOE; the finding is a drug response compared across genotypes, so it fits none of classes 1-4."
+ },
+ {
+  "finding_id": "P23.F9",
+  "quote_start": "O95168 NDUFB4 0.258 0.956 3.701 0.04188126",
+  "summary": "(APOE3 medium -> APOE4 medium) -> (lower lysosomal NDUFB4 abundance)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "LysoIP cargo composition reflects delivery to lysosomes (upstream mitophagy and trafficking) as much as lysosomal function, a known alternative route, so strength 4 for every LysoIP row."
+ },
+ {
+  "finding_id": "P23.F10",
+  "quote_start": "E7EPT4 NDUFV2 0.657 1.452 2.212 0.035113201 0.694864927 0.01111817",
+  "summary": "(APOE3 medium -> APOE4 medium) -> (lower lysosomal NDUFV2 abundance)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "LysoIP cargo composition reflects delivery to lysosomes (upstream mitophagy and trafficking) as much as lysosomal function, a known alternative route, so strength 4 for every LysoIP row."
+ },
+ {
+  "finding_id": "P23.F11",
+  "quote_start": "Proteins enriched in the lysosome of APOE4-containing cells included a",
+  "summary": "(APOE3 medium -> APOE4 medium) -> (greater lysosomal representation of secretory/endocytic cargo)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "LysoIP cargo composition reflects delivery to lysosomes (upstream mitophagy and trafficking) as much as lysosomal function, a known alternative route, so strength 4 for every LysoIP row."
+ },
+ {
+  "finding_id": "P23.F12",
+  "quote_start": "We identified proteins that were uniquely altered in APOE4-treated cel",
+  "summary": "(APOE3 medium -> APOE4 medium) -> (altered lysosomal proteomic composition)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "LysoIP cargo composition reflects delivery to lysosomes (upstream mitophagy and trafficking) as much as lysosomal function, a known alternative route, so strength 4 for every LysoIP row."
+ },
+ {
+  "finding_id": "P23.F13",
+  "quote_start": "A6NJ78 METTL15 0.098 0.16 1.64 0.03482823 0.191564201 0.416755153",
+  "summary": "(APOE3 medium -> APOE4 medium) -> (lower lysosomal METTL15 abundance)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "LysoIP cargo composition reflects delivery to lysosomes (upstream mitophagy and trafficking) as much as lysosomal function, a known alternative route, so strength 4 for every LysoIP row."
+ },
+ {
+  "finding_id": "P23.F14",
+  "quote_start": "Q6P587 FAHD1 0.418 2.239 5.356 0.00922607 0.0404347 0.001189686",
+  "summary": "(APOE3 medium -> APOE4 medium) -> (lower lysosomal FAHD1 abundance)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "LysoIP cargo composition reflects delivery to lysosomes (upstream mitophagy and trafficking) as much as lysosomal function, a known alternative route, so strength 4 for every LysoIP row."
+ },
+ {
+  "finding_id": "P1.F1",
+  "quote_start": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (",
+  "summary": "(APOE33 -> APOE44) -> (impaired adaptive late-endosomal/lysosomal acidification after organoid-debris challenge)",
+  "class": 1,
+  "strength": 2,
+  "changed": true,
+  "why": "Same readout (late-endosome/lysosome pH) and same APOE3->APOE4 genotype contrast as reference row P18.F1, so class 1 strength 2 to match it."
+ },
+ {
+  "finding_id": "P1.F2",
+  "quote_start": "Consistently, lysosomal degradative capacity, assessed by DQ-BSA, was ",
+  "summary": "(APOE33 -> APOE44) -> (lower lysosomal degradation capacity)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P1.F3",
+  "quote_start": "Upon challenge with organoid debris, UCI5 APOE44 iMG lysosomes failed ",
+  "summary": "(APOE33 -> APOE44) -> (impaired adaptive lysosomal acidification, with alkalinization after challenge)",
+  "class": 1,
+  "strength": 2,
+  "changed": true,
+  "why": "Same readout (late-endosome/lysosome pH) and same APOE3->APOE4 genotype contrast as reference row P18.F1, so class 1 strength 2 to match it."
+ },
+ {
+  "finding_id": "P1.F4",
+  "quote_start": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (",
+  "summary": "(APOE33 -> APOE44) -> (no change in baseline late-endosomal/lysosomal pH)",
+  "class": 1,
+  "strength": 2,
+  "changed": true,
+  "why": "Same readout (late-endosome/lysosome pH) and same APOE3->APOE4 genotype contrast as reference row P18.F1, so class 1 strength 2 to match it."
+ },
+ {
+  "finding_id": "P1.F5",
+  "quote_start": "To assess this possibility, we quantified colocalization of BODIPY and",
+  "summary": "(APOE33 -> APOE44) -> (higher lysosomal neutral-lipid accumulation in human microglia)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Same BODIPY/LysoTracker colocalization measurement as P1.F6; increased lipid delivery to lysosomes is a possible but unlikely-to-invalidate alternative, so both rows get strength 3."
+ },
+ {
+  "finding_id": "P1.F6",
+  "quote_start": "To assess this possibility, we quantified colocalization of BODIPY and",
+  "summary": "(APOE33 -> APOE44) -> (higher lysosomal neutral-lipid accumulation)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P1.F7",
+  "quote_start": "Of the 84 identified lysosomal hydrolases and V-ATPases, 53 were signi",
+  "summary": "(APOE33 -> APOE44) -> (lower abundance of numerous lysosomal hydrolases and V-ATPases)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Whole-cell abundance of lysosomal proteins, not their activity; lower abundance can occur without a functional deficit, a possible but unlikely-to-invalidate route, so strength 3 to match the other proteomic lysosomal-protein rows."
+ },
+ {
+  "finding_id": "P1.F8",
+  "quote_start": "As an orthogonal approach to visualize lysosomes, we performed transmi",
+  "summary": "(APOE33 -> APOE44) -> (lysosomal ultrastructure consistent with increased lipid accumulation)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P1.F9",
+  "quote_start": "These data were in agreement with our scRNAseq results, also indicatin",
+  "summary": "(APOE33 -> APOE44) -> (lower lysosomal HEXA protein abundance)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Whole-cell abundance of lysosomal proteins, not their activity; lower abundance can occur without a functional deficit, a possible but unlikely-to-invalidate route, so strength 3 to match the other proteomic lysosomal-protein rows."
+ },
+ {
+  "finding_id": "P1.F10",
+  "quote_start": "Nevertheless, both lines at the proteomic level show an increase in MH",
+  "summary": "(APOE33 -> APOE44 in KOLF) -> (lower lysosomal protein abundance)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P1.F11",
+  "quote_start": "Further, p62 (SQSTM1) and LC3B (MAP1LC3B2) were both upregulated, supp",
+  "summary": "(APOE33 -> APOE44) -> (higher p62 abundance, a surrogate consistent with autophagosome accumulation)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Static p62 abundance without a flux assay: SQSTM1 is also transcriptionally induced (e.g. by oxidative or inflammatory signalling), a known route independent of lysosomal function, so strength 4 like the other static autophagy-marker rows."
+ },
+ {
+  "finding_id": "P24.F1",
+  "quote_start": "Quantifications of the results revealed that, APOE4 neurons present a ",
+  "summary": "(APOE3 -> APOE4) -> (lower CatD-positive lysosomal area in mouse neurons)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P24.F2",
+  "quote_start": "Quantifications of the results revealed that, APOE4 neurons present a ",
+  "summary": "(APOE3 -> APOE4) -> (lower Rab7-positive late-endosome area in mouse neurons)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P24.F3",
+  "quote_start": "Additionally, there was also a decrease in the colocalization of the r",
+  "summary": "(APOE3 -> APOE4) -> (lower APOER2 colocalization with lysosomes)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Cargo or receptor colocalization with late endosomes/lysosomes reflects upstream endosomal sorting and recycling, a known route that changes it without any change in lysosomal function, so strength 4 (harmonized across all cargo-colocalization rows)."
+ },
+ {
+  "finding_id": "P24.F4",
+  "quote_start": "This decrease in late endosomes was significant for both IR and VEGFR ",
+  "summary": "(APOE3 -> APOE4) -> (lower insulin-receptor colocalization with late endosomes)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Cargo or receptor colocalization with late endosomes/lysosomes reflects upstream endosomal sorting and recycling, a known route that changes it without any change in lysosomal function, so strength 4 (harmonized across all cargo-colocalization rows)."
+ },
+ {
+  "finding_id": "P24.F5",
+  "quote_start": "Additionally, there was also a decrease in the colocalization of the r",
+  "summary": "(APOE3 -> APOE4) -> (no change in insulin-receptor lysosomal colocalization)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Cargo or receptor colocalization with late endosomes/lysosomes reflects upstream endosomal sorting and recycling, a known route that changes it without any change in lysosomal function, so strength 4 (harmonized across all cargo-colocalization rows)."
+ },
+ {
+  "finding_id": "P24.F6",
+  "quote_start": "This decrease in late endosomes was significant for both IR and VEGFR ",
+  "summary": "(APOE3 -> APOE4) -> (lower VEGFR colocalization with late endosomes)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Cargo or receptor colocalization with late endosomes/lysosomes reflects upstream endosomal sorting and recycling, a known route that changes it without any change in lysosomal function, so strength 4 (harmonized across all cargo-colocalization rows)."
+ },
+ {
+  "finding_id": "P24.F7",
+  "quote_start": "Additionally, there was also a decrease in the colocalization of the r",
+  "summary": "(APOE3 -> APOE4) -> (lower VEGFR colocalization with lysosomes)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Cargo or receptor colocalization with late endosomes/lysosomes reflects upstream endosomal sorting and recycling, a known route that changes it without any change in lysosomal function, so strength 4 (harmonized across all cargo-colocalization rows)."
+ },
+ {
+  "finding_id": "P24.F8",
+  "quote_start": "The first pattern which was observed with LRP1, shows that lower level",
+  "summary": "(APOE3 -> APOE4) -> (lower LRP1 colocalization with lysosomes)",
+  "class": 3,
+  "strength": 4,
+  "changed": false
+ },
+ {
+  "finding_id": "P24.F9",
+  "quote_start": "This decrease in late endosomes was significant for both IR and VEGFR ",
+  "summary": "(APOE3 -> APOE4) -> (no change in APOER2 late-endosome colocalization reaching statistical significance)",
+  "class": 3,
+  "strength": 4,
+  "changed": false
+ },
+ {
+  "finding_id": "P24.F10",
+  "quote_start": "The first pattern which was observed with LRP1, shows that lower level",
+  "summary": "(APOE3 -> APOE4) -> (lower LRP1 colocalization with late endosomes)",
+  "class": 3,
+  "strength": 4,
+  "changed": false
+ },
+ {
+  "finding_id": "P8.F1",
+  "quote_start": "Analysis of microsomal and cytosolic fractions revealed that Cathepsin",
+  "summary": "(apoE3 -> apoE4) -> (higher cytosolic Cathepsin D in SH-SY5Y cells)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Same microsomal/cytosolic fractionation experiment as P8.F4; altered Cathepsin D sorting or fractionation carry-over is a possible but unlikely-to-invalidate route, so both halves get strength 3."
+ },
+ {
+  "finding_id": "P8.F2",
+  "quote_start": "As seen in Fig. 5E, and in agreement with the results found with SH-SY",
+  "summary": "(apoE3 -> apoE4) -> (reduced Cathepsin D–Lamp-2 colocalization in human primary cortical neurons)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P8.F3",
+  "quote_start": "This pattern was not changed by treatment with rApoE3. However, treatm",
+  "summary": "(apoE3 -> apoE4) -> (more diffuse lysosomal-marker staining and reduced Cathepsin D–Lamp-2 colocalization in SH-SY5Y cells)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P8.F4",
+  "quote_start": "In rApoE3 treated cells, the levels of Cathepsin D were instead increa",
+  "summary": "(apoE3 -> apoE4) -> (lower microsomal Cathepsin D in SH-SY5Y cells)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P14.F1",
+  "quote_start": "In addition, PI3K inhibition with GNE-317 reversed the lysosomal accum",
+  "summary": "(GNE-317 treatment in fAβ-challenged APOE4/4 iMG) -> (reduced LysoTracker-defined lysosomal accumulation)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "GNE-317 inhibits PI3K, which regulates lysosome biogenesis through mTORC1/TFEB directly, a known route to the LysoTracker change other than via APOE4 lipid effects, so strength 4.",
+  "reason_for_description": "GNE-317 is a PI3K inhibitor applied within the APOE4/4 genotype and does not act on APOE, so the perturbation is neither A nor a surrogate A'."
+ },
+ {
+  "finding_id": "P14.F2",
+  "quote_start": "In accordance with these RNA-seq results, phenotypic measurements of L",
+  "summary": "A greater percentage of lipid droplet-positive APOE4/4 iMG were LysoTracker-positive than lipid droplet-negative iMG.",
+  "class": 5,
+  "strength": 4,
+  "changed": false,
+  "reason_for_description": "Cells within one APOE4/4 genotype are stratified by lipid-droplet presence, an observational within-genotype comparison that does not vary APOE, so it fits none of classes 1-4."
+ },
+ {
+  "finding_id": "P26.F1",
+  "quote_start": "Greater colocalization of ABCA1 with the late endosome marker LAMP2 an",
+  "summary": "(rApoE3 -> rApoE4) -> (greater ABCA1 colocalization with LAMP2)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Cargo or receptor colocalization with late endosomes/lysosomes reflects upstream endosomal sorting and recycling, a known route that changes it without any change in lysosomal function, so strength 4 (harmonized across all cargo-colocalization rows)."
+ },
+ {
+  "finding_id": "P33.F1",
+  "quote_start": "We treated the APOE4; PVD::GFP strain with TOFA starting at the embryo",
+  "summary": "(DMSO -> TOFA in APOE4-expressing C. elegans) -> (no change in neuronal lysosomal abnormalities)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "TOFA is a lipid-synthesis drug given within one APOE4 genotype with no APOE3 comparison, which the brief defines as class 5, not class 4.",
+  "reason_for_description": "TOFA is an acetyl-CoA carboxylase (lipid-synthesis) inhibitor given within APOE4-expressing worms without an APOE3 arm, so APOE is not varied and the perturbation is not a surrogate A'."
+ }
+]

@@ -1,0 +1,91 @@
+[
+ {
+  "hyp": "H1",
+  "paper_id": "P2",
+  "finding_id": "P2.F1",
+  "key": "doi_10_64898_2026_05_12_724612",
+  "quote_start": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Quote verbatim, own result, n=3 wells printed in the Fig 3G legend. The text does state the result (both genotypes ~5.15 at baseline, 'did not differ'), so the effect is qualitative/printed_in_text, not N/A/not_found_in_source. P N/A is right as far as the text goes (Fig 3G is a one-way ANOVA across untreated/debris/Bafilomycin groups, no pairwise P printed); the figure image is not in our files (no PDF, no figure PNGs for this preprint), so any stars on 3G could not be checked.",
+  "evidence": "Results: 'While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (∼5.15), APOE33 iMG exhibited further acidification upon challenge (∼5.05), whereas APOE44 iMG failed to do so (Figure 3G).' Fig 3 legend (G): '... untreated, treated with organoid debris or with Bafilomycin (0.1 nM) (n=3 wells each, 9 frames per well).' '(G, H) One way ANOVA, mean ± SEM.'"
+ },
+ {
+  "hyp": "H1",
+  "paper_id": "P2",
+  "finding_id": "P2.F2",
+  "key": "doi_10_64898_2026_05_12_724612",
+  "quote_start": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (",
+  "verdict": "OK",
+  "reason": "Quote verbatim and the paper's own result; description (APOE33 ~5.15 -> ~5.05 after debris, APOE44 no further acidification) and n=3 wells match the text/legend. APOE44 post-challenge pH is not printed, so qualitative is right; no pairwise P in text (one-way ANOVA for 3G). Fig 3G image unavailable locally (no PDF/figures for this preprint), so stars could not be checked.",
+  "evidence": "Same Results sentence as P2.F1; Fig 3 legend (G) 'n=3 wells each, 9 frames per well'; '(G, H) One way ANOVA, mean ± SEM.'"
+ },
+ {
+  "hyp": "H1",
+  "paper_id": "P2",
+  "finding_id": "P2.F3",
+  "key": "doi_10_64898_2026_05_12_724612",
+  "quote_start": "Upon challenge with organoid debris, UCI5 APOE44 iMG lysosomes failed ",
+  "verdict": "OK",
+  "reason": "Quote verbatim, own result (additional female UCI5 isogenic pair); description, n=3 wells/25 frames and location match. Note: the Fig 7 legend says panels I-M use an unpaired two-tailed t-test with a star key, so Fig 7M may carry stars, but the figure image is not in our files (no PDF/figure PNGs), so P stays N/A from text.",
+  "evidence": "Results: 'we incorporated an additional female APOE isogenic pair (UCI5) ... Upon challenge with organoid debris, UCI5 APOE44 iMG lysosomes failed to mount an adaptive acidification response and instead shifted toward alkalinization (Figure 7M).' Fig 7 legend (M): '... untreated and treated with organoid debris (n=3 wells each, 25 frames per well).' '(D-G, I-M) Unpaired t-test, two-tailed, mean ± SEM.'"
+ },
+ {
+  "hyp": "H1",
+  "paper_id": "P2",
+  "finding_id": "P2.F4",
+  "key": "doi_10_64898_2026_05_12_724612",
+  "quote_start": "Of the 84 identified lysosomal hydrolases and V-ATPases, 53 were signi",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "not_found_in_source"
+  },
+  "reason": "Quote verbatim, counts (53 of 84) and n=3 wells (proteomics, Fig 3I legend) correct. The full text is available; no P is printed for this count (S3D is a Venn diagram), so the P provenance should be not_found_in_source, not full_text_unavailable.",
+  "evidence": "Results: 'Of the 84 identified lysosomal hydrolases and V-ATPases, 53 were significantly downregulated in APOE44 iMG, supporting lysosomal impairment (Figure S3D).' Fig S3 legend (D): 'Venn diagram shows overlap of significantly downregulated and upregulated proteins with identified lysosomal enzymes.' Fig 3 legend (I): 'Volcano plot ... APOE44 vs APOE33 iMG (n=3 wells each).'"
+ },
+ {
+  "hyp": "H1",
+  "paper_id": "P8",
+  "finding_id": "P8.F1",
+  "key": "pmid37777962",
+  "quote_start": "We also observed that ApoE4 increased the intensity of LysoTracker, wh",
+  "verdict": "FIX",
+  "set": {
+   "Finding quote": "We also observed that ApoE4 increased the intensity of LysoTracker, which is positively associated with lysosomal activity (Figure 3G).",
+   "Effect size": "~35%",
+   "Effect size provenance": "estimated_from_figure",
+   "Finding description": "APOE4 astrocytes showed significantly higher lysosomal LysoTracker mean intensity than isogenic APOE3 astrocytes (about 41 vs 55 a.u. read from Fig 3G, ~35% higher), consistent with increased acidic-compartment staining but without a measured luminal pH difference."
+  },
+  "reason": "Quote as stored is truncated mid-parenthesis with a PDF line-break hyphen ('ac- tivity (Figure 3G'); repaired to the full sentence. Fig 3G is readable (linear axis 0-80): APOE3 bar ~41, APOE4 bar ~55 a.u. -> ~35% increase. P <0.0001 visual_only is right (**** over this two-bar panel, Student's t-test key). n for E-G is not printed and the APOE3 points overlap, so Sample size N/A stays.",
+  "evidence": "Text p.5: 'We also observed that ApoE4 increased the intensity of LysoTracker, which is positively associated with lysosomal ac-tivity (Figure 3G).' Rendered PDF page 6 (journal p.5), Fig 3G: y axis 'LysoTracker intensity (a.u.)' 0-80; APOE3 bar top ~41, APOE4 bar top ~55; '****' above APOE4. Legend: '*p < 0.05, **p < 0.01, ***p < 0.001, ****p < 0.0001 (Student's t test).' Legend (E-G) gives no n."
+ },
+ {
+  "hyp": "H1",
+  "paper_id": "P8",
+  "finding_id": "P8.F2",
+  "key": "pmid37777962",
+  "quote_start": "We further observed restoration of lysosomal activity, as indicated by",
+  "verdict": "FIX",
+  "set": {
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Effect size": "~25%",
+   "Effect size provenance": "estimated_from_figure"
+  },
+  "reason": "Fig 4F shows no single '*': the only mark is '***' centred over the ApoE4 (untreated) bar in a four-group Dunnett's design, which most plausibly marks ApoE4 vs the ApoE3 control, not ApoE4+MβCD vs ApoE4; with one key and no visible mark for this comparison, P <0.05 is not supported -> N/A, ambiguous_panel. Bars are readable (0-100 linear axis): ApoE4 ~66 vs ApoE4+MβCD ~49 a.u. -> ~25% decrease. Quote, location and n=16 (legend D) are fine.",
+  "evidence": "Rendered PDF page 8 (journal p.7), Fig 4F: y axis 'LysoTracker intensity (a.u.)' 0-100; bars ApoE3 ~50, ApoE3+MβCD ~49, ApoE4 ~66, ApoE4+MβCD ~49; only '***' above the ApoE4 bar. Legend: '(D) ... with or without MbCD treatment. n = 16 from 3 independent cultures.' '*p < 0.05, ***p < 0.001 (ANOVA test followed by Dunnett's post hoc analysis).'"
+ },
+ {
+  "hyp": "H1",
+  "paper_id": "P3",
+  "finding_id": "P3.F1",
+  "key": "pmid36825945",
+  "quote_start": "Our results show that endolysosomal pH is not changed in any of the AP",
+  "verdict": "OK",
+  "reason": "Quote verbatim, own result; Fig 3C read: mean FITC/TxRed ratio APOE3 ~1.02, APOE4 ~1.05 (ratio ~1.03x, so ~1.0x is fair), three points per genotype matching 'Three plates' (n=3); no significance mark on 3C and no P in text, so N/A is right.",
+  "evidence": "Results: 'Our results show that endolysosomal pH is not changed in any of the APOE isoform-expressing cortical neurons (Fig. 3C,D).' Methods: 'Three plates with two wells per plate were imaged for each APOE genotype.' figimg/3.png panel C: axis 0-1.5, APOE3 mean ~1.02, APOE4 ~1.05, 3 dots each, no stars."
+ }
+]

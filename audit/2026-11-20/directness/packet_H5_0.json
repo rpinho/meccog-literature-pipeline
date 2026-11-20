@@ -1,0 +1,500 @@
+{
+ "hyp": "H5",
+ "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+ "A": "APOE genotype or apoE isoform (APOE4 vs APOE3), acting through disrupted lipid metabolism (cholesterol, lipid droplets, sphingolipids)",
+ "B": "late endosome / lysosome function (degradation, acidification, cholesterol egress, autophagic flux, lysosomal enzyme activity)",
+ "scope": "IN: late endosome/lysosome function (cholesterol or lipid accumulation in lysosomes, NPC1, lysosomal degradation, cathepsin activity, lysosomal pH, autophagic flux, LAMP1 compartments) measured in APOE4 vs APOE3 cells, especially where linked to lipid/cholesterol metabolism; manipulations of lipid metabolism that change late-endosome/lysosome function in APOE4 cells. OUT: lipid changes with no late-endosome/lysosome readout, mitochondrial respiration alone, inflammation or transcriptomics alone.",
+ "papers": [
+  {
+   "paper_id": "P15",
+   "doi": "10.1016/j.jbc.2025.110479",
+   "rows": [
+    {
+     "Paper/Finding ID": "P15.F1",
+     "Finding description": "After cholesterol supplementation from 15 to 18 DIV, somatic DQ-BSA degradation was numerically lower in ApoE4 than ApoE3 neurons (0.54 vs 1.04 of untreated ApoE3) but not significantly different (one-way ANOVA across KO/E3/E4, p = 0.18; no pairwise ApoE4-vs-ApoE3 test reported); n counts embryos.",
+     "Finding quote": "Similar to at 25 DIV, cholesterol supplementation also occasionally reduced the degradation of DQ-BSA, most often in ApoE4 neurons, although this was a nonsignificant difference (Fig. S4G).",
+     "Finding summary": "(APOE3 -> APOE4 under cholesterol loading at 18 DIV) -> (no change in somatic DQ-BSA degradation)",
+     "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures expressing human ApoE isoforms; 12.5 μg/ml cholesterol–BSA from 15 DIV for three days; somatic eight-hour DQ-BSA integrated fluorescence normalized to untreated ApoE3.",
+     "Data location": "Supplementary Fig 4G; repeated values in supplementary mean ± SD table S4, page 8",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P15.F2",
+     "Finding description": "Across all cholesterol-supplemented cultures, accumulated Filipin puncta within LAMP1+ vesicles were numerically higher in ApoE4 than ApoE3 neurons (9.7 vs 4.7 per cell body) but not significantly different (one-way ANOVA across KO/E3/E4, p = 0.207; no pairwise ApoE4-vs-ApoE3 test reported); n counts embryo-derived cultures.",
+     "Finding quote": "I-J, quantification of number of accumulated Filipin puncta within LAMP1+ vesicles in 25 DIV neuronal cell bodies after cholesterol supplementation. Fig. J compares the differences between the group when there is an accumulation outcome (an average of four accumulated filipin puncta and higher per N). 6 to 10 fields of view per N, N (embryo) = 7 to 8, one-way ANOVA (I) p = 0.207, one-way ANOVA (J) p = 0.0005, post hoc Tukey’s E3 versus E4 p = 0.0006 (80.8% mean difference), KO versus E4 p = 0.0022 (59.3% mean difference).",
+     "Finding summary": "(APOE3 -> APOE4 under cholesterol loading) -> (no change in LAMP1-associated cholesterol accumulation across all cultures)",
+     "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures expressing human ApoE3 or ApoE4; 12.5 μg/ml cholesterol–BSA for three days; approximately 25 DIV neuronal somata; accumulated Filipin puncta within LAMP1 masks.",
+     "Data location": "Fig 6I",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P15.F3",
+     "Finding description": "After three-day cholesterol supplementation at 25 DIV, somatic DQ-BSA degradation was 0.59 (ApoE4) vs 0.70 (ApoE3) of untreated ApoE3, not significantly different (Kruskal-Wallis across KO/E3/E4, p = 0.272; no pairwise ApoE4-vs-ApoE3 test reported); n counts embryos.",
+     "Finding quote": "Even though cholesterol seemed to have an impact on endosomes, including a lower number of early endosomes (Fig. 6K), larger LAMP1+ vesicles (Fig. 6L) without altering the number (Fig. S4E), and reduced degradation of DQ-BSA after 8 h (Fig. 6M), we detected similar changes between ApoE KO, ApoE3, and ApoE4.",
+     "Finding summary": "(APOE3 -> APOE4 under cholesterol loading) -> (no change in somatic DQ-BSA degradation)",
+     "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures expressing human ApoE isoforms; 12.5 μg/ml cholesterol–BSA for three days ending around 25 DIV; eight-hour DQ-BSA integrated fluorescence normalized to untreated ApoE3.",
+     "Data location": "Fig 6M",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P15.F4",
+     "Finding description": "Following cholesterol supplementation in the ApoE cultures, including ApoE4, accumulated Filipin-positive droplets overlapped with LAMP1 compartments, linking lipid loading to endolysosomal storage rather than directly measuring cholesterol egress.",
+     "Finding quote": "Without cholesterol supplementation, Filipin dye is only seen in cell membranes. However, when supplying the cultures with cholesterol for 3 days, we could detect droplets of accumulated cholesterol that, to a large extent, overlapped with LAMP1 labeling (Figs. 6, E, F and S4B).",
+     "Finding summary": "(cholesterol supplementation) -> (cholesterol accumulation in LAMP1-positive compartments)",
+     "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures with human ApoE targeted replacement; 12.5 μg/ml cholesterol–BSA for three days ending at approximately 25–26 DIV; Filipin and LAMP1 imaging.",
+     "Data location": "Fig 6F",
+     "Directness class": 5,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P15.F5",
+     "Finding description": "Among cultures averaging at least four accumulated Filipin puncta per neuronal soma, ApoE4 had more LAMP1-associated cholesterol puncta than ApoE3 (15.0 vs 6.4; the paper's 80.8% is its 'mean difference', defined as difference over the two-group average). The joint legend gives 7–8 embryos and leaves the retained genotype-specific sample sizes unspecified.",
+     "Finding quote": "Thus, when only comparing cultures with detected cholesterol accumulation (cultures with an average of ≥4 Filipin accumulated droplets per neuronal cell body), there was a significant difference between ApoE4 compared to ApoE KO and ApoE3 (Fig. 6J).",
+     "Finding summary": "(APOE3 -> APOE4 under cholesterol loading, accumulating cultures selected) -> (greater LAMP1-associated cholesterol accumulation)",
+     "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures expressing human ApoE isoforms; three-day 12.5 μg/ml cholesterol–BSA treatment ending around 25 DIV; analysis conditioned on mean ≥4 accumulated puncta per soma.",
+     "Data location": "Fig 6J",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P15.F6",
+     "Finding description": "Cholesterol supplementation was described as reducing DQ-BSA degradation in cultures including ApoE4, but an ApoE4-specific treated-versus-vehicle effect size and significance test were not reported.",
+     "Finding quote": "Even though cholesterol seemed to have an impact on endosomes, including a lower number of early endosomes (Fig. 6K), larger LAMP1+ vesicles (Fig. 6L) without altering the number (Fig. S4E), and reduced degradation of DQ-BSA after 8 h (Fig. 6M), we detected similar changes between ApoE KO, ApoE3, and ApoE4.",
+     "Finding summary": "(cholesterol supplementation in APOE4 cultures) -> (lower DQ-BSA degradation)",
+     "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures expressing human ApoE4; three-day cholesterol–BSA 12.5 μg/ml treatment ending around 25 DIV; eight-hour DQ-BSA assay; plotted normalization uses untreated ApoE3.",
+     "Data location": "Fig 6M, cholesterol-treatment interpretation in Results",
+     "Directness class": 5,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P15.F7",
+     "Finding description": "At 18 DIV, eight-hour DQ-BSA integrated density in neuronal somata was 0.351 (ApoE4) vs 0.333 (ApoE3), not significantly different (one-way ANOVA across KO/E3/E4, p = 0.582; no pairwise ApoE4-vs-ApoE3 test reported); n counts embryos.",
+     "Finding quote": "When we compared our ApoE groups at 18 DIV there were no differences in the total intensities of DQ BSA in dendrites or cell bodies between ApoE KO, ApoE3, and ApoE4 neurons after 8 h (Fig. 2, G and H).",
+     "Finding summary": "(APOE3 -> APOE4) -> (no change in somatic DQ-BSA degradation)",
+     "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures expressing human ApoE3 or ApoE4; neuronal somata at 18 DIV; 25 μg/ml DQ-BSA for eight hours; background-corrected integrated fluorescence.",
+     "Data location": "Fig 2G",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P15.F8",
+     "Finding description": "At 25–26 DIV, ApoE4 neuronal somata had significantly lower eight-hour DQ-BSA degradation signal than ApoE3 somata; n counts embryos.",
+     "Finding quote": "Although we did not detect significant differences in LAMP1+ vesicle number and size (Fig. 4, A–E) or trafficking of EGF to the cell body (Fig. S3W) between the ApoE isoforms at 25 to 26 DIV, remarkably the degradation of DQ BSA after 8 h was reduced with ApoE4, consistent with a significant reduction in DQ BSA integrated intensity in the cell bodies compared to ApoE3 (Fig. 4, F and G, 21.9%, p = 0.0495).",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower somatic lysosomal cargo degradation)",
+     "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures with human APOE targeted replacement; neurons at 25–26 DIV, designated aged; 25 μg/ml DQ-BSA for eight hours; somatic integrated fluorescence.",
+     "Data location": "Fig 4G",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P15.F9",
+     "Finding description": "At 25 DIV, ApoE4 astrocytes accumulated significantly more autofluorescent granule area, used as a lysosomal lipofuscin surrogate, than ApoE3 astrocytes; n counts embryos.",
+     "Finding quote": "When comparing the ApoE groups at 25 DIV, we could detect a trend toward higher levels of lipofuscin in ApoE4 compared to ApoE KO and ApoE3 neurons (Fig. 5L) and significantly higher levels of lipofuscin accumulation in ApoE4 compared to ApoE KO and ApoE3 astrocytes (Fig. 5M).",
+     "Finding summary": "(APOE3 -> APOE4) -> (greater astrocytic lipofuscin-surrogate accumulation)",
+     "Experimental system": "GFAP-identified astrocytes in primary embryonic mouse hippocampal/cortical mixed cultures expressing targeted-replacement human ApoE3 or ApoE4; 25 DIV; green-channel autofluorescent-granule area.",
+     "Data location": "Fig 5M",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P15.F10",
+     "Finding description": "After 48-hour bicuculline, somatic DQ-BSA degradation relative to genotype-matched untreated controls was 1.13 (ApoE4) vs 1.26 (ApoE3), not significantly different (one-way ANOVA across KO/E3/E4, p = 0.366; no pairwise ApoE4-vs-ApoE3 test reported); n counts embryos.",
+     "Finding quote": "However, we did not detect an ApoE-dependent alteration in either endosomal morphology (Fig. S2, E–I), EGF trafficking (Fig. S2J), or DQ-BSA degradation (Fig. S2, K and L) after prolonged neuronal activity.",
+     "Finding summary": "(APOE3 -> APOE4 during increased excitability) -> (no change in the somatic DQ-BSA degradation response)",
+     "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures with human APOE targeted replacement; 20 μM bicuculline for 48 hours from 18 DIV; eight-hour DQ-BSA fluorescence normalized to genotype-matched untreated controls.",
+     "Data location": "Supplementary Fig 2K; repeated values in supplementary mean ± SD table S2, page 6",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P15.F11",
+     "Finding description": "Representative DQ-BSA images accompany the reported reduction in degradative capacity of ApoE4 versus ApoE3 neuronal somata after prolonged culture.",
+     "Finding quote": "Despite no apparent difference in the number and size of LAMP1+ late endosomes/lysosomes, our findings are consistent with the scenario that aged ApoE4 neurons (25–26 DIV) show lower degradative capacity that could reflect a lower number of active degradative compartments.",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower somatic DQ-BSA degradation)",
+     "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures expressing human ApoE3 or ApoE4; neurons at 25 DIV; 25 μg/ml DQ-BSA for eight hours; fluorescence imaging.",
+     "Data location": "Fig 4F; quantified in Fig 4G–H",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P15.F12",
+     "Finding description": "At 25 DIV, ApoE4 neuronal somata contained significantly fewer DQ-BSA-positive compartments than ApoE3 somata; n counts embryos.",
+     "Finding quote": "We further noticed that the number of vesicles containing DQ BSA in the cell bodies was significantly lower both in ApoE4 (20%, p = 0.0195) and ApoE KO (17.8%, p = 0.0048) compared to ApoE3 neurons (Fig. 4H).",
+     "Finding summary": "(APOE3 -> APOE4) -> (fewer somatic degradation-active compartments)",
+     "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures expressing human ApoE isoforms; 25 DIV neuronal somata; eight-hour 25 μg/ml DQ-BSA exposure; fluorescent-punctum counting.",
+     "Data location": "Fig 4H",
+     "Directness class": 3,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P15.F13",
+     "Finding description": "At 25–26 DIV, ApoE4 neuronal somata had significantly lower total LysoTracker spot intensity than ApoE3 somata, consistent with reduced acidic-compartment labeling; n counts embryos.",
+     "Finding quote": "Remarkedly, similar to the DQ BSA results, we detected a 19.8% lower number of LysoTracker positive vesicles (p = 0.011) and a 35.6% lower total LysoTracker intensity per neuronal cell body (p = 0.0059) in ApoE4 compared to ApoE3 neurons (Fig. 4, I–K), supporting the scenario that ApoE4 neurons, after longer time in culture, have lower number of active degradative compartments.",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower somatic LysoTracker total intensity)",
+     "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures expressing human ApoE3 or ApoE4; neuron-specific GFP labeling; 25–26 DIV; live LysoTracker imaging and Operetta spot-intensity analysis.",
+     "Data location": "Fig 4J",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P15.F14",
+     "Finding description": "At 25–26 DIV, ApoE4 neuronal somata had significantly fewer LysoTracker-positive compartments than ApoE3 somata; n counts embryos.",
+     "Finding quote": "Remarkedly, similar to the DQ BSA results, we detected a 19.8% lower number of LysoTracker positive vesicles (p = 0.011) and a 35.6% lower total LysoTracker intensity per neuronal cell body (p = 0.0059) in ApoE4 compared to ApoE3 neurons (Fig. 4, I–K), supporting the scenario that ApoE4 neurons, after longer time in culture, have lower number of active degradative compartments.",
+     "Finding summary": "(APOE3 -> APOE4) -> (fewer somatic acidic compartments)",
+     "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures with human APOE targeted replacement; GFP-identified neurons at 25–26 DIV; live LysoTracker imaging and spot counting.",
+     "Data location": "Fig 4K",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P15.F15",
+     "Finding description": "At 25 DIV, mean DQ-BSA fluorescence per somatic punctum was 0.32 (ApoE4) vs 0.35 (ApoE3), not significantly different (one-way ANOVA across KO/E3/E4, p = 0.309; no pairwise ApoE4-vs-ApoE3 test reported); n counts embryos.",
+     "Finding quote": "There was, however, no difference in mean puncta DQ BSA intensity in the neuronal cell bodies (Fig. S3U) nor a difference in DQ BSA intensity in dendrites (Fig. S3V) between the ApoE groups.",
+     "Finding summary": "(APOE3 -> APOE4) -> (no change in somatic DQ-BSA mean punctum intensity)",
+     "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures expressing human ApoE3 or ApoE4; 25 DIV neuronal somata; eight-hour 25 μg/ml DQ-BSA treatment; background-corrected mean punctum intensity.",
+     "Data location": "Supplementary Fig 3U; repeated values in supplementary mean ± SD table S3, page 7",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P15.F16",
+     "Finding description": "After cholesterol supplementation, the accumulated-Filipin–LAMP1 Mander’s coefficient was 0.43 ± 0.16 in ApoE4 versus 0.40 ± 0.10 in ApoE3 cultures, with no significance test reported.",
+     "Finding quote": "S4B KO = 0.46 ± 0.1, E3 = 0.40 ± 0.10, E4 = 0.43 ± 0.16",
+     "Finding summary": "(APOE3 -> APOE4 under cholesterol loading) -> (slightly higher numerical Filipin–LAMP1 colocalization)",
+     "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures expressing human ApoE3 or ApoE4; cholesterol–BSA 12.5 μg/ml for three days ending around 25 DIV; accumulated Filipin and LAMP1 colocalization.",
+     "Data location": "Supplementary Fig 4B; supplementary mean ± SD table S4, page 8, row S4B",
+     "Directness class": 3,
+     "Directness strength": "4 weak"
+    },
+    {
+     "Paper/Finding ID": "P15.F17",
+     "Finding description": "At 18 DIV, somatic LAMP1-positive compartment number was 41 (ApoE4) vs 40 (ApoE3), not significantly different (one-way ANOVA across KO/E3/E4, p = 0.98; no pairwise ApoE4-vs-ApoE3 test reported); n counts independent embryo-derived cultures.",
+     "Finding quote": "However, we did detect a significantly higher number of LAMP1+ vesicles in ApoE4 compared to ApoE3 neuronal dendrites, although there were no detectable differences in LAMP1 average vesicle size nor differences in number of LAMP1+ vesicles in the neuronal cell bodies between the ApoE groups (Fig. 1, G–K).",
+     "Finding summary": "(APOE3 -> APOE4) -> (no change in somatic LAMP1-positive compartment number)",
+     "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures with human APOE3 or APOE4 targeted replacement; neuronal somata at 18 DIV; LAMP1 particle counting.",
+     "Data location": "Fig 1H",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P15.F18",
+     "Finding description": "At 18 DIV, ApoE4 neurons had significantly more LAMP1-positive compartments per 100 μm of dendrite than ApoE3 neurons, without establishing functional impairment; n counts embryos.",
+     "Finding quote": "However, we did detect a significantly higher number of LAMP1+ vesicles in ApoE4 compared to ApoE3 neuronal dendrites, although there were no detectable differences in LAMP1 average vesicle size nor differences in number of LAMP1+ vesicles in the neuronal cell bodies between the ApoE groups (Fig. 1, G–K).",
+     "Finding summary": "(APOE3 -> APOE4) -> (more dendritic LAMP1-positive compartments)",
+     "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures expressing human ApoE isoforms; MAP2-positive primary dendrites at 18 DIV; LAMP1 immunofluorescence particle counting.",
+     "Data location": "Fig 1I",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P15.F19",
+     "Finding description": "At 25 DIV, neuronal autofluorescent-granule area (lipofuscin surrogate) was 0.453 (ApoE4) vs 0.304 (ApoE3), a trend that was not significant (one-way ANOVA across KO/E3/E4, p = 0.0684; no pairwise ApoE4-vs-ApoE3 test reported); n counts embryos.",
+     "Finding quote": "When comparing the ApoE groups at 25 DIV, we could detect a trend toward higher levels of lipofuscin in ApoE4 compared to ApoE KO and ApoE3 neurons (Fig. 5L) and significantly higher levels of lipofuscin accumulation in ApoE4 compared to ApoE KO and ApoE3 astrocytes (Fig. 5M).",
+     "Finding summary": "(APOE3 -> APOE4) -> (no change in neuronal lipofuscin-surrogate accumulation)",
+     "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures expressing human ApoE isoforms; MAP2-identified neurons at 25 DIV; unstained green-channel autofluorescent-granule area.",
+     "Data location": "Fig 5L",
+     "Directness class": 3,
+     "Directness strength": "4 weak"
+    },
+    {
+     "Paper/Finding ID": "P15.F20",
+     "Finding description": "Cholesterol supplementation was described as producing larger LAMP1-positive compartments in cultures including ApoE4, but an ApoE4-specific treated-versus-vehicle significance test was not reported.",
+     "Finding quote": "Even though cholesterol seemed to have an impact on endosomes, including a lower number of early endosomes (Fig. 6K), larger LAMP1+ vesicles (Fig. 6L) without altering the number (Fig. S4E), and reduced degradation of DQ-BSA after 8 h (Fig. 6M), we detected similar changes between ApoE KO, ApoE3, and ApoE4.",
+     "Finding summary": "(cholesterol supplementation in APOE4 cultures) -> (larger LAMP1-positive compartments)",
+     "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures expressing human ApoE4; 12.5 μg/ml cholesterol–BSA for three days ending around 25 DIV; LAMP1 size reported relative to untreated ApoE3.",
+     "Data location": "Fig 6L, cholesterol-treatment interpretation in Results",
+     "Directness class": 5,
+     "Directness strength": "4 weak"
+    },
+    {
+     "Paper/Finding ID": "P15.F21",
+     "Finding description": "After three-day cholesterol supplementation, somatic CD63-positive compartment number was 1.34 (ApoE4) vs 1.18 (ApoE3) of untreated ApoE3, not significantly different (one-way ANOVA across KO/E3/E4, p = 0.173; no pairwise ApoE4-vs-ApoE3 test reported); n counts embryos.",
+     "Finding quote": "C-D. Quantification of number of CD63 vesicles in cell bodies (C) and dendrites (D) of 25 DIV neurons after cholesterol supplementation. Each value has been normalized to untreated E3 ctrl for each independent N. 6-10 fields of view per N, N (embryo) = 6-7, one- way ANOVA (C) p = 0.173, one-way ANOVA (D) p = 0.867.",
+     "Finding summary": "(APOE3 -> APOE4 under cholesterol loading) -> (no change in somatic CD63-positive compartment number)",
+     "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures with human APOE targeted replacement; approximately 25 DIV neuronal somata following three-day 12.5 μg/ml cholesterol treatment; CD63 counts normalized to untreated ApoE3.",
+     "Data location": "Supplementary Fig 4C; repeated values in supplementary mean ± SD table S4, page 8",
+     "Directness class": 3,
+     "Directness strength": "4 weak"
+    },
+    {
+     "Paper/Finding ID": "P15.F22",
+     "Finding description": "At 25–26 DIV, somatic LAMP1-positive compartment number was 37 in both ApoE4 and ApoE3 neurons, not significantly different (one-way ANOVA across KO/E3/E4, p = 0.288; no pairwise ApoE4-vs-ApoE3 test reported); n counts embryos.",
+     "Finding quote": "Despite no apparent difference in the number and size of LAMP1+ late endosomes/lysosomes, our findings are consistent with the scenario that aged ApoE4 neurons (25–26 DIV) show lower degradative capacity that could reflect a lower number of active degradative compartments.",
+     "Finding summary": "(APOE3 -> APOE4) -> (no change in somatic LAMP1-positive compartment number)",
+     "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures expressing human ApoE3 or ApoE4; neuronal somata at 25–26 DIV; LAMP1 particle counting.",
+     "Data location": "Fig 4B",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P15.F23",
+     "Finding description": "At 25–26 DIV, somatic cathepsin D-positive compartment number was 260.6 (ApoE4) vs 178.5 (ApoE3), a nonsignificant trend (one-way ANOVA across KO/E3/E4, p = 0.09; no pairwise ApoE4-vs-ApoE3 test reported); n counts embryos.",
+     "Finding quote": "Although non-significant, we could detect a trend toward higher levels of CD63 (Figs. 4L, N and S3X) and Cathepsin D (Figs. 4M, O and S3Y) in the cell body and dendrites of ApoE4 and ApoE KO neurons compared to ApoE3, which might reflect reduced degradation in ApoE4 neurons.",
+     "Finding summary": "(APOE3 -> APOE4) -> (no change in somatic cathepsin D-positive compartment number)",
+     "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures with human APOE targeted replacement; neuronal somata at 25–26 DIV; immunostaining detects inactive and active cathepsin D, not activity.",
+     "Data location": "Fig 4O",
+     "Directness class": 3,
+     "Directness strength": "4 weak"
+    },
+    {
+     "Paper/Finding ID": "P15.F24",
+     "Finding description": "At 18 DIV, whole-culture LAMP1 protein (normalized to β-actin) was 0.81 (ApoE4) vs 1.09 (ApoE3), not significantly different (Kruskal-Wallis across KO/E3/E4, p = 0.196; no pairwise ApoE4-vs-ApoE3 test reported); n counts embryos.",
+     "Finding quote": "However, we could not detect any significant differences in protein levels of endosomal markers between the different ApoE neuron cultures.",
+     "Finding summary": "(APOE3 -> APOE4) -> (no change in LAMP1 protein abundance)",
+     "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures expressing targeted-replacement human ApoE isoforms; 18 DIV whole-culture lysates; LAMP1 Western blot normalized to β-actin.",
+     "Data location": "Supplementary Fig 1S; repeated values in supplementary mean ± SD table S1, page 5",
+     "Directness class": 3,
+     "Directness strength": "4 weak"
+    }
+   ]
+  },
+  {
+   "paper_id": "P3",
+   "doi": "10.1016/j.stem.2026.08.001",
+   "rows": [
+    {
+     "Paper/Finding ID": "P3.F1",
+     "Finding description": "Donor 1 APOE4/4 astrocytes had lower lysosomal DQ-BSA proteolysis than isogenic APOE3/3 astrocytes; the legend reports three to four biological replicates without assigning donor-specific counts.",
+     "Finding quote": "APOE4/4 astrocytes showed significantly reduced lysosomal DQ-BSA signal compared to isogenic control APOE3/3 astrocytes across two isogenic donor pairs (Donor #1: p= 0.0032; Donor #2: p < 0.0001, Figure 4d), indicating decreased lysosomal proteolytic activity.",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower lysosomal proteolytic activity in Donor 1 astrocytes)",
+     "Experimental system": "Human Donor 1 AG09173 iPSC-derived astrocytes, CRISPR-isogenic APOE3/3 and APOE4/4; DQ-BSA cleavage assessed after 24 hours by flow cytometry in DAPI-negative cells.",
+     "Data location": "Fig 4D, Donor 1",
+     "Directness class": 1,
+     "Directness strength": "1 very strong"
+    },
+    {
+     "Paper/Finding ID": "P3.F2",
+     "Finding description": "APOE4/4 astrocytes retained significantly lower DQ-BSA proteolytic activity than APOE3/3 astrocytes after normalization to co-internalized, proteolysis-resistant dextran.",
+     "Finding quote": "To distinguish between reduced lysosomal number and reduced lysosomal function per organelle, we normalized DQ-BSA fluorescence to co-internalized dextran, which accumulates in the lysosomes but is resistant to proteolysis76. Even after dextran normalization, APOE4/4 astrocytes retained significantly lower proteolytic activity (p = 0.0098; Figure S4e), indicating functional impairment rather than solely reduced lysosome abundance.",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower dextran-normalized lysosomal proteolytic activity in astrocytes)",
+     "Experimental system": "Human Donor 1 AG09173 iPSC-derived astrocytes, isogenic APOE3/3 and APOE4/4; DQ-BSA cleavage normalized to co-internalized proteolysis-resistant dextran; supplementary assay timing and sample size unavailable.",
+     "Data location": "Supplementary Fig 4E, genotype comparison",
+     "Directness class": 1,
+     "Directness strength": "1 very strong"
+    },
+    {
+     "Paper/Finding ID": "P3.F3",
+     "Finding description": "In APOE4/4 astrocytes, 2-hydroxypropyl-β-cyclodextrin significantly increased lysosomal DQ-BSA proteolysis compared with vehicle, with four biological replicates.",
+     "Finding quote": "Treatment with 2-hydroxypropyl-β-cyclodextrin (2HβCD) and methyl-β-cyclodextrin (MβCD) significantly increased lysosomal proteolysis (2HβCD: p = 0.0002; MβCD: p = 0.019) (Figure 5b), whereas the other interventions had neutral or negative effects on APOE4/4 lysosomal proteolytic activity (Figure 5b).",
+     "Finding summary": "(2HβCD-mediated cholesterol reduction in APOE4 astrocytes) -> (higher lysosomal proteolytic activity)",
+     "Experimental system": "Human Donor 1 AG09173 iPSC-derived APOE4/4 astrocytes; 100 μM 2-hydroxypropyl-β-cyclodextrin versus vehicle; drug protocol includes four days of pretreatment followed by reseeding and maturation under treatment; DQ-BSA Red integrated fluorescence over 24 hours and area under the curve.",
+     "Data location": "Fig 5B, 2HβCD versus vehicle",
+     "Directness class": 2,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P3.F4",
+     "Finding description": "Methyl-β-cyclodextrin significantly increased lysosomal proteolytic activity in APOE4/4 astrocytes from the second donor.",
+     "Finding quote": "Increased lysosomal proteolytic activity with MβCD was replicated in astrocytes from a second donor (p = 0.0045; Figure S5c).",
+     "Finding summary": "(MβCD-mediated cholesterol reduction in APOE4 astrocytes) -> (higher lysosomal proteolytic activity in Donor 2)",
+     "Experimental system": "Human Donor 2 KOLF2.1J iPSC-derived APOE4/4 astrocytes, Clone A JIPSC001150; methyl-β-cyclodextrin treatment, specified as 100 μM in methods; replication of the DQ-BSA lysosomal proteolysis rescue; supplementary timing and sample-size details unavailable.",
+     "Data location": "Supplementary Fig 5C",
+     "Directness class": 2,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P3.F5",
+     "Finding description": "After extracellular α-Syn removal, APOE4/4 astrocytes showed no significant decrease in intracellular α-Syn fluorescence over 24 hours, whereas APOE3/3 astrocytes cleared it, with four biological replicates.",
+     "Finding quote": "To assess degradation, extracellular α-Syn was removed after 24 hours, and intracellular α-Syn-HiLyte signal was tracked for an additional 24 hours. APOE3/3 astrocytes showed a significant reduction in intracellular α-Syn-HiLyte signal (p < 0.0001), whereas APOE4/4 astrocytes showed no significant decrease (p = 0.694; Figure 4c), indicating impaired degradation of α-Syn.",
+     "Finding summary": "(APOE3 -> APOE4) -> (impaired intracellular clearance of exogenous α-Syn in astrocytes)",
+     "Experimental system": "Human AG09173 iPSC-derived astrocytes, CRISPR-isogenic APOE3/3 and APOE4/4; 2 μg/mL α-Syn-HiLyte exposure for 24 hours followed by washout and another 24 hours; intracellular fluorescence measured by confocal imaging as the degradation/clearance readout.",
+     "Data location": "Fig 4C",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P3.F6",
+     "Finding description": "APOE4/4 astrocytes showed significantly less colocalization of internalized α-Syn with LysoTracker-positive lysosomes than APOE3/3 astrocytes after four hours.",
+     "Finding quote": "To validate that the α-Syn was being endocytosed into the endolysosomal pathway, we incubated astrocytes with α-Syn-HiLyte for 4 hours and co-stained with LysoTracker. In agreement with our other findings that APOE4/4 astrocytes have impaired α-Syn uptake, the percentage of α-Syn-HiLyte that co-localized with LysoTracker decreased in APOE4/4 astrocytes compared to APOE3/3 (p = 0.0395; Figure S5f).",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower lysosomal localization of exogenous α-Syn in astrocytes)",
+     "Experimental system": "Human Donor 1 AG09173 iPSC-derived astrocytes, isogenic APOE3/3 and APOE4/4; four-hour α-Syn-HiLyte incubation followed by LysoTracker costaining; percentage of α-Syn signal colocalizing with acidic lysosomal compartments.",
+     "Data location": "Supplementary Fig 5F, vehicle-treated APOE4/4 versus APOE3/3",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P3.F7",
+     "Finding description": "Methyl-β-cyclodextrin significantly increased α-Syn colocalization with LysoTracker-positive lysosomes in APOE4/4 astrocytes compared with vehicle.",
+     "Finding quote": "However, APOE4/4 astrocytes treated with MβCD showed increased colocalization of α-Syn-HiLyte with LysoTracker compared to vehicle-treated APOE4/4 astrocytes (p = 0.0343).",
+     "Finding summary": "(MβCD-mediated cholesterol reduction in APOE4 astrocytes) -> (higher lysosomal localization of exogenous α-Syn)",
+     "Experimental system": "Human Donor 1 AG09173 iPSC-derived APOE4/4 astrocytes; methyl-β-cyclodextrin versus vehicle, with 100 μM specified in the drug-treatment methods; four-hour α-Syn-HiLyte incubation and LysoTracker colocalization assay.",
+     "Data location": "Supplementary Fig 5F, MβCD versus vehicle in APOE4/4 astrocytes",
+     "Directness class": 4,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P3.F8",
+     "Finding description": "Methyl-β-cyclodextrin-treated APOE4/4 astrocytes showed no significant difference in α-Syn lysosomal localization from vehicle-treated APOE3/3 astrocytes, a null genotype contrast after rescue.",
+     "Finding quote": "Strikingly APOE4/4 astrocytes treated with MβCD showed similar α-Syn lysosomal localization as vehicle-treated APOE3/3 astrocytes (p = 0.946; Figure S5f).",
+     "Finding summary": "MβCD-treated APOE4/4 and vehicle-treated APOE3/3 astrocytes showed no statistically significant difference in α-Syn lysosomal localization.",
+     "Experimental system": "Human Donor 1 AG09173 iPSC-derived astrocytes, isogenic APOE3/3 and APOE4/4; vehicle-treated APOE3/3 compared with methyl-β-cyclodextrin-treated APOE4/4, with 100 μM specified in methods; four-hour α-Syn-HiLyte and LysoTracker colocalization assay.",
+     "Data location": "Supplementary Fig 5F, MβCD-treated APOE4/4 versus vehicle-treated APOE3/3",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P3.F9",
+     "Finding description": "Donor 1 APOE4/4 astrocytes had significantly lower LAMP1 immunoreactivity than isogenic APOE3/3 astrocytes, indicating reduced lysosomal compartment signal.",
+     "Finding quote": "Consistent with this, immunoreactivity for the lysosomal membrane protein LAMP1 was also significantly reduced in APOE4/4 astrocytes compared to isogenic APOE3/3 astrocytes (Donor #1: p = 0.0002 and Donor #2: p = 0.0001, Figure S4d).",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower LAMP1-positive lysosomal compartment signal in Donor 1 astrocytes)",
+     "Experimental system": "Human Donor 1 AG09173 iPSC-derived astrocytes, CRISPR-isogenic APOE3/3 and APOE4/4; LAMP1 immunostaining; assay-specific timing and supplementary quantification details unavailable.",
+     "Data location": "Supplementary Fig 4D, Donor 1",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P3.F10",
+     "Finding description": "Methyl-β-cyclodextrin significantly increased LysoTracker-positive lysosomal signal in APOE4/4 astrocytes; the legend reports five to six biological replicates.",
+     "Finding quote": "Consistent with improved lysosomal capacity, MβCD increased LysoTracker-positive lysosomal signal in APOE4/4 astrocytes (p = 0.044; Figure 5d), with similar effects observed across donors (2HβCD: p < 0.0001; MβCD: p < 0.0001, Figure S5d).",
+     "Finding summary": "(MβCD-mediated cholesterol reduction in APOE4 astrocytes) -> (higher LysoTracker-positive lysosomal signal)",
+     "Experimental system": "Human Donor 1 AG09173 iPSC-derived APOE4/4 astrocytes; 100 μM methyl-β-cyclodextrin versus vehicle following the astrocyte drug-treatment protocol; LysoTracker fluorescence normalized to Hoechst area; dye signal is a surrogate influenced by lysosomal abundance and acidity.",
+     "Data location": "Fig 5D, MβCD versus vehicle in APOE4/4 astrocytes",
+     "Directness class": 4,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  },
+  {
+   "paper_id": "P2",
+   "doi": "10.1016/j.stemcr.2021.11.007",
+   "rows": [
+    {
+     "Paper/Finding ID": "P2.F1",
+     "Finding description": "Across three experiments with 7–10 images per line per experiment, APOE4 iAstrocytes showed greater cholesterol colocalization with dextran-labeled lysosomes than APOE3, with E4–E3 statistical significance unspecified.",
+     "Finding quote": "Further colocalization of Filipin III with Dextran-Alexa 555 was highest in APOE4 iAstrocytes, indicating higher cholesterol levels in lysosomes of APOE4 iAstrocytes (E4 > E2) (Figure 3G).",
+     "Finding summary": "(APOE3 -> APOE4) -> (greater cholesterol localization in iAstrocyte lysosomes)",
+     "Experimental system": "Human isogenic, monoallelic APOE3 (BIONi010-C-2) and APOE4 (BIONi010-C-4) iPSC-derived astrocytes after 44-day differentiation, at baseline. Cells received 0.2 mg/mL Dextran-Alexa 555 overnight followed by a 14-hour chase, 10 mM methyl-β-cyclodextrin for 30 minutes, fixation, and Filipin III staining for two hours. Confocal colocalization was normalized to APOE3.",
+     "Data location": "Fig 3G",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P2.F2",
+     "Finding description": "Across three independent experiments, the lysosomal activity assay showed no significant difference between APOE4 and APOE3 iAstrocytes, although both had lower activity than APOE2 and APOE-KO cells.",
+     "Finding quote": "Lysosomal activity in APOE3 and APOE4 was significantly lower than in APOE2 and APOE-KO cells (KO = E2 > E3 = E4) (Figure 4F).",
+     "Finding summary": "(APOE3 -> APOE4) -> (no change in lysosomal activity in iAstrocytes)",
+     "Experimental system": "Human isogenic, monoallelic APOE3 (BIONi010-C-2) and APOE4 (BIONi010-C-4) iPSC-derived astrocytes after 44-day differentiation, at baseline; lysosomal activity assay normalized to APOE3. The assay reagent, substrate, and assay duration are not specified in the supplied text.",
+     "Data location": "Fig 4F",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P2.F3",
+     "Finding description": "Across three independent experiments, LAMP2 immunofluorescence showed no significant difference in lysosome-covered cell area between APOE4 and APOE3 iAstrocytes.",
+     "Finding quote": "Immunofluorescent detection of lysosomes by LAMP2 (Figure 4C) or Dextran-Alexa 555 (Figure S3) showed no difference between genotypes.",
+     "Finding summary": "(APOE3 -> APOE4) -> (no change in LAMP2-positive lysosomal area in iAstrocytes)",
+     "Experimental system": "Human isogenic, monoallelic APOE3 (BIONi010-C-2) and APOE4 (BIONi010-C-4) iPSC-derived astrocytes after 44-day differentiation, at baseline; LAMP2 immunocytochemistry with GFAP costaining, quantified as percentage of cell area. Compartment area provides a structural surrogate for lysosomal status.",
+     "Data location": "Fig 4C",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P2.F4",
+     "Finding description": "Western blots from three independent experiments showed significantly lower LAMP2 protein abundance in APOE4 than APOE3 iAstrocytes, providing a lysosomal-marker readout.",
+     "Finding quote": "However, protein levels of LAMP2 detected by western blot were significantly higher in APOE3 compared with APOE2, APOE4, and APOE-KO (E3 > E2 = E4 = KO) (Figures 4D and 4E).",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower LAMP2 protein abundance in iAstrocytes)",
+     "Experimental system": "Human isogenic, monoallelic APOE3 (BIONi010-C-2) and APOE4 (BIONi010-C-4) iPSC-derived astrocytes after 44-day differentiation, at baseline; lysate western blots for LAMP2 and RAB5. This record concerns LAMP2; its quantification is presented in Fig 4E.",
+     "Data location": "Fig 4E",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  },
+  {
+   "paper_id": "P16",
+   "doi": "10.64898/2026.05.22.726347",
+   "rows": [
+    {
+     "Paper/Finding ID": "P16.F1",
+     "Finding description": "Quantified LAMP1-positive lysosome staining per cell area was lower in APOE4 than APOE3 astrocytes (N=18 wells per genotype across two iPSC lines; p = 0.0311, unpaired t-test).",
+     "Finding quote": "Compared to APOE3 astrocytes, APOE4 astrocytes showed decreased levels of all three downstream endosomal compartment markers (RAB11, RAB7, LAMP1) indicating dysfunction throughout the endocytic pathway.",
+     "Finding summary": "(APOE3 -> APOE4) -> (decreased LAMP1-positive lysosome staining in human astrocytes)",
+     "Experimental system": "Human iPSC-derived astrocytes from KOLF2.1J and AG09173 isogenic homozygous APOE3/APOE4 line pairs; four-day serum withdrawal before fixation and LAMP1 immunocytochemistry; representative confocal images.",
+     "Data location": "Fig 2J-K",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P16.F2",
+     "Finding description": "Increasing INPP5D expression in APOE4 astrocytes produced no significant difference in RAB7-positive late endosome staining compared with the darkGFP expression control.",
+     "Finding quote": "Increasing either PICALM or INPP5D expression had no detectable effect on either RAB11-positive recycling endosomes (Figure 5E, 5F) or RAB7-positive late endosomes (Figure 5G, 5H).",
+     "Finding summary": "(increased INPP5D expression in APOE4 astrocytes) -> (no change in RAB7-positive late endosome staining)",
+     "Experimental system": "Human homozygous APOE4 iPSC-derived astrocytes from KOLF2.1J and AG09173; lentiviral INPP5D expression versus lentiviral darkGFP control, followed by serum withdrawal; fixed-cell RAB7 immunocytochemistry and confocal image quantification.",
+     "Data location": "Fig 5H",
+     "Directness class": 4,
+     "Directness strength": "4 weak"
+    },
+    {
+     "Paper/Finding ID": "P16.F3",
+     "Finding description": "Increasing INPP5D expression in APOE4 astrocytes reduced LAMP1-positive lysosome staining compared with darkGFP control, without establishing whether lysosomal function improved or worsened.",
+     "Finding quote": "Increased INPP5D expression did result in reduced LAMP1-positive lysosome staining compared to darkGFP (Figure 5I, 5J).",
+     "Finding summary": "(increased INPP5D expression in APOE4 astrocytes) -> (decreased LAMP1-positive lysosome staining)",
+     "Experimental system": "Human homozygous APOE4 iPSC-derived astrocytes from KOLF2.1J and AG09173; lentiviral INPP5D expression versus lentiviral darkGFP control, followed by serum withdrawal; fixed-cell LAMP1 immunocytochemistry and confocal image quantification.",
+     "Data location": "Fig 5J",
+     "Directness class": 4,
+     "Directness strength": "4 weak"
+    }
+   ]
+  },
+  {
+   "paper_id": "P6",
+   "doi": "10.1038/s41586-022-05439-w",
+   "rows": [
+    {
+     "Paper/Finding ID": "P6.F1",
+     "Finding description": "Human isogenic iPSC-derived APOE4/4 oligodendroglia showed significantly more Bodipy-cholesterol colocalization with Lysotracker-Red than APOE3/3 oligodendroglia, with four biological replicates and four images averaged per replicate.",
+     "Finding quote": "APOE4 oligodendroglia exhibited significantly (p = 0.0069) more Bodipy-cholesterol co-localized with Lysotracker-Red staining than APOE3/3, suggesting lysosomal accumulation of cholesterol in APOE4 oligodendroglia (Extended Data Fig. 7d).",
+     "Finding summary": "(APOE3 -> APOE4) -> (increased lysosomal cholesterol accumulation in human iPSC-derived oligodendroglia)",
+     "Experimental system": "Human iPSC-derived oligodendroglia from an isogenic APOE3/3–APOE4/4 experimental framework using reciprocal editing of a cognitively normal APOE3/3 donor line and an APOE4/4 AD donor line; the specific donor pair used for this panel is not identified in the supplied text. Cells were differentiated and matured in vitro; no aged-cell model was specified. Bodipy-cholesterol colocalization with Lysotracker-Red was quantified using ImageJ with identical thresholds across conditions.",
+     "Data location": "Extended Data Fig. 7d",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    }
+   ]
+  },
+  {
+   "paper_id": "P27",
+   "doi": "10.1016/j.neuron.2023.10.023",
+   "rows": [
+    {
+     "Paper/Finding ID": "P27.F1",
+     "Finding description": "Quantification in 12 mice per genotype assessed BODIPY-positive lipids within CD68-positive lysosomes, with the text reporting large microglial phagolysosomal accumulations in TE4 mice and no substantial glial lipid staining in TE3 mice.",
+     "Finding quote": "Importantly, while we did not detect substantial levels of neutral or oxidized lipids in glia of TEKO or TE3 mice by immunostaining, large accumulations of BODIPY+ neutral lipids were observed within microglial phagolysosomes of TE4 mice.",
+     "Finding summary": "(APOE3 -> APOE4, with P301S tauopathy) -> (increased phagolysosomal neutral-lipid accumulation; impaired degradation inferred)",
+     "Experimental system": "Hippocampal microglia in 9.5-month-old human APOE3- or APOE4-expressing PS19 P301S tau mice, murine Apoe-null background; C57BL/6-backcrossed P301S line; 6 male and 6 female mice per genotype; BODIPY/Iba1/CD68 staining and IMARIS compartmental colocalization analysis. No lysosomal degradation-rate, pH, or enzyme-activity assay was reported.",
+     "Data location": "Fig. 2C; TE4-versus-TE3 contrast also explicitly described in the Discussion sentence beginning 'Importantly, while we did not detect substantial levels'",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  },
+  {
+   "paper_id": "P36",
+   "doi": "10.3390/ijms25115754",
+   "rows": [
+    {
+     "Paper/Finding ID": "P36.F1",
+     "Finding description": "At 8 months, APPPS1:E4 mice had higher frontal cortical LAMP1 immunoreactivity than APPPS1:E3 mice, interpreted as greater lysosomal accumulation, in groups containing 2–8 mice.",
+     "Finding quote": "Additionally, APPPS1:E4 mice had higher levels of lysosomal accumulation at 8 and 16 months of age compared to APPPS1:E3 mice (Figure 7D).",
+     "Finding summary": "(APOE3 -> APOE4) -> (higher frontal cortical LAMP1-positive area at 8 months)",
+     "Experimental system": "Eight-month-old C57BL/6-background mice heterozygous for APPswe/PS1dE9 and homozygous for human APOE3 or APOE4 targeted replacement; sexes pooled; frontal cortical sagittal sections; percentage area of LAMP1 immunoreactivity. LAMP1 accumulation was used to infer lysosomal dysfunction; lipid metabolism, acidification, and degradation were not tested.",
+     "Data location": "Fig 7D, 8-month genotype comparison",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  }
+ ],
+ "reference_rows": [
+  {
+   "finding_id": "P18.F1",
+   "summary": "(APOE3 -> APOE4) -> (higher lysosomal pH in mouse astrocytes)",
+   "system": "Cultured mouse astrocytes from ApoE-knockout mice with isogenic knock-in of human ApoE3 or ApoE4, supplied by David M. Holtzman; donor age and mouse background ",
+   "class": 1,
+   "strength": "2 strong"
+  }
+ ]
+}

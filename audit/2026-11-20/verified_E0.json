@@ -1,0 +1,158 @@
+[
+ {
+  "item": 1,
+  "decision": "CONFIRM",
+  "why": "Fig 4B neuronal LAMP1 panel (rendered at 500 dpi) shows '*' on the APOE3-APOE4 bracket and '**' on APOE2-APOE4 with legend key 'p<0.05: *', and fig 4 is the young-only model with sex as a covariate and the legend prints 'N = 5 animals per sex, age, APOE genotype', so each genotype in this pairwise contrast pools 10 mice; P <0.05 visual_only and n = 10 are right."
+ },
+ {
+  "item": 2,
+  "decision": "CONFIRM",
+  "why": "Fig 4 is the young-only model with sex as a covariate and the legend prints 'N = 5 animals per sex, age, APOE genotype', so each genotype in this pairwise contrast pools 10 mice; Fig 4D neuronal LY-Ch panel has no bracket, so the null and n = 10 stand."
+ },
+ {
+  "item": 3,
+  "decision": "CONFIRM",
+  "why": "Fig 4 is the young-only model with sex as a covariate and the legend prints 'N = 5 animals per sex, age, APOE genotype', so each genotype in this pairwise contrast pools 10 mice; Fig 4E shows only '*' APOE2-APOE3 on total LE-Ch and no brackets on neuronal LE-Ch or either LY-Ch panel; quote verbatim."
+ },
+ {
+  "item": 4,
+  "decision": "CONFIRM",
+  "why": "Fig 4 is the young-only model with sex as a covariate and the legend prints 'N = 5 animals per sex, age, APOE genotype', so each genotype in this pairwise contrast pools 10 mice; Fig 4F lysosome (LY-Ch) panels carry no brackets, matching 'complete absence of APOE effect on LY-Ch'."
+ },
+ {
+  "item": 5,
+  "decision": "CONFIRM",
+  "why": "Fig 9D Young top panel (total LE-Ch) shows '*' brackets female APOE2-APOE3, APOE3 male-female and female APOE3-APOE4, matching the text 'decreased in APOE3 females compared to APOE2 and APOE4'; FDR-corrected key p<0.05: *, so <0.05 visual_only; n = 5 per sex/genotype/age is right."
+ },
+ {
+  "item": 6,
+  "decision": "CONFIRM",
+  "why": "Fig 10B lower row: the Young panel carries '*' APOE2F-APOE4F, '**' APOE3F-APOE4F and '***' APOE4 M-F, while Middle age has only one '*' at APOE4 M-F, so the age is young and the APOE3F-vs-APOE4F contrast is p<0.01 (legend key); the mice are the Huynh 2019 knock-in line."
+ },
+ {
+  "item": 7,
+  "decision": "CONFIRM",
+  "why": "Fig 4 is the young-only model with sex as a covariate and the legend prints 'N = 5 animals per sex, age, APOE genotype', so each genotype in this pairwise contrast pools 10 mice; Fig 4B total LE/LY and neuronal LE panels have no brackets; quote verbatim."
+ },
+ {
+  "item": 8,
+  "decision": "CONFIRM",
+  "why": "Fig 4 is the young-only model with sex as a covariate and the legend prints 'N = 5 animals per sex, age, APOE genotype', so each genotype in this pairwise contrast pools 10 mice; Fig 4C total and neuronal lysosome panels have no brackets; quote verbatim."
+ },
+ {
+  "item": 9,
+  "decision": "CONFIRM",
+  "why": "Fig 4 is the young-only model with sex as a covariate and the legend prints 'N = 5 animals per sex, age, APOE genotype', so each genotype in this pairwise contrast pools 10 mice; Fig 4F total and neuronal LE-Ch show '*' only on APOE2-APOE4 with APOE3 in between, as the row says."
+ },
+ {
+  "item": 10,
+  "decision": "CONFIRM",
+  "why": "Fig 7C EC neuronal LY panel shows a grey (APOE pairwise) '**' bracket from female APOE3 to female APOE4 and a black '*' APOE4 M-F; the Fig 7 model includes age as a fixed effect over all three ages, so each female genotype has 5 x 3 = 15 mice."
+ },
+ {
+  "item": 11,
+  "decision": "ADJUST",
+  "set": {
+   "P value": "<0.05",
+   "P value provenance": "visual_only"
+  },
+  "why": "The Fig 3 image is now readable (fulltext.pdf p.19 / figimg/3.png): Fig 3G shows a pairwise '*' bracket APOE33+debris vs APOE44+debris (with '***' APOE33 vs APOE33+debris and 'ns' APOE44 vs APOE44+debris), so the genotype contrast under challenge is p<0.05 by the legend key, not ambiguous_panel."
+ },
+ {
+  "item": 12,
+  "decision": "ADJUST",
+  "set": {
+   "P value": "<0.0001",
+   "P value provenance": "visual_only"
+  },
+  "why": "Fig 3H image now readable: a pairwise '****' bracket joins APOE33 and APOE44 (legend '****p < 0.0001'), so the P is <0.0001 visual_only rather than ambiguous_panel."
+ },
+ {
+  "item": 13,
+  "decision": "ADJUST",
+  "set": {
+   "P value": "<0.0001",
+   "P value provenance": "visual_only"
+  },
+  "why": "Fig 7 image now readable (figimg/7.png, PDF p.28): Fig 7M shows '****' on the UCI5(33)+debris vs UCI5(44)+debris bracket (and '***' UCI5(44) vs UCI5(44)+debris for the alkalinization), so P <0.0001 visual_only."
+ },
+ {
+  "item": 14,
+  "decision": "ADJUST",
+  "set": {
+   "P value": ">0.05",
+   "P value provenance": "visual_only"
+  },
+  "why": "Fig 3G image now readable: the untreated APOE33 vs APOE44 bracket is marked 'ns' and the legend's lowest threshold is '*p < 0.05', so P >0.05 visual_only, not ambiguous_panel."
+ },
+ {
+  "item": 15,
+  "decision": "ADJUST",
+  "set": {
+   "P value": "<0.05",
+   "P value provenance": "visual_only"
+  },
+  "why": "Fig 3E image now readable: a single '*' bracket joins APOE33 and APOE44 (unpaired t-test, '*p < 0.05'), so P <0.05 visual_only."
+ },
+ {
+  "item": 16,
+  "decision": "ADJUST",
+  "set": {
+   "P value": "<0.05",
+   "P value provenance": "visual_only"
+  },
+  "why": "Fig S3 is in the PDF (p.20, figimg/S3.png): S3C has '*' over HEXA (BH-corrected t-test, key '*p < 0.05; ****p < 0.0001'), so P <0.05 visual_only rather than ambiguous_panel."
+ },
+ {
+  "item": 17,
+  "decision": "ADJUST",
+  "set": {
+   "P value": "<0.05",
+   "P value provenance": "visual_only"
+  },
+  "why": "Fig S3E (PDF p.20) shows '*' over SQSTM1 (none over MAP1LC3B2), BH-corrected key '*p < 0.05', so P <0.05 visual_only."
+ },
+ {
+  "item": 18,
+  "decision": "CONFIRM",
+  "why": "Fig 4E (PDF p.11) prints 'n=479' (APOE3) and 'n=14' (APOE4) over the BafA1 + MG-132 bars; 14/479 = 0.029x in the APOE3 -> APOE4 direction, printed on the figure, and the description names both counts."
+ },
+ {
+  "item": 19,
+  "decision": "CONFIRM",
+  "why": "Fig 4G (rendered) shows 3 dots each for APOE3 Ctrl and APOE3 BafA1+MG-132 and 4 dots each for APOE4 Ctrl and APOE4 BafA1+MG-132, so ~3-4 estimated_from_figure is right; legend only says n >= 3."
+ },
+ {
+  "item": 20,
+  "decision": "CONFIRM",
+  "why": "Fig S4A is not in the PDF, while Fig 4E prints BafA1-only counts 'n=7' (APOE3) and 'n=2' (APOE4); 2/7 = 0.29x is correct in direction and the description names both counts and the authors' 'similar' wording."
+ },
+ {
+  "item": 21,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "Several proteins that accumulated after combined clearance blockade in APOE3 neurons were already elevated at APOE4 baseline, including CALM1, CAMKV and MAPT (Fig 4H), indirectly implicating impaired clearance; the text also names APP, but in Fig 4H APOE4 baseline APP sits near the APOE3 control level."
+  },
+  "why": "Fig 4H confirms APOE4 Ctrl is elevated for CALM1 (~1.45 log2), MAPT (~1.1) and CAMKV (~0.55) but not APP (~0), so dropping APP is right; the wording is only reordered so 'indirectly implicating impaired clearance' attaches to the elevated proteins, not to APP."
+ },
+ {
+  "item": 22,
+  "decision": "CONFIRM",
+  "why": "Fig 2A (PDF p.3, 0-30% axis from zero) black Abeta1-42 bars read E3 ~17.2% and E4 ~26.6% (pixel-measured), giving ~1.5x estimated_from_figure; the text's 'more than 25%' is an inequality, so the figure read is appropriate."
+ },
+ {
+  "item": 23,
+  "decision": "CONFIRM",
+  "why": "Text prints increases of ~85% (apoE4) vs ~30% (apoE3), i.e. ~185% vs ~130% of each line's control on Fig 2B's '% of control' axis (bars read ~186 and ~131); 185/130 = 1.42x printed_in_text, and the description names both values."
+ },
+ {
+  "item": 24,
+  "decision": "CONFIRM",
+  "why": "Fig 2A gray Abeta1-40 bars read E3 ~4.4% and E4 ~9.3% (pixel-measured on the zero-based 0-30 axis), ~2.1x estimated_from_figure; the legend star covers Abeta1-42 only, so P stays N/A."
+ },
+ {
+  "item": 25,
+  "decision": "CONFIRM",
+  "why": "Fig 11B (PDF p.6, 0-125 axis from zero) E4 Abeta bar reads ~116 and E4 Abeta+siRNA ~47-48 (% increase vs control), a ~59% reduction estimated_from_figure; no P or n is printed for this panel."
+ }
+]

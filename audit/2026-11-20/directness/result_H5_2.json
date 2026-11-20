@@ -1,0 +1,357 @@
+[
+ {
+  "finding_id": "P7.F1",
+  "quote_start": "Since cathepsins play an essential role in lysosomal degradation, we f",
+  "summary": "(APOE3/3 -> APOE4/4) -> (lower lysosomal substrate degradation signal)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P7.F2",
+  "quote_start": "As shown in Fig. 4F, H, the formation of galectin puncta, detected wit",
+  "summary": "(APOE3/3 -> APOE4/4 under Aβ42) -> (greater lysosomal membrane permeabilization)",
+  "class": 3,
+  "strength": 2,
+  "changed": true,
+  "why": "Galectin puncta measure lysosomal membrane damage, not one of B's listed functions, so it is a surrogate B'; damaged lysosomes are dysfunctional, so the surrogate is tightly coupled (strength 2)."
+ },
+ {
+  "finding_id": "P7.F3",
+  "quote_start": "As expected, blocking autophagic flux by inhibiting lysosomal acidific",
+  "summary": "No significant genotype difference was detected in basal autophagic flux.",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P7.F4",
+  "quote_start": "Similarly, treatment with rapamycin, an inhibitor of the mTORC1 comple",
+  "summary": "No significant genotype difference was detected in rapamycin-induced autophagic flux.",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P7.F5",
+  "quote_start": "Interestingly, lysosomal-associated membrane protein 2 (LAMP-2), a key",
+  "summary": "(APOE3/3 -> APOE4/4) -> (trend toward lower LAMP2 protein)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P7.F6",
+  "quote_start": "Since proteomic analysis comparing two (isogenic to each other) E4/E4 ",
+  "summary": "(APOE3/3 -> APOE4/4) -> (lower basal lysosomal MFSD1 protein)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P7.F7",
+  "quote_start": "Further, we analyzed LC3-II levels by WB, and found that, similarly to",
+  "summary": "Aβ42 increased LC3-II, with no significant genotype difference reported.",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P7.F8",
+  "quote_start": "Under basal conditions, E4/E4 iMGs exhibited significantly lower LC3-I",
+  "summary": "(APOE3/3 -> APOE4/4) -> (lower basal LC3-II in human iPSC-derived microglia)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P7.F9",
+  "quote_start": "Consistent with the proteomics data, this WB analysis confirmed that 4",
+  "summary": "No significant genotype difference was reported in LC3-II accumulation after LPS/IFNγ.",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P7.F10",
+  "quote_start": "Moreover, when endosome maturation and degradation were blocked by api",
+  "summary": "Apilimod increased dextran accumulation irrespective of APOE genotype. P < 0.001 applies to time × treatment.",
+  "class": 5,
+  "strength": 3,
+  "changed": false,
+  "reason_for_description": "The manipulation is apilimod (a PIKfyve inhibitor) applied within each genotype and does not act on APOE, so no class 1-4 form fits; the genotype comparison showed no interaction."
+ },
+ {
+  "finding_id": "P7.F11",
+  "quote_start": "To assess pinocytosis (fluid-phase endocytosis), we added pHrodo-conju",
+  "summary": "(APOE3/3 -> APOE4/4) -> (lower basal pHrodo-dextran signal in endolysosomal compartments)",
+  "class": 3,
+  "strength": 4,
+  "changed": false
+ },
+ {
+  "finding_id": "P7.F12",
+  "quote_start": "Under basal conditions or after treatment with bafilomycin A, there we",
+  "summary": "No significant genotype difference was reported in basal TOM-20.",
+  "class": 3,
+  "strength": 4,
+  "changed": false
+ },
+ {
+  "finding_id": "P7.F13",
+  "quote_start": "Similarly, treatment with rapamycin, with or without bafilomycin A, di",
+  "summary": "No significant genotype difference was reported in TOM-20-assessed mitochondrial mass after rapamycin.",
+  "class": 3,
+  "strength": 4,
+  "changed": false
+ },
+ {
+  "finding_id": "P7.F14",
+  "quote_start": "Interestingly, the APOE genotype did not significantly affect the upta",
+  "summary": "(APOE3/3 -> APOE4/4) -> (no change in pHrodo-zymosan uptake signal)",
+  "class": 3,
+  "strength": 4,
+  "changed": false
+ },
+ {
+  "finding_id": "P34.F1",
+  "quote_start": "Furthermore, while both neuronal EE’s and LE’s showed an increasing pa",
+  "summary": "(APOE3 -> APOE4, young hippocampus) -> (higher neuronal LAMP1-compartment abundance)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P34.F2",
+  "quote_start": "At the same time, N-LE-Ch levels showed similar expression to N-LE’s, ",
+  "summary": "(APOE genotype variation including APOE3 -> APOE4, young cortex) -> (no change in neuronal lysosomal cholesterol colocalization reaching significance)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P34.F3",
+  "quote_start": "There was also a decrease in T-LE-Ch in APOE3<E2, with no change in AP",
+  "summary": "(APOE genotype variation including APOE3 -> APOE4, young hippocampus) -> (no change in neuronal late-endosomal or total/neuronal lysosomal cholesterol reaching significance)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P34.F4",
+  "quote_start": "There was a striking decrease in both total and neuronal EE-Ch and LE-",
+  "summary": "(APOE genotype variation including APOE3 -> APOE4, young entorhinal cortex) -> (no change in lysosomal cholesterol colocalization reaching significance)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P34.F5",
+  "quote_start": "Total LE-Ch was decreased in APOE3 females compared to APOE2 and APOE4",
+  "summary": "(APOE3 -> APOE4, young females) -> (higher hippocampal total late-endosomal cholesterol colocalization)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P34.F6",
+  "quote_start": "The only significant difference measured on N-LY-Ch levels was in the ",
+  "summary": "(APOE3 -> APOE4, young females) -> (higher cortical neuronal lysosomal cholesterol colocalization)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P34.F7",
+  "quote_start": "In the HIPP, the total levels of EE’s, LE’s, and LY’s were not affecte",
+  "summary": "(APOE genotype variation including APOE3 -> APOE4, young hippocampus) -> (no change in total late-endosome/lysosome or neuronal late-endosome abundance reaching significance)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P34.F8",
+  "quote_start": "Both total and neuronal LE’s were decreased in APOE4<E2, while lysosom",
+  "summary": "(APOE genotype variation including APOE3 -> APOE4, young entorhinal cortex) -> (no change in lysosome abundance reaching significance)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P34.F9",
+  "quote_start": "The largest effect was observed in the young EC, with neuronal LE’s, E",
+  "summary": "(APOE3 -> APOE4, young entorhinal cortex) -> (qualitatively lower total and neuronal late-endosomal cholesterol colocalization)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Same D4H*-CD63 late-endosomal cholesterol colocalization readout and APOE3-vs-APOE4 comparison as P34.F5 (3/3); strength reflects the surrogate, not the statistical support."
+ },
+ {
+  "finding_id": "P34.F10",
+  "quote_start": "However, paired contrasts showed that N-LY’s in the EC were increased ",
+  "summary": "(APOE3 -> APOE4, females) -> (higher entorhinal neuronal LAMP1-compartment abundance)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P34.F11",
+  "quote_start": "In the EC, there were no significant three-way interactions observed a",
+  "summary": "(APOE3 -> APOE4, sex- and age-stratified entorhinal cortex) -> (no change in late-endosome abundance reaching significance)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P34.F12",
+  "quote_start": "There were no differences in total LY-Ch levels in the EC (Fig. 10F).",
+  "summary": "(APOE genotype variation including APOE3 -> APOE4, entorhinal cortex) -> (no change in total lysosomal cholesterol colocalization reaching significance)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P28.F1",
+  "quote_start": "Thus, autophagosomes delivery to lysosomes is hampered in APOE4 microg",
+  "summary": "(APOE3 -> APOE4) -> (less autophagosome delivery to lysosomes)",
+  "class": 1,
+  "strength": 2,
+  "changed": true,
+  "why": "Same tandem LC3 reporter (red-only vs yellow puncta) readout as the other APOE3-vs-APOE4 tandem-LC3 rows: autophagic flux/autolysosome formation is B itself and A is the APOE isoform, so class 1 strength 2 like the checked lysosomal-pH reference row."
+ },
+ {
+  "finding_id": "P28.F2",
+  "quote_start": "We found that following rapamycin treatment, 41.03% ± 3.268 of autopha",
+  "summary": "(APOE3 -> APOE4) -> (lower red-only LC3 fraction indicating reduced autolysosome formation)",
+  "class": 1,
+  "strength": 2,
+  "changed": true,
+  "why": "Same tandem LC3 reporter (red-only vs yellow puncta) readout as the other APOE3-vs-APOE4 tandem-LC3 rows: autophagic flux/autolysosome formation is B itself and A is the APOE isoform, so class 1 strength 2 like the checked lysosomal-pH reference row."
+ },
+ {
+  "finding_id": "P28.F3",
+  "quote_start": "However, the levels of p62 following chloroquine treatment were signif",
+  "summary": "(APOE3 -> APOE4) -> (lower p62 accumulation during lysosomal blockade)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P28.F4",
+  "quote_start": "Moreover, the levels of p62, which is associated with the degradation ",
+  "summary": "(APOE3 -> APOE4) -> (less p62 reduction after 0.5 h starvation)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P28.F5",
+  "quote_start": "Accordingly, the LC3II/actin ratio under these conditions was 1.508 ± ",
+  "summary": "(APOE3 -> APOE4) -> (less p62 reduction with 100 nM rapamycin)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P28.F6",
+  "quote_start": "Thus, the results suggest that induction of autophagy may be also impa",
+  "summary": "(APOE3 -> APOE4) -> (weaker starvation-induced autophagy-marker responses)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P28.F7",
+  "quote_start": "Next, we measured the rate of Aβ degradation in APOE3 compared to APOE",
+  "summary": "(APOE3 -> APOE4) -> (lower apparent intracellular Aβ degradation)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P29.F1",
+  "quote_start": "Furthermore, using the tandem LC3-GFP-RFP reporter30, we found that fo",
+  "summary": "(APOE3 -> APOE4) -> (lower autophagosome maturation/fusion with lysosomes after CCCP)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P29.F2",
+  "quote_start": "Accordingly, APOE3 astrocytes treated with CCCP combined with chloroqu",
+  "summary": "(APOE3 -> APOE4) -> (lower autophagic flux after mitochondrial damage)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P29.F3",
+  "quote_start": "As shown in Fig. 2a, increased accumulation (differences between CQ tr",
+  "summary": "(APOE3 -> APOE4) -> (lower chloroquine-sensitive mitochondrial p62 turnover)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P29.F4",
+  "quote_start": "Additionally, treatment with chloroquine/MG-132 led to parkin accumula",
+  "summary": "(APOE3 -> APOE4) -> (lower chloroquine-sensitive parkin degradation)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P29.F5",
+  "quote_start": "In addition, 12 µM CCCP treatment reduced p62 levels only in the APOE3",
+  "summary": "(APOE3 -> APOE4) -> (less CCCP-associated p62 degradation)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P20.F1",
+  "quote_start": "ApoE4 significantly increased the accumulation of cholesterol in lysos",
+  "summary": "(ApoE3 -> ApoE4, with PHF) -> (increased lysosomal cholesterol accumulation)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Lysosomal cholesterol by cholesterol-probe/lysosome-marker colocalization is a static surrogate for cholesterol egress, the same readout as the P34 D4H*-LAMP1 rows (3/3); increased cholesterol delivery (e.g. apoE-lipoprotein uptake) is an alternative route."
+ },
+ {
+  "finding_id": "P20.F2",
+  "quote_start": "We detected increased autophagosomes (remaining yellow dots in Fig. 5i",
+  "summary": "(ApoE3 -> ApoE4, with PHF) -> (increased autophagosomes relative to autolysosomes)",
+  "class": 1,
+  "strength": 2,
+  "changed": true,
+  "why": "Same tandem LC3 reporter (red-only vs yellow puncta) readout as the other APOE3-vs-APOE4 tandem-LC3 rows: autophagic flux/autolysosome formation is B itself and A is the APOE isoform, so class 1 strength 2 like the checked lysosomal-pH reference row."
+ },
+ {
+  "finding_id": "P20.F3",
+  "quote_start": "Treatment with TRPV1 agonist capsaicin restored the autophagy lysosoma",
+  "summary": "(vehicle -> capsaicin, with ApoE4 and PHF) -> (restored autophagy lysosomal pathway)",
+  "class": 5,
+  "strength": 3,
+  "changed": false,
+  "reason_for_description": "The manipulation is the TRPV1 agonist capsaicin at fixed ApoE4 exposure, which does not act on APOE, so no class 1-4 form fits."
+ },
+ {
+  "finding_id": "P12.F1",
+  "quote_start": "Since lysosomal activity can affect Aβ levels, we also examined lysoso",
+  "summary": "(APOE3 -> APOE4) -> (lower inferred lysosome-dependent Aβ42 degradation in human iPSC-derived astrocytes)",
+  "class": 1,
+  "strength": 2,
+  "changed": true,
+  "why": "Lysosome-inhibitor-sensitive Aβ42 accumulation measures lysosome-dependent degradation (B itself) with APOE isoform as A, the same inhibitor-sensitive cargo design scored 1/2 in P29.F3/F4 and P7.F1."
+ },
+ {
+  "finding_id": "P32.F1",
+  "quote_start": "In both APOE3 and APOE4‐derived microglia, Lilrb4a knockdown enhanced ",
+  "summary": "(Lilrb4a ASO -> Lilrb4a ASO plus PPAR-γ inhibition in APOE4 microglia) -> (loss of enhanced Aβ uptake and degradation)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "Lilrb4a ASO and the PPAR-γ inhibitor GW9662 act within APOE4 microglia and do not act on APOE, so per the rules this is class 5, not class 4.",
+  "reason_for_description": "Both manipulations (Lilrb4a knockdown and PPAR-γ inhibition) are applied within one APOE4 genotype and do not act on APOE, so no class 1-4 form fits."
+ }
+]

@@ -1,0 +1,1343 @@
+{
+ "hyp": "H4",
+ "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+ "A": "APOE genotype or apoE isoform (APOE4 vs APOE3)",
+ "B": "binding/adhesion strength of apoE to recycling receptors (ApoER2, LRP1, LDLR, VLDLR...) and the resulting impeded receptor recycling",
+ "scope": "IN: binding strength or kinetics of apoE isoforms to recycling receptors (ApoER2/LRP8, LRP1, LDLR, VLDLR, heparan sulfate when tied to receptor recycling), pH-dependent dissociation in endosomes, and receptor surface levels/recycling impeded by apoE4 (e.g. ApoER2, glutamate receptors trapped in endosomes), including rescues (NHE6 inhibition) in apoE4 conditions. OUT: receptor-independent effects, binding to non-recycling partners, downstream synaptic function without a receptor-recycling readout.",
+ "papers": [
+  {
+   "paper_id": "P11",
+   "doi": "10.7554/elife.72034",
+   "rows": [
+    {
+     "Paper/Finding ID": "P11.F4",
+     "Finding description": "Across three independent experiments in primary mouse neurons treated with Reelin, human ApoE4 reduced surface GluN2B more than ApoE3.",
+     "Finding quote": "Receptor surface levels show a stronger reduction with ApoE4 than ApoE3.",
+     "Finding summary": "(ApoE3 -> ApoE4) -> (lower neuronal surface GluN2B during Reelin stimulation)",
+     "Experimental system": "Primary cortical neurons from E18 Slc9a6 wildtype mouse embryos, assayed at DIV10–14; no AD-model mutation reported. Cultures received human ApoE3 or ApoE4 secreted by transfected HEK293 cells at 5 μg/ml for 30 minutes, followed by Reelin at 2 μg/ml for another 30 minutes. Surface GluN2B was measured by surface biotinylation, NeutrAvidin isolation, and immunoblotting, with total receptor immunoblots. GluN2B surface availability is a readout of co-trafficked glutamate receptors, not a measurement of apoE binding to GluN2B; the neurons were mouse, not human.",
+     "Data location": "Fig 4D",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P11.F5",
+     "Finding description": "Across three independent experiments in primary mouse neurons treated with Reelin, human ApoE4 reduced surface GluA1 more than ApoE3.",
+     "Finding quote": "Receptor surface levels show a stronger reduction with ApoE4 than ApoE3.",
+     "Finding summary": "(ApoE3 -> ApoE4) -> (lower neuronal surface GluA1 during Reelin stimulation)",
+     "Experimental system": "Primary cortical neurons from E18 Slc9a6 wildtype mouse embryos at DIV10–14; no AD-model mutation reported. Cultures received HEK293-secreted human ApoE3 or ApoE4 at 5 μg/ml for 30 minutes before a further 30-minute Reelin treatment at 2 μg/ml. Surface GluA1 was quantified by surface biotinylation, NeutrAvidin isolation, and immunoblotting, alongside total receptor immunoblots. GluA1 is a co-trafficked receptor readout, not an assayed apoE-binding partner; the brain cells were mouse, not human.",
+     "Data location": "Fig 4E",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P11.F6",
+     "Finding description": "Across three independent experiments in primary mouse neurons treated with Reelin, human ApoE4 reduced surface GluA2/3 more than ApoE3.",
+     "Finding quote": "Receptor surface levels show a stronger reduction with ApoE4 than ApoE3.",
+     "Finding summary": "(ApoE3 -> ApoE4) -> (lower neuronal surface GluA2/3 during Reelin stimulation)",
+     "Experimental system": "Primary cortical neurons from E18 Slc9a6 wildtype mouse embryos at DIV10–14; no AD-model mutation reported. HEK293-secreted human ApoE3 or ApoE4 was applied at 5 μg/ml for 30 minutes, followed by Reelin at 2 μg/ml for another 30 minutes. Surface GluA2/3 immunoreactivity was measured by biotinylation, NeutrAvidin isolation, and immunoblotting, with total receptor immunoblots. GluA2/3 is a co-trafficked receptor surface readout rather than an apoE-binding measurement; the brain cells were mouse, not human.",
+     "Data location": "Fig 4F",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P11.F7",
+     "Finding description": "Across three independent experiments in primary mouse neurons treated with Reelin, adding human ApoE4 reduced surface GluN2B compared with the condition without added apoE.",
+     "Finding quote": "ApoE-conditioned media treatment reduces the surface expression of Apoer2 and glutamate receptors in presence of Reelin in primary neurons. Receptor surface levels show a stronger reduction with ApoE4 than ApoE3.",
+     "Finding summary": "(No added apoE -> added ApoE4) -> (lower neuronal surface GluN2B during Reelin stimulation)",
+     "Experimental system": "Primary cortical neurons from E18 Slc9a6 wildtype mouse embryos at DIV10–14; no AD-model mutation reported. HEK293-secreted human ApoE4 was applied at 5 μg/ml for 30 minutes before another 30 minutes with Reelin at 2 μg/ml; the comparator lacked added apoE. Surface GluN2B was quantified by biotinylation, NeutrAvidin isolation, and immunoblotting. This is a co-trafficked receptor surface readout rather than an apoE-binding assay, performed in mouse brain cells.",
+     "Data location": "Fig 4D",
+     "Directness class": 2,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P11.F9",
+     "Finding description": "Across three independent experiments in primary mouse neurons treated with Reelin, adding human ApoE4 reduced surface GluA1 compared with the condition without added apoE.",
+     "Finding quote": "ApoE-conditioned media treatment reduces the surface expression of Apoer2 and glutamate receptors in presence of Reelin in primary neurons. Receptor surface levels show a stronger reduction with ApoE4 than ApoE3.",
+     "Finding summary": "(No added apoE -> added ApoE4) -> (lower neuronal surface GluA1 during Reelin stimulation)",
+     "Experimental system": "Primary cortical neurons from E18 Slc9a6 wildtype mouse embryos, assayed at DIV10–14; no AD-model mutation reported. Human ApoE4 from HEK293 conditioned medium was applied at 5 μg/ml for 30 minutes, followed by Reelin at 2 μg/ml for another 30 minutes; the comparator lacked added apoE. Surface biotinylation, NeutrAvidin isolation, and immunoblotting measured surface GluA1. This assesses co-trafficked receptor availability in mouse neurons without measuring apoE binding.",
+     "Data location": "Fig 4E",
+     "Directness class": 2,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P11.F10",
+     "Finding description": "Across three independent experiments, germline NHE6 deletion restored ApoE4-impaired surface GluA1 expression in primary mouse neurons treated with Reelin. Class 5 (other): Class 5 because the experiment holds APOE4 fixed and manipulates NHE6/endosomal pH, a mediator rather than APOE genotype or isoform, so it tests mediation of the receptor-recycling defect, not A itself.",
+     "Finding quote": "In addition, genetic loss of NHE6 equally restored the ApoE4-impaired surface expression of AMPA and NMDA receptor subunits (Figure 4D–F).",
+     "Finding summary": "(NHE6 present -> NHE6 deleted, with ApoE4) -> (restored neuronal surface GluA1)",
+     "Experimental system": "Primary cortical neurons from E18 germline Slc9a6-knockout mouse embryos and wildtype littermates at DIV10–14; no AD-model mutation reported. Cultures received HEK293-secreted human ApoE4 at 5 μg/ml for 30 minutes, followed by Reelin at 2 μg/ml for another 30 minutes. Surface GluA1 was quantified by biotinylation and immunoblotting. The endpoint tests rescue of co-trafficked receptor surface availability in mouse neurons; apoE binding and neuronal endosomal pH were not measured.",
+     "Data location": "Fig 4E",
+     "Directness class": 5,
+     "Directness strength": "4 weak"
+    },
+    {
+     "Paper/Finding ID": "P11.F11",
+     "Finding description": "Across three independent experiments in primary mouse neurons treated with Reelin, adding human ApoE4 reduced surface GluA2/3 compared with the condition without added apoE.",
+     "Finding quote": "ApoE-conditioned media treatment reduces the surface expression of Apoer2 and glutamate receptors in presence of Reelin in primary neurons. Receptor surface levels show a stronger reduction with ApoE4 than ApoE3.",
+     "Finding summary": "(No added apoE -> added ApoE4) -> (lower neuronal surface GluA2/3 during Reelin stimulation)",
+     "Experimental system": "Primary cortical neurons from E18 Slc9a6 wildtype mouse embryos at DIV10–14; no AD-model mutation reported. Cultures received human ApoE4 in HEK293 conditioned medium at 5 μg/ml for 30 minutes, followed by Reelin at 2 μg/ml for another 30 minutes; the comparator lacked added apoE. Surface biotinylation, NeutrAvidin isolation, and immunoblotting quantified GluA2/3 surface availability. This is a co-trafficked receptor readout in mouse neurons, not an apoE-binding assay.",
+     "Data location": "Fig 4F",
+     "Directness class": 2,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P11.F12",
+     "Finding description": "Across three independent experiments, germline NHE6 deletion restored ApoE4-impaired surface GluA2/3 expression in primary mouse neurons treated with Reelin. Class 5 (other): Class 5 because the experiment holds APOE4 fixed and manipulates NHE6/endosomal pH, a mediator rather than APOE genotype or isoform, so it tests mediation of the receptor-recycling defect, not A itself.",
+     "Finding quote": "In addition, genetic loss of NHE6 equally restored the ApoE4-impaired surface expression of AMPA and NMDA receptor subunits (Figure 4D–F).",
+     "Finding summary": "(NHE6 present -> NHE6 deleted, with ApoE4) -> (restored neuronal surface GluA2/3)",
+     "Experimental system": "Primary cortical neurons from E18 germline Slc9a6-knockout mouse embryos and wildtype littermates, assayed at DIV10–14; no AD-model mutation reported. HEK293-secreted human ApoE4 was applied at 5 μg/ml for 30 minutes, followed by Reelin at 2 μg/ml for another 30 minutes. Surface GluA2/3 was measured by biotinylation and immunoblotting. This tests rescue of co-trafficked receptor surface availability in mouse neurons, without measuring apoE–receptor binding or neuronal endosomal pH.",
+     "Data location": "Fig 4F",
+     "Directness class": 5,
+     "Directness strength": "4 weak"
+    }
+   ]
+  },
+  {
+   "paper_id": "P4",
+   "doi": "10.7554/elife.40048",
+   "rows": [
+    {
+     "Paper/Finding ID": "P4.F5",
+     "Finding description": "Quantification showed greater Apoer2 recycling impairment with ApoE4 than the smaller ApoE3-associated impairment in three independent experiments.",
+     "Finding quote": "As shown in Figure 4D and E, physiological concentrations of ApoE3 (5 µg/ml) also impaired Apoer2 recycling to a small, but significant extent. This was also prevented by EMD87580 at the same concentration (3 µM) at which the effect of ApoE4 on Apoer2 recycling was completely neutralized (Figure 4D,E), suggesting that ApoE3 also, although to a minor extent, may lose solubility upon entering the early endosome, and that this is also prevented by pH lowering.",
+     "Finding summary": "(apoE3 -> apoE4) -> (greater reduction of surface-to-total Apoer2)",
+     "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; human ApoE3 or ApoE4 plus Reelin, without EMD87580; surface/total Apoer2 quantification.",
+     "Data location": "Fig 4E",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P4.F13",
+     "Finding description": "Quantification showed lower surface-to-total Apoer2 after ApoE4 addition than without ApoE4 in three independent experiments.",
+     "Finding quote": "ApoE-conditioned media treatment reduces the surface expression of Apoer2 in presence of Reelin in primary neurons.",
+     "Finding summary": "(no added apoE4 -> added apoE4) -> (lower surface-to-total Apoer2 ratio)",
+     "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9-14; Reelin with or without human cell-secreted ApoE4 (no EMD87580); surface biotinylation and surface/total Apoer2 immunoblot quantification.",
+     "Data location": "Fig 2C, Apoer2",
+     "Directness class": 2,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P4.F21",
+     "Finding description": "NHE6 shRNA a restored surface GluN2B in ApoE4-treated neurons in three independent experiments.",
+     "Finding quote": "EMD87580 and the NHE6-specific shRNAs completely restored Apoer2 and glutamate receptor surface expression, while the scrambled shRNA had no effect (Panel B and quantified in Panels C-F).",
+     "Finding summary": "(NHE6 knockdown with apoE4 present) -> (restored surface GluN2B)",
+     "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons; lentiviral shNHE6 a/TRCN0000068828, assay 3 days after infection; human ApoE4 and Reelin; surface-biotinylation GluN2B quantification against the ApoE4-impaired control.",
+     "Data location": "Fig 6D, shNHE6 a comparison",
+     "Directness class": 2,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P4.F22",
+     "Finding description": "EMD87580 restored surface GluA2/3 in ApoE4-treated neurons in three independent experiments.",
+     "Finding quote": "EMD87580 and the NHE6-specific shRNAs completely restored Apoer2 and glutamate receptor surface expression, while the scrambled shRNA had no effect (Panel B and quantified in Panels C-F).",
+     "Finding summary": "(NHE inhibition with apoE4 present) -> (restored surface GluA2/3)",
+     "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; EMD87580 3 µM, standard 1 h pretreatment; human ApoE4 plus Reelin; surface/total GluA2/3 quantification corresponding to Fig 6B lanes 2 versus 3.",
+     "Data location": "Fig 6F, EMD87580 comparison",
+     "Directness class": 2,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P4.F23",
+     "Finding description": "NHE6 shRNA a restored surface GluA2/3 in ApoE4-treated neurons in three independent experiments.",
+     "Finding quote": "EMD87580 and the NHE6-specific shRNAs completely restored Apoer2 and glutamate receptor surface expression, while the scrambled shRNA had no effect (Panel B and quantified in Panels C-F).",
+     "Finding summary": "(NHE6 knockdown with apoE4 present) -> (restored surface GluA2/3)",
+     "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons; lentiviral shNHE6 a/TRCN0000068828, assay 3 days after infection; human ApoE4 and Reelin; surface/total GluA2/3 quantification against the ApoE4-impaired control.",
+     "Data location": "Fig 6F, shNHE6 a comparison",
+     "Directness class": 2,
+     "Directness strength": "2 strong"
+    }
+   ]
+  },
+  {
+   "paper_id": "P12",
+   "doi": "10.3233/jad-230514",
+   "rows": [
+    {
+     "Paper/Finding ID": "P12.F15",
+     "Finding description": "The VEGFR2 fraction colocalizing with early endosomes increased from 0.24 in APOE3 to 0.39 in APOE4 neurons, with 20 and 19 cells respectively from two preparations.",
+     "Finding quote": "Quantification of these results revealed that the colocalization of IR with early endosomes was significantly higher in APOE4 neurons (0.36±0.02, N = 34 from 4 different preparations) than in the APOE3 neurons (0.28±0.02, N = 48, from 4 different preparations, p < 0.05), as was the colocalization of VEGFR with early endosomes which was higher in APOE4 neurons (0.39±0.03, N = 19 from 2 different preparations) than and in APOE3 neurons (0.24±0.02, N = 20, from 2 different preparations, p < 0.01).",
+     "Finding summary": "(APOE3 -> APOE4) -> (higher fraction of VEGFR2 colocalizing with early endosomes)",
+     "Experimental system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; VEGFR2/Rab5 double staining, confocal microscopy and M1 colocalization.",
+     "Data location": "Fig. 6B",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P12.F17",
+     "Finding description": "VEGFR2 early-endosomal colocalization increased from 0.22 in APOE3 to 0.36 in APOE4 neurons, measured in 25–37 cells from two to three preparations.",
+     "Finding quote": "A different colocalization pattern was seen in APOER2, IR, and VEGFR, where the accumulation of these receptors in the early endosomes in APOE4 neurons (see also Figs. 5 and 6) is accompanied with lower levels of colocalization in late endosomes relative to those obtained with APOE3 cells.",
+     "Finding summary": "(APOE3 -> APOE4) -> (higher fraction of VEGFR2 colocalizing with early endosomes)",
+     "Experimental system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; VEGFR2/Rab5 double staining, confocal microscopy and M1 colocalization.",
+     "Data location": "Fig. 8D, early endosomes",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  },
+  {
+   "paper_id": "P16",
+   "doi": "10.1242/jcs.258894",
+   "rows": [
+    {
+     "Paper/Finding ID": "P16.F3",
+     "Finding description": "ApoE4 increased colocalization of sortilin–FABP7 proximity-ligation signals with Rab5-positive early endosomes relative to apoE3, measured in 33 apoE4-treated and 34 apoE3-treated cells.",
+     "Finding quote": "Altered sorting of sortilin–FABP7 complexes in the presence of apoE4 was confirmed quantitatively by colocalization studies documenting trapping of PLA signals for sortilin and FABP7 in early endosomes (marked by Rab5; Fig. 7F,H) and recycling endosomes (marked by Rab11; Fig. 7G,I) in the presence of apoE4 as compared with apoE3.",
+     "Finding summary": "(apoE3 -> apoE4) -> (greater early-endosomal colocalization of sortilin–FABP7 complexes)",
+     "Experimental system": "CHO-K1-derived Chinese hamster ovary cells stably overexpressing mouse sortilin and Myc-tagged mouse FABP7 (CHO-S/F), treated for 24 h with HEK293-conditioned medium containing 5 µg/ml human apoE3 or apoE4. Proximity-ligation signals were co-stained for Rab5; blinded single-z-plane analysis used thresholded Manders’ coefficient tM1. The experiment was replicated three times. These are non-neural hamster cells, not human brain cells.",
+     "Data location": "Fig. 7H",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  }
+ ],
+ "reference_rows": [
+  {
+   "finding_id": "P1.F1",
+   "summary": "(APOE3 -> APOE4) -> (shared astrocyte surface-LDLR depletion; E4-specific additional impairment unresolved)",
+   "system": "Human iPSC-derived astrocytes differentiated from an APOE-knockout clone of ThermoFisher A18945, originally APOE3/3; exogenous POPC-lipidated ApoE at 10 μg/mL f",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P1.F2",
+   "summary": "(APOE3 -> APOE4) -> (shared astrocyte surface-LDLR depletion; E4-specific additional impairment unresolved)",
+   "system": "Human APOE-knockout iPSC-derived astrocytes from ThermoFisher A18945; 10 μg/mL exogenous POPC-lipidated ApoE for one day; quantified surface LDLR immunostaining",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P1.F3",
+   "summary": "(APOE3 -> APOE4) -> (no change in reported LDLR-binding EC50)",
+   "system": "Cell-free HTRF using HEK293-derived, His-tagged POPC-lipidated ApoE and biotinylated human LDLR extracellular domain; pH 7.5; 1 h at room temperature; three ind",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P1.F4",
+   "summary": "(APOE3 -> APOE4) -> (nominally lower LDLR-binding KD within author-described comparable affinities)",
+   "system": "Cell-free Biacore SPR with biotinylated human LDLR extracellular domain immobilized on a neutravidin-coated C1 chip; HEK293-derived POPC-lipidated ApoE3/E4 at 0",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P1.F5",
+   "summary": "(APOE3 -> APOE4) -> (no change in complete intracellular ApoE–LDLR colocalization)",
+   "system": "Human APOE-knockout iPSC-derived astrocytes from ThermoFisher A18945; 10 μg/mL POPC-lipidated ApoE for one day; super-resolution confocal co-immunostaining of A",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P1.F6",
+   "summary": "(APOE3 -> APOE4) -> (shared reduction and clustering of total LDLR; additional E4 effect unresolved)",
+   "system": "Human H4 neuroglioma cells; 10 μg/mL POPC-lipidated ApoE for one day; fixed, permeabilized immunostaining of surface plus intracellular LDLR.",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P1.F7",
+   "summary": "(APOE3 -> APOE4) -> (shared near-abolition of subsequent LDL uptake)",
+   "system": "Human H4 neuroglioma cells; 10 μg/mL POPC-lipidated ApoE for one day, followed by 10 μg/mL DiI-LDL for 3–4 h; live confocal imaging.",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P1.F8",
+   "summary": "(APOE3 -> APOE4) -> (robust LDLR surface binding with no reported E4-specific increase)",
+   "system": "Human HEK293T cells overexpressing human LDLR; HEK293-derived, FITC-labeled lipidated ApoE at 10 μg/mL; 1 h at 4°C to prevent endocytosis; confocal surface-bind",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P1.F9",
+   "summary": "(APOE3 -> APOE4) -> (more internalized ApoE and more ApoE-containing lysosomal compartments)",
+   "system": "Human APOE-knockout iPSC-derived astrocytes from ThermoFisher A18945; 10 μg/mL POPC-lipidated ApoE for one day; ApoE/LDLR/LAMP1 imaging, internalized ApoE quant",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P1.F10",
+   "summary": "(APOE3 -> APOE4) -> (shared inhibition of LDL uptake; additional E4 effect unresolved)",
+   "system": "Human H4 neuroglioma cells serum-starved for 1.5–2 h; simultaneous 10 μg/mL POPC-lipidated ApoE and 10 μg/mL DiI-LDL for 3–4 h; live confocal imaging.",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P2.F1",
+   "summary": "(apoE3 -> apoE4) -> (greater insulin-receptor localization in transferrin-positive endosomes)",
+   "system": "Human SH-SY5Y cells expressing human IR-GFP; overnight 100 nM recombinant apoE, no insulin; Alexa568-transferrin at 20 μg/ml for one hour; confocal colocalizati",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P2.F2",
+   "summary": "(apoE3 -> apoE4) -> (impaired insulin-receptor recycling at 30 minutes)",
+   "system": "Primary cortical Apoe−/− mouse neurons; cleavable surface biotin, 100 nM recombinant apoE for 30 minutes to load internalized receptors, apoE removal, then recy",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P2.F3",
+   "summary": "(lipidated apoE3 -> lipidated apoE4) -> (stronger binding to insulin receptor)",
+   "system": "Cell-free solid-phase assay using human apoE3 or apoE4 lipoprotein particles purified from immortalized astrocytes derived from human apoE-targeted-replacement ",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P2.F4",
+   "summary": "(apoE3 -> apoE4) -> (greater intracellular insulin-receptor localization)",
+   "system": "Human SH-SY5Y neuroblastoma neuronal cells expressing transfected human IR-GFP; overnight 100 nM recombinant apoE3 or apoE4, without insulin; confocal microscop",
+   "class": 3,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P2.F5",
+   "summary": "(apoE3 -> apoE4) -> (reduced insulin-induced increase in endosomal insulin receptor)",
+   "system": "Human SH-SY5Y cells expressing human IR-GFP; overnight 100 nM recombinant apoE, transferrin labeling for one hour, and 100 nM insulin during the final 30 minute",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P2.F6",
+   "summary": "(apoE3 -> apoE4) -> (no change in neuronal surface LRP1)",
+   "system": "Primary cortical neurons from embryonic Apoe−/− mice treated with recombinant apoE isoforms; cell-surface biotinylation and LRP1 immunoblotting.",
+   "class": 3,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P2.F7",
+   "summary": "(apoE3 -> apoE4) -> (greater intracellular insulin-receptor retention at 60 minutes)",
+   "system": "Primary cortical neurons from embryonic Apoe−/− mice; surface proteins labeled with cleavable biotin at 4°C, then 100 nM recombinant apoE at 37°C; surface strip",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P2.F8",
+   "summary": "(apoE3 -> apoE4) -> (reduced post-internalization loss of intracellular insulin receptor)",
+   "system": "Primary cortical Apoe−/− mouse neurons; cleavable surface biotin, 100 nM insulin with 100 nM recombinant apoE, incubation at 37°C, surface stripping and intrace",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P2.F9",
+   "summary": "(apoE3 -> apoE4) -> (higher binding affinity for insulin receptor)",
+   "system": "Cell-free assay using recombinant human apoE isoforms and human insulin receptor; apoE immobilized at 400 ng/well, receptor binding measured after 24 hours at 4",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P2.F10",
+   "summary": "(apoE3 -> apoE4) -> (greater insulin-receptor association)",
+   "system": "Cell-free solution binding of recombinant human apoE at 1 μM and human insulin receptor at 400 nM for one hour at 37°C, followed by apoE immunoprecipitation and",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P2.F11",
+   "summary": "(apoE3 -> apoE4) -> (reduced insulin-induced increase in intracellular insulin receptor)",
+   "system": "Human SH-SY5Y cells transfected with human IR-GFP; overnight 100 nM recombinant apoE followed by 100 nM insulin for 30 minutes; confocal microscopy.",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P2.F12",
+   "summary": "(apoE3 -> apoE4) -> (lower neuronal surface insulin receptor)",
+   "system": "Primary cortical neurons from embryonic day 16–18 Apoe−/− mice, cultured to DIV10, treated overnight with 100 nM recombinant human apoE; surface biotinylation a",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P2.F13",
+   "summary": "(apoE3 -> apoE4) -> (less insulin-induced insulin-receptor internalization)",
+   "system": "DIV10 primary cortical neurons from embryonic Apoe−/− mice; overnight 100 nM recombinant human apoE isoforms followed by 100 nM insulin for 30 minutes; changes ",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P2.F14",
+   "summary": "(apoE3 -> apoE4) -> (lower neuronal surface insulin receptor)",
+   "system": "Primary cortical neurons from embryonic Apoe−/− mice treated with recombinant apoE isoforms; cell-surface biotinylation followed by surface and total protein im",
+   "class": 3,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P2.F15",
+   "summary": "(apoE3 -> apoE4) -> (greater inhibition of insulin binding to insulin receptor)",
+   "system": "Cell-free competition assay with recombinant human apoE, biotinylated human insulin at 8 nM and human insulin receptor at 80 nM; one-hour incubation at 37°C fol",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P2.F16",
+   "summary": "(apoE3 -> apoE4) -> (no significant difference detected in lysosomal insulin-receptor localization)",
+   "system": "Human SH-SY5Y cells expressing human IR-GFP; overnight 100 nM recombinant apoE; 10 μM Lysotracker for one hour, with or without 100 nM insulin for 30 minutes; c",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P3.F1",
+   "summary": "(apoE3 -> apoE4) -> (no change in lipid-free apoE binding affinity for VLDLR)",
+   "system": "Purified lipid-free apoE3 and apoE4 injected over immobilized soluble human VLDLR repeats 1–8 on CM5 SPR chips; receptor density 120 RU; HBS-P buffer, pH 7.4; 3",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P3.F2",
+   "summary": "(apoE3 -> apoE4) -> (no change in VLDLR binding reported)",
+   "system": "Purified soluble human VLDLR ligand-binding repeats 1–8; purified apoE isoforms immobilized on microtiter wells at 4 µg/ml; increasing receptor concentrations i",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P3.F3",
+   "summary": "(apoE3 -> apoE4) -> (undetectable to weak lipid-free apoE binding to LRP)",
+   "system": "Purified lipid-free apoE isoforms and human placental LRP immobilized on CM5 SPR chips at 3,500 RU; apoE2/apoE3 disulfide-linked aggregates removed when present",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P3.F4",
+   "summary": "(apoE3 -> apoE4) -> (no change in detectable lipid-free apoE binding to LDLR)",
+   "system": "Purified lipid-free apoE isoforms tested against soluble LDLR by SPR; soluble LDLR preparations were produced in Escherichia coli; LDLR-specific chip configurat",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P4.F1",
+   "summary": "(apoE3 -> apoE4) -> (lower surface Apoer2; delayed receptor recycling)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14, exposed to HEK293-secreted human ApoE particles and Reelin; Results describe 1 h ApoE pretreatment, wh",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P4.F2",
+   "summary": "(apoE3 -> apoE4) -> (lower surface-to-total Apoer2 ratio)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; human cell-secreted ApoE particles followed by Reelin; surface biotinylation and immunoblot quantifica",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P4.F3",
+   "summary": "(apoE3 -> apoE4) -> (greater retained ApoE–Apoer2 association)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; HEK293-secreted human ApoE3 or ApoE4, 5 µg/ml for 3 h at 37°C; anti-Apoer2 co-immunoprecipitation from",
+   "class": 3,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P4.F4",
+   "summary": "(apoE3 -> apoE4) -> (greater Apoer2 recycling impairment)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; human cell-secreted ApoE3 or ApoE4, standard 5 µg/ml, followed by Reelin; no-drug comparison; surface ",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P4.F6",
+   "summary": "(apoE3 -> apoE4) -> (no change in Apoer2 binding reported)",
+   "system": "Quantification of the cell-free human ApoE pull-down by mouse Apoer2-Fc; HEK293-secreted ApoE particles at 0–10 µg/ml, incubated with receptor-bearing beads for",
+   "class": 1,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P4.F7",
+   "summary": "(apoE3 -> apoE4) -> (comparable surface Lrp1)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; HEK293-secreted human ApoE3 or ApoE4 and Reelin; surface biotinylation and surface/total Lrp1 immunobl",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P4.F8",
+   "summary": "(apoE3 -> apoE4) -> (comparable surface-to-total Lrp1 ratios)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; human ApoE3 or ApoE4 and Reelin; quantitative surface-biotinylation immunoblot assay for Lrp1.",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P4.F9",
+   "summary": "(increased NHE inhibition with apoE4 present) -> (restored Apoer2 surface recycling)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; EMD87580 pretreatment for 1 h, followed by human cell-secreted ApoE4 and Reelin; EMD87580 dose series;",
+   "class": 5,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P4.F10",
+   "summary": "(proton-pump inhibition with apoE4 and EMD87580 present) -> (renewed Apoer2 recycling impairment)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; human ApoE4 and Reelin, EMD87580 3 µM, and increasing bafilomycin concentrations; drugs preincubated b",
+   "class": 5,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P4.F11",
+   "summary": "(NHE6 knockdown with apoE4 present) -> (restored surface Apoer2)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons; lentiviral NHE6 shRNA construct 1, corresponding to shNHE6 a/TRCN0000068828; assay 3 days after infection; huma",
+   "class": 5,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P4.F12",
+   "summary": "(no added apoE4 -> added apoE4) -> (lower surface Apoer2)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; Fig 2B lane 1 (Reelin alone) versus lane 3 (human cell-secreted ApoE4 then Reelin); ApoE pretreatment ",
+   "class": 4,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P4.F14",
+   "summary": "(no added apoE4 -> added apoE4) -> (lower surface Apoer2)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; control C+R versus E4+R, with human cell-secreted ApoE4 and Reelin; surface/total Apoer2 immunoblottin",
+   "class": 4,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P4.F15",
+   "summary": "(no added apoE4 -> added apoE4) -> (lower surface-to-total Apoer2)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; no-knockdown C+R versus E4+R comparison; surface biotinylation and surface/total Apoer2 immunoblot qua",
+   "class": 4,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P4.F16",
+   "summary": "(no added apoE4 -> added apoE4) -> (lower surface-to-total Apoer2)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; no-knockdown C+R versus E4+R; surface biotinylation and Apoer2 surface/total immunoblot quantification",
+   "class": 4,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P4.F17",
+   "summary": "(no added apoE4 -> added apoE4) -> (lower surface Apoer2)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; Fig 6B lanes 1 versus 2, both with Reelin, without inhibitor or shRNA; human cell-secreted ApoE4; surf",
+   "class": 4,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P4.F18",
+   "summary": "(no added apoE4 -> added apoE4, scrambled shRNA) -> (lower surface Apoer2)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons; lentiviral scrambled shRNA, experiments 3 days after infection at DIV9–14; Fig 6B lanes 4 versus 5, both Reelin",
+   "class": 4,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P4.F19",
+   "summary": "(no added apoE4 -> added apoE4) -> (lower surface-to-total Apoer2)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; no-shRNA/no-inhibitor comparison corresponding to Fig 6B lanes 1 and 2; human ApoE4 and Reelin; surfac",
+   "class": 4,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P4.F20",
+   "summary": "(NHE inhibition with apoE4 present) -> (restored surface GluN2B)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; EMD87580 3 µM, standard 1 h pretreatment; human ApoE4 and Reelin; quantified surface/total GluN2B corr",
+   "class": 5,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P4.F24",
+   "summary": "(no added apoE4 -> added apoE4) -> (lower surface GluN2B)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; Fig 6B lanes 1 versus 2, Reelin in both; human ApoE4 added without inhibitor or shRNA; surface biotiny",
+   "class": 4,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P4.F25",
+   "summary": "(no added apoE4 -> added apoE4) -> (lower surface GluA1)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; Fig 6B lanes 1 versus 2, both Reelin-treated; human ApoE4 addition without inhibitor or shRNA; surface",
+   "class": 4,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P4.F26",
+   "summary": "(no added apoE4 -> added apoE4) -> (lower surface GluA2/3)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; Fig 6B lanes 1 versus 2 with Reelin; human ApoE4 added without inhibitor or shRNA; surface biotinylati",
+   "class": 4,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P4.F27",
+   "summary": "(no added apoE4 -> added apoE4, scrambled shRNA) -> (lower surface GluN2B)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons with lentiviral scrambled shRNA; human ApoE4 versus no ApoE4, Reelin in both; Fig 6B lanes 4 versus 5; surface b",
+   "class": 4,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P4.F28",
+   "summary": "(no added apoE4 -> added apoE4, scrambled shRNA) -> (lower surface GluA1)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons with lentiviral scrambled shRNA; Fig 6B lanes 4 versus 5, human ApoE4 versus none and Reelin in both; surface-bi",
+   "class": 4,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P4.F29",
+   "summary": "(no added apoE4 -> added apoE4, scrambled shRNA) -> (lower surface GluA2/3)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons with lentiviral scrambled shRNA; Fig 6B lanes 4 versus 5, human ApoE4 versus none with Reelin; surface biotinyla",
+   "class": 4,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P4.F30",
+   "summary": "(no added apoE4 -> added apoE4) -> (lower surface-to-total GluN2B)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; human ApoE4 versus none with Reelin, without inhibitor or shRNA; GluN2B surface/total quantification c",
+   "class": 4,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P4.F31",
+   "summary": "(no added apoE4 -> added apoE4) -> (lower surface-to-total GluA1)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; human ApoE4 versus none with Reelin, without inhibitor or shRNA; GluA1 surface/total quantification co",
+   "class": 4,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P4.F32",
+   "summary": "(no added apoE4 -> added apoE4) -> (lower surface-to-total GluA2/3)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; human ApoE4 versus none with Reelin, without inhibitor or shRNA; GluA2/3 surface/total quantification ",
+   "class": 4,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P4.F33",
+   "summary": "(NHE5 knockdown with apoE4 present) -> (no change in surface Apoer2)",
+   "system": "Primary E18 Sprague-Dawley rat cortical neurons; lentiviral NHE5 shRNA, assay 3 days after infection; human ApoE4 plus Reelin; surface-biotinylation Apoer2 quan",
+   "class": 5,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P5.F1",
+   "summary": "(apoE3 -> apoE4) -> (lower kinetic KD and higher affinity for LRP1)",
+   "system": "Cell-free SPR using a Biacore 3000; full-length human LRP1 purified from placenta and immobilized on a sensor chip; commercial recombinant lipid-free human apoE",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P5.F2",
+   "summary": "(apoE3 -> apoE4) -> (lower equilibrium KD and higher affinity for LRP1)",
+   "system": "Cell-free Biacore 3000 SPR of commercial recombinant lipid-free human apoE expressed in E. coli binding immobilized full-length human LRP1 purified from placent",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P5.F3",
+   "summary": "(apoE3 -> apoE4) -> (lower first dissociation rate constant from LRP1)",
+   "system": "Cell-free Biacore 3000 SPR; recombinant lipid-free human apoE expressed in E. coli and immobilized full-length human placental LRP1; global bivalent-model fitti",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P5.F4",
+   "summary": "(apoE3 -> apoE4) -> (higher first association rate constant for LRP1)",
+   "system": "Cell-free Biacore 3000 SPR; recombinant lipid-free human apoE expressed in E. coli and immobilized full-length human placental LRP1; global bivalent-model fitti",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P5.F5",
+   "summary": "(apoE3 -> apoE4) -> (slightly higher second association rate constant in the LRP1 bivalent-binding model)",
+   "system": "Cell-free Biacore 3000 SPR; recombinant lipid-free human apoE expressed in E. coli binding immobilized full-length human placental LRP1; global bivalent-binding",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P5.F6",
+   "summary": "(apoE3 -> apoE4) -> (slightly higher second dissociation rate constant in the LRP1 bivalent-binding model)",
+   "system": "Cell-free Biacore 3000 SPR; recombinant lipid-free human apoE expressed in E. coli binding immobilized full-length human placental LRP1; global bivalent-binding",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P6.F1",
+   "summary": "(lipid-poor apoE3 -> lipid-poor apoE4) -> (lower abluminal microvessel binding)",
+   "system": "Isolated mouse brain microvessels; general animal methods specify male C57BL/6-background mice aged 2–3 months; 2 nM radiolabeled Sf9-derived recombinant human ",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P6.F2",
+   "summary": "(Aβ40–apoE2 -> Aβ40–apoE4) -> (loss of detectable LRP1 binding)",
+   "system": "Isolated mouse brain microvessels; purified radiolabeled synthetic human Aβ40–human apoE complexes at 2 nM; binding at 4°C with receptor-blocking antibodies or ",
+   "class": 5,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P7.F1",
+   "summary": "(ApoE3 -> ApoE4) -> (lower neuronal surface Apoer2)",
+   "system": "Primary cortical neurons from embryonic day 18 wild-type mice at 12–13 days in vitro; treatment with 3 μg/mL HEK293-secreted human ApoE3 or ApoE4 for 15 minutes",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P7.F2",
+   "summary": "(ApoE3 -> ApoE4, with Reelin) -> (lower neuronal surface Apoer2)",
+   "system": "Primary cortical neurons from embryonic day 18 wild-type mice at 12–13 days in vitro; 3 μg/mL HEK293-secreted human ApoE isoforms plus 2 μg/mL Reelin for 2 hour",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P7.F3",
+   "summary": "(no added ApoE -> ApoE4, with Reelin) -> (lower neuronal surface Apoer2)",
+   "system": "Primary cortical neurons from embryonic day 18 wild-type mice at 12–13 days in vitro; control medium or 3 μg/mL HEK293-secreted human ApoE4 together with 2 μg/m",
+   "class": 4,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P7.F4",
+   "summary": "(ApoE3 -> ApoE4) -> (delayed ApoE recycling and greater intracellular ApoE retention)",
+   "system": "Primary cortical neurons from embryonic day 18 wild-type mice, cultured for 12–13 days; human ApoE lipoproteins naturally secreted by stably transfected HEK293 ",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P7.F5",
+   "summary": "(ApoE3 -> ApoE4, with Reelin) -> (lower neuronal surface GluN2B)",
+   "system": "Primary embryonic wild-type mouse cortical neurons at 12–13 days in vitro, exposed to HEK293-secreted human ApoE isoforms and acute Reelin stimulation; surface ",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P8.F1",
+   "summary": "(APOE3 -> APOE4) -> (lower apoE–LRP1 association in pericytes)",
+   "system": "Cultured mouse pericytes exposed to astrocyte-derived human APOE3 or APOE4; APOE–LRP1 proximity ligation imaging. The associated culture experiments use Apoe−/−",
+   "class": 3,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P9.F1",
+   "summary": "(APOE3 -> APOE4) -> (greater intracellular LRP1 accumulation and less LRP1 in processes)",
+   "system": "Cultured mouse astrocytes with human APOE3 or APOE4 knock-in on an ApoE-knockout background; age and strain not stated. Fixed-cell LRP1 immunofluorescence asses",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P9.F2",
+   "summary": "(NHE6 expression in APOE4 astrocytes) -> (higher surface LRP1)",
+   "system": "Cultured mouse astrocytes with human APOE4 knock-in on an ApoE-knockout background; age and strain unstated. Lentiviral NHE6-GFP expression versus empty vector;",
+   "class": 5,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P9.F3",
+   "summary": "(APOE3 -> APOE4) -> (lower surface LRP1)",
+   "system": "Cultured mouse astrocytes with isogenic human APOE3 or APOE4 knock-in on an ApoE-knockout background; age and strain not stated. Surface biotinylation and immun",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P9.F4",
+   "summary": "(APOE3 -> APOE4) -> (lower surface LRP1 positivity)",
+   "system": "Cultured mouse astrocytes with human APOE3 or APOE4 knock-in on an ApoE-knockout background; age and strain not stated. Live, nonpermeabilized cells labeled on ",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P9.F5",
+   "summary": "(APOE3 -> APOE4) -> (lower surface LRP1 staining)",
+   "system": "Cultured mouse astrocytes with human APOE3 or APOE4 knock-in on an ApoE-knockout background; age and strain not stated. Live-cell external-epitope anti-LRP1 lab",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P9.F6",
+   "summary": "(NHE6 expression in APOE4 astrocytes) -> (higher surface LRP1)",
+   "system": "Cultured mouse astrocytes with human APOE4 knock-in on an ApoE-knockout background; age and strain not stated. Lentiviral expression of wild-type NHE6-GFP versu",
+   "class": 5,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P9.F7",
+   "summary": "(NHE6 expression in APOE4 astrocytes) -> (less perinuclear LRP1 and restored process localization)",
+   "system": "Cultured mouse astrocytes with human APOE4 knock-in on an ApoE-knockout background, with APOE3 astrocytes as a reference; age and strain unstated. NHE6-GFP expr",
+   "class": 5,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P9.F8",
+   "summary": "(TSA treatment in APOE4 astrocytes) -> (higher surface LRP1)",
+   "system": "Cultured mouse astrocytes with human APOE4 knock-in on an ApoE-knockout background; age and strain not stated. TSA, 5 μM for 12 hours, versus DMSO; surface LRP1",
+   "class": 5,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P9.F9",
+   "summary": "(APOE3 -> APOE4) -> (lower surface LRP1 during internalization assay)",
+   "system": "Cultured mouse astrocytes with human APOE3 or APOE4 knock-in on an ApoE-knockout background; age and strain unstated. Cells labeled with external-epitope anti-L",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P9.F10",
+   "summary": "(APOE3 -> APOE4) -> (lower surface Aβ binding)",
+   "system": "Cultured mouse astrocytes with human APOE3 or APOE4 knock-in on an ApoE-knockout background; age and strain not stated. After 30-minute serum starvation, 100 nM",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P9.F11",
+   "summary": "(APOE3/3 control fibroblasts -> APOE4/4 AD fibroblasts) -> (lower surface LRP1 positivity)",
+   "system": "Human primary fibroblast lines APOE3/3 AG04387 and AD-patient-derived APOE4/4 AG10788; age matched, exact ages unstated. External-epitope anti-LRP1 labeling of ",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P9.F12",
+   "summary": "(APOE3 -> APOE4) -> (no change in normalized LRP1 internalization)",
+   "system": "Cultured mouse astrocytes with human APOE3 or APOE4 knock-in on an ApoE-knockout background; age and strain unstated. External-epitope anti-LRP1 labeling on ice",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P10.F1",
+   "summary": "(apoE3 -> apoE4) -> (reduced sortilin recycling to the cell surface)",
+   "system": "Hamster CHO-S cells expressing murine sortilin; surface-biotinylation assay with 5 µg/mL apoE3 or apoE4, 15-minute internalization and 60-minute recycling at 37",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P10.F2",
+   "summary": "(apoE3 -> apoE4) -> (reduced cell-surface recycling and increased intracellular retention of sortilin)",
+   "system": "Hamster CHO-S cells stably expressing murine sortilin in apoE3- or apoE4-conditioned medium; surface receptors antibody-labeled at 4 °C, internalized for 15 min",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P10.F3",
+   "summary": "(apoE3 -> apoE4) -> (higher Manders tM1 colocalization of sortilin–apoE complexes with transferrin)",
+   "system": "Hamster CHO-S cells expressing murine sortilin; 2-hour treatment with 5 µg/mL myc-tagged apoE3 or apoE4 followed by 20 minutes with 25 µg/mL fluorescent transfe",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P10.F4",
+   "summary": "(apoE3 -> apoE4) -> (greater sortilin–apoE complex localization in transferrin-positive endocytic/recycling compartments)",
+   "system": "Hamster CHO-S cells stably expressing murine sortilin, treated for 2 hours with 5 µg/mL myc-tagged apoE3 or apoE4, followed by 25 µg/mL Alexa Fluor 647-conjugat",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P10.F5",
+   "summary": "(apoE3 -> apoE4) -> (juxtamembrane rather than dispersed cytoplasmic localization of sortilin–apoE complexes)",
+   "system": "Chinese hamster ovary cells stably expressing murine sortilin (CHO-S), treated for 24 hours at 37 °C with 5 µg/mL myc-tagged apoE3 or apoE4 produced in HEK293 c",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P11.F1",
+   "summary": "(ApoE3 -> ApoE4) -> (lower neuronal surface ApoER2 during Reelin stimulation)",
+   "system": "Primary cortical neurons isolated from E18 Slc9a6 wildtype mouse embryos, with female Slc9a6+/+ and male Slc9a6y/+ littermates represented; no AD-model mutation",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P11.F2",
+   "summary": "(No added apoE -> added ApoE4) -> (lower neuronal surface ApoER2 during Reelin stimulation)",
+   "system": "Primary cortical neurons from E18 Slc9a6 wildtype mouse embryos, assayed at DIV10–14; no AD-model mutation reported. Human ApoE4 was supplied in HEK293 conditio",
+   "class": 4,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P11.F3",
+   "summary": "(NHE6 present -> NHE6 deleted, with ApoE4) -> (restored neuronal surface ApoER2)",
+   "system": "Primary cortical neurons from E18 germline Slc9a6-knockout mouse embryos and wildtype littermates, including female Slc9a6-/- and male Slc9a6y/- knockouts; no A",
+   "class": 5,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P11.F8",
+   "summary": "(NHE6 present -> NHE6 deleted, with ApoE4) -> (restored neuronal surface GluN2B)",
+   "system": "Primary cortical neurons from E18 germline Slc9a6-knockout mouse embryos and wildtype littermates, assayed at DIV10–14; no AD-model mutation reported. Human Apo",
+   "class": 5,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P12.F1",
+   "summary": "(APOE3 -> APOE4) -> (lower neuronal APOER2 surface-to-total ratio)",
+   "system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; surface biotin",
+   "class": 3,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P12.F2",
+   "summary": "(APOE3 -> APOE4) -> (higher fraction of APOER2 colocalizing with early endosomes)",
+   "system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; APOER2/Rab5 do",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P12.F3",
+   "summary": "(APOE3 -> APOE4) -> (higher fraction of APOER2 colocalizing with early endosomes)",
+   "system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; APOER2/Rab5 do",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P12.F4",
+   "summary": "(APOE3 -> APOE4) -> (lower neuronal LRP1 surface-to-total ratio)",
+   "system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; surface biotin",
+   "class": 3,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P12.F5",
+   "summary": "(APOE3 -> APOE4) -> (no change in APOER2 colocalization with recycling endosomes)",
+   "system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; APOER2/Rab11 d",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P12.F6",
+   "summary": "(LRP1 knockdown in APOE4 neurons) -> (lower fraction of APOER2 colocalizing with early endosomes)",
+   "system": "Brain-derived primary neurons from neonatal human-APOE4 targeted-replacement mice on an α-synuclein-null background; AAV9 LRP1 gRNA plus Cas9 at DIV3; collectio",
+   "class": 5,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P12.F7",
+   "summary": "(APOE3 -> APOE4) -> (lower fraction of LRP1 colocalizing with early endosomes)",
+   "system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; LRP1/Rab5 doub",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P12.F8",
+   "summary": "(APOE3 -> APOE4) -> (lower fraction of LRP1 colocalizing with early endosomes)",
+   "system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; LRP1/Rab5 doub",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P12.F9",
+   "summary": "(APOE3 -> APOE4) -> (no change in LRP1 colocalization with recycling endosomes)",
+   "system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; LRP1/Rab11 dou",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P12.F10",
+   "summary": "(APOE3 -> APOE4) -> (no change in APOER2 colocalization with late endosomes)",
+   "system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; APOER2/Rab7 do",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P12.F11",
+   "summary": "(APOER2 knockdown in APOE4 neurons) -> (no change in LRP1 colocalization with early endosomes)",
+   "system": "Brain-derived primary neurons from neonatal human-APOE4 targeted-replacement mice on an α-synuclein-null background; AAV9 APOER2 gRNA plus Cas9 at DIV3; collect",
+   "class": 5,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P12.F12",
+   "summary": "(APOER2 knockdown in APOE4 neurons) -> (lower fraction of insulin receptor colocalizing with early endosomes)",
+   "system": "Brain-derived primary neurons from neonatal human-APOE4 targeted-replacement mice on an α-synuclein-null background; AAV9 APOER2 gRNA plus Cas9 at DIV3; collect",
+   "class": 5,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P12.F13",
+   "summary": "(APOER2 knockdown in APOE4 neurons) -> (lower fraction of VEGFR2 colocalizing with early endosomes)",
+   "system": "Brain-derived primary neurons from neonatal human-APOE4 targeted-replacement mice on an α-synuclein-null background; AAV9 APOER2 gRNA plus Cas9 at DIV3; collect",
+   "class": 5,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P12.F14",
+   "summary": "(APOE3 -> APOE4) -> (higher fraction of insulin receptor colocalizing with early endosomes)",
+   "system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; insulin-recept",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P12.F16",
+   "summary": "(APOE3 -> APOE4) -> (lower fraction of insulin receptor colocalizing with recycling endosomes)",
+   "system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; insulin-recept",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P12.F18",
+   "summary": "(APOE3 -> APOE4) -> (lower fraction of VEGFR2 colocalizing with recycling endosomes)",
+   "system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; VEGFR2/Rab11 d",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P12.F19",
+   "summary": "(LRP1 knockdown in APOE4 neurons) -> (lower fraction of insulin receptor colocalizing with early endosomes)",
+   "system": "Brain-derived primary neurons from neonatal human-APOE4 targeted-replacement mice on an α-synuclein-null background; AAV9 LRP1 gRNA plus Cas9 at DIV3; collectio",
+   "class": 5,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P12.F20",
+   "summary": "(LRP1 knockdown in APOE4 neurons) -> (lower fraction of VEGFR2 colocalizing with early endosomes)",
+   "system": "Brain-derived primary neurons from neonatal human-APOE4 targeted-replacement mice on an α-synuclein-null background; AAV9 LRP1 gRNA plus Cas9 at DIV3; collectio",
+   "class": 5,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P12.F21",
+   "summary": "(APOE3 -> APOE4) -> (no change in neuronal insulin-receptor surface-to-total ratio)",
+   "system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; surface biotin",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P12.F22",
+   "summary": "(APOE3 -> APOE4) -> (no change in neuronal VEGFR2 surface-to-total ratio)",
+   "system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; surface biotin",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P12.F23",
+   "summary": "(APOE3 -> APOE4) -> (lower fraction of LRP1 colocalizing with late endosomes)",
+   "system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; LRP1/Rab7 doub",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P12.F24",
+   "summary": "(APOE3 -> APOE4) -> (lower fraction of APOER2 colocalizing with lysosomes)",
+   "system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; APOER2/CatD do",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P12.F25",
+   "summary": "(APOE3 -> APOE4) -> (lower fraction of insulin receptor colocalizing with late endosomes)",
+   "system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; insulin-recept",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P12.F26",
+   "summary": "(APOE3 -> APOE4) -> (lower fraction of VEGFR2 colocalizing with late endosomes)",
+   "system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; VEGFR2/Rab7 do",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P12.F27",
+   "summary": "(APOE3 -> APOE4) -> (lower fraction of LRP1 colocalizing with lysosomes)",
+   "system": "Brain-derived neuron-enriched primary cultures from 1–3-day-old human-APOE3/4 targeted-replacement mice on an α-synuclein-null background; DIV21; LRP1/CatD doub",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P13.F1",
+   "summary": "(apoE3 -> apoE4, after axotomy) -> (greater surface LRP8 response)",
+   "system": "Primary cortical neurons from P1 wild-type mice; day-7 axotomy; purified human apoE3 or apoE4 lipoparticles, 12 µg/ml, added 24 hours later; day-12 reelin, 2 µg",
+   "class": 3,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P13.F2",
+   "summary": "(no added human apoE -> added apoE4) -> (axotomy-associated increase in surface LRP8)",
+   "system": "P1 wild-type mouse primary cortical neurons retaining endogenous mouse ApoE; day-7 axotomy; purified human apoE4, 12 µg/ml, added 24 hours later versus no exoge",
+   "class": 4,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P13.F3",
+   "summary": "(no added human apoE -> added apoE4, without axotomy) -> (no change in surface LRP8)",
+   "system": "Uninjured primary cortical neurons from P1 wild-type mice, with endogenous mouse ApoE; purified human apoE4 lipoparticles, 12 µg/ml, versus no exogenous human a",
+   "class": 4,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P13.F4",
+   "summary": "(apoE3 -> apoE4) -> (no change in surface LRP5)",
+   "system": "P1 wild-type mouse primary cortical neurons from the Fig. 4J experiment; purified human apoE3 or apoE4 lipoparticles, 12 µg/ml; with or without day-7 axotomy; r",
+   "class": 3,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P13.F5",
+   "summary": "(APOE3 -> APOE4) -> (no change in cortical neuronal LRP5 localization)",
+   "system": "Human APOE3- and APOE4-knock-in adult female mice; layer-5 M1 cortex 42 days after thoracic dorsal over-hemisection and age-matched naive controls; LRP5/NeuN im",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P14.F1",
+   "summary": "(APOE3 -> APOE4) -> (no change in normalized transferrin recycling rate)",
+   "system": "Human homozygous isogenic BIONi037-A/APOE3 versus BIONi037-A4/APOE4 and Alstem iPS26/APOE3 versus iPS16/APOE4 iCE-BECs on differentiation day 14. A 20-minute pu",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P15.F1",
+   "summary": "(no added apoE4 -> added apoE4) -> (lower cell-surface ApoER2)",
+   "system": "Mouse Neuro-2a neuroblastoma cells stably expressing human Swedish-mutant APP, supplied by Dr. Riqiang Yan, transiently transfected with murine ApoER2 and human",
+   "class": 4,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P15.F2",
+   "summary": "(no added apoE4 -> added apoE4) -> (more internalized ApoER2)",
+   "system": "Mouse Neuro-2a neuroblastoma cells stably expressing human Swedish-mutant APP, supplied by Dr. Riqiang Yan, transiently transfected with murine ApoER2 and human",
+   "class": 4,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P16.F1",
+   "summary": "(apoE3 -> apoE4) -> (greater recycling-endosomal colocalization of sortilin–FABP7 complexes)",
+   "system": "CHO-K1-derived Chinese hamster ovary cells stably overexpressing mouse sortilin and Myc-tagged mouse FABP7 (CHO-S/F), treated for 24 h with HEK293-conditioned m",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P16.F2",
+   "summary": "(apoE3 -> apoE4) -> (more perinuclear localization of sortilin)",
+   "system": "CHO-K1-derived Chinese hamster ovary cells stably overexpressing mouse sortilin and Myc-tagged mouse FABP7 (CHO-S/F), treated for 24 h with HEK293-conditioned m",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P16.F4",
+   "summary": "(apoE3 -> apoE4) -> (more confined perinuclear localization of sortilin–FABP7 complexes)",
+   "system": "CHO-K1-derived Chinese hamster ovary cells stably overexpressing mouse sortilin and Myc-tagged mouse FABP7 (CHO-S/F), treated for 24 h with HEK293-conditioned m",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P17.F1",
+   "summary": "(APOE3 -> APOE4 in donor mice) -> (lower VLDL competition Ki for human LDL receptor binding and internalization)",
+   "system": "Immortalized human fibroblasts supplied by J. Herz, exposed at 37°C to fluorescently labeled human LDL (50 μg/mL) and competing VLDL (0.5–100 μg/mL total protei",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P18.F1",
+   "summary": "(APOE3 -> APOE4) -> (no change in detectable binding to Neuro-2a membrane proteins)",
+   "system": "Human apoE3 and apoE4 particles were immunoaffinity-purified from conditioned medium of stably transfected murine Neuro-2a neuroblastoma clones 1B and 1E4A, res",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P19.F1",
+   "summary": "(DMPC-apoE3 -> DMPC-apoE4) -> (lower concentration required for 50% inhibition of LDLR binding)",
+   "system": "Normal human fibroblasts cultured for one week before binding assays; donor age and tissue source unspecified. Recombinant human apoE3 or apoE4 was mixed with D",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P19.F2",
+   "summary": "(apoE3 -> apoE4) -> (no change in reported single-cycle apoE trafficking kinetics)",
+   "system": "Wild-type mouse embryonic fibroblasts (MEF-1), expressing LRP and LDLR; mouse age and background unspecified. SEC-isolated, virtually lipid-free human HEK-293-s",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P20.F1",
+   "summary": "Full-length apoE3 and apoE4 showed similar observed LDLR competition at 0.125 mg with DMPC.",
+   "system": "Human HepG2 hepatoblastoma cells; recombinant human full-length apoE expressed in E. coli with a C-terminal His tag, complexed with DMPC; 0.125 mg competitor; c",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P20.F2",
+   "summary": "Full-length apoE4 retained 99% of apoE3’s reported LDLR binding ability with DMPC.",
+   "system": "Human HepG2 hepatoblastoma cells; E. coli-expressed, C-terminally His-tagged human full-length apoE; Table 4 reports 0.5 mg protein with 0.5 mg DMPC. Full-lengt",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P20.F3",
+   "summary": "Full-length apoE3 and apoE4 gave identical reported LDLR competition without DMPC.",
+   "system": "Human HepG2 hepatoblastoma cells; 0.5 mg E. coli-expressed, C-terminally His-tagged human full-length apoE without DMPC; 24 h serum starvation followed by compe",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P20.F4",
+   "summary": "(apoE3-(1–231) -> apoE4-(1–231)) -> (greater LDLR competition with DMPC)",
+   "system": "Human HepG2 hepatoblastoma cells; E. coli-expressed, C-terminally His-tagged human apoE-(1–231); 0.5 mg protein with DMPC; competitive 3H-LDL binding at 4 °C fo",
+   "class": 2,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P20.F5",
+   "summary": "(apoE3-(72–299) -> apoE4-(72–299)) -> (greater LDLR competition without DMPC)",
+   "system": "Human HepG2 hepatoblastoma cells; 0.5 mg E. coli-expressed, C-terminally His-tagged human apoE-(72–299) without DMPC; competitive 3H-LDL binding at 4 °C for 2 h",
+   "class": 2,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P20.F6",
+   "summary": "(apoE3-(72–299) -> apoE4-(72–299)) -> (greater LDLR competition with DMPC)",
+   "system": "Human HepG2 hepatoblastoma cells; E. coli-expressed, C-terminally His-tagged human apoE-(72–299); 0.5 mg protein with DMPC; competitive 3H-LDL binding at 4 °C f",
+   "class": 2,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P20.F7",
+   "summary": "(apoE3-(1–191) -> apoE4-(1–191)) -> (lower LDLR competition with DMPC)",
+   "system": "Human HepG2 hepatoblastoma cells; E. coli-expressed, C-terminally His-tagged human apoE-(1–191); 0.5 mg protein with DMPC; 3H-LDL competition measured after 2 h",
+   "class": 2,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P20.F8",
+   "summary": "(apoE3-(1–271) -> apoE4-(1–271)) -> (greater LDLR competition with DMPC)",
+   "system": "Human HepG2 hepatoblastoma cells; E. coli-expressed, C-terminally His-tagged human apoE-(1–271); 0.5 mg protein with DMPC; cell-associated 3H-LDL measured after",
+   "class": 2,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P20.F9",
+   "summary": "(apoE3-(1–191) -> apoE4-(1–191)) -> (greater LDLR competition without DMPC)",
+   "system": "Human HepG2 hepatoblastoma cells; 0.5 mg E. coli-expressed, C-terminally His-tagged human apoE-(1–191) without DMPC; competitive 3H-LDL binding at 4 °C for 2 h.",
+   "class": 2,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P20.F10",
+   "summary": "(apoE3-(41–299) -> apoE4-(41–299)) -> (slightly greater LDLR competition with DMPC)",
+   "system": "Human HepG2 hepatoblastoma cells; E. coli-expressed, C-terminally His-tagged human apoE-(41–299); 0.5 mg protein with DMPC; competitive cell-associated 3H-LDL b",
+   "class": 2,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P20.F11",
+   "summary": "(apoE3-(72–166) -> apoE4-(72–166)) -> (greater LDLR competition with DMPC)",
+   "system": "Human HepG2 hepatoblastoma cells; E. coli-expressed, C-terminally His-tagged human apoE-(72–166); 0.5 mg protein with DMPC; competitive 3H-LDL binding at 4 °C f",
+   "class": 2,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P20.F12",
+   "summary": "(apoE3-(41–299) -> apoE4-(41–299)) -> (greater LDLR competition without DMPC)",
+   "system": "Human HepG2 hepatoblastoma cells; 0.5 mg E. coli-expressed, C-terminally His-tagged human apoE-(41–299) without DMPC; competitive 3H-LDL binding measured at 4 °",
+   "class": 2,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P20.F13",
+   "summary": "(apoE3-(1–271) -> apoE4-(1–271)) -> (slightly greater LDLR competition without DMPC)",
+   "system": "Human HepG2 hepatoblastoma cells; 0.5 mg E. coli-expressed, C-terminally His-tagged human apoE-(1–271) without DMPC; competitive 3H-LDL binding at 4 °C for 2 h.",
+   "class": 2,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P20.F14",
+   "summary": "(apoE3-(72–166) -> apoE4-(72–166)) -> (greater LDLR competition without DMPC)",
+   "system": "Human HepG2 hepatoblastoma cells; 0.5 mg E. coli-expressed, C-terminally His-tagged human apoE-(72–166) without DMPC; competitive 3H-LDL binding at 4 °C for 2 h",
+   "class": 2,
+   "strength": "2 strong"
+  },
+  {
+   "finding_id": "P21.F1",
+   "summary": "(apoE3 -> apoE4, one apoE per LpB:E particle) -> (lower apparent LDLR dissociation constant)",
+   "system": "Human HeLa cells, a non-brain carcinoma cell line of unspecified source, were preincubated for 48 hours with 10% lipoprotein-deficient serum. Human plasma LpB:E",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P22.F1",
+   "summary": "(apoE3 -> apoE4) -> (higher Kd and weaker binding to WT-LRPIV)",
+   "system": "Cell-free binding ELISA using commercial apoE3 and apoE4 from Invitrogen and purified, untagged human WT-LRPIV expressed in CHO cells from a construct derived f",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P22.F2",
+   "summary": "(apoE3 -> apoE4) -> (lower Kd and stronger binding to LRPIV-D3674G)",
+   "system": "Cell-free binding ELISA using commercial apoE3 and apoE4 from Invitrogen and purified human LRPIV-D3674G expressed in CHO cells; D3674G replaces an aspartate in",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P23.F1",
+   "summary": "(APOE3/E3 -> APOE3/E4) -> (slower stable VLDL1-LDLR complex dissociation)",
+   "system": "Fasting human male plasma VLDL1-rich TRL, Sf 60–400, pooled from two subjects per sample; trial mean age 48 ± 16 years. LDLR ectodomain SPR, 5 nM apoB, 25 °C, t",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P23.F2",
+   "summary": "(APOE3/E3 -> APOE3/E4) -> (no change in overall VLDL1-LDLR binding affinity)",
+   "system": "Fasting human male plasma VLDL1-rich TRL, Sf 60–400, pooled from two subjects per sample; LDLR ectodomain SPR, 5 nM apoB, 25 °C, two-state fit. No receptor recy",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P23.F3",
+   "summary": "(APOE3/E3 -> APOE3/E4) -> (no change in stable VLDL2-LDLR complex dissociation rate)",
+   "system": "Fasting human male plasma VLDL2-rich TRL, Sf 20–60, pooled from two subjects per sample; LDLR ectodomain SPR, 5 nM apoB, 25 °C, two-state fit. No receptor recyc",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P23.F4",
+   "summary": "(APOE3/E3 -> APOE3/E4) -> (no change in postprandial VLDL1-LDLR binding)",
+   "system": "Human male crossover trial; VLDL1-rich TRL sampled at individual apoB/apoE peaks, usually 240–360 minutes after SFA, SFA-FO or UNSAT meals; two-subject pools. L",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P23.F5",
+   "summary": "(APOE3/E3 -> APOE3/E4) -> (no change in initial VLDL1-LDLR dissociation rate)",
+   "system": "Fasting human male plasma VLDL1-rich TRL, Sf 60–400, pooled from two subjects per sample; LDLR ectodomain SPR, 5 nM apoB, 25 °C, two-state fit. No receptor recy",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P23.F6",
+   "summary": "(APOE3/E3 -> APOE3/E4) -> (no change in initial VLDL1-LDLR equilibrium binding constant)",
+   "system": "Fasting human male plasma VLDL1-rich TRL, Sf 60–400, pooled from two subjects per sample; LDLR ectodomain SPR, 5 nM apoB, 25 °C, two-state fit. No receptor recy",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P23.F7",
+   "summary": "(APOE3/E3 -> APOE3/E4) -> (no change in VLDL1-LDLR stable-complex formation rate)",
+   "system": "Fasting human male plasma VLDL1-rich TRL, Sf 60–400, pooled from two subjects per sample; LDLR ectodomain SPR, 5 nM apoB, 25 °C, two-state fit. No receptor recy",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P23.F8",
+   "summary": "(APOE3/E3 -> APOE3/E4) -> (slower initial VLDL1-LDLR association)",
+   "system": "Fasting human male plasma VLDL1-rich TRL, Sf 60–400, pooled from two subjects per sample; trial mean age 48 ± 16 years. LDLR ectodomain SPR, 5 nM apoB, 25 °C, t",
+   "class": 3,
+   "strength": "3 moderate"
+  },
+  {
+   "finding_id": "P24.F1",
+   "summary": "(apoE3 -> apoE4) -> (no significant change in LRP1-associated cell-surface particle binding)",
+   "system": "Human GM00701 fibroblasts obtained from Coriell Institute, described as highly expressing LRP1 with little or no LDLR and SDC1; no heparinase pretreatment; synt",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P24.F2",
+   "summary": "(apoE3 -> apoE4) -> (qualitatively lower cell-associated particle fluorescence)",
+   "system": "Human Coriell GM00701 fibroblasts incubated with recombinant human apoE-containing synthetic fluorescent emulsion particles at 2.0 mg/dL apoE for 3 h at 4 °C; f",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P25.F1",
+   "summary": "(apoE3 -> apoE4) -> (no change in reported ability of apoE-enriched VLDL to compete for LDL receptor binding)",
+   "system": "Mouse J774 macrophage cell line; human recombinant apoE3 and apoE4 expressed in E. coli BL21(DE3) as fusion proteins with a 42-amino-acid amino-terminal extensi",
+   "class": 1,
+   "strength": "1 very strong"
+  },
+  {
+   "finding_id": "P26.F1",
+   "summary": "(no added APOE4 -> added APOE4) -> (higher neuronal surface LRP1)",
+   "system": "Primary cortical neurons from WT P1 mouse pups, enriched by immunopanning; mouse strain and neuronal culture age for this experiment were not specified; APOE4 p",
+   "class": 4,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P26.F2",
+   "summary": "(no added APOE4 -> added APOE4) -> (higher neuronal surface LRP1)",
+   "system": "Primary cortical neurons from WT P1 mouse pups; APOE4 protein at 5 μg/mL for 24 h under the supplementary Fig. 6 protocol; Pierce surface-protein biotinylation ",
+   "class": 4,
+   "strength": "4 weak"
+  },
+  {
+   "finding_id": "P26.F3",
+   "summary": "(ACM alone -> ACM plus APOE4) -> (higher neuronal surface LRP1)",
+   "system": "Primary cortical neurons from WT P1 mouse pups treated with WT mouse astrocyte-conditioned medium with or without APOE4; astrocytes originated from P1–2 cortice",
+   "class": 4,
+   "strength": "4 weak"
+  }
+ ]
+}

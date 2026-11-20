@@ -1,0 +1,369 @@
+[
+ {
+  "finding_id": "P4.F1",
+  "quote_start": "Indeed, CE(18:1)-lipApoE4 produced significantly lower accumulation of",
+  "summary": "(ApoE4 cargo CE(20:4) -> CE(18:1)) -> (less endolysosomal tau-fibril accumulation)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "Swapping the CE cargo within ApoE4 is a lipid manipulation, not a change in APOE isoform, and acidic-compartment pHrodo-tau signal mixes uptake with degradation.",
+  "reason_for_description": "Swaps the cholesteryl-ester cargo of ApoE4 particles (CE(20:4) to CE(18:1)) within one isoform, a lipid manipulation that does not vary APOE genotype or isoform."
+ },
+ {
+  "finding_id": "P4.F2",
+  "quote_start": "Therefore, we assessed the pathogenic potential of peroxidation-prone ",
+  "summary": "(ApoE3 -> ApoE4 carrying CE(20:4)) -> (more neuronal lysosomal lipofuscin)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Lipofuscin is a lysosomal-storage surrogate that greater ApoE4 uptake of peroxidation-prone CE could raise without impaired lysosome function, so moderate like the other lipofuscin rows."
+ },
+ {
+  "finding_id": "P4.F3",
+  "quote_start": "Replacing CE(20:4) with CE(18:1) in the POPC-ApoE4 lipoproteins abolis",
+  "summary": "(ApoE4 cargo CE(20:4) -> CE(18:1)) -> (loss of lipofuscin induction)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "Swapping the CE cargo within ApoE4 is a lipid manipulation, not a change in APOE isoform.",
+  "reason_for_description": "Swaps the cholesteryl-ester cargo of ApoE4 particles (CE(20:4) to CE(18:1)) within one isoform, a lipid manipulation that does not vary APOE genotype or isoform."
+ },
+ {
+  "finding_id": "P4.F4",
+  "quote_start": "After longer incubation (14 d and 21 d), a progressively larger differ",
+  "summary": "(ApoE3 -> ApoE4 carrying CE(20:4)) -> (more fourteen-day neuronal lipofuscin)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Same lipofuscin readout and isoform contrast as P4.F2, so same moderate strength."
+ },
+ {
+  "finding_id": "P4.F5",
+  "quote_start": "Cathepsin activity measured by the 6QC probe40 showed a modest but sig",
+  "summary": "(CE(20:4)-ApoE4 versus low-lipofuscin treatments) -> (lower lysosomal cathepsin activity)",
+  "class": 1,
+  "strength": 2,
+  "changed": true,
+  "why": "Cathepsin activity is lysosomal enzyme activity (B itself) and the treatments vary apoE isoform, so class 1 like the other direct lysosome-function rows."
+ },
+ {
+  "finding_id": "P4.F6",
+  "quote_start": "To confirm the effect of PUFA-CE-lipApoE4 on tau pff accumulation is c",
+  "summary": "(ApoE4 cargo CE(20:4) -> CE(18:1)) -> (less neuronal lipofuscin)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "Swapping the CE cargo within ApoE4 is a lipid manipulation, not a change in APOE isoform.",
+  "reason_for_description": "Swaps the cholesteryl-ester cargo of ApoE4 particles (CE(20:4) to CE(18:1)) within one isoform, a lipid manipulation that does not vary APOE genotype or isoform."
+ },
+ {
+  "finding_id": "P4.F7",
+  "quote_start": "LDLR ECD co-treatment with CE(20:4)-lipApoE4 dramatically reduced lipo",
+  "summary": "(CE(20:4)-ApoE4 + LDLR competition) -> (less neuronal lipofuscin)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "LDLR extracellular-domain competition is a receptor manipulation within ApoE4 treatment, not a change in APOE isoform.",
+  "reason_for_description": "Blocks ApoE4 particle binding with LDLR extracellular domain within one isoform, a receptor manipulation that does not vary APOE genotype or isoform."
+ },
+ {
+  "finding_id": "P4.F8",
+  "quote_start": "After another 13–14 d incubation, total pHrodo signals from tau pffs t",
+  "summary": "(ApoE3 -> ApoE4 carrying CE(20:4)) -> (more endolysosomal tau-fibril accumulation)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Acidic-compartment pHrodo-cargo accumulation mixes uptake, acidification and persistence, so weak like the pHrodo-myelin persistence rows (P13.F6, P13.F11)."
+ },
+ {
+  "finding_id": "P4.F9",
+  "quote_start": "LAMP1 immunostaining revealed no treatment effect on the total lysosom",
+  "summary": "(CE(20:4)-ApoE3 or ApoE4 treatment) -> (greater LAMP1-positive lysosomal clustering)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "LAMP1 clustering is a lysosome-morphology surrogate like the other LAMP1/RAB7/CD68 marker rows, which are moderate."
+ },
+ {
+  "finding_id": "P4.F10",
+  "quote_start": "Lastly, CE(20:4)-lipidated Christchurch mutants showed significantly a",
+  "summary": "(ApoE4 -> ApoE4 R136S carrying CE(20:4)) -> (less lipofuscin)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "The Christchurch R136S mutation alters apoE4 receptor binding within one isoform; it neither varies APOE4 vs APOE3 nor is assumed to change it.",
+  "reason_for_description": "Introduces the Christchurch R136S receptor-binding mutation into ApoE4, testing receptor binding within one isoform rather than varying APOE4 vs APOE3."
+ },
+ {
+  "finding_id": "P4.F11",
+  "quote_start": "ApoE isoform differences were manifested in the differential levels of",
+  "summary": "(ApoE3 -> ApoE4) -> (greater ApoE accumulation and ApoE occupancy of LAMP1 compartments)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "ApoE occupancy of LAMP1 compartments is a delivery/localization surrogate, scored moderate like P4.F15 and P22.F3-F5."
+ },
+ {
+  "finding_id": "P4.F12",
+  "quote_start": "ApoE isoform-dependent lipofuscin accumulation was replicated in WT H4",
+  "summary": "(ApoE3 -> ApoE4 carrying CE(20:4)) -> (greater lipofuscin burden)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Same lipofuscin readout and isoform contrast as P4.F2, so same moderate strength."
+ },
+ {
+  "finding_id": "P4.F13",
+  "quote_start": "At 7 d, lipofuscin induced by CE(20:4)-lipApoE3/E4 was weakly detectab",
+  "summary": "(CE(20:4)-ApoE3 or ApoE4 treatment) -> (early neuronal lipofuscin accumulation)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P4.F14",
+  "quote_start": "LAMP1 immunostaining revealed no treatment effect on the total lysosom",
+  "summary": "(Lipidated ApoE treatment, including ApoE3 and ApoE4) -> (no change in total lysosomal area)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P4.F15",
+  "quote_start": "Super-resolution imaging on APOE KO iAstrocytes confirmed internalized",
+  "summary": "(ApoE3 -> ApoE4) -> (similar proportion of internalized ApoE localized to LAMP1 compartments)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P4.F16",
+  "quote_start": "Pre-complexing pHrodo-HDL with ApoE isoforms promoted its uptake in th",
+  "summary": "(ApoE3 -> ApoE4) -> (similar acidic-compartment HDL accumulation)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "One-day pHrodo-HDL signal is mainly uptake, a weakly coupled surrogate scored like the other pHrodo-cargo accumulation rows."
+ },
+ {
+  "finding_id": "P13.F1",
+  "quote_start": "We also observe a significantly longer half-life of red fluorescence d",
+  "summary": "(APOE3 -> APOE4) -> (longer internalized-myelin fluorescence half-life, suggesting impaired degradation)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P13.F2",
+  "quote_start": "Following treatment with myelin, E3 microglia significantly acidified ",
+  "summary": "(APOE3 -> APOE4) -> (no significant further lysosomal acidification after myelin challenge)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P13.F3",
+  "quote_start": "Low levels of colocalization between BODIPY and RAB7 were observed and",
+  "summary": "(APOE3 -> APOE4) -> (no change in neutral-lipid colocalization with late-endosomal RAB7)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P13.F4",
+  "quote_start": "We then further used LysoSensor dye to measure the pH of lysosomes, wh",
+  "summary": "(APOE3 -> APOE4) -> (lower lysosomal pH at baseline)",
+  "class": 1,
+  "strength": 2,
+  "changed": true,
+  "why": "Lysosomal pH measured with LysoSensor in APOE4 vs APOE3 cells is B itself, the same readout as P13.F2 and reference P18.F1 (class 1, strength 2)."
+ },
+ {
+  "finding_id": "P13.F5",
+  "quote_start": "E4 microglia again exhibited increased lysosomal mass relative to E3 m",
+  "summary": "(APOE3 -> APOE4) -> (higher LysoTracker-estimated lysosomal mass after myelin challenge)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P13.F6",
+  "quote_start": "Post-hoc t-tests at select time points identified significant differen",
+  "summary": "(APOE3 -> APOE4) -> (higher persistent intracellular myelin fluorescence at 72 hours)",
+  "class": 3,
+  "strength": 4,
+  "changed": false
+ },
+ {
+  "finding_id": "P13.F7",
+  "quote_start": "E4 microglia again displayed higher levels of both RAB5 and RAB7 relat",
+  "summary": "(APOE3 -> APOE4) -> (higher late-endosomal RAB7 abundance after myelin challenge)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P13.F8",
+  "quote_start": "E4 microglia again exhibited increased lysosomal mass relative to E3 m",
+  "summary": "(APOE3 -> APOE4) -> (higher lysosome-associated CD68 abundance after myelin challenge)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P13.F9",
+  "quote_start": "In addition, the levels of both early endosome (RAB5) and late endosom",
+  "summary": "(APOE3 -> APOE4) -> (higher late-endosomal RAB7 abundance)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P13.F10",
+  "quote_start": "In addition, integrated density of fluorescent immunostaining of the l",
+  "summary": "(APOE3 -> APOE4) -> (higher lysosome-associated CD68 abundance)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P13.F11",
+  "quote_start": "E4 microglia exhibited significantly higher integrated intensity of re",
+  "summary": "(APOE3 -> APOE4) -> (higher intracellular acid-sensitive myelin fluorescence over time)",
+  "class": 3,
+  "strength": 4,
+  "changed": false
+ },
+ {
+  "finding_id": "P17.F1",
+  "quote_start": "Lysosomal leakage was seen in only 15% of the neo- and apoE3-transfect",
+  "summary": "(apoE3 -> apoE4) -> (greater proportion of cells with Aβ1–42-induced lysosomal leakage)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P17.F2",
+  "quote_start": "A treatment increased cytosolic -hexosaminidase activity to a signific",
+  "summary": "(apoE3 -> apoE4) -> (greater Aβ1–42-induced release of lysosomal β-hexosaminidase into cytosol)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P17.F3",
+  "quote_start": "After treatment with A1–42, however, it was readily apparent that more",
+  "summary": "(apoE3 -> apoE4) -> (greater Aβ1–42-induced lysosomal membrane leakage)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P17.F4",
+  "quote_start": "ApoE4 also potentiated lysosomal leakage induced by A1–40 (Fig. 2A), a",
+  "summary": "(apoE3 -> apoE4) -> (greater Aβ1–40-induced lysosomal leakage)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P17.F5",
+  "quote_start": "No significant ly- sosomal leakage was observed in untreated apoE3- or",
+  "summary": "(apoE3 -> apoE4) -> (no change in detectable baseline lysosomal leakage)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P22.F1",
+  "quote_start": "When lysosomal degradation of Aβ42 was calculated by subtracting the c",
+  "summary": "(apoE3 -> apoE4) -> (lower inhibitor-derived lysosomal Aβ42 degradation)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P22.F2",
+  "quote_start": "We found that apoE3 was transported into lysosomes and degraded more e",
+  "summary": "(apoE3 -> apoE4) -> (lower inhibitor-derived lysosomal apoE degradation)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P22.F3",
+  "quote_start": "In addition, confocal microscopy also revealed that internalized FAM-A",
+  "summary": "(apoE3 -> apoE4) -> (lower Aβ42 delivery to LysoTracker-positive compartments)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P22.F4",
+  "quote_start": "Upon quantification, we confirmed that the amounts of Aβ42 in lysosome",
+  "summary": "(apoE3 -> apoE4) -> (lower lysosome-associated Aβ42)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P22.F5",
+  "quote_start": "The more efficient trafficking of apoE3 than apoE4 was confirmed by im",
+  "summary": "(apoE3 -> apoE4) -> (less efficient apoE trafficking to LAMP1-positive compartments)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P21.F1",
+  "quote_start": "In apoE4-transfected Neuro-2a cells, A1–42 increased cytosolic -hexosa",
+  "summary": "(apoE3 -> apoE4) -> (greater Aβ-induced lysosomal enzyme leakage)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P21.F2",
+  "quote_start": "NH4Cl treatment of the apoE4-transfected cells decreased lysosomal lea",
+  "summary": "(NH4Cl in apoE4 cells) -> (less Aβ-induced lysosomal enzyme leakage)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "NH4Cl is a drug acting on lysosomal pH within apoE4 cells and does not act on APOE, so it is not a surrogate A'.",
+  "reason_for_description": "Treats apoE4 cells with NH4Cl to raise lysosomal pH, a drug that does not act on APOE genotype or isoform."
+ },
+ {
+  "finding_id": "P21.F3",
+  "quote_start": "Notably, LRP siRNA very significantly reduced apoE4 potentiation of A-",
+  "summary": "(LRP knockdown in apoE4 cells) -> (less Aβ-induced lysosomal enzyme leakage)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "LRP siRNA is a receptor knockdown within apoE4 cells and does not act on APOE, so it is not a surrogate A'.",
+  "reason_for_description": "Knocks down the LRP receptor within apoE4 cells, a manipulation that does not act on APOE genotype or isoform."
+ },
+ {
+  "finding_id": "P21.F4",
+  "quote_start": "ApoE3- and apoE4-transfected cells treated with A1–42 had a similar 4-",
+  "summary": "(apoE3 -> apoE4) -> (no change in reported Aβ-induced LAMP1-labeling response)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P10.F1",
+  "quote_start": "Negatively enriched Lysosome (Figures 2F and S3D) and lower SMPD1, NPC",
+  "summary": "(APOE3 -> APOE4) -> (lower astrocyte SMPD1, NPC1 and NPC2 levels)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P30.F1",
+  "quote_start": "Immunostaining of microglia in the injection site showed accumulation ",
+  "summary": "(APOE3 -> APOE4) -> (greater accumulation of LAMP1-positive lysosomes in microglia)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ }
+]

@@ -1,0 +1,558 @@
+[
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F1",
+  "key": "pmid40675218",
+  "quote_start": "Similar to at 25 DIV, cholesterol supplementation also occasionally re",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "After cholesterol supplementation from 15 to 18 DIV, somatic DQ-BSA degradation was numerically lower in ApoE4 than ApoE3 neurons (0.54 vs 1.04 of untreated ApoE3) but not significantly different (one-way ANOVA across KO/E3/E4); n counts embryos.",
+   "Effect size": "0.52x",
+   "Effect size provenance": "supplement_only",
+   "P value": "0.18",
+   "P value provenance": "supplement_only"
+  },
+  "reason": "Quote verbatim and correct; the supplement prints both group means and the one-way ANOVA p, so N/A / not_found_in_source is wrong. Fold computed E4 over E3.",
+  "evidence": "Fig S4G legend: 'N (embryo) = 4-5, one-way ANOVA p = 0.18'; Table S4: 'S4G KO = 0.95 ± 0.16, E3 = 1.04 ± 0.60, E4 = 0.54 ± 0.18'. 0.54/1.04 = 0.52."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F2",
+  "key": "pmid40675218",
+  "quote_start": "I-J, quantification of number of accumulated Filipin puncta within LAM",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "Across all cholesterol-supplemented cultures, accumulated Filipin puncta within LAMP1+ vesicles were numerically higher in ApoE4 than ApoE3 neurons (9.7 vs 4.7 per cell body) but not significantly different (one-way ANOVA across KO/E3/E4); n counts embryo-derived cultures.",
+   "Effect size": "2.06x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "0.207",
+   "P value provenance": "printed_in_text"
+  },
+  "reason": "Quote (legend) verbatim and the null is right, but the legend prints both group means and the panel I ANOVA p, so effect and P should not be N/A.",
+  "evidence": "Fig 6 legend: 'one-way ANOVA (I) p = 0.207 ... I: KO = 8.1 ± 1.4, E3 = 4.7 ± 3.4, E4 = 9.7 ± 8.0'. 9.7/4.7 = 2.06."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F3",
+  "key": "pmid40675218",
+  "quote_start": "Even though cholesterol seemed to have an impact on endosomes, includi",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "After three-day cholesterol supplementation at ~25 DIV, somatic DQ-BSA degradation was 0.59 (ApoE4) vs 0.70 (ApoE3) of untreated ApoE3, not significantly different (Kruskal-Wallis across KO/E3/E4); n counts embryos.",
+   "Effect size": "0.84x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "0.272",
+   "P value provenance": "printed_in_text"
+  },
+  "reason": "Quote verbatim, null correct; the Fig 6M legend prints both means and the Kruskal-Wallis p.",
+  "evidence": "Fig 6 legend M: 'N (embryo) = 4 to 5, Kruskal-Wallis: p = 0.272 ... KO = 0.694 ± 0.25, E3 = 0.702 ± 0.19, E4 = 0.59 ± 0.32'. 0.59/0.702 = 0.84."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F4",
+  "key": "pmid40675218",
+  "quote_start": "Without cholesterol supplementation, Filipin dye is only seen in cell ",
+  "verdict": "OK",
+  "reason": "Quote verbatim Results observation; qualitative is right (no quantification of overlap per genotype beyond S4B, which has no n or test); directness 5 fits a cholesterol-only finding.",
+  "evidence": "Results: 'we could detect droplets of accumulated cholesterol that, to a large extent, overlapped with LAMP1 labeling (Figs. 6, E, F and S4B)'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F5",
+  "key": "pmid40675218",
+  "quote_start": "Thus, when only comparing cultures with detected cholesterol accumulat",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "Among cultures averaging at least four accumulated Filipin puncta per neuronal soma, ApoE4 had more LAMP1-associated cholesterol puncta than ApoE3 (15.0 vs 6.4; the paper's 80.8% is its 'mean difference', defined as difference over the two-group average). The joint legend gives 7–8 embryos and leaves the retained genotype-specific sample sizes unspecified."
+  },
+  "reason": "Quote, 80.8% and p = 0.0006 match the legend. The paper defines mean difference as difference/average, so 80.8% is not a percent change from ApoE3 (15.0/6.4 = 2.3x); the description should say so and give both means. n left N/A: points in 6J are not countable defensibly at this resolution.",
+  "evidence": "Fig 6 legend: 'post hoc Tukey’s E3 versus E4 p = 0.0006 (80.8% mean difference) ... J: 8.1 ± 1.4, E3 = 6.4 ± 2.3, E4 = 15.0 ± 4.3'; Methods: 'Mean difference = difference/average.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F6",
+  "key": "pmid40675218",
+  "quote_start": "Even though cholesterol seemed to have an impact on endosomes, includi",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig 6M is normalized to untreated ApoE3, so no ApoE4 treated-vs-vehicle number or test exists; qualitative and N/A are correct.",
+  "evidence": "Fig 6 legend M: 'normalized to background and E3 untreated control ... N (embryo) = 4 to 5, Kruskal-Wallis: p = 0.272' (between genotypes, not treatment)."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F7",
+  "key": "pmid40675218",
+  "quote_start": "When we compared our ApoE groups at 18 DIV there were no differences i",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "At 18 DIV, eight-hour DQ-BSA integrated density in neuronal somata was 0.351 (ApoE4) vs 0.333 (ApoE3), not significantly different (one-way ANOVA across KO/E3/E4); n counts embryos.",
+   "Effect size": "1.05x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "0.582",
+   "P value provenance": "printed_in_text"
+  },
+  "reason": "Quote verbatim, null correct; Fig 2G legend prints both means and the ANOVA p.",
+  "evidence": "Fig 2 legend: 'N (embryo) = 4, one-way ANOVA (G): p = 0.582 ... G: KO = 0.316 ± 0.033, E3 = 0.333 ± 0.057, E4 = 0.351 ± 0.048'. 0.351/0.333 = 1.05."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F8",
+  "key": "pmid40675218",
+  "quote_start": "Although we did not detect significant differences in LAMP1+ vesicle n",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 21.9%, p = 0.0495 (Dunn's E3 vs E4) and N = 6 match the Fig 4G legend; direction correct.",
+  "evidence": "Fig 4 legend: 'N (embryo) = 6, Kruskal-Wallis (G): p = 0.025, post hoc Dunn’s: ApoE3 versus ApoE4: p = 0.0495 (21.9% mean difference)'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F9",
+  "key": "pmid40675218",
+  "quote_start": "When comparing the ApoE groups at 25 DIV, we could detect a trend towa",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 49%, p = 0.0281 (Tukey E4 vs E3) and N = 3 match the Fig 5M legend.",
+  "evidence": "Fig 5 legend: 'N (embryo) = 3 ... one-way ANOVA (M): p = 0.0065, post hoc Tukey’s ... E4 versus E3 p = 0.0281 (49% mean difference) ... M: KO = 0.218 ± 0.053, E3 = 0.295 ± 0.088, E4 = 0.487 ± 0.051'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F10",
+  "key": "pmid40675218",
+  "quote_start": "However, we did not detect an ApoE-dependent alteration in either endo",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "After 48-hour bicuculline, somatic DQ-BSA degradation relative to genotype-matched untreated controls was 1.13 (ApoE4) vs 1.26 (ApoE3), not significantly different (one-way ANOVA across KO/E3/E4); n counts embryos.",
+   "Effect size": "0.90x",
+   "Effect size provenance": "supplement_only",
+   "P value": "0.366",
+   "P value provenance": "supplement_only"
+  },
+  "reason": "Quote verbatim, null correct; the supplement prints both means and the ANOVA p for S2K.",
+  "evidence": "Fig S2 legend: 'K-L ... N (embryo) = 4, one-way ANOVA (K) p = 0.366'; Table S2: 'S2K KO = 1.15 ± 0.11, E3 = 1.26 ± 0.18, E4 = 1.13 ± 0.09'. 1.13/1.26 = 0.90."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F11",
+  "key": "pmid40675218",
+  "quote_start": "Despite no apparent difference in the number and size of LAMP1+ late e",
+  "verdict": "OK",
+  "reason": "Quote is the paper's own Results conclusion for Fig 4F-H; the 21.9% / p = 0.0495 / N = 6 values are the Fig 4G numbers and match the legend (duplicates P15.F8).",
+  "evidence": "Results paragraph for Fig 4 and legend: 'post hoc Dunn’s: ApoE3 versus ApoE4: p = 0.0495 (21.9% mean difference)', 'N (embryo) = 6'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F12",
+  "key": "pmid40675218",
+  "quote_start": "We further noticed that the number of vesicles containing DQ BSA in th",
+  "verdict": "OK",
+  "reason": "Quote, 20%, p = 0.0195 and N = 6 match the text and Fig 4H legend. Note: the printed means (KO 0.308, E3 0.377, E4 0.315) give ~18% for E4 and ~20% for KO, so the paper may have swapped the two mean differences; the row correctly reports what is printed.",
+  "evidence": "Fig 4 legend: 'ApoE4 versus ApoE3 p = 0.0195 (20% mean difference) ... H: KO = 0.308 ± 0.018, E3 = 0.377 ± 0.016, E4 = 0.315 ± 0.031'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F13",
+  "key": "pmid40675218",
+  "quote_start": "Remarkedly, similar to the DQ BSA results, we detected a 19.8% lower n",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 35.6%, p = 0.0059 (Dunn's E3 vs E4) and N = 6 match the Fig 4J legend.",
+  "evidence": "Fig 4 legend: 'Kruskal-Wallis (J) p = 0.0033, post hoc Dunn’s E3 versus E4 p = 0.0059 (35.6% mean difference)', 'N (embryo) = 6'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F14",
+  "key": "pmid40675218",
+  "quote_start": "Remarkedly, similar to the DQ BSA results, we detected a 19.8% lower n",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 19.8%, p = 0.011 and N = 6 match the Fig 4K legend.",
+  "evidence": "Fig 4 legend: 'one-way ANOVA (K) p = 0.014, post hoc Tukey’s p = 0.011 (19.8% mean difference) ... K: KO = 0.328 ± 0.026, E3 = 0.370 ± 0.036, E4 = 0.303 ± 0.039'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F15",
+  "key": "pmid40675218",
+  "quote_start": "There was, however, no difference in mean puncta DQ BSA intensity in t",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "At 25 DIV, mean DQ-BSA fluorescence per somatic punctum was 0.32 (ApoE4) vs 0.35 (ApoE3), not significantly different (one-way ANOVA across KO/E3/E4); n counts embryos.",
+   "Effect size": "0.91x",
+   "Effect size provenance": "supplement_only",
+   "P value": "0.309",
+   "P value provenance": "supplement_only"
+  },
+  "reason": "Quote verbatim, null correct; the supplement prints both means and the ANOVA p for S3U.",
+  "evidence": "Fig S3 legend: 'U-V ... N (embryo) = 6, one-way ANOVA (U): p = 0.309'; Table S3: 'S3U KO = 0.328 ± 0.041, E3 = 0.35 ± 0.018, E4 = 0.32 ± 0.029'. 0.32/0.35 = 0.91."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F16",
+  "key": "pmid40675218",
+  "quote_start": "S4B KO = 0.46 ± 0.1, E3 = 0.40 ± 0.10, E4 = 0.43 ± 0.16",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.08x",
+   "Effect size provenance": "supplement_only"
+  },
+  "reason": "Quote verbatim from Table S4; both Mander's means are printed, so the E4/E3 ratio replaces N/A. No test and no n in the S4B legend, so P and n stay N/A.",
+  "evidence": "Table S4: 'S4B KO = 0.46 ± 0.1, E3 = 0.40 ± 0.10, E4 = 0.43 ± 0.16'; S4B legend gives no N or test. 0.43/0.40 = 1.08."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F17",
+  "key": "pmid40675218",
+  "quote_start": "However, we did detect a significantly higher number of LAMP1+ vesicle",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "At 18 DIV, somatic LAMP1-positive compartment number was 41 (ApoE4) vs 40 (ApoE3), not significantly different (one-way ANOVA across KO/E3/E4); n counts independent embryo-derived cultures.",
+   "Effect size": "1.03x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "0.98",
+   "P value provenance": "printed_in_text"
+  },
+  "reason": "Quote verbatim, null correct; the Fig 1H legend prints both means and the ANOVA p.",
+  "evidence": "Fig 1 legend: 'N (embryo) = 3, one-way ANOVA (H): p = 0.98 ... H: KO = 40 ± 12, E3 = 40 ± 9, E4 = 41 ± 5'. 41/40 = 1.03."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F18",
+  "key": "pmid40675218",
+  "quote_start": "However, we did detect a significantly higher number of LAMP1+ vesicle",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 15.1%, p = 0.039 (Tukey E3 vs E4) and N = 3 match the Fig 1I legend; direction correct (E4 161 vs E3 138).",
+  "evidence": "Fig 1 legend: 'one-way ANOVA (I): p = 0.044, post hoc Tukey’s E3 versus E4 p = 0.039 (15.1% mean difference) ... I: KO = 153 ± 5.0, E3 = 138 ± 2, E4 161 ± 14'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F19",
+  "key": "pmid40675218",
+  "quote_start": "When comparing the ApoE groups at 25 DIV, we could detect a trend towa",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "At 25 DIV, neuronal autofluorescent-granule area (lipofuscin surrogate) was 0.453 (ApoE4) vs 0.304 (ApoE3), a trend that was not significant (one-way ANOVA across KO/E3/E4); n counts embryos.",
+   "Effect size": "1.49x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "0.0684",
+   "P value provenance": "printed_in_text"
+  },
+  "reason": "Quote verbatim, trend correctly called nonsignificant; the Fig 5L legend prints both means and the ANOVA p.",
+  "evidence": "Fig 5 legend: 'N (embryo) = 3. One-way ANOVA (L): p = 0.0684 ... L: KO = 0.243 ± 0.095, E3 = 0.304 ± 0.062, E4 = 0.453 ± 0.108'. 0.453/0.304 = 1.49."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F20",
+  "key": "pmid40675218",
+  "quote_start": "Even though cholesterol seemed to have an impact on endosomes, includi",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig 6L is normalized to untreated ApoE3 and its ANOVA is between genotypes, so no ApoE4 treated-vs-vehicle number or test exists; qualitative and N/A are right, n 4-5 matches.",
+  "evidence": "Fig 6 legend L: 'normalized to E3 untreated control ... N (embryo) = 4 to 5, one-way ANOVA: p = 0.334 ... KO = 1.43 ± 0.26, E3 = 1.2 ± 0.26, E4 = 1.19 ± 0.33'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F21",
+  "key": "pmid40675218",
+  "quote_start": "C-D. Quantification of number of CD63 vesicles in cell bodies (C) and ",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "After three-day cholesterol supplementation, somatic CD63-positive compartment number was 1.34 (ApoE4) vs 1.18 (ApoE3) of untreated ApoE3, not significantly different (one-way ANOVA across KO/E3/E4); n counts embryos.",
+   "Effect size": "1.14x",
+   "Effect size provenance": "supplement_only",
+   "P value": "0.173",
+   "P value provenance": "supplement_only"
+  },
+  "reason": "Quote (S4 legend) verbatim and it prints the ANOVA p for panel C itself; Table S4 prints both means, so effect and P should not be N/A.",
+  "evidence": "Fig S4 legend: 'N (embryo) = 6-7, one- way ANOVA (C) p = 0.173'; Table S4: 'S4C KO = 1.19 ± 0.37, E3 = 1.18 ± 0.34, E4 = 1.34 ± 0.78'. 1.34/1.18 = 1.14."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F22",
+  "key": "pmid40675218",
+  "quote_start": "Despite no apparent difference in the number and size of LAMP1+ late e",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "At 25–26 DIV, somatic LAMP1-positive compartment number was 37 in both ApoE4 and ApoE3 neurons, not significantly different (one-way ANOVA across KO/E3/E4); n counts embryos.",
+   "Effect size": "1.00x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "0.288",
+   "P value provenance": "printed_in_text"
+  },
+  "reason": "Quote is the paper's own Results sentence and supports the null; the Fig 4B legend prints both means and the ANOVA p.",
+  "evidence": "Fig 4 legend: 'N (embryo) = 4, one-way ANOVA (B): p = 0.288 ... B: KO = 45 ± 6, E3 = 37 ± 7, E4 = 37 ± 9'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F23",
+  "key": "pmid40675218",
+  "quote_start": "Although non-significant, we could detect a trend toward higher levels",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "At 25–26 DIV, somatic cathepsin D-positive compartment number was 260.6 (ApoE4) vs 178.5 (ApoE3), a nonsignificant trend (one-way ANOVA across KO/E3/E4); n counts embryos.",
+   "Effect size": "1.46x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "0.09",
+   "P value provenance": "printed_in_text"
+  },
+  "reason": "Quote verbatim, trend correctly called nonsignificant; the Fig 4O legend prints both means and the ANOVA p.",
+  "evidence": "Fig 4 legend: 'N (embryo) = 5, ... one-way ANOVA (O) p = 0.09 ... O: KO = 229.8 ± 42.1, E3 = 178.5 ± 45.1, E4 = 260.6 ± 59.7'. 260.6/178.5 = 1.46."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P15",
+  "finding_id": "P15.F24",
+  "key": "pmid40675218",
+  "quote_start": "However, we could not detect any significant differences in protein le",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "At 18 DIV, whole-culture LAMP1 protein (normalized to β-actin) was 0.81 (ApoE4) vs 1.09 (ApoE3), not significantly different (Kruskal-Wallis across KO/E3/E4); n counts embryos.",
+   "Effect size": "0.74x",
+   "Effect size provenance": "supplement_only",
+   "P value": "0.196",
+   "P value provenance": "supplement_only"
+  },
+  "reason": "Quote verbatim, null correct; the supplement prints both means and the Kruskal-Wallis p for S1S.",
+  "evidence": "Fig S1 legend: 'N (embryo) = 5-7 ... Kruskal-Wallis (S): p = 0.196'; Table S1: 'S1S KO = 1.19 ± 0.31, E3 = 1.09 ± 0.44, E4 = 0.81 ± 0.35'. 0.81/1.09 = 0.74."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P25",
+  "finding_id": "P25.F1",
+  "key": "pmid38217595",
+  "quote_start": "Quantifications of the results revealed that, APOE4 neurons present a ",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 23.6%, p < 0.0001 and N = 62 from 6 preparations match the Results; Fig 7C legend agrees (APOE3 1.00 vs APOE4 0.76).",
+  "evidence": "Fig 7 legend: 'lysosome (APOE3 = 1.00±0.04, APOE4 = 0.76±0.03, p < 0.0001)'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P25",
+  "finding_id": "P25.F2",
+  "key": "pmid38217595",
+  "quote_start": "Quantifications of the results revealed that, APOE4 neurons present a ",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 13%, p < 0.05 and N = 69 match the Results; Fig 7B legend agrees (1.00 vs 0.87, p≤0.05).",
+  "evidence": "Fig 7 legend: 'late endosomes (APOE3 = 1.00±0.03, APOE4 = 0.87±0.05, p≤0.05)'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P25",
+  "finding_id": "P25.F3",
+  "key": "pmid38217595",
+  "quote_start": "Additionally, there was also a decrease in the colocalization of the r",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 35.89% and p < 0.0001 are printed in the Results; Fig 8 legend agrees (0.41 vs 0.26, p < 0.0001) and gives 25–37 cells.",
+  "evidence": "Fig 8 legend: 'APOER2- ... Lysosomes: APOE3 = 0.41±0.024, APOE4 = 0.26±0.019, p < 0.0001'; 'The results shown correspond to 25–37 cells from 2-3 different preparations'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P25",
+  "finding_id": "P25.F4",
+  "key": "pmid38217595",
+  "quote_start": "This decrease in late endosomes was significant for both IR and VEGFR ",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 25.80% and p < 0.05 printed in Results; Fig 8 legend agrees (0.41 vs 0.31, p < 0.05).",
+  "evidence": "Fig 8 legend: 'IR- ... Late endosomes: APOE3 = 0.41±0.042, APOE4 = 0.31±0.028, p < 0.05'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P25",
+  "finding_id": "P25.F5",
+  "key": "pmid38217595",
+  "quote_start": "Additionally, there was also a decrease in the colocalization of the r",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.00x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Quote, null, p = 0.19 and n correct, but both group means are printed (0.33 each), so the effect is a computable 1.00x rather than N/A / not_found_in_source.",
+  "evidence": "Fig 8 legend: 'IR- ... Lysosomes: APOE3 = 0.33±0.017, APOE4 = 0.33±0.034, p = 0.19'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P25",
+  "finding_id": "P25.F6",
+  "key": "pmid38217595",
+  "quote_start": "This decrease in late endosomes was significant for both IR and VEGFR ",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 47.74% and p < 0.05 printed in Results; Fig 8 legend agrees (0.29 vs 0.15, p < 0.05).",
+  "evidence": "Fig 8 legend: 'VEGFR- ... Late endosomes: APOE3 = 0.29±0.04, APOE4 = 0.15±0.03, p < 0.05'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P25",
+  "finding_id": "P25.F7",
+  "key": "pmid38217595",
+  "quote_start": "Additionally, there was also a decrease in the colocalization of the r",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 31.30% and p < 0.05 printed in Results; Fig 8 legend agrees (0.20 vs 0.14, p < 0.05).",
+  "evidence": "Fig 8 legend: 'VEGFR- ... Lysosomes: APOE3 = 0.20±0.02, APOE4 = 0.14±0.01, p < 0.05'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P25",
+  "finding_id": "P25.F8",
+  "key": "pmid38217595",
+  "quote_start": "The first pattern which was observed with LRP1, shows that lower level",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 20.2% and p < 0.05 printed in Results and legend values agree (0.36 vs 0.29, p < 0.05), although the same legend's summary sentence says LRP1 is 'unchanged in lysosomes'; the row follows the printed statistics.",
+  "evidence": "Fig 8 legend: 'Lysosomes: APOE3 = 0.36±0.031, APOE4 = 0.29±0.027, p < 0.05'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P25",
+  "finding_id": "P25.F9",
+  "key": "pmid38217595",
+  "quote_start": "This decrease in late endosomes was significant for both IR and VEGFR ",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 22.09% and p = 0.156 printed in Results (legend rounds to p = 0.15); nonsignificance correctly stated.",
+  "evidence": "Fig 8 legend: 'APOER2- ... Late endosomes: APOE3 = 0.49±0.024, APOE4 = 0.38±0.059, p = 0.15'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P25",
+  "finding_id": "P25.F10",
+  "key": "pmid38217595",
+  "quote_start": "The first pattern which was observed with LRP1, shows that lower level",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 46.7% and p < 0.01 are printed in the Results (the Fig 8 legend prints p < 0.001 for the same comparison; the row's value is the Results text and is valid).",
+  "evidence": "Results: 'late endosomes (46.7% decrease, p < 0.01)'; Fig 8 legend: 'Late endosomes: APOE3 = 0.24±0.023, APOE4 = 0.127±0.031, p < 0.001'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P8",
+  "finding_id": "P8.F1",
+  "key": "pmid28035917",
+  "quote_start": "Analysis of microsomal and cytosolic fractions revealed that Cathepsin",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~1.9x",
+   "Effect size provenance": "estimated_from_figure"
+  },
+  "reason": "Quote, direction, P (<0.05, legend names this comparison) and n = 3 are correct; the Fig 5C bar chart is readable, so the qualitative effect can be estimated.",
+  "evidence": "Fig 5C (5.png), y axis 0-300 % of control in steps of 50: cytosolic (white) rApoE3 ~120, rApoE4 ~223 -> ~1.9x. Legend: '*p < 0.05 (... Cytosolic rApoE4 treated versus both Control and rApoE3 treated)', '3 independent experiments'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P8",
+  "finding_id": "P8.F2",
+  "key": "pmid28035917",
+  "quote_start": "As seen in Fig. 5E, and in agreement with the results found with SH-SY",
+  "verdict": "OK",
+  "reason": "Quote verbatim Results statement for Fig 5E in human primary cortical neurons; no quantification or test exists, so qualitative / N/A are right; 'repeated three times' supports n = 3.",
+  "evidence": "Fig 5 legend E: 'human primary cortical neurons treated with 100 nM rApoE for 1 h ... representative images of experiments repeated three times'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P8",
+  "finding_id": "P8.F3",
+  "key": "pmid28035917",
+  "quote_start": "This pattern was not changed by treatment with rApoE3. However, treatm",
+  "verdict": "OK",
+  "reason": "Quote verbatim; images only (no quantification or test), n = 3 from legend; the row correctly flags the 5 h (Results) vs 1 h (legend) inconsistency.",
+  "evidence": "Results: 'SH-SY5Y cells were treated with rApoE (100 nM) for 5 h'; Fig 5 legend A: 'treated with 100 nM rApoE for 1 h ... repeated three times'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P8",
+  "finding_id": "P8.F4",
+  "key": "pmid28035917",
+  "quote_start": "In rApoE3 treated cells, the levels of Cathepsin D were instead increa",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~0.53x",
+   "Effect size provenance": "estimated_from_figure"
+  },
+  "reason": "Quote, direction, P (<0.05, legend names microsomal rApoE3 vs rApoE4) and n = 3 correct; the bar chart is readable, so the effect can be estimated (apoE4 over apoE3).",
+  "evidence": "Fig 5C (5.png), y axis 0-300 % of control: microsomal (black) rApoE3 ~230, rApoE4 ~122 -> ~0.53x. Legend: '*p < 0.05 (Microsomal rApoE3 treated versus both Control and rApoE4 treated ...)'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F1",
+  "key": "pmid41278832",
+  "quote_start": "In stark contrast, cultures with E4 showed increased surface LRP8 and ",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "Across three independent experiments with excess reelin, axotomy raised surface LRP8 about 2.2-fold in apoE4-treated cultures (~0.45 to ~1.0 surface/total) versus about 1.5-fold in apoE3-treated cultures (~0.62 to ~0.95); the paper calls the apoE3 effect intermediate and shows no apoE4-versus-apoE3 test. This is opposite to lower receptor surface availability with apoE4.",
+   "Effect size": "~1.5x",
+   "Effect size provenance": "estimated_from_figure"
+  },
+  "reason": "Quote and n = 3 correct, but ~1.2x matches no apoE3/apoE4 comparison on Fig 4M (after axotomy E4/E3 is ~1.06x; the axotomy response ratio E4 vs E3 is ~2.2/1.5 = ~1.5x). The row's 'greater surface LRP8 response' is the response ratio.",
+  "evidence": "Fig 4M (4.png), y axis 0-1.5 surface/total LRP8: Axotomy(-) E3 ~0.62, E4 ~0.45; Axotomy(+) E3 ~0.95, E4 ~1.01. Brackets: E3(-) vs E3(+) p = 0.0092, E4(-) vs E4(+) p < 0.0001; no E3-vs-E4 bracket."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F2",
+  "key": "pmid41278832",
+  "quote_start": "With no exogenous human ApoE particles added, axotomy elevated pTyr416",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "Across three independent experiments with excess reelin, axotomy left surface LRP8 unchanged without added human apoE (p = 0.8156) but raised it about 2.2-fold with added apoE4 (p < 0.0001, apoE4 axotomy versus apoE4 no axotomy), opposing the predicted loss of surface receptors.",
+   "P value provenance": "printed_in_text"
+  },
+  "reason": "Effect ~2.2x and P < 0.0001 are the apoE4 axotomy(+) vs axotomy(-) comparison on Fig 4M; the P is a number printed on the figure bracket, which counts as printed_in_text, not visual_only.",
+  "evidence": "Fig 4M (4.png): bracket E4 Axotomy(-) to E4 Axotomy(+) labelled 'p < 0.0001'; Ctrl(-) to Ctrl(+) 'p = 0.8156'. E4 bars ~0.45 and ~1.01 -> ~2.2x. Legend: 'three independent experiments'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P13",
+  "finding_id": "P13.F3",
+  "key": "pmid41278832",
+  "quote_start": "Without injury, excess human ApoE did not substantially alter surface ",
+  "verdict": "OK",
+  "reason": "Quote verbatim; ~0.6x (E4 ~0.45 vs Ctrl ~0.76 without axotomy) is a defensible read of Fig 4M; there is no bracket for this comparison, so P N/A is right; n = 3 from legend. The paper's 'did not substantially alter' is its own wording.",
+  "evidence": "Fig 4M (4.png), Axotomy(-): Ctrl ~0.76, E4 ~0.45 surface/total LRP8; brackets shown only for within-treatment axotomy comparisons."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P26",
+  "finding_id": "P26.F2",
+  "key": "pmid35969759",
+  "quote_start": "(A–C) Western blot analysis from primary neuronal culture treated with",
+  "verdict": "FIX",
+  "set": {
+   "Sample size": "~3",
+   "Sample size provenance": "estimated_from_figure"
+  },
+  "reason": "Quote, ~4x and the ** key (bracket from the joined Control/APOE2 bar to APOE4) are right, but Fig 6C shows three points per group; the legend's 'n = 4 to 5' is figure-wide and does not fit this panel.",
+  "evidence": "Fig 6C (6.png, zoomed): y axis 0-15000; Control ~2,500 (3 circles), APOE2 3 squares, APOE4 ~10,000 (3 triangles at ~11,800, ~11,000, ~7,200), APOE2/4 3 points; '**' bracket from Control+APOE2 to APOE4. Legend: 'n = 4 to 5, ... **P < 0.01'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P26",
+  "finding_id": "P26.F3",
+  "key": "pmid35969759",
+  "quote_start": "(K–M) Western blot analysis from neuronal culture treated with ACM alo",
+  "verdict": "OK",
+  "reason": "Quote verbatim legend sentence; Fig 6M reads Control ~2,000 vs APOE4 ~19,000 (~9.5x), '****' sits directly over Control vs APOE4, and 4 points per group fit the legend's n = 4 to 5.",
+  "evidence": "Fig 6M (6.png): y axis 0-25000; Control ~2,000, APOE4 ~18,800, APOE4+GPC-4 shRNA ~12,000; '****' over Control–APOE4, '***' over APOE4–APOE4+shRNA; 4 points each."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P34",
+  "finding_id": "P34.F1",
+  "key": "pmid41381735",
+  "quote_start": "We treated the APOE4; PVD::GFP strain with TOFA starting at the embryo",
+  "verdict": "OK",
+  "reason": "Quote verbatim Results sentence; Fig EV5A is representative images only (no quantification, n or test in the legend), so N/A throughout is right and the description matches.",
+  "evidence": "Fig EV5 legend: '(A) Representative high magnification confocal microscopic images of neuronal specific lysosomal membrane reporter ... treated with DMSO or TOFA starting at the embryo stage.'"
+ }
+]

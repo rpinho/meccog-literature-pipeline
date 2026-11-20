@@ -1,0 +1,105 @@
+[
+ {
+  "item": 1,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "ApoE3 vs ApoE4 with Reelin read as surface GluN2B, a co-trafficked receptor rather than an apoE receptor, the same readout as reference P7.F5 (3/4)."
+ },
+ {
+  "item": 2,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "ApoE3 vs ApoE4 with Reelin read as surface GluA1, a co-trafficked receptor, the same readout type as reference P7.F5 (3/4) and P11.F4."
+ },
+ {
+  "item": 3,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "ApoE3 vs ApoE4 with Reelin read as surface GluA2/3, a co-trafficked receptor, the same readout type as reference P7.F5 (3/4) and P11.F4."
+ },
+ {
+  "item": 4,
+  "decision": "ACCEPT",
+  "class": 4,
+  "strength": 4,
+  "why": "Adding ApoE4 vs no apoE is a surrogate A' (apoE presence, not isoform) and surface GluN2B is a surrogate B', the same design as references P11.F2 and P4.F24/P4.F30 (4/4)."
+ },
+ {
+  "item": 5,
+  "decision": "ACCEPT",
+  "class": 4,
+  "strength": 4,
+  "why": "Added ApoE4 vs no apoE read as surface GluA1, the same design as references P4.F25 and P4.F31 (4/4)."
+ },
+ {
+  "item": 6,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because the experiment holds APOE4 fixed and manipulates NHE6 (a mediator of endosomal pH), not APOE genotype or isoform, so it tests mediation of the receptor-recycling defect rather than A itself.",
+  "why": "NHE6 deletion does not act on APOE (ApoE4 held fixed), read as surface GluA1, the same design as reference P11.F8 (5/4)."
+ },
+ {
+  "item": 7,
+  "decision": "ACCEPT",
+  "class": 4,
+  "strength": 4,
+  "why": "Added ApoE4 vs no apoE read as surface GluA2/3, the same design as references P4.F26 and P4.F32 (4/4)."
+ },
+ {
+  "item": 8,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because the experiment holds APOE4 fixed and manipulates NHE6 (a mediator of endosomal pH), not APOE genotype or isoform, so it tests mediation of the receptor-recycling defect rather than A itself.",
+  "why": "NHE6 deletion does not act on APOE (ApoE4 held fixed), read as surface GluA2/3, the same design as reference P11.F8 (5/4)."
+ },
+ {
+  "item": 9,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 3,
+  "why": "ApoE3 vs ApoE4 read as steady-state surface-to-total Apoer2 with no binding or pulse-chase recycling assay, the same Fig 4 quantification as references P4.F2 and P4.F4 (3/3), so the old 1/2 was not B itself."
+ },
+ {
+  "item": 10,
+  "decision": "ACCEPT",
+  "class": 4,
+  "strength": 4,
+  "why": "Added ApoE4 vs no apoE read as surface-to-total Apoer2, the same design as references P4.F15, P4.F16 and P4.F19 (4/4)."
+ },
+ {
+  "item": 11,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because the experiment holds APOE4 fixed and manipulates NHE6 (a mediator of endosomal pH), not APOE genotype or isoform, so it tests mediation of the receptor-recycling defect rather than A itself.",
+  "why": "NHE6 shRNA does not act on APOE (ApoE4 held fixed), so it is not a class 2 surrogate A', the same design as references P4.F11 and P4.F20 (5/4)."
+ },
+ {
+  "item": 12,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because the experiment holds APOE4 fixed and applies the NHE inhibitor EMD87580, a drug that does not act on APOE, so it tests mediation of the receptor-recycling defect rather than A itself.",
+  "why": "EMD87580 is a drug that does not act on APOE (ApoE4 held fixed), the same design as reference P4.F20 (5/4)."
+ },
+ {
+  "item": 13,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 4,
+  "reason_for_description": "Class 5 because the experiment holds APOE4 fixed and manipulates NHE6 (a mediator of endosomal pH), not APOE genotype or isoform, so it tests mediation of the receptor-recycling defect rather than A itself.",
+  "why": "NHE6 shRNA does not act on APOE (ApoE4 held fixed), read as surface GluA2/3, the same design as references P4.F11 and P4.F20 (5/4)."
+ },
+ {
+  "item": 14,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Class 1 rule: ApoE3 vs ApoE4 binding to Apoer2-Fc in a cell-free pull-down measures apoE-receptor binding, B itself, as do the other cell-free binding references (P3.F1, P5.F1, P22.F1 at 1/1), so it takes 1/1; the reference copy of this row at 1/2 does not override the rule."
+ }
+]

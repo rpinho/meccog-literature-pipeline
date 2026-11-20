@@ -1,0 +1,490 @@
+{
+ "hyp": "H5",
+ "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+ "A": "APOE genotype or apoE isoform (APOE4 vs APOE3), acting through disrupted lipid metabolism (cholesterol, lipid droplets, sphingolipids)",
+ "B": "late endosome / lysosome function (degradation, acidification, cholesterol egress, autophagic flux, lysosomal enzyme activity)",
+ "scope": "IN: late endosome/lysosome function (cholesterol or lipid accumulation in lysosomes, NPC1, lysosomal degradation, cathepsin activity, lysosomal pH, autophagic flux, LAMP1 compartments) measured in APOE4 vs APOE3 cells, especially where linked to lipid/cholesterol metabolism; manipulations of lipid metabolism that change late-endosome/lysosome function in APOE4 cells. OUT: lipid changes with no late-endosome/lysosome readout, mitochondrial respiration alone, inflammation or transcriptomics alone.",
+ "papers": [
+  {
+   "paper_id": "P23",
+   "doi": "10.1242/jcs.258687",
+   "rows": [
+    {
+     "Paper/Finding ID": "P23.F1",
+     "Finding description": "Across four HEK293 wells per genotype, APOE4-expressing cells had higher baseline LC3II/LC3I and LC3 abundance than APOE3-expressing cells (effect and P refer to the LC3II/LC3I ratio; LC3 abundance difference marked ** in Fig. 1A). These measures alone leave the direction of autophagic flux unresolved.",
+     "Finding quote": "APOE4–mCh cells had a significantly higher LC3II/LC3I ratio and significantly higher LC3 abundance (Fig. 1A). An increase in the LC3II/LC3I ratio may suggest either high macroautophagic flux, a late stage block of autophagy at the level of the lysosome causing autophagosome accumulation, or both.",
+     "Finding summary": "(APOE3 -> APOE4) -> (higher baseline LC3II/LC3I ratio and LC3 abundance)",
+     "Experimental system": "Human HEK293 embryonic kidney cells, ATCC CRL-1573; one selected stable clone per APOE–mCherry isoform; basal nutrient-rich culture; western blotting; no human brain cells or lipid-mediated mechanism tested.",
+     "Data location": "Fig. 1A",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P23.F2",
+     "Finding description": "Across three HEK293 wells per isoform, APOE4-expressing cells had larger individual LAMP1-positive lysosomal surfaces than APOE3-expressing cells.",
+     "Finding quote": "Imaris analysis revealed that APOE4–mCh cells had significantly higher colocalization between APOE and lysosomes, and significantly greater average surface area of individual lysosomal and APOE puncta (Fig. 3A) than did APOE3–mCh cells, suggesting greater trafficking to lysosomes.",
+     "Finding summary": "(APOE3 -> APOE4) -> (larger LAMP1-positive lysosomal compartments)",
+     "Experimental system": "Human HEK293 stable APOE3–mCherry versus APOE4–mCherry cells; CellLight LAMP1–GFP; live confocal microscopy; average individual lysosomal surface area measured with Imaris.",
+     "Data location": "Fig. 3A",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P23.F3",
+     "Finding description": "After 24 hours of conditioned-medium exposure in three ST14A wells per isoform, APOE4 preferentially colocalized with late rather than early endosomes, whereas APOE3 showed no such preference.",
+     "Finding quote": "APOE4 colocalized with late endosomes significantly more than with early endosomes, whereas APOE3 did not.",
+     "Finding summary": "Rab7 versus EEA1 colocalization was significantly greater within APOE4-treated cells. APOE3-treated cells showed no significant preference. An isoform-by-marker interaction was not reported.",
+     "Experimental system": "Immortalized rat neuron-like ST14A cells; APOE3–mCherry or APOE4–mCherry conditioned medium for 24 h; fixed-cell mCherry, EEA1 and Rab7 immunostaining; confocal microscopy and Imaris analysis.",
+     "Data location": "Fig. 7C",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P23.F4",
+     "Finding description": "Across four HEK293 wells per genotype, APOE4-expressing cells had higher Beclin1 and lower ATG7 protein abundance than APOE3-expressing cells (effect and P refer to Beclin1; ATG7 ~0.90x, marked ** in Fig. 1C).",
+     "Finding quote": "Relative to APOE3–mCh cells, APOE4–mCh cells had increased Beclin1 protein, suggesting upregulation of macroautophagy, but ATG7 levels were significantly lower (Fig. 1C).",
+     "Finding summary": "(APOE3 -> APOE4) -> (higher Beclin1 and lower ATG7 protein abundance)",
+     "Experimental system": "Human HEK293 cells, ATCC CRL-1573; stable APOE3–mCherry versus APOE4–mCherry clones; basal culture; western blotting of autophagy proteins.",
+     "Data location": "Fig. 1C",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P23.F5",
+     "Finding description": "Across three HEK293 wells per isoform, APOE4 showed greater colocalization with LAMP1-positive lysosomes than APOE3.",
+     "Finding quote": "Imaris analysis revealed that APOE4–mCh cells had significantly higher colocalization between APOE and lysosomes, and significantly greater average surface area of individual lysosomal and APOE puncta (Fig. 3A) than did APOE3–mCh cells, suggesting greater trafficking to lysosomes.",
+     "Finding summary": "(APOE3 -> APOE4) -> (greater APOE–LAMP1 colocalization)",
+     "Experimental system": "Human HEK293 stable APOE3–mCherry versus APOE4–mCherry cells; transduced CellLight LAMP1–GFP; live confocal imaging and Imaris analysis; three images per well.",
+     "Data location": "Fig. 3A",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P23.F6",
+     "Finding description": "Across three HEK293 wells per isoform, dual-tagged APOE4 had a lower green/red fluorescence ratio than APOE3, indicating greater acidic-compartment localization without measuring a lysosomal pH difference.",
+     "Finding quote": "APOE4–mCh–SepH cells had a significantly lower ratio of green to red fluorescence compared with APOE3–mCh–SepH cells, indicating a greater degree of lysosomal localization of the protein (Fig. 3B).",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower green/red APOE fluorescence ratio and greater acidic-compartment localization)",
+     "Experimental system": "Human HEK293 cells stably expressing APOE3–mCherry–SepHluorin or APOE4–mCherry–SepHluorin; live confocal imaging; pH-sensitive green versus pH-resistant red fluorescence; three images per well.",
+     "Data location": "Fig. 3B",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P23.F7",
+     "Finding description": "In four HepG2 lysosomal samples per group, APOE4 versus APOE3 reduced prohibitin abundance to 0.692x, consistent with reduced mitophagy-associated lysosomal cargo.",
+     "Finding quote": "This suggests that the depletion of prohibitin from the LysoIP eluate in APOE4 relative to APOE3-treated cells is specific to the lysosome-enriched fraction, and does not reflect overall reduced abundance.",
+     "Finding summary": "(APOE3 medium -> APOE4 medium) -> (lower lysosomal prohibitin abundance)",
+     "Experimental system": "Human HepG2 hepatic TMEM192–HA cells with endogenous APOE3; APOE–mCherry conditioned medium; LysoIP and label-free LC–MS/MS; 24 h in legends versus 48 h plus 4 h bafilomycin in Methods.",
+     "Data location": "Table S1, accession P35232; Fig. 7D and Fig. S7C",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P23.F8",
+     "Finding description": "Within APOE4-expressing HEK293 cells, rapamycin caused no significant change in LC3 abundance across three wells per treatment, whereas abundance increased in APOE3 and control cells.",
+     "Finding quote": "However, LC3 abundance was increased with Rap only in APOE3–mCh and mCherry cells, with no change in APOE4–mCh cells.",
+     "Finding summary": "(rapamycin) -> (LC3 abundance increased in APOE3 and mCherry controls, with no change reported in APOE4)",
+     "Experimental system": "Human HEK293 stable APOE4–mCherry cells, with APOE3–mCherry and mCherry controls; 10 nM rapamycin for 4 h; western blotting; treatment response rather than direct genotype perturbation.",
+     "Data location": "Fig. 1B",
+     "Directness class": 5,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P23.F9",
+     "Finding description": "In four HepG2 lysosomal samples per group, APOE4 versus APOE3 reduced NDUFB4 abundance to 0.258x, consistent with reduced lysosomal mitochondrial-cargo delivery.",
+     "Finding quote": "O95168 NDUFB4 0.258 0.956 3.701 0.04188126",
+     "Finding summary": "(APOE3 medium -> APOE4 medium) -> (lower lysosomal NDUFB4 abundance)",
+     "Experimental system": "Human HepG2 hepatic TMEM192–HA cells with endogenous APOE3; APOE–mCherry conditioned medium; LysoIP and label-free LC–MS/MS; 24 h in legends versus 48 h plus 4 h bafilomycin in Methods.",
+     "Data location": "Table S1, accession O95168; underlying experiment Fig. S7C",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P23.F10",
+     "Finding description": "In four HepG2 lysosomal samples per group, APOE4 versus APOE3 reduced NDUFV2 abundance to 0.657x, consistent with reduced lysosomal mitochondrial-cargo representation.",
+     "Finding quote": "E7EPT4 NDUFV2 0.657 1.452 2.212 0.035113201 0.694864927 0.01111817",
+     "Finding summary": "(APOE3 medium -> APOE4 medium) -> (lower lysosomal NDUFV2 abundance)",
+     "Experimental system": "Human HepG2 hepatic TMEM192–HA cells with endogenous APOE3; APOE–mCherry conditioned medium; LysoIP and label-free LC–MS/MS; 24 h in legends versus 48 h plus 4 h bafilomycin in Methods.",
+     "Data location": "Table S1, accession E7EPT4; underlying experiment Fig. S7C",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P23.F11",
+     "Finding description": "APOE4 versus APOE3 increased lysosomal representation of secretory/endocytic cargo in four HepG2 samples per group, which the authors interpreted as enhanced trafficking/degradation of those cargoes.",
+     "Finding quote": "Proteins enriched in the lysosome of APOE4-containing cells included a variety of secretory and endocytosis pathway proteins, including several resident Golgi proteins, membrane-tethering proteins and extracellular matrix proteins (Fig. 7D; Fig. S7D, Table S1). Thus, APOE4 appears to inhibit the lysosomal trafficking of mitochondria while enhancing the lysosomal degradation of secretory or endocytic vesicles.",
+     "Finding summary": "(APOE3 medium -> APOE4 medium) -> (greater lysosomal representation of secretory/endocytic cargo)",
+     "Experimental system": "Human HepG2 cells with endogenous APOE3 and stable TMEM192–HA; APOE–mCherry conditioned-medium exposure; LysoIP and label-free LC–MS/MS; 24 h in Results/legend versus 48 h plus 4 h bafilomycin in Methods.",
+     "Data location": "Fig. S7C–D and Table S1",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P23.F12",
+     "Finding description": "In four HepG2 lysosomal samples per group, APOE4 versus APOE3 altered multiple lysosomal protein abundances, including changes not reproduced in the same direction by mCherry control medium.",
+     "Finding quote": "We identified proteins that were uniquely altered in APOE4-treated cells relative to APOE3-treated cells, and were not significantly altered between mCh- and APOE3-treated cells in the same direction (Fig. S7C).",
+     "Finding summary": "(APOE3 medium -> APOE4 medium) -> (altered lysosomal proteomic composition)",
+     "Experimental system": "Human HepG2 cells with endogenous APOE3 and stable TMEM192–HA; APOE–mCherry conditioned medium; LysoIP and label-free LC–MS/MS; 24 h in supplementary legend versus 48 h followed by 4 h bafilomycin in Methods.",
+     "Data location": "Fig. S7C; numerical comparisons in Table S1",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P23.F13",
+     "Finding description": "In four HepG2 lysosomal samples per group, APOE4 versus APOE3 reduced METTL15 abundance to 0.098x, contributing to the mitochondrial-cargo depletion pattern.",
+     "Finding quote": "A6NJ78 METTL15 0.098 0.16 1.64 0.03482823 0.191564201 0.416755153",
+     "Finding summary": "(APOE3 medium -> APOE4 medium) -> (lower lysosomal METTL15 abundance)",
+     "Experimental system": "Human HepG2 hepatic TMEM192–HA cells with endogenous APOE3; APOE–mCherry conditioned medium; LysoIP and label-free LC–MS/MS; 24 h in legends versus 48 h plus 4 h bafilomycin in Methods.",
+     "Data location": "Table S1, accession A6NJ78; underlying experiment Fig. S7C",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P23.F14",
+     "Finding description": "In four HepG2 lysosomal samples per group, APOE4 versus APOE3 reduced FAHD1 abundance to 0.418x, contributing to the mitochondrial-cargo depletion pattern.",
+     "Finding quote": "Q6P587 FAHD1 0.418 2.239 5.356 0.00922607 0.0404347 0.001189686",
+     "Finding summary": "(APOE3 medium -> APOE4 medium) -> (lower lysosomal FAHD1 abundance)",
+     "Experimental system": "Human HepG2 hepatic TMEM192–HA cells with endogenous APOE3; APOE–mCherry conditioned medium; LysoIP and label-free LC–MS/MS; 24 h in legends versus 48 h plus 4 h bafilomycin in Methods.",
+     "Data location": "Table S1, accession Q6P587; underlying experiment Fig. S7C",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  },
+  {
+   "paper_id": "P1",
+   "doi": "10.64898/2026.05.12.724612",
+   "rows": [
+    {
+     "Paper/Finding ID": "P1.F1",
+     "Finding description": "After organoid-debris challenge, APOE33 microglia acidified from approximately pH 5.15 to 5.05, whereas APOE44 microglia failed to acidify; three wells per condition were imaged.",
+     "Finding quote": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (∼5.15), APOE33 iMG exhibited further acidification upon challenge (∼5.05), whereas APOE44 iMG failed to do so (Figure 3G).",
+     "Finding summary": "(APOE33 -> APOE44) -> (impaired adaptive late-endosomal/lysosomal acidification after organoid-debris challenge)",
+     "Experimental system": "Human male KOLF isogenic APOE33/APOE44 iPSC-derived microglia challenged with organoid debris; ratiometric ApHID/Alexa 647 dextran imaging; three wells per condition and nine frames per well. Challenge duration, donor age and AD status were not stated.",
+     "Data location": "Fig 3G, organoid-debris response",
+     "Directness class": 1,
+     "Directness strength": "1 very strong"
+    },
+    {
+     "Paper/Finding ID": "P1.F2",
+     "Finding description": "APOE44 microglia had reduced DQ-BSA-measured lysosomal degradation capacity compared with APOE33 microglia; three wells per group were imaged with nine frames per well.",
+     "Finding quote": "Consistently, lysosomal degradative capacity, assessed by DQ-BSA, was reduced in APOE44 iMG (Figure 3H)56,57.",
+     "Finding summary": "(APOE33 -> APOE44) -> (lower lysosomal degradation capacity)",
+     "Experimental system": "Human male KOLF isogenic APOE33/APOE44 iPSC-derived microglia; DQ-BSA mean fluorescence intensity per punctum. The panel includes conditions with and without 10 nM bafilomycin, but the Results do not specify the inhibitor condition for the reported genotype difference. Assay duration, donor age and AD status were not stated.",
+     "Data location": "Fig 3H",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P1.F3",
+     "Finding description": "In the female UCI5 isogenic APOE33/APOE44 comparison, APOE44 microglia failed adaptive lysosomal acidification and instead alkalinized after organoid-debris challenge; three wells per condition were imaged.",
+     "Finding quote": "Upon challenge with organoid debris, UCI5 APOE44 iMG lysosomes failed to mount an adaptive acidification response and instead shifted toward alkalinization (Figure 7M).",
+     "Finding summary": "(APOE33 -> APOE44) -> (impaired adaptive lysosomal acidification, with alkalinization after challenge)",
+     "Experimental system": "Human iPSC-derived microglia from the additional female UCI5 isogenic APOE33/APOE44 pair; untreated and organoid-debris-challenged conditions; ratiometric ApHID/Alexa 647 dextran imaging of late-endosomal/lysosomal acidity; three wells per condition, 25 frames per well. Donor age, AD status and challenge duration were not stated.",
+     "Data location": "Fig 7M",
+     "Directness class": 1,
+     "Directness strength": "1 very strong"
+    },
+    {
+     "Paper/Finding ID": "P1.F4",
+     "Finding description": "Untreated APOE33 and APOE44 microglia showed no significant difference in baseline late-endosomal/lysosomal pH, reported as approximately 5.15 in both groups; three wells per genotype were imaged.",
+     "Finding quote": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (∼5.15), APOE33 iMG exhibited further acidification upon challenge (∼5.05), whereas APOE44 iMG failed to do so (Figure 3G).",
+     "Finding summary": "(APOE33 -> APOE44) -> (no change in baseline late-endosomal/lysosomal pH)",
+     "Experimental system": "Human male KOLF isogenic APOE33/APOE44 iPSC-derived microglia; untreated baseline; ratiometric late-endosomal/lysosomal pH imaging using dextran-bound ApHID and pH-independent Alexa 647; three wells per genotype and nine frames per well. Donor age, AD status and loading duration were not stated.",
+     "Data location": "Fig 3G, untreated APOE33 versus untreated APOE44",
+     "Directness class": 1,
+     "Directness strength": "1 very strong"
+    },
+    {
+     "Paper/Finding ID": "P1.F5",
+     "Finding description": "APOE44 microglia had significantly greater BODIPY/LysoTracker colocalization than APOE33 microglia, indicating increased lysosomal neutral-lipid accumulation; two wells per genotype were sampled with nine frames per well.",
+     "Finding quote": "To assess this possibility, we quantified colocalization of BODIPY and LysoTracker and found that APOE44 iMG have significantly more neutral lipid accumulation in the lysosomes (Figure 3E).",
+     "Finding summary": "(APOE33 -> APOE44) -> (higher lysosomal neutral-lipid accumulation in human microglia)",
+     "Experimental system": "Human iPSC-derived microglia from the male KOLF isogenic APOE33/APOE44 pair, identified as Jackson Laboratory JIPSC001000/JIPSC001150; baseline culture; BODIPY-493/503 and LysoTracker Red DND-99 colocalization area normalized to LysoTracker area. Donor age, AD status and assay duration were not stated.",
+     "Data location": "Fig 3E",
+     "Directness class": 3,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P1.F6",
+     "Finding description": "Representative BODIPY/LysoTracker images accompany the reported greater lysosomal neutral-lipid accumulation in APOE44 versus APOE33 microglia, but the supplementary images themselves were unavailable.",
+     "Finding quote": "To assess this possibility, we quantified colocalization of BODIPY and LysoTracker and found that APOE44 iMG have significantly more neutral lipid accumulation in the lysosomes (Figure 3E).",
+     "Finding summary": "(APOE33 -> APOE44) -> (higher lysosomal neutral-lipid accumulation)",
+     "Experimental system": "Human male KOLF isogenic APOE33/APOE44 iPSC-derived microglia; representative BODIPY-493/503, LysoTracker Red DND-99 and colocalization images; legend specifies a 50 µm scale bar. Donor age, AD status and imaging duration were not stated.",
+     "Data location": "Supplementary Fig S3B; representative images corresponding to Fig 3E assay",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P1.F7",
+     "Finding description": "Of 84 identified lysosomal hydrolases and V-ATPases, 53 were significantly downregulated in APOE44 versus APOE33 microglia; the underlying proteomic dataset used three wells per genotype.",
+     "Finding quote": "Of the 84 identified lysosomal hydrolases and V-ATPases, 53 were significantly downregulated in APOE44 iMG, supporting lysosomal impairment (Figure S3D).",
+     "Finding summary": "(APOE33 -> APOE44) -> (lower abundance of numerous lysosomal hydrolases and V-ATPases)",
+     "Experimental system": "Human male KOLF isogenic APOE33/APOE44 iPSC-derived microglia; baseline proteomics intersected with a lysosomal enzyme annotation set. Counts describe proteins rather than biological replicates; underlying proteomics comprised three wells per genotype. Donor age and AD status were not stated.",
+     "Data location": "Supplementary Fig S3D",
+     "Directness class": 3,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P1.F8",
+     "Finding description": "Electron microscopy identified instances of electron-dense, concentrically whorled lysosomes in APOE44 microglia compared with APOE33, consistent with lysosomal lipid accumulation.",
+     "Finding quote": "As an orthogonal approach to visualize lysosomes, we performed transmission electron microscopy on iMG from APOE3 and APOE4 donor lines. Indeed, we found instances in which lysosomes from APOE44 appeared more electron dense, with a concentric, whorled membranous structure, indicative of lipid buildup (Figure 3F).",
+     "Finding summary": "(APOE33 -> APOE44) -> (lysosomal ultrastructure consistent with increased lipid accumulation)",
+     "Experimental system": "Human iPSC-derived microglia described specifically for this experiment as APOE3 and APOE4 donor lines; Fig 3F identifies APOE33/APOE44 groups; transmission electron microscopy of lysosomes. Specific donor lines, donor age, AD status and culture duration were not stated for this experiment.",
+     "Data location": "Fig 3F",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P1.F9",
+     "Finding description": "APOE44 microglia had lower HEXA protein abundance than APOE33 microglia in proteomics using three wells per genotype; enzyme activity was not measured.",
+     "Finding quote": "These data were in agreement with our scRNAseq results, also indicating that lysosomal and endosomal pathways were being downregulated (i.e., LAMP1, LAMP2, HEXA, HEXB) (Figures 3I-K, S3C, Table S6).",
+     "Finding summary": "(APOE33 -> APOE44) -> (lower lysosomal HEXA protein abundance)",
+     "Experimental system": "Human male KOLF isogenic APOE33/APOE44 iPSC-derived microglia; baseline whole-cell proteomic HEXA abundance; three wells per genotype. Donor age, AD status and culture duration were not stated.",
+     "Data location": "Supplementary Fig S3C, HEXA",
+     "Directness class": 3,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P1.F10",
+     "Finding description": "Cross-pair proteomic analysis reported reduced lysosomal proteins in KOLF APOE44 versus APOE33 microglia despite limited overall concordance with UCI5; KOLF proteomics used three wells per genotype.",
+     "Finding quote": "Nevertheless, both lines at the proteomic level show an increase in MHC Class II response and inflammatory response and a decrease in lysosomal proteins (Figure S7I).",
+     "Finding summary": "(APOE33 -> APOE44 in KOLF) -> (lower lysosomal protein abundance)",
+     "Experimental system": "Human male KOLF isogenic APOE33/APOE44 iPSC-derived microglia; genotype-associated protein fold changes compared with the female UCI5 pair and analyzed for shared functional enrichment; three wells per genotype in KOLF source proteomics. Donor age and AD status were not stated.",
+     "Data location": "Supplementary Fig S7I, KOLF component",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P1.F11",
+     "Finding description": "APOE44 microglia had higher p62/SQSTM1 protein abundance than APOE33 microglia in three wells per genotype, consistent with autophagosome accumulation but without direct autophagic flux measurement.",
+     "Finding quote": "Further, p62 (SQSTM1) and LC3B (MAP1LC3B2) were both upregulated, supporting a buildup of autophagosomes (Figure S3E).",
+     "Finding summary": "(APOE33 -> APOE44) -> (higher p62 abundance, a surrogate consistent with autophagosome accumulation)",
+     "Experimental system": "Human male KOLF isogenic APOE33/APOE44 iPSC-derived microglia; baseline whole-cell proteomic SQSTM1 abundance, without a reported turnover or flux assay; three wells per genotype. Donor age and AD status were not stated.",
+     "Data location": "Supplementary Fig S3E, SQSTM1/p62",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  },
+  {
+   "paper_id": "P24",
+   "doi": "10.3233/jad-230514",
+   "rows": [
+    {
+     "Paper/Finding ID": "P24.F1",
+     "Finding description": "APOE4 mouse neurons had 23.6% less CatD-positive lysosomal area than APOE3 neurons. The Results report N = 62 neurons from six preparations for this finding without explicitly assigning that count to a genotype.",
+     "Finding quote": "Quantifications of the results revealed that, APOE4 neurons present a significant decrease in the areas of both the late endosomes (13% decrease, p < 0.05, N = 69 from 7 different preparations) and lysosomes (23.6% decrease, p < 0.0001, N = 62 from 6 different preparations), while no significant differences were obtained with the early and recycling endosomes (N = 65–86 from 6 to 8 different preparations).",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower CatD-positive lysosomal area in mouse neurons)",
+     "Experimental system": "Primary neuronal-enriched brain cultures from 1–3-day-old human APOE3 or APOE4 targeted-replacement mouse pups on an α-syn-/- background; 2–3 pups pooled per preparation; experiments generally at culture day 21; CatD immunofluorescence and confocal quantification of labeled percentage area, without measuring cathepsin activity.",
+     "Data location": "Fig. 7C",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P24.F2",
+     "Finding description": "APOE4 mouse neurons had 13% less Rab7-positive late-endosome area than APOE3 neurons. The Results report N = 69 neurons from seven preparations for this finding without explicitly assigning that count to a genotype.",
+     "Finding quote": "Quantifications of the results revealed that, APOE4 neurons present a significant decrease in the areas of both the late endosomes (13% decrease, p < 0.05, N = 69 from 7 different preparations) and lysosomes (23.6% decrease, p < 0.0001, N = 62 from 6 different preparations), while no significant differences were obtained with the early and recycling endosomes (N = 65–86 from 6 to 8 different preparations).",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower Rab7-positive late-endosome area in mouse neurons)",
+     "Experimental system": "Primary neuronal-enriched brain cultures from 1–3-day-old human APOE3 or APOE4 targeted-replacement mouse pups on an α-syn-/- background; 2–3 pups pooled per preparation; experiments generally at culture day 21; Rab7 immunofluorescence and confocal quantification of labeled percentage area.",
+     "Data location": "Fig. 7B",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P24.F3",
+     "Finding description": "APOE4 mouse neurons showed 35.89% lower APOER2 colocalization with lysosomes than APOE3 neurons; 25–37 cells from 2–3 preparations were reported per comparison.",
+     "Finding quote": "Additionally, there was also a decrease in the colocalization of the receptors with the lysosomes in APOE4 neurons that was significant in APOER2 and VEGFR but not in the IR (APOER2 : 35.89% decrease, p < 0.0001; VEGFR: 31.30% decrease, p < 0.05), and in the recycling endosomes in all three receptors (APOER2 : 11.16% decrease, p = 0.5154; IR: 30.88% decrease, p < 0.05; VEGFR: 29.02% decrease, p < 0.05) when compared to APOE3 neurons.",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower APOER2 colocalization with lysosomes)",
+     "Experimental system": "Primary neuronal-enriched brain cultures from neonatal human APOE3 or APOE4 targeted-replacement mice on an α-syn-/- background; experiments generally at day 21; APOER2/CatD double immunofluorescence, confocal microscopy, and M1 colocalization analysis.",
+     "Data location": "Fig. 8B, lysosomes",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P24.F4",
+     "Finding description": "APOE4 mouse neurons showed 25.80% lower insulin-receptor colocalization with late endosomes than APOE3 neurons; 25–37 cells from 2–3 preparations were reported per comparison.",
+     "Finding quote": "This decrease in late endosomes was significant for both IR and VEGFR with a similar trend observed in APOER2 (IR: 25.80% decrease, p < 0.05; VEGFR: 47.74% decrease, p < 0.05; APOER2 : 22.09% decrease, p = 0.156).",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower insulin-receptor colocalization with late endosomes)",
+     "Experimental system": "Primary neuronal-enriched brain cultures from neonatal human APOE3 or APOE4 targeted-replacement mice on an α-syn-/- background; experiments generally at day 21; insulin-receptor/Rab7 double immunofluorescence, confocal microscopy, and M1 colocalization analysis.",
+     "Data location": "Fig. 8C, late endosomes",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P24.F5",
+     "Finding description": "Insulin-receptor colocalization with lysosomes showed no significant difference between APOE3 and APOE4 mouse neurons; both printed means were 0.33, with 25–37 cells from 2–3 preparations reported per comparison.",
+     "Finding quote": "Additionally, there was also a decrease in the colocalization of the receptors with the lysosomes in APOE4 neurons that was significant in APOER2 and VEGFR but not in the IR (APOER2 : 35.89% decrease, p < 0.0001; VEGFR: 31.30% decrease, p < 0.05), and in the recycling endosomes in all three receptors (APOER2 : 11.16% decrease, p = 0.5154; IR: 30.88% decrease, p < 0.05; VEGFR: 29.02% decrease, p < 0.05) when compared to APOE3 neurons.",
+     "Finding summary": "(APOE3 -> APOE4) -> (no change in insulin-receptor lysosomal colocalization)",
+     "Experimental system": "Primary neuronal-enriched brain cultures from neonatal human APOE3 or APOE4 targeted-replacement mice on an α-syn-/- background; experiments generally at day 21; insulin-receptor/CatD double immunofluorescence, confocal microscopy, and M1 colocalization analysis.",
+     "Data location": "Fig. 8C, lysosomes",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P24.F6",
+     "Finding description": "APOE4 mouse neurons showed 47.74% lower VEGFR colocalization with late endosomes than APOE3 neurons; 25–37 cells from 2–3 preparations were reported per comparison.",
+     "Finding quote": "This decrease in late endosomes was significant for both IR and VEGFR with a similar trend observed in APOER2 (IR: 25.80% decrease, p < 0.05; VEGFR: 47.74% decrease, p < 0.05; APOER2 : 22.09% decrease, p = 0.156).",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower VEGFR colocalization with late endosomes)",
+     "Experimental system": "Primary neuronal-enriched brain cultures from neonatal human APOE3 or APOE4 targeted-replacement mice on an α-syn-/- background; experiments generally at day 21; VEGFR2/Rab7 double immunofluorescence, confocal microscopy, and M1 colocalization analysis.",
+     "Data location": "Fig. 8D, late endosomes",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P24.F7",
+     "Finding description": "APOE4 mouse neurons showed 31.30% lower VEGFR colocalization with lysosomes than APOE3 neurons; 25–37 cells from 2–3 preparations were reported per comparison.",
+     "Finding quote": "Additionally, there was also a decrease in the colocalization of the receptors with the lysosomes in APOE4 neurons that was significant in APOER2 and VEGFR but not in the IR (APOER2 : 35.89% decrease, p < 0.0001; VEGFR: 31.30% decrease, p < 0.05), and in the recycling endosomes in all three receptors (APOER2 : 11.16% decrease, p = 0.5154; IR: 30.88% decrease, p < 0.05; VEGFR: 29.02% decrease, p < 0.05) when compared to APOE3 neurons.",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower VEGFR colocalization with lysosomes)",
+     "Experimental system": "Primary neuronal-enriched brain cultures from neonatal human APOE3 or APOE4 targeted-replacement mice on an α-syn-/- background; experiments generally at day 21; VEGFR2/CatD double immunofluorescence, confocal microscopy, and M1 colocalization analysis.",
+     "Data location": "Fig. 8D, lysosomes",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P24.F8",
+     "Finding description": "APOE4 mouse neurons showed 20.2% lower LRP1 colocalization with lysosomes than APOE3 neurons; the legend reports 25–37 cells from 2–3 preparations per comparison.",
+     "Finding quote": "The first pattern which was observed with LRP1, shows that lower levels of colocalization of this receptor in the early endosomes in APOE4 neurons (seen also in Fig. 5) was accompanied by lower levels of their colocalization with late endosomes (46.7% decrease, p < 0.01) and lysosomes (20.2% decrease, p < 0.05), while no difference between the genotypes was seen in the corresponding recycling endosomes.",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower LRP1 colocalization with lysosomes)",
+     "Experimental system": "Primary neuronal-enriched brain cultures from neonatal human APOE3 or APOE4 targeted-replacement mice on an α-syn-/- background; experiments generally at day 21; LRP1/CatD double immunofluorescence, confocal microscopy, and M1 colocalization analysis.",
+     "Data location": "Fig. 8A, lysosomes",
+     "Directness class": 3,
+     "Directness strength": "4 weak"
+    },
+    {
+     "Paper/Finding ID": "P24.F9",
+     "Finding description": "APOE4 mouse neurons showed a reported 22.09% decrease in APOER2 late-endosome colocalization versus APOE3, but no significant difference; 25–37 cells from 2–3 preparations were reported per comparison.",
+     "Finding quote": "This decrease in late endosomes was significant for both IR and VEGFR with a similar trend observed in APOER2 (IR: 25.80% decrease, p < 0.05; VEGFR: 47.74% decrease, p < 0.05; APOER2 : 22.09% decrease, p = 0.156).",
+     "Finding summary": "(APOE3 -> APOE4) -> (no change in APOER2 late-endosome colocalization reaching statistical significance)",
+     "Experimental system": "Primary neuronal-enriched brain cultures from neonatal human APOE3 or APOE4 targeted-replacement mice on an α-syn-/- background; experiments generally at day 21; APOER2/Rab7 double immunofluorescence, confocal microscopy, and M1 colocalization analysis.",
+     "Data location": "Fig. 8B, late endosomes",
+     "Directness class": 3,
+     "Directness strength": "4 weak"
+    },
+    {
+     "Paper/Finding ID": "P24.F10",
+     "Finding description": "APOE4 mouse neurons showed 46.7% lower LRP1 colocalization with late endosomes than APOE3 neurons; the legend reports 25–37 cells from 2–3 preparations per receptor–compartment comparison.",
+     "Finding quote": "The first pattern which was observed with LRP1, shows that lower levels of colocalization of this receptor in the early endosomes in APOE4 neurons (seen also in Fig. 5) was accompanied by lower levels of their colocalization with late endosomes (46.7% decrease, p < 0.01) and lysosomes (20.2% decrease, p < 0.05), while no difference between the genotypes was seen in the corresponding recycling endosomes.",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower LRP1 colocalization with late endosomes)",
+     "Experimental system": "Primary neuronal-enriched brain cultures from neonatal human APOE3 or APOE4 targeted-replacement mice on an α-syn-/- background; experiments generally at day 21; LRP1/Rab7 double immunofluorescence, confocal microscopy, and M1 receptor-intensity colocalization fraction.",
+     "Data location": "Fig. 8A, late endosomes",
+     "Directness class": 3,
+     "Directness strength": "4 weak"
+    }
+   ]
+  },
+  {
+   "paper_id": "P8",
+   "doi": "10.3233/jad-150738",
+   "rows": [
+    {
+     "Paper/Finding ID": "P8.F1",
+     "Finding description": "Across three independent experiments, one-hour recombinant apoE4 treatment increased cytosolic Cathepsin D compared with apoE3 in SH-SY5Y cells, supporting leakage from lysosomal compartments.",
+     "Finding quote": "Analysis of microsomal and cytosolic fractions revealed that Cathepsin D levels were increased in the cytosolic fraction of rApoE4-treated cells compared to rApoE3- and non-treated cells (Fig. 5C).",
+     "Finding summary": "(apoE3 -> apoE4) -> (higher cytosolic Cathepsin D in SH-SY5Y cells)",
+     "Experimental system": "Human ATCC SH-SY5Y neuroblastoma cells treated in serum-free medium with 100 nM human recombinant apoE3 or apoE4 for 1 h; differential centrifugation to obtain microsomal and cytosolic fractions, followed by Cathepsin D immunoblotting; Ponceau staining used as loading control.",
+     "Data location": "Fig 5C, cytosolic fraction",
+     "Directness class": 3,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P8.F2",
+     "Finding description": "Across three experiments, recombinant apoE4 reduced Cathepsin D–Lamp-2 colocalization relative to the apoE3 condition in human primary cortical neurons, suggesting reduced lysosomal retention of Cathepsin D.",
+     "Finding quote": "As seen in Fig. 5E, and in agreement with the results found with SH-SY5Y cells (Fig. 5A), rApoE4-treated neurons showed reduced co-localization between Lamp-2 and Cathepsin D suggesting lower levels of Capthesin D in the lysosomes.",
+     "Finding summary": "(apoE3 -> apoE4) -> (reduced Cathepsin D–Lamp-2 colocalization in human primary cortical neurons)",
+     "Experimental system": "Human primary cortical neurons derived from embryonic cortical tissue at 6–11 weeks post-conception, obtained after elective abortions from healthy pregnant women without known AD pathology; cultured for 10 days before treatment; 100 nM human recombinant apoE3 or apoE4 for 1 h; Cathepsin D and Lamp-2 immunocytochemistry with confocal microscopy.",
+     "Data location": "Fig 5E",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P8.F3",
+     "Finding description": "Across three experiments, recombinant apoE4 produced more diffuse Lamp-2 and Cathepsin D staining and reduced their colocalization compared with apoE3 in SH-SY5Y cells, indicating impaired lysosomal retention without testing lipid-metabolism mediation.",
+     "Finding quote": "This pattern was not changed by treatment with rApoE3. However, treatment with rApoE4 resulted in decreased staining of both Lamp-2 and Cathepsin D with more diffuse patterns. In addition, rApoE4 exposure resulted in reduced co-localization between Cathepsin D and Lamp-2 compared to rApoE3-treated and control cells (Fig. 5A).",
+     "Finding summary": "(apoE3 -> apoE4) -> (more diffuse lysosomal-marker staining and reduced Cathepsin D–Lamp-2 colocalization in SH-SY5Y cells)",
+     "Experimental system": "Human SH-SY5Y neuroblastoma cells obtained from ATCC; serum-free treatment with 100 nM human recombinant apoE3 or apoE4, described as lipid-free in the Discussion; Cathepsin D and Lamp-2 immunocytochemistry with confocal microscopy. Treatment duration conflicts: Results states 5 h, whereas the Fig 5A legend states 1 h.",
+     "Data location": "Fig 5A",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P8.F4",
+     "Finding description": "Across three independent experiments, microsomal Cathepsin D was lower after one-hour recombinant apoE4 treatment than after apoE3 treatment in SH-SY5Y cells.",
+     "Finding quote": "In rApoE3 treated cells, the levels of Cathepsin D were instead increased in the microsomal fraction compared to rApoE4 treated and control cells.",
+     "Finding summary": "(apoE3 -> apoE4) -> (lower microsomal Cathepsin D in SH-SY5Y cells)",
+     "Experimental system": "Human ATCC SH-SY5Y neuroblastoma cells treated with 100 nM human recombinant apoE3 or apoE4 in serum-free medium for 1 h; microsomal fraction collected by 100,000×g centrifugation and analyzed by Cathepsin D immunoblotting; Ponceau staining used as loading control.",
+     "Data location": "Fig 5C, microsomal fraction",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  },
+  {
+   "paper_id": "P14",
+   "doi": "10.1038/s41586-024-07185-7",
+   "rows": [
+    {
+     "Paper/Finding ID": "P14.F1",
+     "Finding description": "In fibrillar Aβ-challenged APOE4/4 iMG, 10 μM GNE-317 reversed lysosomal accumulation measured by LysoTracker staining in three replicate wells per condition while also reducing lipid droplet accumulation.",
+     "Finding quote": "In addition, PI3K inhibition with GNE-317 reversed the lysosomal accumulation and inflammatory cytokine secretion observed in iMGs with high concentrations of LDs (Extended Data Fig. 7e,f).",
+     "Finding summary": "(GNE-317 treatment in fAβ-challenged APOE4/4 iMG) -> (reduced LysoTracker-defined lysosomal accumulation)",
+     "Experimental system": "Human APOE4/4 iPSC-derived microglia; untreated, 5 μM Aβ-treated, and Aβ plus 10 μM GNE-317 conditions over 24 h; the relevant rescue comparison is Aβ plus GNE-317 versus Aβ alone; LysoTracker staining.",
+     "Data location": "Extended Data Fig. 7e",
+     "Directness class": 5,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P14.F2",
+     "Finding description": "Lipid droplet-containing APOE4/4 iMG showed greater lysosomal accumulation. Fig. 3s measured the percentage of LysoTracker-positive iMG among cells with and without lipid droplets, using three replicate wells per condition.",
+     "Finding quote": "In accordance with these RNA-seq results, phenotypic measurements of LD-containing APOE4/4 iMGs indicate that they are dysfunctional in phagocytosis, accumulate lysosomes and secrete inflammation-associated chemokines as measured in the cell culture media (Fig. 3r,s and Extended Data Fig. 6f,g,i).",
+     "Finding summary": "A greater percentage of lipid droplet-positive APOE4/4 iMG were LysoTracker-positive than lipid droplet-negative iMG.",
+     "Experimental system": "Human APOE4/4 iPSC-derived microglia in the fibrillar Aβ assay. Fig. 3s groups cells by lipid droplet presence or absence. The live-imaging protocol specifies 5 μM fibrillar Aβ for 24 h before staining.",
+     "Data location": "Fig. 3s",
+     "Directness class": 5,
+     "Directness strength": "4 weak"
+    }
+   ]
+  },
+  {
+   "paper_id": "P26",
+   "doi": "10.1523/jneurosci.1400-19.2019",
+   "rows": [
+    {
+     "Paper/Finding ID": "P26.F1",
+     "Finding description": "Recombinant ApoE4 increased ABCA1 colocalization with LAMP2 compared with ApoE3 in human HeLa cells, indicating altered localization rather than directly measured lysosomal function.",
+     "Finding quote": "Greater colocalization of ABCA1 with the late endosome marker LAMP2 and lower colocalization with the recycling endosome marker Rab11 were observed in cells treated with rApoE4 compared with rApoE3 ( Fig. 2 ).",
+     "Finding summary": "(rApoE3 -> rApoE4) -> (greater ABCA1 colocalization with LAMP2)",
+     "Experimental system": "Human HeLa cells, not brain cells, stably expressing GFP-tagged ABCA1; 0.2 μM recombinant ApoE3 or ApoE4 for 30 minutes; confocal imaging with LAMP2 immunostaining.",
+     "Data location": "Fig 2A (images), 2B (quantification)",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  },
+  {
+   "paper_id": "P33",
+   "doi": "10.1038/s44319-025-00664-6",
+   "rows": [
+    {
+     "Paper/Finding ID": "P33.F1",
+     "Finding description": "TOFA treatment from embryos produced no apparent change in APOE4-associated neuronal lysosomal abnormalities relative to DMSO in young adult C. elegans (no significant difference reported, although no statistical test was supplied).",
+     "Finding quote": "We treated the APOE4; PVD::GFP strain with TOFA starting at the embryo stage and found that TOFA partially rescued APOE4-induced PVD neurodegeneration (Fig. 5G,H) without apparently altering APOE4-induced lysosomal defects (Fig. EV5A).",
+     "Finding summary": "(DMSO -> TOFA in APOE4-expressing C. elegans) -> (no change in neuronal lysosomal abnormalities)",
+     "Experimental system": "C. elegans expressing human APOE4 pan-neuronally through vxIs824 [rab-3p::ND18ApoE4::unc-54 3’UTR + myo-2p::mCherry::unc-54 3’UTR], with neuronal lysosomal membrane reporter ceIs56 [unc-129p::ctns-1::mCherry + nlp-21p::Venus + ttx-3p::RFP]; DMSO or TOFA treatment beginning at the embryo stage, assessed at the young adult stage by confocal fluorescence imaging. The lysosomal endpoint is reporter-defined morphology, a surrogate for function. No APOE3 comparison or direct lysosomal functional assay is reported for this result.",
+     "Data location": "Fig. EV5A",
+     "Directness class": 4,
+     "Directness strength": "4 weak"
+    }
+   ]
+  }
+ ],
+ "reference_rows": [
+  {
+   "finding_id": "P18.F1",
+   "summary": "(APOE3 -> APOE4) -> (higher lysosomal pH in mouse astrocytes)",
+   "system": "Cultured mouse astrocytes from ApoE-knockout mice with isogenic knock-in of human ApoE3 or ApoE4, supplied by David M. Holtzman; donor age and mouse background ",
+   "class": 1,
+   "strength": "2 strong"
+  }
+ ]
+}

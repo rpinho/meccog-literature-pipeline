@@ -1,0 +1,27 @@
+[
+ {
+  "item": 1,
+  "decision": "CONFIRM",
+  "why": "Fig 4D reads APOE3 ~101 vs APOE4 ~27 (~0.27x), and the single star takes its meaning only from the legend key ('*p < 0.05, ratio paired t-test, n = 3'), so P <0.05 is visual_only."
+ },
+ {
+  "item": 2,
+  "decision": "CONFIRM",
+  "why": "The Fig 3 image labels the p62 quantification as panel B (the text cites 3A), with '**' over control APOE3 (~100) vs APOE4 (~142) and the legend key '**q < 0.005'; note the bound is an FDR-adjusted q, which the proposal flags."
+ },
+ {
+  "item": 3,
+  "decision": "CONFIRM",
+  "why": "The Fig 3 image labels the LC3 quantification as panel A and plots LC3-II/LC3-I, with '****' over control APOE3 (100) vs APOE4 (~52) and the key '****q < 0.001', so ~0.52x, <0.001 visual_only and the ratio wording in the description are right."
+ },
+ {
+  "item": 4,
+  "decision": "CONFIRM",
+  "why": "The p62 quantification is labelled panel B in the figure, with '*' only on APOE3 control vs alpha-synuclein and no mark on APOE4, so only the location needed correcting."
+ },
+ {
+  "item": 5,
+  "decision": "CONFIRM",
+  "why": "The LC3-II/LC3-I quantification is labelled panel A in the figure, with '*' only on APOE3 control vs alpha-synuclein (100 to ~79) and no mark on APOE4, so only the location needed correcting."
+ }
+]

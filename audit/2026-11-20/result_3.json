@@ -1,0 +1,560 @@
+[
+ {
+  "hyp": "H5",
+  "paper_id": "P24",
+  "finding_id": "P24.F1",
+  "key": "pmid34982109",
+  "quote_start": "APOE4–mCh cells had a significantly higher LC3II/LC3I ratio and signif",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~1.8x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.0001",
+   "P value provenance": "visual_only",
+   "Data location": "Fig. 1A",
+   "Finding description": "Across four HEK293 wells per genotype, APOE4-expressing cells had higher baseline LC3II/LC3I and LC3 abundance than APOE3-expressing cells (effect and P refer to the LC3II/LC3I ratio; LC3 abundance difference marked ** in Fig. 1A). These measures alone leave the direction of autophagic flux unresolved."
+  },
+  "reason": "Quote verbatim, own result. Fig. 1A LC3 ratio panel is readable on a zero-based axis and the APOE3-APOE4 bracket carries ****; legend keys ****P<0.0001. Data location had an irrelevant APOE clause.",
+  "evidence": "Fig. 1A \"LC3 ratio\" panel (axis 0-4000): APOE3 mean ~1450, APOE4 mean ~2650 (~1.8x); bracket APOE3-APOE4 = ****. LC3 Abundance panel (axis starts at 4000): ~4580 vs ~5220, bracket **. Legend: \"*P<0.05, **P<0.01, ****P<0.0001 (one-way ANOVA with multiple comparisons correction)\". Table S5: 1A 4 wells per genotype."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P24",
+  "finding_id": "P24.F2",
+  "key": "pmid34982109",
+  "quote_start": "Imaris analysis revealed that APOE4–mCh cells had significantly higher",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~1.36x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.01",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote verbatim and own result. Lysosome-area panel of Fig. 3A is readable (non-zero baseline 25) and the APOE3-APOE4 bracket shows **.",
+  "evidence": "Fig. 3A \"Lysosome area\" (y axis 25-45 um2/surface): APOE3 ~29.3, APOE4 ~39.8 -> ~1.36x; bracket **. Legend: \"*P<0.05, **P<0.01 ... Student's two-tailed unpaired t-test (A,B)\"; \"three wells were imaged per APOE isoform\"."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P24",
+  "finding_id": "P24.F3",
+  "key": "pmid34982109",
+  "quote_start": "APOE4 colocalized with late endosomes significantly more than with ear",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~3.5x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.05",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote verbatim, own result. Fig. 7C \"APOE endosomal localization\" shows the APOE4 EEA1 vs Rab7 comparison with a * bracket; values readable on a zero-based axis.",
+  "evidence": "Fig. 7C left panel (axis 0-0.15 Coloc/Red): APOE4 EEA1 ~0.029, APOE4 Rab7 ~0.102 -> ~3.5x (Rab7 over EEA1); bracket * over the APOE4 pair only. Legend key \"*P<0.05\". Table S5: 7C 3 wells per genotype."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P24",
+  "finding_id": "P24.F4",
+  "key": "pmid34982109",
+  "quote_start": "Relative to APOE3–mCh cells, APOE4–mCh cells had increased Beclin1 pro",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~1.24x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.05",
+   "P value provenance": "visual_only",
+   "Data location": "Fig. 1C",
+   "Finding description": "Across four HEK293 wells per genotype, APOE4-expressing cells had higher Beclin1 and lower ATG7 protein abundance than APOE3-expressing cells (effect and P refer to Beclin1; ATG7 ~0.90x, marked ** in Fig. 1C)."
+  },
+  "reason": "Quote verbatim, own result. Beclin1 panel shows APOE3-APOE4 bracket * and is readable (axis 120-240); data location carried an unrelated LAMP2A clause.",
+  "evidence": "Fig. 1C Beclin1 Abundance (axis 120-240): APOE3 ~165, APOE4 ~205 -> ~1.24x, bracket *. ATG7 Abundance (axis 550-750): ~688 vs ~622, bracket **. Legend key *P<0.05, **P<0.01."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P24",
+  "finding_id": "P24.F5",
+  "key": "pmid34982109",
+  "quote_start": "Imaris analysis revealed that APOE4–mCh cells had significantly higher",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~3.3x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.01",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote verbatim, own result. Colocalization panel of Fig. 3A is zero-based and readable; bracket **.",
+  "evidence": "Fig. 3A \"Colocalization of APOE & Lysosomes\" (axis 0-0.05): APOE3 ~0.011, APOE4 ~0.037 -> ~3.3x; bracket **. Legend: Student's t-test (A,B), three wells per isoform."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P24",
+  "finding_id": "P24.F6",
+  "key": "pmid34982109",
+  "quote_start": "APOE4–mCh–SepH cells had a significantly lower ratio of green to red f",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~0.37x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.05",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote verbatim, own result. Fig. 3B ratio panel is zero-based and readable; bracket *.",
+  "evidence": "Fig. 3B \"Dual-tagged APOE in Hek293\" green/red surface (axis 0-3): APOE3 ~2.15, APOE4 ~0.80 -> ~0.37x; bracket *. Legend key *P<0.05, t-test."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P24",
+  "finding_id": "P24.F7",
+  "key": "pmid34982109",
+  "quote_start": "This suggests that the depletion of prohibitin from the LysoIP eluate ",
+  "verdict": "OK",
+  "reason": "Quote verbatim, own result; Table S1 values match.",
+  "evidence": "Table S1 row (layout-extracted from s1.pdf p.12): \"P35232 PHB 0.692 1.216 1.757 0.028869173 0.58957946 0.006270202\"; first P column = APOE4/APOE3. Methods: \"four replicate plates per conditioned medium group\". Fig. 7D Prohibitin in LysoIP: APOE3 ~100, APOE4 ~70 (consistent)."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P24",
+  "finding_id": "P24.F8",
+  "key": "pmid34982109",
+  "quote_start": "However, LC3 abundance was increased with Rap only in APOE3–mCh and mC",
+  "verdict": "OK",
+  "reason": "Quote verbatim, own result; no between-condition mark in the APOE4 LC3 Abundance panel of Fig. 1B, so qualitative and no P is right.",
+  "evidence": "Text: \"LC3 abundance was increased with Rap only in APOE3-mCh and mCherry cells, with no change in APOE4-mCh cells.\" Fig. 1B APOE4 LC3 Abundance panel: no brackets. Table S5: 1B 3 wells per treatment."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P24",
+  "finding_id": "P24.F9",
+  "key": "pmid34982109",
+  "quote_start": "O95168 NDUFB4 0.258 0.956 3.701 0.04188126",
+  "verdict": "OK",
+  "reason": "Table S1 row matches; layout extraction confirms the single P value sits in the APOE4/APOE3 column.",
+  "evidence": "Table S1 (layout): \"O95168 NDUFB4 0.258 0.956 3.701 0.04188126\" with 0.04188126 under \"Abundance Ratio P-Value: (APOE4)/(APOE3)\"; other two P cells empty."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P24",
+  "finding_id": "P24.F10",
+  "key": "pmid34982109",
+  "quote_start": "E7EPT4 NDUFV2 0.657 1.452 2.212 0.035113201 0.694864927 0.01111817",
+  "verdict": "OK",
+  "reason": "Table S1 row matches.",
+  "evidence": "Table S1: \"E7EPT4 NDUFV2 0.657 1.452 2.212 0.035113201 0.694864927 0.01111817\"."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P24",
+  "finding_id": "P24.F11",
+  "key": "pmid34982109",
+  "quote_start": "Proteins enriched in the lysosome of APOE4-containing cells included a",
+  "verdict": "OK",
+  "reason": "Quote verbatim, own result; qualitative is correct for a class-level statement.",
+  "evidence": "Results paragraph on LysoIP proteomics, Fig. 7D / Fig. S7D / Table S1; Methods: four replicate plates per group."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P24",
+  "finding_id": "P24.F12",
+  "key": "pmid34982109",
+  "quote_start": "We identified proteins that were uniquely altered in APOE4-treated cel",
+  "verdict": "OK",
+  "reason": "Quote verbatim, own result.",
+  "evidence": "Results: \"We identified proteins that were uniquely altered in APOE4-treated cells relative to APOE3-treated cells ... (Fig. S7C).\" Table S5: S7C 4 wells per conditioned media genotype."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P24",
+  "finding_id": "P24.F13",
+  "key": "pmid34982109",
+  "quote_start": "A6NJ78 METTL15 0.098 0.16 1.64 0.03482823 0.191564201 0.416755153",
+  "verdict": "OK",
+  "reason": "Table S1 row matches.",
+  "evidence": "Table S1: \"A6NJ78 METTL15 0.098 0.16 1.64 0.03482823 0.191564201 0.416755153\"."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P24",
+  "finding_id": "P24.F14",
+  "key": "pmid34982109",
+  "quote_start": "Q6P587 FAHD1 0.418 2.239 5.356 0.00922607 0.0404347 0.001189686",
+  "verdict": "OK",
+  "reason": "Table S1 row matches.",
+  "evidence": "Table S1: \"Q6P587 FAHD1 0.418 2.239 5.356 0.00922607 0.0404347 0.001189686\"."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P13",
+  "finding_id": "P13.F1",
+  "key": "pmid35031484",
+  "quote_start": "We also observe a significantly longer half-life of red fluorescence d",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Quote verbatim and own result. The direction is stated in the main text (\"significantly longer half-life\"), so the effect is qualitative/printed_in_text, not N/A; Fig. S4b itself is not in our files (supplement zip holds only an empty xlsx), so P and n stay unavailable.",
+  "evidence": "Text: \"We also observe a significantly longer half-life of red fluorescence decay in E4 microglia relative to E3, WT and KO microglia ... (Figure S4b, see Methods).\" supp.txt is empty."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P13",
+  "finding_id": "P13.F2",
+  "key": "pmid35031484",
+  "quote_start": "Following treatment with myelin, E3 microglia significantly acidified ",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "reason": "Quote verbatim, own result. Effect direction is stated in text (qualitative, not N/A). Directness class 1 is a clear error: the system is mouse primary microglia from human-APOE knock-in mice, not human brain cells, and every other row of this paper is class 3.",
+  "evidence": "Text: \"Following treatment with myelin, E3 microglia significantly acidified their lysosomes (Figure S3) ... E4 microglia did not exhibit further acidification following myelin challenge but rather a slight (albeit not significant) increase\". Methods: primary microglia from APOE3/APOE4 TR mouse pups."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P13",
+  "finding_id": "P13.F3",
+  "key": "pmid35031484",
+  "quote_start": "Low levels of colocalization between BODIPY and RAB7 were observed and",
+  "verdict": "OK",
+  "reason": "Legend values match.",
+  "evidence": "Fig. 3 legend e): \"RAB7/ BODIPY: E4 vs E3 Z = -0.08, p = 0.97, d = 0.02\"; \"a-g) Each dot corresponds to an independent experiment (n = 4/group)\"."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P13",
+  "finding_id": "P13.F4",
+  "key": "pmid35031484",
+  "quote_start": "We then further used LysoSensor dye to measure the pH of lysosomes, wh",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "reason": "Quote verbatim, own result. Direction is stated in text (qualitative, not N/A). Class 1 is a clear error for mouse knock-in microglia against a human-brain-cell hypothesis (sibling rows are class 3).",
+  "evidence": "Text: \"We then further used LysoSensor dye to measure the pH of lysosomes, which were significantly more acidic in E4 microglia when compared to E3 microglia (Figure S3).\" Fig. S3 not available (empty supplement)."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P13",
+  "finding_id": "P13.F5",
+  "key": "pmid35031484",
+  "quote_start": "E4 microglia again exhibited increased lysosomal mass relative to E3 m",
+  "verdict": "OK",
+  "reason": "Legend values match.",
+  "evidence": "Fig. 3 legend f): \"F(2, 9) = 22.8, p = 0.0003, E4 vs E3: p = 0.002, d = 3.7 CI95% [1.2, 6.2]\"; n = 4/group."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P13",
+  "finding_id": "P13.F6",
+  "key": "pmid35031484",
+  "quote_start": "Post-hoc t-tests at select time points identified significant differen",
+  "verdict": "OK",
+  "reason": "Legend values match (q is the FDR-adjusted p the paper reports).",
+  "evidence": "Fig. 2 legend c): \"up to 72 hours (E4 vs E3: q = 0.001, d = 4.7 CI95% [1.7, 7.6]\"; \"b-c) Each dot corresponds to the average of 3-5 independent experiments\"."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P13",
+  "finding_id": "P13.F7",
+  "key": "pmid35031484",
+  "quote_start": "E4 microglia again displayed higher levels of both RAB5 and RAB7 relat",
+  "verdict": "OK",
+  "reason": "Legend values match.",
+  "evidence": "Fig. 3 legend c,d): \"RAB7: t(4.2) = 3.4, p = 0.02, d = 2.4 CI95% [0.3, 4.4]\"; n = 4/group."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P13",
+  "finding_id": "P13.F8",
+  "key": "pmid35031484",
+  "quote_start": "E4 microglia again exhibited increased lysosomal mass relative to E3 m",
+  "verdict": "OK",
+  "reason": "Legend values match.",
+  "evidence": "Fig. 3 legend g): \"t(5.8) = 4.7, p = 0.004, d = 3.3, CI95% [1.0, 5.6]\"; n = 4/group."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P13",
+  "finding_id": "P13.F9",
+  "key": "pmid35031484",
+  "quote_start": "In addition, the levels of both early endosome (RAB5) and late endosom",
+  "verdict": "OK",
+  "reason": "Legend values match.",
+  "evidence": "Fig. 1 legend e): \"RAB7: t(3.3) = 4.0, p = 0.02, d = 2.8 CI95% [0.3, 5.3]\"; \"b-g) ... (n = 4/group)\"."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P13",
+  "finding_id": "P13.F10",
+  "key": "pmid35031484",
+  "quote_start": "In addition, integrated density of fluorescent immunostaining of the l",
+  "verdict": "OK",
+  "reason": "Legend values match.",
+  "evidence": "Fig. 1 legend g): \"t(5.8) = 6.4, p = 0.0007, d = 4.6, CI95% [1.6, 7.4]\"; n = 4/group."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P13",
+  "finding_id": "P13.F11",
+  "key": "pmid35031484",
+  "quote_start": "E4 microglia exhibited significantly higher integrated intensity of re",
+  "verdict": "OK",
+  "reason": "Quote verbatim, own result. Only an omnibus genotype main effect (4 genotypes) is printed for Fig. 2b, not an E4-vs-E3 P, so N/A is right.",
+  "evidence": "Fig. 2 legend b): \"a main effect of APOE genotype F(3,11) = 14.7, p = 0.0004\" (all four genotypes); \"b-c) Each dot corresponds to the average of 3-5 independent experiments\"."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P29",
+  "finding_id": "P29.F1",
+  "key": "pmid40164781",
+  "quote_start": "Thus, autophagosomes delivery to lysosomes is hampered in APOE4 microg",
+  "verdict": "FIX",
+  "set": {
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "reason": "Quote verbatim, own conclusion. Class 1 is a clear error: murine N9 microglial cell line with no lipid-metabolism measurement (the row says so), not human brain cells; other rows of this paper are class 3.",
+  "evidence": "Text: \"Thus, autophagosomes delivery to lysosomes is hampered in APOE4 microglia.\" Methods: N9 microglia stably expressing FLAG-APOE3/APOE4."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P29",
+  "finding_id": "P29.F2",
+  "key": "pmid40164781",
+  "quote_start": "We found that following rapamycin treatment, 41.03% ± 3.268 of autopha",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.34x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "<0.001",
+   "P value provenance": "visual_only",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "reason": "Both group values are printed (13.84% vs 41.03%), so the effect is their ratio APOE4/APOE3 = 0.34x. Fig. 6B shows **** on top of the APOE4 RAPA bar and the legend keys \"****p < 0.001 ... APOE3- compared with APOE4\". Class 1 wrong for a murine cell line (see F1).",
+  "evidence": "Text: \"41.03% +/- 3.268 of autophagosomes were fused with the lysosomes (RFP-tagged red puncta), compared to 13.84% +/- 1.96 in the APOE4\". Fig. 6B (11_2025_2016_Fig6_HTML.jpg in data/papers/pmid40164781/supplementary.zip (publisher figure JPGs)): E3 RAPA red segment ~0.41, E4 RAPA red ~0.14, \"****\" above E4 RAPA bar. Legend: \"Means +/- SE (****p < 0.001 and *p < 0.05); APOE3- compared with APOE4. n >= 50 cells/treatment\"."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P29",
+  "finding_id": "P29.F3",
+  "key": "pmid40164781",
+  "quote_start": "However, the levels of p62 following chloroquine treatment were signif",
+  "verdict": "OK",
+  "reason": "Quote verbatim, own result; 0.629/0.954 = 0.66x. The figure star \"***\" is not in the legend key for genotype comparisons (key lists only * and **), so ambiguous_panel stands.",
+  "evidence": "Text: \"(0.954 +/- 0.059 and 0.629 +/- 0.068, respectively)\". Fig. 5 image: *** over APOE4 EBSS+CQ bar; legend: \"*p < 0.05 **p < 0.001, ApoE3 compared to APOE4\", \"^ ... EBSS/CQ treated compared to untreated\"."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P29",
+  "finding_id": "P29.F4",
+  "key": "pmid40164781",
+  "quote_start": "Moreover, the levels of p62, which is associated with the degradation ",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.57x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "<0.01",
+   "P value provenance": "visual_only",
+   "Data location": "Fig. 3B"
+  },
+  "reason": "Both group values are printed (APOE3 0.592, APOE4 0.932 at 0.5 h) -> 1.57x (APOE4/APOE3). Fig. 3B is the p62 panel and shows ## between groups at 0.5 h; legend keys \"## p < 0.01 between groups (APOE3 compared to APOE4)\".",
+  "evidence": "Text: \"(0.592 +/- 0.012 and 0.592 +/- 0.011 compared to 0.932 +/- 0.065, and 0.889 +/- 0.053, respectively)\". Fig. 3B (11_2025_2016_Fig3_HTML.jpg in data/papers/pmid40164781/supplementary.zip (publisher figure JPGs)): p62/Actin, APOE4 ~0.93 vs APOE3 ~0.59 at 0.5 h, \"##\" placed between the two curves at 0.5 h."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P29",
+  "finding_id": "P29.F5",
+  "key": "pmid40164781",
+  "quote_start": "Accordingly, the LC3II/actin ratio under these conditions was 1.508 ± ",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.36x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Both group values for 100 nM are printed (APOE3 0.777, APOE4 1.055) -> 1.36x. Fig. 4B stars sit over the APOE3 bars only (treated vs untreated per text), so P stays ambiguous_panel.",
+  "evidence": "Text: \"the corresponding p62 levels were 0.777 +/- 0.063 and 0.706 +/- 0.079, compared to 1.055 +/- 0.055 and 1.026 +/- 0.063, in APOE4\". Fig. 4B (11_2025_2016_Fig4_HTML.jpg in data/papers/pmid40164781/supplementary.zip (publisher figure JPGs)): * over APOE3 bars at 100 and 150 nM; no between-genotype mark."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P29",
+  "finding_id": "P29.F6",
+  "key": "pmid40164781",
+  "quote_start": "Thus, the results suggest that induction of autophagy may be also impa",
+  "verdict": "OK",
+  "reason": "Quote verbatim, own interpretation of Fig. 3 data; qualitative fine.",
+  "evidence": "Text: \"Thus, the results suggest that induction of autophagy may be also impaired in APOE4 microglia.\""
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P29",
+  "finding_id": "P29.F7",
+  "key": "pmid40164781",
+  "quote_start": "Next, we measured the rate of Aβ degradation in APOE3 compared to APOE",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~3.2x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.001",
+   "P value provenance": "visual_only",
+   "Finding description": "Following Abeta washout, APOE4 microglia retained more fluorescent Abeta than APOE3 microglia (at 4.25 h, ~0.84 vs ~0.26 fold of control; effect is the APOE4/APOE3 ratio of remaining fluorescence), interpreted as lower Abeta degradation."
+  },
+  "reason": "Quote verbatim, own result. Fig. 2B is readable on a zero-based axis and a *** bracket joins the two curves; legend keys \"*** p < 0.001\".",
+  "evidence": "Fig. 2B (11_2025_2016_Fig2_HTML.jpg in data/papers/pmid40164781/supplementary.zip (publisher figure JPGs)): at 4.25 h ApoE4 ~0.84, ApoE3 ~0.26 (axis 0-1.5); bracket *** between curves. Legend: \"two tailed unpaired student t-test; *** p < 0.001, **** p < 0.0001 (n >= 4)\"."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P2",
+  "finding_id": "P2.F1",
+  "key": "pmid34919811",
+  "quote_start": "Further colocalization of Filipin III with Dextran-Alexa 555 was highe",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~1.3x",
+   "Effect size provenance": "estimated_from_figure",
+   "Directness strength": "4 weak",
+   "Finding description": "Across three experiments with 7-10 images per line per experiment, Filipin III/dextran colocalization (lysosomal cholesterol) was numerically highest in APOE4 iAstrocytes (~1.3x APOE3); the only significant pairwise difference marked is E4 vs E2 (P<0.05), E4 vs E3 is not marked significant."
+  },
+  "reason": "Quote verbatim, own result, but the paper only supports E4 > E2; Fig. 3G shows no E4-E3 mark, so \"2 strong\" overstates the APOE3->APOE4 evidence. Bar heights are readable (normalized to APOE3).",
+  "evidence": "Text: \"colocalization ... was highest in APOE4 iAstrocytes ... (E4 > E2) (Figure 3G)\". Fig. 3G: E3 ~1.0, E4 ~1.27 (axis 0-4); single bracket \"*\" from E2 to E4."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P2",
+  "finding_id": "P2.F2",
+  "key": "pmid34919811",
+  "quote_start": "Lysosomal activity in APOE3 and APOE4 was significantly lower than in ",
+  "verdict": "OK",
+  "reason": "Quote verbatim, own result; Fig. 4F has no E3-E4 mark (E3 ~100, E4 ~105).",
+  "evidence": "Fig. 4F: brackets KO-E3 *, KO-E4 *, E2-E3 **, E2-E4 **; none for E3-E4. Legend: \"(three independent experiments)\"."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P2",
+  "finding_id": "P2.F3",
+  "key": "pmid34919811",
+  "quote_start": "Immunofluorescent detection of lysosomes by LAMP2 (Figure 4C) or Dextr",
+  "verdict": "OK",
+  "reason": "Quote verbatim, own result; no marks in Fig. 4C.",
+  "evidence": "Text: \"Immunofluorescent detection of lysosomes by LAMP2 (Figure 4C) ... showed no difference between genotypes.\" Fig. 4C: no brackets."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P2",
+  "finding_id": "P2.F4",
+  "key": "pmid34919811",
+  "quote_start": "However, protein levels of LAMP2 detected by western blot were signifi",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~0.57x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.01",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote verbatim, own result. Fig. 4E Lamp2 panel is zero-based, normalized to E3 = 1, and has a ** bracket from E3 to E4; legend keys **p<0.01.",
+  "evidence": "Fig. 4E Lamp2/beta-actin (axis 0-1.5): E3 ~1.0, E4 ~0.57; brackets \"**\" KO-E3 and \"**\" E3-E4. Legend: \"(*p < 0.05; **p < 0.01, one-way ANOVA with post hoc Tukey's ...)\"."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P16",
+  "finding_id": "P16.F1",
+  "key": "pmid42239208",
+  "quote_start": "Compared to APOE3 astrocytes, APOE4 astrocytes showed decreased levels",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~0.8x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "0.0311",
+   "P value provenance": "printed_in_text",
+   "Data location": "Fig 2J-K",
+   "Finding description": "Quantified LAMP1-positive lysosome staining per cell area was lower in APOE4 than APOE3 astrocytes (N=18 wells per genotype across two iPSC lines; p = 0.0311, unpaired t-test)."
+  },
+  "reason": "Quote verbatim, own result. The quantification is Fig. 2K, which prints p = 0.0311 on the bracket; the description called it representative images only.",
+  "evidence": "Fig. 2K \"LAMP1 Intensity Per Cell Area\": printed \"p = 0.0311\"; APOE3 mean ~1.0, APOE4 mean ~0.77-0.8. Legend: \"J) LAMP1 positive lysosomes with K) quantification. N=18 wells per genotype ... Unpaired t-test\"."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P16",
+  "finding_id": "P16.F2",
+  "key": "pmid42239208",
+  "quote_start": "Increasing either PICALM or INPP5D expression had no detectable effect",
+  "verdict": "OK",
+  "reason": "Quote verbatim, own result; Fig. 5H has no p printed.",
+  "evidence": "Text: \"Increasing either PICALM or INPP5D expression had no detectable effect on ... RAB7-positive late endosomes (Figure 5G, 5H).\" Fig. 5H: no brackets."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P16",
+  "finding_id": "P16.F3",
+  "key": "pmid42239208",
+  "quote_start": "Increased INPP5D expression did result in reduced LAMP1-positive lysos",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~0.5x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "0.0359",
+   "P value provenance": "printed_in_text"
+  },
+  "reason": "Quote verbatim, own result. Fig. 5J prints p = 0.0359 for darkGFP vs INPP5D; INPP5D mean is readable against darkGFP normalized to 1.",
+  "evidence": "Fig. 5J \"LAMP1 Intensity Per Cell Area\": bracket darkGFP-INPP5D \"p = 0.0359\"; darkGFP mean ~1.0 (dashed line), INPP5D mean ~0.5."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P32",
+  "finding_id": "P32.F1",
+  "key": "pmid38191671",
+  "quote_start": "Rapamycin induced autophagy in T98G-E3 cells; however, it did not indu",
+  "verdict": "OK",
+  "reason": "Quote verbatim, own result; Fig. 4g is images, quantified in 4h (row F2).",
+  "evidence": "Text: \"Rapamycin induced autophagy in T98G-E3 cells; however, it did not induce autophagy in T98G-E4 cells (Fig. 4g).\" Legend h: \"N of 3 biological repeats\"."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P32",
+  "finding_id": "P32.F2",
+  "key": "pmid38191671",
+  "quote_start": "Furthermore, measurement of autophagy in live cells showed that active",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~0.34x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.0005",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote verbatim, own result. Fig. 4h left panel has only the two rapamycin bars (E3, E4) with **** over E4; legend keys \"****P < 0.0005\"; axis zero-based.",
+  "evidence": "Fig. 4h left (axis 0-10): T98G-E3 ~6.9, T98G-E4 ~2.35 -> ~0.34x; \"****\" over the E4 bar. Legend: \"***P < 0.004, and ****P < 0.0005, via 1-tailed t test for an N of 3 biological repeats\"."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P10",
+  "finding_id": "P10.F1",
+  "key": "pmid35750033",
+  "quote_start": "Negatively enriched Lysosome (Figures 2F and S3D) and lower SMPD1, NPC",
+  "verdict": "OK",
+  "reason": "Quote verbatim, own result; Fig. S6D unavailable (empty supplement), so P/n unavailable is right.",
+  "evidence": "Text: \"lower SMPD1, NPC1 and NPC2 in APOE4 vs. APOE3 astrocytes (Figure S6D) indicates cholesterol transport out of lysosomes may be impaired by APOE4.\" supp.txt empty."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P28",
+  "finding_id": "P28.F1",
+  "key": "pmid37995685",
+  "quote_start": "Importantly, while we did not detect substantial levels of neutral or ",
+  "verdict": "OK",
+  "reason": "Quote is the paper's own result restated in its Discussion; n matches the Fig. 2 legend.",
+  "evidence": "Discussion: \"Importantly, while we did not detect substantial levels of neutral or oxidized lipids in glia of TEKO or TE3 mice by immunostaining, large accumulations of BODIPY+ neutral lipids were observed within microglial phagolysosomes of TE4 mice.\" Fig. 2 legend: \"(C) within CD68-positive lysosomes ... N=12 (6M and 6F)/genotype\"."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P15",
+  "finding_id": "P15.F2",
+  "key": "pmid17428983",
+  "quote_start": "We observed small increases of ApoER2 and β-secretase in response to A",
+  "verdict": "OK",
+  "reason": "Quote verbatim, own result; ~28% matches Fig. 2c (ApoER2 None ~0.78 vs ApoE4 1.0).",
+  "evidence": "Fig. 2c bar graph: ApoER2 None ~0.78, ApoE ~0.85, ApoE4 1.0 (normalized) -> 1/0.78 = ~28% increase; printed P only for beta-secretase None/ApoE4 (0.039)."
+ }
+]

@@ -1,0 +1,57 @@
+[
+ {
+  "finding_id": "P2.F1",
+  "quote_start": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (",
+  "summary": "(APOE3 -> APOE4) -> (no change in baseline late-endosomal/lysosomal pH in human iPSC-derived microglia)",
+  "class": 1,
+  "strength": 2,
+  "changed": false,
+  "why": "Isogenic APOE33 vs APOE44 with ratiometric dextran late-endosomal/lysosomal (endolysosomal) pH: A varied and B measured, same measurement as reference P3.F1 (1/2)."
+ },
+ {
+  "finding_id": "P2.F2",
+  "quote_start": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (",
+  "summary": "(APOE3 -> APOE4) -> (impaired challenge-induced late-endosomal/lysosomal acidification in human iPSC-derived microglia)",
+  "class": 1,
+  "strength": 2,
+  "changed": false,
+  "why": "Same ratiometric dextran endolysosomal pH readout across genotypes after debris challenge as P2.F1 and reference P3.F1 (1/2)."
+ },
+ {
+  "finding_id": "P2.F3",
+  "quote_start": "Upon challenge with organoid debris, UCI5 APOE44 iMG lysosomes failed ",
+  "summary": "(APOE3 -> APOE4) -> (impaired adaptive endolysosomal acidification, with challenge-induced alkalinization reported in APOE4 microglia)",
+  "class": 1,
+  "strength": 2,
+  "changed": false,
+  "why": "Same ratiometric dextran endolysosomal pH readout in a second isogenic pair as P2.F1 and reference P3.F1 (1/2)."
+ },
+ {
+  "finding_id": "P2.F4",
+  "quote_start": "Of the 84 identified lysosomal hydrolases and V-ATPases, 53 were signi",
+  "summary": "(APOE3 -> APOE4) -> (lower abundance of a combined lysosomal hydrolase/V-ATPase protein set)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Was 3/3. Abundance of a lysosomal hydrolase/V-ATPase protein set is a regulator-level surrogate for endosomal pH that falls with lysosomal biogenesis changes independent of pH, matching the V-ATPase/NHE expression references P5.F2, P6.F3, P6.F7 (3/4)."
+ },
+ {
+  "finding_id": "P8.F1",
+  "quote_start": "We also observed that ApoE4 increased the intensity of LysoTracker, wh",
+  "summary": "(APOE3 -> APOE4) -> (higher lysosomal LysoTracker intensity in human astrocytes)",
+  "class": 3,
+  "strength": 5,
+  "changed": true,
+  "why": "Was 3/3. Uncalibrated LysoTracker intensity on the lysosomal pool, the same readout as references P4.F1, P9.F2, P10.F1 (3/5)."
+ },
+ {
+  "finding_id": "P8.F2",
+  "quote_start": "We further observed restoration of lysosomal activity, as indicated by",
+  "summary": "(cholesterol depletion in APOE4 astrocytes) -> (lower lysosomal LysoTracker intensity)",
+  "class": 5,
+  "strength": 5,
+  "changed": true,
+  "why": "Was 5/3. Cyclodextrin does not act on APOE (genotype held at APOE4) and the readout is uncalibrated LysoTracker, matching the class 5 non-APOE manipulations with lysosomal readouts P9.F3, P9.F4 and P6.F9 (5/5).",
+  "reason_for_description": "Class 5 because the perturbation is methyl-beta-cyclodextrin cholesterol depletion with APOE genotype held at APOE4, a lipid manipulation that does not act on A or a surrogate of A."
+ }
+]

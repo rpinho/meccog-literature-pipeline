@@ -107,8 +107,10 @@ def _from_html(d, kind, num):
     html = h.read_text(errors="replace")
     for m in re.finditer(r'<figure[^>]*>(.*?)</figure>', html, re.S | re.I):
         block = m.group(1)
-        cap = re.sub(r"<[^>]+>", " ", block)
-        if not re.search(rf"(?:Figure|Fig\.?)\s*{'S' if kind else ''}{num}\b", cap):
+        cap = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", block)).strip()
+        # the figure's own label opens its caption ("FIGURE 5." in JBC); a later caption that merely mentions
+        # "Figure 5" must not match
+        if not re.match(rf"(?:Supplementary\s+)?(?:Figure|Fig\.?)\s*{'S' if kind else ''}{num}\b", cap, re.I):
             continue
         src = re.search(r'<img[^>]+src="([^"]+)"', block)
         if src:

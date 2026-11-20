@@ -1,0 +1,52 @@
+[
+ {
+  "item": 1,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Class 1 rule: A (isogenic APOE33 vs APOE44) varied and the readout is a calibrated ratiometric dextran pH of the endocytic lumen the authors call late-endosomal/lysosomal (LE/Ly), a compartment the packet's B names (endosome/endolysosome luminal acidity), so it is B itself and takes 1/1; P2.F1-F3 and P3.F1 measure it the same way and all get 1/1 (reference P3.F1 at 1/2 does not override the rule)."
+ },
+ {
+  "item": 2,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Same genotype comparison and same calibrated ratiometric dextran LE/Ly pH readout as P2.F1, read after debris challenge, so it is B itself at 1/1 under the class 1 rule, matching P2.F1, P2.F3 and P3.F1."
+ },
+ {
+  "item": 3,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Second isogenic pair (UCI5) with the same calibrated ratiometric dextran LE/Ly pH readout as P2.F1, so B itself at 1/1 under the class 1 rule, matching P2.F1, P2.F2 and P3.F1."
+ },
+ {
+  "item": 4,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 4,
+  "why": "Abundance of a mixed lysosomal hydrolase/V-ATPase protein set is a regulator-level surrogate that can fall through lysosomal biogenesis changes with no change in luminal pH (a known alternative route), matching the V-ATPase/NHE expression references P5.F2, P6.F3 and P6.F7 at 3/4."
+ },
+ {
+  "item": 5,
+  "decision": "ACCEPT",
+  "class": 3,
+  "strength": 5,
+  "why": "Uncalibrated LysoTracker intensity on the lysosomal pool is a weakly coupled surrogate (dye loading also tracks compartment number and size), the same readout as references P4.F1, P9.F2 and P10.F1 at 3/5."
+ },
+ {
+  "item": 6,
+  "decision": "ACCEPT",
+  "class": 5,
+  "strength": 5,
+  "reason_for_description": "Class 5 because the perturbation is methyl-beta-cyclodextrin cholesterol depletion with APOE genotype held at APOE4, a lipid manipulation that does not act on A or a surrogate of A.",
+  "why": "Cyclodextrin does not act on APOE and the readout is uncalibrated LysoTracker, so class 5 with the same very weak strength as the non-APOE manipulations with lysosomal readouts P9.F3, P9.F4 and P6.F9 (5/5)."
+ },
+ {
+  "item": 7,
+  "decision": "ADJUST",
+  "class": 1,
+  "strength": 1,
+  "why": "Isogenic APOE33 vs APOE44 neurons with FITC/Texas Red dextran ratio pH that the authors report as endolysosomal pH, a compartment B names, so B itself at 1/1 under the class 1 rule, the same answer as P2.F1-F3."
+ }
+]

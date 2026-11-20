@@ -1,0 +1,565 @@
+[
+ {
+  "hyp": "H5",
+  "paper_id": "P5",
+  "finding_id": "P5.F1",
+  "key": "pmid32517777",
+  "quote_start": "We found that both APOE3 and APOE4 astrocytes had standard lysosomal-r",
+  "verdict": "FIX",
+  "set": {
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote, dpH=0.14 and N=3 match; the P value is not N/A: Fig 4g carries *** over the APOE4 bar (only two bars, t-test), and the legend key gives *** = p < 0.001.",
+  "evidence": "Fig 4 legend: 'Unpaired parametric T-test was used, except in b and e, where one-way ANOVA was used. p < 0.05 (*), p < 0.01 (**), p < 0.001 (***)'. Fig 4g image: '***' directly above the APOE4 pH bar (APOE3 ~4.52, APOE4 ~4.66)."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P5",
+  "finding_id": "P5.F2",
+  "key": "pmid32517777",
+  "quote_start": "Specifically, 37% of lysosomes are placed at 10 μm from the center of ",
+  "verdict": "FIX",
+  "set": {
+   "P value": "<0.001",
+   "P value provenance": "visual_only"
+  },
+  "reason": "37% vs 21% (1.76x), N=3 and the quote match the text; Fig 7g shows *** over the 0-10 um bin, legend key *** = p < 0.001 (two-way ANOVA).",
+  "evidence": "Text: 'Specifically, 37% of lysosomes are placed at 10 um from the center of the nucleus in APOE4 cells, as compared to 21% in APOE3 astrocytes.' Fig 7 legend g: '(N = 3, 30 to 40 cells quantified) ... two-way ANOVA in g. p < 0.05 (*), p < 0.001 (***)'. Image: '***' above the 0-10 um APOE3/APOE4 pair."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P5",
+  "finding_id": "P5.F3",
+  "key": "pmid32517777",
+  "quote_start": "Interestingly, Ned-19 greatly reduced Ca2+ responses in APOE4 astrocyt",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~57%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.01",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote and N=3 correct; the Fig 4b bar chart is readable: APOE4 DMSO ~1.18 vs APOE4 Ned-19 ~0.51 dR340/380 (~57% decrease), with ** above the APOE4 Ned-19 bar (key ** = p < 0.01, one-way ANOVA).",
+  "evidence": "Fig 4b quantification (pixel-measured against ticks 0/0.5/1.0/1.5): APOE3 ~0.78, APOE3 Ned-19 ~0.42 (**), APOE4 ~1.18, APOE4 Ned-19 ~0.51 (**); bracket * only between APOE3 and APOE4. Fig 4 legend: 'Unpaired parametric T-test was used, except in b and e, where one-way ANOVA was used. p < 0.05 (*), p < 0.01 (**), p < 0.001 (***)'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P5",
+  "finding_id": "P5.F4",
+  "key": "pmid32517777",
+  "quote_start": "The results showed greater AUC in APOE4 cells (Fig. 4d), supporting a ",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~2.7x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.05",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote and N=4 correct; Fig 4d AUC bars read APOE3 ~15 vs APOE4 ~41 (~2.7x), * over the APOE4 bar (two-bar t-test panel, key * = p < 0.05).",
+  "evidence": "Fig 4d AUC panel (axis 0/25/50): APOE3 bar ~15.3, APOE4 bar ~41.4, '*' above APOE4. Legend d: '(N = 4)'. Fig 4 legend: 'Unpaired parametric T-test was used, except in b and e, where one-way ANOVA was used. p < 0.05 (*), p < 0.01 (**), p < 0.001 (***)'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P5",
+  "finding_id": "P5.F5",
+  "key": "pmid32517777",
+  "quote_start": "Accordingly, bafilomycin A1 reduced the ATP-induced Ca2+ release in AP",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~38%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.01",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote and N=3 correct; Fig 4e shows a ** bracket between APOE4 and APOE4 Baf, and the bars read ~0.94 vs ~0.58 dR340/380 (~38% decrease).",
+  "evidence": "Fig 4e quantification (ticks 0/0.4/0.8/1.2): APOE3 ~0.68, APOE3 Baf ~0.63, APOE4 ~0.94, APOE4 baf ~0.58; bracket '**' APOE4 vs APOE4 baf, bracket '*' APOE3 vs APOE4. Legend e: '(N = 3)'. Fig 4 legend: 'Unpaired parametric T-test was used, except in b and e, where one-way ANOVA was used. p < 0.05 (*), p < 0.01 (**), p < 0.001 (***)'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P5",
+  "finding_id": "P5.F6",
+  "key": "pmid32517777",
+  "quote_start": "Indeed, the expression of V-ATPase subunit V0D1, which is highly expre",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~1.24x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.05",
+   "P value provenance": "visual_only"
+  },
+  "reason": "Quote and N=4 correct; Fig 4f V0D1/beta-actin reads APOE3 1.0 (normalized) vs APOE4 ~1.24, with * over the APOE4 bar (t-test, key * = p < 0.05).",
+  "evidence": "Fig 4f bar chart (ticks 0/0.5/1.0/1.5): APOE3 = 1.00, APOE4 ~1.24, '*' above APOE4. Legend f: 'normalized to beta-actin expression (N = 4)'. Fig 4 legend: 'Unpaired parametric T-test was used, except in b and e, where one-way ANOVA was used. p < 0.05 (*), p < 0.01 (**), p < 0.001 (***)'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P5",
+  "finding_id": "P5.F7",
+  "key": "pmid32517777",
+  "quote_start": "Bafilomycin A1 increased basal cytoplasmic Ca2+ concentration in APOE4",
+  "verdict": "OK",
+  "reason": "Quote verbatim; 0.40/0.30 = 1.33x, p = 0.05 and N = 3 (legend e) all match the text.",
+  "evidence": "'Bafilomycin A1 increased basal cytoplasmic Ca2+ concentration in APOE4 astrocytes to 0.40 +/- 0.05 (control values of astrocytes treated with vehicle were 0.30 +/- 0.01; p-value = 0.05)'; legend e '(N = 3)'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P5",
+  "finding_id": "P5.F8",
+  "key": "pmid32517777",
+  "quote_start": "We could identify 19 lipids: 10 phosphatidylcholines (6 increased, 4 d",
+  "verdict": "OK",
+  "reason": "Quote verbatim and the paper's own lysosomal lipidomics result; no FDR-significant single lipid, so N/A for effect/P is right; Fig 8d shows no stars.",
+  "evidence": "'However, multi t-test analysis corrected by a false discovery rate (FDR) of these 19 FC values gave no statistically significant differences (q-value < 0.05).' Fig 8d: no * marks on any lysosomal lipid bar."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P5",
+  "finding_id": "P5.F9",
+  "key": "pmid32517777",
+  "quote_start": "Surprisingly, measurement of Ca2+ stored inside acidic organelles usin",
+  "verdict": "OK",
+  "reason": "Quote verbatim and supports the APOE4 null (Fig 7c: FBS ~41 vs KH ~35 AUC, no star); N=3 from legend b,c.",
+  "evidence": "'...whereas, as expected, no difference was observed between the two conditions in APOE4 astrocytes (Fig. 7c).' Legend b,c '(N = 3)'; Fig 7c has no significance mark."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P5",
+  "finding_id": "P5.F10",
+  "key": "pmid32517777",
+  "quote_start": "In lysosomal membranes, there were 35 lipids with VIP > 1 in the APOE4",
+  "verdict": "OK",
+  "reason": "Quote verbatim; ANOVA p < 0.05 for the 35 VIP>1 lipids and the 19 identified species in both directions match the Results.",
+  "evidence": "'ANOVA analysis with a Tukey correction post-test of the intensity (peak values) of these 35 metabolites revealed significant differences due to the APOE phenotype with a p-value < 0.05'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P5",
+  "finding_id": "P5.F11",
+  "key": "pmid32517777",
+  "quote_start": "The multivariate analysis PLS-DA revealed that the lipids of lysosomal",
+  "verdict": "OK",
+  "reason": "Quote verbatim; PLS-DA separation of lysosomal membrane lipidomes is shown in Fig 8b; sample dots too dense to count reliably.",
+  "evidence": "'The multivariate analysis PLS-DA revealed that the lipids of lysosomal membranes (Fig. 8b) and whole-membranes (Fig. 8c) clustered independently in APOE3 and APOE4 genotypes.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P5",
+  "finding_id": "P5.F12",
+  "key": "pmid32517777",
+  "quote_start": "In contrast, bafilomycin A1 did not change purinergic-induced Ca2+ res",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig 4e shows no mark between APOE3 and APOE3 Baf (~0.68 vs ~0.63), consistent with the null.",
+  "evidence": "'In contrast, bafilomycin A1 did not change purinergic-induced Ca2+ responses in APOE3 astrocytes.' Fig 4e: no bracket for APOE3 vs APOE3 Baf."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P5",
+  "finding_id": "P5.F13",
+  "key": "pmid32517777",
+  "quote_start": "Bafilomycin A1 increased basal cytoplasmic Ca2+ concentration in APOE4",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.13x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "The text prints both APOE3 group values (vehicle 0.39, bafilomycin 0.44), so the effect is a computable fold, 0.44/0.39 = 1.13x (vehicle -> bafilomycin), not N/A; P stays N/A (no value printed).",
+  "evidence": "'...no effect on non-stimulated intracellular Ca2+ levels in APOE3 (0.44 +/- 0.08 for cells treated with bafilomycin A1 compared to 0.39 +/- 0.02 of cells treated with vehicle).'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P11",
+  "finding_id": "P11.F1",
+  "key": "pmid34617884",
+  "quote_start": "Receptor surface levels show a stronger reduction with ApoE4 than ApoE",
+  "verdict": "FIX",
+  "set": {
+   "P value provenance": "not_found_in_source"
+  },
+  "reason": "Effect ~64% matches the panel (E3+R ~78, E4+R ~27 => ~65% lower); but the image is readable and shows no ApoE3-vs-ApoE4 mark (Dunnett brackets only from C+R), so the P provenance is not_found_in_source, not ambiguous_panel.",
+  "evidence": "Fig 4C: brackets only C+R vs E4+R (***); no bracket between E3+R and E4+R. Bar tops (pixel-measured, 0/50/100 ticks): C+R ~101, E3+R ~78, E4+R ~27. Fig 4 legend: 'All data are expressed as mean +/- SEM from three independent experiments. *p < 0.05, **p < 0.01, ***p < 0.005. ... one-way analysis of variance (ANOVA) and Dunnett's post hoc test (C-F).'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P11",
+  "finding_id": "P11.F2",
+  "key": "pmid34617884",
+  "quote_start": "ApoE-conditioned media treatment reduces the surface expression of Apo",
+  "verdict": "OK",
+  "reason": "Legend quote verbatim; C+R ~101 vs E4+R ~27 (~73% lower) matches ~72%; *** bracket C+R to E4+R, legend key *** = p < 0.005; n = 3 independent experiments.",
+  "evidence": "Fig 4C bracket '***' from C+R to E4+R (Slc9a6+). Fig 4 legend: 'All data are expressed as mean +/- SEM from three independent experiments. *p < 0.05, **p < 0.01, ***p < 0.005. ... one-way analysis of variance (ANOVA) and Dunnett's post hoc test (C-F).'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P11",
+  "finding_id": "P11.F3",
+  "key": "pmid34617884",
+  "quote_start": "Apoer2 recycling was completely restored in Slc9a6- neurons treated wi",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~3.7x",
+   "P value provenance": "not_found_in_source"
+  },
+  "reason": "Quote verbatim; but the Slc9a6- E4+R bar (~99) over the Slc9a6+ E4+R bar (~27) is ~3.7x, not 3.5x, and the panel has no bracket for this comparison, so P provenance is not_found_in_source.",
+  "evidence": "Fig 4C bar tops (pixel-measured; 100 at y=339, 0 at y=446): Slc9a6+ E4+R top y=417 (~27); Slc9a6- E4+R top y=340 (~99). No bracket spans the two genotypes."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P11",
+  "finding_id": "P11.F4",
+  "key": "pmid34617884",
+  "quote_start": "Receptor surface levels show a stronger reduction with ApoE4 than ApoE",
+  "verdict": "FIX",
+  "set": {
+   "Directness class": "3",
+   "Directness strength": "3 moderate"
+  },
+  "reason": "Effect ~67% is close to the panel (E3+R ~76, E4+R ~26 => ~65%) and no E3-vs-E4 mark exists; but class 1 is a clear error: a co-trafficked GluN2B surface readout in mouse neurons cannot be more direct than the ApoER2 row from the same panel set (P11.F1, class 3).",
+  "evidence": "Fig 4D: E3+R ~76, E4+R ~26, brackets only from C+R. Row system text: 'not a measurement of apoE binding to GluN2B; the neurons were mouse, not human.'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P11",
+  "finding_id": "P11.F5",
+  "key": "pmid34617884",
+  "quote_start": "Receptor surface levels show a stronger reduction with ApoE4 than ApoE",
+  "verdict": "FIX",
+  "set": {
+   "Directness class": "3",
+   "Directness strength": "3 moderate"
+  },
+  "reason": "Effect ~55% matches (E3+R ~77, E4+R ~35); class 1 is a clear error for a co-trafficked GluA1 readout in mouse neurons when the ApoER2 row (P11.F1) is class 3.",
+  "evidence": "Fig 4E: E3+R ~77, E4+R ~35 (~55% lower), brackets only from C+R."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P11",
+  "finding_id": "P11.F6",
+  "key": "pmid34617884",
+  "quote_start": "Receptor surface levels show a stronger reduction with ApoE4 than ApoE",
+  "verdict": "FIX",
+  "set": {
+   "Directness class": "3",
+   "Directness strength": "3 moderate"
+  },
+  "reason": "Effect ~60% matches (E3+R ~78, E4+R ~31); class 1 is a clear error for a co-trafficked GluA2/3 readout in mouse neurons when the ApoER2 row (P11.F1) is class 3.",
+  "evidence": "Fig 4F: E3+R ~78, E4+R ~31 (~60% lower), brackets only from C+R."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P11",
+  "finding_id": "P11.F7",
+  "key": "pmid34617884",
+  "quote_start": "ApoE-conditioned media treatment reduces the surface expression of Apo",
+  "verdict": "OK",
+  "reason": "C+R ~101 vs E4+R ~26 (~74% lower) matches ~75%; *** bracket C+R to E4+R, key *** = p < 0.005; n = 3.",
+  "evidence": "Fig 4D bracket '***' C+R to E4+R and '*' C+R to E3+R. Fig 4 legend: 'All data are expressed as mean +/- SEM from three independent experiments. *p < 0.05, **p < 0.01, ***p < 0.005. ... one-way analysis of variance (ANOVA) and Dunnett's post hoc test (C-F).'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P11",
+  "finding_id": "P11.F8",
+  "key": "pmid34617884",
+  "quote_start": "In addition, genetic loss of NHE6 equally restored the ApoE4-impaired ",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "~3.6x",
+   "P value provenance": "not_found_in_source"
+  },
+  "reason": "Quote verbatim; Slc9a6- E4+R (~94) over Slc9a6+ E4+R (~26) is ~3.6x rather than 3.8x, and no bracket exists for this comparison on a readable panel (not_found_in_source, not ambiguous_panel).",
+  "evidence": "Fig 4D bar tops (pixel-measured): Slc9a6+ E4+R y=418 (~26); Slc9a6- E4+R y=346 (~94). No bracket across genotypes."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P11",
+  "finding_id": "P11.F9",
+  "key": "pmid34617884",
+  "quote_start": "ApoE-conditioned media treatment reduces the surface expression of Apo",
+  "verdict": "OK",
+  "reason": "C+R ~101 vs E4+R ~35 (~66% lower) is consistent with ~67%; *** bracket C+R to E4+R (p < 0.005); n = 3.",
+  "evidence": "Fig 4E bracket '***' C+R to E4+R. Fig 4 legend: 'All data are expressed as mean +/- SEM from three independent experiments. *p < 0.05, **p < 0.01, ***p < 0.005. ... one-way analysis of variance (ANOVA) and Dunnett's post hoc test (C-F).'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P11",
+  "finding_id": "P11.F10",
+  "key": "pmid34617884",
+  "quote_start": "In addition, genetic loss of NHE6 equally restored the ApoE4-impaired ",
+  "verdict": "FIX",
+  "set": {
+   "Directness class": "5",
+   "Directness strength": "4 weak",
+   "Finding description": "Across three independent experiments, germline NHE6 deletion restored ApoE4-impaired surface GluA1 expression in primary mouse neurons treated with Reelin. Class 5 (other): Class 5 because the experiment holds APOE4 fixed and manipulates NHE6/endosomal pH, a mediator rather than APOE genotype or isoform, so it tests mediation of the receptor-recycling defect, not A itself."
+  },
+  "reason": "Effect ~2.9x (Slc9a6- E4+R ~99 vs Slc9a6+ E4+R ~35) and P not_found are right; the class is inconsistent with the identical NHE6-rescue rows P11.F3/F8 (class 5): APOE4 is held fixed and NHE6 is manipulated.",
+  "evidence": "'In addition, genetic loss of NHE6 equally restored the ApoE4-impaired surface expression of AMPA and NMDA receptor subunits (Figure 4D-F).' Fig 4E: Slc9a6- E4+R ~99, Slc9a6+ E4+R ~35."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P11",
+  "finding_id": "P11.F11",
+  "key": "pmid34617884",
+  "quote_start": "ApoE-conditioned media treatment reduces the surface expression of Apo",
+  "verdict": "OK",
+  "reason": "C+R ~101 vs E4+R ~31 (~69% lower) is consistent with ~68%; *** bracket C+R to E4+R (p < 0.005); n = 3.",
+  "evidence": "Fig 4F bracket '***' C+R to E4+R. Fig 4 legend: 'All data are expressed as mean +/- SEM from three independent experiments. *p < 0.05, **p < 0.01, ***p < 0.005. ... one-way analysis of variance (ANOVA) and Dunnett's post hoc test (C-F).'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P11",
+  "finding_id": "P11.F12",
+  "key": "pmid34617884",
+  "quote_start": "In addition, genetic loss of NHE6 equally restored the ApoE4-impaired ",
+  "verdict": "FIX",
+  "set": {
+   "Directness class": "5",
+   "Directness strength": "4 weak",
+   "Finding description": "Across three independent experiments, germline NHE6 deletion restored ApoE4-impaired surface GluA2/3 expression in primary mouse neurons treated with Reelin. Class 5 (other): Class 5 because the experiment holds APOE4 fixed and manipulates NHE6/endosomal pH, a mediator rather than APOE genotype or isoform, so it tests mediation of the receptor-recycling defect, not A itself."
+  },
+  "reason": "Effect ~3.2x (Slc9a6- E4+R ~99 vs Slc9a6+ E4+R ~31) and P not_found are right; the class is inconsistent with the identical NHE6-rescue rows P11.F3/F8 (class 5).",
+  "evidence": "Fig 4F: Slc9a6- E4+R ~99, Slc9a6+ E4+R ~31; same NHE6-rescue design as Fig 4C/D rows."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P12",
+  "finding_id": "P12.F2",
+  "key": "pmid38217595",
+  "quote_start": "Similar analysis of the effect of the APOE genotype on the colocalizat",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.35x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Quote, p < 0.05 and n = 20-31 match; but both group values are printed (0.37 APOE3, 0.50 APOE4), so the effect is 0.50/0.37 = 1.35x printed_in_text, not a figure estimate.",
+  "evidence": "'(0.50+/-0.03, N = 31 from 3 different preparations) than in the APOE3 cells (0.37+/-0.04, N = 20 from 3 different preparations) neurons (p < 0.05)'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P12",
+  "finding_id": "P12.F7",
+  "key": "pmid38217595",
+  "quote_start": "Evaluation of the extent of colocalization of the ApoE receptors with ",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.46x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Quote, p < 0.001 and n = 21-27 match; the group values are printed (APOE3 0.24, APOE4 0.11), so the effect is APOE4/APOE3 = 0.46x printed_in_text, not ~54% estimated_from_figure.",
+  "evidence": "'...LRP1 in early endosomes in APOE3 neurons (0.24+/-0.02, N = 21 from 2 different preparations) compared to APOE4 (0.11+/-0.016, N = 27 from 2 different preparations). ... (p < 0.001).'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P12",
+  "finding_id": "P12.F9",
+  "key": "pmid38217595",
+  "quote_start": "The first pattern which was observed with LRP1, shows that lower level",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.0x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Quote supports the null; the Fig 8 legend prints both recycling-endosome values (0.12 and 0.12), so the effect is 1.0x printed_in_text, not estimated.",
+  "evidence": "Fig 8 legend: 'Recycling endosomes: APOE3 = 0.12+/-0.024, APOE4 = 0.12+/-0.023)'; 'The results shown correspond to 25-37 cells from 2-3 different preparations'."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P12",
+  "finding_id": "P12.F11",
+  "key": "pmid38217595",
+  "quote_start": "Additionally, knock-down of APOER2 did not affect the intracellular lo",
+  "verdict": "OK",
+  "reason": "Quote verbatim; Fig 13B LRP1 panel has no mark for E4 control vs E4 ApoER2 AAv and reads ~0.30 vs ~0.285 (~6-7% lower), consistent with ~7%; no n given for this colocalization panel.",
+  "evidence": "'Additionally, knock-down of APOER2 did not affect the intracellular localization of LRP1.' Fig 13B top panel (pixel-measured, 0.2 per 50.5 px): E4 control ~0.30, E4 ApoER2 AAv ~0.285, no bracket."
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P12",
+  "finding_id": "P12.F15",
+  "key": "pmid38217595",
+  "quote_start": "Quantification of these results revealed that the colocalization of IR",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.63x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "Both values are printed (APOE3 0.24, APOE4 0.39), so the effect is 1.63x printed_in_text. P < 0.01 matches the Results text; note the Fig 6 legend prints p < 0.001 (** with key '**p < 0.001'), an internal inconsistency in the paper, so the more conservative text value is kept.",
+  "evidence": "Text: 'VEGFR with early endosomes which was higher in APOE4 neurons (0.39+/-0.03, N = 19 ...) than and in APOE3 neurons (0.24+/-0.02, N = 20, ..., p < 0.01)'. Fig 6 legend: 'VEGFR (APOE3 = 0.24+/-0.02, APOE4 = 0.39+/-0.03, p < 0.001) ... *p < 0.05, **p < 0.001.'"
+ },
+ {
+  "hyp": "H4",
+  "paper_id": "P12",
+  "finding_id": "P12.F17",
+  "key": "pmid38217595",
+  "quote_start": "A different colocalization pattern was seen in APOER2, IR, and VEGFR, ",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "1.64x",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "The Fig 8 legend prints both values (APOE3 0.22, APOE4 0.36, p < 0.05), so the effect is 0.36/0.22 = 1.64x printed_in_text, not an estimate; quote is the paper's own (it also covers the late-endosome decrease).",
+  "evidence": "Fig 8 legend: 'VEGFR- early endosomes: APOE3 = 0.22+/-0.03, APOE4 = 0.36+/-0.04, p < 0.05.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P26",
+  "finding_id": "P26.F1",
+  "key": "doi_10_64898_2026_07_15_738801",
+  "quote_start": "In contrast, simultaneous inhibition of proteasomal and lysosomal prot",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.029x",
+   "Effect size provenance": "printed_in_text",
+   "Finding description": "Combined lysosomal and proteasomal inhibition (BafA1 + MG-132, 3 h) changed far fewer proteins significantly in APOE4 than APOE3 neurons (Fig 4E: n=14 vs n=479 proteins at adj. p<0.05 and |Log2FC|>0.58), suggesting reduced baseline clearance through the jointly tested pathways."
+  },
+  "reason": "Quote verbatim; Fig 4E (rendered from fulltext.pdf) prints the counts on the bars, 479 significant proteins in APOE3 vs 14 in APOE4 after BafA1 + MG-132, so the effect is 14/479 = 0.029x printed_in_text rather than qualitative.",
+  "evidence": "Fig 4E (PDF page 11): 'BafA1 + MG-132' bars labelled 'n=479' (APOE3) and 'n=14' (APOE4); legend E: 'filtered for proteins where adj. p<0.05 and |Log2FC|>0.58. n >= 3 biological and technical replicates'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P26",
+  "finding_id": "P26.F2",
+  "key": "doi_10_64898_2026_07_15_738801",
+  "quote_start": "Accordingly, while high PC2-scoring proteins reproducibly accumulated ",
+  "verdict": "FIX",
+  "set": {
+   "Sample size": "~3-4",
+   "Sample size provenance": "estimated_from_figure"
+  },
+  "reason": "Quote verbatim and the description matches Fig 4G (APOE3 Ctrl ~5 -> BafA1+MG-132 ~34, ****; APOE4 Ctrl ~9 -> ~18, no mark); effect stays qualitative (a genotype-by-treatment contrast), but the points are clearly countable: 3 per APOE3 bar, 4 per APOE4 Ctrl and combined bar.",
+  "evidence": "Fig 4G (rendered at 300 dpi): APOE3 Ctrl 3 dots, APOE3 BafA1+MG-132 3 dots ('****' bracket from Ctrl); APOE4 Ctrl 4 dots, APOE4 BafA1+MG-132 4 dots, no bracket. Legend G: 'n >= 3 biological and technical replicates'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P26",
+  "finding_id": "P26.F3",
+  "key": "doi_10_64898_2026_07_15_738801",
+  "quote_start": "Each treatment individually had a modest impact on the proteome with a",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "0.29x",
+   "Effect size provenance": "printed_in_text",
+   "Data location": "Fig 4E, BafA1 bars (text also cites Supplementary Fig S4A, not available)",
+   "Finding description": "Lysosomal inhibition alone (BafA1, 3 h) produced few significantly changed proteins in either genotype (Fig 4E: n=7 in APOE3, n=2 in APOE4), which the authors describe as similar numbers; no statistical test of the genotype difference is reported."
+  },
+  "reason": "Quote verbatim, but S4A is not in the available PDF while Fig 4E prints the BafA1-only counts (7 APOE3 vs 2 APOE4), giving 2/7 = 0.29x printed_in_text; the description should carry the two counts since the authors' 'similar' rests on small numbers.",
+  "evidence": "Fig 4E (PDF page 11): 'BafA1' bars labelled 'n=7' (APOE3) and 'n=2' (APOE4); 'MG-132' n=31 vs n=8. Text: 'Each treatment individually had a modest impact on the proteome with a similar number of impacted proteins in both the APOE3 and APOE4 neurons (Figure S4A, Table S6).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P26",
+  "finding_id": "P26.F4",
+  "key": "doi_10_64898_2026_07_15_738801",
+  "quote_start": "We performed a principal component analysis (PCA) to visualize differe",
+  "verdict": "OK",
+  "reason": "Quote verbatim (PCA, PC1 68.4%, PC2 8.4%, APOE3 accumulation vs APOE4 resilience); S4C itself is not in the available PDF, so qualitative/N/A is right.",
+  "evidence": "'PC1 explained 68.4% of the observed variance (Figure S4B) and was primarily associated with the APOE genotype, while PC2 (8.4% of variance) was most associated with clearance blockade.'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P26",
+  "finding_id": "P26.F5",
+  "key": "doi_10_64898_2026_07_15_738801",
+  "quote_start": "By analyzing the clearance-sensitive proteome, we found that several o",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "Several proteins that accumulated after combined clearance blockade in APOE3 neurons were already elevated at APOE4 baseline, including CALM1, CAMKV and MAPT (Fig 4H); the text also names APP, but in Fig 4H APOE4 baseline APP sits near the APOE3 control level, indirectly implicating impaired clearance."
+  },
+  "reason": "Quote verbatim, but Fig 4H does not show APP elevated at APOE4 baseline (pink APOE4 Ctrl points ~0 log2, same as APOE3 Ctrl), so the description should not list APP as already elevated; CALM1 (~1.4), CAMKV (~0.5) and MAPT (~1.1) are.",
+  "evidence": "Fig 4H (rendered at 300 dpi): APOE4 Ctrl mean log2 vs APOE3 Ctrl ~1.45 CALM1, ~1.1 MAPT, ~0.55 CAMKV, ~0.0 APP; APP shows '*' only for each genotype's BafA1+MG-132 vs its own control."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P20",
+  "finding_id": "P20.F1",
+  "key": "pmid39468688",
+  "quote_start": "ApoE4 significantly increased the accumulation of cholesterol in lysos",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig. 5l",
+   "P value": "<0.0001",
+   "P value provenance": "printed_in_text"
+  },
+  "reason": "Quote and n = 8-18 fields correct; the quantification is Fig 5l (5k is images), and the ApoE3+PHF vs ApoE4+PHF bracket on the filipin panel prints P<0.0001. Effect left qualitative: the ApoE3+PHF bar (~0.08) is too low to read a defensible fold.",
+  "evidence": "Fig 5l right panel 'Lysosomal filipin III / Total filipin III area': bracket ApoE3+PHF to ApoE4+PHF labelled 'P<0.0001'; ApoE4+PHF ~0.56, ApoE3+PHF ~0.07-0.10. Legend: 'k, l. Representative images (k) and quantification (l) ... (n = 8-18 fields from 3 biological replicates)... one-way ANOVA with Tukey's'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P20",
+  "finding_id": "P20.F2",
+  "key": "pmid39468688",
+  "quote_start": "We detected increased autophagosomes (remaining yellow dots in Fig. 5i",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig. 5j",
+   "Effect size": "~2.3x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.0001",
+   "P value provenance": "printed_in_text"
+  },
+  "reason": "Quote and n = 10-12 correct; the quantification is Fig 5j, where % autophagosomes/cell reads ~34 (ApoE3+PHF) vs ~77 (ApoE4+PHF), ~2.3x, with P<0.0001 printed on that bracket.",
+  "evidence": "Fig 5j left panel '% Autophagosome/cell' (pixel-measured, ticks 0/30/60/90/120): ApoE3 ~18, ApoE3+PHF ~34, ApoE4+PHF ~77, ApoE4+PHF+CAP ~37; bracket ApoE3+PHF to ApoE4+PHF labelled 'P<0.0001'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P20",
+  "finding_id": "P20.F3",
+  "key": "pmid39468688",
+  "quote_start": "Treatment with TRPV1 agonist capsaicin restored the autophagy lysosoma",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig. 5j",
+   "Effect size": "~52%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.0001",
+   "P value provenance": "printed_in_text"
+  },
+  "reason": "Quote and n correct; in Fig 5j capsaicin lowered % autophagosomes/cell from ~77 to ~37 (~52% decrease) with P<0.0001 printed on the ApoE4+PHF vs ApoE4+PHF+CAP bracket (autophagy flux bracket P=0.0001).",
+  "evidence": "Fig 5j left panel: ApoE4+PHF ~77, ApoE4+PHF+CAP ~37, bracket labelled 'P<0.0001'; right panel 'Autophagy flux' bracket ApoE4+PHF vs +CAP 'P=0.0001'."
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P14",
+  "finding_id": "P14.F2",
+  "key": "pmid37280636",
+  "quote_start": "The signal from light scattering decreased in the presence of both SPA",
+  "verdict": "OK",
+  "reason": "Quote verbatim; at the end of the 15 h trace ApoE4 ~1080 vs ApoE4+SPA ~700 a.u. (~35% lower) is consistent with ~33%; legend gives 3 replicates, no statistics.",
+  "evidence": "Fig 5A (pixel-measured at the right end; 0/500/1000/1500 ticks): ApoE4 ~1080, ApoE4+SPA ~700, ApoE3 ~600. Legend: 'representing averages of 3 replicates with standard deviation shown as error band.'"
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P14",
+  "finding_id": "P14.F18",
+  "key": "pmid37280636",
+  "quote_start": "We found that ApoE3M displayed a majority of its population around χ1 ",
+  "verdict": "FIX",
+  "set": {
+   "Effect size": "dAngle=120",
+   "Effect size provenance": "printed_in_text"
+  },
+  "reason": "The text prints both peak angles (about 180 for apoE3M, about 300 for apoE4M), so the difference is printed (dAngle=120), not a figure estimate; 200 x 100 ns simulations is printed in Methods.",
+  "evidence": "'We found that ApoE3M displayed a majority of its population around chi1 = 180 deg while ApoE4M was mostly around chi1 = 300 deg.' Methods: 'This resulted in 20 us of cumulative simulation time (200 x 100 ns).'"
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P12",
+  "finding_id": "P12.F1",
+  "key": "pmid29861287",
+  "quote_start": "Since lysosomal activity can affect Aβ levels, we also examined lysoso",
+  "verdict": "OK",
+  "reason": "Quote verbatim and the paper's own result; Figure S3D is not available, so qualitative and full_text_unavailable for P and n are right; system details (AG09173, female, age 75; inhibitors for 48 h) match Methods.",
+  "evidence": "'We observed increased Abeta42 accumulation following lysosome inhibition in APOE3 astrocytes compared to APOE4 astrocytes, suggesting reduced lysosome-dependent Abeta42 degradation in APOE4 astrocytes (Figure S3D).' Methods: 'Unaffected (Coriell #AG09173, female, Age 75)'; 'lysosomal inhibitors [leupeptin (50 uM), chloroquine (50 uM) and ammonium chloride (10 mM) for 48 hr'."
+ },
+ {
+  "hyp": "H5",
+  "paper_id": "P31",
+  "finding_id": "P31.F1",
+  "key": "pmid37749326",
+  "quote_start": "Immunostaining of microglia in the injection site showed accumulation ",
+  "verdict": "FIX",
+  "set": {
+   "Data location": "Fig. 1i,j"
+  },
+  "reason": "Quote verbatim and n = 6-7 mice matches the legend; the quantification is panel j (i is the confocal images), so the location should include j. No P value is printed in text or legend and the figure image is not available.",
+  "evidence": "Legend: 'i, Confocal microscopy images of IBA1, LAMP1 and apoptotic neurons (AN) at the injection sites. j, Quantification of LAMP1 immunoreactivity per IBA1+ cell (n = 6 APOE3-KI mice, n = 7 APOE4-KI mice)'."
+ }
+]

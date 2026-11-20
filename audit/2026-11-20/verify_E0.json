@@ -1,0 +1,1156 @@
+[
+ {
+  "src": "5",
+  "paper": {
+   "key": "doi_10_1101_2025_11_11_687891",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/doi_10_1101_2025_11_11_687891/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/10.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/4.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/7.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/9.png"
+   ],
+   "pdf": "data/papers/doi_10_1101_2025_11_11_687891/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P35.F1",
+   "Finding description": "Young APOE4 mice had significantly more hippocampal neuronal lysosomal compartments than APOE3 mice in five mice per sex/genotype group.",
+   "Finding quote": "Furthermore, while both neuronal EE’s and LE’s showed an increasing pattern with APOE genotype, only N-LY’s showed a significant upregulation in APOE4 (APOE2<E4;E3<E4).",
+   "Finding summary": "(APOE3 -> APOE4, young hippocampus) -> (higher neuronal LAMP1-compartment abundance)",
+   "Finding relevance": 0.42,
+   "Experimental system": "Male and female human-APOE3/3 and APOE4/4 mice, 5–6 months; fixed CA1 hippocampus; LAMP1 objects within NeuN soma per neuronal volume; no direct degradation, pH, enzyme-activity, or flux assay.",
+   "Data location": "Fig 4B, neuronal LAMP1 objects",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "5",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P35",
+   "finding_id": "P35.F1",
+   "key": "doi_10_1101_2025_11_11_687891",
+   "quote_start": "Furthermore, while both neuronal EE’s and LE’s showed an increasing pa",
+   "verdict": "FIX",
+   "set": {
+    "P value": "<0.05",
+    "P value provenance": "visual_only",
+    "Sample size": "10"
+   },
+   "reason": "Fig 4B neuronal LAMP1 panel shows '*' on the APOE3-APOE4 bracket (and '**' on APOE2-APOE4); legend key p<0.05:*. Fig 4 is a young-only model with sex as a covariate (both sexes pooled): 'N = 5 animals per sex, age, APOE genotype', so each genotype in this contrast has 5 male + 5 female = 10 mice.",
+   "evidence": "Fig 4B image, lower-right (Lysosome, neuronal): short bracket APOE3-APOE4 '*', long bracket APOE2-APOE4 '**'. Legend: 'p<0.05: *, p<0.01:**. N = 5 animals per sex, age, APOE genotype.'"
+  },
+  "item": 1
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "doi_10_1101_2025_11_11_687891",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/doi_10_1101_2025_11_11_687891/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/10.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/4.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/7.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/9.png"
+   ],
+   "pdf": "data/papers/doi_10_1101_2025_11_11_687891/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P35.F2",
+   "Finding description": "Young cortical neuronal lysosomal cholesterol showed no significant APOE-dependent change in five mice per sex/genotype group.",
+   "Finding quote": "At the same time, N-LE-Ch levels showed similar expression to N-LE’s, while N-LY-Ch levels did not show an APOE dependent change.",
+   "Finding summary": "(APOE genotype variation including APOE3 -> APOE4, young cortex) -> (no change in neuronal lysosomal cholesterol colocalization reaching significance)",
+   "Finding relevance": 0.42,
+   "Experimental system": "Male and female human-APOE2/2, APOE3/3, and APOE4/4 mice, 5–6 months; fixed neocortex; neuronal D4H* spots overlapping LAMP1, normalized to neuronal D4H* spots and NeuN volume.",
+   "Data location": "Fig 4D, neuronal lysosomal cholesterol",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "5",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P35",
+   "finding_id": "P35.F2",
+   "key": "doi_10_1101_2025_11_11_687891",
+   "quote_start": "At the same time, N-LE-Ch levels showed similar expression to N-LE’s, ",
+   "verdict": "FIX",
+   "set": {
+    "Sample size": "10"
+   },
+   "reason": "Quote and null result correct (no bracket on Fig 4D neuronal LY-Ch). Fig 4 is a young-only model with sex as a covariate (both sexes pooled): 'N = 5 animals per sex, age, APOE genotype', so each genotype in this contrast has 5 male + 5 female = 10 mice.",
+   "evidence": "Fig 4D lower-right panel: no significance bars."
+  },
+  "item": 2
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "doi_10_1101_2025_11_11_687891",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/doi_10_1101_2025_11_11_687891/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/10.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/4.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/7.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/9.png"
+   ],
+   "pdf": "data/papers/doi_10_1101_2025_11_11_687891/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P35.F3",
+   "Finding description": "Young hippocampal neuronal late-endosomal cholesterol and total and neuronal lysosomal cholesterol showed no significant APOE-genotype differences in five mice per sex/genotype group.",
+   "Finding quote": "There was also a decrease in T-LE-Ch in APOE3<E2, with no change in APOE4, and N-LE-Ch levels were not affected. Similar to the cortex, there was no effect of APOE genotype on total or neuronal LY-Ch, even though neuronal LY levels were increased, indicating that this upregulation is not linked to the LY capacity to process cholesterol.",
+   "Finding summary": "(APOE genotype variation including APOE3 -> APOE4, young hippocampus) -> (no change in neuronal late-endosomal or total/neuronal lysosomal cholesterol reaching significance)",
+   "Finding relevance": 0.42,
+   "Experimental system": "Male and female human-APOE knock-in mice, 5–6 months; fixed CA1 hippocampus; D4H*–CD63 or D4H*–LAMP1 colocalization fractions normalized to DAPI nuclei or NeuN volume; no direct processing-capacity assay.",
+   "Data location": "Fig 4E, neuronal late-endosomal and total/neuronal lysosomal cholesterol",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "5",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P35",
+   "finding_id": "P35.F3",
+   "key": "doi_10_1101_2025_11_11_687891",
+   "quote_start": "There was also a decrease in T-LE-Ch in APOE3<E2, with no change in AP",
+   "verdict": "FIX",
+   "set": {
+    "Sample size": "10"
+   },
+   "reason": "Quote verbatim; Fig 4E neuronal LE-Ch and total/neuronal LY-Ch panels have no brackets. Fig 4 is a young-only model with sex as a covariate (both sexes pooled): 'N = 5 animals per sex, age, APOE genotype', so each genotype in this contrast has 5 male + 5 female = 10 mice.",
+   "evidence": "Fig 4E: only '*' APOE2-APOE3 on total LE-Ch; none on neuronal LE-Ch or LY-Ch."
+  },
+  "item": 3
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "doi_10_1101_2025_11_11_687891",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/doi_10_1101_2025_11_11_687891/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/10.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/4.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/7.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/9.png"
+   ],
+   "pdf": "data/papers/doi_10_1101_2025_11_11_687891/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P35.F4",
+   "Finding description": "Young entorhinal total and neuronal lysosomal cholesterol showed no significant APOE-genotype difference in five mice per sex/genotype group.",
+   "Finding quote": "There was a striking decrease in both total and neuronal EE-Ch and LE-Ch (APOE4<E2), while there was a complete absence of APOE effect on LY-Ch levels (Fig. 4F).",
+   "Finding summary": "(APOE genotype variation including APOE3 -> APOE4, young entorhinal cortex) -> (no change in lysosomal cholesterol colocalization reaching significance)",
+   "Finding relevance": 0.42,
+   "Experimental system": "Male and female human-APOE2/2, APOE3/3, and APOE4/4 mice, 5–6 months; fixed entorhinal cortex; total and neuronal D4H*–LAMP1 colocalization fractions normalized to nuclei or neuronal volume.",
+   "Data location": "Fig 4F, total and neuronal lysosomal cholesterol",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "5",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P35",
+   "finding_id": "P35.F4",
+   "key": "doi_10_1101_2025_11_11_687891",
+   "quote_start": "There was a striking decrease in both total and neuronal EE-Ch and LE-",
+   "verdict": "FIX",
+   "set": {
+    "Sample size": "10"
+   },
+   "reason": "Fig 4F lysosome panels have no brackets; null correct. Fig 4 is a young-only model with sex as a covariate (both sexes pooled): 'N = 5 animals per sex, age, APOE genotype', so each genotype in this contrast has 5 male + 5 female = 10 mice.",
+   "evidence": "Fig 4F lysosome panels: no significance bars."
+  },
+  "item": 4
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "doi_10_1101_2025_11_11_687891",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/doi_10_1101_2025_11_11_687891/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/10.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/4.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/7.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/9.png"
+   ],
+   "pdf": "data/papers/doi_10_1101_2025_11_11_687891/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P35.F5",
+   "Finding description": "Young female APOE4 mice had significantly higher hippocampal total late-endosomal cholesterol colocalization than young female APOE3 mice in five mice per sex/genotype group.",
+   "Finding quote": "Total LE-Ch was decreased in APOE3 females compared to APOE2 and APOE4, as well as APOE3 males.",
+   "Finding summary": "(APOE3 -> APOE4, young females) -> (higher hippocampal total late-endosomal cholesterol colocalization)",
+   "Finding relevance": 0.4,
+   "Experimental system": "Female human-APOE3/3 and APOE4/4 mice, 5–6 months; fixed CA1 hippocampus; total D4H* spots colocalized with CD63 divided by total D4H* spots and DAPI nuclei; cholesterol accumulation/egress inferred from static localization.",
+   "Data location": "Fig 9D, total late-endosomal cholesterol, young females",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "5",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P35",
+   "finding_id": "P35.F5",
+   "key": "doi_10_1101_2025_11_11_687891",
+   "quote_start": "Total LE-Ch was decreased in APOE3 females compared to APOE2 and APOE4",
+   "verdict": "FIX",
+   "set": {
+    "P value": "<0.05",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Fig 9D Young total LE-Ch panel shows '*' on the bracket from female APOE3 to female APOE4 (FDR-corrected, p<0.05:*). n=5 per sex/genotype/age is right.",
+   "evidence": "Fig 9D Young, top row: brackets '*' female APOE2-APOE3, '*' APOE3 male-female, '*' female APOE3-APOE4. Legend: 'P-values were FDR-corrected across contrasts, p<0.05: *'."
+  },
+  "item": 5
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "doi_10_1101_2025_11_11_687891",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/doi_10_1101_2025_11_11_687891/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/10.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/4.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/7.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/9.png"
+   ],
+   "pdf": "data/papers/doi_10_1101_2025_11_11_687891/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P35.F6",
+   "Finding description": "Female APOE4 mice had significantly higher cortical neuronal lysosomal cholesterol than female APOE3 mice in five mice per sex/genotype/age group, but the reporting sentence does not identify the age group.",
+   "Finding quote": "The only significant difference measured on N-LY-Ch levels was in the APOE4 females, which showed a significant increase compared to APOE2 and APOE3 females, and APOE4 males in the cortex (Fig. 10B).",
+   "Finding summary": "(APOE3 -> APOE4, females, age unspecified) -> (higher cortical neuronal lysosomal cholesterol colocalization)",
+   "Finding relevance": 0.4,
+   "Experimental system": "Female human-APOE3/3 and APOE4/4 mice; Fig 10 spans 5–6, middle-aged, and 24–26-month groups, but this sentence omits age; fixed neocortex; neuronal D4H*–LAMP1 colocalization fraction divided by NeuN volume.",
+   "Data location": "Fig 10B, neuronal lysosomal cholesterol; age cannot be assigned from the reporting sentence",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "5",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P35",
+   "finding_id": "P35.F6",
+   "key": "doi_10_1101_2025_11_11_687891",
+   "quote_start": "The only significant difference measured on N-LY-Ch levels was in the ",
+   "verdict": "FIX",
+   "set": {
+    "Finding description": "Young (5-6 months) female APOE4 mice had significantly higher cortical neuronal lysosomal cholesterol than young female APOE3 mice (also higher than APOE2 females and APOE4 males), five mice per sex/genotype/age group.",
+    "Finding summary": "(APOE3 -> APOE4, young females) -> (higher cortical neuronal lysosomal cholesterol colocalization)",
+    "Experimental system": "Female human-APOE3/3 and APOE4/4 knock-in mice, 5-6 months (young panel of Fig 10B); fixed neocortex; neuronal D4H*-LAMP1 colocalization fraction divided by NeuN volume.",
+    "Data location": "Fig 10B, Young panel, neuronal lysosomal cholesterol",
+    "P value": "<0.01",
+    "P value provenance": "visual_only"
+   },
+   "reason": "The figure assigns the age: in Fig 10B neuronal LY-Ch the brackets are in the Young panel (APOE4 female vs APOE2 female '*', vs APOE3 female '**', vs APOE4 male '***'); so age is young (5-6 months) and the APOE3-vs-APOE4 female contrast is p<0.01.",
+   "evidence": "Fig 10B lower row, Young panel: '**' bracket from APOE3 female to APOE4 female; Middle-age panel only a single '*' male-female at APOE4. Legend key p<0.05:*, p<0.01:**, p<0.001:***."
+  },
+  "item": 6
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "doi_10_1101_2025_11_11_687891",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/doi_10_1101_2025_11_11_687891/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/10.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/4.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/7.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/9.png"
+   ],
+   "pdf": "data/papers/doi_10_1101_2025_11_11_687891/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P35.F7",
+   "Finding description": "Young hippocampal total late-endosome and lysosome abundance showed no significant APOE-genotype effect, and neuronal late-endosome increases were not significant, in five mice per sex/genotype group.",
+   "Finding quote": "In the HIPP, the total levels of EE’s, LE’s, and LY’s were not affected by APOE genotype (Fig. 4B). Furthermore, while both neuronal EE’s and LE’s showed an increasing pattern with APOE genotype, only N-LY’s showed a significant upregulation in APOE4 (APOE2<E4;E3<E4).",
+   "Finding summary": "(APOE genotype variation including APOE3 -> APOE4, young hippocampus) -> (no change in total late-endosome/lysosome or neuronal late-endosome abundance reaching significance)",
+   "Finding relevance": 0.35,
+   "Experimental system": "Male and female human-APOE2/2, APOE3/3, and APOE4/4 mice, 5–6 months; fixed CA1 hippocampus; total CD63/LAMP1 objects per DAPI nucleus and neuronal CD63 spots per NeuN volume.",
+   "Data location": "Fig 4B, total CD63/LAMP1 and neuronal CD63 measurements",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "5",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P35",
+   "finding_id": "P35.F7",
+   "key": "doi_10_1101_2025_11_11_687891",
+   "quote_start": "In the HIPP, the total levels of EE’s, LE’s, and LY’s were not affecte",
+   "verdict": "FIX",
+   "set": {
+    "Sample size": "10"
+   },
+   "reason": "Quote verbatim; Fig 4B total LE/LY and neuronal LE panels have no brackets. Fig 4 is a young-only model with sex as a covariate (both sexes pooled): 'N = 5 animals per sex, age, APOE genotype', so each genotype in this contrast has 5 male + 5 female = 10 mice.",
+   "evidence": "Fig 4B: only the neuronal lysosome panel carries brackets."
+  },
+  "item": 7
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "doi_10_1101_2025_11_11_687891",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/doi_10_1101_2025_11_11_687891/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/10.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/4.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/7.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/9.png"
+   ],
+   "pdf": "data/papers/doi_10_1101_2025_11_11_687891/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P35.F8",
+   "Finding description": "Young entorhinal total and neuronal lysosome abundance showed no significant APOE-genotype difference in five mice per sex/genotype group.",
+   "Finding quote": "Both total and neuronal LE’s were decreased in APOE4<E2, while lysosomes were not affected by APOE genotype.",
+   "Finding summary": "(APOE genotype variation including APOE3 -> APOE4, young entorhinal cortex) -> (no change in lysosome abundance reaching significance)",
+   "Finding relevance": 0.35,
+   "Experimental system": "Male and female human-APOE2/2, APOE3/3, and APOE4/4 mice, 5–6 months; fixed entorhinal cortex; total LAMP1 objects per DAPI nucleus and neuronal LAMP1 objects per NeuN volume.",
+   "Data location": "Fig 4C, total and neuronal LAMP1 measurements",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "5",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P35",
+   "finding_id": "P35.F8",
+   "key": "doi_10_1101_2025_11_11_687891",
+   "quote_start": "Both total and neuronal LE’s were decreased in APOE4<E2, while lysosom",
+   "verdict": "FIX",
+   "set": {
+    "Sample size": "10"
+   },
+   "reason": "Quote verbatim; Fig 4C lysosome panels have no brackets. Fig 4 is a young-only model with sex as a covariate (both sexes pooled): 'N = 5 animals per sex, age, APOE genotype', so each genotype in this contrast has 5 male + 5 female = 10 mice.",
+   "evidence": "Fig 4C lysosome panels: no significance bars."
+  },
+  "item": 8
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "doi_10_1101_2025_11_11_687891",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/doi_10_1101_2025_11_11_687891/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/10.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/4.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/7.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/9.png"
+   ],
+   "pdf": "data/papers/doi_10_1101_2025_11_11_687891/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P35.F9",
+   "Finding description": "Young entorhinal total and neuronal late-endosomal cholesterol were qualitatively lower in APOE4 than intermediate APOE3 levels in five mice per sex/genotype group, while the stated significant contrast was APOE4 versus APOE2.",
+   "Finding quote": "The largest effect was observed in the young EC, with neuronal LE’s, EE’s, as well as total/neuronal EE-Ch and LE-Ch decreasing in APOE4<APOE2 (while APOE3 levels were in between).",
+   "Finding summary": "(APOE3 -> APOE4, young entorhinal cortex) -> (qualitatively lower total and neuronal late-endosomal cholesterol colocalization)",
+   "Finding relevance": 0.35,
+   "Experimental system": "Male and female human-APOE knock-in mice, 5–6 months; fixed entorhinal cortex; total and neuronal D4H*–CD63 colocalization fractions divided by DAPI nuclei or NeuN volume.",
+   "Data location": "Fig 4F; Discussion, APOE genotype effects at young age",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "5",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P35",
+   "finding_id": "P35.F9",
+   "key": "doi_10_1101_2025_11_11_687891",
+   "quote_start": "The largest effect was observed in the young EC, with neuronal LE’s, E",
+   "verdict": "FIX",
+   "set": {
+    "Sample size": "10"
+   },
+   "reason": "Discussion sentence restates the paper's own Fig 4F result (APOE4<APOE2 '*' on total and neuronal LE-Ch, APOE3 between, no APOE3-APOE4 bracket). Fig 4 is a young-only model with sex as a covariate (both sexes pooled): 'N = 5 animals per sex, age, APOE genotype', so each genotype in this contrast has 5 male + 5 female = 10 mice.",
+   "evidence": "Fig 4F Late endosome top and bottom: '*' APOE2-APOE4 only."
+  },
+  "item": 9
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "doi_10_1101_2025_11_11_687891",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/doi_10_1101_2025_11_11_687891/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/10.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/4.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/7.png",
+    "data/papers/doi_10_1101_2025_11_11_687891/figimg/9.png"
+   ],
+   "pdf": "data/papers/doi_10_1101_2025_11_11_687891/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P35.F10",
+   "Finding description": "Female APOE4 mice had significantly greater entorhinal neuronal lysosome abundance than female APOE3 mice in five mice per sex/genotype/age group, with ages pooled.",
+   "Finding quote": "However, paired contrasts showed that N-LY’s in the EC were increased in APOE4 female compared to male mice, and compared to APOE3 females.",
+   "Finding summary": "(APOE3 -> APOE4, females) -> (higher entorhinal neuronal LAMP1-compartment abundance)",
+   "Finding relevance": 0.35,
+   "Experimental system": "Female human-APOE3/3 and APOE4/4 mice from young, middle-aged, and old groups; age-adjusted pooled analysis; fixed entorhinal cortex; neuronal LAMP1 objects per NeuN volume.",
+   "Data location": "Fig 7C, entorhinal neuronal lysosomes, female APOE4 versus APOE3",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "5",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P35",
+   "finding_id": "P35.F10",
+   "key": "doi_10_1101_2025_11_11_687891",
+   "quote_start": "However, paired contrasts showed that N-LY’s in the EC were increased ",
+   "verdict": "FIX",
+   "set": {
+    "P value": "<0.01",
+    "P value provenance": "visual_only",
+    "Sample size": "15"
+   },
+   "reason": "Fig 7C EC neuronal LY panel shows a grey (APOE pairwise, per legend) '**' bracket from female APOE3 to female APOE4, and black '*' APOE4 male-female. Fig 7 pools the three ages, so each female genotype has 5 x 3 = 15 mice.",
+   "evidence": "Fig 7C lower-right (EC): grey '**' APOE3F-APOE4F, black '*' APOE4 M-F. Legend: 'Significance bars in grey show APOE genotype pairwise comparisons ... p<0.05: *, p<0.01:**, p<0.001:***. N = 5 animals per sex, age, APOE genotype.'"
+  },
+  "item": 10
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "doi_10_64898_2026_05_12_724612",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/doi_10_64898_2026_05_12_724612/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P1.F1",
+   "Finding description": "After organoid-debris challenge, APOE33 microglia acidified from approximately pH 5.15 to 5.05, whereas APOE44 microglia failed to acidify; three wells per condition were imaged.",
+   "Finding quote": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (∼5.15), APOE33 iMG exhibited further acidification upon challenge (∼5.05), whereas APOE44 iMG failed to do so (Figure 3G).",
+   "Finding summary": "(APOE33 -> APOE44) -> (impaired adaptive late-endosomal/lysosomal acidification after organoid-debris challenge)",
+   "Finding relevance": 1,
+   "Experimental system": "Human male KOLF isogenic APOE33/APOE44 iPSC-derived microglia challenged with organoid debris; ratiometric ApHID/Alexa 647 dextran imaging; three wells per condition and nine frames per well. Challenge duration, donor age and AD status were not stated.",
+   "Data location": "Fig 3G, organoid-debris response",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "1 very strong"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P1",
+   "finding_id": "P1.F1",
+   "key": "doi_10_64898_2026_05_12_724612",
+   "quote_start": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (",
+   "verdict": "FIX",
+   "set": {
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "Quote verbatim and values (~5.15, ~5.05) correctly carried in the description. No figure image is available; the legend gives one test and one star key for the panel ('*p < 0.05; **p < 0.01; ***p < 0.001; ****p < 0.0001'), so the P is ambiguous_panel, not not_found_in_source.",
+   "evidence": "Fig. 3 legend: '(G) Late endosomal and lysosomal acidity ... (n=3 wells each, 9 frames per well) ... (G, H) One way ANOVA, mean ± SEM.*p < 0.05; **p < 0.01; ***p < 0.001; ****p < 0.0001, ns, non-significant'"
+  },
+  "item": 11
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "doi_10_64898_2026_05_12_724612",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/doi_10_64898_2026_05_12_724612/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P1.F2",
+   "Finding description": "APOE44 microglia had reduced DQ-BSA-measured lysosomal degradation capacity compared with APOE33 microglia; three wells per group were imaged with nine frames per well.",
+   "Finding quote": "Consistently, lysosomal degradative capacity, assessed by DQ-BSA, was reduced in APOE44 iMG (Figure 3H)56,57.",
+   "Finding summary": "(APOE33 -> APOE44) -> (lower lysosomal degradation capacity)",
+   "Finding relevance": 1,
+   "Experimental system": "Human male KOLF isogenic APOE33/APOE44 iPSC-derived microglia; DQ-BSA mean fluorescence intensity per punctum. The panel includes conditions with and without 10 nM bafilomycin, but the Results do not specify the inhibitor condition for the reported genotype difference. Assay duration, donor age and AD status were not stated.",
+   "Data location": "Fig 3H",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P1",
+   "finding_id": "P1.F2",
+   "key": "doi_10_64898_2026_05_12_724612",
+   "quote_start": "Consistently, lysosomal degradative capacity, assessed by DQ-BSA, was ",
+   "verdict": "FIX",
+   "set": {
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "Quote verbatim, n = 3 wells per group printed. No figure image is available; the legend gives one test and one star key for the panel ('*p < 0.05; **p < 0.01; ***p < 0.001; ****p < 0.0001'), so the P is ambiguous_panel, not not_found_in_source.",
+   "evidence": "Fig. 3 legend: '(H) DQ-BSA ... (for each group, 3 wells were imaged, 9 frames each). One way ANOVA, mean ± SEM.' plus the figure-wide star key."
+  },
+  "item": 12
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "doi_10_64898_2026_05_12_724612",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/doi_10_64898_2026_05_12_724612/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P1.F3",
+   "Finding description": "In the female UCI5 isogenic APOE33/APOE44 comparison, APOE44 microglia failed adaptive lysosomal acidification and instead alkalinized after organoid-debris challenge; three wells per condition were imaged.",
+   "Finding quote": "Upon challenge with organoid debris, UCI5 APOE44 iMG lysosomes failed to mount an adaptive acidification response and instead shifted toward alkalinization (Figure 7M).",
+   "Finding summary": "(APOE33 -> APOE44) -> (impaired adaptive lysosomal acidification, with alkalinization after challenge)",
+   "Finding relevance": 1,
+   "Experimental system": "Human iPSC-derived microglia from the additional female UCI5 isogenic APOE33/APOE44 pair; untreated and organoid-debris-challenged conditions; ratiometric ApHID/Alexa 647 dextran imaging of late-endosomal/lysosomal acidity; three wells per condition, 25 frames per well. Donor age, AD status and challenge duration were not stated.",
+   "Data location": "Fig 7M",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "1 very strong"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P1",
+   "finding_id": "P1.F3",
+   "key": "doi_10_64898_2026_05_12_724612",
+   "quote_start": "Upon challenge with organoid debris, UCI5 APOE44 iMG lysosomes failed ",
+   "verdict": "FIX",
+   "set": {
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "Quote verbatim, n = 3 wells printed. No figure image is available; the legend gives one test and one star key for the panel ('*p < 0.05; **p < 0.01; ***p < 0.001; ****p < 0.0001'), so the P is ambiguous_panel, not not_found_in_source.",
+   "evidence": "Fig. 7 legend: '(M) ... UCI5 APOE33 and APOE44 iMG untreated and treated with organoid debris (n=3 wells each, 25 frames per well) ... (D-G, I-M) Unpaired t-test, two-tailed ... *p < 0.05; **p < 0.01; ***p < 0.001; ****p < 0.0001'"
+  },
+  "item": 13
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "doi_10_64898_2026_05_12_724612",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/doi_10_64898_2026_05_12_724612/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P1.F4",
+   "Finding description": "Untreated APOE33 and APOE44 microglia showed no significant difference in baseline late-endosomal/lysosomal pH, reported as approximately 5.15 in both groups; three wells per genotype were imaged.",
+   "Finding quote": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (∼5.15), APOE33 iMG exhibited further acidification upon challenge (∼5.05), whereas APOE44 iMG failed to do so (Figure 3G).",
+   "Finding summary": "(APOE33 -> APOE44) -> (no change in baseline late-endosomal/lysosomal pH)",
+   "Finding relevance": 0.99,
+   "Experimental system": "Human male KOLF isogenic APOE33/APOE44 iPSC-derived microglia; untreated baseline; ratiometric late-endosomal/lysosomal pH imaging using dextran-bound ApHID and pH-independent Alexa 647; three wells per genotype and nine frames per well. Donor age, AD status and loading duration were not stated.",
+   "Data location": "Fig 3G, untreated APOE33 versus untreated APOE44",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "1 very strong"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P1",
+   "finding_id": "P1.F4",
+   "key": "doi_10_64898_2026_05_12_724612",
+   "quote_start": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (",
+   "verdict": "FIX",
+   "set": {
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "Quote verbatim; baseline null with ~5.15 in both groups is right. The Fig. 3 legend has a key including 'ns', with no image to place it, so ambiguous_panel.",
+   "evidence": "'While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (∼5.15)'; Fig. 3 legend key '... ns, non-significant'."
+  },
+  "item": 14
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "doi_10_64898_2026_05_12_724612",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/doi_10_64898_2026_05_12_724612/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P1.F5",
+   "Finding description": "APOE44 microglia had significantly greater BODIPY/LysoTracker colocalization than APOE33 microglia, indicating increased lysosomal neutral-lipid accumulation; two wells per genotype were sampled with nine frames per well.",
+   "Finding quote": "To assess this possibility, we quantified colocalization of BODIPY and LysoTracker and found that APOE44 iMG have significantly more neutral lipid accumulation in the lysosomes (Figure 3E).",
+   "Finding summary": "(APOE33 -> APOE44) -> (higher lysosomal neutral-lipid accumulation in human microglia)",
+   "Finding relevance": 0.98,
+   "Experimental system": "Human iPSC-derived microglia from the male KOLF isogenic APOE33/APOE44 pair, identified as Jackson Laboratory JIPSC001000/JIPSC001150; baseline culture; BODIPY-493/503 and LysoTracker Red DND-99 colocalization area normalized to LysoTracker area. Donor age, AD status and assay duration were not stated.",
+   "Data location": "Fig 3E",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "2",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P1",
+   "finding_id": "P1.F5",
+   "key": "doi_10_64898_2026_05_12_724612",
+   "quote_start": "To assess this possibility, we quantified colocalization of BODIPY and",
+   "verdict": "FIX",
+   "set": {
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "Quote verbatim; legend prints n = 2 wells x 9 frames per line. No figure image is available; the legend gives one test and one star key for the panel ('*p < 0.05; **p < 0.01; ***p < 0.001; ****p < 0.0001'), so the P is ambiguous_panel, not not_found_in_source.",
+   "evidence": "Fig. 3 legend: '(E) BODIPY-493/503 and LysoTracker Red DND-99 colocalization ... (n = 2 wells x 9 frames per line)' and '(B-E) Unpaired t-test, two-tailed, mean ± SEM.' with star key."
+  },
+  "item": 15
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "doi_10_64898_2026_05_12_724612",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/doi_10_64898_2026_05_12_724612/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P1.F9",
+   "Finding description": "APOE44 microglia had lower HEXA protein abundance than APOE33 microglia in proteomics using three wells per genotype; enzyme activity was not measured.",
+   "Finding quote": "These data were in agreement with our scRNAseq results, also indicating that lysosomal and endosomal pathways were being downregulated (i.e., LAMP1, LAMP2, HEXA, HEXB) (Figures 3I-K, S3C, Table S6).",
+   "Finding summary": "(APOE33 -> APOE44) -> (lower lysosomal HEXA protein abundance)",
+   "Finding relevance": 0.92,
+   "Experimental system": "Human male KOLF isogenic APOE33/APOE44 iPSC-derived microglia; baseline whole-cell proteomic HEXA abundance; three wells per genotype. Donor age, AD status and culture duration were not stated.",
+   "Data location": "Supplementary Fig S3C, HEXA",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "full_text_unavailable",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P1",
+   "finding_id": "P1.F9",
+   "key": "doi_10_64898_2026_05_12_724612",
+   "quote_start": "These data were in agreement with our scRNAseq results, also indicatin",
+   "verdict": "FIX",
+   "set": {
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "Quote verbatim; the S3C legend prints the test, n and a star key, but no image is available, so the P is ambiguous_panel rather than full_text_unavailable.",
+   "evidence": "Fig. S3 legend: '(C) LAMP1, LAMP2, HEXA and HEXB protein levels ... (C, E, F) Unpaired t-test, two-tailed, mean ± SEM, corrected with Benjamini-Hochberg (n = 3 wells each). *p < 0.05; ****p < 0.0001'"
+  },
+  "item": 16
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "doi_10_64898_2026_05_12_724612",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/doi_10_64898_2026_05_12_724612/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P1.F11",
+   "Finding description": "APOE44 microglia had higher p62/SQSTM1 protein abundance than APOE33 microglia in three wells per genotype, consistent with autophagosome accumulation but without direct autophagic flux measurement.",
+   "Finding quote": "Further, p62 (SQSTM1) and LC3B (MAP1LC3B2) were both upregulated, supporting a buildup of autophagosomes (Figure S3E).",
+   "Finding summary": "(APOE33 -> APOE44) -> (higher p62 abundance, a surrogate consistent with autophagosome accumulation)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Human male KOLF isogenic APOE33/APOE44 iPSC-derived microglia; baseline whole-cell proteomic SQSTM1 abundance, without a reported turnover or flux assay; three wells per genotype. Donor age and AD status were not stated.",
+   "Data location": "Supplementary Fig S3E, SQSTM1/p62",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "full_text_unavailable",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P1",
+   "finding_id": "P1.F11",
+   "key": "doi_10_64898_2026_05_12_724612",
+   "quote_start": "Further, p62 (SQSTM1) and LC3B (MAP1LC3B2) were both upregulated, supp",
+   "verdict": "FIX",
+   "set": {
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "Quote verbatim; the S3E legend prints the test, n = 3 wells and a star key, with no image available, so the P is ambiguous_panel.",
+   "evidence": "Fig. S3 legend: '(E) SQSTM1 (p62) and MAP1LC3B2 protein levels ... (C, E, F) Unpaired t-test ... (n = 3 wells each). *p < 0.05; ****p < 0.0001'"
+  },
+  "item": 17
+ },
+ {
+  "src": "4",
+  "paper": {
+   "key": "doi_10_64898_2026_07_15_738801",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/doi_10_64898_2026_07_15_738801/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/doi_10_64898_2026_07_15_738801/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P26.F1",
+   "Finding description": "Combined lysosomal and proteasomal inhibition produced substantially less protein accumulation in APOE4 than APOE3 neurons, suggesting reduced baseline clearance through the jointly tested pathways.",
+   "Finding quote": "In contrast, simultaneous inhibition of proteasomal and lysosomal protein clearance synergistically resulted in protein accumulation in APOE3 cells beyond what can be expected of additive clearance inhibition, while protein accumulation was much less evident in APOE4 neurons (Figures 4E, S4A).",
+   "Finding summary": "(APOE3 -> APOE4) -> (less additional protein accumulation after combined lysosomal/proteasomal blockade; baseline clearance impairment inferred)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Human female-donor isogenic APOE3/APOE3 and APOE4/APOE4 iPSC-derived mixed neuronal cultures at DIV49; donor had AD; 3-hour treatment with 200 nM bafilomycin A1 plus 10 μM MG-132 versus DMSO; housekeeping-normalized mass-spectrometric protein abundance.",
+   "Data location": "Fig 4E",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "ambiguous_panel",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P26",
+   "finding_id": "P26.F1",
+   "key": "doi_10_64898_2026_07_15_738801",
+   "quote_start": "In contrast, simultaneous inhibition of proteasomal and lysosomal prot",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "0.029x",
+    "Effect size provenance": "printed_in_text",
+    "Finding description": "Combined lysosomal and proteasomal inhibition (BafA1 + MG-132, 3 h) changed far fewer proteins significantly in APOE4 than APOE3 neurons (Fig 4E: n=14 vs n=479 proteins at adj. p<0.05 and |Log2FC|>0.58), suggesting reduced baseline clearance through the jointly tested pathways."
+   },
+   "reason": "Quote verbatim; Fig 4E (rendered from fulltext.pdf) prints the counts on the bars, 479 significant proteins in APOE3 vs 14 in APOE4 after BafA1 + MG-132, so the effect is 14/479 = 0.029x printed_in_text rather than qualitative.",
+   "evidence": "Fig 4E (PDF page 11): 'BafA1 + MG-132' bars labelled 'n=479' (APOE3) and 'n=14' (APOE4); legend E: 'filtered for proteins where adj. p<0.05 and |Log2FC|>0.58. n >= 3 biological and technical replicates'."
+  },
+  "item": 18
+ },
+ {
+  "src": "4",
+  "paper": {
+   "key": "doi_10_64898_2026_07_15_738801",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/doi_10_64898_2026_07_15_738801/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/doi_10_64898_2026_07_15_738801/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P26.F2",
+   "Finding description": "Proteomic PC2 responses showed accumulation of clearance-sensitive proteins after combined inhibition in APOE3 neurons, with an attenuated response in APOE4 neurons.",
+   "Finding quote": "Accordingly, while high PC2-scoring proteins reproducibly accumulated in APOE3 neurons upon blocking lysosomal and proteasomal degradation, the same proteins appeared resilient to clearance inhibition in APOE4 neurons (Figures 4G).",
+   "Finding summary": "(APOE3 -> APOE4) -> (attenuated proteomic response to combined clearance blockade)",
+   "Finding relevance": 0.6,
+   "Experimental system": "Human female-donor isogenic APOE3/APOE3 and APOE4/APOE4 iPSC-derived mixed neurons at DIV49; donor had AD; 3-hour lysosomal/proteasomal inhibitor treatments; batch-corrected mass-spectrometric protein abundance summarized by PCA PC2.",
+   "Data location": "Fig 4G",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "ambiguous_panel",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P26",
+   "finding_id": "P26.F2",
+   "key": "doi_10_64898_2026_07_15_738801",
+   "quote_start": "Accordingly, while high PC2-scoring proteins reproducibly accumulated ",
+   "verdict": "FIX",
+   "set": {
+    "Sample size": "~3-4",
+    "Sample size provenance": "estimated_from_figure"
+   },
+   "reason": "Quote verbatim and the description matches Fig 4G (APOE3 Ctrl ~5 -> BafA1+MG-132 ~34, ****; APOE4 Ctrl ~9 -> ~18, no mark); effect stays qualitative (a genotype-by-treatment contrast), but the points are clearly countable: 3 per APOE3 bar, 4 per APOE4 Ctrl and combined bar.",
+   "evidence": "Fig 4G (rendered at 300 dpi): APOE3 Ctrl 3 dots, APOE3 BafA1+MG-132 3 dots ('****' bracket from Ctrl); APOE4 Ctrl 4 dots, APOE4 BafA1+MG-132 4 dots, no bracket. Legend G: 'n >= 3 biological and technical replicates'."
+  },
+  "item": 19
+ },
+ {
+  "src": "4",
+  "paper": {
+   "key": "doi_10_64898_2026_07_15_738801",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/doi_10_64898_2026_07_15_738801/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/doi_10_64898_2026_07_15_738801/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P26.F3",
+   "Finding description": "Lysosomal inhibition alone affected similar numbers of proteins in APOE3 and APOE4 neurons, a descriptive similarity without a reported statistical test of the genotype difference.",
+   "Finding quote": "Each treatment individually had a modest impact on the proteome with a similar number of impacted proteins in both the APOE3 and APOE4 neurons (Figure S4A, Table S6).",
+   "Finding summary": "(APOE3 -> APOE4) -> (similar numbers of proteins responding to lysosomal inhibition)",
+   "Finding relevance": 0.6,
+   "Experimental system": "Human female-donor isogenic APOE3/APOE3 and APOE4/APOE4 iPSC-derived mixed neurons at DIV49; donor had AD; 200 nM bafilomycin A1 for 3 hours versus DMSO; housekeeping-normalized mass-spectrometric protein-abundance responses.",
+   "Data location": "Supplementary Fig S4A, top row",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "ambiguous_panel",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P26",
+   "finding_id": "P26.F3",
+   "key": "doi_10_64898_2026_07_15_738801",
+   "quote_start": "Each treatment individually had a modest impact on the proteome with a",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "0.29x",
+    "Effect size provenance": "printed_in_text",
+    "Data location": "Fig 4E, BafA1 bars (text also cites Supplementary Fig S4A, not available)",
+    "Finding description": "Lysosomal inhibition alone (BafA1, 3 h) produced few significantly changed proteins in either genotype (Fig 4E: n=7 in APOE3, n=2 in APOE4), which the authors describe as similar numbers; no statistical test of the genotype difference is reported."
+   },
+   "reason": "Quote verbatim, but S4A is not in the available PDF while Fig 4E prints the BafA1-only counts (7 APOE3 vs 2 APOE4), giving 2/7 = 0.29x printed_in_text; the description should carry the two counts since the authors' 'similar' rests on small numbers.",
+   "evidence": "Fig 4E (PDF page 11): 'BafA1' bars labelled 'n=7' (APOE3) and 'n=2' (APOE4); 'MG-132' n=31 vs n=8. Text: 'Each treatment individually had a modest impact on the proteome with a similar number of impacted proteins in both the APOE3 and APOE4 neurons (Figure S4A, Table S6).'"
+  },
+  "item": 20
+ },
+ {
+  "src": "4",
+  "paper": {
+   "key": "doi_10_64898_2026_07_15_738801",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/doi_10_64898_2026_07_15_738801/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/doi_10_64898_2026_07_15_738801/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P26.F5",
+   "Finding description": "Proteins accumulating after combined clearance blockade in APOE3 neurons were already elevated at APOE4 baseline, including CALM1, CAMKV, APP, and MAPT, indirectly implicating impaired clearance.",
+   "Finding quote": "By analyzing the clearance-sensitive proteome, we found that several of the proteins accumulating by clearance blockade in APOE3 neurons were elevated at baseline in the APOE4 context (Figure 4H, S4D). This particularly affected synaptic proteins (CALM1, CAMKV), but also extended to the central AD hallmark proteins amyloid precursor protein (APP) and Tau (MAPT; Figure 4H).",
+   "Finding summary": "(APOE3 -> APOE4) -> (higher baseline abundance of proteins sensitive to combined clearance blockade)",
+   "Finding relevance": 0.5,
+   "Experimental system": "Human female-donor isogenic APOE3/APOE3 and APOE4/APOE4 iPSC-derived mixed neurons at DIV49; donor had AD; baseline and 3-hour treatment with bafilomycin A1 and/or MG-132; mass-spectrometric protein abundance.",
+   "Data location": "Fig 4H",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "ambiguous_panel",
+   "Directness class": 3,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P26",
+   "finding_id": "P26.F5",
+   "key": "doi_10_64898_2026_07_15_738801",
+   "quote_start": "By analyzing the clearance-sensitive proteome, we found that several o",
+   "verdict": "FIX",
+   "set": {
+    "Finding description": "Several proteins that accumulated after combined clearance blockade in APOE3 neurons were already elevated at APOE4 baseline, including CALM1, CAMKV and MAPT (Fig 4H); the text also names APP, but in Fig 4H APOE4 baseline APP sits near the APOE3 control level, indirectly implicating impaired clearance."
+   },
+   "reason": "Quote verbatim, but Fig 4H does not show APP elevated at APOE4 baseline (pink APOE4 Ctrl points ~0 log2, same as APOE3 Ctrl), so the description should not list APP as already elevated; CALM1 (~1.4), CAMKV (~0.5) and MAPT (~1.1) are.",
+   "evidence": "Fig 4H (rendered at 300 dpi): APOE4 Ctrl mean log2 vs APOE3 Ctrl ~1.45 CALM1, ~1.1 MAPT, ~0.55 CAMKV, ~0.0 APP; APP shows '*' only for each genotype's BafA1+MG-132 vs its own control."
+  },
+  "item": 21
+ },
+ {
+  "src": "1",
+  "paper": {
+   "key": "pmid11912196",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid11912196/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid11912196/figimg/1.png"
+   ],
+   "pdf": "data/papers/pmid11912196/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P17.F1",
+   "Finding description": "Across two experiments, Aβ1–42-induced lysosomal leakage occurred in more than 25% of apoE4-transfected cells versus 15% of apoE3-transfected cells.",
+   "Finding quote": "Lysosomal leakage was seen in only 15% of the neo- and apoE3-transfected cells but in more than 25% of the apoE4-transfected cells (Fig. 2A).",
+   "Finding summary": "(apoE3 -> apoE4) -> (greater proportion of cells with Aβ1–42-induced lysosomal leakage)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Mouse Neuro-2a neuroblastoma cells stably expressing human apoE3 or apoE4; Lucifer Yellow loading followed by aggregated Aβ1–42 at 20 μM for 20 h at 37 °C, as specified by reference to Fig 1; fluorescence microscopy scoring diffuse cytosolic staining across 15 fields, approximately 30 cells per field; two experiments.",
+   "Data location": "Fig 2A, Aβ1–42 comparison",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "<0.05",
+   "P value provenance": "printed_in_text",
+   "Sample size": "2",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P17",
+   "finding_id": "P17.F1",
+   "key": "pmid11912196",
+   "quote_start": "Lysosomal leakage was seen in only 15% of the neo- and apoE3-transfect",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~1.5x",
+    "Effect size provenance": "estimated_from_figure"
+   },
+   "reason": "Quote, P (<0.05, legend) and n = 2 experiments are right. The text gives '15%' vs 'more than 25%' (an inequality), so the fold is read from Fig 2A: Abeta1-42 bars E3 ~17.3% vs E4 ~26.6% of cells -> ~1.5x.",
+   "evidence": "Fig 2A rendered from fulltext.pdf p.3 (y-axis 0-30, ticks every 5, zero baseline): black (Abeta1-42) bar E3-transfected ~17.3, E4-transfected ~26.6. Legend: 'Values are the mean +/- S.D. of two separate experiments. *, apoE4-transfected cells treated with Abeta1-42 versus neo- and apoE3-transfected cells treated with Abeta1-42 (p < 0.05).'"
+  },
+  "item": 22
+ },
+ {
+  "src": "1",
+  "paper": {
+   "key": "pmid11912196",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid11912196/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid11912196/figimg/1.png"
+   ],
+   "pdf": "data/papers/pmid11912196/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P17.F2",
+   "Finding description": "Aβ1–42 increased cytosolic β-hexosaminidase activity by approximately 85% in apoE4 cells and approximately 30% in apoE3 cells across two experiments performed in duplicate.",
+   "Finding quote": "A treatment increased cytosolic -hexosaminidase activity to a significantly greater extent in apoE4-transfected cells than in neo- and apoE3-transfected cells (85% versus 40 and 30%, respec- tively; p  0.001).",
+   "Finding summary": "(apoE3 -> apoE4) -> (greater Aβ1–42-induced release of lysosomal β-hexosaminidase into cytosol)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Mouse Neuro-2a neuroblastoma cells stably expressing human apoE3 or apoE4; grown to approximately 90% confluence and treated with aggregated Aβ1–42 at 20 μM for 24 h at 37 °C; cytosolic fractions isolated by homogenization and ultracentrifugation; β-hexosaminidase activity assayed in 20 μg cytosolic protein; two experiments in duplicate. This measures enzyme leakage, not loss of intrinsic catalytic activity.",
+   "Data location": "Fig 2B",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "<0.001",
+   "P value provenance": "printed_in_text",
+   "Sample size": "2",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P17",
+   "finding_id": "P17.F2",
+   "key": "pmid11912196",
+   "quote_start": "A treatment increased cytosolic -hexosaminidase activity to a signific",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.42x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Quote matches the extracted text (the PDF reads '~85% versus ~40 and ~30%; p < 0.001'); P and n are right. The printed increases give Abeta-treated cytosolic beta-hexosaminidase of ~185% vs ~130% of each line's control, so the E4/E3 fold is 185/130 = 1.42x (the Fig 2B bars agree: E3 ~131, E4 ~186).",
+   "evidence": "PDF p.3 Results: 'Abeta treatment increased cytosolic beta-hexosaminidase activity to a significantly greater extent in apoE4-transfected cells than in neo- and apoE3-transfected cells (~85% versus ~40 and ~30%, respectively; p < 0.001).' Fig 2B y-axis 'beta-Hexosaminidase Release (% of control)'. Legend: 'two separate experiments performed in duplicate'."
+  },
+  "item": 23
+ },
+ {
+  "src": "1",
+  "paper": {
+   "key": "pmid11912196",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid11912196/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid11912196/figimg/1.png"
+   ],
+   "pdf": "data/papers/pmid11912196/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P17.F4",
+   "Finding description": "In two experiments, apoE4 also increased Aβ1–40-induced lysosomal leakage relative to apoE3, although less markedly than with Aβ1–42.",
+   "Finding quote": "ApoE4 also potentiated lysosomal leakage induced by A1–40 (Fig. 2A), albeit to a lesser extent than that induced by A1–42.",
+   "Finding summary": "(apoE3 -> apoE4) -> (greater Aβ1–40-induced lysosomal leakage)",
+   "Finding relevance": 0.75,
+   "Experimental system": "Mouse Neuro-2a neuroblastoma cells stably expressing human apoE3 or apoE4; Lucifer Yellow loading followed by aggregated Aβ1–40 at 20 μM for 20 h at 37 °C, following the Fig 1 protocol; diffuse cytosolic fluorescence scored in 15 fields, approximately 30 cells per field; two experiments.",
+   "Data location": "Fig 2A, Aβ1–40 comparison",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "2",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P17",
+   "finding_id": "P17.F4",
+   "key": "pmid11912196",
+   "quote_start": "ApoE4 also potentiated lysosomal leakage induced by A1–40 (Fig. 2A), a",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~2.1x",
+    "Effect size provenance": "estimated_from_figure"
+   },
+   "reason": "Quote and n = 2 are right; the legend star is for Abeta1-42 only, so P = N/A is right. The Abeta1-40 (gray) bars are readable on Fig 2A: E3 ~4.4% vs E4 ~9.3% -> ~2.1x.",
+   "evidence": "Fig 2A rendered from fulltext.pdf p.3: gray bars (Abeta1-40 +) E3-transfected ~4.4, E4-transfected ~9.3 on a 0-30% axis with zero baseline; no star over the gray bars."
+  },
+  "item": 24
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid16298992",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid16298992/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid16298992/figimg/12.png"
+   ],
+   "pdf": "data/papers/pmid16298992/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P21.F3",
+   "Finding description": "LRP siRNA strongly reduced apoE4 potentiation of Aβ-induced lysosomal β-hexosaminidase leakage in Neuro-2a cells.",
+   "Finding quote": "Notably, LRP siRNA very significantly reduced apoE4 potentiation of A-in- duced lysosomal leakage (Fig. 11B).",
+   "Finding summary": "(LRP knockdown in apoE4 cells) -> (less Aβ-induced lysosomal enzyme leakage)",
+   "Finding relevance": 0.55,
+   "Experimental system": "Human apoE4-expressing mouse Neuro-2a cells; LRP siRNA at 1.5 μg/ml with Lipofectamine; 20 μM Aβ1–42 added 48 h after transfection; assay at 72 h; cytosolic β-hexosaminidase.",
+   "Data location": "Fig 11B",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 2,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P21",
+   "finding_id": "P21.F3",
+   "key": "pmid16298992",
+   "quote_start": "Notably, LRP siRNA very significantly reduced apoE4 potentiation of A-",
+   "verdict": "FIX",
+   "set": {
+    "Finding description": "LRP siRNA strongly reduced apoE4 potentiation of Abeta-induced lysosomal beta-hexosaminidase leakage in Neuro-2a cells (E4 cells: ~116% increase over control with Abeta vs ~48% with Abeta plus siRNA).",
+    "Effect size": "~59%",
+    "Effect size provenance": "estimated_from_figure"
+   },
+   "reason": "Fig 11B (on page image 12.png) is readable: in E4 cells Abeta-induced hexosaminidase leakage ~116% above control vs ~48% with Abeta+siRNA (~59% lower). No P or n printed.",
+   "evidence": "Fig 11B image: y-axis 0-125 (% increase vs control); E4 cells hatched Abeta bar ~116, black Abeta+siRNA bar ~48."
+  },
+  "item": 25
+ }
+]

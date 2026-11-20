@@ -1,0 +1,273 @@
+[
+ {
+  "src": "H1_0",
+  "paper": {
+   "key": "doi_10_64898_2026_05_12_724612",
+   "hyp": "H1",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes reduced endosome pH compared with APOE3.",
+   "text": "data/papers/doi_10_64898_2026_05_12_724612/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/doi_10_64898_2026_05_12_724612/figimg/3.png",
+    "data/papers/doi_10_64898_2026_05_12_724612/figimg/7.png",
+    "data/papers/doi_10_64898_2026_05_12_724612/figimg/S3.png"
+   ],
+   "pdf": "data/papers/doi_10_64898_2026_05_12_724612/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P2.F1",
+   "Finding description": "Human isogenic APOE33 and APOE44 iPSC-derived microglia showed no significant difference in baseline late-endosomal/lysosomal pH, reported as approximately 5.15, with three wells per group.",
+   "Finding quote": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (∼5.15), APOE33 iMG exhibited further acidification upon challenge (∼5.05), whereas APOE44 iMG failed to do so (Figure 3G).",
+   "Finding summary": "(APOE3 -> APOE4) -> (no change in baseline late-endosomal/lysosomal pH in human iPSC-derived microglia)",
+   "Finding relevance": 0.9,
+   "Experimental system": "Human isogenic APOE33 and APOE44 iPSC-derived microglia from the male KOLF background; Jackson Laboratory lines JIPSC001000 and JIPSC001150. Untreated baseline late-endosomal/lysosomal pH measured ratiometrically with dextran polymers labeled with pH-sensitive ApHID and pH-independent Alexa 647; three wells per group, nine imaging frames per well. Donor age and AD status were not specified for this isogenic pair.",
+   "Data location": "Fig 3G",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H1",
+   "paper_id": "P2",
+   "finding_id": "P2.F1",
+   "key": "doi_10_64898_2026_05_12_724612",
+   "quote_start": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "qualitative",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Quote verbatim, own result, n=3 wells printed in the Fig 3G legend. The text does state the result (both genotypes ~5.15 at baseline, 'did not differ'), so the effect is qualitative/printed_in_text, not N/A/not_found_in_source. P N/A is right as far as the text goes (Fig 3G is a one-way ANOVA across untreated/debris/Bafilomycin groups, no pairwise P printed); the figure image is not in our files (no PDF, no figure PNGs for this preprint), so any stars on 3G could not be checked.",
+   "evidence": "Results: 'While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (∼5.15), APOE33 iMG exhibited further acidification upon challenge (∼5.05), whereas APOE44 iMG failed to do so (Figure 3G).' Fig 3 legend (G): '... untreated, treated with organoid debris or with Bafilomycin (0.1 nM) (n=3 wells each, 9 frames per well).' '(G, H) One way ANOVA, mean ± SEM.'"
+  },
+  "item": 1
+ },
+ {
+  "src": "H1_0",
+  "paper": {
+   "key": "doi_10_64898_2026_05_12_724612",
+   "hyp": "H1",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes reduced endosome pH compared with APOE3.",
+   "text": "data/papers/doi_10_64898_2026_05_12_724612/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/doi_10_64898_2026_05_12_724612/figimg/3.png",
+    "data/papers/doi_10_64898_2026_05_12_724612/figimg/7.png",
+    "data/papers/doi_10_64898_2026_05_12_724612/figimg/S3.png"
+   ],
+   "pdf": "data/papers/doi_10_64898_2026_05_12_724612/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P2.F4",
+   "Finding description": "Proteomics comparing human isogenic APOE44 with APOE33 microglia found significant downregulation of 53 of 84 identified lysosomal hydrolases and V-ATPases, without separately reporting the V-ATPase subset.",
+   "Finding quote": "Of the 84 identified lysosomal hydrolases and V-ATPases, 53 were significantly downregulated in APOE44 iMG, supporting lysosomal impairment (Figure S3D).",
+   "Finding summary": "(APOE3 -> APOE4) -> (lower abundance of a combined lysosomal hydrolase/V-ATPase protein set)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Proteomic analysis of human isogenic APOE33 and APOE44 iPSC-derived microglia from the male KOLF background; Jackson Laboratory lines JIPSC001000 and JIPSC001150. Identified lysosomal proteins were assessed for differential abundance. This measures a protein set containing acidification regulators rather than luminal pH itself.",
+   "Data location": "Supplementary Fig S3D; numerical counts reported in main Results",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "full_text_unavailable",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H1",
+   "paper_id": "P2",
+   "finding_id": "P2.F4",
+   "key": "doi_10_64898_2026_05_12_724612",
+   "quote_start": "Of the 84 identified lysosomal hydrolases and V-ATPases, 53 were signi",
+   "verdict": "FIX",
+   "set": {
+    "P value provenance": "not_found_in_source"
+   },
+   "reason": "Quote verbatim, counts (53 of 84) and n=3 wells (proteomics, Fig 3I legend) correct. The full text is available; no P is printed for this count (S3D is a Venn diagram), so the P provenance should be not_found_in_source, not full_text_unavailable.",
+   "evidence": "Results: 'Of the 84 identified lysosomal hydrolases and V-ATPases, 53 were significantly downregulated in APOE44 iMG, supporting lysosomal impairment (Figure S3D).' Fig S3 legend (D): 'Venn diagram shows overlap of significantly downregulated and upregulated proteins with identified lysosomal enzymes.' Fig 3 legend (I): 'Volcano plot ... APOE44 vs APOE33 iMG (n=3 wells each).'"
+  },
+  "item": 2
+ },
+ {
+  "src": "H1_0",
+  "paper": {
+   "key": "pmid37777962",
+   "hyp": "H1",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes reduced endosome pH compared with APOE3.",
+   "text": "data/papers/pmid37777962/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/pmid37777962/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P8.F1",
+   "Finding description": "APOE4 astrocytes showed significantly higher lysosomal LysoTracker intensity than APOE3 astrocytes, consistent with increased acidic-compartment staining but without a measured luminal pH difference.",
+   "Finding quote": "We also observed that ApoE4 increased the intensity of LysoTracker, which is positively associated with lysosomal ac- tivity (Figure 3G",
+   "Finding summary": "(APOE3 -> APOE4) -> (higher lysosomal LysoTracker intensity in human astrocytes)",
+   "Finding relevance": 0.6,
+   "Experimental system": "Human AG10788 AD-donor iPSC-derived APOE4 astrocytes and CRISPR-corrected isogenic APOE3 astrocytes; donor female, age 87; serum withdrawn at least 4 days; LysoTracker Red DND-99 staining at 250 nM for 30 minutes, fixation, confocal imaging, and mean signal-intensity quantification; no ratiometric pH calibration.",
+   "Data location": "Fig 3G",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "<0.0001",
+   "P value provenance": "visual_only",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H1",
+   "paper_id": "P8",
+   "finding_id": "P8.F1",
+   "key": "pmid37777962",
+   "quote_start": "We also observed that ApoE4 increased the intensity of LysoTracker, wh",
+   "verdict": "FIX",
+   "set": {
+    "Finding quote": "We also observed that ApoE4 increased the intensity of LysoTracker, which is positively associated with lysosomal activity (Figure 3G).",
+    "Effect size": "~35%",
+    "Effect size provenance": "estimated_from_figure",
+    "Finding description": "APOE4 astrocytes showed significantly higher lysosomal LysoTracker mean intensity than isogenic APOE3 astrocytes (about 41 vs 55 a.u. read from Fig 3G, ~35% higher), consistent with increased acidic-compartment staining but without a measured luminal pH difference."
+   },
+   "reason": "Quote as stored is truncated mid-parenthesis with a PDF line-break hyphen ('ac- tivity (Figure 3G'); repaired to the full sentence. Fig 3G is readable (linear axis 0-80): APOE3 bar ~41, APOE4 bar ~55 a.u. -> ~35% increase. P <0.0001 visual_only is right (**** over this two-bar panel, Student's t-test key). n for E-G is not printed and the APOE3 points overlap, so Sample size N/A stays.",
+   "evidence": "Text p.5: 'We also observed that ApoE4 increased the intensity of LysoTracker, which is positively associated with lysosomal ac-tivity (Figure 3G).' Rendered PDF page 6 (journal p.5), Fig 3G: y axis 'LysoTracker intensity (a.u.)' 0-80; APOE3 bar top ~41, APOE4 bar top ~55; '****' above APOE4. Legend: '*p < 0.05, **p < 0.01, ***p < 0.001, ****p < 0.0001 (Student's t test).' Legend (E-G) gives no n."
+  },
+  "item": 3
+ },
+ {
+  "src": "H1_0",
+  "paper": {
+   "key": "pmid37777962",
+   "hyp": "H1",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes reduced endosome pH compared with APOE3.",
+   "text": "data/papers/pmid37777962/text.txt",
+   "supp": null,
+   "figures": [],
+   "pdf": "data/papers/pmid37777962/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P8.F2",
+   "Finding description": "Four-day methyl-β-cyclodextrin treatment lowered elevated LysoTracker intensity in APOE4 astrocytes; cholesterol is a downstream intervention target and LysoTracker intensity is an indirect acidity readout.",
+   "Finding quote": "We further observed restoration of lysosomal activity, as indicated by the mitigated intensity of LysoTracker after lysosomal cholesterol depletion (Figures 4D and 4F).",
+   "Finding summary": "(cholesterol depletion in APOE4 astrocytes) -> (lower lysosomal LysoTracker intensity)",
+   "Finding relevance": 0.5,
+   "Experimental system": "Human AG10788 AD-donor iPSC-derived APOE4 astrocytes, female donor age 87; methyl-β-cyclodextrin versus untreated APOE4 cells for 4 days; confocal quantification of lysosomal LysoTracker intensity; no calibrated luminal pH measurement.",
+   "Data location": "Fig 4F, APOE4 plus methyl-β-cyclodextrin versus untreated APOE4",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "<0.05",
+   "P value provenance": "visual_only",
+   "Sample size": "16",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 5,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H1",
+   "paper_id": "P8",
+   "finding_id": "P8.F2",
+   "key": "pmid37777962",
+   "quote_start": "We further observed restoration of lysosomal activity, as indicated by",
+   "verdict": "FIX",
+   "set": {
+    "P value": "N/A",
+    "P value provenance": "ambiguous_panel",
+    "Effect size": "~25%",
+    "Effect size provenance": "estimated_from_figure"
+   },
+   "reason": "Fig 4F shows no single '*': the only mark is '***' centred over the ApoE4 (untreated) bar in a four-group Dunnett's design, which most plausibly marks ApoE4 vs the ApoE3 control, not ApoE4+MβCD vs ApoE4; with one key and no visible mark for this comparison, P <0.05 is not supported -> N/A, ambiguous_panel. Bars are readable (0-100 linear axis): ApoE4 ~66 vs ApoE4+MβCD ~49 a.u. -> ~25% decrease. Quote, location and n=16 (legend D) are fine.",
+   "evidence": "Rendered PDF page 8 (journal p.7), Fig 4F: y axis 'LysoTracker intensity (a.u.)' 0-100; bars ApoE3 ~50, ApoE3+MβCD ~49, ApoE4 ~66, ApoE4+MβCD ~49; only '***' above the ApoE4 bar. Legend: '(D) ... with or without MbCD treatment. n = 16 from 3 independent cultures.' '*p < 0.05, ***p < 0.001 (ANOVA test followed by Dunnett's post hoc analysis).'"
+  },
+  "item": 4
+ },
+ {
+  "src": "H1_0",
+  "paper": {
+   "key": "doi_10_64898_2026_05_12_724612",
+   "hyp": "H1",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes reduced endosome pH compared with APOE3.",
+   "text": "data/papers/doi_10_64898_2026_05_12_724612/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/doi_10_64898_2026_05_12_724612/figimg/3.png",
+    "data/papers/doi_10_64898_2026_05_12_724612/figimg/7.png",
+    "data/papers/doi_10_64898_2026_05_12_724612/figimg/S3.png"
+   ],
+   "pdf": "data/papers/doi_10_64898_2026_05_12_724612/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P2.F2",
+   "Finding description": "After organoid-debris challenge, human isogenic APOE33 microglia acidified from approximately pH 5.15 to 5.05, whereas APOE44 microglia failed to acidify further, with three wells per group.",
+   "Finding quote": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (∼5.15), APOE33 iMG exhibited further acidification upon challenge (∼5.05), whereas APOE44 iMG failed to do so (Figure 3G).",
+   "Finding summary": "(APOE3 -> APOE4) -> (impaired challenge-induced late-endosomal/lysosomal acidification in human iPSC-derived microglia)",
+   "Finding relevance": 0.9,
+   "Experimental system": "Human isogenic APOE33 and APOE44 iPSC-derived microglia from the male KOLF background; Jackson Laboratory lines JIPSC001000 and JIPSC001150. Organoid-debris challenge followed by ratiometric late-endosomal/lysosomal pH imaging using dextran-conjugated ApHID and Alexa 647; three wells per group, nine frames per well. Challenge duration and donor age/AD status were not specified in the supplied text.",
+   "Data location": "Fig 3G",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "item": 5,
+  "proposal": {
+   "hyp": "H1",
+   "finding_id": "P2.F2",
+   "verdict": "FIX",
+   "set": {},
+   "reason": "Audited from text only (no figure was available then). Now that Fig 3G and Fig 7M are available, read them: give effect, P (stars with the legend's key, only over this exact comparison) and n if the figure supports them; ADJUST with those values, or CONFIRM to leave the row as it is.",
+   "evidence": ""
+  }
+ },
+ {
+  "src": "H1_0",
+  "paper": {
+   "key": "doi_10_64898_2026_05_12_724612",
+   "hyp": "H1",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes reduced endosome pH compared with APOE3.",
+   "text": "data/papers/doi_10_64898_2026_05_12_724612/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/doi_10_64898_2026_05_12_724612/figimg/3.png",
+    "data/papers/doi_10_64898_2026_05_12_724612/figimg/7.png",
+    "data/papers/doi_10_64898_2026_05_12_724612/figimg/S3.png"
+   ],
+   "pdf": "data/papers/doi_10_64898_2026_05_12_724612/fulltext.pdf"
+  },
+  "row": {
+   "Paper/Finding ID": "P2.F3",
+   "Finding description": "In the female UCI5 human isogenic APOE33/APOE44 microglial comparison, APOE44 lysosomes shifted toward alkalinization after organoid-debris challenge instead of mounting adaptive acidification, with three wells per group.",
+   "Finding quote": "Upon challenge with organoid debris, UCI5 APOE44 iMG lysosomes failed to mount an adaptive acidification response and instead shifted toward alkalinization (Figure 7M).",
+   "Finding summary": "(APOE3 -> APOE4) -> (impaired adaptive endolysosomal acidification, with challenge-induced alkalinization reported in APOE4 microglia)",
+   "Finding relevance": 0.9,
+   "Experimental system": "Human iPSC-derived microglia from the additional female UCI5 APOE33/APOE44 isogenic pair, assayed untreated and after organoid-debris challenge. Late-endosomal/lysosomal acidity measured ratiometrically with dextran polymers labeled with ApHID and Alexa 647; three wells per group, 25 frames per well. Donor age, AD status, and challenge duration were not specified in the supplied text.",
+   "Data location": "Fig 7M",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "item": 6,
+  "proposal": {
+   "hyp": "H1",
+   "finding_id": "P2.F3",
+   "verdict": "FIX",
+   "set": {},
+   "reason": "Audited from text only (no figure was available then). Now that Fig 3G and Fig 7M are available, read them: give effect, P (stars with the legend's key, only over this exact comparison) and n if the figure supports them; ADJUST with those values, or CONFIRM to leave the row as it is.",
+   "evidence": ""
+  }
+ }
+]

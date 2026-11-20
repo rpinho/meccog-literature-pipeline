@@ -1,0 +1,1219 @@
+[
+ {
+  "src": "1",
+  "paper": {
+   "key": "pmid23132858",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid23132858/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid23132858/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P23.F2",
+   "Finding description": "Inhibitor-derived lysosomal degradation of apoE4 was lower than that of apoE3 in mouse N2a cells exposed to Aβ42.",
+   "Finding quote": "We found that apoE3 was transported into lysosomes and degraded more efficiently than apoE4 ( Fig. 7 , A and B ).",
+   "Finding summary": "(apoE3 -> apoE4) -> (lower inhibitor-derived lysosomal apoE degradation)",
+   "Finding relevance": 0.55,
+   "Experimental system": "Mouse N2a neuroblastoma cells; recombinant human apoE3 or apoE4, 500 nM, with Aβ42, 500 nM, for 24 h, with or without lysosomal inhibitors; degraded apoE calculated as cell-associated apoE with inhibitors minus that without inhibitors, using ELISA. Lipid metabolism was not measured.",
+   "Data location": "Fig 7B",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "<0.01",
+   "P value provenance": "printed_in_text",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P23",
+   "finding_id": "P23.F2",
+   "key": "pmid23132858",
+   "quote_start": "We found that apoE3 was transported into lysosomes and degraded more e",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~0.22x",
+    "Effect size provenance": "estimated_from_figure"
+   },
+   "reason": "Quote, P (<0.01, the only key in the Fig 7B legend, star over the E3-E4 bracket) and n = 3 are right. Fig 7B is readable (ratio to E3, zero baseline): E4 degraded apoE ~0.22 of E3.",
+   "evidence": "Packet image figimg/5.png is actually Fig 7 (panels: cell-associated apoE, degraded apoE, apoE/LAMP1, apoE in lysosomes). Panel B: E3 bar = 1.0, E4 bar ~0.22 (pixel read: baseline y=271, E3 top y=100, E4 top y=234); '**' over the E3-E4 bracket. Legend 7B: '( n = 3). **, p < 0.01.'"
+  },
+  "item": 1
+ },
+ {
+  "src": "1",
+  "paper": {
+   "key": "pmid23132858",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid23132858/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid23132858/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P23.F5",
+   "Finding description": "Immunostaining of mouse N2a cells during lysosomal inhibition showed less efficient trafficking of apoE4 than apoE3 to LAMP1-positive lysosomal compartments.",
+   "Finding quote": "The more efficient trafficking of apoE3 than apoE4 was confirmed by immunostaining and confocal microscopy ( Fig. 7 , C and D ).",
+   "Finding summary": "(apoE3 -> apoE4) -> (less efficient apoE trafficking to LAMP1-positive compartments)",
+   "Finding relevance": 0.45,
+   "Experimental system": "Mouse N2a neuroblastoma cells; recombinant human apoE3 or apoE4, 500 nM, with Aβ42, 500 nM, for 24 h in the presence of lysosomal inhibitors; immunostaining for apoE and LAMP1 followed by confocal microscopy. Lipid metabolism was not measured.",
+   "Data location": "Fig 7C",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P23",
+   "finding_id": "P23.F5",
+   "key": "pmid23132858",
+   "quote_start": "The more efficient trafficking of apoE3 than apoE4 was confirmed by im",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 7C-D",
+    "Effect size": "~0.66x",
+    "Effect size provenance": "estimated_from_figure",
+    "P value": "<0.05",
+    "P value provenance": "printed_in_text",
+    "Sample size": "9",
+    "Sample size provenance": "printed_in_text"
+   },
+   "reason": "The quote cites Fig 7 C and D, and 7D quantifies the confocal result: the legend gives n = 9 and only '*, p < 0.05', and the image shows the star over the E3-E4 bracket. E4 apoE-in-lysosomes reads ~0.66 of E3.",
+   "evidence": "Legend 7D: 'the amounts of apoE that co-localized with lysosomes were quantified by ImageJ. Data are plotted as mean +/- S.E. ( n = 9). *, p < 0.05.' Packet image figimg/5.png (actually Fig 7) panel D: E3 = 1.0 (top y=541), E4 ~0.66 (top y=600, baseline y=713), '*' over the bracket."
+  },
+  "item": 2
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid28035917",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid28035917/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid28035917/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P8.F1",
+   "Finding description": "Across three independent experiments, one-hour recombinant apoE4 treatment increased cytosolic Cathepsin D compared with apoE3 in SH-SY5Y cells, supporting leakage from lysosomal compartments.",
+   "Finding quote": "Analysis of microsomal and cytosolic fractions revealed that Cathepsin D levels were increased in the cytosolic fraction of rApoE4-treated cells compared to rApoE3- and non-treated cells (Fig. 5C).",
+   "Finding summary": "(apoE3 -> apoE4) -> (higher cytosolic Cathepsin D in SH-SY5Y cells)",
+   "Finding relevance": 0.9,
+   "Experimental system": "Human ATCC SH-SY5Y neuroblastoma cells treated in serum-free medium with 100 nM human recombinant apoE3 or apoE4 for 1 h; differential centrifugation to obtain microsomal and cytosolic fractions, followed by Cathepsin D immunoblotting; Ponceau staining used as loading control.",
+   "Data location": "Fig 5C, cytosolic fraction",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "<0.05",
+   "P value provenance": "printed_in_text",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P8",
+   "finding_id": "P8.F1",
+   "key": "pmid28035917",
+   "quote_start": "Analysis of microsomal and cytosolic fractions revealed that Cathepsin",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~1.9x",
+    "Effect size provenance": "estimated_from_figure"
+   },
+   "reason": "Quote, direction, P (<0.05, legend names this comparison) and n = 3 are correct; the Fig 5C bar chart is readable, so the qualitative effect can be estimated.",
+   "evidence": "Fig 5C (5.png), y axis 0-300 % of control in steps of 50: cytosolic (white) rApoE3 ~120, rApoE4 ~223 -> ~1.9x. Legend: '*p < 0.05 (... Cytosolic rApoE4 treated versus both Control and rApoE3 treated)', '3 independent experiments'."
+  },
+  "item": 3
+ },
+ {
+  "src": "0",
+  "paper": {
+   "key": "pmid28035917",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid28035917/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid28035917/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P8.F4",
+   "Finding description": "Across three independent experiments, microsomal Cathepsin D was lower after one-hour recombinant apoE4 treatment than after apoE3 treatment in SH-SY5Y cells.",
+   "Finding quote": "In rApoE3 treated cells, the levels of Cathepsin D were instead increased in the microsomal fraction compared to rApoE4 treated and control cells.",
+   "Finding summary": "(apoE3 -> apoE4) -> (lower microsomal Cathepsin D in SH-SY5Y cells)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Human ATCC SH-SY5Y neuroblastoma cells treated with 100 nM human recombinant apoE3 or apoE4 in serum-free medium for 1 h; microsomal fraction collected by 100,000×g centrifugation and analyzed by Cathepsin D immunoblotting; Ponceau staining used as loading control.",
+   "Data location": "Fig 5C, microsomal fraction",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "<0.05",
+   "P value provenance": "printed_in_text",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P8",
+   "finding_id": "P8.F4",
+   "key": "pmid28035917",
+   "quote_start": "In rApoE3 treated cells, the levels of Cathepsin D were instead increa",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~0.53x",
+    "Effect size provenance": "estimated_from_figure"
+   },
+   "reason": "Quote, direction, P (<0.05, legend names microsomal rApoE3 vs rApoE4) and n = 3 correct; the bar chart is readable, so the effect can be estimated (apoE4 over apoE3).",
+   "evidence": "Fig 5C (5.png), y axis 0-300 % of control: microsomal (black) rApoE3 ~230, rApoE4 ~122 -> ~0.53x. Legend: '*p < 0.05 (Microsomal rApoE3 treated versus both Control and rApoE4 treated ...)'."
+  },
+  "item": 4
+ },
+ {
+  "src": "1",
+  "paper": {
+   "key": "pmid29946028",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid29946028/text.txt",
+   "supp": "data/papers/pmid29946028/supp.txt",
+   "figures": [
+    "data/papers/pmid29946028/figimg/1.png",
+    "data/papers/pmid29946028/figimg/2.png",
+    "data/papers/pmid29946028/figimg/3.png",
+    "data/papers/pmid29946028/figimg/4.png",
+    "data/papers/pmid29946028/figimg/5.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P18.F1",
+   "Finding description": "Across three biological replicates, mouse astrocytes expressing human APOE4 had lysosomal pH elevated by >1 pH unit compared with APOE3 astrocytes, indicating impaired lysosomal acidification without testing lipid metabolism.",
+   "Finding quote": "In contrast, we observed >1 pH unit elevation of lysosomal pH in ApoE4 astrocytes ( Fig. 3 C ).",
+   "Finding summary": "(APOE3 -> APOE4) -> (higher lysosomal pH in mouse astrocytes)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Cultured mouse astrocytes from ApoE-knockout mice with isogenic knock-in of human ApoE3 or ApoE4, supplied by David M. Holtzman; donor age and mouse background not specified. Lysosomal pH measured by ratiometric flow cytometry after 12 h loading with pHrodo-green–dextran and Alexa Fluor 647–dextran followed by a 6 h chase; ionophore-based calibration. These are mouse cells, not human brain cells; lipid metabolism was not measured.",
+   "Data location": "Fig 3C",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "0.0009",
+   "P value provenance": "printed_in_text",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P18",
+   "finding_id": "P18.F1",
+   "key": "pmid29946028",
+   "quote_start": "In contrast, we observed >1 pH unit elevation of lysosomal pH in ApoE4",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "dpH=1.12",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Quote, P = 0.0009 and n = 3 are right. Fig 3C prints the group means on the bars (ApoE3 4.08, ApoE4 5.20), so the effect is dpH = 1.12 rather than 'qualitative'.",
+   "evidence": "figimg/3.png panel C 'Lysosomal pH': bar labels ApoE3 4.08, ApoE4 5.20, '***' bracket. Legend: '( C ) Lysosomal pH was elevated by >1 pH unit in ApoE4 astrocytes (*** P = 0.0009, Student's t test; n = 3).'"
+  },
+  "item": 5
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P4.F6",
+   "Finding description": "Quantification of the Apoer2-Fc pull-down showed similar binding of human ApoE3 and ApoE4, with no significant difference reported.",
+   "Finding quote": "ApoE3 and ApoE4 bind Apoer2 with similar affinity, whereas ApoE2 binding to Apoer2 is poor.",
+   "Finding summary": "(apoE3 -> apoE4) -> (no change in Apoer2 binding reported)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Quantification of the cell-free human ApoE pull-down by mouse Apoer2-Fc; HEK293-secreted ApoE particles at 0–10 µg/ml, incubated with receptor-bearing beads for 4 h at 4°C; immunoblot endpoint.",
+   "Data location": "Fig 1B",
+   "Effect size": "~1.05x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P4",
+   "finding_id": "P4.F6",
+   "key": "pmid30375977",
+   "quote_start": "ApoE3 and ApoE4 bind Apoer2 with similar affinity, whereas ApoE2 bindi",
+   "verdict": "FIX",
+   "set": {
+    "Finding description": "Quantification of the Apoer2-Fc pull-down showed similar binding of human ApoE3 and ApoE4 (specific binding at 10 ug/ml: ApoE3 18.4, ApoE4 18.9), with no significant difference reported.",
+    "Effect size": "1.03x",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "Exact values exist in the Fig 1B source data: at 10 ug/ml specific binding ApoE3 18.4, ApoE4 18.9 (1.03x).",
+   "evidence": "Supp Fig1B sheet: row 10: E2 7.4 | E3 18.4 | E4 18.9."
+  },
+  "item": 6
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P4.F8",
+   "Finding description": "Quantification showed comparable surface-to-total Lrp1 ratios under ApoE3 and ApoE4 across three independent experiments.",
+   "Finding quote": "Other ApoE receptors, such as low-density lipoprotein receptor-related protein 1 (Lrp1) and low-density lipoprotein receptor (Ldlr), as well as the endocytic receptor for transferrin (TfR) and insulin receptor (IR) exhibit comparable surface levels in the presence of ApoE3 or ApoE4.",
+   "Finding summary": "(apoE3 -> apoE4) -> (comparable surface-to-total Lrp1 ratios)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; human ApoE3 or ApoE4 and Reelin; quantitative surface-biotinylation immunoblot assay for Lrp1.",
+   "Data location": "Fig 2C",
+   "Effect size": "~3%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P4",
+   "finding_id": "P4.F8",
+   "key": "pmid30375977",
+   "quote_start": "Other ApoE receptors, such as low-density lipoprotein receptor-related",
+   "verdict": "FIX",
+   "set": {
+    "Finding description": "Quantification showed comparable surface-to-total Lrp1 ratios under ApoE3 (104.7% of control) and ApoE4 (101.5%) across three independent experiments.",
+    "Effect size": "3%",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "Fig 2C source data give exact Lrp1 surface/total: ApoE3+R mean 104.7, ApoE4+R mean 101.5 (3% lower); figure matches.",
+   "evidence": "Supp Fig2C sheet: Lrp1 E3+R 115.7/94.8/103.6, E4+R 103.5/94.3/106.6."
+  },
+  "item": 7
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P4.F10",
+   "Finding description": "Increasing bafilomycin concentrations counteracted EMD87580-mediated Apoer2 recycling rescue in ApoE4-treated neurons across three independent experiments. Class 5 (other): Class 5 because APOE4 is held fixed and the proton pump and NHE are inhibited pharmacologically, which tests whether endosomal pH mediates the recycling defect rather than perturbing APOE genotype or isoform.",
+   "Finding quote": "Figure 4F and G show that the resulting increase of the endosomal pH reverses the correction of the ApoE4 recycling deficit by EMD87580 and results in renewed impairment of Apoer2 trafficking.",
+   "Finding summary": "(proton-pump inhibition with apoE4 and EMD87580 present) -> (renewed Apoer2 recycling impairment)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; human ApoE4 and Reelin, EMD87580 3 µM, and increasing bafilomycin concentrations; drugs preincubated before ApoE/Reelin; surface-biotinylation Apoer2 assay. Endosomal pH was mechanistically inferred, not directly measured in this panel.",
+   "Data location": "Fig 4G",
+   "Effect size": "~66%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 5,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P4",
+   "finding_id": "P4.F10",
+   "key": "pmid30375977",
+   "quote_start": "Figure 4F and G show that the resulting increase of the endosomal pH r",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "67%",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "Fig 4G source data match the plot: ApoE4+EMD mean 100.3 vs ApoE4+EMD+100 nM bafilomycin 33.3 (67% lower). The *** brackets are vs untreated control, not this comparison.",
+   "evidence": "Supp Fig4G sheet: E4+EMD 103.3/95.4/102.3; E4+EMD+Baf(100) 33.2/29.5/37.3."
+  },
+  "item": 8
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P4.F13",
+   "Finding description": "Quantification showed lower surface-to-total Apoer2 after ApoE4 addition than without ApoE4 in three independent experiments.",
+   "Finding quote": "ApoE-conditioned media treatment reduces the surface expression of Apoer2 in presence of Reelin in primary neurons.",
+   "Finding summary": "(no added apoE4 -> added apoE4) -> (lower surface-to-total Apoer2 ratio)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; untreated drug-control comparison within the EMD87580 dose experiment; human cell-secreted ApoE4 and Reelin; surface/total Apoer2 immunoblot quantification.",
+   "Data location": "Fig 4C",
+   "Effect size": "~80%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 2,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P4",
+   "finding_id": "P4.F13",
+   "key": "pmid30375977",
+   "quote_start": "ApoE-conditioned media treatment reduces the surface expression of Apo",
+   "verdict": "FIX",
+   "set": {
+    "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9-14; Reelin with or without human cell-secreted ApoE4 (no EMD87580); surface biotinylation and surface/total Apoer2 immunoblot quantification.",
+    "Data location": "Fig 2C, Apoer2",
+    "Effect size": "73%",
+    "Effect size provenance": "supplement_only",
+    "P value": "<0.001",
+    "P value provenance": "visual_only"
+   },
+   "reason": "The quote is the Fig 2B,C legend sentence, not Fig 4C; Fig 2C quantifies control+Reelin vs ApoE4+Reelin Apoer2 surface/total (100.0 vs 26.8, 73% lower) with '***' on that bracket (legend ***p<0.001, Dunnett).",
+   "evidence": "Fig 2 legend: 'ApoE-conditioned media treatment reduces the surface expression of Apoer2 in presence of Reelin in primary neurons.' Fig 2C image: '***' C+R vs E4+R. Supp Fig2C sheet Apoer2: C+R 103.1/96.8/100.1, E4+R 32.4/27.6/20.3."
+  },
+  "item": 9
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P4.F21",
+   "Finding description": "NHE6 shRNA a restored surface GluN2B in ApoE4-treated neurons in three independent experiments.",
+   "Finding quote": "EMD87580 and the NHE6-specific shRNAs completely restored Apoer2 and glutamate receptor surface expression, while the scrambled shRNA had no effect (Panel B and quantified in Panels C-F).",
+   "Finding summary": "(NHE6 knockdown with apoE4 present) -> (restored surface GluN2B)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons; lentiviral shNHE6 a/TRCN0000068828, assay 3 days after infection; human ApoE4 and Reelin; surface-biotinylation GluN2B quantification against the ApoE4-impaired control.",
+   "Data location": "Fig 6D, shNHE6 a comparison",
+   "Effect size": "~4.1x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 2,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P4",
+   "finding_id": "P4.F21",
+   "key": "pmid30375977",
+   "quote_start": "EMD87580 and the NHE6-specific shRNAs completely restored Apoer2 and g",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "4.1x",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "Fig 6D source data give exact values: ApoE4+R 24.1 vs ApoE4+R+shNHE6(1) 99.5 (4.1x); matches the plot. No bracket on this comparison.",
+   "evidence": "Supp Fig6D sheet: E4+R 26.4/17.3/28.5; E4+R+shNHE6(1) 96.7/102.2/99.7."
+  },
+  "item": 10
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P4.F22",
+   "Finding description": "EMD87580 restored surface GluA2/3 in ApoE4-treated neurons in three independent experiments.",
+   "Finding quote": "EMD87580 and the NHE6-specific shRNAs completely restored Apoer2 and glutamate receptor surface expression, while the scrambled shRNA had no effect (Panel B and quantified in Panels C-F).",
+   "Finding summary": "(NHE inhibition with apoE4 present) -> (restored surface GluA2/3)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; EMD87580 3 µM, standard 1 h pretreatment; human ApoE4 plus Reelin; surface/total GluA2/3 quantification corresponding to Fig 6B lanes 2 versus 3.",
+   "Data location": "Fig 6F, EMD87580 comparison",
+   "Effect size": "~3.4x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 2,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P4",
+   "finding_id": "P4.F22",
+   "key": "pmid30375977",
+   "quote_start": "EMD87580 and the NHE6-specific shRNAs completely restored Apoer2 and g",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "3.5x",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "Fig 6F source data: ApoE4+R 27.5 vs ApoE4+R+EMD87580 95.2 (3.5x); matches the plot.",
+   "evidence": "Supp Fig6F sheet: E4+R 27.4/33.1/21.9; E4+R+EMD87580 102.2/89.2/94.3."
+  },
+  "item": 11
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P4.F23",
+   "Finding description": "NHE6 shRNA a restored surface GluA2/3 in ApoE4-treated neurons in three independent experiments.",
+   "Finding quote": "EMD87580 and the NHE6-specific shRNAs completely restored Apoer2 and glutamate receptor surface expression, while the scrambled shRNA had no effect (Panel B and quantified in Panels C-F).",
+   "Finding summary": "(NHE6 knockdown with apoE4 present) -> (restored surface GluA2/3)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons; lentiviral shNHE6 a/TRCN0000068828, assay 3 days after infection; human ApoE4 and Reelin; surface/total GluA2/3 quantification against the ApoE4-impaired control.",
+   "Data location": "Fig 6F, shNHE6 a comparison",
+   "Effect size": "~3.6x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 2,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P4",
+   "finding_id": "P4.F23",
+   "key": "pmid30375977",
+   "quote_start": "EMD87580 and the NHE6-specific shRNAs completely restored Apoer2 and g",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "3.6x",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "Fig 6F source data: ApoE4+R 27.5 vs ApoE4+R+shNHE6(1) 100.0 (3.6x); value unchanged, provenance is the printed source data.",
+   "evidence": "Supp Fig6F sheet: E4+R 27.4/33.1/21.9; E4+R+shNHE6(1) 103.5/96.4/100.1."
+  },
+  "item": 12
+ },
+ {
+  "src": "5",
+  "paper": {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 adheres more tightly to some recycling receptors than APOE3, impeding recycling.",
+   "text": "data/papers/pmid30375977/text.txt",
+   "supp": "data/papers/pmid30375977/supp.txt",
+   "figures": [
+    "data/papers/pmid30375977/figimg/1.png",
+    "data/papers/pmid30375977/figimg/2.png",
+    "data/papers/pmid30375977/figimg/4.png",
+    "data/papers/pmid30375977/figimg/5.png",
+    "data/papers/pmid30375977/figimg/6.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P4.F33",
+   "Finding description": "NHE5 knockdown left surface Apoer2 low in ApoE4-treated neurons across three independent experiments. Class 5 (other): Class 5 because APOE4 is held fixed and NHE5 is knocked down as a pathway control, which does not act on APOE genotype or isoform.",
+   "Finding quote": "None of the shRNAs directed against NHE1, 5, 7, 8 or 9 had any effect on surface Apoer2 expression, neither in the absence of ApoE4 or in its presence.",
+   "Finding summary": "(NHE5 knockdown with apoE4 present) -> (no change in surface Apoer2)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons; lentiviral NHE5 shRNA, assay 3 days after infection; human ApoE4 plus Reelin; surface-biotinylation Apoer2 quantification.",
+   "Data location": "Fig 5D; supplementary file elife-40048-fig5-data1.xlsx, sheet Fig5D, E4+R versus E4+R+shNHE5",
+   "Effect size": "~1.0x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 5,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H4",
+   "paper_id": "P4",
+   "finding_id": "P4.F33",
+   "key": "pmid30375977",
+   "quote_start": "None of the shRNAs directed against NHE1, 5, 7, 8 or 9 had any effect ",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "0.98x",
+    "Effect size provenance": "supplement_only"
+   },
+   "reason": "Fig 5D source data: ApoE4+R 27.4 vs ApoE4+R+shNHE5 26.9 (0.98x); matches the plot.",
+   "evidence": "Supp Fig5D sheet: E4+R 32.1/22.6/27.4; E4+R+shNHE5 25.5/29.2/26.1."
+  },
+  "item": 13
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid31641056",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid31641056/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid31641056/figimg/1.png",
+    "data/papers/pmid31641056/figimg/2.png",
+    "data/papers/pmid31641056/figimg/3.png",
+    "data/papers/pmid31641056/figimg/4.png",
+    "data/papers/pmid31641056/figimg/5.png",
+    "data/papers/pmid31641056/figimg/6.png",
+    "data/papers/pmid31641056/figimg/7.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P27.F1",
+   "Finding description": "Recombinant ApoE4 increased ABCA1 colocalization with LAMP2 compared with ApoE3 in human HeLa cells, indicating altered localization rather than directly measured lysosomal function.",
+   "Finding quote": "Greater colocalization of ABCA1 with the late endosome marker LAMP2 and lower colocalization with the recycling endosome marker Rab11 were observed in cells treated with rApoE4 compared with rApoE3 ( Fig. 2 ).",
+   "Finding summary": "(rApoE3 -> rApoE4) -> (greater ABCA1 colocalization with LAMP2)",
+   "Finding relevance": 0.6,
+   "Experimental system": "Human HeLa cells, not brain cells, stably expressing GFP-tagged ABCA1; 0.2 μM recombinant ApoE3 or ApoE4 for 30 minutes; confocal imaging with LAMP2 immunostaining.",
+   "Data location": "Fig 2A",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P27",
+   "finding_id": "P27.F1",
+   "key": "pmid31641056",
+   "quote_start": "Greater colocalization of ABCA1 with the late endosome marker LAMP2 an",
+   "verdict": "FIX",
+   "set": {
+    "Data location": "Fig 2A (images), 2B (quantification)",
+    "Effect size": "~1.3x",
+    "Effect size provenance": "estimated_from_figure",
+    "P value": "<0.001",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Quote verbatim; the quantification is Fig. 2B, which shows *** over rApoE3 vs rApoE4 and readable means.",
+   "evidence": "Fig. 2B (ABCA1 with LAMP2, % colocalization): rApoE3 mean ~44.7, rApoE4 mean ~56.2, '***' on the bracket; legend: 'The colocalization of ABCA1 with LAMP2 (lysosomal marker) ( A , B ) ... *** p < 0.001.' 56.2/44.7 = 1.26."
+  },
+  "item": 14
+ },
+ {
+  "src": "4",
+  "paper": {
+   "key": "pmid32517777",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid32517777/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid32517777/figimg/4.png",
+    "data/papers/pmid32517777/figimg/7.png",
+    "data/papers/pmid32517777/figimg/8.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F1",
+   "Finding description": "APOE4 acidic organelles were significantly more alkaline than APOE3 organelles by 0.14 pH units, although both remained within the reported standard lysosomal pH range.",
+   "Finding quote": "We found that both APOE3 and APOE4 astrocytes had standard lysosomal-related pH, with a minimal but significant difference of 0.14 pH units between genotypes, APOE4 lysosomes being more alkaline (Fig. 4g).",
+   "Finding summary": "(APOE3 -> APOE4) -> (higher acidic-organelle pH)",
+   "Finding relevance": 0.95,
+   "Experimental system": "Immortalized mouse astrocytes expressing human APOE3 or APOE4; donor age unspecified and sex identity lost; 10% FBS, ratiometric LysoSensor Yellow/Blue DND-160 fluorometry calibrated with monensin and nigericin.",
+   "Data location": "Fig 4G",
+   "Effect size": "dpH=0.14",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P5",
+   "finding_id": "P5.F1",
+   "key": "pmid32517777",
+   "quote_start": "We found that both APOE3 and APOE4 astrocytes had standard lysosomal-r",
+   "verdict": "FIX",
+   "set": {
+    "P value": "<0.001",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Quote, dpH=0.14 and N=3 match; the P value is not N/A: Fig 4g carries *** over the APOE4 bar (only two bars, t-test), and the legend key gives *** = p < 0.001.",
+   "evidence": "Fig 4 legend: 'Unpaired parametric T-test was used, except in b and e, where one-way ANOVA was used. p < 0.05 (*), p < 0.01 (**), p < 0.001 (***)'. Fig 4g image: '***' directly above the APOE4 pH bar (APOE3 ~4.52, APOE4 ~4.66)."
+  },
+  "item": 15
+ },
+ {
+  "src": "4",
+  "paper": {
+   "key": "pmid32517777",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid32517777/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid32517777/figimg/4.png",
+    "data/papers/pmid32517777/figimg/7.png",
+    "data/papers/pmid32517777/figimg/8.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F2",
+   "Finding description": "APOE4 astrocytes had a larger perinuclear lysosome fraction, reported at 10 μm from the nuclear center as 37% versus 21% in APOE3 cells; N was three, with 30–40 cells quantified.",
+   "Finding quote": "Specifically, 37% of lysosomes are placed at 10 μm from the center of the nucleus in APOE4 cells, as compared to 21% in APOE3 astrocytes.",
+   "Finding summary": "(APOE3 -> APOE4) -> (greater perinuclear accumulation of LAMP1-positive compartments)",
+   "Finding relevance": 0.9,
+   "Experimental system": "Immortalized mouse astrocytes expressing human APOE3 or APOE4; donor age unspecified and sex identity lost; LAMP1 immunofluorescence, confocal microscopy, and Imaris distance analysis of vesicles larger than 0.5 μm relative to the nuclear center.",
+   "Data location": "Fig 7G",
+   "Effect size": "1.76x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P5",
+   "finding_id": "P5.F2",
+   "key": "pmid32517777",
+   "quote_start": "Specifically, 37% of lysosomes are placed at 10 μm from the center of ",
+   "verdict": "FIX",
+   "set": {
+    "P value": "<0.001",
+    "P value provenance": "visual_only"
+   },
+   "reason": "37% vs 21% (1.76x), N=3 and the quote match the text; Fig 7g shows *** over the 0-10 um bin, legend key *** = p < 0.001 (two-way ANOVA).",
+   "evidence": "Text: 'Specifically, 37% of lysosomes are placed at 10 um from the center of the nucleus in APOE4 cells, as compared to 21% in APOE3 astrocytes.' Fig 7 legend g: '(N = 3, 30 to 40 cells quantified) ... two-way ANOVA in g. p < 0.05 (*), p < 0.001 (***)'. Image: '***' above the 0-10 um APOE3/APOE4 pair."
+  },
+  "item": 16
+ },
+ {
+  "src": "4",
+  "paper": {
+   "key": "pmid32517777",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid32517777/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid32517777/figimg/4.png",
+    "data/papers/pmid32517777/figimg/7.png",
+    "data/papers/pmid32517777/figimg/8.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F3",
+   "Finding description": "In APOE4 astrocytes, Ned-19 strongly reduced ATP-evoked cytosolic calcium responses, bringing them to a magnitude similar to APOE3 responses.",
+   "Finding quote": "Interestingly, Ned-19 greatly reduced Ca2+ responses in APOE4 astrocytes, such that purinergic-mediated Ca2+ responses in the presence of Ned-19 were of similar magnitude in both cell types.",
+   "Finding summary": "(NAADP-pathway inhibition in APOE4 astrocytes) -> (lower acidic-store-dependent ATP-evoked calcium responses)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Immortalized mouse astrocytes expressing human APOE3 or APOE4, provided by Holtzman; donor age unspecified and sex identity lost through aneuploidy; 10% FBS, 100 μM Ned-19 for 20 minutes versus 0.1% DMSO, 100 μM ATP, fura-2/AM imaging.",
+   "Data location": "Fig 4B",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 4,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P5",
+   "finding_id": "P5.F3",
+   "key": "pmid32517777",
+   "quote_start": "Interestingly, Ned-19 greatly reduced Ca2+ responses in APOE4 astrocyt",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~57%",
+    "Effect size provenance": "estimated_from_figure",
+    "P value": "<0.01",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Quote and N=3 correct; the Fig 4b bar chart is readable: APOE4 DMSO ~1.18 vs APOE4 Ned-19 ~0.51 dR340/380 (~57% decrease), with ** above the APOE4 Ned-19 bar (key ** = p < 0.01, one-way ANOVA).",
+   "evidence": "Fig 4b quantification (pixel-measured against ticks 0/0.5/1.0/1.5): APOE3 ~0.78, APOE3 Ned-19 ~0.42 (**), APOE4 ~1.18, APOE4 Ned-19 ~0.51 (**); bracket * only between APOE3 and APOE4. Fig 4 legend: 'Unpaired parametric T-test was used, except in b and e, where one-way ANOVA was used. p < 0.05 (*), p < 0.01 (**), p < 0.001 (***)'."
+  },
+  "item": 17
+ },
+ {
+  "src": "4",
+  "paper": {
+   "key": "pmid32517777",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid32517777/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid32517777/figimg/4.png",
+    "data/papers/pmid32517777/figimg/7.png",
+    "data/papers/pmid32517777/figimg/8.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F4",
+   "Finding description": "GPN-induced cytosolic calcium AUC was greater in APOE4 than APOE3 astrocytes, supporting greater calcium content in lysosome-enriched acidic stores.",
+   "Finding quote": "The results showed greater AUC in APOE4 cells (Fig. 4d), supporting a higher concentration of lysosomal-related Ca2+ in APOE4 cells, as compared to APOE3.",
+   "Finding summary": "(APOE3 -> APOE4) -> (greater GPN-releasable acidic-store calcium)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Immortalized mouse astrocytes expressing human APOE3 or APOE4; donor age unspecified and sex identity lost; 10% FBS, 200 μM GPN, fura-2/AM cytosolic calcium AUC used to infer acidic-store calcium content.",
+   "Data location": "Fig 4D",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "4",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P5",
+   "finding_id": "P5.F4",
+   "key": "pmid32517777",
+   "quote_start": "The results showed greater AUC in APOE4 cells (Fig. 4d), supporting a ",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~2.7x",
+    "Effect size provenance": "estimated_from_figure",
+    "P value": "<0.05",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Quote and N=4 correct; Fig 4d AUC bars read APOE3 ~15 vs APOE4 ~41 (~2.7x), * over the APOE4 bar (two-bar t-test panel, key * = p < 0.05).",
+   "evidence": "Fig 4d AUC panel (axis 0/25/50): APOE3 bar ~15.3, APOE4 bar ~41.4, '*' above APOE4. Legend d: '(N = 4)'. Fig 4 legend: 'Unpaired parametric T-test was used, except in b and e, where one-way ANOVA was used. p < 0.05 (*), p < 0.01 (**), p < 0.001 (***)'."
+  },
+  "item": 18
+ },
+ {
+  "src": "4",
+  "paper": {
+   "key": "pmid32517777",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid32517777/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid32517777/figimg/4.png",
+    "data/papers/pmid32517777/figimg/7.png",
+    "data/papers/pmid32517777/figimg/8.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F5",
+   "Finding description": "Bafilomycin reduced ATP-evoked calcium responses in APOE4 astrocytes, supporting dependence of their hyperactivity on acidic stores.",
+   "Finding quote": "Accordingly, bafilomycin A1 reduced the ATP-induced Ca2+ release in APOE4 astrocytes, confirming the dependence of these Ca2+ responses on acidic stores (Fig. 4e).",
+   "Finding summary": "(V-ATPase inhibition in APOE4 astrocytes) -> (lower ATP-evoked calcium responses)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Immortalized mouse astrocytes expressing human APOE4; donor age unspecified and sex identity lost; 10% FBS, 2 μM bafilomycin A1 for 20 minutes versus DMSO, 100 μM ATP, fura-2/AM imaging.",
+   "Data location": "Fig 4E, ATP response",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 4,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P5",
+   "finding_id": "P5.F5",
+   "key": "pmid32517777",
+   "quote_start": "Accordingly, bafilomycin A1 reduced the ATP-induced Ca2+ release in AP",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~38%",
+    "Effect size provenance": "estimated_from_figure",
+    "P value": "<0.01",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Quote and N=3 correct; Fig 4e shows a ** bracket between APOE4 and APOE4 Baf, and the bars read ~0.94 vs ~0.58 dR340/380 (~38% decrease).",
+   "evidence": "Fig 4e quantification (ticks 0/0.4/0.8/1.2): APOE3 ~0.68, APOE3 Baf ~0.63, APOE4 ~0.94, APOE4 baf ~0.58; bracket '**' APOE4 vs APOE4 baf, bracket '*' APOE3 vs APOE4. Legend e: '(N = 3)'. Fig 4 legend: 'Unpaired parametric T-test was used, except in b and e, where one-way ANOVA was used. p < 0.05 (*), p < 0.01 (**), p < 0.001 (***)'."
+  },
+  "item": 19
+ },
+ {
+  "src": "4",
+  "paper": {
+   "key": "pmid32517777",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid32517777/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid32517777/figimg/4.png",
+    "data/papers/pmid32517777/figimg/7.png",
+    "data/papers/pmid32517777/figimg/8.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F6",
+   "Finding description": "APOE4 astrocytes had higher expression of lysosomal V-ATPase subunit V0D1 than APOE3 astrocytes.",
+   "Finding quote": "Indeed, the expression of V-ATPase subunit V0D1, which is highly expressed in astrocytes [61], was higher in APOE4 cells than in APOE3 cells (Fig. 4f).",
+   "Finding summary": "(APOE3 -> APOE4) -> (higher V-ATPase subunit V0D1 protein expression)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Immortalized mouse astrocytes expressing human APOE3 or APOE4; donor age unspecified and sex identity lost; V0D1 western blot normalized to β-actin.",
+   "Data location": "Fig 4F",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "4",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P5",
+   "finding_id": "P5.F6",
+   "key": "pmid32517777",
+   "quote_start": "Indeed, the expression of V-ATPase subunit V0D1, which is highly expre",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~1.24x",
+    "Effect size provenance": "estimated_from_figure",
+    "P value": "<0.05",
+    "P value provenance": "visual_only"
+   },
+   "reason": "Quote and N=4 correct; Fig 4f V0D1/beta-actin reads APOE3 1.0 (normalized) vs APOE4 ~1.24, with * over the APOE4 bar (t-test, key * = p < 0.05).",
+   "evidence": "Fig 4f bar chart (ticks 0/0.5/1.0/1.5): APOE3 = 1.00, APOE4 ~1.24, '*' above APOE4. Legend f: 'normalized to beta-actin expression (N = 4)'. Fig 4 legend: 'Unpaired parametric T-test was used, except in b and e, where one-way ANOVA was used. p < 0.05 (*), p < 0.01 (**), p < 0.001 (***)'."
+  },
+  "item": 20
+ },
+ {
+  "src": "4",
+  "paper": {
+   "key": "pmid32517777",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid32517777/text.txt",
+   "supp": null,
+   "figures": [
+    "data/papers/pmid32517777/figimg/4.png",
+    "data/papers/pmid32517777/figimg/7.png",
+    "data/papers/pmid32517777/figimg/8.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P5.F13",
+   "Finding description": "In the APOE3 control arm, bafilomycin produced no significant difference in basal cytosolic calcium, with values of 0.44 ± 0.08 versus 0.39 ± 0.02.",
+   "Finding quote": "Bafilomycin A1 increased basal cytoplasmic Ca2+ concentration in APOE4 astrocytes to 0.40 ± 0.05 (control values of astrocytes treated with vehicle were 0.30 ± 0.01; p-value = 0.05), whereas there was no effect on non-stimulated intracellular Ca2+ levels in APOE3 (0.44 ± 0.08 for cells treated with bafilomycin A1 compared to 0.39 ± 0.02 of cells treated with vehicle).",
+   "Finding summary": "(V-ATPase inhibition in APOE3 astrocytes) -> (no change in basal cytosolic calcium)",
+   "Finding relevance": 0.55,
+   "Experimental system": "Immortalized mouse astrocytes expressing human APOE3, studied alongside APOE4 cells; donor age unspecified; 10% FBS, 2 μM bafilomycin A1 for 20 minutes versus DMSO, basal fura-2/AM fluorescence ratio.",
+   "Data location": "Fig 4E, basal calcium",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 4,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P5",
+   "finding_id": "P5.F13",
+   "key": "pmid32517777",
+   "quote_start": "Bafilomycin A1 increased basal cytoplasmic Ca2+ concentration in APOE4",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.13x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "The text prints both APOE3 group values (vehicle 0.39, bafilomycin 0.44), so the effect is a computable fold, 0.44/0.39 = 1.13x (vehicle -> bafilomycin), not N/A; P stays N/A (no value printed).",
+   "evidence": "'...no effect on non-stimulated intracellular Ca2+ levels in APOE3 (0.44 +/- 0.08 for cells treated with bafilomycin A1 compared to 0.39 +/- 0.02 of cells treated with vehicle).'"
+  },
+  "item": 21
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid32709881",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid32709881/text.txt",
+   "supp": "data/papers/pmid32709881/supp.txt",
+   "figures": [
+    "data/papers/pmid32709881/figimg/3.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P30.F1",
+   "Finding description": "Following CCCP, approximately 55% of autophagosomes in APOE4 astrocytes versus approximately 90% in APOE3 astrocytes were reported fused with lysosomes.",
+   "Finding quote": "Furthermore, using the tandem LC3-GFP-RFP reporter30, we found that following CCCP treatment, ~90% of autophagosomes in the APOE3 astrocytes were fused with lysosomes, compared to ~55% in the APOE4 astrocytes (Fig. 3c).",
+   "Finding summary": "(APOE3 -> APOE4) -> (lower autophagosome maturation/fusion with lysosomes after CCCP)",
+   "Finding relevance": 0.55,
+   "Experimental system": "Immortalized mouse APOE3/APOE4 astrocyte lines transiently expressing LC3-EGFP-mRFP; 10 μM CCCP for 4 h; dual-positive versus red-only puncta area analysis; at least 50 cells per treatment. Lipid metabolism was not measured.",
+   "Data location": "Fig. 3c",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "N/A",
+   "Sample size provenance": "ambiguous_panel",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P30",
+   "finding_id": "P30.F1",
+   "key": "pmid32709881",
+   "quote_start": "Furthermore, using the tandem LC3-GFP-RFP reporter30, we found that fo",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "0.61x",
+    "Effect size provenance": "printed_in_text",
+    "Finding description": "Following CCCP, approximately 55% of autophagosomes in APOE4 astrocytes versus approximately 90% in APOE3 astrocytes were reported fused with lysosomes (APOE4/APOE3 = 0.61x)."
+   },
+   "reason": "Quote verbatim; the text prints both group values (~90% vs ~55% fused), so a ratio can replace 'qualitative'. The ** on the APOE4 CCCP bar marks a puncta-area segment, not the fused percentage itself, so P stays ambiguous_panel.",
+   "evidence": "'...following CCCP treatment, ~90% of autophagosomes in the APOE3 astrocytes were fused with lysosomes, compared to ~55% in the APOE4 astrocytes (Fig. 3c).' Fig. 3c prints segment values: APOE3 CCCP RFP-only 3.31 / GFP-RFP 0.29; APOE4 CCCP 2.94 / 2.24 (92% vs 57%). 55/90 = 0.61."
+  },
+  "item": 22
+ },
+ {
+  "src": "2",
+  "paper": {
+   "key": "pmid32709881",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid32709881/text.txt",
+   "supp": "data/papers/pmid32709881/supp.txt",
+   "figures": [
+    "data/papers/pmid32709881/figimg/3.png"
+   ],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P30.F2",
+   "Finding description": "Chloroquine-sensitive LC3-II turnover after CCCP was lower in APOE4 than APOE3 astrocytes, indicating reduced autophagic flux.",
+   "Finding quote": "Accordingly, APOE3 astrocytes treated with CCCP combined with chloroquine showed increased accumulation of LC3-II compared to APOE4 astrocytes, indicating higher autophagic flux30 (Fig. 3d).",
+   "Finding summary": "(APOE3 -> APOE4) -> (lower autophagic flux after mitochondrial damage)",
+   "Finding relevance": 0.55,
+   "Experimental system": "Immortalized mouse APOE3/APOE4 astrocyte lines; 10 μM chloroquine for 48 h with or without 7.5 μM CCCP during the final 24 h; LC3-II difference with versus without chloroquine; n = 3, experimental unit unspecified.",
+   "Data location": "Fig. 3d, Δ ± CQ graph",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P30",
+   "finding_id": "P30.F2",
+   "key": "pmid32709881",
+   "quote_start": "Accordingly, APOE3 astrocytes treated with CCCP combined with chloroqu",
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~96%",
+    "Effect size provenance": "estimated_from_figure"
+   },
+   "reason": "Quote verbatim; the Delta +/- CQ graph in Fig. 3d is readable. The ** over the APOE4 CCCP bar has no threshold in the 3d part of the legend ('*p < 0.05 and **, APOE3 compared with APOE4'), so P stays ambiguous_panel.",
+   "evidence": "Fig. 3d right graph (Delta LC3-II +/- CQ, axis 0-1.4): CCCP APOE3 ~0.99, APOE4 ~0.04 (bar barely above zero), '**' over APOE4; CTRL APOE3 ~0.48, APOE4 ~0.10. (0.99-0.04)/0.99 = 96% lower."
+  },
+  "item": 23
+ },
+ {
+  "src": "1",
+  "paper": {
+   "key": "pmid34472467",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid34472467/text.txt",
+   "supp": "data/papers/pmid34472467/supp.txt",
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P22.F1",
+   "Finding description": "APOE4-expressing astrocytes showed defective autophagic cargo degradation relative to APOE3-expressing astrocytes.",
+   "Finding quote": "In these astrocytes, autophagy was found to be defective at the initiation step (autophagosome formation) and at the cargo degradation step.",
+   "Finding summary": "(APOE3 -> APOE4) -> (impaired autophagic cargo degradation in astrocytes)",
+   "Finding relevance": 0.7,
+   "Experimental system": "APOE3- and APOE4-expressing astrocytes, reported from Simonovitch et al. (2016). Species, cell source, age, cargo, assay and conditions for this particular comparison are not specified.",
+   "Data location": "N/A",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P22",
+   "finding_id": "P22.F1",
+   "key": "pmid34472467",
+   "quote_start": "In these astrocytes, autophagy was found to be defective at the initia",
+   "verdict": "DROP",
+   "reason": "This is a perspective article; the sentence restates Simonovitch et al. (2016), a cited study, not a result of this paper.",
+   "evidence": "Text: 'the effects of APOE3 and APOE4 expression on autophagy in astrocytes ... were determined ... (Simonovitch et al., 2016). In these astrocytes, autophagy was found to be defective at the initiation step (autophagosome formation) and at the cargo degradation step.' The supplement is the open peer review calling it a 'perspective article'."
+  },
+  "item": 24
+ },
+ {
+  "src": "1",
+  "paper": {
+   "key": "pmid34472467",
+   "hyp": "H5",
+   "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+   "text": "data/papers/pmid34472467/text.txt",
+   "supp": "data/papers/pmid34472467/supp.txt",
+   "figures": [],
+   "pdf": null
+  },
+  "row": {
+   "Paper/Finding ID": "P22.F2",
+   "Finding description": "APOE4 astrocytes showed reduced lysosomal degradation of mitochondria-associated LC3-II and p62 relative to APOE3 astrocytes.",
+   "Finding quote": "In addition, the interaction of the autophagic proteins LC3-II and p62 with the mitochondria, and the lysosomal degradation of mitochondrial LC3-II and p62 were reduced in APOE4 astrocytes.",
+   "Finding summary": "(APOE3 -> APOE4) -> (reduced lysosomal degradation of mitochondrial LC3-II and p62 in astrocytes)",
+   "Finding relevance": 0.7,
+   "Experimental system": "APOE3- and APOE4-expressing astrocytes in the discussion of Schmukler et al. (2020). Species, cell source, age, lysosomal-degradation assay, treatments and observation interval are unspecified.",
+   "Data location": "N/A",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "hyp": "H5",
+   "paper_id": "P22",
+   "finding_id": "P22.F2",
+   "key": "pmid34472467",
+   "quote_start": "In addition, the interaction of the autophagic proteins LC3-II and p62",
+   "verdict": "DROP",
+   "reason": "Perspective article; the sentence restates Schmukler et al. (2020), a cited study, not a result of this paper.",
+   "evidence": "Text: 'Indeed, in these astrocytes, reduced proteasomal and lysosomal turnover of parkin underlie increased parkin levels (Schmukler et al., 2020) ... In addition, the interaction of the autophagic proteins LC3-II and p62 with the mitochondria, and the lysosomal degradation of mitochondrial LC3-II and p62 were reduced in APOE4 astrocytes.'"
+  },
+  "item": 25
+ }
+]

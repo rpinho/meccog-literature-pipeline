@@ -1,0 +1,365 @@
+[
+ {
+  "finding_id": "P5.F1",
+  "quote_start": "We found that both APOE3 and APOE4 astrocytes had standard lysosomal-r",
+  "summary": "(APOE3 -> APOE4) -> (higher acidic-organelle pH)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P5.F2",
+  "quote_start": "Specifically, 37% of lysosomes are placed at 10 μm from the center of ",
+  "summary": "(APOE3 -> APOE4) -> (greater perinuclear accumulation of LAMP1-positive compartments)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P5.F3",
+  "quote_start": "Interestingly, Ned-19 greatly reduced Ca2+ responses in APOE4 astrocyt",
+  "summary": "(NAADP-pathway inhibition in APOE4 astrocytes) -> (lower acidic-store-dependent ATP-evoked calcium responses)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "Ned-19 is a drug applied within APOE4 cells and does not act on APOE, so the brief puts it in class 5; acidic-store calcium is a loose readout of lysosome function.",
+  "reason_for_description": "Class 5: Ned-19, an NAADP-pathway inhibitor, was applied within APOE4 astrocytes, so APOE itself was not varied and the readout is ATP-evoked cytosolic calcium rather than lysosome function."
+ },
+ {
+  "finding_id": "P5.F4",
+  "quote_start": "The results showed greater AUC in APOE4 cells (Fig. 4d), supporting a ",
+  "summary": "(APOE3 -> APOE4) -> (greater GPN-releasable acidic-store calcium)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P5.F5",
+  "quote_start": "Accordingly, bafilomycin A1 reduced the ATP-induced Ca2+ release in AP",
+  "summary": "(V-ATPase inhibition in APOE4 astrocytes) -> (lower ATP-evoked calcium responses)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "Bafilomycin is a drug applied within APOE4 cells and does not act on APOE, so the brief puts it in class 5; matched to the APOE3 arm (P5.F12).",
+  "reason_for_description": "Class 5: bafilomycin A1 was applied within APOE4 astrocytes, so APOE itself was not varied and the readout is ATP-evoked cytosolic calcium rather than lysosome function."
+ },
+ {
+  "finding_id": "P5.F6",
+  "quote_start": "Indeed, the expression of V-ATPase subunit V0D1, which is highly expre",
+  "summary": "(APOE3 -> APOE4) -> (higher V-ATPase subunit V0D1 protein expression)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P5.F7",
+  "quote_start": "Bafilomycin A1 increased basal cytoplasmic Ca2+ concentration in APOE4",
+  "summary": "(V-ATPase inhibition in APOE4 astrocytes) -> (higher basal cytosolic calcium)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "Bafilomycin is a drug applied within APOE4 cells and does not act on APOE, so the brief puts it in class 5; matched to the APOE3 arm (P5.F13).",
+  "reason_for_description": "Class 5: bafilomycin A1 was applied within APOE4 astrocytes, so APOE itself was not varied and the readout is basal cytosolic calcium rather than lysosome function."
+ },
+ {
+  "finding_id": "P5.F8",
+  "quote_start": "We could identify 19 lipids: 10 phosphatidylcholines (6 increased, 4 d",
+  "summary": "(APOE3 -> APOE4) -> (no significant change in individual identified lysosomal lipids after FDR correction)",
+  "class": 3,
+  "strength": 4,
+  "changed": false
+ },
+ {
+  "finding_id": "P5.F9",
+  "quote_start": "Surprisingly, measurement of Ca2+ stored inside acidic organelles usin",
+  "summary": "(FBS-containing medium -> lipid-free KH in APOE4 astrocytes) -> (no change in acidic-store calcium content)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "Lipid removal within APOE4 cells does not act on APOE, and the brief puts lipid manipulations within one genotype in class 5.",
+  "reason_for_description": "Class 5: extracellular lipids were removed within APOE4 astrocytes, so APOE itself was not varied and the readout is GPN-released acidic-store calcium rather than lysosome function."
+ },
+ {
+  "finding_id": "P5.F10",
+  "quote_start": "In lysosomal membranes, there were 35 lipids with VIP > 1 in the APOE4",
+  "summary": "(APOE3 -> APOE4) -> (mixed changes in selected lysosomal membrane lipids)",
+  "class": 3,
+  "strength": 4,
+  "changed": false
+ },
+ {
+  "finding_id": "P5.F11",
+  "quote_start": "The multivariate analysis PLS-DA revealed that the lipids of lysosomal",
+  "summary": "(APOE3 -> APOE4) -> (altered lysosomal membrane lipid composition)",
+  "class": 3,
+  "strength": 4,
+  "changed": false
+ },
+ {
+  "finding_id": "P5.F12",
+  "quote_start": "In contrast, bafilomycin A1 did not change purinergic-induced Ca2+ res",
+  "summary": "(V-ATPase inhibition in APOE3 astrocytes) -> (no change in ATP-evoked calcium responses)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "Bafilomycin is a drug applied within APOE3 cells and does not act on APOE, so the brief puts it in class 5; matched to the APOE4 arm (P5.F5).",
+  "reason_for_description": "Class 5: bafilomycin A1 was applied within APOE3 astrocytes, so APOE itself was not varied and the readout is ATP-evoked cytosolic calcium rather than lysosome function."
+ },
+ {
+  "finding_id": "P5.F13",
+  "quote_start": "Bafilomycin A1 increased basal cytoplasmic Ca2+ concentration in APOE4",
+  "summary": "(V-ATPase inhibition in APOE3 astrocytes) -> (no change in basal cytosolic calcium)",
+  "class": 5,
+  "strength": 4,
+  "changed": true,
+  "why": "Bafilomycin is a drug applied within APOE3 cells and does not act on APOE, so the brief puts it in class 5; matched to the APOE4 arm (P5.F7).",
+  "reason_for_description": "Class 5: bafilomycin A1 was applied within APOE3 astrocytes, so APOE itself was not varied and the readout is basal cytosolic calcium rather than lysosome function."
+ },
+ {
+  "finding_id": "P19.F1",
+  "quote_start": "We found that the HsAPOE4-expressing cells exhibited significantly dec",
+  "summary": "(APOE3 -> APOE4) -> (lower lysosomal cathepsin B substrate cleavage)",
+  "class": 1,
+  "strength": 2,
+  "changed": false
+ },
+ {
+  "finding_id": "P19.F2",
+  "quote_start": "In concordance with our observations in Neuro-2a cells, we found that ",
+  "summary": "(APOE3 -> APOE4) -> (lower lysosomal LGALS3BP PLA signal)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Lysosomal content of a cargo protein can change through altered sorting or delivery rather than impaired lysosome function; matched to the same LGALS3BP/TMED5 readouts in P19.F5 and P19.F6."
+ },
+ {
+  "finding_id": "P19.F3",
+  "quote_start": "While FCCP triggered mitophagy in both HsAPOE3- and HsAPOE4-expressing",
+  "summary": "(APOE3 -> APOE4) -> (weaker FCCP-induced acidic mitochondrial mtKeima response)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P19.F4",
+  "quote_start": "While BafA1 as expected reduced the acidic mtKeima signal, it intrigui",
+  "summary": "(APOE3 -> APOE4, FCCP plus BafA1) -> (no change in acidic mitochondrial mtKeima signal)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P19.F5",
+  "quote_start": "While we could not observe differences in lysosomal LGALS3BP localizat",
+  "summary": "(APOE3 -> APOE4) -> (no change in LGALS3BP intensity within CTSD-positive lysosomes)",
+  "class": 3,
+  "strength": 4,
+  "changed": false
+ },
+ {
+  "finding_id": "P19.F6",
+  "quote_start": "While we could not observe differences in lysosomal LGALS3BP localizat",
+  "summary": "(APOE3 -> APOE4) -> (slightly higher TMED5 intensity within CTSD-positive lysosomes)",
+  "class": 3,
+  "strength": 4,
+  "changed": false
+ },
+ {
+  "finding_id": "P19.F7",
+  "quote_start": "We found that the LysoTracker intensity was significantly reduced in H",
+  "summary": "(APOE3 -> APOE4) -> (lower acidic-endolysosomal LysoTracker signal)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P19.F8",
+  "quote_start": "Under basal conditions, we observed a modest impairment of mitophagy i",
+  "summary": "(APOE3 -> APOE4) -> (lower basal acidic mitochondrial mtKeima signal)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P19.F9",
+  "quote_start": "Autophagy appeared generally functional in these cells, despite the ba",
+  "summary": "(APOE3 -> APOE4) -> (slightly dampened basal autophagy with generally retained autophagic function)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Steady-state LC3 immunoblot in APOE4 vs APOE3 cells, matched to the same readout in P11.F3 and P11.F4."
+ },
+ {
+  "finding_id": "P19.F10",
+  "quote_start": "Immunofluorescence of LAMP1 and LC3 shows lysosome-autophagosome fusio",
+  "summary": "(APOE3 -> APOE4) -> (lysosome-autophagosome fusion remains observable)",
+  "class": 3,
+  "strength": 4,
+  "changed": false
+ },
+ {
+  "finding_id": "P19.F11",
+  "quote_start": "We therefore stained the cells for the lysosomal membrane marker LAMP1",
+  "summary": "(APOE3 -> APOE4) -> (no decrease in LAMP1-based lysosomal density)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P19.F12",
+  "quote_start": "Using GPN to release lysosomal calcium [61], we found lysosomal calciu",
+  "summary": "(APOE3 -> APOE4) -> (no change in estimated lysosomal calcium levels)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P11.F1",
+  "quote_start": "Moreover, APOE3-expressing astrocytes showed higher lysosomal activity",
+  "summary": "(APOE3 -> APOE4) -> (lower LysoTracker fluorescence in astrocytes)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "LysoTracker intensity reflects lysosome number as well as acidity, so it is a surrogate with a possible alternative route; matched to the same readout in P19.F7."
+ },
+ {
+  "finding_id": "P11.F2",
+  "quote_start": "As shown in Fig. 3A, the levels of p62 were significantly higher in AP",
+  "summary": "(APOE3 -> APOE4) -> (higher basal p62 in astrocytes)",
+  "class": 3,
+  "strength": 3,
+  "changed": true,
+  "why": "Basal p62 can rise through transcriptional induction as well as impaired degradation, so 'strong' overstates it; matched to the other steady-state autophagy markers (P11.F3-F7)."
+ },
+ {
+  "finding_id": "P11.F3",
+  "quote_start": "However, the levels of LC3-II were significantly lower in APOE4 compar",
+  "summary": "(APOE3 -> APOE4) -> (lower basal LC3-II in astrocytes)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P11.F4",
+  "quote_start": "The LC3-II/LC3-I ratio was significantly higher in APOE3 compared to A",
+  "summary": "(APOE3 -> APOE4) -> (lower LC3-II/LC3-I ratio)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P11.F5",
+  "quote_start": "Combined treatment of MPP+ and rapamycin reduced p62 levels compared t",
+  "summary": "(APOE3 -> APOE4) -> (less pronounced rapamycin-associated reduction of MPP+-elevated p62)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P11.F6",
+  "quote_start": "As shown in Fig. 3A, the levels of p62 were significantly higher in AP",
+  "summary": "(APOE3 -> APOE4) -> (loss of the α-synuclein-associated increase in p62)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P11.F7",
+  "quote_start": "As shown in Fig. 3B, α-synuclein treatment significantly reduced the l",
+  "summary": "(APOE3 -> APOE4) -> (loss of the α-synuclein-associated decrease in LC3-II)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P25.F1",
+  "quote_start": "In contrast, simultaneous inhibition of proteasomal and lysosomal prot",
+  "summary": "(APOE3 -> APOE4) -> (less additional protein accumulation after combined lysosomal/proteasomal blockade; baseline clearance impairment inferred)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P25.F2",
+  "quote_start": "Accordingly, while high PC2-scoring proteins reproducibly accumulated ",
+  "summary": "(APOE3 -> APOE4) -> (attenuated proteomic response to combined clearance blockade)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P25.F3",
+  "quote_start": "Each treatment individually had a modest impact on the proteome with a",
+  "summary": "(APOE3 -> APOE4) -> (similar numbers of proteins responding to lysosomal inhibition)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P25.F4",
+  "quote_start": "We performed a principal component analysis (PCA) to visualize differe",
+  "summary": "(APOE3 -> APOE4) -> (attenuated proteomic response to clearance blockade)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P25.F5",
+  "quote_start": "By analyzing the clearance-sensitive proteome, we found that several o",
+  "summary": "(APOE3 -> APOE4) -> (higher baseline abundance of proteins sensitive to combined clearance blockade)",
+  "class": 3,
+  "strength": 4,
+  "changed": false
+ },
+ {
+  "finding_id": "P9.F1",
+  "quote_start": "Remarkably, 27-OHC strongly augmented δ-secretase levels and triggered",
+  "summary": "(apoE3 -> apoE4, with 27-OHC) -> (stronger lysosomal δ-secretase activation and aberrant δ-secretase trafficking)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Cleaved delta-secretase on immunoblots of lysosomal and cytosolic fractions is a surrogate for lysosomal enzyme activity and integrity, not a direct activity assay, and its rise can also come from higher expression."
+ },
+ {
+  "finding_id": "P9.F2",
+  "quote_start": "By contrast, cholesterol weakly activated δ-secretase in the lysosomes",
+  "summary": "(apoE3 and apoE4 cholesterol conditions) -> (no detected cytosolic translocation of active δ-secretase)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Fractionation immunoblot of active delta-secretase is a surrogate for lysosomal membrane integrity, not B itself; matched to the same assay in P9.F1 and P9.F3."
+ },
+ {
+  "finding_id": "P9.F3",
+  "quote_start": "By contrast, cholesterol weakly activated δ-secretase in the lysosomes",
+  "summary": "(apoE3 -> apoE4, with cholesterol) -> (weak lysosomal δ-secretase activation)",
+  "class": 3,
+  "strength": 4,
+  "changed": true,
+  "why": "Cleaved delta-secretase on lysosomal-fraction immunoblots is a surrogate for lysosomal enzyme activity, not a direct activity assay; matched to the same assay in P9.F1."
+ },
+ {
+  "finding_id": "P31.F1",
+  "quote_start": "Rapamycin induced autophagy in T98G-E3 cells; however, it did not indu",
+  "summary": "(APOE3 -> APOE4) -> (lower rapamycin-induced autophagy-associated fluorescence)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P31.F2",
+  "quote_start": "Furthermore, measurement of autophagy in live cells showed that active",
+  "summary": "(APOE3 -> APOE4) -> (lower autophagy-associated fluorescence)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ },
+ {
+  "finding_id": "P35.F1",
+  "quote_start": "Double-labeling confocal microscopy, using the lysosomal marker cathep",
+  "summary": "(APOE3 -> APOE4) -> (larger and more abundant cathepsin D-positive lysosomes and increased diffuse cathepsin D staining)",
+  "class": 3,
+  "strength": 3,
+  "changed": false
+ }
+]

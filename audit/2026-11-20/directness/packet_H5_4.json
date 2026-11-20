@@ -1,0 +1,490 @@
+{
+ "hyp": "H5",
+ "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 disruption of lipid metabolism, compared with APOE3, results in impaired late endosome/lysosome function.",
+ "A": "APOE genotype or apoE isoform (APOE4 vs APOE3), acting through disrupted lipid metabolism (cholesterol, lipid droplets, sphingolipids)",
+ "B": "late endosome / lysosome function (degradation, acidification, cholesterol egress, autophagic flux, lysosomal enzyme activity)",
+ "scope": "IN: late endosome/lysosome function (cholesterol or lipid accumulation in lysosomes, NPC1, lysosomal degradation, cathepsin activity, lysosomal pH, autophagic flux, LAMP1 compartments) measured in APOE4 vs APOE3 cells, especially where linked to lipid/cholesterol metabolism; manipulations of lipid metabolism that change late-endosome/lysosome function in APOE4 cells. OUT: lipid changes with no late-endosome/lysosome readout, mitochondrial respiration alone, inflammation or transcriptomics alone.",
+ "papers": [
+  {
+   "paper_id": "P5",
+   "doi": "10.1186/s13024-020-00382-8",
+   "rows": [
+    {
+     "Paper/Finding ID": "P5.F1",
+     "Finding description": "APOE4 acidic organelles were significantly more alkaline than APOE3 organelles by 0.14 pH units, although both remained within the reported standard lysosomal pH range.",
+     "Finding quote": "We found that both APOE3 and APOE4 astrocytes had standard lysosomal-related pH, with a minimal but significant difference of 0.14 pH units between genotypes, APOE4 lysosomes being more alkaline (Fig. 4g).",
+     "Finding summary": "(APOE3 -> APOE4) -> (higher acidic-organelle pH)",
+     "Experimental system": "Immortalized mouse astrocytes expressing human APOE3 or APOE4; donor age unspecified and sex identity lost; 10% FBS, ratiometric LysoSensor Yellow/Blue DND-160 fluorometry calibrated with monensin and nigericin.",
+     "Data location": "Fig 4G",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P5.F2",
+     "Finding description": "APOE4 astrocytes had a larger perinuclear lysosome fraction, reported at 10 μm from the nuclear center as 37% versus 21% in APOE3 cells; N was three, with 30–40 cells quantified.",
+     "Finding quote": "Specifically, 37% of lysosomes are placed at 10 μm from the center of the nucleus in APOE4 cells, as compared to 21% in APOE3 astrocytes.",
+     "Finding summary": "(APOE3 -> APOE4) -> (greater perinuclear accumulation of LAMP1-positive compartments)",
+     "Experimental system": "Immortalized mouse astrocytes expressing human APOE3 or APOE4; donor age unspecified and sex identity lost; LAMP1 immunofluorescence, confocal microscopy, and Imaris distance analysis of vesicles larger than 0.5 μm relative to the nuclear center.",
+     "Data location": "Fig 7G",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P5.F3",
+     "Finding description": "In APOE4 astrocytes, Ned-19 strongly reduced ATP-evoked cytosolic calcium responses, bringing them to a magnitude similar to APOE3 responses.",
+     "Finding quote": "Interestingly, Ned-19 greatly reduced Ca2+ responses in APOE4 astrocytes, such that purinergic-mediated Ca2+ responses in the presence of Ned-19 were of similar magnitude in both cell types.",
+     "Finding summary": "(NAADP-pathway inhibition in APOE4 astrocytes) -> (lower acidic-store-dependent ATP-evoked calcium responses)",
+     "Experimental system": "Immortalized mouse astrocytes expressing human APOE3 or APOE4, provided by Holtzman; donor age unspecified and sex identity lost through aneuploidy; 10% FBS, 100 μM Ned-19 for 20 minutes versus 0.1% DMSO, 100 μM ATP, fura-2/AM imaging.",
+     "Data location": "Fig 4B",
+     "Directness class": 4,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P5.F4",
+     "Finding description": "GPN-induced cytosolic calcium AUC was greater in APOE4 than APOE3 astrocytes, supporting greater calcium content in lysosome-enriched acidic stores.",
+     "Finding quote": "The results showed greater AUC in APOE4 cells (Fig. 4d), supporting a higher concentration of lysosomal-related Ca2+ in APOE4 cells, as compared to APOE3.",
+     "Finding summary": "(APOE3 -> APOE4) -> (greater GPN-releasable acidic-store calcium)",
+     "Experimental system": "Immortalized mouse astrocytes expressing human APOE3 or APOE4; donor age unspecified and sex identity lost; 10% FBS, 200 μM GPN, fura-2/AM cytosolic calcium AUC used to infer acidic-store calcium content.",
+     "Data location": "Fig 4D",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P5.F5",
+     "Finding description": "Bafilomycin reduced ATP-evoked calcium responses in APOE4 astrocytes, supporting dependence of their hyperactivity on acidic stores.",
+     "Finding quote": "Accordingly, bafilomycin A1 reduced the ATP-induced Ca2+ release in APOE4 astrocytes, confirming the dependence of these Ca2+ responses on acidic stores (Fig. 4e).",
+     "Finding summary": "(V-ATPase inhibition in APOE4 astrocytes) -> (lower ATP-evoked calcium responses)",
+     "Experimental system": "Immortalized mouse astrocytes expressing human APOE4; donor age unspecified and sex identity lost; 10% FBS, 2 μM bafilomycin A1 for 20 minutes versus DMSO, 100 μM ATP, fura-2/AM imaging.",
+     "Data location": "Fig 4E, ATP response",
+     "Directness class": 4,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P5.F6",
+     "Finding description": "APOE4 astrocytes had higher expression of lysosomal V-ATPase subunit V0D1 than APOE3 astrocytes.",
+     "Finding quote": "Indeed, the expression of V-ATPase subunit V0D1, which is highly expressed in astrocytes [61], was higher in APOE4 cells than in APOE3 cells (Fig. 4f).",
+     "Finding summary": "(APOE3 -> APOE4) -> (higher V-ATPase subunit V0D1 protein expression)",
+     "Experimental system": "Immortalized mouse astrocytes expressing human APOE3 or APOE4; donor age unspecified and sex identity lost; V0D1 western blot normalized to β-actin.",
+     "Data location": "Fig 4F",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P5.F7",
+     "Finding description": "Bafilomycin increased basal cytosolic calcium in APOE4 astrocytes from 0.30 ± 0.01 to 0.40 ± 0.05 fluorescence-ratio units.",
+     "Finding quote": "Bafilomycin A1 increased basal cytoplasmic Ca2+ concentration in APOE4 astrocytes to 0.40 ± 0.05 (control values of astrocytes treated with vehicle were 0.30 ± 0.01; p-value = 0.05), whereas there was no effect on non-stimulated intracellular Ca2+ levels in APOE3 (0.44 ± 0.08 for cells treated with bafilomycin A1 compared to 0.39 ± 0.02 of cells treated with vehicle).",
+     "Finding summary": "(V-ATPase inhibition in APOE4 astrocytes) -> (higher basal cytosolic calcium)",
+     "Experimental system": "Immortalized mouse astrocytes expressing human APOE4; donor age unspecified and sex identity lost; 10% FBS, 2 μM bafilomycin A1 for 20 minutes versus DMSO, basal fura-2/AM fluorescence ratio.",
+     "Data location": "Fig 4E, basal calcium",
+     "Directness class": 4,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P5.F8",
+     "Finding description": "None of the 19 identified lysosomal lipids showed a significant APOE4-versus-APOE3 difference after FDR correction, despite mixed phospholipid changes and increased carnitine.",
+     "Finding quote": "We could identify 19 lipids: 10 phosphatidylcholines (6 increased, 4 decreased), 5 phosphatidylethanolamine (2 increased, 3 decreased), 2 lysophosphatidylcholine (2 decreased), 1 lysophosphatidylethanolamine (decreased), and 1 carnitine (increased) (Fig. 8d). However, multi t-test analysis corrected by a false discovery rate (FDR) of these 19 FC values gave no statistically significant differences (q-value < 0.05).",
+     "Finding summary": "(APOE3 -> APOE4) -> (no significant change in individual identified lysosomal lipids after FDR correction)",
+     "Experimental system": "Immortalized mouse astrocytes expressing human APOE3 or APOE4; donor age unspecified and sex identity lost; isolated lysosomal membrane lipidomics, accurate-mass lipid identification, APOE4/APOE3 fold changes, and multiple t-tests with 5% FDR correction.",
+     "Data location": "Fig 8D",
+     "Directness class": 3,
+     "Directness strength": "4 weak"
+    },
+    {
+     "Paper/Finding ID": "P5.F9",
+     "Finding description": "Removing extracellular lipids produced no significant difference in GPN-estimated acidic-store calcium content in APOE4 astrocytes.",
+     "Finding quote": "Surprisingly, measurement of Ca2+ stored inside acidic organelles using the GPN-elicited depletion showed no increased Ca2+ loading in APOE3 cells kept in KH (Fig. 7b) compared to APOE3 astrocytes kept in the presence of FBS, whereas, as expected, no difference was observed between the two conditions in APOE4 astrocytes (Fig. 7c).",
+     "Finding summary": "(FBS-containing medium -> lipid-free KH in APOE4 astrocytes) -> (no change in acidic-store calcium content)",
+     "Experimental system": "Immortalized mouse astrocytes expressing human APOE4; donor age unspecified and sex identity lost; acute lipid-free Krebs medium versus DMEM with FBS, 200 μM GPN, fura-2/AM cytosolic calcium AUC.",
+     "Data location": "Fig 7C",
+     "Directness class": 4,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P5.F10",
+     "Finding description": "Analysis of 35 lysosomal membrane lipids selected by VIP > 1 found significant APOE4-versus-APOE3 differences, with identified lipid species changing in both directions.",
+     "Finding quote": "In lysosomal membranes, there were 35 lipids with VIP > 1 in the APOE4 vs APOE3. ANOVA analysis with a Tukey correction post-test of the intensity (peak values) of these 35 metabolites revealed significant differences due to the APOE phenotype with a p-value < 0.05, confirming, again, that expression of APOE4 alters the lipidome of lysosomes. We then proceeded to identification of the particular metabolites and calculation of their fold change (FC) in APOE4 vs APOE3 astrocytes. We could identify 19 lipids: 10 phosphatidylcholines (6 increased, 4 decreased), 5 phosphatidylethanolamine (2 increased, 3 decreased), 2 lysophosphatidylcholine (2 decreased), 1 lysophosphatidylethanolamine (decreased), and 1 carnitine (increased) (Fig. 8d).",
+     "Finding summary": "(APOE3 -> APOE4) -> (mixed changes in selected lysosomal membrane lipids)",
+     "Experimental system": "Immortalized mouse astrocytes expressing human APOE3 or APOE4; donor age unspecified and sex identity lost; isolated lysosomal membrane untargeted lipidomics, VIP selection, and ANOVA with Tukey correction.",
+     "Data location": "Fig 8D and accompanying Results",
+     "Directness class": 3,
+     "Directness strength": "4 weak"
+    },
+    {
+     "Paper/Finding ID": "P5.F11",
+     "Finding description": "Lysosomal membrane lipid profiles separated APOE4 from APOE3 astrocytes by PLS-DA, providing a compositional surrogate rather than a direct measure of impaired lysosomal function.",
+     "Finding quote": "The multivariate analysis PLS-DA revealed that the lipids of lysosomal membranes (Fig. 8b) and whole-membranes (Fig. 8c) clustered independently in APOE3 and APOE4 genotypes.",
+     "Finding summary": "(APOE3 -> APOE4) -> (altered lysosomal membrane lipid composition)",
+     "Experimental system": "Immortalized mouse astrocytes expressing human APOE3 or APOE4; donor age unspecified and sex identity lost; lysosomes isolated by density gradients, membranes separated after freeze–thaw disruption, untargeted mass-spectrometry lipidomics and PLS-DA.",
+     "Data location": "Fig 8B",
+     "Directness class": 3,
+     "Directness strength": "4 weak"
+    },
+    {
+     "Paper/Finding ID": "P5.F12",
+     "Finding description": "In the APOE3 control arm, bafilomycin produced no significant difference in ATP-evoked calcium responses.",
+     "Finding quote": "In contrast, bafilomycin A1 did not change purinergic-induced Ca2+ responses in APOE3 astrocytes.",
+     "Finding summary": "(V-ATPase inhibition in APOE3 astrocytes) -> (no change in ATP-evoked calcium responses)",
+     "Experimental system": "Immortalized mouse astrocytes expressing human APOE3, studied alongside APOE4 cells; donor age unspecified; 10% FBS, 2 μM bafilomycin A1 for 20 minutes versus DMSO, 100 μM ATP, fura-2/AM imaging.",
+     "Data location": "Fig 4E, ATP response",
+     "Directness class": 4,
+     "Directness strength": "4 weak"
+    },
+    {
+     "Paper/Finding ID": "P5.F13",
+     "Finding description": "In the APOE3 control arm, bafilomycin produced no significant difference in basal cytosolic calcium, with values of 0.44 ± 0.08 versus 0.39 ± 0.02.",
+     "Finding quote": "Bafilomycin A1 increased basal cytoplasmic Ca2+ concentration in APOE4 astrocytes to 0.40 ± 0.05 (control values of astrocytes treated with vehicle were 0.30 ± 0.01; p-value = 0.05), whereas there was no effect on non-stimulated intracellular Ca2+ levels in APOE3 (0.44 ± 0.08 for cells treated with bafilomycin A1 compared to 0.39 ± 0.02 of cells treated with vehicle).",
+     "Finding summary": "(V-ATPase inhibition in APOE3 astrocytes) -> (no change in basal cytosolic calcium)",
+     "Experimental system": "Immortalized mouse astrocytes expressing human APOE3, studied alongside APOE4 cells; donor age unspecified; 10% FBS, 2 μM bafilomycin A1 for 20 minutes versus DMSO, basal fura-2/AM fluorescence ratio.",
+     "Data location": "Fig 4E, basal calcium",
+     "Directness class": 4,
+     "Directness strength": "4 weak"
+    }
+   ]
+  },
+  {
+   "paper_id": "P19",
+   "doi": "10.1080/15548627.2025.2576613",
+   "rows": [
+    {
+     "Paper/Finding ID": "P19.F1",
+     "Finding description": "Magic Red Cathepsin B quantification across three independent experiments showed reduced lysosomal cathepsin-dependent proteolysis in APOE4 versus APOE3 Neuro-2a cells (APOE3 normalized to 1.0, APOE4 ~0.75).",
+     "Finding quote": "We found that the HsAPOE4-expressing cells exhibited significantly decreased MR-CTSB proteolysis compared to HsAPOE3-expressing cells, in line with their decreased lysosomal acidity (Figure 1F,G).",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower lysosomal cathepsin B substrate cleavage)",
+     "Experimental system": "Murine male Neuro-2a cells expressing genomic human APOE3 or APOE4; live-cell Magic Red Cathepsin B fluorescence microscopy.",
+     "Data location": "Fig 1G",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P19.F2",
+     "Finding description": "Across three independent differentiations, APOE4 human iPSC-derived neurons had lower LAMP1-proximal LGALS3BP PLA signal than isogenic APOE3 neurons.",
+     "Finding quote": "In concordance with our observations in Neuro-2a cells, we found that APOE4 iPSC-derived neurons harbored less lysosomal LGALS3BP and more lysosomal TMED5 compared to their APOE3 counterparts (Figure 6B,C).",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower lysosomal LGALS3BP PLA signal)",
+     "Experimental system": "Human female APOE4 iPSCs and isogenic APOE3 iPSCs differentiated into mixed neuronal cultures including GABAergic interneurons; DIV49; LAMP1-LGALS3BP proximity ligation assay.",
+     "Data location": "Fig 6B",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P19.F3",
+     "Finding description": "FCCP increased the acidic mtKeima response in both genotypes, but the response was stronger in APOE3 than APOE4 cells across three independent experiments.",
+     "Finding quote": "While FCCP triggered mitophagy in both HsAPOE3- and HsAPOE4-expressing cells, its induction was stronger in the HsAPOE3-expressing cells (Figure 1I,J).",
+     "Finding summary": "(APOE3 -> APOE4) -> (weaker FCCP-induced acidic mitochondrial mtKeima response)",
+     "Experimental system": "Murine male Neuro-2a cells expressing human APOE3 or APOE4 and mtKeima; 10 µM FCCP; legend specifies one-hour treatment, whereas Methods specify 30 minutes before imaging; genotype-normalized ratios.",
+     "Data location": "Fig 1I",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P19.F4",
+     "Finding description": "Adding bafilomycin A1 to FCCP abrogated the APOE3-versus-APOE4 mtKeima difference across three independent experiments; a comparison-specific significance value was not reported.",
+     "Finding quote": "While BafA1 as expected reduced the acidic mtKeima signal, it intriguingly also abrogated the difference between HsAPOE3- and HsAPOE4-expressing cells (Figure 1I), suggesting that mitophagic defects could be attributed to defective lysosomal acidification.",
+     "Finding summary": "(APOE3 -> APOE4, FCCP plus BafA1) -> (no change in acidic mitochondrial mtKeima signal)",
+     "Experimental system": "Murine male Neuro-2a cells expressing human APOE3 or APOE4 and mtKeima; combined 10 µM FCCP and 200 nM bafilomycin A1; three independent imaging experiments.",
+     "Data location": "Fig 1I",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P19.F5",
+     "Finding description": "Conventional immunofluorescence across three independent experiments found no observable APOE4-versus-APOE3 difference in LGALS3BP intensity within CTSD-positive human neuronal lysosomes.",
+     "Finding quote": "While we could not observe differences in lysosomal LGALS3BP localization by this approach (Fig. S6B-C), we could observe a slight increase in lysosomal TMED5 immunoreactivity and colocalization (Fig. S6D-E).",
+     "Finding summary": "(APOE3 -> APOE4) -> (no change in LGALS3BP intensity within CTSD-positive lysosomes)",
+     "Experimental system": "Human female APOE4 and isogenic APOE3 iPSC-derived mixed neurons at DIV49; LGALS3BP and CTSD immunofluorescence; lysosomal LGALS3BP intensity; five images from three independent experiments.",
+     "Data location": "Supplementary Fig S6B, top",
+     "Directness class": 3,
+     "Directness strength": "4 weak"
+    },
+    {
+     "Paper/Finding ID": "P19.F6",
+     "Finding description": "Across three independent experiments, APOE4 human neurons showed a slight increase in TMED5 immunoreactivity within CTSD-positive lysosomes relative to APOE3 neurons.",
+     "Finding quote": "While we could not observe differences in lysosomal LGALS3BP localization by this approach (Fig. S6B-C), we could observe a slight increase in lysosomal TMED5 immunoreactivity and colocalization (Fig. S6D-E).",
+     "Finding summary": "(APOE3 -> APOE4) -> (slightly higher TMED5 intensity within CTSD-positive lysosomes)",
+     "Experimental system": "Human female APOE4 and isogenic APOE3 iPSC-derived mixed neurons at DIV49; TMED5 intensity within CTSD-positive lysosomes; five images from three independent experiments.",
+     "Data location": "Supplementary Fig S6D, top",
+     "Directness class": 3,
+     "Directness strength": "4 weak"
+    },
+    {
+     "Paper/Finding ID": "P19.F7",
+     "Finding description": "Across three independent experiments, APOE4-expressing Neuro-2a cells had significantly lower LysoTracker staining than APOE3-expressing cells.",
+     "Finding quote": "We found that the LysoTracker intensity was significantly reduced in HsAPOE4-expressing cells (Figure 1A,B), suggesting either endolysosomal alkalinization or a reduction in endolysosomal density.",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower acidic-endolysosomal LysoTracker signal)",
+     "Experimental system": "Murine male Neuro-2a neuroblastoma cells carrying the human APOE3 or APOE4 genomic locus; endogenous mouse Apoe intact; live-cell LysoTracker assay, 30-minute loading.",
+     "Data location": "Fig 1A",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P19.F8",
+     "Finding description": "Basal mtKeima measurements across three independent experiments indicated modestly impaired mitophagy in APOE4 versus APOE3 Neuro-2a cells.",
+     "Finding quote": "Under basal conditions, we observed a modest impairment of mitophagy in HsAPOE4 cells (Figure 1H).",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower basal acidic mitochondrial mtKeima signal)",
+     "Experimental system": "Murine male Neuro-2a cells expressing human APOE3 or APOE4 and transient mtKeima; basal live-cell ratiometric imaging; individual mitochondria sampled across three experiments.",
+     "Data location": "Fig 1H",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P19.F9",
+     "Finding description": "LC3 immunoblotting contributed to the finding that autophagy remained generally functional while basal autophagy was slightly dampened in APOE4 cells.",
+     "Finding quote": "Autophagy appeared generally functional in these cells, despite the basal autophagy being slightly dampened in HsAPOE4 cells (Fig. S1D-F).",
+     "Finding summary": "(APOE3 -> APOE4) -> (slightly dampened basal autophagy with generally retained autophagic function)",
+     "Experimental system": "Murine male Neuro-2a cells expressing human APOE3 or APOE4; representative LC3-I and LC3-II western blot.",
+     "Data location": "Supplementary Fig S1E-F",
+     "Directness class": 3,
+     "Directness strength": "4 weak"
+    },
+    {
+     "Paper/Finding ID": "P19.F10",
+     "Finding description": "Both APOE3 and APOE4 Neuro-2a cells showed lysosome-autophagosome fusion after three hours of starvation and bafilomycin treatment; no quantitative genotype difference was reported.",
+     "Finding quote": "Immunofluorescence of LAMP1 and LC3 shows lysosome-autophagosome fusion in both HsAPOE3 and HsAPOE4 Neuro-2a cells following 3 h HBSS starvation and BafA1 treatment.",
+     "Finding summary": "(APOE3 -> APOE4) -> (lysosome-autophagosome fusion remains observable)",
+     "Experimental system": "Murine male Neuro-2a cells expressing human APOE3 or APOE4; three-hour HBSS starvation and bafilomycin A1 treatment; LAMP1 and LC3 immunofluorescence.",
+     "Data location": "Supplementary Fig S1D",
+     "Directness class": 3,
+     "Directness strength": "4 weak"
+    },
+    {
+     "Paper/Finding ID": "P19.F11",
+     "Finding description": "LAMP1 immunostaining showed that lysosomal density was not decreased in APOE4 relative to APOE3 Neuro-2a cells.",
+     "Finding quote": "We therefore stained the cells for the lysosomal membrane marker LAMP1, finding that the lysosomal density was not decreased in HsAPOE4 cells (Fig. S1B-C).",
+     "Finding summary": "(APOE3 -> APOE4) -> (no decrease in LAMP1-based lysosomal density)",
+     "Experimental system": "Murine male Neuro-2a cells expressing human APOE3 or APOE4; LAMP1 immunofluorescence and Fiji puncta identification.",
+     "Data location": "Supplementary Fig S1C",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P19.F12",
+     "Finding description": "Lysosome-targeted calcium-sensor imaging across three independent experiments found comparable lysosomal calcium levels in APOE3 and APOE4 cells, without a reported significant difference.",
+     "Finding quote": "Using GPN to release lysosomal calcium [61], we found lysosomal calcium levels to be comparable between HsAPOE3 and HsAPOE4-expressing cells (Fig. S1G-L), particularly after correcting for lysosomal density (Fig. S1M).",
+     "Finding summary": "(APOE3 -> APOE4) -> (no change in estimated lysosomal calcium levels)",
+     "Experimental system": "Murine male Neuro-2a cells expressing human APOE3 or APOE4; LAMP2-GCaMP6s sensor expressed for 48 hours; calcium-free bath; sequential 200 µM GPN and 4 µM ionomycin.",
+     "Data location": "Supplementary Fig S1G",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  },
+  {
+   "paper_id": "P11",
+   "doi": "10.1007/s12035-026-05996-5",
+   "rows": [
+    {
+     "Paper/Finding ID": "P11.F1",
+     "Finding description": "APOE4 astrocytes had lower LysoTracker fluorescence than APOE3 astrocytes, interpreted as impaired lysosomal activity or acidity although this assay did not provide calibrated lysosomal pH.",
+     "Finding quote": "Moreover, APOE3-expressing astrocytes showed higher lysosomal activity as indicated by higher lysotracker signal compared to APOE4-expressing cells (Fig. 4D).",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower LysoTracker fluorescence in astrocytes)",
+     "Experimental system": "Human APOE-expressing astrocytes of unspecified derivation and age; 60 nM LysoTracker Deep Red for 30 min at 37 °C; washed and trypsinized cells analyzed by flow cytometry; ratio paired t-test.",
+     "Data location": "Fig. 4D",
+     "Directness class": 3,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P11.F2",
+     "Finding description": "Untreated APOE4 astrocytes had higher p62 levels than APOE3 astrocytes, consistent with impaired autophagic degradation but not establishing flux or a lipid-mediated mechanism.",
+     "Finding quote": "As shown in Fig. 3A, the levels of p62 were significantly higher in APOE4-expressing cells, yet α-synuclein treatment increased the levels of p62 in the APOE3 but not in APOE4 cells in which the levels of p62 were high to begin with.",
+     "Finding summary": "(APOE3 -> APOE4) -> (higher basal p62 in astrocytes)",
+     "Experimental system": "Human APOE3- and APOE4-expressing astrocytes previously described in reference 23; derivation, age and genetic matching unspecified; untreated comparison within a 2 h α-synuclein experiment; p62 immunoblot normalized to actin.",
+     "Data location": "Fig. 3 p62 quantification (labelled panel B in the figure image; the text cites Fig. 3A), control APOE3 vs APOE4",
+     "Directness class": 3,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P11.F3",
+     "Finding description": "APOE4 astrocytes had significantly lower basal LC3-II than APOE3 astrocytes (the quantified panel plots the LC3-II/LC3-I ratio as % of APOE3 control), consistent with altered autophagy although steady-state LC3 alone does not establish flux.",
+     "Finding quote": "However, the levels of LC3-II were significantly lower in APOE4 compared to APOE3-expressing astrocytes, and α-synuclein treatment had no effect on LC3-II levels in APOE4 astrocytes.",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower basal LC3-II in astrocytes)",
+     "Experimental system": "Human APOE-expressing astrocytes of unspecified derivation and age; untreated genotype comparison within a 2 h α-synuclein experiment; LC3 immunoblot normalized to actin.",
+     "Data location": "Fig. 3 LC3 quantification (labelled panel A in the figure image, LC3-II/LC3-I ratio; the text cites Fig. 3B), control APOE3 vs APOE4",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P11.F4",
+     "Finding description": "APOE4 astrocytes had a significantly lower LC3-II/LC3-I ratio than APOE3 astrocytes, consistent with altered autophagy but not independently establishing flux.",
+     "Finding quote": "The LC3-II/LC3-I ratio was significantly higher in APOE3 compared to APOE4-expressing astrocytes.",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower LC3-II/LC3-I ratio)",
+     "Experimental system": "Human APOE-expressing astrocytes of unspecified derivation and age; genotype comparison in the 24 h MPP+/rapamycin experiment; LC3 immunoblot and LC3-II/LC3-I ratio.",
+     "Data location": "Fig. 7B, genotype comparison",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P11.F5",
+     "Finding description": "Rapamycin-associated reduction of MPP+-elevated p62 was described as more pronounced in APOE3 than APOE4 astrocytes, without a reported genotype-by-rescue interaction test.",
+     "Finding quote": "Combined treatment of MPP+ and rapamycin reduced p62 levels compared to MPP+ treatment alone in both APOE3 and APOE4-expressing astrocytes, with more pronounced effect on APOE3-expressing cells.",
+     "Finding summary": "(APOE3 -> APOE4) -> (less pronounced rapamycin-associated reduction of MPP+-elevated p62)",
+     "Experimental system": "Human APOE-expressing astrocytes of unspecified derivation and age; 0.2 mM MPP+ with or without 100 nM rapamycin for 24 h; genotype comparison of p62 response by immunoblot.",
+     "Data location": "Fig. 7B, genotype difference in p62 rescue",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P11.F6",
+     "Finding description": "α-Synuclein increased p62 in APOE3 astrocytes but produced no significant change in APOE4 astrocytes with already elevated p62, indicating different genotype-associated responses.",
+     "Finding quote": "As shown in Fig. 3A, the levels of p62 were significantly higher in APOE4-expressing cells, yet α-synuclein treatment increased the levels of p62 in the APOE3 but not in APOE4 cells in which the levels of p62 were high to begin with.",
+     "Finding summary": "(APOE3 -> APOE4) -> (loss of the α-synuclein-associated increase in p62)",
+     "Experimental system": "Human APOE3- and APOE4-expressing astrocytes, control versus 0.5 μM α-synuclein for 2 h within each genotype; p62 immunoblot normalized to actin. The paper does not specify a vehicle.",
+     "Data location": "Fig. 3 p62 quantification (labelled panel B in the figure image; the text cites Fig. 3A), alpha-synuclein response within each genotype",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P11.F7",
+     "Finding description": "α-Synuclein significantly reduced LC3-II in APOE3 astrocytes but produced no significant change in APOE4 astrocytes, which already had lower LC3-II.",
+     "Finding quote": "As shown in Fig. 3B, α-synuclein treatment significantly reduced the levels of LC3-II in APOE3-expressing astrocytes. However, the levels of LC3-II were significantly lower in APOE4 compared to APOE3-expressing astrocytes, and α-synuclein treatment had no effect on LC3-II levels in APOE4 astrocytes.",
+     "Finding summary": "(APOE3 -> APOE4) -> (loss of the α-synuclein-associated decrease in LC3-II)",
+     "Experimental system": "Human APOE3- and APOE4-expressing astrocytes, control versus 0.5 μM α-synuclein for 2 h within each genotype; LC3 immunoblot normalized to actin. The paper does not specify a vehicle.",
+     "Data location": "Fig. 3 LC3 quantification (labelled panel A in the figure image, LC3-II/LC3-I ratio; the text cites Fig. 3B), alpha-synuclein response within each genotype",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  },
+  {
+   "paper_id": "P25",
+   "doi": "10.64898/2026.07.15.738801",
+   "rows": [
+    {
+     "Paper/Finding ID": "P25.F1",
+     "Finding description": "Combined lysosomal and proteasomal inhibition (BafA1 + MG-132, 3 h) changed far fewer proteins significantly in APOE4 than APOE3 neurons (Fig 4E: n=14 vs n=479 proteins at adj. p<0.05 and |Log2FC|>0.58), suggesting reduced baseline clearance through the jointly tested pathways.",
+     "Finding quote": "In contrast, simultaneous inhibition of proteasomal and lysosomal protein clearance synergistically resulted in protein accumulation in APOE3 cells beyond what can be expected of additive clearance inhibition, while protein accumulation was much less evident in APOE4 neurons (Figures 4E, S4A).",
+     "Finding summary": "(APOE3 -> APOE4) -> (less additional protein accumulation after combined lysosomal/proteasomal blockade; baseline clearance impairment inferred)",
+     "Experimental system": "Human female-donor isogenic APOE3/APOE3 and APOE4/APOE4 iPSC-derived mixed neuronal cultures at DIV49; donor had AD; 3-hour treatment with 200 nM bafilomycin A1 plus 10 μM MG-132 versus DMSO; housekeeping-normalized mass-spectrometric protein abundance.",
+     "Data location": "Fig 4E",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P25.F2",
+     "Finding description": "Proteomic PC2 responses showed accumulation of clearance-sensitive proteins after combined inhibition in APOE3 neurons, with an attenuated response in APOE4 neurons.",
+     "Finding quote": "Accordingly, while high PC2-scoring proteins reproducibly accumulated in APOE3 neurons upon blocking lysosomal and proteasomal degradation, the same proteins appeared resilient to clearance inhibition in APOE4 neurons (Figures 4G).",
+     "Finding summary": "(APOE3 -> APOE4) -> (attenuated proteomic response to combined clearance blockade)",
+     "Experimental system": "Human female-donor isogenic APOE3/APOE3 and APOE4/APOE4 iPSC-derived mixed neurons at DIV49; donor had AD; 3-hour lysosomal/proteasomal inhibitor treatments; batch-corrected mass-spectrometric protein abundance summarized by PCA PC2.",
+     "Data location": "Fig 4G",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P25.F3",
+     "Finding description": "Lysosomal inhibition alone (BafA1, 3 h) produced few significantly changed proteins in either genotype (Fig 4E: n=7 in APOE3, n=2 in APOE4), which the authors describe as similar numbers; no statistical test of the genotype difference is reported.",
+     "Finding quote": "Each treatment individually had a modest impact on the proteome with a similar number of impacted proteins in both the APOE3 and APOE4 neurons (Figure S4A, Table S6).",
+     "Finding summary": "(APOE3 -> APOE4) -> (similar numbers of proteins responding to lysosomal inhibition)",
+     "Experimental system": "Human female-donor isogenic APOE3/APOE3 and APOE4/APOE4 iPSC-derived mixed neurons at DIV49; donor had AD; 200 nM bafilomycin A1 for 3 hours versus DMSO; housekeeping-normalized mass-spectrometric protein-abundance responses.",
+     "Data location": "Fig 4E, BafA1 bars (text also cites Supplementary Fig S4A, not available)",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P25.F4",
+     "Finding description": "PCA of clearance-inhibition proteomics showed a clearance-blockade response in APOE3 neurons that was attenuated in APOE4 neurons, indirectly suggesting baseline clearance impairment.",
+     "Finding quote": "We performed a principal component analysis (PCA) to visualize differential effects of clearance inhibitors on the neuronal proteome (Figures S4B–C). PC1 explained 68.4% of the observed variance (Figure S4B) and was primarily associated with the APOE genotype, while PC2 (8.4% of variance) was most associated with clearance blockade. Accordingly, while high PC2-scoring proteins reproducibly accumulated in APOE3 neurons upon blocking lysosomal and proteasomal degradation, the same proteins appeared resilient to clearance inhibition in APOE4 neurons (Figures 4G).",
+     "Finding summary": "(APOE3 -> APOE4) -> (attenuated proteomic response to clearance blockade)",
+     "Experimental system": "Human female-donor isogenic APOE3/APOE3 and APOE4/APOE4 iPSC-derived mixed neurons at DIV49; donor had AD; 3-hour bafilomycin A1, MG-132, combined treatment, or DMSO; PCA of batch-corrected proteomic intensities.",
+     "Data location": "Supplementary Fig S4C",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P25.F5",
+     "Finding description": "Several proteins that accumulated after combined clearance blockade in APOE3 neurons were already elevated at APOE4 baseline, including CALM1, CAMKV and MAPT (Fig 4H), indirectly implicating impaired clearance; the text also names APP, but in Fig 4H APOE4 baseline APP sits near the APOE3 control level.",
+     "Finding quote": "By analyzing the clearance-sensitive proteome, we found that several of the proteins accumulating by clearance blockade in APOE3 neurons were elevated at baseline in the APOE4 context (Figure 4H, S4D). This particularly affected synaptic proteins (CALM1, CAMKV), but also extended to the central AD hallmark proteins amyloid precursor protein (APP) and Tau (MAPT; Figure 4H).",
+     "Finding summary": "(APOE3 -> APOE4) -> (higher baseline abundance of proteins sensitive to combined clearance blockade)",
+     "Experimental system": "Human female-donor isogenic APOE3/APOE3 and APOE4/APOE4 iPSC-derived mixed neurons at DIV49; donor had AD; baseline and 3-hour treatment with bafilomycin A1 and/or MG-132; mass-spectrometric protein abundance.",
+     "Data location": "Fig 4H",
+     "Directness class": 3,
+     "Directness strength": "4 weak"
+    }
+   ]
+  },
+  {
+   "paper_id": "P9",
+   "doi": "10.1016/j.pneurobio.2021.102032",
+   "rows": [
+    {
+     "Paper/Finding ID": "P9.F1",
+     "Finding description": "In SH-SY5Y cells, 27-OHC produced stronger lysosomal δ-secretase activation with rApoE4 than with rApoE3. The authors also report leakage into the cytoplasm with rApoE4. Figure 1H–I represents three independent experiments.",
+     "Finding quote": "Remarkably, 27-OHC strongly augmented δ-secretase levels and triggered its activation in the lysosomes in the presence of rApoE4, and the stimulatory effects were much stronger than with rApoE3. Notably, rApoE4 potently stimulated δ-secretase FL leakage from the lysosomes into the cytoplasm with most of active and truncated δ-secretase under rApoE4 and 27-OHC treatment.",
+     "Finding summary": "(apoE3 -> apoE4, with 27-OHC) -> (stronger lysosomal δ-secretase activation and aberrant δ-secretase trafficking)",
+     "Experimental system": "Human SH-SY5Y neuroblastoma cells treated with 100 nM rApoE3 or rApoE4 and 10 μM 27-OHC for three days. Lysosomal and cytosolic fractions were immunoblotted. The Results identify the secretion sample as rat neuronal medium, while the joint legend groups medium collection with SH-SY5Y fractionation.",
+     "Data location": "Fig 1H-I, cited jointly; individual H/I allocation is not specified in supplied text.",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P9.F2",
+     "Finding description": "In the SH-SY5Y fractionation experiment, cholesterol failed to elicit cytosolic translocation of active δ-secretase. The authors also report no active-enzyme secretion under cholesterol, but the Results and legend give conflicting accounts of the medium source.",
+     "Finding quote": "By contrast, cholesterol weakly activated δ-secretase in the lysosomes in the presence of rApoE4 but not rApoE3, but it failed to elicit active δ-secretase cytosolic translocation or secretion (Figure 1H-I).",
+     "Finding summary": "(apoE3 and apoE4 cholesterol conditions) -> (no detected cytosolic translocation of active δ-secretase)",
+     "Experimental system": "Human SH-SY5Y cells treated with 100 nM rApoE3 or rApoE4 and 50 μM cholesterol for three days, followed by subcellular fractionation and immunoblotting. The Results call the medium rat neuronal medium. The joint figure legend groups it with SH-SY5Y samples.",
+     "Data location": "Fig 1H-I, cited jointly; individual H/I allocation is unspecified.",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    },
+    {
+     "Paper/Finding ID": "P9.F3",
+     "Finding description": "In the SH-SY5Y experiment reported jointly in Fig 1H-I, cholesterol weakly activated lysosomal δ-secretase with apoE4 but not apoE3 across three independent experiments, indicating increased enzyme activation rather than demonstrated degradation failure.",
+     "Finding quote": "By contrast, cholesterol weakly activated δ-secretase in the lysosomes in the presence of rApoE4 but not rApoE3, but it failed to elicit active δ-secretase cytosolic translocation or secretion (Figure 1H-I).",
+     "Finding summary": "(apoE3 -> apoE4, with cholesterol) -> (weak lysosomal δ-secretase activation)",
+     "Experimental system": "Human SH-SY5Y neuroblastoma cells; recombinant human apoE3 or apoE4, 100 nM, and cholesterol, 50 μM, for three days; lysosomal/cytosolic fractionation and immunoblotting.",
+     "Data location": "Fig 1H-I, cited jointly; individual H/I allocation is unspecified.",
+     "Directness class": 1,
+     "Directness strength": "2 strong"
+    }
+   ]
+  },
+  {
+   "paper_id": "P31",
+   "doi": "10.1038/s42003-024-05767-9",
+   "rows": [
+    {
+     "Paper/Finding ID": "P31.F1",
+     "Finding description": "Rapamycin induced autophagy-associated fluorescence in human ApoE3-expressing T98G cells but failed to induce it in ApoE4-expressing cells.",
+     "Finding quote": "Rapamycin induced autophagy in T98G-E3 cells; however, it did not induce autophagy in T98G-E4 cells (Fig. 4g).",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower rapamycin-induced autophagy-associated fluorescence)",
+     "Experimental system": "Human glioblastoma T98G stable transformants expressing ApoE3 or ApoE4; 1 µM rapamycin; Abcam ab139484 autophagy-detection staining and fluorescence microscopy. The associated quantification reports three biological repeats, each with 15–20 images per group. This staining does not independently establish autophagic flux, and lipid metabolism was not measured.",
+     "Data location": "Fig. 4g",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    },
+    {
+     "Paper/Finding ID": "P31.F2",
+     "Finding description": "Quantified autophagy-associated fluorescence was lower in ApoE4-expressing than ApoE3-expressing human T98G cells under the reported autophagy-induction conditions.",
+     "Finding quote": "Furthermore, measurement of autophagy in live cells showed that active autophagy levels were low in T98G-E4 cells compared to T98G-E3 cells.",
+     "Finding summary": "(APOE3 -> APOE4) -> (lower autophagy-associated fluorescence)",
+     "Experimental system": "Human glioblastoma T98G stable transformants expressing ApoE3 or ApoE4; fluorescence quantification per cell following Abcam ab139484 staining in the rapamycin/CBA2 experiment; three biological repeats with 15–20 images per group per experiment. Neither lipid metabolism nor lysosomal degradation flux was directly measured.",
+     "Data location": "Fig. 4h",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  },
+  {
+   "paper_id": "P35",
+   "doi": "10.1523/jneurosci.5633-07.2008",
+   "rows": [
+    {
+     "Paper/Finding ID": "P35.F1",
+     "Finding description": "After two weeks of thiorphan treatment, APOE4 mouse CA1 neurons showed larger and more abundant cathepsin D-positive lysosomes and more diffuse granular cathepsin D staining than APOE3 neurons, supporting altered lysosomal morphology without establishing impaired function.",
+     "Finding quote": "Double-labeling confocal microscopy, using the lysosomal marker cathepsin D, revealed that the CA1 neurons of the thiorphan-treated apoE4 mice contained intracellular punctate cathepsin D-positive lysosomes, the size and levels of which were markedly higher than those of the corresponding apoE3 mice, as well as increased levels of diffused granular cathepsin D staining ( Fig. 8 ).",
+     "Finding summary": "(APOE3 -> APOE4) -> (larger and more abundant cathepsin D-positive lysosomes and increased diffuse cathepsin D staining)",
+     "Experimental system": "Male human APOE3/3 versus APOE4/4 targeted-replacement mice, backcrossed eight generations to C57BL/6J, aged 3–4 months at experimentation; intracerebroventricular infusion of 0.5 mM thiorphan at 0.25 μl/h for two weeks; hippocampal CA1 neurons examined by cathepsin D/Aβ double-labeling confocal microscopy; no lipid manipulation, lysosomal enzyme activity assay, pH measurement, or degradation assay reported for this comparison.",
+     "Data location": "Fig 8, cathepsin D images and associated lysosomal-activation Results paragraph",
+     "Directness class": 3,
+     "Directness strength": "3 moderate"
+    }
+   ]
+  }
+ ],
+ "reference_rows": [
+  {
+   "finding_id": "P18.F1",
+   "summary": "(APOE3 -> APOE4) -> (higher lysosomal pH in mouse astrocytes)",
+   "system": "Cultured mouse astrocytes from ApoE-knockout mice with isogenic knock-in of human ApoE3 or ApoE4, supplied by David M. Holtzman; donor age and mouse background ",
+   "class": 1,
+   "strength": "2 strong"
+  }
+ ]
+}
