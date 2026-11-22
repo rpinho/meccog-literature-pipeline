@@ -12632,6 +12632,156 @@
    },
    "source": "Fig 5D bars: apoE3 ~10.8, apoE4 ~7.1 (figure read 11-20); apoE4/apoE3 = 0.66x. The figure read wrote apoE3/apoE4.",
    "reason": "Direction 11-22: a fold we compute is the comparison group over the reference, as the summary states it, so a decrease is below 1x; code scan of every sheet for folds whose direction contradicts the summary."
+  },
+  {
+   "key": "doi_10_1101_2025_11_11_687891",
+   "hyp": "H5",
+   "stage": 6,
+   "quote_start": "Furthermore, while both neuronal EE’s and LE’s showed an increasing pa",
+   "summary_contains": "(APOE3 -> APOE4, young hippocampus) -> (higher neuronal LAMP1-compartment abundance)",
+   "description_start": "Young APOE4 mice had significantly more hippocampal neuronal",
+   "set": {
+    "p_value": "N/A",
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Figure-read check 11-22 (Claude, against the image): the panel splits every genotype by sex and age, its brackets span several boxes and the figure does not say which pair each star marks, so a star cannot be assigned to this row's comparison; the earlier P value is restored.",
+   "source": "Fig 4B image (page render of the preprint), checked 11-22"
+  },
+  {
+   "key": "doi_10_1101_2025_11_11_687891",
+   "hyp": "H5",
+   "stage": 6,
+   "quote_start": "Total LE-Ch was decreased in APOE3 females compared to APOE2 and APOE4",
+   "summary_contains": "(APOE3 -> APOE4, young females) -> (higher hippocampal total late-endosomal cholesterol colocalization)",
+   "description_start": "Young female APOE4 mice had significantly higher hippocampal",
+   "set": {
+    "p_value": "N/A",
+    "p_value_provenance": "not_found_in_source"
+   },
+   "reason": "Figure-read check 11-22 (Claude, against the image): the panel splits every genotype by sex and age, its brackets span several boxes and the figure does not say which pair each star marks, so a star cannot be assigned to this row's comparison; the earlier P value is restored.",
+   "source": "Fig 9D image (page render of the preprint), checked 11-22"
+  },
+  {
+   "key": "doi_10_1101_2025_11_11_687891",
+   "hyp": "H5",
+   "stage": 6,
+   "quote_start": "The only significant difference measured on N-LY-Ch levels was in the ",
+   "summary_contains": "(APOE3 -> APOE4, young females) -> (higher cortical neuronal lysosomal cholesterol colocalization)",
+   "description_start": "Young (5-6 months) female APOE4 mice had significantly highe",
+   "set": {
+    "p_value": "N/A",
+    "p_value_provenance": "not_found_in_source"
+   },
+   "reason": "Figure-read check 11-22 (Claude, against the image): the panel splits every genotype by sex and age, its brackets span several boxes and the figure does not say which pair each star marks, so a star cannot be assigned to this row's comparison; the earlier P value is restored.",
+   "source": "Fig 10B image (page render of the preprint), checked 11-22"
+  },
+  {
+   "key": "doi_10_1101_2025_11_11_687891",
+   "hyp": "H5",
+   "stage": 6,
+   "quote_start": "However, paired contrasts showed that N-LY’s in the EC were increased ",
+   "summary_contains": "(APOE3 -> APOE4, females) -> (higher entorhinal neuronal LAMP1-compartment abundance)",
+   "description_start": "Female APOE4 mice had significantly greater entorhinal neuro",
+   "set": {
+    "p_value": "N/A",
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Figure-read check 11-22 (Claude, against the image): the panel splits every genotype by sex and age, its brackets span several boxes and the figure does not say which pair each star marks, so a star cannot be assigned to this row's comparison; the earlier P value is restored.",
+   "source": "Fig 7C image (page render of the preprint), checked 11-22"
+  },
+  {
+   "key": "doi_10_64898_2026_05_12_724612",
+   "hyp": "H5",
+   "stage": 6,
+   "quote_start": "Consistently, lysosomal degradative capacity, assessed by DQ-BSA, was ",
+   "summary_contains": "(APOE33 -> APOE44) -> (lower lysosomal degradation capacity)",
+   "description_start": "APOE44 microglia had reduced DQ-BSA-measured lysosomal degra",
+   "set": {
+    "effect_size": "~42%"
+   },
+   "reason": "Figure-read check 11-22 (Claude against the image, adjust): Zoomed Fig 3H bars read APOE33 ~0.72e4 vs APOE44 ~0.42e4 (axis from zero), a ~42% decrease rather than 60%; the APOE33-APOE44 bracket carries **** (p<0.0001), which is right.",
+   "source": "Fig 3H image (data/papers/doi_10_64898_2026_05_12_724612/figimg/3.png)"
+  },
+  {
+   "key": "doi_10_64898_2026_05_12_724612",
+   "hyp": "H5",
+   "stage": 6,
+   "quote_start": "Upon challenge with organoid debris, UCI5 APOE44 iMG lysosomes failed ",
+   "summary_contains": "(APOE33 -> APOE44) -> (impaired adaptive lysosomal acidification, with alkalinization after challenge)",
+   "description_start": "In the female UCI5 isogenic APOE33/APOE44 comparison, APOE44",
+   "set": {
+    "effect_size": "~dpH=0.17"
+   },
+   "reason": "Figure-read check 11-22 (Claude against the image, adjust): Fig 7M: the APOE33->APOE44 comparison after debris is 5.235 vs ~5.40 (dpH ~0.17) with **** (p<0.0001); the read's 0.12 was the within-APOE44 change, whose bracket carries only ***.",
+   "source": "Fig 7M image (data/papers/doi_10_64898_2026_05_12_724612/figimg/7.png)"
+  },
+  {
+   "key": "pmid34982109",
+   "hyp": "H5",
+   "stage": 6,
+   "quote_start": "However, LC3 abundance was increased with Rap only in APOE3–mCh and mC",
+   "summary_contains": "(rapamycin) -> (LC3 abundance increased in APOE3 and mCherry controls, with no change reported in APOE4)",
+   "description_start": "Within APOE4-expressing HEK293 cells, rapamycin caused no si",
+   "set": {
+    "effect_size": "~4%"
+   },
+   "reason": "Figure-read check 11-22 (Claude against the image, adjust): Zoomed Fig 1B APOE4-row LC3 abundance (axis 550-800) reads NT mean ~604 vs Rap ~627, a ~4% increase.",
+   "source": "Fig. 1B image (data/papers/pmid34982109/figimg/1.png)"
+  },
+  {
+   "key": "pmid40675218",
+   "hyp": "H5",
+   "stage": 6,
+   "quote_start": "Even though cholesterol seemed to have an impact on endosomes, includi",
+   "summary_contains": "(cholesterol supplementation in APOE4 cultures) -> (larger LAMP1-positive compartments)",
+   "description_start": "Cholesterol supplementation was described as producing large",
+   "set": {
+    "effect_size": "qualitative",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Figure-read check 11-22 (Claude against the image, revert): Fig 6L is normalized to the E3 untreated control (legend: E4 = 1.19), not to the ApoE4 vehicle, so the E4 bar at ~1.19 is not a cholesterol-versus-vehicle fold within ApoE4 cultures.",
+   "source": "Fig 6L, cholesterol-treatment interpretation in Results image (data/papers/pmid40675218/figimg/6.png)"
+  },
+  {
+   "key": "pmid38891941",
+   "hyp": "H5",
+   "stage": 6,
+   "quote_start": "Additionally, APPPS1:E4 mice had higher levels of lysosomal accumulati",
+   "summary_contains": "(APOE3 -> APOE4) -> (higher frontal cortical LAMP1-positive area at 8 months)",
+   "description_start": "At 8 months, APPPS1:E4 mice had higher frontal cortical LAMP",
+   "set": {
+    "effect_size": "~dROI=0.08",
+    "effect_size_provenance": "estimated_from_figure"
+   },
+   "reason": "Figure-read check 11-22 (Claude against the image, adjust): Panel D at 8 months the APPPS1:E3 bar is ~0 % ROI and APPPS1:E4 ~0.085, so no ~2x fold exists (reference near zero); a named difference of ~0.08 % ROI is what the figure supports.",
+   "source": "Fig 7D, 8-month genotype comparison image (data/papers/pmid38891941/figimg/7.png)"
+  },
+  {
+   "key": "pmid40675218",
+   "hyp": "H5",
+   "stage": 6,
+   "quote_start": "Even though cholesterol seemed to have an impact on endosomes, includi",
+   "summary_contains": "(cholesterol supplementation in APOE4 cultures) -> (lower DQ-BSA degradation)",
+   "description_start": "Cholesterol supplementation was described as reducing DQ-BSA",
+   "set": {
+    "effect_size": "qualitative",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Figure-read check 11-22 (Claude against the image, revert): Fig 6M is normalized to the E3 untreated control, not to E4 vehicle, so the E4 bar at ~0.59 does not give a cholesterol-vs-vehicle fold for ApoE4.",
+   "source": "Fig 6M, cholesterol-treatment interpretation in Results image (data/papers/pmid40675218/figimg/6.png)"
+  },
+  {
+   "key": "doi_10_64898_2026_05_12_724612",
+   "hyp": "H5",
+   "stage": 7,
+   "quote_start": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (",
+   "summary_contains": "(APOE33 -> APOE44) -> (impaired adaptive late-endosomal/lysosomal acidification after organoid-debris challenge)",
+   "description_start": "After organoid-debris challenge, APOE33 microglia acidified ",
+   "set": {
+    "effect_size": "~dpH=0.08"
+   },
+   "reason": "Figure-read check 11-22 (manual, after the Claude check): the row compares the genotypes after debris (APOE33+debris ~5.05 vs APOE44+debris ~5.13, * bracket); dpH 0.12 was APOE33's own response to debris.",
+   "source": "Fig 3G image; legend *p<0.05"
   }
  ]
 }

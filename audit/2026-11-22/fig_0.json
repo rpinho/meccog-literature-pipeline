@@ -1,0 +1,900 @@
+[
+ {
+  "hyp": "H2",
+  "key": "doi_10_21203_rs_3_rs_2343150_v1",
+  "index": 4,
+  "data_location": "Fig 5A",
+  "summary": "(APOE3 -> APOE4) -> (lower LRP-1 early-endosome colocalization)",
+  "description": "LRP-1 early-endosome colocalization was lower in APOE4 neurons (M1 0.11 ± 0.016, N=27 cells) than APOE3 neurons (0.24 ± 0.02, N=21 cells), each from two preparations.",
+  "quote": "Evaluation of the extent of colocalization of the apoE receptors with the early endosomes (marked in yellow pixels in figure 5) revealed that more LRP-1 is localized in the early endosomes in apoE3 (0.24 ± 0.02, N=21 from 2 different preparations) than apoE4 (0.11 ± 0.016, N=27 from 2 different preparations) this difference between the apoE4 and the apoE3 cells was highly significant (P< 0.001).",
+  "image": "data/papers/doi_10_21203_rs_3_rs_2343150_v1/figimg/5.png",
+  "legend": "(legend not found in the text)",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~54%"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "Panel A bars approximately 0.25 and 0.115; APOE4 lower; *** defined in caption as P<0.001."
+ },
+ {
+  "hyp": "H2",
+  "key": "doi_10_21203_rs_3_rs_2343150_v1",
+  "index": 12,
+  "data_location": "Fig 8B, early endosomes",
+  "summary": "(APOE3 -> APOE4) -> (higher apoER2 early-endosome colocalization)",
+  "description": "apoER2 early-endosome colocalization was higher in APOE4 neurons (M1 0.51 ± 0.037) than APOE3 neurons (0.37 ± 0.044), in 25–37 cells from two to three preparations.",
+  "quote": "These results, when combined with previously presented results, indicate that in apoER2, VEGFR and InsulinR the downregulation of both the externally oriented and total levels of the receptors is accompanied with their accumulation in the early endosomes.",
+  "image": "data/papers/doi_10_21203_rs_3_rs_2343150_v1/figimg/8.png",
+  "legend": "(legend not found in the text)",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~34%"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "Panel B early-endosome bars: E3 approximately 0.38, E4 0.51; E4 higher. Asterisk key absent."
+ },
+ {
+  "hyp": "H2",
+  "key": "pmid30375977",
+  "index": 1,
+  "data_location": "Fig 2C",
+  "summary": "(APOE3 -> APOE4) -> (lower surface-to-total Apoer2 ratio)",
+  "description": "Quantification across three independent experiments showed a greater reduction of surface Apoer2 with ApoE4 than ApoE3 in Reelin-treated primary rat neurons.",
+  "quote": "Apoer2 surface levels show a higher reduction with ApoE4 than ApoE3.",
+  "image": "data/papers/pmid30375977/figimg/2.png",
+  "legend": "[FIGURE Video 2.] Supporting material for Figure 1C.3D View of Apoer2 co-localizes with Apoe in primary neurons. N-terminal mCherry-labeled Apoer2 (red) and C-terminal GFP-labeled ApoE3 (green) co-localize intracellularly in primary neurons. Rat primary cortical neurons were infected with lentiviral mCherry-Apoer2 and subsequently exposed to ApoE3-GFP-conditioned media. Confocal microscopy was performed as described in the Materials and methods section.\n\n### ApoE4 selectively reduces cell surface expression of neuronal Apoer2\n\nWe have previously reported that the presence of receptor binding competent ApoE4 particles at physiological concentrations impairs the recycling and consequently surface expression of neuronal Apoer2 (Chen et al., 2010). To test whether other unrelated receptors that do not interact with ApoE may be also affected in their plasma membrane expression and recycling properties, we performed the cell surface biotinylation experiments outlined in Figure 2A. Briefly, primary rat cortical neurons were incubated in the absence (Figure 2B, lane 1) or presence of cell-derived, naturally secreted recombinant ApoE3 (lane 2) or ApoE4 (lane 3) particles for 1 hr at 37˚C, purified Reelin was then added to induce the rapid endocytosis of Apoer2, and after 30 min the cells were transferred to 4˚C and washed with ice-cold PBS. Cell surface biotinylation was performed, biotinylated proteins were isolated and detected by immunoblotting. While Apoer2 quickly recycled in the presence of ApoE3, its reappearance on the cell surface was greatly delayed in the presence of ApoE4 (Figure 2B,C). By contrast, other endocytic cell surface receptors that do not bind ApoE, such as the insulin receptor (IR) or the transferrin receptor (TfR), or that do not interact with Reelin and therefore do not undergo ligand-induced endocytosis (low-density lipoprotein receptor-related protein 1 (Lrp1) and low-density lipoprotein receptor (Ldlr)), were not significantly affected by the pre",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~66%"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "Apoer2 bars approximately 77 for E3+R and 26 for E4+R; approximately 66% reduction. No bracket directly compares these groups."
+ },
+ {
+  "hyp": "H2",
+  "key": "pmid30375977",
+  "index": 9,
+  "data_location": "Fig 2C",
+  "summary": "Surface-to-total Ldlr levels were comparable with ApoE3 and ApoE4 under the Reelin protocol.",
+  "description": "Figure 2C quantifies surface-to-total Ldlr levels across three independent experiments. The authors describe levels with ApoE3 and ApoE4 as comparable.",
+  "quote": "Other ApoE receptors, such as low-density lipoprotein receptor-related protein 1 (Lrp1) and low-density lipoprotein receptor (Ldlr), as well as the endocytic receptor for transferrin (TfR) and insulin receptor (IR) exhibit comparable surface levels in the presence of ApoE3 or ApoE4.",
+  "image": "data/papers/pmid30375977/figimg/2.png",
+  "legend": "[FIGURE Video 2.] Supporting material for Figure 1C.3D View of Apoer2 co-localizes with Apoe in primary neurons. N-terminal mCherry-labeled Apoer2 (red) and C-terminal GFP-labeled ApoE3 (green) co-localize intracellularly in primary neurons. Rat primary cortical neurons were infected with lentiviral mCherry-Apoer2 and subsequently exposed to ApoE3-GFP-conditioned media. Confocal microscopy was performed as described in the Materials and methods section.\n\n### ApoE4 selectively reduces cell surface expression of neuronal Apoer2\n\nWe have previously reported that the presence of receptor binding competent ApoE4 particles at physiological concentrations impairs the recycling and consequently surface expression of neuronal Apoer2 (Chen et al., 2010). To test whether other unrelated receptors that do not interact with ApoE may be also affected in their plasma membrane expression and recycling properties, we performed the cell surface biotinylation experiments outlined in Figure 2A. Briefly, primary rat cortical neurons were incubated in the absence (Figure 2B, lane 1) or presence of cell-derived, naturally secreted recombinant ApoE3 (lane 2) or ApoE4 (lane 3) particles for 1 hr at 37˚C, purified Reelin was then added to induce the rapid endocytosis of Apoer2, and after 30 min the cells were transferred to 4˚C and washed with ice-cold PBS. Cell surface biotinylation was performed, biotinylated proteins were isolated and detected by immunoblotting. While Apoer2 quickly recycled in the presence of ApoE3, its reappearance on the cell surface was greatly delayed in the presence of ApoE4 (Figure 2B,C). By contrast, other endocytic cell surface receptors that do not bind ApoE, such as the insulin receptor (IR) or the transferrin receptor (TfR), or that do not interact with Reelin and therefore do not undergo ligand-induced endocytosis (low-density lipoprotein receptor-related protein 1 (Lrp1) and low-density lipoprotein receptor (Ldlr)), were not significantly affected by the pre",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~1.0x"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "Ldlr bars for E3+R and E4+R both approximately 100% of control; no significance marks or individual points."
+ },
+ {
+  "hyp": "H2",
+  "key": "pmid30375977",
+  "index": 29,
+  "data_location": "Fig 4G",
+  "summary": "(proton-pump inhibition during EMD87580 treatment in ApoE4 neurons) -> (renewed Apoer2 trafficking impairment)",
+  "description": "Increasing bafilomycin concentrations reversed EMD87580-mediated restoration of Apoer2 trafficking in ApoE4-treated neurons across three independent experiments.",
+  "quote": "Figure 4F and G show that the resulting increase of the endosomal pH reverses the correction of the ApoE4 recycling deficit by EMD87580 and results in renewed impairment of Apoer2 trafficking.",
+  "image": "data/papers/pmid30375977/figimg/4.png",
+  "legend": "[FIGURE Figure 4.] The NHE inhibitor EMD87580 prevents the intracellular trapping of ApoE4 and its receptor Apoer2.(A) Chemical structure of the NHE inhibitor EMD87580. (B and C) EMD87580 increases the Reelin-induced surface expression of Apoer2 in ApoE4-treated neurons in a dose-dependent manner. Primary neurons were pre-treated with EMD87580 at the indicated concentrations and then incubated with Reelin with or without cell-derived ApoE4. Surface and total Apoer2 levels were analyzed by immunoblotting. (D and E) The effect of EMD87580 on Reelin-induced Apoer2 trafficking in the presence of ApoE3 or ApoE4. Primary neuronal cells were treated with EMD87580, Reelin and either ApoE3- or ApoE4-conditioned media. (F and G) Bafilomycin, a proton pump inhibitor, counteracts the effect of EMD87580 on Apoer2 recycling in a dose-dependent manner. Primary neurons were pre-treated with or without bafilomycin in the presence or absence of EMD87580 and subsequently incubated with ApoE4 and Reelin. Surface and total Apoer2 levels were analyzed by immunoblotting. (H and I) Bafilomycin shifts the EMD87580 dose response curve of Apoer2 surface expression. All values are expressed as mean ±SEM from three independent experiments. *p<0.05, **p<0.01, ***p<0.001. Statistical analysis was performed using one-way ANOVA and Dunnett’s post-hoc test (C, E and G) or Student’s t-test (I).10.7554/eLife.40048.011Figure 4—source data 1.The NHE inhibitor EMD87580 prevents the intracellular trapping of ApoE4 and its receptor Apoer2.\n\n### shRNA knockdown of NHE6 is sufficient to restore normal Apoer2 trafficking\n\nMore than 10 different NHEs exist in mammals (Fuster and Alexander, 2014), which function in intracellular, organellar and extracellular pH regulation in all cells of the body and in a variety of organs. EMD87580, as most other commercially available NHE inhibitors, was developed with the goal of inhibiting NHE1 (Chen et al., 2004) and its ability to cross inhibit other NHE forms is unknown.",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~67%"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "With EMD87580, bars decline from approximately 100 without bafilomycin to 33 at 100 nM; significance brackets originate at untreated control."
+ },
+ {
+  "hyp": "H2",
+  "key": "pmid30375977",
+  "index": 33,
+  "data_location": "Fig 6D, EMD87580 versus ApoE4 without inhibitor",
+  "summary": "(NHE inhibition in ApoE4-treated neurons) -> (restored surface GluN2B)",
+  "description": "EMD87580 restored surface GluN2B in ApoE4-treated primary rat neurons across three independent experiments.",
+  "quote": "EMD87580 and the NHE6-specific shRNAs completely restored Apoer2 and glutamate receptor surface expression, while the scrambled shRNA had no effect (Panel B and quantified in Panels C-F).",
+  "image": "data/papers/pmid30375977/figimg/6.png",
+  "legend": "[FIGURE Figure 6.] NHE6 knockdown alleviates surface trafficking deficits induced by ApoE4.(A) Lentiviral shRNA knockdown efficiency of NHE6 protein expression in primary rat cortical neurons. (B) Lentiviral shRNA directed against NHE6 restores the ApoE4-induced trafficking deficits of surface receptors. Primary cortical neurons were infected with three different lentiviral shRNAs directed against NHE6 (shNHE6 a, b and c; lanes 6–7) or scrambled shRNA control (lanes 4, 5). Infected cultures were treated without (lanes 1 and 4) or with (lanes 2, 3, 5–8) cell-derived ApoE4 and Reelin (all lanes) and the cell surface biotinylation assay was performed for Apoer2, GluN2B, GluA1 and GluA2/3. (D–F) Quantitative analysis of immunoblot signal from (B). All data are expressed as mean ±SEM from three independent experiments. *p<0.05, **p<0.01, ***p<0.001. Statistical analysis was performed using one-way ANOVA and Dunnett’s post-hoc test (C–F).10.7554/eLife.40048.015Figure 6—source data 1.NHE6 knockdown alleviates surface trafficking deficits induced by ApoE4.\n\n### Pharmacological NHE inhibition restores Reelin-enhanced LTP in the presence of ApoE4\n\nTo test if restored glutamate receptor trafficking by NHE6 inhibition improves synapse function, we measured hippocampal LTP in acute slices of human ApoE targeted replacement mice: ApoE3-knockin (ApoE3-KI) and ApoE4-knockin (ApoE4-KI). Mice were treated with or without EMD87580 by simultaneous intraperitoneal and intranasal application, the brains were subsequently harvested and electrophysiological field recordings were performed. We chose to complement the intraperitoneal injections with intranasal delivery since EMD87580, as all existing guanidine-based NHEs, have poor blood-brain-barrier penetration and intranasal delivery of small molecules and peptides including insulin has been shown to increase their biological effect in the brain (Grassin-Delyle et al., 2012). Consistent with previous results (Rönicke et al., 2009), we fou",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~3.8x"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "Panel D: ApoE4+Reelin approximately 25%, with EMD87580 approximately 95%; no significance bracket directly connects these bars."
+ },
+ {
+  "hyp": "H2",
+  "key": "pmid40845853",
+  "index": 2,
+  "data_location": "Fig 5H",
+  "summary": "(APOE3 -> APOE4) -> (reduced transferrin-positive endosomal sorting tubule formation in human iCE-BECs)",
+  "description": "Live imaging of isogenic pair 1 human iPSC-derived brain endothelial cells showed fewer transferrin-positive endosomal sorting tubules forming in APOE4 than APOE3 cells across three independent differentiations with 20 videos per experiment, providing a sorting surrogate without establishing ARF6 involvement.",
+  "quote": "In contrast, the number of sorting tubules was substantially reduced in ApoE4 iCE-BECs (Figure 5H).",
+  "image": "data/papers/pmid40845853/figimg/5.png",
+  "legend": "[FIGURE Figure 5] ApoE4 alters early endosome maturation in iCE-BECs(A) Representative maximum intensity projections images of iCE-BECs with ApoE3 or ApoE4 genetic variant showing EEA1 pseudo-colored in green, Phalloidin in magenta, and DAPI-stained nuclei in blue. Scale bars, 10 μm.(B and C) Quantification of mean integral vesicular intensity of EEA1 normalized to Phalloidin-positive area (B) or number of EEA1-positive endosomes per 1,000 μm2 Phalloidin-positive area in both isogenic pairs (C). Individual values in (B) were normalized to the mean of ApoE3 conditions for each experiment. Significant main effect of genetic variant on EEA1 intensity, ∗∗∗p < 0.001, no significant main effect of iPSC line on EEA1 intensity and no significant interaction between iPSC line and genetic variant. Significant main effect of genetic variant on endosome number, ∗∗p < 0.01; significant main effect of iPSC line on number of endosomes, ∗∗∗p < 0.001; no significant interaction between iPSC line and genetic variant by two-way ANOVA with n = 3 independent differentiations with approximately 200 cells per condition.(D) Representative transmission electron microscopy images of ApoE3 or ApoE4 iCE-BECs in isogenic pair 1. Arrowheads point to endosomes. Scale bars, 1 μm.(E) Representative images of transferrin in live iCE-BECs with ApoE gene variants after incubation with 25 μg/mL pH-sensitive Transferrin pHrodo Red and 25 μg/mL Transferrin-Alexafluor647 for 10 min. Scale bars, 20 μm.(F) Quantification of the ratio between Transferrin pHrodo Red (Tf-pHrodo-Red) and Transferrin-Alexafluor647 (Tf647) per endosome. Significant main effect of genetic variant on the ratio, ∗∗p < 0.01; no significant main effect of iPSC line on the ration; and no significant interaction between iPSC line and genetic variant on the ratio by two-way ANOVA with n = 3 independent differentiations with 30 cells per experiment for each isogenic pair.(G) Representative images of Tf (green) intracellular transport in l",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~60%"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "Panel H medians approximately 0.32 for ApoE3 and 0.13 for ApoE4; *** above comparison. Individual points not shown."
+ },
+ {
+  "hyp": "H3",
+  "key": "pmid28684412",
+  "index": 0,
+  "data_location": "Fig 3B, C+C comparison",
+  "summary": "(APOE3 -> APOE4) -> (higher intracellular C+C intermolecular FRET in HEK cells)",
+  "description": "In six independent HEK-cell experiments, E4 showed higher C+C intermolecular FRET than E3, supporting increased apoE–apoE proximity without establishing aggregate burden or endo-lysosomal localization.",
+  "quote": "When comparing the interactions between corresponding combinations of the apoE termini, intermolecular FRET was higher for E4 and lower for E2, with E3 adopting intermediate FRET levels.",
+  "image": "data/papers/pmid28684412/figimg/3.png",
+  "legend": "(legend not found in the text)",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~1.3x"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "Panel B C+C means approximately E3 1.0, E4 1.3; significance key unavailable; overlapping points prevent confident counting."
+ },
+ {
+  "hyp": "H3",
+  "key": "pmid28684412",
+  "index": 9,
+  "data_location": "Fig 3E, C+C comparison",
+  "summary": "(APOE3 -> APOE4) -> (higher C+C intermolecular FRET in astrocyte-secreted apoE)",
+  "description": "In seven independent experiments with mouse-astrocyte-secreted human apoE, E4 showed higher C+C intermolecular FRET than E3, supporting increased proximity or altered assembly of extracellular apoE particles.",
+  "quote": "When comparing the interactions between corresponding combinations of the apoE termini, intermolecular FRET was higher for E4 and lower for E2, with E3 adopting intermediate FRET levels.",
+  "image": "data/papers/pmid28684412/figimg/3.png",
+  "legend": "(legend not found in the text)",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~1.5x"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "Panel E C+C means approximately E3 1.0, E4 1.5; significance key unavailable; overlapping points prevent confident counting."
+ },
+ {
+  "hyp": "H3",
+  "key": "pmid34982109",
+  "index": 1,
+  "data_location": "Fig 1B; Supplementary Table S5",
+  "summary": "(lysosomal inhibition in APOE4 cells) -> (higher intracellular APOE4 protein abundance)",
+  "description": "Bafilomycin significantly increased APOE4–mCh protein abundance in human HEK293 cells, testing lysosomal degradation within a fixed APOE4 background using three wells per treatment.",
+  "quote": "Baf treatment significantly increased the abundance of APOE3–mCh and APOE4–mCh (Fig. 1B), and red fluorescence of APOE3–mCh and APOE4–mCh cells (Fig. 2).",
+  "image": "data/papers/pmid34982109/figimg/1.png",
+  "legend": "[FIGURE Fig. 1.] APOE4 alters autophagic flux in in HEK293 cells stably expressing fluorescently tagged APOE. (A,C) HEK293 cells expressing APOE3–mCh or APOE4–mCh or mCh vector were analyzed by western blotting. (B) HEK293 cells stably expressing APOE3–mCh, APOE4–mCh, or mCh vector were treated with Baf and analyzed as for A and C (50 nM 4 h), Rap (10 nM 4 h) or both. Quantitative results are mean±s.e.m. Revert, protein stain; NT, no treatment. *P<0.05, **P<0.01, ****P<0.0001 (one-way ANOVA with multiple comparisons correction).\n\nIn order to further investigate dysregulation of autophagy in APOE4 cells, we assessed levels of autophagy proteins p62 (also known as SQSTM1), Beclin1, ATG7 and LAMP2A. Relative to APOE3–mCh cells, APOE4–mCh cells had increased Beclin1 protein, suggesting upregulation of macroautophagy, but ATG7 levels were significantly lower (Fig. 1C). p62 levels were reduced with expression of APOE3–mCh or APOE4–mCh compared to control, suggesting p62 is actively degraded by selective autophagy. Quantitative (q)PCR revealed no significant differences between the three cell lines in LC3B (MAP1LC3B), ATG7 or LAMP2A levels, and a paradoxical increase in Beclin1 transcript in APOE3 cells, suggesting that alterations in protein levels were not impacted by transcript levels (Fig. S1Ai–v). In summary, in APOE4–mCh cells, Rap treatment increases levels of Beclin1 but not LC3, suggesting macroautophagy upregulation, whereas Baf treatment has no effect on LC3 abundance or ratio, consistent with a late-stage macroautophagic block. A similar pattern of dysregulation has previously been observed as a compensatory mechanism in cells with impaired CMA in the context of expression of neurodegenerative disease-associated proteins (Xilouri et al., 2009). We evaluated levels of the CMA receptor protein LAMP2A, and found that LAMP2A levels were significantly increased in APOE4–mCh compared to APOE3–mCh cells, whereas there was no difference in LAMP2A between APOE4–mCh- and",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~1.3x"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   },
+   "p_value": {
+    "before": "N/A",
+    "after": "<0.01"
+   },
+   "p_value_provenance": {
+    "before": "not_found_in_source",
+    "after": "visual_only"
+   }
+  },
+  "figure_read_note": "Fig. 1B APOE4 abundance: NT approximately 90, Baf approximately 120; ** over comparison."
+ },
+ {
+  "hyp": "H3",
+  "key": "pmid34982109",
+  "index": 11,
+  "data_location": "Fig 3B",
+  "summary": "(APOE3 -> APOE4) -> (lower green-to-red reporter ratio, indicating greater lysosomal APOE localization)",
+  "description": "Dual-tagged APOE4 produced a significantly lower green-to-red fluorescence ratio than APOE3 in human HEK293 cells, indicating greater acidic lysosomal localization using three wells per isoform.",
+  "quote": "APOE4–mCh–SepH cells had a significantly lower ratio of green to red fluorescence compared with APOE3–mCh–SepH cells, indicating a greater degree of lysosomal localization of the protein (Fig. 3B).",
+  "image": "data/papers/pmid34982109/figimg/3.png",
+  "legend": "[FIGURE Fig. 3.] APOE4 colocalizes with enlarged lysosomes. (A) HEK293 cells stably expressing APOE3– or APOE4–mCh (red) and transfected with CellLight Lamp1–GFP (green), and stained with DAPI (blue). (B) HEK293 cells stably expressing APOE3– or APOE4–mCh–SepH. SepH shown in green. (C) HEK293 cells expressing APOE2, APOE3, APOE4 or vector were treated with oleic acid (OA, overnight) and Baf (4 h). NT, no treatment. Quantitative results are mean±s.e.m. In A–C, three wells were imaged per APOE isoform (three images per well) by confocal microscopy. Images were analyzed using Imaris software. Quantitative results are mean±s.e.m. *P<0.05, **P<0.01, ***P<0.001, ****P<0.0001 [Student's two-tailed unpaired t-test (A,B) or one-way ANOVA with a post-hoc Tukey–Kramer test (C)].\n\nAnother target of selective autophagy that may be affected by APOE isoform is cytoplasmic lipid droplets (LDs). Altered levels of LDs have previously been described in APOE4-expressing cells (Farmer et al., 2019; Liu et al., 2017), and in APOE4 compared to APOE2- or APOE3-expressing flies (Liu et al., 2017). We analyzed the number of LDs per cell in APOE2–, APOE3– and APOE4–mCh-expressing HEK293 cells to determine whether APOE4 expression affects LD formation or degradation. In order to stimulate LD formation, cells were treated with 200 μM oleic acid (OA) overnight, and cells were treated with Baf to block LD degradation by autophagy. Two-way ANOVA comparing APOE isoforms and treatment revealed an effect of treatment and an interaction between treatment and APOE isoform (Fig. 3C). An increase in LDs was observed in APOE2- and APOE3-expressing cells with OA, but no significant increase was observed in APOE4- or vector-expressing cells. However, when treated with Baf to block autophagy, LDs increased significantly in all APOE-expressing cells, including those expressing APOE4, but not in vector-expressing cells. This suggests that the number of LDs is low in APOE4 OA-treated cells not because formation",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~61%"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   },
+   "p_value": {
+    "before": "N/A",
+    "after": "<0.05"
+   },
+   "p_value_provenance": {
+    "before": "not_found_in_source",
+    "after": "visual_only"
+   }
+  },
+  "figure_read_note": "Fig 3B green/red surface ratio approximately 2.2 for APOE3 and 0.85 for APOE4, a decrease; * above comparison."
+ },
+ {
+  "hyp": "H3",
+  "key": "pmid36324176",
+  "index": 2,
+  "data_location": "Fig. 3D quantification; Fig. 3C representative native blots; Supplementary p. 7 complete source blots",
+  "summary": "(APOE ε3/ε3 -> APOE ε3/ε4) -> (lower CSF apoE dimer/monomer ratio)",
+  "description": "Native-PAGE of non-AD human control CSF showed a lower apoE dimer/monomer ratio in APOE ε3/ε4 than ε3/ε3 samples, with printed ratios of 0.38 versus 2.20. Group values printed on the figure: Panel D prints medians 2 and 0.4 for Ct3/3 and Ct3/4; comparison bracket reads p = 0.006. Points overlap.",
+  "quote": "In the control group, the dimer/monomer quotient was significantly lower in the APOE ε3/ε4 group (ratio D/M = 0.38) compared to that of the ε3/ε3 group (ratio D/M = 2.20; p= 0.006), associated to the inability of the apoE4 isoform to form disulfide-linked dimers.",
+  "image": "data/papers/pmid36324176/figimg/3.png",
+  "legend": "[FIGURE Fig. 3] Characterization of CSF apoE species under reducing, non-reducing, and native conditions. A, B Control (Ct) and AD CSF samples immunoblotted under reducing (R) or non-reducing (NR) SDS-PAGE with A apoE antibody (Ab178479) or B apoE4-specific antibody (NBP1-49529). Note that apoE4 is identified as part of the 100-kDa bands despite the inability to form disulfide-linked dimers. C Representative blot of native-PAGE studies, showing the apoE monomers and dimers. The discrepancy in molecular weight is likely due to the differences between native-PAGE and SDS-PAGE electrophoretic conditions which affect the migration of proteins. Rec, recombinant apoE3; Den CSF, denatured CSF. D Quantification of the ratio of apoE dimers compared to monomers across the different APOE genotypes, estimated by native-PAGE (see C). Scatter plots of apoE levels are represented. The graphs represent mean ± SEM, and the numbers below represent median ± SD. Significant p values are indicated\n\nTo determine the different contributions of the apoE 100-kDa species in AD and control cases, we first estimated the apoE dimer/monomer balance by native-PAGE electrophoresis. We included a CSF control sample under fully reducing and denaturing conditions, as well as an apoE3 recombinant protein under native conditions, which served to identify the monomeric and dimeric apoE bands. Two immunoreactive apoE bands were observed, likely representing apoE monomers and dimers (Fig. 3C). An immunoreactive band compatible with dimeric complexes was detected in CSF from AD APOE ε4/ε4 cases, whose lack of Cys112 should eliminate their ability to form disulfide-bond-dependent complexes. Given the difficulty of finding age-matched APOE ε4/ε4 control subjects (low prevalence of this genotype in the general and healthy population), we cannot compare AD APOE ε4/ε4 with control ε4/ε4 cases. We compared the apoE dimer/monomer quotient (ratio D/M) between AD CSF samples and controls, subgrouping the samples by",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "5x"
+   }
+  },
+  "figure_read_note": "Panel D prints medians 2 and 0.4 for Ct3/3 and Ct3/4; comparison bracket reads p = 0.006. Points overlap."
+ },
+ {
+  "hyp": "H3",
+  "key": "pmid37280636",
+  "index": 17,
+  "data_location": "Fig. 5C",
+  "summary": "(apoE3M -> apoE4M) -> (different W34 conformation at the self-association interface)",
+  "description": "In simulations, the dominant W34 side-chain population was around χ1 = 180° in apoE3M and around χ1 = 300° in apoE4M.",
+  "quote": "We found that ApoE3M displayed a majority of its population around χ1 = 180° while ApoE4M was mostly around χ1 = 300°.",
+  "image": "data/papers/pmid37280636/figimg/5.png",
+  "legend": "[FIGURE Fig. 5] Modulation of ApoE4 behavior toward ApoE3-like upon its interaction with SPA. (A) Reduction of ApoE4 aggregation (yellow) by SPA (purple) to the level of ApoE3 aggregation (grey). The data were collected in Tris buffer at 37 oC and pH 7.4, representing averages of 3 replicates with standard deviation shown as error band. (B) Comparison of ApoE3 (grey) and ApoE4 (yellow) mean deuterium uptake after 60 s in the presence of SPA (purple). The red circle highlights the interaction of ApoE4 with SPA in the region corresponding to the loop connecting helices H2 and H3. The data were determined in 3 time intervals (60s, 120 and 600 s) and error bars represent standard error of mean (SEM). (C) Comparison of histogram distribution of the dihedral angle χ1 of the W34 in ApoE3M (grey), ApoE4M (yellow), and ApoE4M-SPA (purple). (D) Comparison of histogram distribution of the angle between the Cα atoms of residues 95-106-117 of the helix in ApoE3M (grey), ApoE4M (yellow), and ApoE4M-SPA (purple). (E) Comparison of the α-helical content of helix H3 in ApoE3M (grey), ApoE4M (yellow), and ApoE4M-SPA (purple) calculated by adaptive simulations. The critical residues in positions 112 and 123 discussed in the text are labelled.\n\nThese findings are further supported by the HDX results (Fig. 5B and Supplementary Figs. 12–14) which indicate that the interaction of SPA with ApoE is non-specific. SPA suppressed solvation in both isoforms equally, mainly in helices H3 (residues 94–123), H4 (residues 134–146), and the region spanning from helices C1 to C2 (residues 219–257) in CTD. Interestingly, SPA interacted with the loop connecting helices H2 and H3 in ApoE4WT but not in ApoE3WT. In the case of ApoEM isoforms with or without SPA, no changes in deuteration were observed in the CTD parts of the proteins (Supplementary Fig. 15). The bimodal isotopic pattern observed in hydrogen exchange mass spectra of ApoE3M free and ApoE4M in the presence of SPA suggested that some peptides",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~dAngle=110"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "Panel C dominant histogram peaks are approximately 190° for apoE3M and 300° for apoE4M."
+ },
+ {
+  "hyp": "H3",
+  "key": "pmid37290814",
+  "index": 7,
+  "data_location": "Fig 1J",
+  "summary": "(ApoE3 -> ApoE4) -> (no change in ApoE–Rab7 pixel overlap)",
+  "description": "Across three cultures per isoform, ApoE–Rab7 overlap averaged 14.2% for ApoE3 and 12.1% for ApoE4, with no significant difference.",
+  "quote": "In comparison with LAMP1, a lower proportion of human ApoE puncta co-localized with Rab7 in N2a cells after 4 h, although there was no significant difference between ApoE3 compared with ApoE4 (Figs 1H and J; P = 0.3392).",
+  "image": "data/papers/pmid37290814/figimg/1.png",
+  "legend": "[FIGURE Figure 1.] Recombinant and astrocyte-derived ApoE are internalized into the endosome–lysosome system in N2a cells.(A) Schematic overview of the 4 h treatment with 2.5 μg/ml recombinant ApoE3, ApoE4 or vehicle control in N2a cells. (B) Representative epifluorescence images of N2a cells treated with recombinant ApoE3 or ApoE4 for 4 h showing an overview of human ApoE internalization in N2a cells. The N2a cells were labeled for ApoE (green), DAPI (blue), and phalloidin (grey). Cells showing internalized human ApoE are indicated by arrows, and cells negative for ApoE are indicated by arrowheads. Scale bar is 40 μm. (C) Quantification of the percentage of ApoE-positive N2a cells within the entire culture. Recombinant ApoE4-treated N2a cells showed a significantly higher percentage of ApoE-positive cells (10.3% increase for ApoE4; t test, P = 0.024; number of cultures per treatment group: 5 [big data points in graph]; within each culture, 4–5 regions were analyzed [small data points in graph]). (D, E) Quantification of the number of ApoE puncta (D) and puncta area (E) per N2a cell. ApoE4 treatment significantly increased the median ApoE puncta number by 33.4% (mean puncta increase: 1.6) (Mann–Whitney test, P = 0.034) and showed a trend in the ApoE puncta area increase (by 27.5%) for ApoE4 compared with ApoE3 treatment (Mann–Whitney test, P = 0.0767); number of cultures per treatment group: 14, number of images taken within each culture: 1–7). (F) Higher magnification image of ApoE3- and ApoE4-treated N2a cells from Fig 1B. Internalized recombinant ApoE3 and ApoE4 puncta detected in N2a cells show a vesicle-like pattern. Scale bar represents 40 μm. (G) Representative images obtained by epifluorescence microscopy of N2a cells incubated with recombinant ApoE3 or ApoE4 for 4 h. The cells were labeled for ApoE (green), late endosomal/lysosomal marker LAMP1 (red), DAPI (blue), and phalloidin (grey). The scale bar represents 10 μm. (H) Representative epifluorescence imag",
+  "changed": {
+   "effect_size": {
+    "before": "N/A",
+    "after": "~14%"
+   },
+   "effect_size_provenance": {
+    "before": "not_found_in_source",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "Panel J mean markers approximately 14% and 12%, indicating lower Rab7 overlap for ApoE4; overlapping points prevent reliable counting."
+ },
+ {
+  "hyp": "H3",
+  "key": "pmid39880097",
+  "index": 7,
+  "data_location": "Fig 6B",
+  "summary": "(APOE3 -> APOE4) -> (larger LPS-induced APOE aggregate area)",
+  "description": "Image analysis of electron micrographs found a larger mean-complex-area distribution for LPS-treated APOE4 than APOE3.",
+  "quote": "This difference in aggregate size was confirmed by image analysis, revealing a larger distribution of the mean complex area in samples containing rAPOE4 compared with rAPOE3 (Fig. 6B).",
+  "image": "data/papers/pmid39880097/figimg/6.png",
+  "legend": "[FIGURE Figure 6] APOE aggregation triggered by LPS.A, TEM-negative stain analysis revealed the presence of amorphous aggregates in both APOE isoforms exposed to LPS (10 μM). The images represent a representative example from three independent experiments. The scale bar corresponds to 1 μm. B, image analyses of TEM images of APOE3 and APOE4 complexes with LPS from Escherichia coli using ImageJ. C, in the ThT aggregation assay, a significant increase in ThT fluorescence was observed in both isoforms of APOE (5 μM) after the addition of 5, 10, and 20 μM of LPS from E. coli. No increase in ThT signal was seen in the presence of APOE3 and 5 μM of LPS compared with APOE4. Statistical analysis was performed using one-way ANOVA with Dunnett’s multiple comparison tests from four independent experiments (n = 4). ∗∗p ≤ 0.01 and ∗∗∗p ≤ 0.001. APOE, apolipoprotein A; LPS, lipopolysacharide; TEM, transmission electron microscopy; ThT, thioflavin T.\n\nTo underscore the differential interaction of rAPOE isoforms, we also detected the formation of protein aggregates when rAPOE3 was challenged by LPS from P. aeruginosa or lipid A from E. coli, using TEM analysis. We observed an increase in protein aggregates when rAPOE3 was exposed to both LPS from P. aeruginosa and lipid A from E. coli. However, we did not observe the same effect in the protein aggregates of rAPOE4 when challenged by lipid A from E. coli compared with LPS from P. aeruginosa (Fig. S4).\n\nIn addition to TEM, we utilized fluorescent microscopy imaging to visualize the formation and composition of protein aggregates in rAPOE isoforms challenged with LPS. These aggregates were stained with Amytracker and treated with LPS-FITC, allowing us to visualize the presence and distribution of LPS within the aggregates (Fig. 7, A and B). It is important to note that rAPOE isoforms alone did not exhibit the formation of aggregates (Fig. S5).\n\n[FIGURE Figure 7] Fluorescence microscopy revealed the presence of protein aggregates. 5 μM",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~1.6x"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   },
+   "p_value": {
+    "before": "N/A",
+    "after": "<=0.001"
+   },
+   "p_value_provenance": {
+    "before": "not_found_in_source",
+    "after": "visual_only"
+   }
+  },
+  "figure_read_note": "Panel B means approximately 28 and 45 for APOE3+LPS and APOE4+LPS; connecting bracket shows ***; axis measures mean gray value."
+ },
+ {
+  "hyp": "H5",
+  "key": "doi_10_1101_2023_10_02_560519",
+  "index": 12,
+  "data_location": "Supplementary Fig S1B",
+  "summary": "(APOE3 -> APOE4) -> (no decrease in LAMP1-defined lysosomal density)",
+  "description": "LAMP1 immunofluorescence showed no APOE4-associated reduction in lysosomal density relative to APOE3 cells; a statistical difference was not specified.",
+  "quote": "We therefore stained the cells for the lysosomal membrane marker LAMP1, finding that the lysosomal density was not decreased in hAPOE4 cells (Fig. S1B-C).",
+  "image": "data/papers/doi_10_1101_2023_10_02_560519/figimg/S1.png",
+  "legend": "[FIGURE Figure S1:] Lysosomal calcium content(A) hAPOE gene expression across Neuro-2a cell lines, measured by RT-qPCR. (B) Immunofluorescence of Neuro-2a cells expressing hAPOE3 or hAPOE4, stained for the integral lysosomal membrane protein LAMP1. Right panels show puncta identification using Fiji. (C) Lysosomal density per cell based on images such as those in panel B. (D) Immunofluorescence of LAMP1 and LC3 shows lysosome-autophagosome fusion in both hAPOE3 and hAPOE4 Neuro-2a cells following 3 hours HBSS starvation and BafA1 treatment. (E) Representative western blot of LC3-I and LC3-II in hAPOE3 and hAPOE4 Neuro-2a cells. (F) Quantification of LC3-II/LC3-I ratio, normalized to internal hAPOE3 controls, across three independent replicates. (G) LAMP2-GCaMP6s lysosomal calcium measurements in Neuro-2a cells shown at basal states, and upon sequential stimulation using 200 µM GPN to release lysosomal calcium, and 4 µM Ionomycin to release total calcium. (H) Single-cell traces for lysosomal calcium release, as shown in panel D. (I) Mean traces of lysosomal calcium release, alongside SEM error bar traces. (J) Lysosomal calcium signals, as measured by the area under the curve following GPN and Ionomycin stimulation. (K) Total calcium sensitivity of apoE3 and apoE4 cells, as measured by the area under the curve following Ionomycin stimulation. (L) Relative lysosomal calcium release, normalized to the calcium sensitivity. (M) Relative lysosomal calcium release normalized to the lysosomal density, as calculated in panel C, estimates the lysosomal calcium content of each individual lysosome.\n\n[FIGURE Figure S2:] Abundance proteome coverage and clustering across apoE genotypes(A) Human lysosomal TMEM192 tag intensities in whole-cell and lysosomal fractions of untreated Neuro-2a cells from 3 independent experiments. (B) Histogram of Log2-transformed protein group intensities across all obtained Neuro-2a lysosomal proteomes, stratified by genotype. (C) Venn diagram of lysosom",
+  "changed": {
+   "effect_size": {
+    "before": "N/A",
+    "after": "~20%"
+   },
+   "effect_size_provenance": {
+    "before": "full_text_unavailable",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "B quantifies lysosomal density: apoE3 ~0.14, apoE4 ~0.16 lysosomes/µm²; **** shown, but supplied legend lacks significance key."
+ },
+ {
+  "hyp": "H5",
+  "key": "doi_10_1101_2025_11_11_687891",
+  "index": 32,
+  "data_location": "Fig 10B, neuronal lysosomal cholesterol; age cannot be assigned from the reporting sentence",
+  "summary": "(APOE3 -> APOE4, females, age unspecified) -> (higher cortical neuronal lysosomal cholesterol colocalization)",
+  "description": "Female APOE4 mice had significantly higher cortical neuronal lysosomal cholesterol than female APOE3 mice in five mice per sex/genotype/age group, but the reporting sentence does not identify the age group.",
+  "quote": "The only significant difference measured on N-LY-Ch levels was in the APOE4 females, which showed a significant increase compared to APOE2 and APOE3 females, and APOE4 males in the cortex (Fig. 10B).",
+  "image": "data/papers/doi_10_1101_2025_11_11_687891/figimg/10.png",
+  "legend": "\nFigure 10. The three-way interaction effect of sex x APOE genotype x age on lysosomes \n(LY), LY-cholesterol. A) Box plots representing total number of Lamp1 particles normalized to \nnumber of DAPI nuclei throughout aging, at young, middle, and old age. Lower row: box plots \nrepresenting neuronal number of Lamp1 particles normalized to the total NeuN neuronal volume \n.\nCC-BY-NC 4.0 International license\navailable under a \n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \nThe copyright holder for this preprint\nthis version posted November 13, 2025. \n; \nhttps://doi.org/10.1101/2025.11.11.687891\ndoi: \nbioRxiv preprint \n\n\n[PAGE 38]\nthroughout aging, at young, middle, and old age. B) Box plots representing total Lamp1 and \ncolocalized D4H* particles, normalized to the total number of D4H* spots and subsequently \nnormalized to the number of DAPI nuclei in the cortex, hippocampus, and entorhinal cortex (EC). \nLower row: box plots representing neuronal number of Lamp1 colocalized D4H* particles, to \nnormalized to the total number of D4H* spots, and subsequently to the total NeuN neuronal \nvolume throughout aging, at young, middle, and old age. A) and B) cortex, C) and D) \nhippocampus, E) and F) entorhinal cortex (EC)   Data was grouped by APOE genotype; APOE2, \nAPOE3, APOE4, sex; male (ochre fill) and female (blue fill), and age; young (alpha 0.2), middle \nage (alpha 0.6), old (alpha 1). Statistics: data from individual experiments were Z-scored. For the \n“Aging” plot, linear mixed-effects model was fitted for each variable using sex, age, and APOE \ngenotype as fixed effect. Wald χ² tests (HC3-robust) evaluated three-way sex×APOE×age \ninteraction effects. For the individual plots within age group young, middle age and old, linear \nmixed-effects model was fitted with sex and APOE genotype as fixed effects. Wald χ² tests (HC3-\nrobust) evaluated the interaction effect of sex×APOE,",
+  "changed": {
+   "p_value": {
+    "before": "N/A",
+    "after": "<0.01"
+   },
+   "p_value_provenance": {
+    "before": "not_found_in_source",
+    "after": "visual_only"
+   }
+  },
+  "figure_read_note": "Panel B, young neuronal row: ** over female APOE3–APOE4 comparison. Z-scored box plots do not support a percent or fold change."
+ },
+ {
+  "hyp": "H5",
+  "key": "doi_10_64898_2026_05_12_724612",
+  "index": 4,
+  "data_location": "Fig 3H",
+  "summary": "(APOE33 -> APOE44) -> (lower lysosomal degradation capacity)",
+  "description": "APOE44 microglia had reduced DQ-BSA-measured lysosomal degradation capacity compared with APOE33 microglia; three wells per group were imaged with nine frames per well.",
+  "quote": "Consistently, lysosomal degradative capacity, assessed by DQ-BSA, was reduced in APOE44 iMG (Figure 3H)56,57.",
+  "image": "data/papers/doi_10_64898_2026_05_12_724612/figimg/3.png",
+  "legend": "[FIGURE Figure 3.] APOE44 microglia accumulate cholesterol esters in the lysosomes, modulating lysosomal acidification(A) Schematic of APOE33 and APOE44 isogenic iMG. (B) Volcano plot of relative abundance of lipids (n=3 wells each). Significance set to p < 0.05. (C) Relative abundance of cholesterol esters (n=3 wells each). (D) Relative abundance of sum of hexosyl ceramides and lactosyl ceramides (n=3 wells each). (E) BODIPY-493/503 and LysoTracker Red DND-99 colocalization area normalized to Lysotracker area across APOE33 and APOE44 iMG. Each dot represents one frame (n = 2 wells x 9 frames per line).(F) Electron microscopy of APOE33 and APOE44 iMG focused on lysosomes. Arrows indicate representative lysosome. (G) Late endosomal and lysosomal acidity measured ratiometrically by dextran polymers labeled with the pH sensor ApHID and Alexa 647 (pH-independent) across APOE33 and APOE44 iMG untreated, treated with organoid debris or with Bafilomycin (0.1 nM) (n=3 wells each, 9 frames per well). (H) DQ-BSA to assess lysosome degradation capacity with or without Bafilomycin (10 nM). Each dot represents mean intensity per puncta (for each group, 3 wells were imaged, 9 frames each). One way ANOVA, mean ± SEM. (I) Volcano plot visualizing differential protein expression in APOE44 vs APOE33 iMG (n=3 wells each). (J,K) Enrichment analysis of upregulated (J) and downregulated (K) genes in APOE44 compared to APOE33 iMG, significance set to padj < 0.05, |Log2FC cutoff| > 0.5. Created using Metascape97.(B-E) Unpaired t-test, two-tailed, mean ± SEM. (G, H) One way ANOVA, mean ± SEM.(I-K) Unpaired t-test, two-tailed, mean ± SEM, corrected with Benjamini-Hochberg.*p < 0.05; **p < 0.01; ***p < 0.001; ****p < 0.0001, ns, non-significantSee also Figure S3.\n\nTo visualize neutral lipids, we used the BODIPY dye and found that APOE44 iMG have significantly more puncta per cell, indicative of increased neutral lipid accumulation (Figure S3A-B). We next asked if the increase in ChEs in APOE4",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~60%"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   },
+   "p_value": {
+    "before": "N/A",
+    "after": "<0.0001"
+   },
+   "p_value_provenance": {
+    "before": "not_found_in_source",
+    "after": "visual_only"
+   }
+  },
+  "figure_read_note": "Panel H APOE44 mean bar is approximately 60% lower than APOE33; **** connects untreated groups. Points overlap."
+ },
+ {
+  "hyp": "H5",
+  "key": "doi_10_64898_2026_05_12_724612",
+  "index": 10,
+  "data_location": "Supplementary Fig S3C, HEXA",
+  "summary": "(APOE33 -> APOE44) -> (lower lysosomal HEXA protein abundance)",
+  "description": "APOE44 microglia had lower HEXA protein abundance than APOE33 microglia in proteomics using three wells per genotype; enzyme activity was not measured.",
+  "quote": "These data were in agreement with our scRNAseq results, also indicating that lysosomal and endosomal pathways were being downregulated (i.e., LAMP1, LAMP2, HEXA, HEXB) (Figures 3I-K, S3C, Table S6).",
+  "image": "data/papers/doi_10_64898_2026_05_12_724612/figimg/S3.png",
+  "legend": "[FIGURE Figure S3.] APOE4 iMG have an increase in cholesterol esters in the lysosomes. Proteomics data supports lysosomal and ER stress.(A) Representative images of APOE33 and APOE44 iMG stained for BODIPY-493/503. Scale bar = 20µm. Each dot represents number of puncta per cell (for each group, 3 wells were imaged, 9 frames each). Unpaired t-test, two-tailed, mean ± SEM. (B) BODIPY-493/503, LysoTracker Red DND-99 and colocalization representative image. Scale bar = 50µm. (C) LAMP1, LAMP2, HEXA and HEXB protein levels across APOE33 and APOE44 iMG. (D) Top: Venn diagram shows number of identified lysosomal enzymes in our proteomic analysis (https://www.proteostasisconsortium.com/pn-annotation/). Bottom: Venn diagram shows overlap of significantly downregulated and upregulated proteins with identified lysosomal enzymes. (E) SQSTM1 (p62) and MAP1LC3B2 protein levels across APOE33 and APOE44 iMG. (F) RPS24, RPS17, SEC24D, VDAC2, and HSPA9 protein levels across APOE33 and APOE44 iMG. (C, E, F) Unpaired t-test, two-tailed, mean ± SEM, corrected with Benjamini-Hochberg (n = 3 wells each). *p < 0.05; ****p < 0.0001\n\n[FIGURE Figure S4.] APOE44 iMG exhibit a shift in bioenergetics.(A) Seahorse Mito Stress Test kit. Proton leak, spare capacity and non-mito oxygen consumption normalized to confluency of wells, comparing APOE33 and APOE44 iMG. Each dot represents a replicate well. (B) Expression of LDHA across different APOE haplotypes in the donor iMG dataset. Each dot represents an individual line. One way ANOVA, mean ± SEM. (C) Relative abundance of lactate after tracing with [U-13C6] glucose. (D) Labeled citrate, malate, glutamate, and aspartate after [U-13C6] glucose tracing. Two-way ANOVA, Šídák’s multiple comparisons test, mean ± SEM. (E) TMRE staining and quantification of mean intensity per puncta across APOE33 and APOE44 iMG (n = 3 well x 10 frames per line). Scale bar = 50µm. (F) Total glutathione measured from cell lysates using kit (MedChem, HY-K0311). (G) SOD2, SQOR",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~dZ=1.8"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   },
+   "p_value": {
+    "before": "N/A",
+    "after": "<0.05"
+   },
+   "p_value_provenance": {
+    "before": "full_text_unavailable",
+    "after": "visual_only"
+   }
+  },
+  "figure_read_note": "Panel C HEXA: APOE33 approximately 0.9 and APOE44 approximately -0.9 Z-score; one asterisk."
+ },
+ {
+  "hyp": "H5",
+  "key": "doi_10_64898_2026_05_12_724612",
+  "index": 15,
+  "data_location": "Fig 7M",
+  "summary": "(APOE33 -> APOE44) -> (impaired adaptive lysosomal acidification, with alkalinization after challenge)",
+  "description": "In the female UCI5 isogenic APOE33/APOE44 comparison, APOE44 microglia failed adaptive lysosomal acidification and instead alkalinized after organoid-debris challenge; three wells per condition were imaged.",
+  "quote": "Upon challenge with organoid debris, UCI5 APOE44 iMG lysosomes failed to mount an adaptive acidification response and instead shifted toward alkalinization (Figure 7M).",
+  "image": "data/papers/doi_10_64898_2026_05_12_724612/figimg/7.png",
+  "legend": "[FIGURE Figure 7.] APOE44 microglia have impaired lipoprotein secretion, providing less lipid support to neurons.A) Schematic of transwell setup of induced neurons (iNs) with APOE33 and APOE44 iMG. (B) Violin plot of lipidomics of APOE33 and APOE44 iMG cocultured with iNs or alone. Each dot represents a different lipid species within the iMG lysates. (C) Free cholesterol compared between APOE33 and 44 iMG, cocultured with iNs or alone. (D) Sum of lipid species in different lipid classes compared between iNs cocultured with APOE33 iMG vs with APOE44 iMG. (E) Boxplot of ZScores of lipid species from iNs cocultured with APOE33 iMG and APOE44 iMG. (F) PSD95+/Synapsin+ puncta and (G) Syn+ puncta quantified in iNs cocultured with either APOE33 or APOE44 iMG, normalized to area of Tuj1. Plotted as fold change differences normalized to iN cocultured with APOE33 iMG. (H) APOE ELISA of supernatant from APOE33 and APOE44 iMG (n = 5 wells each). (I) HDL-like particles measured in supernatant and normalized to protein of lysate (n = 4 wells each). (J) APOE ELISA of supernatant from UCI5 APOE33 and UCI5 APOE44 iMG (n = 4 wells each). (K) BODIPY-493/503 quantified as mean number of puncta per cell per frame across UCI5 APOE33 and APOE44 iMG (n = 3 wells x 10 frames per group). (L) MMP measured with JC-1 dye comparing UCI5 APOE33 and UCI5 APOE44 iMG (n = 4 wells each). On a Glomax plate reader, red was measured at an excitation of 520 nm and green at an excitation of 475 nm. (M) Late endosomal and lysosomal acidity measured ratiometrically by dextran polymers labeled with the pH sensor ApHID and Alexa 647 (pH-independent) across UCI5 APOE33 and APOE44 iMG untreated and treated with organoid debris (n=3 wells each, 25 frames per well). (N) APOE ELISA of supernatant from 8 donor lines, 4 APOE33 lines and 4 APOE44 lines (n = 4 wells each). (O) MMP measured with JC-1 dye comparing 6 donor lines, 3 APOE33 lines and 3 APOE44 lines (n = 4 wells each). On a Glomax plate reader, red was mea",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~dpH=0.12"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   },
+   "p_value": {
+    "before": "N/A",
+    "after": "<0.0001"
+   },
+   "p_value_provenance": {
+    "before": "not_found_in_source",
+    "after": "visual_only"
+   }
+  },
+  "figure_read_note": "Panel M: APOE44 pH rises from approximately 5.28 to 5.40 after debris; **** above comparison; three points per condition."
+ },
+ {
+  "hyp": "H5",
+  "key": "pmid23132858",
+  "index": 8,
+  "data_location": "Fig 7B",
+  "summary": "(apoE3 -> apoE4) -> (lower inhibitor-derived lysosomal apoE degradation)",
+  "description": "Inhibitor-derived lysosomal degradation of apoE4 was lower than that of apoE3 in mouse N2a cells exposed to Aβ42.",
+  "quote": "We found that apoE3 was transported into lysosomes and degraded more efficiently than apoE4 ( Fig. 7 , A and B ).",
+  "image": "data/papers/pmid23132858/figimg/7.png",
+  "legend": "(legend not found in the text)",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~80%"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "Panel B: E3 ≈1.0, E4 ≈0.2; E4 ≈80% lower. ** bracket visible; no legend key provided."
+ },
+ {
+  "hyp": "H5",
+  "key": "pmid31641056",
+  "index": 1,
+  "data_location": "Fig 2B",
+  "summary": "(rApoE3 -> rApoE4) -> (greater ABCA1 colocalization with LAMP2)",
+  "description": "Quantified ABCA1–LAMP2 colocalization was greater after recombinant ApoE4 than ApoE3 in human HeLa cells, a surrogate for late-endosomal or lysosomal retention.",
+  "quote": "Greater colocalization of ABCA1 with the late endosome marker LAMP2 and lower colocalization with the recycling endosome marker Rab11 were observed in cells treated with rApoE4 compared with rApoE3 ( Fig. 2 ).",
+  "image": "data/papers/pmid31641056/figimg/2.png",
+  "legend": "(legend not found in the text)",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~1.3x"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "Panel B means approximately 44% and 56% colocalization; *** above comparison, but no legend key; overlapping points prevent reliable counting."
+ },
+ {
+  "hyp": "H5",
+  "key": "pmid32709881",
+  "index": 18,
+  "data_location": "Fig. 3d, LC3 abundance graph",
+  "summary": "(APOE3 -> APOE4) -> (lower LC3-II accumulation during combined CCCP and chloroquine treatment)",
+  "description": "Combined CCCP and chloroquine treatment produced less LC3-II accumulation in APOE4 than APOE3 astrocytes.",
+  "quote": "Accordingly, APOE3 astrocytes treated with CCCP combined with chloroquine showed increased accumulation of LC3-II compared to APOE4 astrocytes, indicating higher autophagic flux30 (Fig. 3d).",
+  "image": "data/papers/pmid32709881/figimg/3.png",
+  "legend": "[FIGURE Fig. 3] CCCP-induced mitophagy in APOE3/APOE4 astrocytes.a APOE3/APOE4 astrocytes expressing Mito-GFP were treated with 15 μM CCCP for 1 h and stained with anti-LC3 antibodies (scale bars 25 μm). Left panel, representative results. Right panel, co-localization analysis of Mito-GFP (green) and LC3 puncta (red) using the Pearson’s R value above threshold as calculated by the ImageJ Coloc 2 plugin after thresholding for LC3 puncta; n ≥ 50 cells/treatment; means ± SE; **p < 0.01, APOE3 compared with APOE4; ^^p < 0.01, CCCP-treated compared to untreated cells. b APOE3/APOE4 astrocytes were treated with 25 μM CCCP for 4 h and analyzed by electron microscopy. Left panel, representative micrographs; right panel, the number of autophagosomes containing/interacting (orange arrows) or not (blue arrows) with mitochondria was measured per 10 μm2 fields (scale bars, 500 nm); n ≥ 10 fields/treatment; means ± SE; *p < 0.05 and **p < 0.01, APOE3 compared with APOE4; ^^p < 0.01, CCCP-treated compared to untreated cells.; white asterisks, spheroid/ring-shaped mitochondria (presumably mitochondria interacting with autophagosome/lysosome) c APOE3/APOE4 astrocytes expressing LC3-EGFP-mRFP were treated with 10 μM CCCP for 4 h. Left panel, representative results (scale bars 25 μm); right panel, ImageJ analysis of %area of LC3-EGFP-mRFP (arrows) or LC3-mRFP (arrow heads) positive puncta; n ≥ 50 cells/treatment; means ± SE; *p < 0.05 and **p < 0.01, APOE3- compared with APOE4; ^^p < 0.01, CCCP-treated compared to untreated cells. d APOE3/APOE4 astrocytes were treated with 10 μM chloroquine (CQ) for 48 h, with or without 7.5 μM CCCP for the last 24 h. Levels of LC3 were determined by Immunoblot. Left panel, representative results; right panel, densitometric analysis of the results is presented as fold of APOE3 (left graph) and as the difference between measured values of LC3 levels with or without CQ (right graph, Δ ± CQ); n = 3; means ± SE; *p < 0.05 and **, APOE3 compared with APOE4",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~90%"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "CCCP+CQ bars approximately 13.5 (APOE3) and 1.5 (APOE4); ** above APOE4, but supplied panel-d legend omits its threshold."
+ },
+ {
+  "hyp": "H5",
+  "key": "pmid34919811",
+  "index": 4,
+  "data_location": "Fig 4E",
+  "summary": "(APOE3 -> APOE4) -> (lower LAMP2 protein abundance in iAstrocytes)",
+  "description": "Western blots from three independent experiments showed significantly lower LAMP2 protein abundance in APOE4 than APOE3 iAstrocytes, providing a lysosomal-marker readout.",
+  "quote": "However, protein levels of LAMP2 detected by western blot were significantly higher in APOE3 compared with APOE2, APOE4, and APOE-KO (E3 > E2 = E4 = KO) (Figures 4D and 4E).",
+  "image": "data/papers/pmid34919811/figimg/4.png",
+  "legend": "[FIGURE Figure 4] Subtle changes in lysosomal marker LAMP2 according to APOE genotype(A) GSEA NESs of protein lists ranked according to the t-statistic obtained for the contrast APOE2 versus APOE3, APOE4 versus APOE3, and APOE4 versus APOE2 iAstrocytes. NES is plotted on the x axis, with color-coded bars according to padj. Padj ≤0.2 was considered significant, annotated with green stars.(B) Immunocytochemical stainings of RAB5 (red, upper) and merged with S100β (green, lower). The signal is quantified and calculated as percentage of cell area.(C) Immunocytochemical stainings of LAMP2 (green, upper) and merged with GFAP (red, lower). The signal is quantified and calculated as percentage of cell area. Scale bar: 50 μm.(D) Western blot of LAMP2 and RAB5 from lysate of iAstrocytes. Scale bar: 50 μm.(E) Western blot quantification of RAB5 or LAMP2 normalized to β-actin.(F) Lysosomal activity assay in iAstrocytes, normalized to APOE3.Data represent mean ± SD (∗p < 0.05; ∗∗p < 0.01, one-way ANOVA with post hoc Tukey's multiple comparisons test). All datapoints (n-numbers) are plotted in each bar graph (three independent experiments).\n\nWe further assessed the levels of lysosomal and endosomal markers LAMP2 and RAB5. Endosomal compartments labeled with RAB5 did not show a significant difference in percentage of cell area between genotypes, and neither did RAB5 protein levels (Figures 4B, 4D, and 4E). Immunofluorescent detection of lysosomes by LAMP2 (Figure 4C) or Dextran-Alexa 555 (Figure S3) showed no difference between genotypes. However, protein levels of LAMP2 detected by western blot were significantly higher in APOE3 compared with APOE2, APOE4, and APOE-KO (E3 > E2 = E4 = KO) (Figures 4D and 4E). Lysosomal activity in APOE3 and APOE4 was significantly lower than in APOE2 and APOE-KO cells (KO = E2 > E3 = E4) (Figure 4F). Thus, no major abnormalities in endosomal and lysosomal compartment morphology were observed, while LAMP2 protein levels and lysosomal activity were ",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~43%"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   },
+   "p_value": {
+    "before": "N/A",
+    "after": "<0.01"
+   },
+   "p_value_provenance": {
+    "before": "not_found_in_source",
+    "after": "visual_only"
+   }
+  },
+  "figure_read_note": "Panel E: LAMP2/β-actin approximately 0.98 for APOE3 and 0.56 for APOE4; ** above their comparison."
+ },
+ {
+  "hyp": "H5",
+  "key": "pmid34982109",
+  "index": 4,
+  "data_location": "Fig. 1B",
+  "summary": "(rapamycin) -> (LC3 abundance increased in APOE3 and mCherry controls, with no change reported in APOE4)",
+  "description": "Within APOE4-expressing HEK293 cells, rapamycin caused no significant change in LC3 abundance across three wells per treatment, whereas abundance increased in APOE3 and control cells.",
+  "quote": "However, LC3 abundance was increased with Rap only in APOE3–mCh and mCherry cells, with no change in APOE4–mCh cells.",
+  "image": "data/papers/pmid34982109/figimg/1.png",
+  "legend": "[FIGURE Fig. 1.] APOE4 alters autophagic flux in in HEK293 cells stably expressing fluorescently tagged APOE. (A,C) HEK293 cells expressing APOE3–mCh or APOE4–mCh or mCh vector were analyzed by western blotting. (B) HEK293 cells stably expressing APOE3–mCh, APOE4–mCh, or mCh vector were treated with Baf and analyzed as for A and C (50 nM 4 h), Rap (10 nM 4 h) or both. Quantitative results are mean±s.e.m. Revert, protein stain; NT, no treatment. *P<0.05, **P<0.01, ****P<0.0001 (one-way ANOVA with multiple comparisons correction).\n\nIn order to further investigate dysregulation of autophagy in APOE4 cells, we assessed levels of autophagy proteins p62 (also known as SQSTM1), Beclin1, ATG7 and LAMP2A. Relative to APOE3–mCh cells, APOE4–mCh cells had increased Beclin1 protein, suggesting upregulation of macroautophagy, but ATG7 levels were significantly lower (Fig. 1C). p62 levels were reduced with expression of APOE3–mCh or APOE4–mCh compared to control, suggesting p62 is actively degraded by selective autophagy. Quantitative (q)PCR revealed no significant differences between the three cell lines in LC3B (MAP1LC3B), ATG7 or LAMP2A levels, and a paradoxical increase in Beclin1 transcript in APOE3 cells, suggesting that alterations in protein levels were not impacted by transcript levels (Fig. S1Ai–v). In summary, in APOE4–mCh cells, Rap treatment increases levels of Beclin1 but not LC3, suggesting macroautophagy upregulation, whereas Baf treatment has no effect on LC3 abundance or ratio, consistent with a late-stage macroautophagic block. A similar pattern of dysregulation has previously been observed as a compensatory mechanism in cells with impaired CMA in the context of expression of neurodegenerative disease-associated proteins (Xilouri et al., 2009). We evaluated levels of the CMA receptor protein LAMP2A, and found that LAMP2A levels were significantly increased in APOE4–mCh compared to APOE3–mCh cells, whereas there was no difference in LAMP2A between APOE4–mCh- and",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~5%"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "B, APOE4 LC3 abundance: NT approximately 600, Rap approximately 630; no significance annotation for this comparison."
+ },
+ {
+  "hyp": "H5",
+  "key": "pmid34982109",
+  "index": 18,
+  "data_location": "Fig. 3B",
+  "summary": "(APOE3 -> APOE4) -> (lower green/red APOE fluorescence ratio and greater acidic-compartment localization)",
+  "description": "Across three HEK293 wells per isoform, dual-tagged APOE4 had a lower green/red fluorescence ratio than APOE3, indicating greater acidic-compartment localization without measuring a lysosomal pH difference.",
+  "quote": "APOE4–mCh–SepH cells had a significantly lower ratio of green to red fluorescence compared with APOE3–mCh–SepH cells, indicating a greater degree of lysosomal localization of the protein (Fig. 3B).",
+  "image": "data/papers/pmid34982109/figimg/3.png",
+  "legend": "[FIGURE Fig. 3.] APOE4 colocalizes with enlarged lysosomes. (A) HEK293 cells stably expressing APOE3– or APOE4–mCh (red) and transfected with CellLight Lamp1–GFP (green), and stained with DAPI (blue). (B) HEK293 cells stably expressing APOE3– or APOE4–mCh–SepH. SepH shown in green. (C) HEK293 cells expressing APOE2, APOE3, APOE4 or vector were treated with oleic acid (OA, overnight) and Baf (4 h). NT, no treatment. Quantitative results are mean±s.e.m. In A–C, three wells were imaged per APOE isoform (three images per well) by confocal microscopy. Images were analyzed using Imaris software. Quantitative results are mean±s.e.m. *P<0.05, **P<0.01, ***P<0.001, ****P<0.0001 [Student's two-tailed unpaired t-test (A,B) or one-way ANOVA with a post-hoc Tukey–Kramer test (C)].\n\nAnother target of selective autophagy that may be affected by APOE isoform is cytoplasmic lipid droplets (LDs). Altered levels of LDs have previously been described in APOE4-expressing cells (Farmer et al., 2019; Liu et al., 2017), and in APOE4 compared to APOE2- or APOE3-expressing flies (Liu et al., 2017). We analyzed the number of LDs per cell in APOE2–, APOE3– and APOE4–mCh-expressing HEK293 cells to determine whether APOE4 expression affects LD formation or degradation. In order to stimulate LD formation, cells were treated with 200 μM oleic acid (OA) overnight, and cells were treated with Baf to block LD degradation by autophagy. Two-way ANOVA comparing APOE isoforms and treatment revealed an effect of treatment and an interaction between treatment and APOE isoform (Fig. 3C). An increase in LDs was observed in APOE2- and APOE3-expressing cells with OA, but no significant increase was observed in APOE4- or vector-expressing cells. However, when treated with Baf to block autophagy, LDs increased significantly in all APOE-expressing cells, including those expressing APOE4, but not in vector-expressing cells. This suggests that the number of LDs is low in APOE4 OA-treated cells not because formation",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~60%"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   },
+   "p_value": {
+    "before": "N/A",
+    "after": "<0.05"
+   },
+   "p_value_provenance": {
+    "before": "not_found_in_source",
+    "after": "visual_only"
+   }
+  },
+  "figure_read_note": "B green/red surface ratio approximately 2.2 for APOE3 versus 0.9 for APOE4, about 60% lower; * above comparison."
+ },
+ {
+  "hyp": "H5",
+  "key": "pmid36825945",
+  "index": 5,
+  "data_location": "Fig 4B",
+  "summary": "(APOE3 -> APOE4) -> (lower TRPML1-associated lysosomal calcium-release frequency)",
+  "description": "After bafilomycin A1, APOE4 neurons had fewer calcium sparks than APOE3 neurons, with printed means of 1.16±0.03 versus 1.71±0.03 sparks/min, in six replicates per genotype.",
+  "quote": "Results demonstrate that APOE ε3, APOE ε2 and APOE−/− neurons had an average of 1.71±0.03, 1.63±0.03 and 1.49±0.04 spontaneous Ca2+ sparks/min, respectively (mean±s.e.m.). In contrast, APOE ε4 neurons had a significantly lower number of spontaneous Ca2+ sparks/min (1.16±0.03, P<0.0001) (Fig. 4A,B).",
+  "image": "data/papers/pmid36825945/figimg/4.png",
+  "legend": "[FIGURE Fig. 4.] Decreased TRPML1-mediated lysosomal Ca2+ release in a neuronal LOAD iPSC model. (A,B) APOE ε3, APOE ε4, APOE ε2 or APOE−/− iPSC neurons were loaded with Fura2-AM and treated with the IP3 receptor antagonist xestospongin C to block Ca2+ efflux from the ER, followed by BafA1 to mimic age-related mild deacidification. TRPML1 activity was assessed by counting spontaneous sparks of Ca2+ release during a 5-min period in the presence [APOE ε3 (n=11, 235 traces), APOE ε4 (n=12, 243 traces), APOE ε2 (n=10, 226 traces), APOE−/− (n=11, 257 traces)] or absence [APOE ϵ3 (n=6, 90 traces), APOE ϵ4 (n=6, 101 traces), APOE ϵ2 (n=6, 130 traces), APOE−/− (n=7, 163 traces)] of the TRPML1 inhibitor GW405833 (10 µM). The response of representative cells is depicted and expressed as the 340/380 nm ratio of Fura2-AM florescence. Representative traces (A) and quantification (B) of spark number/minute induced by BafA1. Significance levels were calculated between all samples without GW405833 to detect APOE isoform-specific alterations in TRPML1 response (*P<0.05; **P<0.01; ***P<0.001, one-way ANOVA followed by Bonferroni post-hoc test) and for each APOE isoform between GW405833-treated and untreated sample to assess TRPML1 contribution (#P<0.05; ###P<0.001, unpaired two-tailed Student's t-test). (C) Quantification of full physiological cellular Ca2+ release after addition of 10 µM ML-SA1 including, but not limited to lysosomal Ca2+ stores in n=3 biological replicates, n=1 technical replicate per APOE isoform. Data are expressed as mean±s.e.m.\n\nTreatment with the synthetic TRPML1 agonist ML-SA1, which locks the endolysosomal TRPML1 channel non-physiologically in an open conformation (Feng et al., 2014b), showed that ML-SA1 could induce TRPML1-mediated Ca2+ release regardless of the APOE isoform expressed (Fig. 4C). The ML-SA1-induced Ca2+ release was not significantly different when comparing APOE isoforms, although there was a trend towards increased Ca2+ release in the APOE ",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~32%"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "Panel B untreated bars approximately 1.71 versus 1.16 sparks/min; *** marks the APOE3–APOE4 comparison."
+ },
+ {
+  "hyp": "H5",
+  "key": "pmid38217595",
+  "index": 7,
+  "data_location": "Fig. 8C, lysosomes",
+  "summary": "(APOE3 -> APOE4) -> (no change in insulin-receptor lysosomal colocalization)",
+  "description": "Insulin-receptor colocalization with lysosomes showed no significant difference between APOE3 and APOE4 mouse neurons; both printed means were 0.33, with 25–37 cells from 2–3 preparations reported per comparison.",
+  "quote": "Additionally, there was also a decrease in the colocalization of the receptors with the lysosomes in APOE4 neurons that was significant in APOER2 and VEGFR but not in the IR (APOER2 : 35.89% decrease, p < 0.0001; VEGFR: 31.30% decrease, p < 0.05), and in the recycling endosomes in all three receptors (APOER2 : 11.16% decrease, p = 0.5154; IR: 30.88% decrease, p < 0.05; VEGFR: 29.02% decrease, p < 0.05) when compared to APOE3 neurons.",
+  "image": "data/papers/pmid38217595/figimg/8.png",
+  "legend": "[FIGURE Fig. 8] Intracellular distribution of the receptors. The extent of colocalization of LRP1 (A), APOER2 (B), IR (C), and VEGFR (D) with early, late, and recycling endosomes, as well as with lysosomes, was determined by double staining confocal microscopy, as described in the Materials and Methods. The results shown correspond to 25–37 cells from 2-3 different preparations for each of the receptors and compartment colocalization. The results obtained revealed two patterns: The first, exemplified by LRP1, shows that the levels of this receptor in APOE4 neurons are lower in the early and late endosomes and unchanged in lysosomes and recycling endosomes. (Early endosomes: APOE3 = 0.22±0.022, APOE4 = 0.16±0.015, p < 0.001. Late endosomes: APOE3 = 0.24±0.023, APOE4 = 0.127±0.031, p < 0.001. Lysosomes: APOE3 = 0.36±0.031, APOE4 = 0.29±0.027, p < 0.05. Recycling endosomes: APOE3 = 0.12±0.024, APOE4 = 0.12±0.023). The second pattern is common to the APOER2, IR, and VEGFR where the elevation in the colocalization in the early endosomes in APOE4 was accompanied by a decrease in localization to the other compartments, mainly, late endosome (APOER2- early endosomes: APOE3 = 0.37±0.044, APOE4 = 0.51±0.037, p < 0.05. Late endosomes: APOE3 = 0.49±0.024, APOE4 = 0.38±0.059, p = 0.15. Lysosomes: APOE3 = 0.41±0.024, APOE4 = 0.26±0.019, p < 0.0001. Recycling endosomes: APOE3 = 0.17±0.025, APOE4 = 0.15±0.017, p = 0.51. IR- early endosomes: APOE3 = 0.28±0.02, APOE4 = 0.36±0.02, p < 0.05. Late endosomes: APOE3 = 0.41±0.042, APOE4 = 0.31±0.028, p < 0.05. Lysosomes: APOE3 = 0.33±0.017, APOE4 = 0.33±0.034, p = 0.19. Recycling endosomes: APOE3 = 0.18±0.015, APOE4 = 0.13±0.022, p < 0.05. VEGFR- early endosomes: APOE3 = 0.22±0.03, APOE4 = 0.36±0.04, p < 0.05. Late endosomes: APOE3 = 0.29±0.04, APOE4 = 0.15±0.03, p < 0.05. Lysosomes: APOE3 = 0.20±0.02, APOE4 = 0.14±0.01, p < 0.05. Recycling endosomes: APOE3 = 0.27±0.02, APOE4 = 0.19±0.02, p < 0.05).\n\n[FIGURE Fig. 9] ApoE levels in conditio",
+  "changed": {
+   "effect_size": {
+    "before": "N/A",
+    "after": "~1.0x"
+   },
+   "effect_size_provenance": {
+    "before": "not_found_in_source",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "Panel C lysosome bars are approximately equal, both near 0.33; no significance mark or countable individual points."
+ },
+ {
+  "hyp": "H5",
+  "key": "pmid39468688",
+  "index": 3,
+  "data_location": "Fig. 5l",
+  "summary": "(ApoE3 -> ApoE4, with PHF) -> (increased lysosomal cholesterol accumulation)",
+  "description": "Quantified filipin and LysoTracker staining showed increased lysosomal cholesterol in ApoE4 versus ApoE3 PHF-treated BV2 microglia, using 8–18 fields from three biological replicates.",
+  "quote": "ApoE4 significantly increased the accumulation of cholesterol in lysosomes of microglia treated with PHF compared to ApoE3, while treatment with capsaicin significantly decreased it (Fig. 5k, l).",
+  "image": "data/papers/pmid39468688/figimg/5.png",
+  "legend": "[FIGURE Fig. 5] TRPV1 agonist promotes autophagic activity and reduces lysosomal cholesterol accumulation in ApoE4 + PHF microglia. a Biological pathways associated with cell-degradative process revealed by GSEA in microglia isolated from the hippocampus and cortex of 4-month-old mice (n = 3). b-d GSEA revealed enrichment of gene sets associated with microglial pathogen phagocytosis pathway (b), lysosome (c) and negative regulation of autophagy (d) in microglia isolated from the hippocampus and cortex of 4-month-old TRPV1−/−/E4 (AAV-hTau) mice (n = 3). e GSEA revealed enrichment of gene set associated with autophagy in microglia isolated from the hippocampus and cortex of 4-month-old E4 (AAV-hTau) + CAP mice (n = 3). f Intracellular total ROS content and superoxide level in ApoE4 + PHF BV2 cells after exposure to vehicle or capsaicin (n = 6 biological replicates). g, h Representative images (g) and analysis (h) of phagocytic activity in the fluorescent beads uptake assay (n = 4–7 fields from 3 biological replicates). i, j Representative images (i) and analysis (j) of autophagic activity determined by mRFP-GFP-LC3 plasmid (n = 10–12 fields from 3 biological replicates). Nuclei were counterstained with DAPI (blue). k, l. Representative images (k) and quantification (l) of LysoTracker and filipin III staining in ApoE4 + PHF BV2 cells after exposure to vehicle or capsaicin (n = 8–18 fields from 3 biological replicates). Mean ± SEM, one-way ANOVA with Tukey’s multiple comparisons test\n\nTo determine the oxidative-stress status of microglia in response to APOE4-related tauopathy, we assessed ROS level and superoxide anion production. ApoE4 upregulated the levels of ROS and superoxide anion radical in microglia treated with PHF compared to ApoE3. Treatment with capsaicin significantly diminished the oxidative-stress status of ApoE4 + PHF microglia (Fig. 5f). Similar to our previous analysis, the phagocytic capacity was significantly increased in microglia treated with ApoE4",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~8x"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   },
+   "p_value": {
+    "before": "N/A",
+    "after": "<0.0001"
+   },
+   "p_value_provenance": {
+    "before": "not_found_in_source",
+    "after": "visual_only"
+   }
+  },
+  "figure_read_note": "Lysosomal filipin III colocalization approximately 0.07 for ApoE3 + PHF and 0.55 for ApoE4 + PHF; P<0.0001."
+ },
+ {
+  "hyp": "H5",
+  "key": "pmid40457456",
+  "index": 4,
+  "data_location": "Fig. 1J,K; Results associates the longitudinal test with Fig. 1J,L, whereas the legend assigns the time-course quantification to K",
+  "summary": "(APOE3/3 -> APOE4/4) -> (lower basal pHrodo-dextran signal in endolysosomal compartments)",
+  "description": "Basal pHrodo-dextran fluorescence accumulated less in APOE4/4 than APOE3/3 microglia over time, but this assay cannot separate reduced uptake from altered acidification.",
+  "quote": "To assess pinocytosis (fluid-phase endocytosis), we added pHrodo-conjugated dextran (MW 10 kDa) and monitored intracellular fluorescence over 20 h using the IncuCyte live imaging system (Fig. 1J, K). Under basal conditions, pinocytosis was significantly reduced in E4/E4 iMGs compared to E3/E3 iMGs (two-way repeated measures ANOVA, time x genotype p = 0.01; Fig. 1J, L).",
+  "image": "data/papers/pmid40457456/figimg/1.png",
+  "legend": "[FIGURE Fig. 1] E4/4 iMGs exhibited a decrease in basal levels of LC3-II and macropinocytosis. A, representative Western blot images of iMGs in basal conditions. B, quantification of the lipidated form of LC3 (II) in iMGs in basal conditions. C, representative WB images of iMGs with (+) or without (-) rapamycin (rapa) and bafilomycin (bafi) treatment. D, E, quantifications of the LC3 (II) to LC3 (I) ratios in iMGs with (+) or without (-) rapamycin (rapa) and bafilomycin (bafi) treatment. F, the relative expression of CTSD, CTSB, MAP1LC3B, and APOE mRNA as detected by RT-qPCR. G, the flow cytometry gating strategy, cleaved lysosomal substrate emitted fluorescence in FITC channel. FSC-A, forward scatter area; SSC-A, side scatter area; FSC-H, forward scatter height. H, the mean fluorescence intensity (MFI) of iMGs incubated for 1 h with the lysosomal substrate, which emits fluorescence following lysosomal degradation. I, the MFI of control (E3/E3) iMGs with or without bafilomycin treatment. J, K, representative images (J) and the quantification of pHrodo signal (K) in iMGs incubated with pHrodo dextran for different periods of time. Scale bar 300 μm. Arrows, iMGs with dextran in endo-lysosomal compartment. L, the quantification of dextran uptake at 3 h. M, The quantification of dextran uptake in E3/3 and E4/4 iMGs in the presence or absence of apilimod, N = 3 iPSC lines. Individual dots in the bar plots represent the mean values for individual iPSC lines derived from 1–3 independent experiments. The color coding of iPSC lines is shown in Supplementary Table 1. Data in the graphs are shown as mean ± SEM. P values are derived from unpaired t-test (B, F, I), two-way ANOVA (D, E) or Mann-Whitney test (H, L). *, p < 0.05; **, p < 0.01\n\n### APOE 4/4 microglia exhibit reduced metabolic flexibility and dysregulated amino acid metabolism\n\nPinocytosis serves as a mechanism to scavenge nutrients and promote cell growth in low-nutrient conditions [49]. The mitochondrial stress tes",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~50%"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "K: at approximately 20 h, E3/E3 reaches approximately 6,800 versus 3,400 for E4/E4; no significance marks."
+ },
+ {
+  "hyp": "H5",
+  "key": "pmid40675218",
+  "index": 3,
+  "data_location": "Fig 1J",
+  "summary": "(APOE3 -> APOE4) -> (no change in somatic LAMP1-positive compartment size)",
+  "description": "At 18 DIV, average somatic LAMP1-positive compartment size showed no significant difference between ApoE4 and ApoE3 neurons; n counts embryos.",
+  "quote": "However, we did detect a significantly higher number of LAMP1+ vesicles in ApoE4 compared to ApoE3 neuronal dendrites, although there were no detectable differences in LAMP1 average vesicle size nor differences in number of LAMP1+ vesicles in the neuronal cell bodies between the ApoE groups (Fig. 1, G–K).",
+  "image": "data/papers/pmid40675218/figimg/1.png",
+  "legend": "[FIGURE Figure 1] Mature ApoE4 primary neurons exhibit only minor alterations in late endolysosome appearance in dendrites.A, schematic overview of study design, where brain cells from cortex and hippocampus are isolated from mouse embryos (ApoE KO, ApoE3, and ApoE4) and cultured in-vitro for 18 days (18 DIV). B, representative epifluorescence images of early endosomes (EEA1 antibody) together with MAP2 at neuronal cell bodies (scale bar: 10 μm) and dendrites (scale bar: 20 μm). C-D, Quantification of number of early endosomes (EEA1) in neuronal cell bodies (C) and along 100 μm of dendrites (D). 6 to 10 fields of view per N, N (embryo) = 3, one-way ANOVA (C): p = 0.572, one-way ANOVA (D): p = 0.862. Bar graph presented as mean ± SD, C: KO = 123 ± 10, E3 = 120 ± 28, E4 = 106 ± 18, D: KO = 162 ± 20, E3 = 148 ± 43, E4 = 153 ± 28. E-F, quantification of average size of early endosomes (EEA1) in neuronal cell bodies (E) and along 100 μm dendrite dendrites (F). 6 to 10 fields of view per N, N (embryo) = 3, one-way ANOVA (E): p = 0.836, Kruskal-Wallis (F): p = 0.289. Bar graph presented as mean ± SD, E: KO = 0.187 ± 0.028, E3 = 0.182 ± 0.018, E4 = 0.192 ± 0.012, F: KO = 0.103 ± 0.010, E3 = 0.097 ± 0.002, E4 = 0.107 ± 0.013. G, representative epifluorescence images showing LAMP1 together with MAP2 in the cell body and dendrites of 18 DIV ApoE KO, ApoE3, and ApoE4 neurons. Scale bar: 20 μm. H-I, quantification of number of late endosomes/lysosomes (LAMP1+ vesicles) in neuronal cell bodies (H) and along 100 μm of dendrites (I). 6 to 10 fields of view per N, N (embryo) = 3, one-way ANOVA (H): p = 0.98, one-way ANOVA (I): p = 0.044, post hoc Tukey’s E3 versus E4 p = 0.039 (15.1% mean difference). Bar graph presented as mean ± SD, H: KO = 40 ± 12, E3 = 40 ± 9, E4 = 41 ± 5, I: KO = 153 ± 5.0, E3 = 138 ± 2, E4 161 ± 14. J-K, quantification of average size of LAMP1+ vesicles in neuronal cell bodies (J) and along 100 μm of dendrites (K). 6 to 10 fields of view per N, N (embryo) = 3,",
+  "changed": {
+   "effect_size": {
+    "before": "N/A",
+    "after": "~5%"
+   },
+   "effect_size_provenance": {
+    "before": "not_found_in_source",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "Panel J: E3 approximately 0.83, E4 approximately 0.79 square micrometers; E4 lower; three points per group; no significance marks."
+ },
+ {
+  "hyp": "H5",
+  "key": "pmid40675218",
+  "index": 10,
+  "data_location": "Fig 4B",
+  "summary": "(APOE3 -> APOE4) -> (no change in somatic LAMP1-positive compartment number)",
+  "description": "At 25–26 DIV, somatic LAMP1-positive compartment number showed no significant difference between ApoE4 and ApoE3 neurons; n counts embryos.",
+  "quote": "Despite no apparent difference in the number and size of LAMP1+ late endosomes/lysosomes, our findings are consistent with the scenario that aged ApoE4 neurons (25–26 DIV) show lower degradative capacity that could reflect a lower number of active degradative compartments.",
+  "image": "data/papers/pmid40675218/figimg/4.png",
+  "legend": "[FIGURE Figure 4] With time in culture ApoE4 neurons develop reduced degradative capacity in association with a lower number of active degradative compartment.A, epifluorescence images showing LAMP1+ compartments in neuronal cell bodies and dendrites. Scale bar: 20 μm. B-C, Quantification of number of late endosomes/lysosomes (LAMP1+ vesicles) in neuronal cell bodies (B) and along 100 μm of dendrites (C). 6 to 10 fields of view per N, N (embryo) = 4, one-way ANOVA (B): p = 0.288, one-way ANOVA (C): p = 0.356. Bar presented as mean ± SD, B: KO = 45 ± 6, E3 = 37 ± 7, E4 = 37 ± 9, C: KO = 154 ± 35, E3 = 121 ± 34, E4 = 136 ± 23. D-E, quantification of average size of LAMP1+ vesicles in neuronal cell bodies (D) and along 100 μm of dendrites (E). 6 to 10 fields of view per N, N (embryo) = 4, one-way ANOVA (D): p = 0.952, Kruskal-Wallis (E): p = 0.351. Bar graph presented as mean ± SD, D: KO = 0.626 ± 0.054, E3 = 0.616 ± 0.074, E4 = 0.643 ± 0.187, E: KO = 0.263 ± 0.034, E3 = 0.237 ± 0.023, E4 = 0.223 ± 0.030. F, Representative epifluorescence images of DQ BSA in neurons at 25 DIV. Scale bar: 20 μm. G-H, quantification of DQ BSA integrated density normalized to background (G) and number of DQ BSA + compartments (H) in 25 DIV neuronal cell bodies. The values were normalized to the total sum of all three groups for each independent experiment. 6 to 10 fields of view per N, N (embryo) = 6, Kruskal-Wallis (G): p = 0.025, post hoc Dunn’s: ApoE3 versus ApoE4: p = 0.0495 (21.9% mean difference), Kruskal-Wallis (H): p = 0.0003, post hoc Dunn’s: ApoE KO versus ApoE3 p = 0.0048 (17.8% mean difference), ApoE4 versus ApoE3 p = 0.0195 (20% mean difference). Bar graph presented as mean ± SD, G: KO = 0.317 ± 0.06, E3 = 0.38 ± 0.029, E4 = 0.305 ± 0.052, H: KO = 0.308 ± 0.018, E3 = 0.377 ± 0.016, E4 = 0.315 ± 0.031. I, representative images of LysoTracker red (LTR) in neurons at 25 DIV (from live cell imaging by PerkinElmer Operetta). Scale bar: 10 μm. J-K, quantification of LysoTracker tot",
+  "changed": {
+   "effect_size": {
+    "before": "N/A",
+    "after": "~1x"
+   },
+   "effect_size_provenance": {
+    "before": "not_found_in_source",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "Panel B: ApoE3 and ApoE4 bars both approximately 37 puncta per cell body; four points per group; no significance marks."
+ },
+ {
+  "hyp": "H5",
+  "key": "pmid40675218",
+  "index": 22,
+  "data_location": "Fig 4N",
+  "summary": "(APOE3 -> APOE4) -> (no change in somatic CD63-positive compartment number)",
+  "description": "At 25–26 DIV, somatic CD63-positive compartment number showed no significant difference between ApoE4 and ApoE3 neurons despite a higher numerical trend in ApoE4; n counts embryos.",
+  "quote": "Although non-significant, we could detect a trend toward higher levels of CD63 (Figs. 4L, N and S3X) and Cathepsin D (Figs. 4M, O and S3Y) in the cell body and dendrites of ApoE4 and ApoE KO neurons compared to ApoE3, which might reflect reduced degradation in ApoE4 neurons.",
+  "image": "data/papers/pmid40675218/figimg/4.png",
+  "legend": "[FIGURE Figure 4] With time in culture ApoE4 neurons develop reduced degradative capacity in association with a lower number of active degradative compartment.A, epifluorescence images showing LAMP1+ compartments in neuronal cell bodies and dendrites. Scale bar: 20 μm. B-C, Quantification of number of late endosomes/lysosomes (LAMP1+ vesicles) in neuronal cell bodies (B) and along 100 μm of dendrites (C). 6 to 10 fields of view per N, N (embryo) = 4, one-way ANOVA (B): p = 0.288, one-way ANOVA (C): p = 0.356. Bar presented as mean ± SD, B: KO = 45 ± 6, E3 = 37 ± 7, E4 = 37 ± 9, C: KO = 154 ± 35, E3 = 121 ± 34, E4 = 136 ± 23. D-E, quantification of average size of LAMP1+ vesicles in neuronal cell bodies (D) and along 100 μm of dendrites (E). 6 to 10 fields of view per N, N (embryo) = 4, one-way ANOVA (D): p = 0.952, Kruskal-Wallis (E): p = 0.351. Bar graph presented as mean ± SD, D: KO = 0.626 ± 0.054, E3 = 0.616 ± 0.074, E4 = 0.643 ± 0.187, E: KO = 0.263 ± 0.034, E3 = 0.237 ± 0.023, E4 = 0.223 ± 0.030. F, Representative epifluorescence images of DQ BSA in neurons at 25 DIV. Scale bar: 20 μm. G-H, quantification of DQ BSA integrated density normalized to background (G) and number of DQ BSA + compartments (H) in 25 DIV neuronal cell bodies. The values were normalized to the total sum of all three groups for each independent experiment. 6 to 10 fields of view per N, N (embryo) = 6, Kruskal-Wallis (G): p = 0.025, post hoc Dunn’s: ApoE3 versus ApoE4: p = 0.0495 (21.9% mean difference), Kruskal-Wallis (H): p = 0.0003, post hoc Dunn’s: ApoE KO versus ApoE3 p = 0.0048 (17.8% mean difference), ApoE4 versus ApoE3 p = 0.0195 (20% mean difference). Bar graph presented as mean ± SD, G: KO = 0.317 ± 0.06, E3 = 0.38 ± 0.029, E4 = 0.305 ± 0.052, H: KO = 0.308 ± 0.018, E3 = 0.377 ± 0.016, E4 = 0.315 ± 0.031. I, representative images of LysoTracker red (LTR) in neurons at 25 DIV (from live cell imaging by PerkinElmer Operetta). Scale bar: 10 μm. J-K, quantification of LysoTracker tot",
+  "changed": {
+   "effect_size": {
+    "before": "N/A",
+    "after": "~1.8x"
+   },
+   "effect_size_provenance": {
+    "before": "not_found_in_source",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "Panel N: ApoE3 approximately 130 and ApoE4 approximately 235 CD63 puncta per cell body; no significance marks; points not clearly countable."
+ },
+ {
+  "hyp": "H5",
+  "key": "pmid40675218",
+  "index": 30,
+  "data_location": "Fig 6L",
+  "summary": "(APOE3 -> APOE4 under cholesterol loading) -> (no change in somatic LAMP1-positive compartment size)",
+  "description": "After three-day cholesterol supplementation, average somatic LAMP1-positive compartment size showed no significant difference between ApoE4 and ApoE3 neurons; n counts embryos.",
+  "quote": "Even though cholesterol seemed to have an impact on endosomes, including a lower number of early endosomes (Fig. 6K), larger LAMP1+ vesicles (Fig. 6L) without altering the number (Fig. S4E), and reduced degradation of DQ-BSA after 8 h (Fig. 6M), we detected similar changes between ApoE KO, ApoE3, and ApoE4.",
+  "image": "data/papers/pmid40675218/figimg/6.png",
+  "legend": "[FIGURE Figure 6] ApoE isoform dependent cholesterol alterations in neurons.A, representative epifluorescence images of Filipin signal in cell body and dendrite of 25 DIV neurons, scale bar: 20 μm. B-C, quantification of Filipin mean intensity in cell body (B) and dendrites (C) of 25 DIV neurons. The values were normalized to the total sum of all three groups for each independent experiment. 6 to 10 fields of view per N, N (embryo) = 5, one-way ANOVA (B) p = 0.163, Kruskal-Wallis (C) p = 0.0136, post hoc Dunn’s KO versus E3 p = 0.0197 (23.7% mean difference). Bar graph presented as mean ± SD, B: KO = 0.370 ± 0.081, E3 = 0.290 ± 0.056, E4 = 0.340 ± 0.042, C: KO = 0.368 ± 0.022, E3 = 0.290 ± 0.041, E4 = 0.342 ± 0.036. D, schematic overview of experimental design. Primary brain cultures at 22 to 23 DIV were supplemented with 12.5 μg/ml cholesterol that had been conjugated to BSA and incubated for 3 days. E, representative epifluorescence image of Filipin, comparing ApoE4 neurons treated with vehicle control or cholesterol for 3 days shows the appearance of spherical cholesterol accumulations with cholesterol supplementation. Scale bar: 20 μm. F, representative epifluorescence image of Filipin together with LAMP1+ vesicles. Filipin is presented using Lookup table: blue-orange, and the green shows the membrane cholesterol, while the purple/orange shows the accumulated cholesterol. Scale bar: 20 μm. G-H, quantification of the mean Filipin intensity change after cholesterol supplementation in cell bodies (G) and dendrites (H). Each value was normalized to background and its corresponding genotype untreated control for each independent experiment. 6 to 10 fields of view per N, N (embryo) = 5 to 6, one-way ANOVA (G) p = 0.226, one-way ANOVA (H) p = 0.510. Bar graph presented as mean ± SD, G: KO = 1.22 ± 0.45, E3 = 1.4 ± 0.31, E4 = 1.09 ± 0.13, H: KO = 1.11 ± 0.26, E3 = 1.24 ± 0.19, E4 = 1.10 ± 0.22. I-J, quantification of number of accumulated Filipin puncta within LAMP1+ ve",
+  "changed": {
+   "effect_size": {
+    "before": "N/A",
+    "after": "~1.0x"
+   },
+   "effect_size_provenance": {
+    "before": "not_found_in_source",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "Panel L E3 and E4 bars are both approximately 1.15 relative to control; no significance annotation."
+ },
+ {
+  "hyp": "H5",
+  "key": "pmid41103078",
+  "index": 0,
+  "data_location": "Fig 1A",
+  "summary": "(APOE3 -> APOE4) -> (lower acidic-endolysosomal LysoTracker signal)",
+  "description": "Across three independent experiments, APOE4-expressing Neuro-2a cells had significantly lower LysoTracker staining than APOE3-expressing cells.",
+  "quote": "We found that the LysoTracker intensity was significantly reduced in HsAPOE4-expressing cells (Figure 1A,B), suggesting either endolysosomal alkalinization or a reduction in endolysosomal density.",
+  "image": "data/papers/pmid41103078/figimg/1.png",
+  "legend": "[FIGURE Figure 1.] APOE4 expression impairs lysosomal function. (A) LysoTracker Deep Red (LyTr) was used to stain acidic compartments of HsAPOE-expressing Neuro-2a cells. Data points indicate experimental averages across three independent biological and technical replicates. Bafilomycin A1 was used to block lysosomal acidification, decreasing the LysoTracker staining intensity. (B) Representative images for (A). (C) Images of lysosomal pH measurements in HsAPOE-expressing Neuro-2a cells using OregonGreen-70000 kDa dextran. (D) Standard curve for the OregonGreen ratio to pH conversion. (E) Lysosomal pH values measured by OregonGreen experiments. Data points indicate experimental averages across three independent biological and technical replicates. (F) Images of Magic Red-Cathepsin B (MR-CTSB)-stained HsAPOE-expressing Neuro-2a cells, indicating lysosomal proteolysis. (G) MR-CTSB quantification of proteolytic cleavage, as shown in panel (F). Data points indicate experimental averages across three independent biological and technical replicates. (H) Basal mtKeima measurements from HsAPOE-expressing Neuro-2a cells. Data points represent individual mitochondria imaged across three independent experiments. (I) Log2-transformed mtKeima ratios normalized to genotype DMSO controls, following 1-h FCCP treatment to induce mitophagy alone or in combination with BafA1 to inhibit lysosomal acidification, plotted as a density plot of analyzed mitochondria across three independent experiments. Thick central line indicates the experimental mean, thinner flanking lines indicate the 1st and 3rd quartiles. (J) Representative images for (I). All experiments were performed as three independent technical and biological replicates, and analyzed in Fiji. The data was plotted as means with SEM error bars, and analyzed in GraphPad prism by 2-way ANOVA followed post-hoc by Bonferroni’s multiple comparisons test (A,E,H,I) or an unpaired, two-tailed t-test (G). *p < .05, ****p < .01, *p < .0001",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~57%"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   },
+   "p_value": {
+    "before": "N/A",
+    "after": "<0.01"
+   },
+   "p_value_provenance": {
+    "before": "not_found_in_source",
+    "after": "visual_only"
+   }
+  },
+  "figure_read_note": "DMSO bars approximately 1.00 versus 0.43; **** maps to p<0.01 in supplied legend."
+ },
+ {
+  "hyp": "H5",
+  "key": "pmid41103078",
+  "index": 28,
+  "data_location": "Fig 6B",
+  "summary": "(APOE3 -> APOE4) -> (lower lysosomal LGALS3BP PLA signal)",
+  "description": "Across three independent differentiations, APOE4 human iPSC-derived neurons had lower LAMP1-proximal LGALS3BP PLA signal than isogenic APOE3 neurons.",
+  "quote": "In concordance with our observations in Neuro-2a cells, we found that APOE4 iPSC-derived neurons harbored less lysosomal LGALS3BP and more lysosomal TMED5 compared to their APOE3 counterparts (Figure 6B,C).",
+  "image": "data/papers/pmid41103078/figimg/6.png",
+  "legend": "[FIGURE Figure 6.] APOE4-associated lysosomal protein changes occur in human AD brains and neurons. (A) Schematic of lysosomal proximity ligation assay, whereby proximity ligation occurs between lumenal lysosomal LAMP1 and the profiled protein of interest (P.O.I). (B) Quantification of cellular proximity ligation assay (PLA) signal in iPSC-derived neurons across three independent differentiations and experiments. LAMP1-LAMP1 was used as a positive control, while lysosomal LGALS3BP and TMED5 localization profiled by PLA with LAMP1. Data points indicate lysosomal PLA signal within individual neurons. (C) Representative images for panel B. (D) Representative images of neuronal LGALS3BP-LAMP1 PLA in the AD brain. (E) Quantification of lysosomal LGALS3BP in the AD brain across two different cases per genotype, analyzed on a cellular level within a lysosomal mask based on PLA signal and LAMP1 immunoreactivity. (F) Representative images of neuronal TMED5-LAMP1 PLA in the AD brain. (G) Quantification of lysosomal TMED5 in the AD brain across two different cases per genotype, analyzed on a cellular level within a lysosomal mask based on PLA signal and LAMP1 immunoreactivity. (H-J) Plots showing APOE4 lysosome-associated proteins for individual patients from the BLSA cohort, showing (H) co-expression (nodes show dysregulated lysosomal proteins, edges denote highest protein co-expression), and their association with (I) APOE4 dosage and (J) AD diagnosis. (K-M) Plots showing APOE4-dysregulated lysosomal proteins for individual patients from the Banner cohort, showing (K) co-expression (nodes show dysregulated lysosomal proteins, edges denote highest protein co-expression), and their association with (L) APOE4 dosage and (M) AD diagnosis. *p < .05; ****p < .0005; *p < .0001.\n\nWe finally assessed whether the implicated APOE4-dysregulated lysosomal proteins from our LysoIP experiments are conserved across large-scale studies using proteomic datasets from the Accelerating Medicines",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~45%"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   },
+   "p_value": {
+    "before": "N/A",
+    "after": "<0.0005"
+   },
+   "p_value_provenance": {
+    "before": "not_found_in_source",
+    "after": "visual_only"
+   }
+  },
+  "figure_read_note": "Panel B LGALS3BP bars indicate approximately 45% lower APOE4 signal; **** above comparison. Individual points overlap."
+ },
+ {
+  "hyp": "H5",
+  "key": "pmid42239208",
+  "index": 8,
+  "data_location": "Fig 5H",
+  "summary": "(increased INPP5D expression in APOE4 astrocytes) -> (no change in RAB7-positive late endosome staining)",
+  "description": "Increasing INPP5D expression in APOE4 astrocytes produced no significant difference in RAB7-positive late endosome staining compared with the darkGFP expression control.",
+  "quote": "Increasing either PICALM or INPP5D expression had no detectable effect on either RAB11-positive recycling endosomes (Figure 5E, 5F) or RAB7-positive late endosomes (Figure 5G, 5H).",
+  "image": "data/papers/pmid42239208/figimg/5.png",
+  "legend": "[FIGURE Figure 5:] Increasing INPP5D or PICALM expression rescues APOE4-mediated endosomal dysfunction in astrocytes.Box and whisker plot (minimum to maximum values with line at median) for quantification of multiple flow cytometry runs for A) EEA1 and B) internalized transferrin intensity, N=5-7 independent flow cytometry runs per endocytosis protein, across two iPSC lines (KOLF2.1 O, AG09173 ∇), flow cytometry means normalized to APOE4 astrocytes transduced with control darkGFP expressing virus from same run. Wilcoxon signed-rank test. C) Representative immunocytochemistry images from APOE4 astrocytes with increased darkGFP, PICALM, and INPP5D expression (scale bar 20 μm) with D) EEA1 intensity quantification. N=6 independent experiments per condition per iPSC line (KOLF2.1 O, AG09173 ∇). One-way ANOVA with multiple comparisons used for statistical analysis. Representative immunocytochemistry images from darkGFP, PICALM, and INPP5D overexpressing APOE4 astrocytes for E) RAB11 positive recycling endosomes with F) quantification, G) RAB7 positive late endosomes with H) quantification, and I) LAMP1 positive lysosomes with J) quantification. Scale bars are 50 μm.\n\nIn addition to PICALM, increasing expression of INPP5D (SHIP1) and AP2S1 (AP2 s subunit) increased EEA1 levels in APOE4 astrocytes (Figure 5A). Only PICALM and INPP5D, not AP2S1 overexpression increased the uptake of fluorescently tagged transferrin in APOE4 astrocytes while BIN1 overexpression impaired transferrin uptake (Figure 5B). Immunocytochemistry confirmed that increased expression of either PICALM or INPP5D can alleviate endocytic dysfunction in APOE4 astrocytes (Figure 5C, 5D). We also used immunocytochemistry to assess whether perturbations to downstream trafficking pathways were also rescued by increasing PICALM or INPP5D expression. Increasing either PICALM or INPP5D expression had no detectable effect on either RAB11-positive recycling endosomes (Figure 5E, 5F) or RAB7-positive late endosomes (",
+  "changed": {
+   "effect_size": {
+    "before": "qualitative",
+    "after": "~5%"
+   },
+   "effect_size_provenance": {
+    "before": "printed_in_text",
+    "after": "estimated_from_figure"
+   }
+  },
+  "figure_read_note": "Panel H: median RAB7 intensity approximately 1.0 for darkGFP and 0.95 for INPP5D; no significance annotation; points overlap."
+ }
+]

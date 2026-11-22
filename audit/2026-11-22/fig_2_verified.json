@@ -1,0 +1,236 @@
+[
+ {
+  "key": "doi_10_21203_rs_3_rs_2343150_v1",
+  "index": 8,
+  "verdict": "CONFIRM",
+  "why": "Fig 8A early endosome bars read E3 ~0.22 and E4 ~0.16 (legend prints 0.22 and 0.16), a ~27% decrease."
+ },
+ {
+  "key": "pmid20547867",
+  "index": 0,
+  "verdict": "ADJUST",
+  "set": {
+   "effect_size": "~23%",
+   "effect_size_provenance": "estimated_from_figure"
+  },
+  "why": "Panel B ApoE3 bar ~84 and ApoE4 ~64 of control; the read used control (100) as reference, but the summary compares ApoE4 with ApoE3, giving ~23% lower."
+ },
+ {
+  "key": "pmid30375977",
+  "index": 5,
+  "verdict": "CONFIRM",
+  "why": "Panel C TfR bars: C+R 100, E3+R ~101, E4+R ~100, so E4 over E3 is ~1.0x."
+ },
+ {
+  "key": "pmid30375977",
+  "index": 15,
+  "verdict": "CONFIRM",
+  "why": "Panel E at 0 uM EMD87580: E3 ~81 and E4 ~24 of control, a ~71% lower ratio with ApoE4."
+ },
+ {
+  "key": "pmid30375977",
+  "index": 31,
+  "verdict": "CONFIRM",
+  "why": "Panel D: E4+R ~28 and E4+R+shNHE6(b) ~100 (a and c also ~96-102), so ~3.6x."
+ },
+ {
+  "key": "pmid38217595",
+  "index": 3,
+  "verdict": "CONFIRM",
+  "why": "Panel A bars ApoE3 ~0.28 and ApoE4 ~0.37 on a zero-based axis (text 0.28 vs 0.36), a ~29-32% increase."
+ },
+ {
+  "key": "pmid20858958",
+  "index": 1,
+  "verdict": "CONFIRM",
+  "why": "Panel C large-lysosome apoE at day 7: circle (apoE4) ~4.7 vs triangle ~1.0 AU, ~4.5-4.7x, within 15% of ~5x."
+ },
+ {
+  "key": "pmid28684412",
+  "index": 3,
+  "verdict": "CONFIRM",
+  "why": "Panel C C+C: E3+E3 normalized mean 1.0 and E4+E4 mean ~1.89, so ~1.9x."
+ },
+ {
+  "key": "pmid31641056",
+  "index": 5,
+  "verdict": "CONFIRM",
+  "why": "Panel I bars rE3 ~0.93 and rE4 ~1.59, ~1.7x, within 15% of ~1.6x."
+ },
+ {
+  "key": "pmid34982109",
+  "index": 8,
+  "verdict": "CONFIRM",
+  "why": "Fig 3A means APOE3 ~0.011 and APOE4 ~0.036 (~3.3x); ** over this two-group bracket = P<0.01 by the legend key."
+ },
+ {
+  "key": "pmid35471463",
+  "index": 1,
+  "verdict": "CONFIRM",
+  "why": "Panel b fractions 27-29: AD E4- ~15.7% and AD E4+ ~19.9%, ~1.27x, within 15% of ~1.2x."
+ },
+ {
+  "key": "pmid36324176",
+  "index": 8,
+  "verdict": "CONFIRM",
+  "why": "Panel I prints AD3/3 3.7 and AD4/4 2.8 under the groups, 24% lower in e4/e4, with the p = 0.02 bracket joining these two."
+ },
+ {
+  "key": "pmid37290814",
+  "index": 5,
+  "verdict": "CONFIRM",
+  "why": "Panel J mean lines ApoE3 ~14.8% and ApoE4 ~12.4% Rab7 overlap, a ~14-16% decrease."
+ },
+ {
+  "key": "pmid38891941",
+  "index": 8,
+  "verdict": "CONFIRM",
+  "why": "Panel T at 12 months: orange APPPS1:E3 ~0.080 and purple APPPS1:E4 ~0.111 ug/mg, ~1.4x, within 15% of ~1.3x."
+ },
+ {
+  "key": "pmid39880097",
+  "index": 9,
+  "verdict": "CONFIRM",
+  "why": "Panel C at 5 uM LPS (1:1): APOE3 ~53 and APOE4 ~119 au, ~2.3x."
+ },
+ {
+  "key": "doi_10_1101_2025_11_11_687891",
+  "index": 17,
+  "verdict": "CONFIRM",
+  "why": "Fig 7C lower EC: grey (APOE genotype) ** bar joins female APOE3 and APOE4; full legend key p<0.01:**."
+ },
+ {
+  "key": "doi_10_64898_2026_05_12_724612",
+  "index": 2,
+  "verdict": "CONFIRM",
+  "why": "Panel G untreated APOE33 ~5.18 and APOE44 ~5.15 (dpH ~0.03); ns bracket joins exactly these two, legend key ns = non-significant."
+ },
+ {
+  "key": "doi_10_64898_2026_05_12_724612",
+  "index": 8,
+  "verdict": "CONFIRM",
+  "why": "Panel S3C LAMP1: APOE33 ~0.9 and APOE44 ~-0.9 Z (dZ ~1.8); single * over this two-group column, legend key *p<0.05."
+ },
+ {
+  "key": "doi_10_64898_2026_05_12_724612",
+  "index": 13,
+  "verdict": "CONFIRM",
+  "why": "Panel S3E SQSTM1: APOE33 mean ~-0.91 and APOE44 ~0.90 Z (dZ ~1.8, within 15% of 1.9); * over this column, legend *p<0.05."
+ },
+ {
+  "key": "pmid23132858",
+  "index": 4,
+  "verdict": "ADJUST",
+  "set": {
+   "effect_size": "~0.66x",
+   "effect_size_provenance": "estimated_from_figure"
+  },
+  "why": "Panel D apoE3 ~10.8 and apoE4 ~7.1; the summary orders apoE3 -> apoE4 and apoE4 is lower, so the fold is ~0.66x, not 1.5x (wrong side of 1)."
+ },
+ {
+  "key": "pmid28035917",
+  "index": 3,
+  "verdict": "CONFIRM",
+  "why": "Panel C cytosolic (white) bars rApoE3 ~121% and rApoE4 ~224%, ~1.85x."
+ },
+ {
+  "key": "pmid32517777",
+  "index": 14,
+  "verdict": "CONFIRM",
+  "why": "Panel b AUC: FBS ~15.7 and KH ~20.7, a ~32% increase."
+ },
+ {
+  "key": "pmid34919811",
+  "index": 1,
+  "verdict": "CONFIRM",
+  "why": "Panel G bars APOE3 ~1.0 and APOE4 ~1.27, ~1.3x; the only bracket joins E2 and E4."
+ },
+ {
+  "key": "pmid34919811",
+  "index": 6,
+  "verdict": "CONFIRM",
+  "why": "Panel F bars APOE3 ~99 and APOE4 ~105, ~5-6% difference."
+ },
+ {
+  "key": "pmid34982109",
+  "index": 15,
+  "verdict": "CONFIRM",
+  "why": "Fig 3A means APOE3 ~0.011 and APOE4 ~0.036, ~3.3x (within 15% of 3.4x); ** over this bracket = P<0.01 by the legend key."
+ },
+ {
+  "key": "pmid36825945",
+  "index": 2,
+  "verdict": "CONFIRM",
+  "why": "Panel B bars APOE e3 ~3.50 and e4 ~3.95, ~13% higher."
+ },
+ {
+  "key": "pmid36825945",
+  "index": 9,
+  "verdict": "CONFIRM",
+  "why": "Panel C means APOE e3 ~0.020 and e4 ~0.034, ~1.7x, within 15% of ~1.6x."
+ },
+ {
+  "key": "pmid38891941",
+  "index": 17,
+  "verdict": "ADJUST",
+  "set": {
+   "effect_size": "~dROI=0.08",
+   "effect_size_provenance": "estimated_from_figure"
+  },
+  "why": "Panel D at 8 months the APPPS1:E3 bar is ~0 % ROI and APPPS1:E4 ~0.085, so no ~2x fold exists (reference near zero); a named difference of ~0.08 % ROI is what the figure supports."
+ },
+ {
+  "key": "pmid39468688",
+  "index": 7,
+  "verdict": "CONFIRM",
+  "why": "Panel l right: ApoE4+PHF ~0.57 and +CAP ~0.10, ~82% lower; P<0.0001 printed on the bracket joining these two."
+ },
+ {
+  "key": "pmid40457456",
+  "index": 12,
+  "verdict": "CONFIRM",
+  "why": "Panel H Abeta42: E3/E3 ~0.34 and E4/E4 ~1.45 puncta/cell (~4.3x, within 15%); *** on this bracket = p<0.001 by the legend key."
+ },
+ {
+  "key": "pmid40675218",
+  "index": 7,
+  "verdict": "CONFIRM",
+  "why": "Panel G bars E3 ~0.33 and E4 ~0.35 (legend prints 0.333 and 0.351), ~5% higher, matching ~6%."
+ },
+ {
+  "key": "pmid40675218",
+  "index": 12,
+  "verdict": "CONFIRM",
+  "why": "Panel D: legend prints E3 0.616 and E4 0.643 um2, ~4% higher, matching ~5%."
+ },
+ {
+  "key": "pmid40675218",
+  "index": 24,
+  "verdict": "CONFIRM",
+  "why": "Panel L: E3 ~0.30 and E4 ~0.45 (legend 0.304 and 0.453), ~1.5x."
+ },
+ {
+  "key": "pmid40675218",
+  "index": 32,
+  "verdict": "CONFIRM",
+  "why": "Panel M bars drop to E3 ~0.70 and E4 ~0.59 (legend 0.702 and 0.59), ~0.84x."
+ },
+ {
+  "key": "pmid41103078",
+  "index": 6,
+  "verdict": "CONFIRM",
+  "why": "Panel H mean bars APOE3 ~0.88 and APOE4 ~0.79 (~10% lower); **** on this bracket, and this legend's own key reads ****p < .01."
+ },
+ {
+  "key": "pmid42239208",
+  "index": 1,
+  "verdict": "CONFIRM",
+  "why": "Panel I medians APOE3 ~1.0 and APOE4 ~0.77, ~24% lower; p = 0.0006 printed on the bracket joining these two."
+ },
+ {
+  "key": "pmid42274838",
+  "index": 19,
+  "verdict": "CONFIRM",
+  "why": "Panel D bars APOE3 ~100 and APOE4 ~27, ~73% lower."
+ }
+]

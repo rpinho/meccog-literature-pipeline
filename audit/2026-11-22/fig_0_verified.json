@@ -1,0 +1,242 @@
+[
+ {
+  "key": "doi_10_21203_rs_3_rs_2343150_v1",
+  "index": 4,
+  "verdict": "CONFIRM",
+  "why": "Fig 5A M1 bars read ApoE3 ~0.25 vs ApoE4 ~0.115 (axis 0-0.3 from zero), a ~54% decrease."
+ },
+ {
+  "key": "doi_10_21203_rs_3_rs_2343150_v1",
+  "index": 12,
+  "verdict": "CONFIRM",
+  "why": "Fig 8B early-endosome bars read E3 ~0.38 vs E4 ~0.51 (axis from zero), a ~34% increase."
+ },
+ {
+  "key": "pmid30375977",
+  "index": 1,
+  "verdict": "CONFIRM",
+  "why": "Fig 2C Apoer2 bars read E3+R ~77 vs E4+R ~27 (axis from zero), a ~65% decrease."
+ },
+ {
+  "key": "pmid30375977",
+  "index": 9,
+  "verdict": "CONFIRM",
+  "why": "Fig 2C Ldlr bars read E3+R ~100 and E4+R ~100, so ~1.0x."
+ },
+ {
+  "key": "pmid30375977",
+  "index": 29,
+  "verdict": "CONFIRM",
+  "why": "Fig 4G EMD87580 without bafilomycin ~100 vs with 100 nM bafilomycin ~33, a ~67% decrease."
+ },
+ {
+  "key": "pmid30375977",
+  "index": 33,
+  "verdict": "CONFIRM",
+  "why": "Fig 6D GluN2B bars read E4+R ~25 vs E4+R+EMD87580 ~95, ~3.8x."
+ },
+ {
+  "key": "pmid40845853",
+  "index": 2,
+  "verdict": "CONFIRM",
+  "why": "Fig 5H medians read ApoE3 ~0.32 vs ApoE4 ~0.13-0.14 tubules/1000 um2, a ~56-60% decrease."
+ },
+ {
+  "key": "pmid28684412",
+  "index": 0,
+  "verdict": "CONFIRM",
+  "why": "Fig 3B C+C group means read E3 ~1.0 vs E4 ~1.27, ~1.3x."
+ },
+ {
+  "key": "pmid28684412",
+  "index": 9,
+  "verdict": "CONFIRM",
+  "why": "Fig 3E C+C group means read E3 ~1.0 vs E4 ~1.5, ~1.5x."
+ },
+ {
+  "key": "pmid34982109",
+  "index": 1,
+  "verdict": "CONFIRM",
+  "why": "Fig 1B APOE4 abundance reads NT ~91 vs Baf ~120 (axis starts at 80, fold from values) = ~1.3x; the innermost NT-Baf bracket carries ** (legend: **P<0.01)."
+ },
+ {
+  "key": "pmid34982109",
+  "index": 11,
+  "verdict": "CONFIRM",
+  "why": "Fig 3B green/red ratio reads APOE3 ~2.2 vs APOE4 ~0.8, a ~61-64% decrease; the APOE3-APOE4 bracket carries * (legend: *P<0.05)."
+ },
+ {
+  "key": "pmid36324176",
+  "index": 2,
+  "verdict": "ADJUST",
+  "set": {
+   "effect_size": "~0.17x"
+  },
+  "why": "Fold must be comparison over reference: Ct3/4 over Ct3/3 is 0.38/2.20 (printed means; figure medians 0.4/2) = ~0.17-0.2x, so 5x is on the wrong side of 1."
+ },
+ {
+  "key": "pmid37280636",
+  "index": 17,
+  "verdict": "CONFIRM",
+  "why": "Fig 5C W34 chi1 histogram peaks read ~185-190 deg for ApoE3M and ~297-300 deg for ApoE4M, a ~110 deg difference."
+ },
+ {
+  "key": "pmid37290814",
+  "index": 7,
+  "verdict": "CONFIRM",
+  "why": "Fig 1J means read ApoE3 ~14% vs ApoE4 ~12% overlap (printed 14.2 vs 12.1), a ~15% decrease."
+ },
+ {
+  "key": "pmid39880097",
+  "index": 7,
+  "verdict": "ADJUST",
+  "set": {
+   "p_value": "<=0.01"
+  },
+  "why": "Fig 6B means read APOE3+LPS ~28 vs APOE4+LPS ~45 (~1.6x, correct), but the long bracket joining these two groups carries ** (legend **p<=0.01); the *** is APOE4 vs APOE4+LPS."
+ },
+ {
+  "key": "doi_10_1101_2023_10_02_560519",
+  "index": 12,
+  "verdict": "CONFIRM",
+  "why": "Fig S1 lysosomal density bars read apoE3 ~0.14 vs apoE4 ~0.165 lysosomes/um2, a ~18-20% increase."
+ },
+ {
+  "key": "doi_10_1101_2025_11_11_687891",
+  "index": 32,
+  "verdict": "CONFIRM",
+  "why": "Zoomed Fig 10B young neuronal row: the bracket from female APOE3 to female APOE4 carries ** and the full legend key reads p<0.01:**."
+ },
+ {
+  "key": "doi_10_64898_2026_05_12_724612",
+  "index": 4,
+  "verdict": "ADJUST",
+  "set": {
+   "effect_size": "~42%"
+  },
+  "why": "Zoomed Fig 3H bars read APOE33 ~0.72e4 vs APOE44 ~0.42e4 (axis from zero), a ~42% decrease rather than 60%; the APOE33-APOE44 bracket carries **** (p<0.0001), which is right."
+ },
+ {
+  "key": "doi_10_64898_2026_05_12_724612",
+  "index": 10,
+  "verdict": "CONFIRM",
+  "why": "Fig S3C HEXA Z-scores read APOE33 ~0.95 vs APOE44 ~-0.85 (difference ~1.8 in magnitude, APOE44 lower); single * over HEXA, legend *p<0.05."
+ },
+ {
+  "key": "doi_10_64898_2026_05_12_724612",
+  "index": 15,
+  "verdict": "ADJUST",
+  "set": {
+   "effect_size": "~dpH=0.17"
+  },
+  "why": "Fig 7M: the APOE33->APOE44 comparison after debris is 5.235 vs ~5.40 (dpH ~0.17) with **** (p<0.0001); the read's 0.12 was the within-APOE44 change, whose bracket carries only ***."
+ },
+ {
+  "key": "pmid23132858",
+  "index": 8,
+  "verdict": "CONFIRM",
+  "why": "Fig 7B degraded apoE reads E3 1.0 vs E4 ~0.21, a ~79% decrease."
+ },
+ {
+  "key": "pmid31641056",
+  "index": 1,
+  "verdict": "CONFIRM",
+  "why": "Fig 2B means read rApoE3 ~45% vs rApoE4 ~56% colocalization, ~1.24-1.3x."
+ },
+ {
+  "key": "pmid32709881",
+  "index": 18,
+  "verdict": "CONFIRM",
+  "why": "Fig 3d LC3-II CCCP+CQ bars read APOE3 ~13.7 vs APOE4 ~1.8 fold of E3, an ~87% decrease."
+ },
+ {
+  "key": "pmid34919811",
+  "index": 4,
+  "verdict": "CONFIRM",
+  "why": "Fig 4E LAMP2/beta-actin reads E3 ~1.0 vs E4 ~0.57 (~43% decrease); the E3-E4 bracket carries ** (legend **p<0.01)."
+ },
+ {
+  "key": "pmid34982109",
+  "index": 4,
+  "verdict": "ADJUST",
+  "set": {
+   "effect_size": "~4%"
+  },
+  "why": "Zoomed Fig 1B APOE4-row LC3 abundance (axis 550-800) reads NT mean ~604 vs Rap ~627, a ~4% increase."
+ },
+ {
+  "key": "pmid34982109",
+  "index": 18,
+  "verdict": "CONFIRM",
+  "why": "Fig 3B green/red ratio reads APOE3 ~2.2 vs APOE4 ~0.8 (~60-64% lower); bracket * with legend *P<0.05."
+ },
+ {
+  "key": "pmid36825945",
+  "index": 5,
+  "verdict": "CONFIRM",
+  "why": "Fig 4B untreated bars read E3 ~1.71 vs E4 ~1.16 sparks/min, a ~32% decrease."
+ },
+ {
+  "key": "pmid38217595",
+  "index": 7,
+  "verdict": "CONFIRM",
+  "why": "Fig 8C lysosome bars read E3 ~0.33 vs E4 ~0.34, ~1.0x."
+ },
+ {
+  "key": "pmid39468688",
+  "index": 3,
+  "verdict": "CONFIRM",
+  "why": "Zoomed Fig 5l bars read ApoE3+PHF ~0.07-0.08 vs ApoE4+PHF ~0.57 (~7.5-8x); the bracket joining them prints P<0.0001."
+ },
+ {
+  "key": "pmid40457456",
+  "index": 4,
+  "verdict": "CONFIRM",
+  "why": "Zoomed Fig 1K at 20 h reads E3/E3 ~6,850 vs E4/E4 ~3,400, a ~50% decrease."
+ },
+ {
+  "key": "pmid40675218",
+  "index": 3,
+  "verdict": "CONFIRM",
+  "why": "Fig 1J bars read E3 ~0.83 vs E4 ~0.79 um2, a ~5% decrease."
+ },
+ {
+  "key": "pmid40675218",
+  "index": 10,
+  "verdict": "CONFIRM",
+  "why": "Fig 4B bars read E3 ~37 vs E4 ~37 puncta (legend prints 37 and 37), ~1x."
+ },
+ {
+  "key": "pmid40675218",
+  "index": 22,
+  "verdict": "CONFIRM",
+  "why": "Fig 4N bars read E3 ~130 vs E4 ~235 (legend prints 132.5 vs 234.6), ~1.8x."
+ },
+ {
+  "key": "pmid40675218",
+  "index": 30,
+  "verdict": "CONFIRM",
+  "why": "Fig 6L bars read E3 ~1.18 vs E4 ~1.15 normalized to control, ~1.0x."
+ },
+ {
+  "key": "pmid41103078",
+  "index": 0,
+  "verdict": "CONFIRM",
+  "why": "Fig 1A DMSO bars read HsAPOE3 1.00 vs HsAPOE4 ~0.43 (~57% decrease); the bracket carries **** and the legend's own (published) key reads ****p < .01."
+ },
+ {
+  "key": "pmid41103078",
+  "index": 28,
+  "verdict": "ADJUST",
+  "set": {
+   "effect_size": "~31%"
+  },
+  "why": "Zoomed Fig 6B LGALS3BP bars read APOE3 ~95 vs APOE4 ~65 PLA intensity (axis from zero), a ~31% decrease; **** over the pair maps to p<.0005 in the legend, so the p value stands."
+ },
+ {
+  "key": "pmid42239208",
+  "index": 8,
+  "verdict": "CONFIRM",
+  "why": "Fig 5H medians read darkGFP ~1.0 vs INPP5D ~0.95 RAB7 intensity, a ~5% decrease."
+ }
+]

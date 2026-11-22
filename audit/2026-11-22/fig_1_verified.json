@@ -1,0 +1,237 @@
+[
+ {
+  "key": "doi_10_21203_rs_3_rs_2343150_v1",
+  "index": 5,
+  "verdict": "CONFIRM",
+  "why": "Fig 5B bars read ApoE3 ~0.38 and ApoE4 ~0.51 M1 (legend prints 0.37 vs 0.50), a ~35% increase."
+ },
+ {
+  "key": "doi_10_21203_rs_3_rs_2343150_v1",
+  "index": 16,
+  "verdict": "CONFIRM",
+  "why": "Fig 8C early-endosome bars read E3 ~0.28 and E4 ~0.36 (legend prints the same), a ~29% increase."
+ },
+ {
+  "key": "pmid30375977",
+  "index": 3,
+  "verdict": "CONFIRM",
+  "why": "Fig 2C IR bars read E3+R ~103 and E4+R ~102 percent of control, so E4/E3 is ~1.0x."
+ },
+ {
+  "key": "pmid30375977",
+  "index": 11,
+  "verdict": "CONFIRM",
+  "why": "Fig 2E bars read E3 ~100 and E4 ~157 percent of ApoE3, so E4/E3 is ~1.6x."
+ },
+ {
+  "key": "pmid30375977",
+  "index": 30,
+  "verdict": "CONFIRM",
+  "why": "Fig 5D bars read E4+R ~28 and E4+R+shNHE6(a) ~102, so the knockdown fold is ~3.6x."
+ },
+ {
+  "key": "pmid30375977",
+  "index": 34,
+  "verdict": "CONFIRM",
+  "why": "Fig 6F bars read E4+R ~28 and E4+R+EMD87580 ~95, so the inhibitor fold is ~3.4x, within tolerance of ~3.5x."
+ },
+ {
+  "key": "pmid40845853",
+  "index": 3,
+  "verdict": "CONFIRM",
+  "why": "Fig 5H box medians read ApoE3 ~0.32 and ApoE4 ~0.14 tubules per 1000 um2, a ~56% decrease, within tolerance of ~60%."
+ },
+ {
+  "key": "pmid28684412",
+  "index": 1,
+  "verdict": "CONFIRM",
+  "why": "Fig 3B N+C group (RFP-E3+E3-GFP vs RFP-E4+E4-GFP) mean lines read ~0.84 and ~1.06, so E4/E3 is ~1.26x, within tolerance of ~1.2x."
+ },
+ {
+  "key": "pmid28684412",
+  "index": 10,
+  "verdict": "CONFIRM",
+  "why": "Fig 3E N+C group mean lines read E3 ~1.02 and E4 ~1.64, so E4/E3 is ~1.6x, within tolerance of ~1.7x."
+ },
+ {
+  "key": "pmid34982109",
+  "index": 2,
+  "verdict": "CONFIRM",
+  "why": "Fig 1B APOE4 Abundance reads NT ~91 and Rap ~108 (~1.2x); the NT-Rap bracket carries one * and the legend key gives *P<0.05."
+ },
+ {
+  "key": "pmid35471463",
+  "index": 0,
+  "verdict": "CONFIRM",
+  "why": "Fig 5a/5b fractions 27-29 read AD E4- ~16.5 and AD E4+ ~19.5 percent, so E4+/E4- is ~1.2x."
+ },
+ {
+  "key": "pmid36324176",
+  "index": 4,
+  "verdict": "ADJUST",
+  "set": {
+   "effect_size": "~0.1x"
+  },
+  "why": "Fig 3D prints means AD3/3 2.3 and AD4/4 0.1 (text 2.27 vs 0.24), so the fold of e4/e4 over e3/e3 is ~0.1x, not 23x (wrong side of 1); the AD3/3-AD4/4 bracket does read p < 0.0001."
+ },
+ {
+  "key": "pmid37290814",
+  "index": 4,
+  "verdict": "CONFIRM",
+  "why": "Fig 1I mean lines read ApoE3 ~36% and ApoE4 ~30.5% LAMP1 overlap, a ~15% decrease, within tolerance of ~14%."
+ },
+ {
+  "key": "pmid37290814",
+  "index": 9,
+  "verdict": "ADJUST",
+  "set": {
+   "effect_size": "~28%",
+   "effect_size_provenance": "printed_in_text"
+  },
+  "why": "Fig 2L mean lines read DMSO ~9.1% and Baf ~8.2% (~10%), but the quote and description report this exact comparison as medians 8.7% to 6.3%, a ~28% decrease, so the printed value should stand rather than a mean read that contradicts the row."
+ },
+ {
+  "key": "pmid39880097",
+  "index": 8,
+  "verdict": "CONFIRM",
+  "why": "Fig 6C bars read APOE3 ~47 and APOE4 ~101 au without LPS, so APOE4/APOE3 is ~2.2x."
+ },
+ {
+  "key": "doi_10_1101_2025_11_11_687891",
+  "index": 7,
+  "verdict": "CONFIRM",
+  "why": "Fig 4B hippocampus neuronal LAMP1 panel shows a single * over the APOE3-APOE4 bracket and the legend key gives p<0.05: *."
+ },
+ {
+  "key": "doi_10_64898_2026_05_12_724612",
+  "index": 0,
+  "verdict": "CONFIRM",
+  "why": "Fig 3E means read APOE33 ~0.033 and APOE44 ~0.068 (~2.1x), with * over the pair and the legend key *p < 0.05."
+ },
+ {
+  "key": "doi_10_64898_2026_05_12_724612",
+  "index": 5,
+  "verdict": "CONFIRM",
+  "why": "Fig S3C shows one * above each of LAMP1, LAMP2, HEXA and HEXB with APOE44 below APOE33, and the legend key gives *p < 0.05."
+ },
+ {
+  "key": "doi_10_64898_2026_05_12_724612",
+  "index": 11,
+  "verdict": "CONFIRM",
+  "why": "Fig S3C HEXB reads APOE33 ~0.92 and APOE44 ~-0.85 Z-score (difference ~1.8, within tolerance of 1.9), with one * keyed as p < 0.05."
+ },
+ {
+  "key": "pmid23132858",
+  "index": 3,
+  "verdict": "ADJUST",
+  "set": {
+   "effect_size": "~0.66x"
+  },
+  "why": "Fig 5D bars read apoE3 ~10.8 and apoE4 ~7.1, so the fold of apoE4 over apoE3 is ~0.66x; the read gave ~1.5x, the wrong side of 1."
+ },
+ {
+  "key": "pmid23132858",
+  "index": 10,
+  "verdict": "CONFIRM",
+  "why": "Fig 7D bars read E3 1.0 and E4 ~0.65, a ~35% decrease."
+ },
+ {
+  "key": "pmid32517777",
+  "index": 9,
+  "verdict": "CONFIRM",
+  "why": "Fig 4e bars read APOE3 ~0.68 and APOE3+Baf ~0.64, a ~6% decrease with no mark for this pair."
+ },
+ {
+  "key": "pmid32709881",
+  "index": 19,
+  "verdict": "CONFIRM",
+  "why": "Fig 3d delta LC3-II CCCP bars read APOE3 ~1.0 and APOE4 ~0.05, a ~95% decrease."
+ },
+ {
+  "key": "pmid34919811",
+  "index": 5,
+  "verdict": "CONFIRM",
+  "why": "Fig 4E Lamp2 bars read E3 ~1.0 and E4 ~0.57 (~43% decrease), with ** on the E3-E4 bracket and the legend key **p < 0.01."
+ },
+ {
+  "key": "pmid34982109",
+  "index": 7,
+  "verdict": "ADJUST",
+  "set": {
+   "effect_size": "~24%"
+  },
+  "why": "Fig 1C Beclin1 mean lines read APOE3 ~166 and APOE4 ~206, a ~24% increase rather than ~31%; the * over this pair (key *P<0.05) is right."
+ },
+ {
+  "key": "pmid36825945",
+  "index": 1,
+  "verdict": "CONFIRM",
+  "why": "Fig 3A(ii) bars read APOE e3 ~0.59 and APOE e4 ~0.725, a ~24% increase, within tolerance of ~25%."
+ },
+ {
+  "key": "pmid36825945",
+  "index": 6,
+  "verdict": "CONFIRM",
+  "why": "Fig 4B untreated bars read APOE e3 ~1.71 and APOE e4 ~1.16 sparks/min (as printed), a ~32% decrease."
+ },
+ {
+  "key": "pmid38480892",
+  "index": 2,
+  "verdict": "CONFIRM",
+  "why": "Fig 3s bars read LD- ~67 and LD+ ~143 (~2.1x), with P = 0.0148 printed over the pair."
+ },
+ {
+  "key": "pmid39468688",
+  "index": 5,
+  "verdict": "CONFIRM",
+  "why": "Fig 5j % autophagosome bars read ApoE4+PHF ~79 and +CAP ~37.5 (a ~53% decrease), with P<0.0001 printed on that bracket."
+ },
+ {
+  "key": "pmid40457456",
+  "index": 6,
+  "verdict": "CONFIRM",
+  "why": "Fig 1M 24 h endpoints read apilimod/control ~4660/2160 (~2.2x) in E3/E3 and ~3700/1400 (~2.6x) in E4/E4, so ~2.5x is within tolerance as a cross-genotype value."
+ },
+ {
+  "key": "pmid40675218",
+  "index": 4,
+  "verdict": "CONFIRM",
+  "why": "Fig 1K bars read E3 ~0.26 and E4 ~0.26 um2, so E4/E3 is ~1.0x."
+ },
+ {
+  "key": "pmid40675218",
+  "index": 11,
+  "verdict": "CONFIRM",
+  "why": "Fig 4C bars read E3 ~120 and E4 ~135 puncta/100 um (legend prints 121 vs 136), a ~12% increase."
+ },
+ {
+  "key": "pmid40675218",
+  "index": 23,
+  "verdict": "CONFIRM",
+  "why": "Fig 4O bars read E3 ~180 and E4 ~260 CatD puncta (legend prints 178.5 vs 260.6), so E4/E3 is ~1.5x."
+ },
+ {
+  "key": "pmid40675218",
+  "index": 31,
+  "verdict": "REVERT",
+  "why": "Fig 6L is normalized to the E3 untreated control (legend: E4 = 1.19), not to the ApoE4 vehicle, so the E4 bar at ~1.19 is not a cholesterol-versus-vehicle fold within ApoE4 cultures."
+ },
+ {
+  "key": "pmid41103078",
+  "index": 5,
+  "verdict": "CONFIRM",
+  "why": "Fig 1G bars read HsAPOE3 1.0 and HsAPOE4 ~0.76, a ~24% decrease, within tolerance of ~25%."
+ },
+ {
+  "key": "pmid41103078",
+  "index": 29,
+  "verdict": "CONFIRM",
+  "why": "Fig 6B TMED5 bars read APOE3 ~60 and APOE4 ~101-105 (~1.7-1.75x, within tolerance of ~1.9x), with **** over the pair and the legend key ****p < .0005."
+ },
+ {
+  "key": "pmid42239208",
+  "index": 9,
+  "verdict": "CONFIRM",
+  "why": "Fig 5J medians read darkGFP ~0.74 and INPP5D ~0.52 (a ~30% decrease), with p = 0.0359 printed on the darkGFP-INPP5D bracket."
+ }
+]

@@ -1,0 +1,231 @@
+[
+ {
+  "key": "doi_10_21203_rs_3_rs_2343150_v1",
+  "index": 11,
+  "verdict": "CONFIRM",
+  "why": "Fig 8A recycling endosome: E3 bar ~0.12, E4 ~0.13 (legend prints 0.12 vs 0.12), so ~1.1x is within tolerance and on the right side of 1."
+ },
+ {
+  "key": "pmid20547867",
+  "index": 1,
+  "verdict": "CONFIRM",
+  "why": "Fig 1C: ApoE3+R ~50, ApoE4+R ~25 on a zero-based axis, a ~50% decrease."
+ },
+ {
+  "key": "pmid30375977",
+  "index": 7,
+  "verdict": "CONFIRM",
+  "why": "Fig 2C Lrp1: E3+R ~104, E4+R ~101 on a zero-based axis, ~3-4% lower, matching ~4%."
+ },
+ {
+  "key": "pmid30375977",
+  "index": 28,
+  "verdict": "CONFIRM",
+  "why": "Fig 4C: E4 at 0 uM ~23, at 3 uM ~128, ~5.5x, within 15% of ~5.3x."
+ },
+ {
+  "key": "pmid30375977",
+  "index": 32,
+  "verdict": "CONFIRM",
+  "why": "Fig 5D: E4+R ~27, E4+R+shNHE6(c) ~95, ~3.5x, matching ~3.4x."
+ },
+ {
+  "key": "pmid38217595",
+  "index": 4,
+  "verdict": "CONFIRM",
+  "why": "Fig 6B VEGFR: ApoE3 ~0.24, ApoE4 ~0.39 on a zero-based axis (legend 0.24 vs 0.39), a ~62% increase."
+ },
+ {
+  "key": "pmid21297948",
+  "index": 0,
+  "verdict": "CONFIRM",
+  "why": "Fig 2c LMW: AD ApoE3 ~0.27, AD ApoE4 ~0.64, ~2.4x, matching ~2.5x."
+ },
+ {
+  "key": "pmid28684412",
+  "index": 4,
+  "verdict": "CONFIRM",
+  "why": "Fig 3C N+C (RFP-E3+E3-GFP vs RFP-E4+E4-GFP): E3 ~0.95, E4 ~2.0, ~2.1x, within tolerance of ~2.2x."
+ },
+ {
+  "key": "pmid34982109",
+  "index": 0,
+  "verdict": "CONFIRM",
+  "why": "Fig 1A APOE abundance: APOE3 ~610, APOE4 ~740 (~1.2x); the APOE3-APOE4 bracket is ** and the legend key gives **P<0.01."
+ },
+ {
+  "key": "pmid34982109",
+  "index": 9,
+  "verdict": "CONFIRM",
+  "why": "Fig 3A APOE puncta area: APOE3 ~30, APOE4 ~62 um2/surface (~2.1x); ** on the APOE3-APOE4 bracket, legend **P<0.01."
+ },
+ {
+  "key": "pmid35471463",
+  "index": 3,
+  "verdict": "CONFIRM",
+  "why": "Fig 5e fractions 27-29: Ctrl E4- ~10.3%, Ctrl E4+ ~14.5%, ~1.4x."
+ },
+ {
+  "key": "pmid37280636",
+  "index": 15,
+  "verdict": "CONFIRM",
+  "why": "Fig 5A at ~14 h: ApoE4 ~1100 a.u., ApoE4+SPA ~720 a.u., a ~35% reduction, within tolerance of ~33%."
+ },
+ {
+  "key": "pmid37290814",
+  "index": 6,
+  "verdict": "CONFIRM",
+  "why": "Fig 1I: ApoE3 mean ~36%, ApoE4 ~31% (text 35.8 vs 30.7), a ~14% decrease."
+ },
+ {
+  "key": "pmid38891941",
+  "index": 9,
+  "verdict": "ADJUST",
+  "set": {
+   "effect_size": "~1.3x"
+  },
+  "why": "Fig 4T at 16 months: APPPS1:E3 bar ~0.145 ug/mg, APPPS1:E4 ~0.185 ug/mg on a zero-based axis, ~1.28x, not 1.5x."
+ },
+ {
+  "key": "pmid39880097",
+  "index": 11,
+  "verdict": "CONFIRM",
+  "why": "Fig 8A: APOE3+LPS ~34 au, APOE4+LPS ~44 au (~1.3x); four points per group."
+ },
+ {
+  "key": "doi_10_1101_2025_11_11_687891",
+  "index": 24,
+  "verdict": "CONFIRM",
+  "why": "Fig 9D young, upper row: a single * bracket joins APOE3 and APOE4 where the female APOE3 box sits far below the rest; legend key p<0.05: *."
+ },
+ {
+  "key": "doi_10_64898_2026_05_12_724612",
+  "index": 3,
+  "verdict": "ADJUST",
+  "set": {
+   "effect_size": "~dpH=0.08",
+   "p_value": "<0.05"
+  },
+  "why": "Fig 3G: the genotype comparison after debris is APOE33+debris ~5.05 vs APOE44+debris ~5.13, bracket *, legend *p<0.05; the read's dpH=0.12 and *** belong to APOE33 vs APOE33+debris, a within-genotype bracket."
+ },
+ {
+  "key": "doi_10_64898_2026_05_12_724612",
+  "index": 9,
+  "verdict": "CONFIRM",
+  "why": "Fig S3C LAMP2: APOE33 ~0.85, APOE44 ~-0.95 Z-score (difference ~1.8); single * over LAMP2, legend *p<0.05."
+ },
+ {
+  "key": "doi_10_64898_2026_05_12_724612",
+  "index": 14,
+  "verdict": "CONFIRM",
+  "why": "Fig S3E MAP1LC3B2: APOE33 ~-0.8, APOE44 ~0.9 Z-score (difference ~1.7); no mark over this protein."
+ },
+ {
+  "key": "pmid23132858",
+  "index": 7,
+  "verdict": "CONFIRM",
+  "why": "Fig 7A with lysosomal inhibitor: E3 ~10.3, E4 ~0.8 (ratio to E3), a ~92% decrease."
+ },
+ {
+  "key": "pmid28035917",
+  "index": 5,
+  "verdict": "CONFIRM",
+  "why": "Fig 5C microsomal: rApoE3 ~230%, rApoE4 ~122% of control, a ~47% decrease."
+ },
+ {
+  "key": "pmid32517777",
+  "index": 15,
+  "verdict": "CONFIRM",
+  "why": "Fig 7c APOE4: FBS AUC ~41, KH ~35, a ~16% decrease; no marks."
+ },
+ {
+  "key": "pmid34919811",
+  "index": 3,
+  "verdict": "CONFIRM",
+  "why": "Fig 4C Lamp2: E3 ~24%, E4 ~19.5% of cell area, a ~19% decrease."
+ },
+ {
+  "key": "pmid34982109",
+  "index": 0,
+  "verdict": "ADJUST",
+  "set": {
+   "p_value": "<0.0001"
+  },
+  "why": "Fig 1A LC3II/LC3I: APOE3 ~1400, APOE4 ~2650 (~1.9x, confirmed), but the APOE3-APOE4 bracket on the ratio is ****, legend ****P<0.0001 (only the LC3 abundance bracket is **)."
+ },
+ {
+  "key": "pmid34982109",
+  "index": 16,
+  "verdict": "CONFIRM",
+  "why": "Fig 3A lysosome area: APOE3 ~29.5, APOE4 ~40 um2/surface on an axis starting at 25 (~1.35x); ** on the bracket, legend **P<0.01."
+ },
+ {
+  "key": "pmid36825945",
+  "index": 3,
+  "verdict": "CONFIRM",
+  "why": "Fig 3C: APOE e3 ~1.02, APOE e4 ~1.05 lysosomal pH ratio, ~1.0x; three points per group."
+ },
+ {
+  "key": "pmid38191671",
+  "index": 2,
+  "verdict": "CONFIRM",
+  "why": "Fig 4h left: T98G-E3 ~6.9, T98G-E4 ~2.4 (~65% lower); **** over E4 in a two-bar plot, legend ****P<0.0005."
+ },
+ {
+  "key": "pmid39468688",
+  "index": 1,
+  "verdict": "ADJUST",
+  "set": {
+   "effect_size": "~2.3x"
+  },
+  "why": "Fig 5j % autophagosome: ApoE3+PHF ~35%, ApoE4+PHF ~80% (~2.3x, not 2.7x); the bracket between them prints P<0.0001, confirmed."
+ },
+ {
+  "key": "pmid40457456",
+  "index": 3,
+  "verdict": "CONFIRM",
+  "why": "Fig 1H: E3/E3 ~120,000, E4/E4 ~58,000 MFI (~52% lower); * on the bracket, legend *p<0.05."
+ },
+ {
+  "key": "pmid40675218",
+  "index": 1,
+  "verdict": "CONFIRM",
+  "why": "Fig 1H: E3 ~40, E4 ~41 puncta per cell body (legend 40 vs 41), ~1.03x."
+ },
+ {
+  "key": "pmid40675218",
+  "index": 8,
+  "verdict": "CONFIRM",
+  "why": "Fig 2H: E3 ~0.33, E4 ~0.38 (legend 0.326 vs 0.382), a ~17% increase."
+ },
+ {
+  "key": "pmid40675218",
+  "index": 13,
+  "verdict": "CONFIRM",
+  "why": "Fig 4E: E3 ~0.24, E4 ~0.22 um2 (legend 0.237 vs 0.223), a ~6% decrease."
+ },
+ {
+  "key": "pmid40675218",
+  "index": 28,
+  "verdict": "CONFIRM",
+  "why": "Fig 6I: E3 ~4.7, E4 ~9.7 filipin puncta (legend 4.7 vs 9.7), ~2.1x."
+ },
+ {
+  "key": "pmid40675218",
+  "index": 33,
+  "verdict": "REVERT",
+  "why": "Fig 6M is normalized to the E3 untreated control, not to E4 vehicle, so the E4 bar at ~0.59 does not give a cholesterol-vs-vehicle fold for ApoE4."
+ },
+ {
+  "key": "pmid41103078",
+  "index": 7,
+  "verdict": "CONFIRM",
+  "why": "Fig 1I FCCP: HsAPOE3 mean ~0.17, HsAPOE4 ~0.07 log2 (difference ~0.1); **** on the bracket, which this legend's own key maps to p<.01."
+ },
+ {
+  "key": "pmid42239208",
+  "index": 3,
+  "verdict": "CONFIRM",
+  "why": "Fig 2K: APOE3 ~1.0, APOE4 ~0.8 LAMP1 intensity (~20% lower); the figure prints p = 0.0311 on this bracket."
+ }
+]
