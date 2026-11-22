@@ -12593,6 +12593,45 @@
    },
    "source": "elife-40048-fig2-data1.xlsx, sheet Fig2C, Lrp1: E3+R 115.7/94.8/103.6 (mean 104.7), E4+R 103.5/94.3/106.6 (mean 101.5).",
    "reason": "Consistency 11-22: the same panel is in the H2 and H4 sheets; the other sheet's value comes from the paper's source-data file, this one was read off the figure, so the source-data value is used in both."
+  },
+  {
+   "key": "pmid34617884",
+   "hyp": "H4",
+   "stage": 5,
+   "quote_start": "Receptor surface levels show a stronger reduction with ApoE4 than ApoE",
+   "summary_contains": "(ApoE3 -> ApoE4) -> (lower neuronal surface ApoER2 during Reelin stimulation)",
+   "description_start": "Across three independent experiments in primary mouse neuron",
+   "set": {
+    "effect_size": "~65%"
+   },
+   "source": "Fig 4C bar tops: E3+R ~78, E4+R ~27 (the 11-20 auditor's reading); ~65% lower. The 11-20 second check wrote ~3.6x, the ratio E3/E4, which inverts the direction.",
+   "reason": "Direction 11-22: a fold we compute is the comparison group over the reference, as the summary states it, so a decrease is below 1x; code scan of every sheet for folds whose direction contradicts the summary."
+  },
+  {
+   "key": "pmid23132858",
+   "hyp": "H5",
+   "stage": 5,
+   "quote_start": "In addition, confocal microscopy also revealed that internalized FAM-A",
+   "summary_contains": "(apoE3 -> apoE4) -> (lower Aβ42 delivery to LysoTracker-positive compartments)",
+   "description_start": "Confocal imaging of mouse N2a cells treated with lysosomal i",
+   "set": {
+    "effect_size": "~0.66x"
+   },
+   "source": "Fig 5D bars: apoE3 ~10.8, apoE4 ~7.1 (figure read 11-20); apoE4/apoE3 = 0.66x. The figure read wrote apoE3/apoE4.",
+   "reason": "Direction 11-22: a fold we compute is the comparison group over the reference, as the summary states it, so a decrease is below 1x; code scan of every sheet for folds whose direction contradicts the summary."
+  },
+  {
+   "key": "pmid23132858",
+   "hyp": "H5",
+   "stage": 5,
+   "quote_start": "Upon quantification, we confirmed that the amounts of Aβ42 in lysosome",
+   "summary_contains": "(apoE3 -> apoE4) -> (lower lysosome-associated Aβ42)",
+   "description_start": "Quantification of confocal images showed less Aβ42 associate",
+   "set": {
+    "effect_size": "~0.66x"
+   },
+   "source": "Fig 5D bars: apoE3 ~10.8, apoE4 ~7.1 (figure read 11-20); apoE4/apoE3 = 0.66x. The figure read wrote apoE3/apoE4.",
+   "reason": "Direction 11-22: a fold we compute is the comparison group over the reference, as the summary states it, so a decrease is below 1x; code scan of every sheet for folds whose direction contradicts the summary."
   }
  ]
 }

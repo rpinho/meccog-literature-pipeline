@@ -7,7 +7,7 @@ Rows that cite this figure (numbered by "item"):
 {rows}
 
 For EACH row, look at the panel its data_location names and return:
-- "effect_size": the size of the change for the row's comparison, in one of these shapes only: "40%" (percent change, no sign), "2.5x" (fold, ratio of the two groups), "dpH=0.6" (a named difference, letters=number), "qualitative", or "N/A".
+- "effect_size": the size of the change for the row's comparison, in one of these shapes only: "40%" (percent change, no sign), "2.5x" (fold: the comparison group over the reference group, in the order the row's summary gives them, "(reference -> comparison)", so a decrease is below 1x, e.g. 0.4x), "dpH=0.6" (a named difference, letters=number), "qualitative", or "N/A".
     * If the group values are PRINTED on the figure (numbers on or above the bars), use them: give the difference or ratio, and put both printed values in "note". Provenance "printed_on_figure".
     * Else, if you can measure it from bar heights or point positions against the axis, write it with a leading ~ (e.g. "~40%", "~2.1x") and provenance "estimated_from_figure". Read the axis carefully, including where it starts (axes that do not start at 0 change percentages).
     * Else keep the row's current value and provenance.
