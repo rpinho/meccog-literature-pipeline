@@ -58,6 +58,7 @@ All model calls are logged with the model id and token count in `runs/llm_calls.
 2. Europe PMC search with the same queries (adds preprints, and searches full text).
 3. Citation snowball from the starting reference: its reference list and every paper citing it (OpenAlex).
 4. Recall round (11-20): a second snowball from every paper in the live sheets, their references (NCBI elink) and the papers citing them (Europe PMC), kept when the title or abstract names APOE4 and the record is not a review (`audit/2026-11-20/recall/measure.py`). This found 2,551 papers that were not candidates: H1 151, H2 346, H3 578, H4 794, H5 682.
+5. Cap and freshness check (11-23, no model): every PubMed id for each query, without the 300 cap, plus papers indexed since 11-10 in PubMed and Europe PMC (`audit/2026-11-23/fresh.py`). 593 records were not candidates; 491 of them came from one H3 query ("apoE aggregation" and Alzheimer's, 896 PubMed hits). The code filter below, plus the hypothesis's own readout words (`prefilter.py`), kept 55 papers, and we read those by hand. The two on topic are preprint records of papers already in (PMID 37873080 is the bioRxiv record of 41103078, in H5); the rest compare no APOE isoforms or measure apoE's effect on Aβ aggregation (`summary.json`). No paper was added.
 
 Hit counts per query, in the order of `config/queries/H*.txt` (Europe PMC searches full text; we keep the top 300 per query):
 

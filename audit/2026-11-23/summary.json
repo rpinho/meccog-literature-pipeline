@@ -1,0 +1,107 @@
+{
+ "H1": {
+  "not_in_candidates": 10,
+  "beyond_300_cap": 1,
+  "indexed_since_11_10": 9,
+  "kept_by_keyword_prefilter": 0,
+  "kept_pmids": []
+ },
+ "H2": {
+  "not_in_candidates": 11,
+  "beyond_300_cap": 2,
+  "indexed_since_11_10": 9,
+  "kept_by_keyword_prefilter": 2,
+  "kept_pmids": [
+   "38798644",
+   "37461529"
+  ]
+ },
+ "H3": {
+  "not_in_candidates": 530,
+  "beyond_300_cap": 492,
+  "indexed_since_11_10": 38,
+  "kept_by_keyword_prefilter": 52,
+  "kept_pmids": [
+   "37873080",
+   "35890250",
+   "34803659",
+   "34334405",
+   "33342209",
+   "33439987",
+   "32783314",
+   "32460813",
+   "32210782",
+   "31953617",
+   "31947546",
+   "31820684",
+   "31888770",
+   "31432127",
+   "31287614",
+   "30028014",
+   "30309894",
+   "30076539",
+   "29262361",
+   "28696548",
+   "29181491",
+   "29182706",
+   "27653981",
+   "26907803",
+   "26556230",
+   "25982728",
+   "25918154",
+   "24766729",
+   "23430745",
+   "21559813",
+   "21069870",
+   "21266538",
+   "20363024",
+   "20302621",
+   "18243137",
+   "17908238",
+   "17854420",
+   "16554485",
+   "16140289",
+   "16109164",
+   "15365176",
+   "15211070",
+   "12928915",
+   "12475558",
+   "10194381",
+   "9626772",
+   "9562306",
+   "9106442",
+   "8880693",
+   "8762193",
+   "8614504",
+   "9174001"
+  ]
+ },
+ "H4": {
+  "not_in_candidates": 10,
+  "beyond_300_cap": 1,
+  "indexed_since_11_10": 9,
+  "kept_by_keyword_prefilter": 1,
+  "kept_pmids": [
+   "37461529"
+  ]
+ },
+ "H5": {
+  "not_in_candidates": 32,
+  "beyond_300_cap": 1,
+  "indexed_since_11_10": 31,
+  "kept_by_keyword_prefilter": 1,
+  "kept_pmids": [
+   "43059952"
+  ]
+ },
+ "read_by_hand": {
+  "37873080": "bioRxiv record of PMID 41103078 (already in H5)",
+  "38798644": "Research Square record of PMID 39901180 (already in the candidates)",
+  "30309894": "apoE3 kidney-disease mutants, no APOE4 vs APOE3 comparison",
+  "29262361": "molecular dynamics of apoE3/apoE4, no measurement",
+  "43059952": "extracellular vesicles of APOE4 iPSC cells, no endosome or lysosome readout",
+  "37461529": "Apoer2 intracellular domain, no APOE isoform comparison",
+  "other_H3": "apoE effects on Abeta or amylin aggregation, genetic association or imaging; not APOE4 aggregation in the endo-lysosome"
+ },
+ "outcome": "no new paper to screen; no model calls"
+}
