@@ -1,0 +1,1276 @@
+[
+ {
+  "src": "codex_result_a.json",
+  "hyp": "H3",
+  "key": "pmid16540478",
+  "finding_id": "P18.F3",
+  "text": "data/papers/pmid16540478/text.txt",
+  "supp": null,
+  "figures": [
+   "data/papers/pmid16540478/figimg/5.png"
+  ],
+  "row": {
+   "Paper/Finding ID": "P18.F3",
+   "Finding description": "A single-species sedimentation-equilibrium fit gave apoE4-(72–166) a higher equivalent molar mass than apoE3-(72–166) in PBS, 429 versus 187 kDa.",
+   "Finding quote": "The most significant difference between apoE3 and apoE4 isoform is their corresponding apoE-(72–166) proteins, which have a Meq of 187 kDa for apoE3-(72– 166) and 429 kDa for apoE4-(72–166).",
+   "Finding summary": "(apoE3-(72–166) -> apoE4-(72–166)) -> (higher equivalent molar mass in PBS)",
+   "Finding relevance": 0.6,
+   "Experimental system": "Purified recombinant human apoE3-(72–166) and apoE4-(72–166), expressed in E. coli BL21(DE3); 0.5 mg/ml in PBS, pH 7.3; sedimentation equilibrium at 20 °C, four speeds from 6,000 to 20,000 rpm, each for 14 h; single-species SEDPHAT fit. The theoretical tagged monomer mass was 12 kDa.",
+   "Data location": "Table 1, ApoE3-(72–166) and ApoE4-(72–166) rows, Mass in PBS column",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "2.29x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "The quote, direction, and PBS column agree. The equivalent-mass ratio is 429/187. The authors’ phrase “most significant difference” supplies no comparison P value.",
+   "evidence": "Table 1, apoE-(72–166), Mass in PBS: apoE3 187 kDa and apoE4 429 kDa. The Results on p. 13337 repeat both values. The theoretical monomer mass is 12 kDa for each.",
+   "directness": {
+    "class": 3,
+    "strength": 3,
+    "why": "Equivalent molar mass measures self-association of purified apoE fragments in neutral PBS, a surrogate for endo-lysosomal aggregation."
+   }
+  },
+  "item": 3
+ },
+ {
+  "src": "codex_result_a.json",
+  "hyp": "H3",
+  "key": "pmid16540478",
+  "finding_id": "P18.F6",
+  "text": "data/papers/pmid16540478/text.txt",
+  "supp": null,
+  "figures": [
+   "data/papers/pmid16540478/figimg/5.png"
+  ],
+  "row": {
+   "Paper/Finding ID": "P18.F6",
+   "Finding description": "Additional global sedimentation analyses are cited collectively in Supplementary Figs 3S–8S, while the main text reports more tetramer for apoE4-(1–231) and more monomer for apoE3-(1–231); the specific supplementary figure and panel assignments are unavailable.",
+   "Finding quote": "ApoE3-(1–231) proteins maintained more monomer, but apoE4-(1–231) had more tet- ramer.",
+   "Finding summary": "(apoE3-(1–231) -> apoE4-(1–231)) -> (greater tetramer representation in PBS)",
+   "Finding relevance": 0.6,
+   "Experimental system": "Purified recombinant human apoE3-(1–231) and apoE4-(1–231) in aqueous PBS; combined sedimentation-equilibrium and sedimentation-velocity analysis using SEDPHAT. Supplementary data and legends were unavailable; no construct-to-figure mapping was assumed.",
+   "Data location": "Table 2, ApoE-(1–231) rows, especially the SV local concentrations for the monomer and tetramer. Supplementary Figs. 3S–8S are cited collectively, with the individual panel unavailable.",
+   "Effect size": "N/A",
+   "Effect size provenance": "full_text_unavailable",
+   "P value": "N/A",
+   "P value provenance": "full_text_unavailable",
+   "Sample size": "N/A",
+   "Sample size provenance": "full_text_unavailable",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Finding description": "In the global fit for apoE-(1–231), the sedimentation-velocity tetramer signal was 0.33 for apoE4 versus 0.21 for apoE3. The monomer signal was 0.17 versus 0.28, respectively, in local A280 units.",
+    "Finding summary": "ApoE4-(1–231) had a higher fitted tetramer signal and a lower fitted monomer signal than apoE3-(1–231) in the sedimentation-velocity data.",
+    "Experimental system": "Purified recombinant human apoE3-(1–231) and apoE4-(1–231) in aqueous PBS at pH 7.3. Combined sedimentation-equilibrium and sedimentation-velocity data were fitted with a three-species SEDPHAT model. The reported comparison uses the velocity local concentrations.",
+    "Data location": "Table 2, apoE-(1–231), Local concentration of SV (A280) columns, monomer and tetramer rows",
+    "Effect size": "1.57x",
+    "Effect size provenance": "printed_in_text",
+    "P value provenance": "not_found_in_source",
+    "Sample size provenance": "not_found_in_source"
+   },
+   "reason": "Table 2 gives the SV tetramer ratio, 0.33/0.21, without a supplementary panel assignment. The lower apoE4 monomer signal is specific to SV. The main paper reports neither a comparison P value nor an independent replicate count.",
+   "evidence": "Table 2, apoE3 then apoE4: SV tetramer 0.21 and 0.33, SV monomer 0.28 and 0.17. The SE monomer entries are 0.15 and 0.17. These are local A280 signals, distinct from the Fig. 1D integrated percentages in F2.",
+   "directness": {
+    "class": 3,
+    "strength": 3,
+    "why": "The fitted tetramer and monomer signals measure neutral-PBS self-association of purified apoE fragments."
+   }
+  },
+  "item": 6
+ },
+ {
+  "src": "codex_result_a.json",
+  "hyp": "H3",
+  "key": "pmid16540478",
+  "finding_id": "P18.F9",
+  "text": "data/papers/pmid16540478/text.txt",
+  "supp": null,
+  "figures": [
+   "data/papers/pmid16540478/figimg/5.png"
+  ],
+  "row": {
+   "Paper/Finding ID": "P18.F9",
+   "Finding description": "With 50 mM DHPC, apoE3-(72–299) and apoE4-(72–299) became predominantly monomeric, with major low-sedimentation species comprising 65% and 75%, respectively; no significant difference in isoform-specific aggregation was reported or statistically tested.",
+   "Finding quote": "This isoformic structural variation did not exist in the presence of dihexanoylphosphatidylcholine.",
+   "Finding summary": "(apoE3-(72–299) -> apoE4-(72–299)) -> (no change in predominantly monomeric apoE state with DHPC)",
+   "Finding relevance": 0.5,
+   "Experimental system": "Purified recombinant human apoE3-(72–299) and apoE4-(72–299), expressed in E. coli BL21(DE3); 0.5 mg/ml in PBS, pH 7.3, containing 50 mM DHPC; sedimentation velocity at 20 °C and 42,000 rpm for 6 h; continuous c(s) analysis.",
+   "Data location": "Fig 2B",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Finding description": "In 50 mM DHPC, both apoE-(72–299) isoforms were predominantly monomeric. The major low-sedimentation species accounted for 75% of apoE4 versus 65% of apoE3.",
+    "Finding quote": "Each protein appeared as a major species at s = 1.6–2.2 (79, 73, 65, 75, 85, and 64% for apoE3, apoE4, apoE3-(72–299), apoE4-(72–299), apoE3-(1–231), and apoE4-(1–231), respectively).",
+    "Finding summary": "Both apoE-(72–299) isoforms were predominantly monomeric in DHPC, with a higher major-species fraction for apoE4.",
+    "Data location": "Fig. 2B and the accompanying Results on p. 13337, Dissociation of ApoE Proteins in the Presence of Dihexanoylphosphatidylcholine Micelles",
+    "Effect size": "1.15x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "The original abstract quote summarizes the authors’ work broadly. The Results identify the construct and give the low-S fraction ratio, 75/65. Both isoforms share the predominant state. No isoform-comparison test is reported.",
+   "evidence": "The Fig. 2 legend assigns B to apoE-(72–299). Panel B shows dominant low-S peaks for both traces. The Results assign the third and fourth percentages, 65% and 75%, to apoE3-(72–299) and apoE4-(72–299).",
+   "directness": {
+    "class": 3,
+    "strength": 3,
+    "why": "The isoform comparison measures apoE self-association in a cell-free DHPC micellar solution at neutral pH."
+   }
+  },
+  "item": 9
+ },
+ {
+  "src": "codex_result_a.json",
+  "hyp": "H3",
+  "key": "pmid16540478",
+  "finding_id": "P18.F12",
+  "text": "data/papers/pmid16540478/text.txt",
+  "supp": null,
+  "figures": [
+   "data/papers/pmid16540478/figimg/5.png"
+  ],
+  "row": {
+   "Paper/Finding ID": "P18.F12",
+   "Finding description": "The fitted full-length apoE3 and apoE4 distributions both contained monomer, dimer, tetramer, hexamer, octamer, and decamer classes, with no significant difference in the overall oligomerization pattern reported or statistically tested.",
+   "Finding quote": "For apoE3 and apoE4 proteins, the discrete species of molar mass corresponded to monomer, dimer, tetramer, hexamer, octamer, and decamer.",
+   "Finding summary": "(apoE3 -> apoE4) -> (no change in the broad classes of full-length apoE oligomers in PBS)",
+   "Finding relevance": 0.45,
+   "Experimental system": "Purified recombinant full-length human apoE3 and apoE4 in aqueous PBS; discrete species and local A280 concentrations estimated by global analysis of sedimentation-equilibrium and sedimentation-velocity experiments at 20 °C.",
+   "Data location": "Fig 3E and Fig 3F",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Finding description": "The global fit assigned full-length apoE3 and apoE4 in PBS to the same six oligomer classes: monomer, dimer, tetramer, hexamer, octamer, and decamer.",
+    "Finding summary": "Both full-length isoforms had the same six fitted oligomer classes in PBS.",
+    "Data location": "Fig. 3E (apoE3) and Fig. 3F (apoE4), Table 2 full-length ApoE rows, and Results on p. 13337",
+    "Effect size": "1x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "The Results quote supports identical class membership. The ratio is six fitted classes divided by six and applies only to that count. The class-specific concentrations vary, and the paper gives no test of whole-distribution equality or independent replicate n.",
+   "evidence": "The Fig. 3 legend specifies a “six discrete species model.” In the original PDF, E and F plot fitted SE and SV local concentrations against Svedberg. Table 2 lists six full-length species per isoform, which the Results identify by oligomer class.",
+   "directness": {
+    "class": 3,
+    "strength": 3,
+    "why": "The fitted oligomer classes describe purified full-length apoE assembly in neutral PBS, the same surrogate used in the H3 reference rows."
+   }
+  },
+  "item": 12
+ },
+ {
+  "src": "codex_result_a.json",
+  "hyp": "H3",
+  "key": "pmid16540478",
+  "finding_id": "P18.F15",
+  "text": "data/papers/pmid16540478/text.txt",
+  "supp": null,
+  "figures": [
+   "data/papers/pmid16540478/figimg/5.png"
+  ],
+  "row": {
+   "Paper/Finding ID": "P18.F15",
+   "Finding description": "A single-species sedimentation-equilibrium fit gave full-length apoE4 a slightly higher equivalent molar mass than apoE3 in PBS, 158 versus 151 kDa.",
+   "Finding quote": "On the other hand, apoE3 and apoE4 showed a Meq of 151 and 158 kDa, respectively, in aqueous PBS.",
+   "Finding summary": "(apoE3 -> apoE4) -> (slightly higher equivalent molar mass in PBS)",
+   "Finding relevance": 0.35,
+   "Experimental system": "Purified recombinant full-length human apoE3 and apoE4 expressed in E. coli; 0.5 mg/ml in PBS, pH 7.3; sedimentation equilibrium at 20 °C and 6,000, 10,000, 15,000, and 20,000 rpm, each for 14 h; single-species SEDPHAT fit to heterogeneous protein populations.",
+   "Data location": "Table 1, ApoE3 and ApoE4 rows, Mass in PBS column",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.05x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "The quote, full-length comparison, and PBS column agree. The fitted equivalent-mass ratio is 158/151. The four rotor speeds are measurement conditions and supply no independent replicate count.",
+   "evidence": "Table 1, full-length ApoE3 and ApoE4 rows, Mass in PBS: 151 and 158 kDa. Results on p. 13337 repeat both values. The table footnote reports fitting errors, with no P value for this comparison.",
+   "directness": {
+    "class": 3,
+    "strength": 3,
+    "why": "The single-species equivalent mass of full-length apoE in neutral PBS is a cell-free surrogate for endo-lysosomal aggregation."
+   }
+  },
+  "item": 15
+ },
+ {
+  "src": "codex_result_a.json",
+  "hyp": "H2",
+  "key": "pmid32588544",
+  "finding_id": "P7.F3",
+  "text": "data/papers/pmid32588544/text.txt",
+  "supp": null,
+  "figures": [],
+  "row": {
+   "Paper/Finding ID": "P7.F3",
+   "Finding description": "Western blots of biotinylated sortilin pulled down on streptavidin after the internalization and recycling phases showed that more biotinylated receptor stayed intracellular with apoE4 than with apoE3, indicating less recycling.",
+   "Finding quote": "In these studies, the amount of receptors recycling back to the cell surface was reduced by 50% in apoE4-treated as com- pared to apoE3-treated cells (Figures 6D, E",
+   "Finding summary": "(apoE3 -> apoE4) -> (more biotinylated sortilin retained intracellularly after recycling phase)",
+   "Finding relevance": 0.55,
+   "Experimental system": "CHO-S cells (murine sortilin); 5 µg/mL apoE3 or apoE4; biotinylation and GSH-strip recycling assay; representative western blot",
+   "Data location": "Fig 6D",
+   "Effect size": "qualitative",
+   "Effect size provenance": "visual_only",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "verdict": "DROP",
+   "set": {},
+   "reason": "P7.F1 already includes this blot. The 50% in the shared quote describes the reduction in recycling calculated from replicate blots. Applying it to the amount retained intracellularly would assign it to a different quantity.",
+   "evidence": "Fig 6D shows a stronger residual intracellular apoE4 band than apoE3 after the recycling phase. Fig 6E quantifies this experiment by subtracting the residual signal from the signal after internalization. [Fig 6D–E](https://edoc.mdc-berlin.de/id/eprint/18922/1/18922oa.pdf#page=9)",
+   "directness": {
+    "class": 1,
+    "strength": 1,
+    "why": "The blot supplies the internalization and post-recycling measurements for the direct receptor-recycling assay in P7.F1."
+   }
+  },
+  "item": 18
+ },
+ {
+  "src": "codex_result_a.json",
+  "hyp": "H5",
+  "key": "pmid38912292",
+  "finding_id": "P16.F2",
+  "text": "data/papers/pmid38912292/text.txt",
+  "supp": null,
+  "figures": [],
+  "row": {
+   "Paper/Finding ID": "P16.F2",
+   "Finding description": "APOE4-expressing cultured cells had higher LC3-II levels than the APOE3 comparison, consistent with altered autophagic flux.",
+   "Finding quote": "Similar to recent studies showing that APOE4 downregulates autophagy, we find higher levels of LC3-II in APOE4-expressing cells; this effect is not further modulated by bafilomycin A1 treatment, suggesting that there might be a late-stage block in autophagic flux at the level of the lysosome.",
+   "Finding summary": "(APOE3 -> APOE4) -> (higher LC3-II, suggesting impaired late-stage autophagic flux)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Cultured APOE4-expressing cells in the paper's APOE3/APOE4 comparison. Cell species, cell type/source, age, assay method, and duration are not specified. LC3-II is a surrogate for autophagic status.",
+   "Data location": "Fig 1; “Similar to recent studies showing that APOE4 downregulates autophagy, we find higher levels of LC3-II in APOE4-expressing cells; this effect is not further modulated by bafilomycin A1 treatment, suggesting that there might be a late-stage block in autophagic flux at the level of the lysosome.”",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Finding description": "APOE4-expressing cells had higher LC3-II than APOE3-expressing cells. Bafilomycin A1 did not further increase LC3-II in the APOE4 cells, suggesting a possible late-stage block in autophagic flux.",
+    "Finding summary": "(APOE3 -> APOE4) -> (higher LC3-II with no further increase after bafilomycin A1 in APOE4 cells, suggesting a possible late-stage flux block)",
+    "Experimental system": "Cultured cells expressing fluorescently tagged human APOE3 or APOE4. The authors assessed LC3-II with and without bafilomycin A1. P16 does not specify the cell type, treatment duration, or LC3-II measurement method.",
+    "Data location": "Main text, paragraph beginning “Having observed,” sentence 2. Figure 1 summarizes LC3-II accumulation and altered flux. The bafilomycin A1 result is reported in the text."
+   },
+   "reason": "The verbatim quote reports the authors’ own inhibitor result as well as elevated LC3-II. Include that result in the description and score the flux assay 1/1. P16 gives no LC3-II group values, comparison-specific P value, or sample size.",
+   "evidence": "“we find higher levels of LC3-II in APOE4-expressing cells; this effect is not further modulated by bafilomycin A1 treatment, suggesting that there might be a late-stage block in autophagic flux at the level of the lysosome.”",
+   "directness": {
+    "class": 1,
+    "strength": 1,
+    "why": "Measuring the LC3-II response to bafilomycin A1 tests autophagic flux directly under the H5 convention."
+   }
+  },
+  "item": 21
+ },
+ {
+  "src": "codex_result_a.json",
+  "hyp": "H3",
+  "key": "pmid21322570",
+  "finding_id": "P33.F1",
+  "text": "data/papers/pmid21322570/text.txt",
+  "supp": null,
+  "figures": [],
+  "row": {
+   "Paper/Finding ID": "P33.F1",
+   "Finding description": "Table 1 lists a higher monomer-to-dimer association rate constant for apoE4 than for apoE3, 8.5×10³ versus 4.7×10³ M⁻¹s⁻¹. The authors used these previously determined association constants in the DMPC clearance fits.",
+   "Finding quote": "Sample | k+1† (M-1s-1) | k-1† (s-1) | k+2† (M-1s-1) | k-2† (s-1) | k+c (s-1) WT-apoE4 | 8.5×103 | 6.4×10-4 | 2.0×105 | 4.0×10-3 | 2.4±0.2×10-3 WT-apoE3 | 4.7×103 | 5.4×10-4 | 0.8×105 | 5.0×10-3 | 2.0±0.2×10-3",
+   "Finding summary": "(APOE3 -> APOE4) -> (higher monomer-to-dimer association rate constant k+1)",
+   "Finding relevance": 0.4,
+   "Experimental system": "Full-length WT apoE4 and apoE3 in vitro. The pH 7.4 DMPC vesicle-clearance model used lipid-free self-association constants from ref. 35. The authors adjusted k−1 and k−2 in fitting the clearance data.",
+   "Data location": "Table 1",
+   "Effect size": "1.81x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "verdict": "DROP",
+   "set": {},
+   "reason": "The quote matches Table 1, and 8.5/4.7 gives 1.81x. The authors carried k+1 forward from reference 35 and adjusted only the dissociation constants in the clearance fits. The association-rate comparison therefore fails the requirement for an original P33 finding.",
+   "evidence": "“We have previously determined the rate constants (k-1, k+1, k-2, k+2) governing the self-association process under the conditions of these experiments (35).” The Results specify that “the best fits were achieved by slight adjustments to the dissociation rate contants (viz, k-2 and k-1).”",
+   "directness": {
+    "class": 3,
+    "strength": 3,
+    "why": "The rate of dimer formation by purified apoE at neutral pH is a surrogate for endo-lysosomal apoE aggregation."
+   }
+  },
+  "item": 24
+ },
+ {
+  "src": "codex_result_a.json",
+  "hyp": "H3",
+  "key": "pmid20923231",
+  "finding_id": "P34.F1",
+  "text": "data/papers/pmid20923231/text.txt",
+  "supp": null,
+  "figures": [],
+  "row": {
+   "Paper/Finding ID": "P34.F1",
+   "Finding description": "Fitting the FRET dilution kinetics to a monomer-dimer-tetramer model gave a lower monomer-dimer dissociation constant for recombinant ApoE4(A102C) than for ApoE3(C112S,A102C) (K12^-1 = 79 nM vs 119 nM). This means ApoE4 dimerizes with modestly higher affinity at neutral pH in vitro.",
+   "Finding quote": "Table 1 shows that the association and the dissociation rate constants for ApoE4, ApoE3 and ApoE2 are different.",
+   "Finding summary": "(APOE3 -> APOE4) -> (lower K12 dissociation constant, i.e. tighter dimerization of lipid-free apoE in vitro)",
+   "Finding relevance": 0.35,
+   "Experimental system": "Recombinant lipid-free human apoE4 (A102C) and apoE3 (C112S,A102C) labeled with Alexa488/Alexa546 (1:3); 15 uM stock diluted to 5-480 nM in 20 mM HEPES pH 7.4, 150 mM NaCl; intermolecular FRET kinetics over 1 h at 24 C, global fit in KinTek Explorer",
+   "Data location": "Table 1",
+   "Effect size": "0.66x",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "5-7",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Finding quote": "ApoE4(A102C) | Kinetics | 8.5×103 | 6.7×10−4 | 2.0×105 | 4.0×10−3 | (b)79×10−9 | (b)22×10−9\n\nApoE3(C112S,A102C) | Kinetics | 4.7×103 | 5.6×10−4 | 0.8×105 | 5.0×10−3 | (b)119×10−9 | (b)62×10−9",
+    "Finding summary": "(APOE3 -> APOE4) -> (lower fitted monomer–dimer dissociation constant K12⁻¹, indicating tighter dimerization of lipid-free apoE at pH 7.4)",
+    "Experimental system": "Recombinant lipid-free human ApoE4(A102C) and ApoE3(C112S,A102C), labeled separately with Alexa488 or Alexa546 and mixed at a 1:3 donor-to-acceptor ratio. Approximately 15 μM stock was diluted into 20 mM HEPES, pH 7.4, 150 mM NaCl and 0.1% β-mercaptoethanol. ApoE4 final concentrations were 15–480 nM. Intermolecular FRET was monitored for 1 h at 24 °C, and dilution curves were fit globally in KinTek Explorer. The reported n counts dilution experiments per isoform."
+   },
+   "reason": "The original quote is verbatim and describes the authors’ own results, but it gives no direction for the ApoE4–ApoE3 comparison. Table 1 supports the description and the effect size of 0.66x (79/119, printed_in_text). The summary needs the inverse symbol because K12 denotes the association constant. Keep P value N/A with not_found_in_source and sample size 5-7 with printed_in_text. The paper reports dilution experiments per isoform and gives no P value for the affinity comparison.",
+   "evidence": "Table 1 labels the two equilibrium columns “K12−1(M) | K24−1(M)”. The first column gives 79×10−9 M for ApoE4(A102C) and 119×10−9 M for ApoE3(C112S,A102C). The FRET Results state “at least five to seven dilution experiments were performed for each ApoE isoform” and list the ApoE4 final concentrations as “15, 30, 60, 120, 240 and 480 nM”.",
+   "directness": {
+    "class": 3,
+    "strength": 3,
+    "why": "The isoform comparison measures apoE self-association in a neutral cell-free buffer, matching the H3 class 3, strength 3 reference for a model-derived oligomer dissociation constant outside the endo-lysosome."
+   }
+  },
+  "item": 27
+ },
+ {
+  "src": "codex_result_b.json",
+  "hyp": "H3",
+  "key": "pmid21219628",
+  "finding_id": "P10.F1",
+  "text": "data/papers/pmid21219628/text.txt",
+  "supp": null,
+  "figures": [],
+  "row": {
+   "Paper/Finding ID": "P10.F1",
+   "Finding description": "Sedimentation velocity analysis found a larger multi-oligomer-region occupancy for apoE4-(72-166), 59%, than for apoE3-(72-166), 55%, in PBS.",
+   "Finding quote": "The second major species was a broad peak at s = 3.5 to 6.5, with a total occupancy of 46 % for apoE2-(72-166), 55 % for apoE3-(72-166), and 59 % for apoE4-(72-166). This region may be the result of a contribution by multi-oligomers.",
+   "Finding summary": "(apoE3-(72-166) -> apoE4-(72-166)) -> (higher occupancy of the multi-oligomer region in PBS)",
+   "Finding relevance": 0.7,
+   "Experimental system": "Recombinant human apoE3- and apoE4-(72-166) fragments expressed in E. coli; 0.5 mg/ml in PBS, pH 7.3, at 20°C; sedimentation velocity at 42,000 rpm and continuous c(s) analysis.",
+   "Data location": "Fig 2A, broad peak at 3.5-6.5 S",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Finding description": "In PBS, the broad 3.5–6.5 S region accounted for 59% of the apoE4-(72-166) distribution and 55% of the apoE3-(72-166) distribution. The authors suggest that multiple oligomers may contribute to this region.",
+    "Finding summary": "(apoE3-(72-166) -> apoE4-(72-166)) -> (higher occupancy of the broad 3.5–6.5 S region in PBS)",
+    "Effect size": "1.07x"
+   },
+   "reason": "The verbatim Results quote gives an apoE4/apoE3 occupancy ratio of 59/55, a difference of 4 percentage points. The oligomer assignment is tentative. For all 13 rows, the paper gives neither an isoform-comparison P value nor an independent replicate count. The ten equilibrium readings per speed are repeated measurements.",
+   "evidence": "Results for Fig 2A: “55 % for apoE3-(72-166), and 59 % for apoE4-(72-166). This region may be the result of a contribution by multi-oligomers.” The published figure image could not be retrieved for direct inspection. The occupancies are printed in the [paper](https://link.springer.com/article/10.1186/1423-0127-18-4#Fig2).",
+   "directness": {
+    "class": 3,
+    "strength": 3,
+    "why": "Neutral-pH sedimentation of purified apoE fragments matches the H3 reference rows for cell-free large-species fractions."
+   }
+  },
+  "item": 30
+ },
+ {
+  "src": "codex_result_b.json",
+  "hyp": "H3",
+  "key": "pmid21219628",
+  "finding_id": "P10.F4",
+  "text": "data/papers/pmid21219628/text.txt",
+  "supp": null,
+  "figures": [],
+  "row": {
+   "Paper/Finding ID": "P10.F4",
+   "Finding description": "Sedimentation velocity analysis of recombinant human apoE-(72-166) fragments in PBS found that the small species near 2 S occupied 6% for apoE4 versus 23% for apoE3, consistent with greater redistribution of apoE4 into larger assemblies.",
+   "Finding quote": "The first of these showed a sedimentation coefficient distribution of 20 % for apoE2-(72-166) and 23 % for apoE3-(72-166) at s = 2.0, but only 6 % for the same species of apoE4-(72-166).",
+   "Finding summary": "(apoE3-(72-166) -> apoE4-(72-166)) -> (lower small-species occupancy in PBS)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Recombinant human apoE3- and apoE4-(72-166) fragments expressed in E. coli; 0.5 mg/ml in PBS, pH 7.3, at 20°C; sedimentation velocity at 42,000 rpm with SEDFIT continuous c(s) analysis; no cells or endo-lysosomes.",
+   "Data location": "Fig 2A",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Finding description": "In PBS, the small species near 2 S accounted for 6% of the apoE4-(72-166) distribution and 23% of the apoE3-(72-166) distribution.",
+    "Effect size": "0.26x"
+   },
+   "reason": "The verbatim Results quote gives an apoE4/apoE3 occupancy ratio of 6/23, a decrease of 17 percentage points. The experiment compared two distributions at one concentration. It did not track conversion of the small species into larger assemblies.",
+   "evidence": "Results for Fig 2A: “23 % for apoE3-(72-166) at s = 2.0, but only 6 % for the same species of apoE4-(72-166).” The values come from the printed Results. The figure image was unavailable for direct inspection.",
+   "directness": {
+    "class": 3,
+    "strength": 3,
+    "why": "The small-species fraction measures the purified fragments’ assembly distribution in neutral PBS."
+   }
+  },
+  "item": 33
+ },
+ {
+  "src": "codex_result_b.json",
+  "hyp": "H3",
+  "key": "pmid21219628",
+  "finding_id": "P10.F7",
+  "text": "data/papers/pmid21219628/text.txt",
+  "supp": null,
+  "figures": [],
+  "row": {
+   "Paper/Finding ID": "P10.F7",
+   "Finding description": "In PBS, the fitted dimer-sized species had lower sedimentation-velocity local concentration for apoE4-(72-166), 0.02 A280, than for apoE3-(72-166), 0.07 A280; both equilibrium concentrations were zero, and fitted masses were 24 and 18 kDa, respectively.",
+   "Finding quote": "PBS | 2.2 | 19 | 0.07, 0.10 | 2.1 | 18 | 0.07, 0 | 2.7 | 24 | 0.02, 0",
+   "Finding summary": "(apoE3-(72-166) -> apoE4-(72-166)) -> (lower fitted dimer-sized-species signal in PBS sedimentation velocity)",
+   "Finding relevance": 0.55,
+   "Experimental system": "Recombinant human apoE3- and apoE4-(72-166) fragments in PBS, pH 7.3, at 20°C; global SEDPHAT discrete-species fitting of sedimentation velocity at 42,000 rpm and equilibrium at 10,000, 15,000, and 20,000 rpm, each equilibrium speed for 18 hours.",
+   "Data location": "Table 2, PBS, first species",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "0.29x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "The effect is the apoE4/apoE3 fitted velocity signal ratio, 0.02/0.07. Both fitted equilibrium signals are zero. The masses and directions in the description match the quoted row.",
+   "evidence": "Table 2, PBS, first species, apoE3 then apoE4: “2.1 | 18 | 0.07, 0 | 2.7 | 24 | 0.02, 0”.",
+   "directness": {
+    "class": 3,
+    "strength": 3,
+    "why": "The dimer-sized species is a measure of purified apoE fragment oligomerization in neutral PBS."
+   }
+  },
+  "item": 36
+ },
+ {
+  "src": "codex_result_b.json",
+  "hyp": "H3",
+  "key": "pmid21219628",
+  "finding_id": "P10.F10",
+  "text": "data/papers/pmid21219628/text.txt",
+  "supp": null,
+  "figures": [],
+  "row": {
+   "Paper/Finding ID": "P10.F10",
+   "Finding description": "In 50 mM DHPC, the larger peptide-lipid species had greater fitted mass for apoE4-(72-166) than apoE3-(72-166), 45 versus 40 kDa, and higher velocity concentration, 0.03 versus 0.02 A280, but lower equilibrium concentration, 0.14 versus 0.15 A280.",
+   "Finding quote": "| 4.3 | 71 | 0.01, 0.15 | 3.1 | 40 | 0.02, 0.15 | 3.8 | 45 | 0.03, 0.14",
+   "Finding summary": "(apoE3-(72-166) -> apoE4-(72-166)) -> (higher larger-complex mass with discordant fitted concentration changes in 50 mM DHPC)",
+   "Finding relevance": 0.45,
+   "Experimental system": "Recombinant human apoE3- and apoE4-(72-166) fragments in PBS, pH 7.3, with 50 mM DHPC at 20°C; global two-discrete-species sedimentation analysis; larger complexes interpreted as peptide dimers associated with micelles.",
+   "Data location": "Table 2, 50 mM DHPC, second species",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.125x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "The effect is the apoE4/apoE3 fitted peptide–lipid complex mass ratio, 45/40. The velocity signal is 0.01 A280 higher and the equilibrium signal is 0.01 A280 lower for apoE4. The authors assign both larger complexes the same peptide stoichiometry of a dimer with a micelle.",
+   "evidence": "Table 2, 50 mM DHPC, second species, apoE3 then apoE4: “3.1 | 40 | 0.02, 0.15 | 3.8 | 45 | 0.03, 0.14”.",
+   "directness": {
+    "class": 3,
+    "strength": 4,
+    "why": "Micellar lipid contributes to the fitted mass, so the mass difference gives weak evidence for a difference in apoE self-association."
+   }
+  },
+  "item": 39
+ },
+ {
+  "src": "codex_result_b.json",
+  "hyp": "H3",
+  "key": "pmid21219628",
+  "finding_id": "P10.F13",
+  "text": "data/papers/pmid21219628/text.txt",
+  "supp": null,
+  "figures": [],
+  "row": {
+   "Paper/Finding ID": "P10.F13",
+   "Finding description": "In 100 mM DHPC, apoE4-(72-166) had lower fitted small-complex concentrations than apoE3-(72-166), 0.27 versus 0.32 A280 in velocity and 0.04 versus 0.08 A280 in equilibrium, with fitted masses of 20 versus 19 kDa.",
+   "Finding quote": "100 mM DHPC | 1.2 | 30 | 0.31, 0 | 1.0 | 19 | 0.32, 0.08 | 0.8 | 20 | 0.27, 0.04",
+   "Finding summary": "(apoE3-(72-166) -> apoE4-(72-166)) -> (lower fitted monomer-micelle-complex signals in 100 mM DHPC)",
+   "Finding relevance": 0.4,
+   "Experimental system": "Recombinant human apoE3- and apoE4-(72-166) fragments in PBS, pH 7.3, with 100 mM DHPC at 20°C; combined sedimentation velocity/equilibrium two-discrete-species fitting; masses include micellar lipid.",
+   "Data location": "Table 2, 100 mM DHPC, first species",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 3,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "0.84x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "The effect is the apoE4/apoE3 fitted velocity signal ratio, 0.27/0.32. The equilibrium signal ratio is 0.04/0.08, or 0.50x. Both directions and fitted masses match the quoted row.",
+   "evidence": "Table 2, 100 mM DHPC, first species, apoE3 then apoE4: “1.0 | 19 | 0.32, 0.08 | 0.8 | 20 | 0.27, 0.04”.",
+   "directness": {
+    "class": 3,
+    "strength": 4,
+    "why": "The fitted signal measures a monomer–micelle population whose abundance only indirectly reflects apoE aggregation."
+   }
+  },
+  "item": 42
+ },
+ {
+  "src": "codex_result_b.json",
+  "hyp": "H5",
+  "key": "pmid36825945",
+  "finding_id": "P11.F3",
+  "text": "data/papers/pmid36825945/text.txt",
+  "supp": "data/papers/pmid36825945/supp.txt",
+  "figures": [
+   "data/papers/pmid36825945/figimg/3.png"
+  ],
+  "row": {
+   "Paper/Finding ID": "P11.F3",
+   "Finding description": "GPN-induced calcium-release traces indicated higher lysosomal calcium content in APOE4 than APOE3 human iPSC-derived cortical neurons.",
+   "Finding quote": "Using this experimental paradigm, we found that neurons expressing APOE ε4, the greatest genetic risk factor for LOAD, had significantly higher levels of lysosomal Ca2+ compared with APOE ε3 (P=0.0102), APOE ε2 (P<0.0001) and APOE−/− (P<0.0001) neurons (Fig. 3A).",
+   "Finding summary": "(APOE3 -> APOE4) -> (higher lysosomal calcium content in human cortical neurons)",
+   "Finding relevance": 0.8,
+   "Experimental system": "Human cortical neurons differentiated from EBiSC isogenic iPSCs BIONi010-C-2 (APOE ε3/ε3) and BIONi010-C-4 (APOE ε4/ε4); neuronal differentiation involved 7 days in SynaptoJuice A followed by up to 2 weeks in SynaptoJuice B; donor age and AD status were not stated. Fura2-AM imaging after 2 µM ionomycin followed by 500 µM GPN.",
+   "Data location": "Fig 3A(i)",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "0.0102",
+   "P value provenance": "printed_in_text",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 3,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Finding description": "After ionomycin pretreatment, GPN evoked a larger calcium-release signal in APOE4 than APOE3 human iPSC-derived cortical neurons, indicating greater releasable lysosomal calcium content.",
+    "Data location": "Fig 3A(ii)",
+    "Effect size": "~1.23x",
+    "Effect size provenance": "estimated_from_figure"
+   },
+   "reason": "Panel ii quantifies the genotype comparison. Panel i shows representative traces. The quote and pairwise P value are correct. The paper gives only a general minimum of three biological replicates, so the exact panel-specific n remains unavailable.",
+   "evidence": "In Fig. 3A(ii), the APOE3 and APOE4 bar heights are about 0.58 and 0.71 ΔF/F0. The Results explicitly assign P=0.0102 to APOE4 versus APOE3.",
+   "directness": {
+    "class": 3,
+    "strength": 3,
+    "why": "GPN-releasable calcium estimates acidic-store content and matches the H5 reference row for the same readout."
+   }
+  },
+  "item": 45
+ },
+ {
+  "src": "codex_result_b.json",
+  "hyp": "H5",
+  "key": "pmid36825945",
+  "finding_id": "P11.F6",
+  "text": "data/papers/pmid36825945/text.txt",
+  "supp": "data/papers/pmid36825945/supp.txt",
+  "figures": [
+   "data/papers/pmid36825945/figimg/3.png"
+  ],
+  "row": {
+   "Paper/Finding ID": "P11.F6",
+   "Finding description": "BODIPY-pepstatin-positive spot number showed no significant difference across APOE genotypes, including APOE4 versus APOE3, despite a trend toward fewer spots in APOE4 neurons.",
+   "Finding quote": "There was also a trend towards fewer BODIPY–pepstatin fluorescent spots per cell in the APOE ε4 neurons, but this was not significant (Fig. S2I).",
+   "Finding summary": "(APOE3 -> APOE4) -> (no change in active-cathepsin-D-positive spot number)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Human cortical neurons from EBiSC isogenic iPSCs BIONi010-C-2 (APOE ε3/ε3) and BIONi010-C-4 (APOE ε4/ε4); donor age and AD status were not stated. BODIPY-pepstatin labeling at 1:500 for 15 minutes at 37°C followed by Operetta spot counting; supplementary legend describes spots normalized to cell area. Three biological replicates with one technical repeat.",
+   "Data location": "Supplementary Fig S2I",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "supplement_only",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Finding description": "APOE4 neurons had numerically fewer BODIPY–pepstatin-positive spots per unit cell area than APOE3 neurons. The difference did not reach significance.",
+    "Finding summary": "No significant APOE4 versus APOE3 difference was detected in active-cathepsin-D-positive spots per unit cell area.",
+    "Effect size": "~0.89x",
+    "Effect size provenance": "estimated_from_figure",
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "The quote matches the main Results. The supplementary axis and legend specify the denominator as cell area. The figure-wide star key supplies no numerical P value for this unmarked comparison.",
+   "evidence": "Supplementary Fig. S2I shows means of about 2.6×10⁻³ spots per unit cell area for APOE3 and 2.3×10⁻³ for APOE4. The significance brackets appear in G and H. The S2 legend specifies three biological replicates with one technical repeat.",
+   "directness": {
+    "class": 3,
+    "strength": 3,
+    "why": "Counting cathepsin-D-positive compartments matches the H5 marker-count reference and measures a different endpoint from catalytic substrate turnover."
+   }
+  },
+  "item": 48
+ },
+ {
+  "src": "codex_result_b.json",
+  "hyp": "H5",
+  "key": "pmid28945989",
+  "finding_id": "P26.F2",
+  "text": "data/papers/pmid28945989/text.txt",
+  "supp": null,
+  "figures": [],
+  "row": {
+   "Paper/Finding ID": "P26.F2",
+   "Finding description": "Starvation decreased mitochondrial-protein abundance in APOE3-cell insoluble aggregates but increased it in APOE4-cell aggregates, suggesting an isoform-dependent defect in cargo clearance.",
+   "Finding quote": "Furthermore, apoE3 cells decreased these protein concentrations under starvation stress, but apoE4 cells paradoxically elevated these concentrations.",
+   "Finding summary": "(APOE3 -> APOE4 during starvation) -> (mitochondrial aggregate proteins increase rather than decrease)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Human ATCC T98G astroglioma cells stably expressing apoE3 or apoE4; fed DMEM/10% FBS versus EBSS starvation for 3 hours at 37°C; proteomic analysis of sarcosyl-insoluble aggregates by LC-MS/MASCOT. Cargo abundance is an indirect mitophagy/lysosomal-clearance readout.",
+   "Data location": "Fig. 2C",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "N/A",
+   "Sample size provenance": "not_found_in_source",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Finding description": "After 3 hours of starvation, ATP5B, CS and SDHA abundance in sarcosyl-insoluble aggregates fell in apoE3 cells and rose in apoE4 cells. The CS increase in apoE4 cells was small (73 to 74). TOMM5 stayed at 0 in apoE3 cells and rose from 2 to 5 in apoE4 cells.",
+    "Finding summary": "From fed to starved conditions, three of four mitochondrial proteins decreased in apoE3-cell aggregates and all four increased numerically in apoE4-cell aggregates."
+   },
+   "reason": "The quote is verbatim and reports the authors’ own interpretation. Fig. 2C qualifies it with the TOMM5 exception. Keep the overall effect qualitative because each protein has its own starvation response within each isoform. No comparison-specific P value or n is reported.",
+   "evidence": "Fig. 2C prints relative abundance values. Fed to starved, in apoE3 and apoE4 respectively, ATP5B was 55→41 and 192→277, CS was 17→12 and 73→74, SDHA was 7→5 and 63→111, and TOMM5 was 0→0 and 2→5. These are printed entries in the figure (visual_only).",
+   "directness": {
+    "class": 3,
+    "strength": 4,
+    "why": "The isoform comparison measures how much mitochondrial protein enters or persists in the insoluble fraction during starvation, which only indirectly reflects lysosomal cargo degradation."
+   }
+  },
+  "item": 51
+ },
+ {
+  "src": "codex_result_b.json",
+  "hyp": "H3",
+  "key": "pmid18201068",
+  "finding_id": "P28.F2",
+  "text": "data/papers/pmid18201068/text.txt",
+  "supp": null,
+  "figures": [],
+  "row": {
+   "Paper/Finding ID": "P28.F2",
+   "Finding description": "After deletion of residues 273-299, apoE4(1-272) eluted entirely as monomer, whereas apoE3(1-272) was still substantially tetrameric. ApoE4 self-associated less than apoE3 here too. n = at least 3 independent experiments.",
+   "Finding quote": "Removal of residues 273–299 favors the monomeric state over the tetrameric state for both isoforms; apoE4 (1–272) exists completely as a monomer ( 27 ) whereas apoE3 (1–272) is significantly tetramerized ( Figure 6B ).",
+   "Finding summary": "(APOE3(1-272) -> APOE4(1-272)) -> (lower tetramerization; apoE4 fully monomeric)",
+   "Finding relevance": 0.35,
+   "Experimental system": "Recombinant human C-terminally truncated apoE3(1-272) and apoE4(1-272), 14C trace-labeled, 5 µg/ml, Tris buffer pH 7.4; Superdex 200 gel filtration, cell-free",
+   "Data location": "Fig 6B",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Finding quote": "the self-association of apoE4 (1–272) is completely prevented whereas apoE3 (1–272) is significantly tetramerized ( Figure 6B ).",
+    "Sample size": "N/A",
+    "Sample size provenance": "not_found_in_source"
+   },
+   "reason": "The original quote is verbatim, but its apoE4 clause cites reference 27. The replacement is the authors’ explicit interpretation of their own Fig. 6B comparison. Retain the printed lower bound of at least 3 experiments in the description because the exact n is unreported. Keep the effect qualitative because no tetramer fraction is quantified for apoE3. The word “significantly” has no accompanying P value or significance mark.",
+   "evidence": "In Fig. 6B, apoE3(1–272) (▲) has distinct earlier and later peaks. ApoE4(1–272) (×) has a single resolved peak at the monomer position. The Fig. 6 legend gives “at least 3 independent experiments using different batches of protein”.",
+   "directness": {
+    "class": 3,
+    "strength": 3,
+    "why": "The matched 1–272 fragments undergo the same neutral-pH gel-filtration comparison as the full-length isoforms, and the H3 reference rows also score truncated-fragment oligomerization at strength 3."
+   }
+  },
+  "item": 54
+ },
+ {
+  "src": "codex_result_b.json",
+  "hyp": "H3",
+  "key": "pmid21297948",
+  "finding_id": "P35.F1",
+  "text": "data/papers/pmid21297948/text.txt",
+  "supp": null,
+  "figures": [],
+  "row": {
+   "Paper/Finding ID": "P35.F1",
+   "Finding description": "Densitometry of western blots of RIPA brain homogenates showed significantly more low-molecular-weight (7-10 kDa) ApoE C-terminal fragments, which partition into the detergent-insoluble fraction, in AD APOE4/4 than AD APOE3/3 brains; this is fragmentation/insolubility in aged AD tissue, not endo-lysosomal aggregation in non-AD cells.",
+   "Finding quote": "We also measured an increase in LMW (7–10 kDa) fragments in the case of AD, the presence of APOEε4 further amplifies the effect.",
+   "Finding summary": "AD APOE4/4 brains had more 7–10 kDa ApoE fragments than AD APOE3/3 brains. Separate blots identified these fragments as primarily C-terminal and recovered most in the SDS extract after Triton extraction.",
+   "Finding relevance": 0.35,
+   "Experimental system": "Postmortem human temporal cortex gray matter from AD patients homozygous APOE3/3 or APOE4/4 (MADRC brain bank), RIPA homogenate, western blot with goat polyclonal anti-ApoE, densitometry over 3 blots",
+   "Data location": "Fig 2c",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value": "<0.0001",
+   "P value provenance": "printed_in_text",
+   "Sample size": "9-13",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Finding description": "In postmortem AD temporal cortex, the 7–10 kDa ApoE fragment signal normalized to full-length ApoE was significantly higher in APOE4/4 than in APOE3/3 RIPA extracts. Separate blots identified these fragments as primarily C-terminal and recovered almost all of them in the SDS extract after Triton extraction.",
+    "Data location": "Fig 2c, low-molecular-weight bars (genotype comparison); Fig 3a (fragment identity); Fig 3b (fractionation)",
+    "Effect size": "~2.4x",
+    "Effect size provenance": "estimated_from_figure",
+    "Sample size": "11-13"
+   },
+   "reason": "The quote is verbatim from the Fig 2c legend and reports the authors’ own result. The plotted effect is a fragment-to-full-length ApoE ratio. The text gives the pairwise P value and both AD group sizes. The original range includes the nine cognitively normal controls.",
+   "evidence": "In Fig 2c’s low-molecular-weight group, the AD ApoE3 bar is about 0.27 and the AD ApoE4 bar about 0.65 on the axis normalized to full-length ApoE. Their ratio is about 2.4. The Results print “AD(3/3) vs AD(4/4), p<0.0001” and give the sample sizes as “9, 13, and 11 (cognitively normal, AD 3/3, and AD 4/4)”.",
+   "directness": {
+    "class": 3,
+    "strength": 4,
+    "why": "The study compares the specified APOE genotypes, but fragment abundance in bulk cortex is a weak surrogate for endo-lysosomal ApoE aggregation."
+   }
+  },
+  "item": 57
+ },
+ {
+  "src": "codex_result_8a.json",
+  "hyp": "H5",
+  "key": "pmid40675218",
+  "finding_id": "P17.F8",
+  "text": "data/papers/pmid40675218/text.txt",
+  "supp": "data/papers/pmid40675218/supp.txt",
+  "figures": [
+   "data/papers/pmid40675218/figimg/1.png",
+   "data/papers/pmid40675218/figimg/2.png",
+   "data/papers/pmid40675218/figimg/4.png",
+   "data/papers/pmid40675218/figimg/5.png",
+   "data/papers/pmid40675218/figimg/6.png"
+  ],
+  "row": {
+   "Paper/Finding ID": "P17.F8",
+   "Finding description": "At 18 DIV, eight-hour DQ-BSA degradation signal in dendrites showed no significant difference between ApoE4 and ApoE3 neurons; n counts embryos.",
+   "Finding quote": "When we compared our ApoE groups at 18 DIV there were no differences in the total intensities of DQ BSA in dendrites or cell bodies between ApoE KO, ApoE3, and ApoE4 neurons after 8 h (Fig. 2, G and H).",
+   "Finding summary": "(APOE3 -> APOE4) -> (no change in dendritic DQ-BSA degradation)",
+   "Finding relevance": 0.7,
+   "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures with human APOE targeted replacement; primary dendrites at 18 DIV; 25 μg/ml DQ-BSA for eight hours.",
+   "Data location": "Fig 2H",
+   "Effect size": "~17%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "4",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.17x",
+    "Effect size provenance": "printed_in_text",
+    "Finding summary": "Dendritic DQ-BSA degradation signal at 18 DIV was numerically higher in ApoE4 than ApoE3 neurons. No significant genotype difference was detected."
+   },
+   "reason": "The quote describes the authors’ dendritic result. The Fig 2H legend supplies both means and n. Its P value is for the three-group test, so the pairwise P value remains N/A.",
+   "evidence": "Fig 2H, dendritic DQ-BSA integrated density at 8 h: E3 = 0.326 ± 0.109, E4 = 0.382 ± 0.059. E4/E3 = 1.17. N (embryo) = 4. Three-group Kruskal–Wallis p = 0.219.",
+   "directness": {
+    "class": 1,
+    "strength": 1,
+    "why": "Varying APOE genotype and measuring lysosomal degradation by DQ-BSA cleavage directly tests H5’s functional endpoint."
+   }
+  },
+  "item": 60
+ },
+ {
+  "src": "codex_result_8a.json",
+  "hyp": "H5",
+  "key": "pmid40675218",
+  "finding_id": "P17.F24",
+  "text": "data/papers/pmid40675218/text.txt",
+  "supp": "data/papers/pmid40675218/supp.txt",
+  "figures": [
+   "data/papers/pmid40675218/figimg/1.png",
+   "data/papers/pmid40675218/figimg/2.png",
+   "data/papers/pmid40675218/figimg/4.png",
+   "data/papers/pmid40675218/figimg/5.png",
+   "data/papers/pmid40675218/figimg/6.png"
+  ],
+  "row": {
+   "Paper/Finding ID": "P17.F24",
+   "Finding description": "At 18 DIV, average somatic LAMP1-positive compartment size showed no significant difference between ApoE4 and ApoE3 neurons; n counts embryos.",
+   "Finding quote": "However, we did detect a significantly higher number of LAMP1+ vesicles in ApoE4 compared to ApoE3 neuronal dendrites, although there were no detectable differences in LAMP1 average vesicle size nor differences in number of LAMP1+ vesicles in the neuronal cell bodies between the ApoE groups (Fig. 1, G–K).",
+   "Finding summary": "(APOE3 -> APOE4) -> (no change in somatic LAMP1-positive compartment size)",
+   "Finding relevance": 0.5,
+   "Experimental system": "Primary mouse embryonic hippocampal/cortical mixed cultures with human APOE targeted replacement; neuronal somata at 18 DIV; LAMP1 immunofluorescence.",
+   "Data location": "Fig 1J",
+   "Effect size": "~5%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "0.951x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "The quote supports the somatic size result. The legend supplies both means. The significant E3–E4 comparison in Fig 1I applies to dendritic counts and does not supply a P value for Fig 1J.",
+   "evidence": "Fig 1J, average somatic punctum size in µm²: E3 = 0.832 ± 0.046, E4 = 0.791 ± 0.043. E4/E3 = 0.951. N (embryo) = 3. Three-group ANOVA p = 0.115.",
+   "directness": {
+    "class": 3,
+    "strength": 3,
+    "why": "Somatic LAMP1-positive vesicle size is a morphological surrogate for lysosomal function in the APOE genotype comparison."
+   }
+  },
+  "item": 63
+ },
+ {
+  "src": "codex_result_8a.json",
+  "hyp": "H5",
+  "key": "pmid40675218",
+  "finding_id": "P17.F31",
+  "text": "data/papers/pmid40675218/text.txt",
+  "supp": "data/papers/pmid40675218/supp.txt",
+  "figures": [
+   "data/papers/pmid40675218/figimg/1.png",
+   "data/papers/pmid40675218/figimg/2.png",
+   "data/papers/pmid40675218/figimg/4.png",
+   "data/papers/pmid40675218/figimg/5.png",
+   "data/papers/pmid40675218/figimg/6.png"
+  ],
+  "row": {
+   "Paper/Finding ID": "P17.F31",
+   "Finding description": "At 25–26 DIV, average somatic LAMP1-positive compartment size showed no significant difference between ApoE4 and ApoE3 neurons; n counts embryos.",
+   "Finding quote": "Despite no apparent difference in the number and size of LAMP1+ late endosomes/lysosomes, our findings are consistent with the scenario that aged ApoE4 neurons (25–26 DIV) show lower degradative capacity that could reflect a lower number of active degradative compartments.",
+   "Finding summary": "(APOE3 -> APOE4) -> (no change in somatic LAMP1-positive compartment size)",
+   "Finding relevance": 0.4,
+   "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures expressing human ApoE isoforms; neuronal somata at 25–26 DIV; LAMP1 immunofluorescence particle-size analysis.",
+   "Data location": "Fig 4D",
+   "Effect size": "~5%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "4",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "1.04x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "Fig 4D supplies the somatic size means underlying the quoted result. The E4 mean was slightly higher. The legend reports only a three-group P value.",
+   "evidence": "Fig 4D, average somatic punctum size in µm²: E3 = 0.616 ± 0.074, E4 = 0.643 ± 0.187. E4/E3 = 1.04. N (embryo) = 4. Three-group ANOVA p = 0.952.",
+   "directness": {
+    "class": 3,
+    "strength": 3,
+    "why": "Somatic LAMP1-positive vesicle size is a morphological surrogate for lysosomal function."
+   }
+  },
+  "item": 66
+ },
+ {
+  "src": "codex_result_8a.json",
+  "hyp": "H5",
+  "key": "pmid40675218",
+  "finding_id": "P17.F34",
+  "text": "data/papers/pmid40675218/text.txt",
+  "supp": "data/papers/pmid40675218/supp.txt",
+  "figures": [
+   "data/papers/pmid40675218/figimg/1.png",
+   "data/papers/pmid40675218/figimg/2.png",
+   "data/papers/pmid40675218/figimg/4.png",
+   "data/papers/pmid40675218/figimg/5.png",
+   "data/papers/pmid40675218/figimg/6.png"
+  ],
+  "row": {
+   "Paper/Finding ID": "P17.F34",
+   "Finding description": "At 25–26 DIV, somatic CD63-positive compartment number showed no significant difference between ApoE4 and ApoE3 neurons despite a higher numerical trend in ApoE4; n counts embryos.",
+   "Finding quote": "Although non-significant, we could detect a trend toward higher levels of CD63 (Figs. 4L, N and S3X) and Cathepsin D (Figs. 4M, O and S3Y) in the cell body and dendrites of ApoE4 and ApoE KO neurons compared to ApoE3, which might reflect reduced degradation in ApoE4 neurons.",
+   "Finding summary": "(APOE3 -> APOE4) -> (no change in somatic CD63-positive compartment number)",
+   "Finding relevance": 0.4,
+   "Experimental system": "Primary embryonic mouse hippocampal/cortical mixed cultures expressing human ApoE3 or ApoE4; neuronal somata at 25–26 DIV; CD63 immunofluorescence particle counting.",
+   "Data location": "Fig 4N",
+   "Effect size": "~1.8x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "5",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Finding summary": "Somatic CD63-positive vesicle counts were numerically higher in ApoE4 than ApoE3 neurons. No significant genotype difference was detected.",
+    "Effect size": "1.77x",
+    "Effect size provenance": "printed_in_text"
+   },
+   "reason": "The quote and Fig 4N support the higher numerical count in ApoE4. Both means are printed in the legend. Its P value is for the three-group ANOVA.",
+   "evidence": "Fig 4N, CD63-positive puncta per cell body: E3 = 132.5 ± 39.1, E4 = 234.6 ± 105.1. E4/E3 = 1.77. N (embryo) = 5. Three-group ANOVA p = 0.206.",
+   "directness": {
+    "class": 3,
+    "strength": 3,
+    "why": "Somatic CD63-positive vesicle count measures late-endosomal marker abundance and matches the H5 CD63 reference."
+   }
+  },
+  "item": 69
+ },
+ {
+  "src": "codex_result_8a.json",
+  "hyp": "H5",
+  "key": "doi_10_64898_2026_05_12_724612",
+  "finding_id": "P1.F14",
+  "text": "data/papers/doi_10_64898_2026_05_12_724612/text.txt",
+  "supp": null,
+  "figures": [
+   "data/papers/doi_10_64898_2026_05_12_724612/figimg/3.png",
+   "data/papers/doi_10_64898_2026_05_12_724612/figimg/7.png",
+   "data/papers/doi_10_64898_2026_05_12_724612/figimg/S3.png",
+   "data/papers/doi_10_64898_2026_05_12_724612/figimg/S7.png"
+  ],
+  "row": {
+   "Paper/Finding ID": "P1.F14",
+   "Finding description": "APOE44 microglia had higher LC3B protein abundance than APOE33 microglia in three wells per genotype, consistent with autophagosome accumulation but without direct autophagic flux measurement.",
+   "Finding quote": "Further, p62 (SQSTM1) and LC3B (MAP1LC3B2) were both upregulated, supporting a buildup of autophagosomes (Figure S3E).",
+   "Finding summary": "(APOE33 -> APOE44) -> (higher LC3B abundance, a surrogate consistent with autophagosome accumulation)",
+   "Finding relevance": 0.85,
+   "Experimental system": "Human male KOLF isogenic APOE33/APOE44 iPSC-derived microglia; baseline whole-cell proteomic LC3B abundance, identified in the paper as MAP1LC3B2, without reported LC3 turnover or flux measurement; three wells per genotype. Donor age and AD status were not stated.",
+   "Data location": "Supplementary Fig S3E, LC3B/MAP1LC3B2",
+   "Effect size": "~dZ=1.7",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "N/A",
+   "P value provenance": "full_text_unavailable",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "The verbatim Results quote and the plotted values support higher MAP1LC3B2 abundance. Keep the P value as N/A because the only visible star in S3E belongs to SQSTM1.",
+   "evidence": "In S3E, MAP1LC3B2 is the right-hand comparison. Its points average about −0.8 for APOE33 and +0.8 for APOE44, consistent with the recorded difference of about 1.7 Z-score units. The single star is above the left-hand SQSTM1 comparison. The legend gives three wells per genotype.",
+   "directness": {
+    "class": 3,
+    "strength": 3,
+    "why": "Static LC3B abundance is a surrogate for autophagic flux and receives the same score as the companion p62 measurement."
+   }
+  },
+  "item": 72
+ },
+ {
+  "src": "codex_result_8a.json",
+  "hyp": "H3",
+  "key": "pmid28684412",
+  "finding_id": "P14.F4",
+  "text": "data/papers/pmid28684412/text.txt",
+  "supp": null,
+  "figures": [
+   "data/papers/pmid28684412/figimg/3.png"
+  ],
+  "row": {
+   "Paper/Finding ID": "P14.F4",
+   "Finding description": "In six independent HEK-cell experiments, E4 showed higher N+C intermolecular FRET than E3, supporting increased apoE–apoE proximity without establishing aggregate burden or endo-lysosomal localization.",
+   "Finding quote": "When comparing the interactions between corresponding combinations of the apoE termini, intermolecular FRET was higher for E4 and lower for E2, with E3 adopting intermediate FRET levels.",
+   "Finding summary": "(APOE3 -> APOE4) -> (higher intracellular N+C intermolecular FRET in HEK cells)",
+   "Finding relevance": 0.45,
+   "Experimental system": "Human HEK293 cells transiently co-transfected with human RFP-apoE and apoE-GFP of the same isoform, E3 or E4, at a 1:1 ratio, 0.33 μg/cm2 each; collected 36 h after transfection, fixed in 2% PFA for 10 min, and analyzed by flow-cytometry FRET. Whole-cell measurement; no endosomal or lysosomal localization or acidic-pH manipulation.",
+   "Data location": "Fig 3B, N+C comparison",
+   "Effect size": "~1.2x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "6",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Effect size": "~1.3x"
+   },
+   "reason": "Using the E3 mean from the same N+C triplet gives an E4/E3 ratio of about 1.3. The quote supports the descriptive increase. The single-star line spans E2–E4, so the existing E3–E4 P-value fields are appropriate.",
+   "evidence": "Fig. 3B, middle N+C triplet. Mean normalized emission ratios are about 0.83 for E3 and 1.06 for E4. The only comparison line runs from the first group to the third. The legend gives six independent experiments.",
+   "directness": {
+    "class": 3,
+    "strength": 3,
+    "reason_for_description": "",
+    "why": "Whole-cell N+C FRET measures proximity between apoE molecules, while H3 specifies aggregation inside the endo-lysosome."
+   }
+  },
+  "item": 75
+ },
+ {
+  "src": "codex_result_8a.json",
+  "hyp": "H5",
+  "key": "pmid23132858",
+  "finding_id": "P25.F5",
+  "text": "data/papers/pmid23132858/text.txt",
+  "supp": null,
+  "figures": [
+   "data/papers/pmid23132858/figimg/5.png",
+   "data/papers/pmid23132858/figimg/7.png"
+  ],
+  "row": {
+   "Paper/Finding ID": "P25.F5",
+   "Finding description": "Cell-associated apoE measurements with and without lysosomal inhibitors contributed to the finding that apoE4 underwent less efficient lysosomal trafficking and degradation than apoE3 in mouse N2a cells.",
+   "Finding quote": "We found that apoE3 was transported into lysosomes and degraded more efficiently than apoE4 ( Fig. 7 , A and B ).",
+   "Finding summary": "(apoE3 -> apoE4) -> (less efficient lysosomal trafficking and degradation of apoE)",
+   "Finding relevance": 0.45,
+   "Experimental system": "Mouse N2a neuroblastoma cells prepared as in Fig 5A; recombinant human apoE3 or apoE4, 500 nM, with Aβ42, 500 nM, for 24 h, with or without lysosomal inhibitors; cell-associated human apoE measured by ELISA. Lipid metabolism was not measured.",
+   "Data location": "Fig 7A; Results interpretation jointly references Fig 7A and Fig 7B",
+   "Effect size": "~92%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "N/A",
+   "P value provenance": "ambiguous_panel",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Finding description": "N2a cells had less cell-associated apoE4 than apoE3 both with and without lysosomal inhibitors. With inhibitors, cell-associated apoE4 was approximately 92% lower than apoE3.",
+    "Finding summary": "(apoE3 -> apoE4, with lysosomal inhibitors) -> (lower cell-associated apoE)",
+    "Data location": "Fig. 7A, right-hand E3 versus E4 pair (+ lysosomal inhibitor) for the effect estimate",
+    "P value": "<0.01",
+    "P value provenance": "visual_only"
+   },
+   "reason": "The quote is verbatim and reports the authors’ joint interpretation of Fig. 7A and 7B. The ~92% estimate belongs specifically to cell-associated apoE under inhibition in 7A. Panel B reports the separate inhibitor-subtraction estimate of degradation.",
+   "evidence": "In Fig. 7A the inhibitor-treated bars are approximately 10.3 for E3 and 0.8–0.9 for E4. A ** bracket spans that pair, and a separate ** bracket spans the untreated pair. The panel A legend gives “( n = 3). **, p < 0.01.”",
+   "directness": {
+    "class": 3,
+    "strength": 3,
+    "why": "Total cell-associated apoE under a fixed inhibitor condition is a surrogate for lysosomal function because its abundance also depends on cellular uptake."
+   }
+  },
+  "item": 78
+ },
+ {
+  "src": "codex_result_8a.json",
+  "hyp": "H2",
+  "key": "pmid30375977",
+  "finding_id": "P3.F6",
+  "text": "data/papers/pmid30375977/text.txt",
+  "supp": "data/papers/pmid30375977/supp.txt",
+  "figures": [
+   "data/papers/pmid30375977/figimg/1.png",
+   "data/papers/pmid30375977/figimg/2.png",
+   "data/papers/pmid30375977/figimg/4.png",
+   "data/papers/pmid30375977/figimg/5.png",
+   "data/papers/pmid30375977/figimg/6.png"
+  ],
+  "row": {
+   "Paper/Finding ID": "P3.F6",
+   "Finding description": "Figure 2C quantifies surface-to-total Lrp1 levels across three independent experiments. The authors describe levels with ApoE3 and ApoE4 as comparable.",
+   "Finding quote": "Other ApoE receptors, such as low-density lipoprotein receptor-related protein 1 (Lrp1) and low-density lipoprotein receptor (Ldlr), as well as the endocytic receptor for transferrin (TfR) and insulin receptor (IR) exhibit comparable surface levels in the presence of ApoE3 or ApoE4.",
+   "Finding summary": "Surface-to-total Lrp1 levels were comparable with ApoE3 and ApoE4 under the Reelin protocol.",
+   "Finding relevance": 0.7,
+   "Experimental system": "Primary E18 Sprague-Dawley rat cortical neurons, DIV9–14; cell-derived ApoE3 or ApoE4 plus Reelin; quantified surface-biotinylation immunoblots; Lrp1 is not driven into endocytosis by Reelin.",
+   "Data location": "Fig 2C",
+   "Effect size": "~4%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 1,
+   "Directness strength": "2 strong"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {},
+   "reason": "Change strength to 1. The verbatim Fig 2 legend supports the description of comparable Lrp1 surface levels. The small numerical difference is a defensible figure estimate, and the paper gives no P value for the Lrp1 isoform comparison.",
+   "evidence": "In the Fig 2C Lrp1 group, E3+R is about 105% of control and E4+R about 101%, roughly 4% lower relative to E3+R. The significance brackets in panel C are confined to Apoer2. The legend reports three independent experiments.",
+   "directness": {
+    "class": 1,
+    "strength": 1,
+    "why": "The experiment compares ApoE3 with ApoE4 using the surface-to-total Lrp1 readout, matching the H2 surface-Lrp1 reference rows."
+   }
+  },
+  "item": 81
+ },
+ {
+  "src": "codex_result_8a.json",
+  "hyp": "H5",
+  "key": "pmid39468688",
+  "finding_id": "P23.F3",
+  "text": "data/papers/pmid39468688/text.txt",
+  "supp": "data/papers/pmid39468688/supp.txt",
+  "figures": [
+   "data/papers/pmid39468688/figimg/5.png"
+  ],
+  "row": {
+   "Paper/Finding ID": "P23.F3",
+   "Finding description": "Quantification of the tandem LC3 reporter indicated impaired autophagic processing under ApoE4 plus PHF in the ApoE isoform experiment, using 10–12 fields from three biological replicates.",
+   "Finding quote": "We detected increased autophagosomes (remaining yellow dots in Fig. 5i) relative to autolysosomes in microglia treated with ApoE4 in the presence of PHF, indicating impaired autophagy lysosomal pathway.",
+   "Finding summary": "(ApoE3 -> ApoE4, with PHF) -> (impaired autophagy lysosomal pathway)",
+   "Finding relevance": 0.65,
+   "Experimental system": "Mouse BV2 immortalized microglial cells, not human cells. Recombinant human ApoE3 or ApoE4, 4 μg/ml for 6 h in 10% FBS, washing and 4 h in fresh medium, then 1 μg/ml tau PHF for 24 h. Tandem mRFP-GFP-LC3 reporter puncta were quantified from fixed-cell fluorescence images; the authors interpret the autophagosome/autolysosome distribution as autophagic flux.",
+   "Data location": "Fig. 5j",
+   "Effect size": "~2.7x",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "<0.0001",
+   "P value provenance": "visual_only",
+   "Sample size": "10-12",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 3,
+   "Directness strength": "3 moderate"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Finding description": "With PHF present in both groups, the tandem LC3 reporter showed a higher autophagosome percentage per cell under ApoE4 than under ApoE3, consistent with impaired autophagic processing. The authors analyzed 10–12 fields from three biological replicates.",
+    "Finding summary": "(ApoE3 -> ApoE4, with PHF) -> (higher autophagosome percentage per cell and lower autophagic flux)",
+    "Data location": "Fig. 5j, left plot (autophagosome percentage per cell)",
+    "Effect size": "~2.4x"
+   },
+   "reason": "The quote is verbatim and reports the authors’ result. The fold estimate applies to the autophagosome percentage in the left plot. The existing P value and field-count provenance are supported.",
+   "evidence": "In Fig. 5j, left, the ApoE3 + PHF bar is about 35% and the ApoE4 + PHF bar is about 85%, giving about 2.4x. The comparison is labeled P<0.0001. The right plot also shows lower autophagy flux under ApoE4 + PHF. The legend specifies “n = 10–12 fields from 3 biological replicates”.",
+   "directness": {
+    "class": 1,
+    "strength": 1,
+    "why": "The experiment varies ApoE isoform under the same PHF challenge and measures autophagic flux with the tandem LC3 reporter, a direct H5 readout."
+   }
+  },
+  "item": 84
+ },
+ {
+  "src": "codex_result_8a.json",
+  "hyp": "H5",
+  "key": "pmid32517777",
+  "finding_id": "P5.F13",
+  "text": "data/papers/pmid32517777/text.txt",
+  "supp": null,
+  "figures": [
+   "data/papers/pmid32517777/figimg/4.png",
+   "data/papers/pmid32517777/figimg/7.png",
+   "data/papers/pmid32517777/figimg/8.png"
+  ],
+  "row": {
+   "Paper/Finding ID": "P5.F13",
+   "Finding description": "Removing extracellular lipids produced no significant difference in GPN-estimated acidic-store calcium content in APOE3 astrocytes.",
+   "Finding quote": "Surprisingly, measurement of Ca2+ stored inside acidic organelles using the GPN-elicited depletion showed no increased Ca2+ loading in APOE3 cells kept in KH (Fig. 7b) compared to APOE3 astrocytes kept in the presence of FBS, whereas, as expected, no difference was observed between the two conditions in APOE4 astrocytes (Fig. 7c).",
+   "Finding summary": "(FBS-containing medium -> lipid-free KH in APOE3 astrocytes) -> (no change in acidic-store calcium content)",
+   "Finding relevance": 0.6,
+   "Experimental system": "Immortalized mouse astrocytes expressing human APOE3, studied alongside APOE4 cells; donor age unspecified; acute lipid-free Krebs medium versus DMEM with FBS, 200 μM GPN, fura-2/AM cytosolic calcium AUC.",
+   "Data location": "Fig 7B",
+   "Effect size": "~33%",
+   "Effect size provenance": "estimated_from_figure",
+   "P value": "N/A",
+   "P value provenance": "not_found_in_source",
+   "Sample size": "3",
+   "Sample size provenance": "printed_in_text",
+   "Directness class": 4,
+   "Directness strength": "4 weak"
+  },
+  "proposal": {
+   "verdict": "FIX",
+   "set": {
+    "Finding description": "Switching APOE3 astrocytes from FBS-containing DMEM to lipid-free Krebs medium produced no detectable increase in GPN-releasable acidic-store calcium. Class 5 (other): the experiment varied the medium within the APOE3 genotype.",
+    "Finding summary": "(FBS-containing DMEM -> lipid-free KH in APOE3 astrocytes) -> (no significant increase detected in GPN-releasable acidic-store calcium)",
+    "P value provenance": "ambiguous_panel"
+   },
+   "reason": "The quote is verbatim and reports the authors’ own Fig. 7b result. The ~33% higher mean AUC in KH is a defensible figure estimate despite the lack of a significant increase. The P value remains N/A because the figure-wide star key has no corresponding mark in panel b. The legend confirms N = 3.",
+   "evidence": "Fig. 7b shows mean AUC of about 15 in APOE3 FBS and 20 in APOE3 KH on a 0–50 axis, with no star over either bar or the comparison. The Results say “showed no increased Ca2+ loading in APOE3 cells kept in KH (Fig. 7b)”. The legend specifies 200 μM GPN, N = 3, and an unpaired parametric t-test for panels b and c.",
+   "directness": {
+    "class": 5,
+    "strength": 5,
+    "reason_for_description": "Class 5 (other): the experiment varied the medium within the APOE3 genotype.",
+    "why": "GPN-releasable calcium is an indirect readout of lysosomal function, and this within-genotype medium comparison matches the APOE4 reference row scored 5/5."
+   }
+  },
+  "item": 87
+ }
+]

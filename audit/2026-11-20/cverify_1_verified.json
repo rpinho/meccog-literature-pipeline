@@ -1,0 +1,223 @@
+[
+ {
+  "item": 2,
+  "decision": "ADJUST",
+  "set": {
+   "Finding quote": "However, the contents of these two species were different between the two isoforms (apoE3-(1–231), 43% for s = 2.2 and 42% for s = 5.0 versus apoE4-(1–231), 29% for s = 2.0 and 53% for s = 4.9).",
+   "Finding description": "In PBS, the tetramer-like peak accounted for 53% of apoE4-(1–231) versus 42% of apoE3-(1–231). The monomer-like peak accounted for 29% versus 43%, respectively.",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text"
+  },
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "reason_for_description": ""
+  },
+  "why": "The new quote (53% vs 42% tetramer-like, 29% vs 43% monomer-like, Fig 1D) is verbatim and matches the description, but these are integrated areas of the SEDFIT-fitted c(s) distribution, so 1.26x is a ratio of fitted-model output and the effect stays qualitative; purified protein in PBS is class 3/3."
+ },
+ {
+  "item": 5,
+  "decision": "ADJUST",
+  "set": {},
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "reason_for_description": ""
+  },
+  "why": "632 vs 243 kDa are best-fit species masses from the SEDPHAT global discrete model (Table 2), a fitted model parameter, so 2.60x is not an effect size and the row stays qualitative; the purified-fragment-in-PBS readout is class 3/3, not 1/2."
+ },
+ {
+  "item": 8,
+  "decision": "ADJUST",
+  "set": {},
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "reason_for_description": ""
+  },
+  "why": "205 vs 162 kDa are single-species best-fit Meq values (Table 1 footnote: 'Best fit calculated molar mass'), so 0.79x is a ratio of fitted parameters and the effect stays qualitative; cell-free PBS readout is class 3/3."
+ },
+ {
+  "item": 11,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "Full-length apoE3 and apoE4 had similar overall sedimentation distributions in PBS. Species above 11 S accounted for 11% of apoE4 versus 12% of apoE3.",
+   "Finding summary": "Full-length apoE showed similar overall distributions in PBS, with a slightly lower fraction above 11 S for apoE4.",
+   "Data location": "Fig. 1B and the accompanying Results on p. 13335, integrated fraction at s > 11 S",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text"
+  },
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "reason_for_description": ""
+  },
+  "why": "Results print 12% (apoE3) vs 11% (apoE4) for s > 11 and the new description is accurate, but these are integrated areas of the fitted c(s) distribution, so 0.92x is not an effect size; qualitative, class 3/3 for purified apoE in PBS."
+ },
+ {
+  "item": 14,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "In 50 mM DHPC, the equivalent molar masses of full-length apoE4 and apoE3 were 34 and 33 kDa, respectively, close to the 35-kDa theoretical monomer mass. The three truncated isoform pairs in Table 1 also had monomer-like masses.",
+   "Finding summary": "Full-length apoE4 and apoE3 both had monomer-like equivalent masses in DHPC, at 34 and 33 kDa, respectively.",
+   "Experimental system": "Purified recombinant human apoE proteins at 0.5 mg/ml in PBS with 50 mM DHPC. Sedimentation-equilibrium data at 20 °C were fitted with a single-species model.",
+   "Data location": "Table 1, full-length ApoE3 and ApoE4 rows, Mass in PBS containing 50 mM DHPC column. Results on p. 13337 also cite supplementary Fig. 2S.",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value provenance": "not_found_in_source",
+   "Sample size provenance": "not_found_in_source"
+  },
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "reason_for_description": ""
+  },
+  "why": "Table 1 DHPC column gives 33 (apoE3) and 34 kDa (apoE4) and the other pairs are monomer-like as described, and P/n are not_found_in_source since the main text is available, but Meq is a single-species fitted mass, so 1.03x is not an effect size; qualitative, 3/3."
+ },
+ {
+  "item": 17,
+  "decision": "CONFIRM",
+  "why": "Results text reads exactly the corrected quote ending '(Figure 6B).', Fig 6B is qualitative with no P or n, and a direct isoform test of receptor recycling is class 1, which takes strength 1."
+ },
+ {
+  "item": 20,
+  "decision": "CONFIRM",
+  "why": "Quote is verbatim (paragraph 'Having observed...', sentence 4); lipophagic lipid-droplet degradation is a lysosomal degradation endpoint in the isoform comparison, so 1/1, and class 1 takes strength 1."
+ },
+ {
+  "item": 23,
+  "decision": "CONFIRM",
+  "why": "Quote is verbatim (final sentence of the 'Having observed' paragraph) and Fig 1 legend states APOE4 'prevents mitochondrial proteins from reaching the lysosome'; mitochondrial cargo in isolated lysosomes is LysoIP cargo, class 3/4 per the H5 conventions."
+ },
+ {
+  "item": 26,
+  "decision": "CONFIRM",
+  "why": "Quote verbatim (Results, Fig 1 A-D); a faint ~72 kDa dimer in all lanes for both isoforms gives no isoform difference, so qualitative/printed_in_text is right, and purified apoE dimerization in a tube is class 3/3."
+ },
+ {
+  "item": 29,
+  "decision": "CONFIRM",
+  "why": "Fig 4e (figures/...Fig4_HTML.jpg): +E3 ~1.15 and +E4 ~1.10 GCase/beta-actin gives ~0.96x; the single n.s. line spans all four treatments (one-way ANOVA), so P stays N/A with ambiguous_panel; legend gives n = 5 samples."
+ },
+ {
+  "item": 32,
+  "decision": "ADJUST",
+  "set": {},
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "reason_for_description": ""
+  },
+  "why": "Table 2 local concentrations (0.05/0.03, 0.12/0.06 A280) are best-fit parameters of the SEDPHAT global discrete-species model, so 1.67x is a ratio of fitted parameters and not an effect size; effect stays N/A, but the cell-free PBS readout is class 3/3, not 1/2."
+ },
+ {
+  "item": 35,
+  "decision": "CONFIRM",
+  "why": "Results: 'its apoE3 and apoE4 counterparts maintained a single major species at s = 1.1 (Figure 2D)'; a shared pattern without a test is qualitative/printed_in_text, and the peptide-micelle species is scored 3/4 like the 50 mM DHPC small-species row (P10.F12)."
+ },
+ {
+  "item": 38,
+  "decision": "ADJUST",
+  "set": {},
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "reason_for_description": ""
+  },
+  "why": "0.17 vs 0.15 A280 are fitted local concentrations from the global discrete-species model (Table 2), so 1.13x is not an effect size; effect stays N/A, and the cell-free oligomer readout is class 3/3, not 1/2."
+ },
+ {
+  "item": 41,
+  "decision": "REJECT",
+  "why": "0.29 vs 0.34 A280 are fitted local concentrations from the SEDPHAT discrete-species model (Table 2), a ratio of fitted model parameters, so 0.85x is not an effect size; the row's N/A and 3/4 directness stand."
+ },
+ {
+  "item": 44,
+  "decision": "CONFIRM",
+  "why": "Results print 1.71±0.03 vs 1.16±0.03 sparks/min, P<0.0001, giving 32% lower in APOE4; legend gives n = 6 without GW405833; TRPML1-mediated lysosomal Ca2+ release is a direct lysosome-function test, class 1 with strength 1."
+ },
+ {
+  "item": 47,
+  "decision": "CONFIRM",
+  "why": "Fig 4C: APOE3 mean ~0.020-0.021 and APOE4 ~0.034 dF/F0 gives ~1.6x (estimated_from_figure); no star or P for C, and legend n = 3 biological replicates stays printed_in_text; whole-cell release stays 3/3."
+ },
+ {
+  "item": 50,
+  "decision": "CONFIRM",
+  "why": "Quote verbatim; Fig 2B legend assigns **P < .01 by t-test to the fed apoE3 vs apoE4 comparison and the text prints ~20%; bulk insoluble aggregate abundance is an accumulation surrogate like lipofuscin/cargo, so 3/4."
+ },
+ {
+  "item": 53,
+  "decision": "CONFIRM",
+  "why": "Fig 6 legend says 'Representative profiles from at least 3 independent experiments', so the exact n is not printed and Sample size N/A/not_found_in_source is correct; the quote is verbatim and the effect stays qualitative."
+ },
+ {
+  "item": 56,
+  "decision": "CONFIRM",
+  "why": "Fig 5A FA panel: the only marks are age * symbols, and the figure-wide # key (vs apoE2 and apoE3) appears on no FA bar, so ambiguous_panel is right; the Discussion quote supports a qualitative 'comparable' FA comparison, 3/4."
+ },
+ {
+  "item": 59,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text"
+  },
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "reason_for_description": ""
+  },
+  "why": "The Results sentence prints only a direction ('trend towards lower ... lysosomal number', Figs S2C-F), so qualitative/printed_in_text is right, but Fig S2 is absent from the local supplement (supp.txt empty), so P/n keep full_text_unavailable, and the Experimental-system rewrite rests on outside sources (Coriell donor age, AG09173 parent mapping) not in the paper."
+ },
+ {
+  "item": 62,
+  "decision": "CONFIRM",
+  "why": "Supplement p.8 table: S4E E3 = 1.06 ± 0.17, E4 = 1.01 ± 0.39, so E4/E3 = 0.95x (supplement_only); S4E legend gives N (embryo) = 6-7 and only a three-group Kruskal-Wallis p = 0.612, so P stays N/A."
+ },
+ {
+  "item": 65,
+  "decision": "CONFIRM",
+  "why": "Fig 4 legend prints C: E3 = 121 ± 34, E4 = 136 ± 23 per 100 um dendrite, so 1.12x printed_in_text replaces the ~12% figure estimate; N (embryo) = 4 and only a three-group ANOVA p = 0.356."
+ },
+ {
+  "item": 68,
+  "decision": "CONFIRM",
+  "why": "Fig 4 legend prints O: E3 = 178.5 ± 45.1, E4 = 260.6 ± 59.7 cathepsin D+ vesicles per cell body, so 1.46x, N = 5, three-group ANOVA p = 0.09; cathepsin D marker counts are 3/3 per the H5 conventions."
+ },
+ {
+  "item": 71,
+  "decision": "REJECT",
+  "why": "S3C plots row Z-scores across six wells, where any well-separated protein sits near +/-0.9 by construction, so '~dZ=1.8' is a normalization artifact pooled over four proteins and not an effect size; the qualitative row with per-protein visible * (<0.05, BH, n = 3) stands."
+ },
+ {
+  "item": 74,
+  "decision": "CONFIRM",
+  "why": "Fig 3B C+C triplet (zoomed): E3 at 1.00 and E4 mean ~1.23 gives ~1.2x; the only star line spans E2 to E4, so the E3-E4 P stays ambiguous_panel; n = 6 independent experiments."
+ },
+ {
+  "item": 77,
+  "decision": "CONFIRM",
+  "why": "Fig 3E N+C triplet (zoomed): E3 mean ~1.03 and E4 ~1.62 gives ~1.6x; the shorter line runs from E3 to E4 with ***, and the Fig 3 legend defines *** as p <= 0.001, so <=0.001 visual_only; n = 7."
+ },
+ {
+  "item": 80,
+  "decision": "CONFIRM",
+  "why": "Fig 4E at 0 uM EMD87580: Con ~100, E3 ~81, E4 ~23, so ~72% lower with ApoE4 than ApoE3; the stars mark each group vs control, so P stays ambiguous_panel; class 1 takes strength 1."
+ },
+ {
+  "item": 83,
+  "decision": "CONFIRM",
+  "why": "Fig 6F: E4+R ~28% and E4+R+EMD87580 ~95% of control (~3.4-3.5x), stars only vs C+R; NHE inhibition within ApoE4 does not vary APOE, so class 5/4 with the reason in the description is right."
+ },
+ {
+  "item": 86,
+  "decision": "CONFIRM",
+  "why": "Results: Dextran-Alexa 555 (Figure S3) 'showed no difference between genotypes'; S3 legend (supp p. 'Figure S3') gives no P, so dropping 'significant' and keeping qualitative with N/A P and n is accurate."
+ },
+ {
+  "item": 89,
+  "decision": "CONFIRM",
+  "why": "Fig 3d LC3-II (fold of E3), CCCP+CQ: E4 bar ~12% of the E3 bar (~88% lower, ~90% ok); ** over E4 has no numeric key in the panel-d legend, so ambiguous_panel; LC3-II turnover with chloroquine is autophagic flux, 1/1 per the H5 conventions."
+ }
+]

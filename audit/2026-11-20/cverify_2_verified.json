@@ -1,0 +1,273 @@
+[
+ {
+  "item": 3,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text"
+  },
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "reason_for_description": ""
+  },
+  "why": "Table 1 confirms 187 vs 429 kDa, but Meq is the 'best fit calculated molar mass' of a single-species SEDPHAT fit, a fitted model parameter, so the effect stays qualitative; the 3/3 purified-protein class is right."
+ },
+ {
+  "item": 6,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "In the global fit for apoE-(1–231), the sedimentation-velocity tetramer signal was 0.33 for apoE4 versus 0.21 for apoE3. The monomer signal was 0.17 versus 0.28, respectively, in local A280 units.",
+   "Finding summary": "ApoE4-(1–231) had a higher fitted tetramer signal and a lower fitted monomer signal than apoE3-(1–231) in the sedimentation-velocity data.",
+   "Experimental system": "Purified recombinant human apoE3-(1–231) and apoE4-(1–231) in aqueous PBS at pH 7.3. Combined sedimentation-equilibrium and sedimentation-velocity data were fitted with a three-species SEDPHAT model. The reported comparison uses the velocity local concentrations.",
+   "Data location": "Table 2, apoE-(1–231), Local concentration of SV (A280) columns, monomer and tetramer rows",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text",
+   "P value provenance": "not_found_in_source",
+   "Sample size provenance": "not_found_in_source"
+  },
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "reason_for_description": ""
+  },
+  "why": "Table 2 confirms SV tetramer 0.21 vs 0.33 and monomer 0.28 vs 0.17 for apoE-(1-231), and the new text is right, but these are local concentrations from a global discrete-species fit (fitted model parameters), so no 1.57x fold; effect qualitative."
+ },
+ {
+  "item": 9,
+  "decision": "ADJUST",
+  "why": "Results print 65% and 75% for apoE3-(72-299) and apoE4-(72-299) in DHPC, Fig 2B is apoE-(72-299), 75/65 = 1.15x, and the Results quote is the authors' own measurement. Lane rule (11-23, one rule for both packets): occupancy percentages are integrated areas of a fitted c(s) distribution, so their ratio is not an effect size; qualitative.",
+  "set": {
+   "Finding description": "In 50 mM DHPC, both apoE-(72–299) isoforms were predominantly monomeric. The major low-sedimentation species accounted for 75% of apoE4 versus 65% of apoE3.",
+   "Finding quote": "Each protein appeared as a major species at s = 1.6–2.2 (79, 73, 65, 75, 85, and 64% for apoE3, apoE4, apoE3-(72–299), apoE4-(72–299), apoE3-(1–231), and apoE4-(1–231), respectively).",
+   "Finding summary": "Both apoE-(72–299) isoforms were predominantly monomeric in DHPC, with a higher major-species fraction for apoE4.",
+   "Data location": "Fig. 2B and the accompanying Results on p. 13337, Dissociation of ApoE Proteins in the Presence of Dihexanoylphosphatidylcholine Micelles",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text"
+  }
+ },
+ {
+  "item": 12,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "The global fit assigned full-length apoE3 and apoE4 in PBS to the same six oligomer classes: monomer, dimer, tetramer, hexamer, octamer, and decamer.",
+   "Finding summary": "Both full-length isoforms had the same six fitted oligomer classes in PBS.",
+   "Data location": "Fig. 3E (apoE3) and Fig. 3F (apoE4), Table 2 full-length ApoE rows, and Results on p. 13337",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text"
+  },
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "reason_for_description": ""
+  },
+  "why": "The six-class description is right (Fig 3E/F, Table 2), but '1x' is a ratio of counts of fitted species classes, not an effect size; effect qualitative."
+ },
+ {
+  "item": 15,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text"
+  },
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "reason_for_description": ""
+  },
+  "why": "Table 1 confirms 151 vs 158 kDa, but Meq is a fitted single-species parameter, so the 1.05x fold is not an effect size; keep qualitative with the 3/3 purified-protein class."
+ },
+ {
+  "item": 18,
+  "decision": "CONFIRM",
+  "why": "P7.F3 repeats P7.F1's quote and experiment (Fig 6E quantifies the Fig 6D blots, 'reduced by 50%'), so it double-counts one result; P7.F1 stays in the sheet."
+ },
+ {
+  "item": 21,
+  "decision": "CONFIRM",
+  "why": "The text says 'we find higher levels of LC3-II in APOE4-expressing cells; this effect is not further modulated by bafilomycin A1', an LC3-II turnover test scored 1/1 under the H5 convention, and the paper gives no values, P or n."
+ },
+ {
+  "item": 24,
+  "decision": "CONFIRM",
+  "why": "Line 60 says 'We have previously determined the rate constants (k-1, k+1, k-2, k+2)... (35)', and the fits only adjusted k-1 and k-2, so k+1 is carried over from ref 35 (the same 8.5e3 vs 4.7e3 in P34 Table 1), not a P33 finding."
+ },
+ {
+  "item": 27,
+  "decision": "ADJUST",
+  "set": {
+   "Finding quote": "ApoE4(A102C) | Kinetics | 8.5×103 | 6.7×10−4 | 2.0×105 | 4.0×10−3 | (b)79×10−9 | (b)22×10−9\n\nApoE3(C112S,A102C) | Kinetics | 4.7×103 | 5.6×10−4 | 0.8×105 | 5.0×10−3 | (b)119×10−9 | (b)62×10−9",
+   "Finding summary": "(APOE3 -> APOE4) -> (lower fitted monomer–dimer dissociation constant K12⁻¹, indicating tighter dimerization of lipid-free apoE at pH 7.4)",
+   "Experimental system": "Recombinant lipid-free human ApoE4(A102C) and ApoE3(C112S,A102C), labeled separately with Alexa488 or Alexa546 and mixed at a 1:3 donor-to-acceptor ratio. Approximately 15 μM stock was diluted into 20 mM HEPES, pH 7.4, 150 mM NaCl and 0.1% β-mercaptoethanol. ApoE4 final concentrations were 15–480 nM. Intermolecular FRET was monitored for 1 h at 24 °C, and dilution curves were fit globally in KinTek Explorer. The reported n counts dilution experiments per isoform.",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text"
+  },
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "reason_for_description": ""
+  },
+  "why": "The Table 1 quote, K12^-1 79 vs 119 nM, the system and n 5-7 ('at least five to seven dilution experiments') are right, but K12^-1 is a KinTek-fitted model parameter, so the 0.66x fold goes; effect qualitative."
+ },
+ {
+  "item": 30,
+  "decision": "ADJUST",
+  "why": "Results print 55% (apoE3-(72-166)) and 59% (apoE4-(72-166)) occupancy of the 3.5-6.5 S c(s) region, 59/55 = 1.07x, with the authors' tentative multi-oligomer wording kept. Lane rule (11-23, one rule for both packets): occupancy percentages are integrated areas of a fitted c(s) distribution, so their ratio is not an effect size; qualitative.",
+  "set": {
+   "Finding description": "In PBS, the broad 3.5–6.5 S region accounted for 59% of the apoE4-(72-166) distribution and 55% of the apoE3-(72-166) distribution. The authors suggest that multiple oligomers may contribute to this region.",
+   "Finding summary": "(apoE3-(72-166) -> apoE4-(72-166)) -> (higher occupancy of the broad 3.5–6.5 S region in PBS)",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text"
+  }
+ },
+ {
+  "item": 33,
+  "decision": "ADJUST",
+  "why": "Results print 23% vs 6% at s = 2.0 for apoE3- vs apoE4-(72-166), 6/23 = 0.26x, and the trimmed description is right. Lane rule (11-23, one rule for both packets): occupancy percentages are integrated areas of a fitted c(s) distribution, so their ratio is not an effect size; qualitative.",
+  "set": {
+   "Finding description": "In PBS, the small species near 2 S accounted for 6% of the apoE4-(72-166) distribution and 23% of the apoE3-(72-166) distribution.",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text"
+  }
+ },
+ {
+  "item": 36,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text"
+  },
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "reason_for_description": ""
+  },
+  "why": "Table 2 PBS first species reads 0.07,0 (apoE3) and 0.02,0 (apoE4), but these are global-fit local concentrations (fitted parameters), so no 0.29x fold; the class-1/strength-2 directness was wrong and becomes 3/3."
+ },
+ {
+  "item": 39,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text"
+  },
+  "directness": {
+   "class": 3,
+   "strength": 4,
+   "reason_for_description": ""
+  },
+  "why": "Table 2 50 mM DHPC second species reads 40 vs 45 kDa, but fitted molar mass is a model parameter, so no 1.125x fold; the 3/4 class for a micelle-inflated mass is accepted."
+ },
+ {
+  "item": 42,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text"
+  },
+  "directness": {
+   "class": 3,
+   "strength": 4,
+   "reason_for_description": ""
+  },
+  "why": "Table 2 100 mM DHPC first species reads 0.32,0.08 vs 0.27,0.04, but these are fitted local concentrations, so no 0.84x fold; effect qualitative, directness 3/4 unchanged."
+ },
+ {
+  "item": 45,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "After ionomycin pretreatment, GPN evoked a larger calcium-release signal in APOE4 than APOE3 human iPSC-derived cortical neurons, indicating greater releasable lysosomal calcium content.",
+   "Data location": "Fig 3A(ii)",
+   "Effect size": "~1.2x",
+   "Effect size provenance": "estimated_from_figure"
+  },
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "reason_for_description": ""
+  },
+  "why": "Fig 3A(ii) is the right panel and P=0.0102 is printed, but on the zoomed axis E3 is about 0.59 and E4 about 0.715 dF/F0, a ratio of about 1.21, so ~1.2x rather than ~1.23x."
+ },
+ {
+  "item": 48,
+  "decision": "CONFIRM",
+  "why": "Supplementary Fig S2I (rendered from the supplement PDF) shows means about 2.6e-3 (E3) vs 2.3e-3 (E4) spots per cell area, so ~0.89x; there is no mark over this pair under the figure-wide key, and the legend gives three biological replicates."
+ },
+ {
+  "item": 51,
+  "decision": "CONFIRM",
+  "why": "Fig 2C prints ATP5B 55->41 vs 192->277, CS 17->12 vs 73->74, SDHA 7->5 vs 63->111 and TOMM5 0->0 vs 2->5, matching the new description; mitochondrial cargo in insoluble aggregates is a loose cargo surrogate, 3/4."
+ },
+ {
+  "item": 54,
+  "decision": "CONFIRM",
+  "why": "The Discussion sentence 'the self-association of apoE4 (1-272) is completely prevented whereas apoE3 (1-272) is significantly tetramerized (Figure 6B)' is verbatim, Fig 6B shows a single monomer peak for apoE4(1-272), and 'at least 3' gives no exact n."
+ },
+ {
+  "item": 57,
+  "decision": "CONFIRM",
+  "why": "Fig 2c LMW: AD ApoE3 about 0.27 and AD ApoE4 about 0.645 on the normalized axis (~2.4x), the Results print AD(3/3) vs AD(4/4) p<0.0001 with n 13 and 11, and Fig 3a/b support the C-terminal and SDS-fraction text."
+ },
+ {
+  "item": 60,
+  "decision": "CONFIRM",
+  "why": "The Fig 2H legend (dendrites) prints E3 = 0.326 and E4 = 0.382, so 1.17x; N (embryo) = 4; only the three-group Kruskal-Wallis p = 0.219 is given; DQ-BSA is 1/1."
+ },
+ {
+  "item": 63,
+  "decision": "CONFIRM",
+  "why": "The Fig 1J legend prints E3 = 0.832 and E4 = 0.791 um2, so 0.951x; N = 3; only the three-group ANOVA p = 0.115 is given."
+ },
+ {
+  "item": 66,
+  "decision": "CONFIRM",
+  "why": "The Fig 4D legend prints E3 = 0.616 and E4 = 0.643, so 1.04x; N = 4; only the three-group ANOVA p = 0.952 is given."
+ },
+ {
+  "item": 69,
+  "decision": "CONFIRM",
+  "why": "The Fig 4N legend prints CD63 puncta per cell body E3 = 132.5 and E4 = 234.6, so 1.77x; N = 5; the three-group ANOVA p = 0.206; CD63 marker is 3/3 under the H5 convention."
+ },
+ {
+  "item": 72,
+  "decision": "CONFIRM",
+  "why": "In S3E the only star sits over SQSTM1, with none over MAP1LC3B2 under the figure's legend key, so P stays N/A with ambiguous_panel; the text is available, so full_text_unavailable was wrong."
+ },
+ {
+  "item": 75,
+  "decision": "CONFIRM",
+  "why": "Fig 3B N+C triplet: E3 about 0.82 and E4 about 1.06 on the zoomed axis (about 1.29, so ~1.3x); the only bracket runs E2 to E4, and the legend gives n = 6."
+ },
+ {
+  "item": 78,
+  "decision": "CONFIRM",
+  "why": "Fig 7A +inhibitor: E3 about 10.3 vs E4 about 0.85 (about 92% lower), with a ** bracket over that pair and the panel-A legend '(n = 3). **, p < 0.01'."
+ },
+ {
+  "item": 81,
+  "decision": "CONFIRM",
+  "why": "Fig 2C Lrp1: E3+R about 105 and E4+R about 101 (~4%); the legend says 'comparable surface levels' and 'three independent experiments'; the same surface-to-total readout as the Apoer2 rows gives class 1, strength 1."
+ },
+ {
+  "item": 84,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "With PHF present in both groups, the tandem LC3 reporter showed a higher autophagosome percentage per cell under ApoE4 than under ApoE3, consistent with impaired autophagic processing. The authors analyzed 10–12 fields from three biological replicates.",
+   "Finding summary": "(ApoE3 -> ApoE4, with PHF) -> (higher autophagosome percentage per cell and lower autophagic flux)",
+   "Data location": "Fig. 5j, left plot (autophagosome percentage per cell)",
+   "Effect size": "~2.3x",
+   "P value provenance": "printed_in_text"
+  },
+  "directness": {
+   "class": 1,
+   "strength": 1,
+   "reason_for_description": ""
+  },
+  "why": "Fig 5j left plot on the zoomed axis: ApoE3+PHF about 35% and ApoE4+PHF about 79% (ratio about 2.28, so ~2.3x, not 85%/2.4x), and 'P<0.0001' is printed as a number on the figure over that pair, so it is printed_in_text, not a star."
+ },
+ {
+  "item": 87,
+  "decision": "CONFIRM",
+  "why": "Fig 7b shows AUC about 15 (FBS) vs 20 (KH) with no mark under the figure-wide key, the legend gives N = 3 and a t-test, and changing the medium within APOE3 is class 5 with a loose readout, 5/5."
+ }
+]

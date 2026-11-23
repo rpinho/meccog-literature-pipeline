@@ -1,0 +1,217 @@
+[
+ {
+  "item": 1,
+  "decision": "CONFIRM",
+  "why": "Results print 8.9 S at 3% (apoE3-(72-299)) and 17% (apoE4-(72-299)), so 5.67x matches; cell-free neutral-pH sedimentation is 3/3 like the reference rows, and the old 1/2 and deletion framing were wrong."
+ },
+ {
+  "item": 4,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "The global fit resolved six species for apoE4-(72–299) and four for apoE3-(72–299) in PBS. The largest fitted species had masses of 666 and 351 kDa, respectively.",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text"
+  },
+  "directness": {
+   "class": 3,
+   "strength": 3
+  },
+  "why": "Table 2 masses (666 vs 351 kDa) are SEDPHAT fitted parameters, so the 1.90x ratio of fitted model parameters is not an effect size; keep qualitative, take the clearer description and 3/3."
+ },
+ {
+  "item": 7,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text"
+  },
+  "directness": {
+   "class": 3,
+   "strength": 3
+  },
+  "why": "Meq 209 vs 192 kDa is a best-fit single-species SEDPHAT mass (Table 1 footnote), so the 1.09x ratio of fitted model parameters is not an effect size; only the directness changes, to 3/3."
+ },
+ {
+  "item": 10,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "In 50 mM DHPC, the equivalent molar mass of apoE4-(72–299) was 26 kDa versus 30 kDa for apoE3-(72–299). Both were close to the theoretical monomer mass of 27 kDa.",
+   "Finding summary": "Both apoE-(72–299) isoforms had monomer-like masses in DHPC, with a lower fitted mass for apoE4.",
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source"
+  },
+  "directness": {
+   "class": 3,
+   "strength": 3
+  },
+  "why": "Values 26 vs 30 kDa match Table 1 but are fitted single-species masses, so 0.87x ratio of fitted model parameters is not an effect size; description, summary and 3/3 as proposed."
+ },
+ {
+  "item": 13,
+  "decision": "CONFIRM",
+  "why": "Results print 79% (apoE3) and 73% (apoE4) major species at s=1.6-2.2 in DHPC, so 0.92x of c(s) fractions matches the reference convention; quote is verbatim and 3/3 is right."
+ },
+ {
+  "item": 16,
+  "decision": "CONFIRM",
+  "why": "Fig 6E (PDF p.9) shows one star over apoE4 in the two-group plot and the legend key is *P<.05, so visual_only is right; recycling of internalized sortilin under apoE3 vs apoE4 is a direct 1/1."
+ },
+ {
+  "item": 19,
+  "decision": "ADJUST",
+  "set": {},
+  "directness": {
+   "class": 1,
+   "strength": 1
+  },
+  "why": "Supplement S5B is not available locally (supp.txt empty, no supp files), so the ~0.85x and n=9 cannot be checked; keep the old values and only correct the strength to 1 for class 1."
+ },
+ {
+  "item": 22,
+  "decision": "CONFIRM",
+  "why": "The trimmed quote is verbatim and isolates the authors' own finding from the cited prior studies; apoE localization in LE/lysosomes is 3/4 by the H5 convention."
+ },
+ {
+  "item": 25,
+  "decision": "ADJUST",
+  "set": {
+   "Finding description": "In fits to DMPC vesicle-clearance data, the dimer-to-monomer dissociation rate constant k−1 was 6.4×10⁻⁴ s⁻¹ for WT apoE4 versus 5.4×10⁻⁴ s⁻¹ for WT apoE3. The authors identified dimer dissociation as rate-limiting for lipidation at apoE concentrations near or above 100 nM.",
+   "Effect size": "qualitative",
+   "Effect size provenance": "printed_in_text"
+  },
+  "directness": {
+   "class": 3,
+   "strength": 3
+  },
+  "why": "Table 1 k-1 6.4e-4 vs 5.4e-4 s-1 are KinTek-fitted rate constants, so the 1.19x ratio of fitted model parameters is not an effect size; the description with the 100 nM qualifier and 3/3 are right."
+ },
+ {
+  "item": 28,
+  "decision": "REJECT",
+  "why": "The proposed difference of 1 amide is a count from the fitted rate-bin model, which is not an effect size; the old row (N/A, 3/4) stands."
+ },
+ {
+  "item": 31,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source"
+  },
+  "directness": {
+   "class": 3,
+   "strength": 3
+  },
+  "why": "Table 2 masses and local concentrations are SEDPHAT fitted parameters, so 0.75x ratio of fitted model parameters is not an effect size; keep the verbatim Results quote rather than a table fragment, and correct directness to 3/3."
+ },
+ {
+  "item": 34,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source"
+  },
+  "directness": {
+   "class": 3,
+   "strength": 3
+  },
+  "why": "Values match Table 2 (8.5|217|0.04,0.19 vs 8.4|232|0.03,0.06) but are fitted local concentrations, so 1.33x ratio of fitted model parameters is not an effect size; correct directness to 3/3."
+ },
+ {
+  "item": 37,
+  "decision": "ADJUST",
+  "set": {
+   "Effect size": "N/A",
+   "Effect size provenance": "not_found_in_source"
+  },
+  "directness": {
+   "class": 3,
+   "strength": 3
+  },
+  "why": "Values match Table 2 (0.01,0 vs 0.08,0.08) but are fitted local concentrations, so 0.125x ratio of fitted model parameters is not an effect size; correct directness to 3/3."
+ },
+ {
+  "item": 40,
+  "decision": "REJECT",
+  "why": "58 vs 50 kDa are fitted lipid-complex masses from Table 2, so 1.16x is not an effect size; the old row (N/A, 3/4) stands."
+ },
+ {
+  "item": 43,
+  "decision": "CONFIRM",
+  "why": "Fig 3C means read about 1.02 (APOE3) and 1.04-1.05 (APOE4) with three points each, so ~1.02x is within reading error; lysosomal pH is 1/1 under H5."
+ },
+ {
+  "item": 46,
+  "decision": "CONFIRM",
+  "why": "Fig 3B bars read about 3.5 (APOE3) and 4.0 (APOE4), so ~1.14x; the only star spans APOE4 vs APOE-/- and the text gives P=0.0116 for that pair, so P stays N/A; 3/3 matches the lysosomal calcium reference."
+ },
+ {
+  "item": 49,
+  "decision": "CONFIRM",
+  "why": "Supplementary Fig S2D (from the local supplementary PDF) reads about 1.87e5 vs 1.58e5 RFU, i.e. ~0.84x; the S2 legend has one figure-wide star key with no mark on D (ambiguous_panel), n=3."
+ },
+ {
+  "item": 52,
+  "decision": "CONFIRM",
+  "why": "Fig 2C prints the four mitochondrial proteins higher in E4 than E3 in both fed and starved conditions, and the quote is verbatim; mitochondrial cargo in insoluble aggregates is a loose cargo surrogate, 3/4."
+ },
+ {
+  "item": 55,
+  "decision": "CONFIRM",
+  "why": "Fig 3C C+C triplet: E3 at 1.0 and E4 about 1.9, the shorter E3-E4 line carries *** and the legend key is *** <= 0.001, n=6; ~1.9x and visual_only are right."
+ },
+ {
+  "item": 58,
+  "decision": "CONFIRM",
+  "why": "Table 1 confirms the four highest insoluble ApoE scores (374.5, 348.9, 253.7, 248.5) are e3/e4 dementia donors, 14 carriers plus 26 noncarriers make 40, and Table 3 gives 7/12 vs 1/14 with P=0.0093 for diagnosis."
+ },
+ {
+  "item": 61,
+  "decision": "CONFIRM",
+  "why": "Fig 6L legend prints E3 = 1.2 +/- 0.26 and E4 = 1.19 +/- 0.33, so 0.99x printed_in_text; only a three-group ANOVA P is given."
+ },
+ {
+  "item": 64,
+  "decision": "CONFIRM",
+  "why": "Fig 1K legend prints E3 = 0.258 +/- 0.027 and E4 = 0.257 +/- 0.036 um2, so 0.996x printed_in_text; only a three-group ANOVA P is given."
+ },
+ {
+  "item": 67,
+  "decision": "CONFIRM",
+  "why": "Fig 4E legend prints E3 = 0.237 +/- 0.023 and E4 = 0.223 +/- 0.030, so 0.941x printed_in_text; only a three-group Kruskal-Wallis P is given."
+ },
+ {
+  "item": 70,
+  "decision": "CONFIRM",
+  "why": "Fig S3C HEXB means read about +0.9 (APOE33) and -0.85 (APOE44), so ~dZ=1.8; one star sits over HEXB with the *p<0.05 key, n=3 wells; lysosomal proteomics is 3/3 like the HEXA reference."
+ },
+ {
+  "item": 73,
+  "decision": "CONFIRM",
+  "why": "Fig 3C N+C triplet: E3 about 0.95 and E4 about 1.93, so ~2.0x; the shorter E3-E4 line carries *** (key *** <= 0.001), n=6."
+ },
+ {
+  "item": 76,
+  "decision": "CONFIRM",
+  "why": "Fig 3E C+C triplet: E3 1.0 and E4 about 1.47, so ~1.5x holds; the shorter E3-E4 line carries *** (key *** <= 0.001), n=7; secreted particles are 3/4."
+ },
+ {
+  "item": 79,
+  "decision": "CONFIRM",
+  "why": "Fig 7D shows E4 about 0.65 vs E3 1.0 with a * bracket over E3-E4, and the panel D legend gives n = 9 and *, p < 0.05; apoE-LAMP1 colocalization is 3/4 under H5."
+ },
+ {
+  "item": 82,
+  "decision": "CONFIRM",
+  "why": "Fig 2E shows E3 about 100 and E4 about 158 with ** over the E3-E4 bracket (legend **p<0.01, Student's t test for E, three experiments); Methods confirm 5 ug/ml apoE for 3 hr before co-IP."
+ },
+ {
+  "item": 85,
+  "decision": "CONFIRM",
+  "why": "Fig 5l right plot shows ApoE4+PHF about 0.57 vs about 0.10 with capsaicin, P<0.0001 printed over that pair, and the legend gives n = 8-18 fields from 3 replicates; a capsaicin manipulation at fixed ApoE4 with a lysosomal cholesterol readout is 5/5 with the Class 5 reason."
+ },
+ {
+  "item": 88,
+  "decision": "CONFIRM",
+  "why": "The Fig 6 legend calls C representative images for B, which spans three independent differentiations, and the figure-wide star key has no mark on C, so ambiguous_panel and n=3 are right; PLA localization is 3/4 like the LGALS3BP reference."
+ }
+]

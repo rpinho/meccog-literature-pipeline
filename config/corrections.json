@@ -10462,6 +10462,223 @@
    "source": "organizers' directness definitions (audit/2026-11-20/directness/DIRECTNESS_RULES.txt)"
   },
   {
+   "key": "pmid30375977",
+   "hyp": "H4",
+   "stage": 5,
+   "quote_start": "Increasing concentrations progressively restored normal surface recycl",
+   "summary_contains": "(increased NHE inhibition with apoE4 present) -> (restored Apoer2 surface recycling)",
+   "description_start": "Increasing EMD87580 concentrations progressively restored su",
+   "set": {
+    "effect_size": "4.4x",
+    "effect_size_provenance": "supplement_only"
+   },
+   "source": "elife-40048-fig4-data1.xlsx, sheet Fig4C: 0 uM 20.1/27.4/25.3 (mean 24.3) vs 3 uM 102.4/115.3/105.7 (mean 107.8); 107.8/24.3 = 4.4.",
+   "reason": "Consistency 11-22: the same panel is in the H2 and H4 sheets; the other sheet's value comes from the paper's source-data file, this one was read off the figure, so the source-data value is used in both."
+  },
+  {
+   "key": "pmid30375977",
+   "hyp": "H2",
+   "stage": 5,
+   "quote_start": "Other ApoE receptors, such as low-density lipoprotein receptor-related",
+   "summary_contains": "Surface-to-total Lrp1 levels were comparable with ApoE3 and ApoE4 under the Reelin protocol.",
+   "description_start": "Figure 2C quantifies surface-to-total Lrp1 levels across thr",
+   "set": {
+    "effect_size": "3%",
+    "effect_size_provenance": "supplement_only"
+   },
+   "source": "elife-40048-fig2-data1.xlsx, sheet Fig2C, Lrp1: E3+R 115.7/94.8/103.6 (mean 104.7), E4+R 103.5/94.3/106.6 (mean 101.5).",
+   "reason": "Consistency 11-22: the same panel is in the H2 and H4 sheets; the other sheet's value comes from the paper's source-data file, this one was read off the figure, so the source-data value is used in both."
+  },
+  {
+   "key": "pmid34617884",
+   "hyp": "H4",
+   "stage": 5,
+   "quote_start": "Receptor surface levels show a stronger reduction with ApoE4 than ApoE",
+   "summary_contains": "(ApoE3 -> ApoE4) -> (lower neuronal surface ApoER2 during Reelin stimulation)",
+   "description_start": "Across three independent experiments in primary mouse neuron",
+   "set": {
+    "effect_size": "~65%"
+   },
+   "source": "Fig 4C bar tops: E3+R ~78, E4+R ~27 (the 11-20 auditor's reading); ~65% lower. The 11-20 second check wrote ~3.6x, the ratio E3/E4, which inverts the direction.",
+   "reason": "Direction 11-22: a fold we compute is the comparison group over the reference, as the summary states it, so a decrease is below 1x; code scan of every sheet for folds whose direction contradicts the summary."
+  },
+  {
+   "key": "pmid23132858",
+   "hyp": "H5",
+   "stage": 5,
+   "quote_start": "In addition, confocal microscopy also revealed that internalized FAM-A",
+   "summary_contains": "(apoE3 -> apoE4) -> (lower Aβ42 delivery to LysoTracker-positive compartments)",
+   "description_start": "Confocal imaging of mouse N2a cells treated with lysosomal i",
+   "set": {
+    "effect_size": "~0.66x"
+   },
+   "source": "Fig 5D bars: apoE3 ~10.8, apoE4 ~7.1 (figure read 11-20); apoE4/apoE3 = 0.66x. The figure read wrote apoE3/apoE4.",
+   "reason": "Direction 11-22: a fold we compute is the comparison group over the reference, as the summary states it, so a decrease is below 1x; code scan of every sheet for folds whose direction contradicts the summary."
+  },
+  {
+   "key": "pmid23132858",
+   "hyp": "H5",
+   "stage": 5,
+   "quote_start": "Upon quantification, we confirmed that the amounts of Aβ42 in lysosome",
+   "summary_contains": "(apoE3 -> apoE4) -> (lower lysosome-associated Aβ42)",
+   "description_start": "Quantification of confocal images showed less Aβ42 associate",
+   "set": {
+    "effect_size": "~0.66x"
+   },
+   "source": "Fig 5D bars: apoE3 ~10.8, apoE4 ~7.1 (figure read 11-20); apoE4/apoE3 = 0.66x. The figure read wrote apoE3/apoE4.",
+   "reason": "Direction 11-22: a fold we compute is the comparison group over the reference, as the summary states it, so a decrease is below 1x; code scan of every sheet for folds whose direction contradicts the summary."
+  },
+  {
+   "key": "doi_10_1101_2025_11_11_687891",
+   "hyp": "H5",
+   "stage": 6,
+   "quote_start": "Furthermore, while both neuronal EE’s and LE’s showed an increasing pa",
+   "summary_contains": "(APOE3 -> APOE4, young hippocampus) -> (higher neuronal LAMP1-compartment abundance)",
+   "description_start": "Young APOE4 mice had significantly more hippocampal neuronal",
+   "set": {
+    "p_value": "N/A",
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Figure-read check 11-22 (Claude, against the image): the panel splits every genotype by sex and age, its brackets span several boxes and the figure does not say which pair each star marks, so a star cannot be assigned to this row's comparison; the earlier P value is restored.",
+   "source": "Fig 4B image (page render of the preprint), checked 11-22"
+  },
+  {
+   "key": "doi_10_1101_2025_11_11_687891",
+   "hyp": "H5",
+   "stage": 6,
+   "quote_start": "Total LE-Ch was decreased in APOE3 females compared to APOE2 and APOE4",
+   "summary_contains": "(APOE3 -> APOE4, young females) -> (higher hippocampal total late-endosomal cholesterol colocalization)",
+   "description_start": "Young female APOE4 mice had significantly higher hippocampal",
+   "set": {
+    "p_value": "N/A",
+    "p_value_provenance": "not_found_in_source"
+   },
+   "reason": "Figure-read check 11-22 (Claude, against the image): the panel splits every genotype by sex and age, its brackets span several boxes and the figure does not say which pair each star marks, so a star cannot be assigned to this row's comparison; the earlier P value is restored.",
+   "source": "Fig 9D image (page render of the preprint), checked 11-22"
+  },
+  {
+   "key": "doi_10_1101_2025_11_11_687891",
+   "hyp": "H5",
+   "stage": 6,
+   "quote_start": "The only significant difference measured on N-LY-Ch levels was in the ",
+   "summary_contains": "(APOE3 -> APOE4, young females) -> (higher cortical neuronal lysosomal cholesterol colocalization)",
+   "description_start": "Young (5-6 months) female APOE4 mice had significantly highe",
+   "set": {
+    "p_value": "N/A",
+    "p_value_provenance": "not_found_in_source"
+   },
+   "reason": "Figure-read check 11-22 (Claude, against the image): the panel splits every genotype by sex and age, its brackets span several boxes and the figure does not say which pair each star marks, so a star cannot be assigned to this row's comparison; the earlier P value is restored.",
+   "source": "Fig 10B image (page render of the preprint), checked 11-22"
+  },
+  {
+   "key": "doi_10_1101_2025_11_11_687891",
+   "hyp": "H5",
+   "stage": 6,
+   "quote_start": "However, paired contrasts showed that N-LY’s in the EC were increased ",
+   "summary_contains": "(APOE3 -> APOE4, females) -> (higher entorhinal neuronal LAMP1-compartment abundance)",
+   "description_start": "Female APOE4 mice had significantly greater entorhinal neuro",
+   "set": {
+    "p_value": "N/A",
+    "p_value_provenance": "ambiguous_panel"
+   },
+   "reason": "Figure-read check 11-22 (Claude, against the image): the panel splits every genotype by sex and age, its brackets span several boxes and the figure does not say which pair each star marks, so a star cannot be assigned to this row's comparison; the earlier P value is restored.",
+   "source": "Fig 7C image (page render of the preprint), checked 11-22"
+  },
+  {
+   "key": "doi_10_64898_2026_05_12_724612",
+   "hyp": "H5",
+   "stage": 6,
+   "quote_start": "Consistently, lysosomal degradative capacity, assessed by DQ-BSA, was ",
+   "summary_contains": "(APOE33 -> APOE44) -> (lower lysosomal degradation capacity)",
+   "description_start": "APOE44 microglia had reduced DQ-BSA-measured lysosomal degra",
+   "set": {
+    "effect_size": "~42%"
+   },
+   "reason": "Figure-read check 11-22 (Claude against the image, adjust): Zoomed Fig 3H bars read APOE33 ~0.72e4 vs APOE44 ~0.42e4 (axis from zero), a ~42% decrease rather than 60%; the APOE33-APOE44 bracket carries **** (p<0.0001), which is right.",
+   "source": "Fig 3H image (data/papers/doi_10_64898_2026_05_12_724612/figimg/3.png)"
+  },
+  {
+   "key": "doi_10_64898_2026_05_12_724612",
+   "hyp": "H5",
+   "stage": 6,
+   "quote_start": "Upon challenge with organoid debris, UCI5 APOE44 iMG lysosomes failed ",
+   "summary_contains": "(APOE33 -> APOE44) -> (impaired adaptive lysosomal acidification, with alkalinization after challenge)",
+   "description_start": "In the female UCI5 isogenic APOE33/APOE44 comparison, APOE44",
+   "set": {
+    "effect_size": "~dpH=0.17"
+   },
+   "reason": "Figure-read check 11-22 (Claude against the image, adjust): Fig 7M: the APOE33->APOE44 comparison after debris is 5.235 vs ~5.40 (dpH ~0.17) with **** (p<0.0001); the read's 0.12 was the within-APOE44 change, whose bracket carries only ***.",
+   "source": "Fig 7M image (data/papers/doi_10_64898_2026_05_12_724612/figimg/7.png)"
+  },
+  {
+   "key": "pmid34982109",
+   "hyp": "H5",
+   "stage": 6,
+   "quote_start": "However, LC3 abundance was increased with Rap only in APOE3–mCh and mC",
+   "summary_contains": "(rapamycin) -> (LC3 abundance increased in APOE3 and mCherry controls, with no change reported in APOE4)",
+   "description_start": "Within APOE4-expressing HEK293 cells, rapamycin caused no si",
+   "set": {
+    "effect_size": "~4%"
+   },
+   "reason": "Figure-read check 11-22 (Claude against the image, adjust): Zoomed Fig 1B APOE4-row LC3 abundance (axis 550-800) reads NT mean ~604 vs Rap ~627, a ~4% increase.",
+   "source": "Fig. 1B image (data/papers/pmid34982109/figimg/1.png)"
+  },
+  {
+   "key": "pmid40675218",
+   "hyp": "H5",
+   "stage": 6,
+   "quote_start": "Even though cholesterol seemed to have an impact on endosomes, includi",
+   "summary_contains": "(cholesterol supplementation in APOE4 cultures) -> (larger LAMP1-positive compartments)",
+   "description_start": "Cholesterol supplementation was described as producing large",
+   "set": {
+    "effect_size": "qualitative",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Figure-read check 11-22 (Claude against the image, revert): Fig 6L is normalized to the E3 untreated control (legend: E4 = 1.19), not to the ApoE4 vehicle, so the E4 bar at ~1.19 is not a cholesterol-versus-vehicle fold within ApoE4 cultures.",
+   "source": "Fig 6L, cholesterol-treatment interpretation in Results image (data/papers/pmid40675218/figimg/6.png)"
+  },
+  {
+   "key": "pmid38891941",
+   "hyp": "H5",
+   "stage": 6,
+   "quote_start": "Additionally, APPPS1:E4 mice had higher levels of lysosomal accumulati",
+   "summary_contains": "(APOE3 -> APOE4) -> (higher frontal cortical LAMP1-positive area at 8 months)",
+   "description_start": "At 8 months, APPPS1:E4 mice had higher frontal cortical LAMP",
+   "set": {
+    "effect_size": "~dROI=0.08",
+    "effect_size_provenance": "estimated_from_figure"
+   },
+   "reason": "Figure-read check 11-22 (Claude against the image, adjust): Panel D at 8 months the APPPS1:E3 bar is ~0 % ROI and APPPS1:E4 ~0.085, so no ~2x fold exists (reference near zero); a named difference of ~0.08 % ROI is what the figure supports.",
+   "source": "Fig 7D, 8-month genotype comparison image (data/papers/pmid38891941/figimg/7.png)"
+  },
+  {
+   "key": "pmid40675218",
+   "hyp": "H5",
+   "stage": 6,
+   "quote_start": "Even though cholesterol seemed to have an impact on endosomes, includi",
+   "summary_contains": "(cholesterol supplementation in APOE4 cultures) -> (lower DQ-BSA degradation)",
+   "description_start": "Cholesterol supplementation was described as reducing DQ-BSA",
+   "set": {
+    "effect_size": "qualitative",
+    "effect_size_provenance": "printed_in_text"
+   },
+   "reason": "Figure-read check 11-22 (Claude against the image, revert): Fig 6M is normalized to the E3 untreated control, not to E4 vehicle, so the E4 bar at ~0.59 does not give a cholesterol-vs-vehicle fold for ApoE4.",
+   "source": "Fig 6M, cholesterol-treatment interpretation in Results image (data/papers/pmid40675218/figimg/6.png)"
+  },
+  {
+   "key": "doi_10_64898_2026_05_12_724612",
+   "hyp": "H5",
+   "stage": 7,
+   "quote_start": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (",
+   "summary_contains": "(APOE33 -> APOE44) -> (impaired adaptive late-endosomal/lysosomal acidification after organoid-debris challenge)",
+   "description_start": "After organoid-debris challenge, APOE33 microglia acidified ",
+   "set": {
+    "effect_size": "~dpH=0.08"
+   },
+   "reason": "Figure-read check 11-22 (manual, after the Claude check): the row compares the genotypes after debris (APOE33+debris ~5.05 vs APOE44+debris ~5.13, * bracket); dpH 0.12 was APOE33's own response to debris.",
+   "source": "Fig 3G image; legend *p<0.05"
+  },
+  {
    "key": "pmid16540478",
    "hyp": "H3",
    "quote_start": "Compared with the simplicity in size distribution of apoE3-(72–299), a",
@@ -10502,10 +10719,10 @@
    "set": {
     "quote": "However, the contents of these two species were different between the two isoforms (apoE3-(1–231), 43% for s = 2.2 and 42% for s = 5.0 versus apoE4-(1–231), 29% for s = 2.0 and 53% for s = 4.9).",
     "description": "In PBS, the tetramer-like peak accounted for 53% of apoE4-(1–231) versus 42% of apoE3-(1–231). The monomer-like peak accounted for 29% versus 43%, respectively.",
-    "effect_size": "1.26x",
+    "effect_size": "qualitative",
     "effect_size_provenance": "printed_in_text"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F2): The original quote is genuine but comes from the later global fit. The Fig. 1D Results give the integrated peak fractions directly. The effect is the apoE4/apoE3 tetramer-like fraction, 53/42. The monomer-like fraction ratio is 29/43 = 0.67."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F2): The original quote is genuine but comes from the later global fit. The Fig. 1D Results give the integrated peak fractions directly. The effect is the apoE4/apoE3 tetramer-like fraction, 53/42. The monomer-like fraction ratio is 29/43 = 0.67. Second check (Claude 11-23) adjusted: The new quote (53% vs 42% tetramer-like, 29% vs 43% monomer-like, Fig 1D) is verbatim and matches the description, but these are integrated areas of the SEDFIT-fitted c(s) distribution, so 1.26x is a ratio of fitted-model output and the effect stays qualitative; purified protein in PBS is class 3/3."
   },
   {
    "key": "pmid16540478",
@@ -10530,10 +10747,10 @@
    "source": "Table 1, apoE-(72–166), Mass in PBS: apoE3 187 kDa and apoE4 429 kDa. The Results on p. 13337 repeat both values. The theoretical monomer mass is 12 kDa for each.",
    "stage": 3,
    "set": {
-    "effect_size": "2.29x",
+    "effect_size": "qualitative",
     "effect_size_provenance": "printed_in_text"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F3): The quote, direction, and PBS column agree. The equivalent-mass ratio is 429/187. The authors’ phrase “most significant difference” supplies no comparison P value."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F3): The quote, direction, and PBS column agree. The equivalent-mass ratio is 429/187. The authors’ phrase “most significant difference” supplies no comparison P value. Second check (Claude 11-23) adjusted: Table 1 confirms 187 vs 429 kDa, but Meq is the 'best fit calculated molar mass' of a single-species SEDPHAT fit, a fitted model parameter, so the effect stays qualitative; the 3/3 purified-protein class is right."
   },
   {
    "key": "pmid16540478",
@@ -10559,10 +10776,10 @@
    "stage": 3,
    "set": {
     "description": "The global fit resolved six species for apoE4-(72–299) and four for apoE3-(72–299) in PBS. The largest fitted species had masses of 666 and 351 kDa, respectively.",
-    "effect_size": "1.90x",
+    "effect_size": "qualitative",
     "effect_size_provenance": "printed_in_text"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F4): The Results quote supports the broader distribution. Table 2 quantifies the mass of the largest fitted species, giving 666/351. This ratio describes species size."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F4): The Results quote supports the broader distribution. Table 2 quantifies the mass of the largest fitted species, giving 666/351. This ratio describes species size. Second check (Claude 11-23) adjusted: Table 2 masses (666 vs 351 kDa) are SEDPHAT fitted parameters, so the 1.90x ratio of fitted model parameters is not an effect size; keep qualitative, take the clearer description and 3/3."
   },
   {
    "key": "pmid16540478",
@@ -10591,7 +10808,7 @@
     "effect_size": "2.60x",
     "effect_size_provenance": "printed_in_text"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F5): The Results support the qualitative abundance statement. The numerical effect applies specifically to the maximum fitted species mass, 632/243. The paper gives no corresponding 2.60-fold aggregate count."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F5): The Results support the qualitative abundance statement. The numerical effect applies specifically to the maximum fitted species mass, 632/243. The paper gives no corresponding 2.60-fold aggregate count. Second check (Claude 11-23) adjusted: 632 vs 243 kDa are best-fit species masses from the SEDPHAT global discrete model (Table 2), a fitted model parameter, so 2.60x is not an effect size and the row stays qualitative; the purified-fragment-in-PBS readout is class 3/3, not 1/2."
   },
   {
    "key": "pmid16540478",
@@ -10620,12 +10837,12 @@
     "summary": "ApoE4-(1–231) had a higher fitted tetramer signal and a lower fitted monomer signal than apoE3-(1–231) in the sedimentation-velocity data.",
     "system": "Purified recombinant human apoE3-(1–231) and apoE4-(1–231) in aqueous PBS at pH 7.3. Combined sedimentation-equilibrium and sedimentation-velocity data were fitted with a three-species SEDPHAT model. The reported comparison uses the velocity local concentrations.",
     "data_location": "Table 2, apoE-(1–231), Local concentration of SV (A280) columns, monomer and tetramer rows",
-    "effect_size": "1.57x",
+    "effect_size": "qualitative",
     "effect_size_provenance": "printed_in_text",
     "p_value_provenance": "not_found_in_source",
     "sample_size_provenance": "not_found_in_source"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F6): Table 2 gives the SV tetramer ratio, 0.33/0.21, without a supplementary panel assignment. The lower apoE4 monomer signal is specific to SV. The main paper reports neither a comparison P value nor an independent replicate count."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F6): Table 2 gives the SV tetramer ratio, 0.33/0.21, without a supplementary panel assignment. The lower apoE4 monomer signal is specific to SV. The main paper reports neither a comparison P value nor an independent replicate count. Second check (Claude 11-23) adjusted: Table 2 confirms SV tetramer 0.21 vs 0.33 and monomer 0.28 vs 0.17 for apoE-(1-231), and the new text is right, but these are local concentrations from a global discrete-species fit (fitted model parameters), so no 1.57x fold; effect qualitative."
   },
   {
    "key": "pmid16540478",
@@ -10650,10 +10867,10 @@
    "source": "Table 1, apoE-(72–299), Mass in PBS: apoE3 192 kDa and apoE4 209 kDa. The Results on p. 13337 print the same pair.",
    "stage": 3,
    "set": {
-    "effect_size": "1.09x",
+    "effect_size": "qualitative",
     "effect_size_provenance": "printed_in_text"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F7): The Results quote and Table 1 agree. The apoE4/apoE3 equivalent-mass ratio in PBS is 209/192."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F7): The Results quote and Table 1 agree. The apoE4/apoE3 equivalent-mass ratio in PBS is 209/192. Second check (Claude 11-23) adjusted: Meq 209 vs 192 kDa is a best-fit single-species SEDPHAT mass (Table 1 footnote), so the 1.09x ratio of fitted model parameters is not an effect size; only the directness changes, to 3/3."
   },
   {
    "key": "pmid16540478",
@@ -10681,7 +10898,7 @@
     "effect_size": "0.79x",
     "effect_size_provenance": "printed_in_text"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F8): The apoE4/apoE3 equivalent-mass ratio is 162/205. The lower apoE4 value is correctly described and concerns a different readout from the tetramer fraction in F2."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F8): The apoE4/apoE3 equivalent-mass ratio is 162/205. The lower apoE4 value is correctly described and concerns a different readout from the tetramer fraction in F2. Second check (Claude 11-23) adjusted: 205 vs 162 kDa are single-species best-fit Meq values (Table 1 footnote: 'Best fit calculated molar mass'), so 0.79x is a ratio of fitted parameters and the effect stays qualitative; cell-free PBS readout is class 3/3."
   },
   {
    "key": "pmid16540478",
@@ -10710,10 +10927,10 @@
     "quote": "Each protein appeared as a major species at s = 1.6–2.2 (79, 73, 65, 75, 85, and 64% for apoE3, apoE4, apoE3-(72–299), apoE4-(72–299), apoE3-(1–231), and apoE4-(1–231), respectively).",
     "summary": "Both apoE-(72–299) isoforms were predominantly monomeric in DHPC, with a higher major-species fraction for apoE4.",
     "data_location": "Fig. 2B and the accompanying Results on p. 13337, Dissociation of ApoE Proteins in the Presence of Dihexanoylphosphatidylcholine Micelles",
-    "effect_size": "1.15x",
+    "effect_size": "qualitative",
     "effect_size_provenance": "printed_in_text"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F9): The original abstract quote summarizes the authors’ work broadly. The Results identify the construct and give the low-S fraction ratio, 75/65. Both isoforms share the predominant state. No isoform-comparison test is reported."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F9): The original abstract quote summarizes the authors’ work broadly. The Results identify the construct and give the low-S fraction ratio, 75/65. Both isoforms share the predominant state. No isoform-comparison test is reported. Second check (Claude 11-23) adjusted: Results print 65% and 75% for apoE3-(72-299) and apoE4-(72-299) in DHPC, Fig 2B is apoE-(72-299), 75/65 = 1.15x, and the Results quote is the authors' own measurement. Lane rule (11-23, one rule for both packets): occupancy percentages are integrated areas of a fitted c(s) distribution, so their ratio is not an effect size; qualitative."
   },
   {
    "key": "pmid16540478",
@@ -10740,10 +10957,10 @@
    "set": {
     "description": "In 50 mM DHPC, the equivalent molar mass of apoE4-(72–299) was 26 kDa versus 30 kDa for apoE3-(72–299). Both were close to the theoretical monomer mass of 27 kDa.",
     "summary": "Both apoE-(72–299) isoforms had monomer-like masses in DHPC, with a lower fitted mass for apoE4.",
-    "effect_size": "0.87x",
-    "effect_size_provenance": "printed_in_text"
+    "effect_size": "N/A",
+    "effect_size_provenance": "not_found_in_source"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F10): The quote supports the monomer assignment and Table 1 gives the construct-specific equivalent-mass ratio, 26/30. The paper supplies no between-isoform significance test."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F10): The quote supports the monomer assignment and Table 1 gives the construct-specific equivalent-mass ratio, 26/30. The paper supplies no between-isoform significance test. Second check (Claude 11-23) adjusted: Values 26 vs 30 kDa match Table 1 but are fitted single-species masses, so 0.87x ratio of fitted model parameters is not an effect size; description, summary and 3/3 as proposed."
   },
   {
    "key": "pmid16540478",
@@ -10771,10 +10988,10 @@
     "description": "Full-length apoE3 and apoE4 had similar overall sedimentation distributions in PBS. Species above 11 S accounted for 11% of apoE4 versus 12% of apoE3.",
     "summary": "Full-length apoE showed similar overall distributions in PBS, with a slightly lower fraction above 11 S for apoE4.",
     "data_location": "Fig. 1B and the accompanying Results on p. 13335, integrated fraction at s > 11 S",
-    "effect_size": "0.92x",
+    "effect_size": "qualitative",
     "effect_size_provenance": "printed_in_text"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F11): The quote is the authors’ own observation. They also define a common large-species region and give its fractions, enabling an 11/12 ratio for that endpoint. They report no statistical test of overall similarity."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F11): The quote is the authors’ own observation. They also define a common large-species region and give its fractions, enabling an 11/12 ratio for that endpoint. They report no statistical test of overall similarity. Second check (Claude 11-23) adjusted: Results print 12% (apoE3) vs 11% (apoE4) for s > 11 and the new description is accurate, but these are integrated areas of the fitted c(s) distribution, so 0.92x is not an effect size; qualitative, class 3/3 for purified apoE in PBS."
   },
   {
    "key": "pmid16540478",
@@ -10803,7 +11020,7 @@
     "summary": "Both full-length isoforms had the same six fitted oligomer classes in PBS.",
     "data_location": "Fig. 3E (apoE3) and Fig. 3F (apoE4), Table 2 full-length ApoE rows, and Results on p. 13337"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F12): The Results quote supports identical class membership. The ratio is six fitted classes divided by six and applies only to that count. The class-specific concentrations vary, and the paper gives no test of whole-distribution equality or independent replicate n."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F12): The Results quote supports identical class membership. The ratio is six fitted classes divided by six and applies only to that count. The class-specific concentrations vary, and the paper gives no test of whole-distribution equality or independent replicate n. Second check (Claude 11-23) adjusted: The six-class description is right (Fig 3E/F, Table 2), but '1x' is a ratio of counts of fitted species classes, not an effect size; effect qualitative."
   },
   {
    "key": "pmid16540478",
@@ -10864,12 +11081,12 @@
     "summary": "Full-length apoE4 and apoE3 both had monomer-like equivalent masses in DHPC, at 34 and 33 kDa, respectively.",
     "system": "Purified recombinant human apoE proteins at 0.5 mg/ml in PBS with 50 mM DHPC. Sedimentation-equilibrium data at 20 °C were fitted with a single-species model.",
     "data_location": "Table 1, full-length ApoE3 and ApoE4 rows, Mass in PBS containing 50 mM DHPC column. Results on p. 13337 also cite supplementary Fig. 2S.",
-    "effect_size": "1.03x",
+    "effect_size": "qualitative",
     "effect_size_provenance": "printed_in_text",
     "p_value_provenance": "not_found_in_source",
     "sample_size_provenance": "not_found_in_source"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F14): The row summary identifies full-length apoE, so the numerical effect uses 34/33. All four construct pairs support the qualitative monomer assignment. Table 1 supplies the main-text evidence independently of the unavailable supplementary panels. It gives no isoform P value or replicate n."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F14): The row summary identifies full-length apoE, so the numerical effect uses 34/33. All four construct pairs support the qualitative monomer assignment. Table 1 supplies the main-text evidence independently of the unavailable supplementary panels. It gives no isoform P value or replicate n. Second check (Claude 11-23) adjusted: Table 1 DHPC column gives 33 (apoE3) and 34 kDa (apoE4) and the other pairs are monomer-like as described, and P/n are not_found_in_source since the main text is available, but Meq is a single-species fitted mass, so 1.03x is not an effect size; qualitative, 3/3."
   },
   {
    "key": "pmid16540478",
@@ -10894,10 +11111,10 @@
    "source": "Table 1, full-length ApoE3 and ApoE4 rows, Mass in PBS: 151 and 158 kDa. Results on p. 13337 repeat both values. The table footnote reports fitting errors, with no P value for this comparison.",
    "stage": 3,
    "set": {
-    "effect_size": "1.05x",
+    "effect_size": "qualitative",
     "effect_size_provenance": "printed_in_text"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F15): The quote, full-length comparison, and PBS column agree. The fitted equivalent-mass ratio is 158/151. The four rotor speeds are measurement conditions and supply no independent replicate count."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P18.F15): The quote, full-length comparison, and PBS column agree. The fitted equivalent-mass ratio is 158/151. The four rotor speeds are measurement conditions and supply no independent replicate count. Second check (Claude 11-23) adjusted: Table 1 confirms 151 vs 158 kDa, but Meq is a fitted single-species parameter, so the 1.05x fold is not an effect size; keep qualitative with the 3/3 purified-protein class."
   },
   {
    "key": "pmid16540478",
@@ -11011,7 +11228,7 @@
     "sample_size": "9",
     "sample_size_provenance": "supplement_only"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H2 P7.F4): The main text reports the nonsignificant comparison. Supplementary Fig S5B provides a readable mean and its legend gives the replicate count. Neither supplies a numerical P value."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H2 P7.F4): The main text reports the nonsignificant comparison. Supplementary Fig S5B provides a readable mean and its legend gives the replicate count. Neither supplies a numerical P value. Second check (Claude 11-23) adjusted: Supplement S5B is not available locally (supp.txt empty, no supp files), so the ~0.85x and n=9 cannot be checked; keep the old values and only correct the strength to 1 for class 1."
   },
   {
    "key": "pmid32588544",
@@ -11161,9 +11378,11 @@
    "source": "Table 1, k−1 column, lists “6.4×10-4” for WT-apoE4 and “5.4×10-4” for WT-apoE3. The Discussion states that “the dissociation of the dimers to the monomers is the rate determining step at concentrations near or above 100 nM apoE.”",
    "stage": 3,
    "set": {
-    "description": "In fits to DMPC vesicle-clearance data, the dimer-to-monomer dissociation rate constant k−1 was 6.4×10⁻⁴ s⁻¹ for WT apoE4 versus 5.4×10⁻⁴ s⁻¹ for WT apoE3. The authors identified dimer dissociation as rate-limiting for lipidation at apoE concentrations near or above 100 nM."
+    "description": "In fits to DMPC vesicle-clearance data, the dimer-to-monomer dissociation rate constant k−1 was 6.4×10⁻⁴ s⁻¹ for WT apoE4 versus 5.4×10⁻⁴ s⁻¹ for WT apoE3. The authors identified dimer dissociation as rate-limiting for lipidation at apoE concentrations near or above 100 nM.",
+    "effect_size": "qualitative",
+    "effect_size_provenance": "printed_in_text"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P33.F2): The quote is verbatim and describes P33’s own analysis. The authors adjusted k−1 when fitting the clearance data. Table 1 supports the direction and the 1.19x ratio (6.4/5.4), with printed_in_text provenance. No comparison-specific P value or sample size is reported. The description needs the concentration qualifier, and the readout warrants class 3."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P33.F2): The quote is verbatim and describes P33’s own analysis. The authors adjusted k−1 when fitting the clearance data. Table 1 supports the direction and the 1.19x ratio (6.4/5.4), with printed_in_text provenance. No comparison-specific P value or sample size is reported. The description needs the concentration qualifier, and the readout warrants class 3. Second check (Claude 11-23) adjusted: Table 1 k-1 6.4e-4 vs 5.4e-4 s-1 are KinTek-fitted rate constants, so the 1.19x ratio of fitted model parameters is not an effect size; the description with the 100 nM qualifier and 3/3 are right."
   },
   {
    "key": "pmid21322570",
@@ -11220,9 +11439,11 @@
    "set": {
     "quote": "ApoE4(A102C) | Kinetics | 8.5×103 | 6.7×10−4 | 2.0×105 | 4.0×10−3 | (b)79×10−9 | (b)22×10−9\n\nApoE3(C112S,A102C) | Kinetics | 4.7×103 | 5.6×10−4 | 0.8×105 | 5.0×10−3 | (b)119×10−9 | (b)62×10−9",
     "summary": "(APOE3 -> APOE4) -> (lower fitted monomer–dimer dissociation constant K12⁻¹, indicating tighter dimerization of lipid-free apoE at pH 7.4)",
-    "system": "Recombinant lipid-free human ApoE4(A102C) and ApoE3(C112S,A102C), labeled separately with Alexa488 or Alexa546 and mixed at a 1:3 donor-to-acceptor ratio. Approximately 15 μM stock was diluted into 20 mM HEPES, pH 7.4, 150 mM NaCl and 0.1% β-mercaptoethanol. ApoE4 final concentrations were 15–480 nM. Intermolecular FRET was monitored for 1 h at 24 °C, and dilution curves were fit globally in KinTek Explorer. The reported n counts dilution experiments per isoform."
+    "system": "Recombinant lipid-free human ApoE4(A102C) and ApoE3(C112S,A102C), labeled separately with Alexa488 or Alexa546 and mixed at a 1:3 donor-to-acceptor ratio. Approximately 15 μM stock was diluted into 20 mM HEPES, pH 7.4, 150 mM NaCl and 0.1% β-mercaptoethanol. ApoE4 final concentrations were 15–480 nM. Intermolecular FRET was monitored for 1 h at 24 °C, and dilution curves were fit globally in KinTek Explorer. The reported n counts dilution experiments per isoform.",
+    "effect_size": "qualitative",
+    "effect_size_provenance": "printed_in_text"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P34.F1): The original quote is verbatim and describes the authors’ own results, but it gives no direction for the ApoE4–ApoE3 comparison. Table 1 supports the description and the effect size of 0.66x (79/119, printed_in_text). The summary needs the inverse symbol because K12 denotes the association constant. Keep P value N/A with not_found_in_source and sample size 5-7 with printed_in_text. The paper reports dilution experiments per isoform and gives no P value for the affinity comparison."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P34.F1): The original quote is verbatim and describes the authors’ own results, but it gives no direction for the ApoE4–ApoE3 comparison. Table 1 supports the description and the effect size of 0.66x (79/119, printed_in_text). The summary needs the inverse symbol because K12 denotes the association constant. Keep P value N/A with not_found_in_source and sample size 5-7 with printed_in_text. The paper reports dilution experiments per isoform and gives no P value for the affinity comparison. Second check (Claude 11-23) adjusted: The Table 1 quote, K12^-1 79 vs 119 nM, the system and n 5-7 ('at least five to seven dilution experiments') are right, but K12^-1 is a KinTek-fitted model parameter, so the 0.66x fold goes; effect qualitative."
   },
   {
    "key": "pmid20923231",
@@ -11237,20 +11458,6 @@
     "directness_strength": "3"
    },
    "reason": "Directness 11-20b (Codex gpt-6.2-astra, H3 P34.F1): The isoform comparison measures apoE self-association in a neutral cell-free buffer, matching the H3 class 3, strength 3 reference for a model-derived oligomer dissociation constant outside the endo-lysosome."
-  },
-  {
-   "key": "pmid21899263",
-   "hyp": "H3",
-   "quote_start": "Peptide 230–243 | k (min−1) | 10 | 1 | 0.1 WT | ApoE2 | 0 ± 0 | 2 ± 1 ",
-   "summary_contains": "Wild-type ApoE3 and ApoE4 showed similar slow-bin counts for peptide 230–243.",
-   "description_start": "For peptide 230–243, the model assigned 7 ± 1 wild-type ApoE",
-   "source": "Table 1, peptide 230–243, wild-type rows in column order 10, 1, 0.1 min⁻¹: “ApoE3 | 0 ± 0 | 3 ± 1 | 7 ± 1” and “ApoE4 | 1 ± 0 | 1 ± 0 | 8 ± 1”. Methods: “All experiments were performed in at least triplicate.” Authors’ interpretation: “We found that the three wild-type isoforms largely share oligomerization properties.”",
-   "stage": 3,
-   "set": {
-    "effect_size": "Δslow-bin amides=1",
-    "effect_size_provenance": "printed_in_text"
-   },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P36.F1): The quote accurately reproduces Table 1. For peptide 230–243, the model assigned one more amide to the slow bin for wild-type ApoE4 than for wild-type ApoE3 (8 − 7). This is a descriptive difference in fitted amide counts. Both monomeric mutants had 10 ± 1 amides in the fast bin. The paper gives no P value for the isoform comparison and reports only a lower bound of three replicates, so the exact sample size remains N/A."
   },
   {
    "key": "pmid34453582",
@@ -11279,9 +11486,10 @@
    "set": {
     "description": "In PBS, the broad 3.5–6.5 S region accounted for 59% of the apoE4-(72-166) distribution and 55% of the apoE3-(72-166) distribution. The authors suggest that multiple oligomers may contribute to this region.",
     "summary": "(apoE3-(72-166) -> apoE4-(72-166)) -> (higher occupancy of the broad 3.5–6.5 S region in PBS)",
-    "effect_size": "1.07x"
+    "effect_size": "qualitative",
+    "effect_size_provenance": "printed_in_text"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P10.F1): The verbatim Results quote gives an apoE4/apoE3 occupancy ratio of 59/55, a difference of 4 percentage points. The oligomer assignment is tentative. For all 13 rows, the paper gives neither an isoform-comparison P value nor an independent replicate count. The ten equilibrium readings per speed are repeated measurements."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P10.F1): The verbatim Results quote gives an apoE4/apoE3 occupancy ratio of 59/55, a difference of 4 percentage points. The oligomer assignment is tentative. For all 13 rows, the paper gives neither an isoform-comparison P value nor an independent replicate count. The ten equilibrium readings per speed are repeated measurements. Second check (Claude 11-23) adjusted: Results print 55% (apoE3-(72-166)) and 59% (apoE4-(72-166)) occupancy of the 3.5-6.5 S c(s) region, 59/55 = 1.07x, with the authors' tentative multi-oligomer wording kept. Lane rule (11-23, one rule for both packets): occupancy percentages are integrated areas of a fitted c(s) distribution, so their ratio is not an effect size; qualitative."
   },
   {
    "key": "pmid21219628",
@@ -11306,16 +11514,15 @@
    "source": "Table 2, PBS, second species, apoE3 then apoE4: “4.8 | 68 | 0.16, 0.04 | 4.7 | 51 | 0.18, 0.05”.",
    "stage": 3,
    "set": {
-    "quote": "| 5.3 | 67 | 0.17, 0 | 4.8 | 68 | 0.16, 0.04 | 4.7 | 51 | 0.18, 0.05",
-    "effect_size": "0.75x",
-    "effect_size_provenance": "printed_in_text"
+    "effect_size": "N/A",
+    "effect_size_provenance": "not_found_in_source"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P10.F2): The original quote is verbatim and supports the tetramer and hexamer assignments. The table row also supports the numerical claims. The effect is the apoE4/apoE3 fitted mass ratio, 51/68. The fitted velocity and equilibrium signals are higher for apoE4 by 0.02 and 0.01 A280, respectively."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P10.F2): The original quote is verbatim and supports the tetramer and hexamer assignments. The table row also supports the numerical claims. The effect is the apoE4/apoE3 fitted mass ratio, 51/68. The fitted velocity and equilibrium signals are higher for apoE4 by 0.02 and 0.01 A280, respectively. Second check (Claude 11-23) adjusted: Table 2 masses and local concentrations are SEDPHAT fitted parameters, so 0.75x ratio of fitted model parameters is not an effect size; keep the verbatim Results quote rather than a table fragment, and correct directness to 3/3."
   },
   {
    "key": "pmid21219628",
    "hyp": "H3",
-   "quote_start": "| 5.3 | 67 | 0.17, 0 | 4.8 | 68 | 0.16, 0.04 | 4.7 | 51 | 0.18, 0.05",
+   "quote_start": "In the aqueous PBS solution, apoE-(72-166) peptides showed a major spe",
    "summary_contains": "(apoE3-(72-166) -> apoE4-(72-166)) -> (lower intermediate-oligomer mass but higher fitted intermediate-species signals in PBS)",
    "description_start": "In PBS, apoE4-(72-166) formed a smaller intermediate oligome",
    "source": "organizers' directness definitions; runs/audit_1120/CONVENTIONS_1120.md",
@@ -11338,7 +11545,7 @@
     "effect_size": "1.67x",
     "effect_size_provenance": "printed_in_text"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P10.F3): The quoted table row supports all three directions. The effect is the apoE4/apoE3 fitted velocity signal ratio, 0.05/0.03. The equilibrium signal ratio is 2.0x, and the fitted aggregate mass is 41 kDa lower for apoE4."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P10.F3): The quoted table row supports all three directions. The effect is the apoE4/apoE3 fitted velocity signal ratio, 0.05/0.03. The equilibrium signal ratio is 2.0x, and the fitted aggregate mass is 41 kDa lower for apoE4. Second check (Claude 11-23) adjusted: Table 2 local concentrations (0.05/0.03, 0.12/0.06 A280) are best-fit parameters of the SEDPHAT global discrete-species model, so 1.67x is a ratio of fitted parameters and not an effect size; effect stays N/A, but the cell-free PBS readout is class 3/3, not 1/2."
   },
   {
    "key": "pmid21219628",
@@ -11364,9 +11571,10 @@
    "stage": 3,
    "set": {
     "description": "In PBS, the small species near 2 S accounted for 6% of the apoE4-(72-166) distribution and 23% of the apoE3-(72-166) distribution.",
-    "effect_size": "0.26x"
+    "effect_size": "qualitative",
+    "effect_size_provenance": "printed_in_text"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P10.F4): The verbatim Results quote gives an apoE4/apoE3 occupancy ratio of 6/23, a decrease of 17 percentage points. The experiment compared two distributions at one concentration. It did not track conversion of the small species into larger assemblies."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P10.F4): The verbatim Results quote gives an apoE4/apoE3 occupancy ratio of 6/23, a decrease of 17 percentage points. The experiment compared two distributions at one concentration. It did not track conversion of the small species into larger assemblies. Second check (Claude 11-23) adjusted: Results print 23% vs 6% at s = 2.0 for apoE3- vs apoE4-(72-166), 6/23 = 0.26x, and the trimmed description is right. Lane rule (11-23, one rule for both packets): occupancy percentages are integrated areas of a fitted c(s) distribution, so their ratio is not an effect size; qualitative."
   },
   {
    "key": "pmid21219628",
@@ -11391,10 +11599,10 @@
    "source": "Table 2, 5 mM DHPC, third species, apoE3 then apoE4: “8.4 | 232 | 0.03, 0.06 | 8.5 | 217 | 0.04, 0.19”.",
    "stage": 3,
    "set": {
-    "effect_size": "1.33x",
-    "effect_size_provenance": "printed_in_text"
+    "effect_size": "N/A",
+    "effect_size_provenance": "not_found_in_source"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P10.F5): The effect is the apoE4/apoE3 fitted velocity signal ratio, 0.04/0.03. The equilibrium signal ratio is 0.19/0.06, or 3.17x. The fitted mass is 15 kDa lower for apoE4. All three comparisons match the quoted row."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P10.F5): The effect is the apoE4/apoE3 fitted velocity signal ratio, 0.04/0.03. The equilibrium signal ratio is 0.19/0.06, or 3.17x. The fitted mass is 15 kDa lower for apoE4. All three comparisons match the quoted row. Second check (Claude 11-23) adjusted: Values match Table 2 (8.5|217|0.04,0.19 vs 8.4|232|0.03,0.06) but are fitted local concentrations, so 1.33x ratio of fitted model parameters is not an effect size; correct directness to 3/3."
   },
   {
    "key": "pmid21219628",
@@ -11449,10 +11657,10 @@
    "source": "Table 2, PBS, first species, apoE3 then apoE4: “2.1 | 18 | 0.07, 0 | 2.7 | 24 | 0.02, 0”.",
    "stage": 3,
    "set": {
-    "effect_size": "0.29x",
+    "effect_size": "qualitative",
     "effect_size_provenance": "printed_in_text"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P10.F7): The effect is the apoE4/apoE3 fitted velocity signal ratio, 0.02/0.07. Both fitted equilibrium signals are zero. The masses and directions in the description match the quoted row."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P10.F7): The effect is the apoE4/apoE3 fitted velocity signal ratio, 0.02/0.07. Both fitted equilibrium signals are zero. The masses and directions in the description match the quoted row. Second check (Claude 11-23) adjusted: Table 2 PBS first species reads 0.07,0 (apoE3) and 0.02,0 (apoE4), but these are global-fit local concentrations (fitted parameters), so no 0.29x fold; the class-1/strength-2 directness was wrong and becomes 3/3."
   },
   {
    "key": "pmid21219628",
@@ -11477,10 +11685,10 @@
    "source": "Table 2, 5 mM DHPC, first species, apoE3 then apoE4: “2.5 | 21 | 0.08, 0.08 | 2.2 | 22 | 0.01, 0”.",
    "stage": 3,
    "set": {
-    "effect_size": "0.125x",
-    "effect_size_provenance": "printed_in_text"
+    "effect_size": "N/A",
+    "effect_size_provenance": "not_found_in_source"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P10.F8): The effect is the apoE4/apoE3 fitted velocity signal ratio, 0.01/0.08. The equilibrium fit gives zero for apoE4 and 0.08 A280 for apoE3. The reported masses are correct."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P10.F8): The effect is the apoE4/apoE3 fitted velocity signal ratio, 0.01/0.08. The equilibrium fit gives zero for apoE4 and 0.08 A280 for apoE3. The reported masses are correct. Second check (Claude 11-23) adjusted: Values match Table 2 (0.01,0 vs 0.08,0.08) but are fitted local concentrations, so 0.125x ratio of fitted model parameters is not an effect size; correct directness to 3/3."
   },
   {
    "key": "pmid21219628",
@@ -11508,7 +11716,7 @@
     "effect_size": "1.13x",
     "effect_size_provenance": "printed_in_text"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P10.F9): The effect is the apoE4/apoE3 fitted velocity signal ratio, 0.17/0.15. The equilibrium signal is 0.07 A280 higher for apoE4. Its fold change is undefined because the apoE3 fitted value is zero."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P10.F9): The effect is the apoE4/apoE3 fitted velocity signal ratio, 0.17/0.15. The equilibrium signal is 0.07 A280 higher for apoE4. Its fold change is undefined because the apoE3 fitted value is zero. Second check (Claude 11-23) adjusted: 0.17 vs 0.15 A280 are fitted local concentrations from the global discrete-species model (Table 2), so 1.13x is not an effect size; effect stays N/A, and the cell-free oligomer readout is class 3/3, not 1/2."
   },
   {
    "key": "pmid21219628",
@@ -11533,10 +11741,10 @@
    "source": "Table 2, 50 mM DHPC, second species, apoE3 then apoE4: “3.1 | 40 | 0.02, 0.15 | 3.8 | 45 | 0.03, 0.14”.",
    "stage": 3,
    "set": {
-    "effect_size": "1.125x",
+    "effect_size": "qualitative",
     "effect_size_provenance": "printed_in_text"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P10.F10): The effect is the apoE4/apoE3 fitted peptide–lipid complex mass ratio, 45/40. The velocity signal is 0.01 A280 higher and the equilibrium signal is 0.01 A280 lower for apoE4. The authors assign both larger complexes the same peptide stoichiometry of a dimer with a micelle."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P10.F10): The effect is the apoE4/apoE3 fitted peptide–lipid complex mass ratio, 45/40. The velocity signal is 0.01 A280 higher and the equilibrium signal is 0.01 A280 lower for apoE4. The authors assign both larger complexes the same peptide stoichiometry of a dimer with a micelle. Second check (Claude 11-23) adjusted: Table 2 50 mM DHPC second species reads 40 vs 45 kDa, but fitted molar mass is a model parameter, so no 1.125x fold; the 3/4 class for a micelle-inflated mass is accepted."
   },
   {
    "key": "pmid21219628",
@@ -11555,44 +11763,16 @@
   {
    "key": "pmid21219628",
    "hyp": "H3",
-   "quote_start": "| 3.3 | 49 | 0.05, 0.17 | 2.3 | 50 | .0, 0.10 | 3.0 | 58 | 0.01, 0.11",
-   "summary_contains": "(apoE3-(72-166) -> apoE4-(72-166)) -> (higher fitted larger-complex mass and signals in 100 mM DHPC)",
-   "description_start": "In 100 mM DHPC, the larger apoE4-(72-166)-lipid species had ",
-   "source": "Table 2, 100 mM DHPC, second species, apoE3 then apoE4: “2.3 | 50 | .0, 0.10 | 3.0 | 58 | 0.01, 0.11”.",
-   "stage": 3,
-   "set": {
-    "effect_size": "1.16x",
-    "effect_size_provenance": "printed_in_text"
-   },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P10.F11): The effect is the apoE4/apoE3 fitted complex mass ratio, 58/50. The printed apoE3 velocity value is “.0”. Both velocity and equilibrium signals are 0.01 A280 higher for apoE4."
-  },
-  {
-   "key": "pmid21219628",
-   "hyp": "H3",
-   "quote_start": "50 mM DHPC | 1.3 | 19 | 0.35, 0.13 | 1.2 | 20 | 0.34, 0 | 1.1 | 19 | 0",
-   "summary_contains": "(apoE3-(72-166) -> apoE4-(72-166)) -> (lower fitted small-complex velocity signal in 50 mM DHPC)",
-   "description_start": "In 50 mM DHPC, the small peptide-micelle species had a lower",
-   "source": "Table 2, 50 mM DHPC, first species, apoE3 then apoE4: “1.2 | 20 | 0.34, 0 | 1.1 | 19 | 0.29, 0”.",
-   "stage": 3,
-   "set": {
-    "effect_size": "0.85x",
-    "effect_size_provenance": "printed_in_text"
-   },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P10.F12): The effect is the apoE4/apoE3 fitted velocity signal ratio, 0.29/0.34. Both fitted equilibrium signals are zero. The quoted row supports the masses and direction."
-  },
-  {
-   "key": "pmid21219628",
-   "hyp": "H3",
    "quote_start": "100 mM DHPC | 1.2 | 30 | 0.31, 0 | 1.0 | 19 | 0.32, 0.08 | 0.8 | 20 | ",
    "summary_contains": "(apoE3-(72-166) -> apoE4-(72-166)) -> (lower fitted monomer-micelle-complex signals in 100 mM DHPC)",
    "description_start": "In 100 mM DHPC, apoE4-(72-166) had lower fitted small-comple",
    "source": "Table 2, 100 mM DHPC, first species, apoE3 then apoE4: “1.0 | 19 | 0.32, 0.08 | 0.8 | 20 | 0.27, 0.04”.",
    "stage": 3,
    "set": {
-    "effect_size": "0.84x",
+    "effect_size": "qualitative",
     "effect_size_provenance": "printed_in_text"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P10.F13): The effect is the apoE4/apoE3 fitted velocity signal ratio, 0.27/0.32. The equilibrium signal ratio is 0.04/0.08, or 0.50x. Both directions and fitted masses match the quoted row."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H3 P10.F13): The effect is the apoE4/apoE3 fitted velocity signal ratio, 0.27/0.32. The equilibrium signal ratio is 0.04/0.08, or 0.50x. Both directions and fitted masses match the quoted row. Second check (Claude 11-23) adjusted: Table 2 100 mM DHPC first species reads 0.32,0.08 vs 0.27,0.04, but these are fitted local concentrations, so no 0.84x fold; effect qualitative, directness 3/4 unchanged."
   },
   {
    "key": "pmid36825945",
@@ -11661,10 +11841,10 @@
    "set": {
     "description": "After ionomycin pretreatment, GPN evoked a larger calcium-release signal in APOE4 than APOE3 human iPSC-derived cortical neurons, indicating greater releasable lysosomal calcium content.",
     "data_location": "Fig 3A(ii)",
-    "effect_size": "~1.23x",
+    "effect_size": "~1.2x",
     "effect_size_provenance": "estimated_from_figure"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H5 P11.F3): Panel ii quantifies the genotype comparison. Panel i shows representative traces. The quote and pairwise P value are correct. The paper gives only a general minimum of three biological replicates, so the exact panel-specific n remains unavailable."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H5 P11.F3): Panel ii quantifies the genotype comparison. Panel i shows representative traces. The quote and pairwise P value are correct. The paper gives only a general minimum of three biological replicates, so the exact panel-specific n remains unavailable. Second check (Claude 11-23) adjusted: Fig 3A(ii) is the right panel and P=0.0102 is printed, but on the zoomed axis E3 is about 0.59 and E4 about 0.715 dF/F0, a ratio of about 1.21, so ~1.2x rather than ~1.23x."
   },
   {
    "key": "pmid36825945",
@@ -11942,13 +12122,10 @@
    "source": "The Results report a “trend towards lower late endosomal and lysosomal number when compared to APOE3 astrocytes in both isogenic pairs (Figures S2C–F).” The authors separately identify S2C as late-endosome number. The Key Resources Table identifies AG09173 as the APOE3/3 parent and AG10788 as the APOE4/4 parent. [Published paper, Results and Key Resources Table](https://air.unimi.it/retrieve/2c081b7c-aecf-4f77-9939-83ecf42a2e42/PIIS2211124720312134.pdf). [Coriell donor record](https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Product=CC&Ref=AG09173). [Coriell donor age](https://www.coriell.org/0/Sections/Collections/NIA/ipsc_list.aspx?coll=AG).",
    "stage": 3,
    "set": {
-    "system": "Early-passage (<P8) human iPSC-derived astrocytes from parental APOE3/3 line AG09173 and its isogenic APOE4/4 derivative. Coriell records the donor as a 75-year-old woman unaffected by Alzheimer’s disease. The paper describes LysoTracker Red staining at 50 nM for 30 minutes at 37°C followed by fixation and confocal imaging.",
     "effect_size": "qualitative",
-    "effect_size_provenance": "printed_in_text",
-    "p_value_provenance": "not_found_in_source",
-    "sample_size_provenance": "not_found_in_source"
+    "effect_size_provenance": "printed_in_text"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H5 P34.F1): The quote is verbatim in the supplied Results and reports the authors’ own experiment. The trend in both isogenic pairs supports the row’s narrower claim about the APOE3-parental pair. The text gives the direction only. Figure S2 and its legend could not be inspected, so the exact lysosome panel, numerical magnitude, P value and sample size remain unverified. The published Key Resources Table resolves the parental-line mapping."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H5 P34.F1): The quote is verbatim in the supplied Results and reports the authors’ own experiment. The trend in both isogenic pairs supports the row’s narrower claim about the APOE3-parental pair. The text gives the direction only. Figure S2 and its legend could not be inspected, so the exact lysosome panel, numerical magnitude, P value and sample size remain unverified. The published Key Resources Table resolves the parental-line mapping. Second check (Claude 11-23) adjusted: The Results sentence prints only a direction ('trend towards lower ... lysosomal number', Figs S2C-F), so qualitative/printed_in_text is right, but Fig S2 is absent from the local supplement (supp.txt empty), so P/n keep full_text_unavailable, and the Experimental-system rewrite rests on outside sources (Coriell donor age, AG09173 parent mapping) not in the paper."
   },
   {
    "key": "pmid40675218",
@@ -12165,20 +12342,6 @@
   {
    "key": "doi_10_64898_2026_05_12_724612",
    "hyp": "H5",
-   "quote_start": "These data were in agreement with our scRNAseq results, also indicatin",
-   "summary_contains": "(APOE33 -> APOE44) -> (lower lysosomal/endosomal protein abundance, a surrogate of organelle function)",
-   "description_start": "Proteomic comparison of three wells per genotype identified ",
-   "source": "In S3C, the APOE33 points average near +0.9 and the APOE44 points near −0.9 for each of LAMP1, LAMP2, HEXA and HEXB. Each protein has its own single star, supporting <0.05 for each comparison. The legend specifies Benjamini-Hochberg correction and three wells per genotype.",
-   "stage": 3,
-   "set": {
-    "effect_size": "~dZ=1.8",
-    "effect_size_provenance": "estimated_from_figure"
-   },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H5 P1.F11): The verbatim Results quote and S3C support lower abundance of all four proteins in APOE44. Each protein’s genotype difference rounds to about 1.8 Z-score units when read separately."
-  },
-  {
-   "key": "doi_10_64898_2026_05_12_724612",
-   "hyp": "H5",
    "quote_start": "Further, p62 (SQSTM1) and LC3B (MAP1LC3B2) were both upregulated, supp",
    "summary_contains": "(APOE33 -> APOE44) -> (higher LC3B abundance, a surrogate consistent with autophagosome accumulation)",
    "description_start": "APOE44 microglia had higher LC3B protein abundance than APOE",
@@ -12387,9 +12550,10 @@
     "description": "With PHF present in both groups, the tandem LC3 reporter showed a higher autophagosome percentage per cell under ApoE4 than under ApoE3, consistent with impaired autophagic processing. The authors analyzed 10–12 fields from three biological replicates.",
     "summary": "(ApoE3 -> ApoE4, with PHF) -> (higher autophagosome percentage per cell and lower autophagic flux)",
     "data_location": "Fig. 5j, left plot (autophagosome percentage per cell)",
-    "effect_size": "~2.4x"
+    "effect_size": "~2.3x",
+    "p_value_provenance": "printed_in_text"
    },
-   "reason": "Codex audit 11-20b (gpt-6.2-astra, H5 P23.F3): The quote is verbatim and reports the authors’ result. The fold estimate applies to the autophagosome percentage in the left plot. The existing P value and field-count provenance are supported."
+   "reason": "Codex audit 11-20b (gpt-6.2-astra, H5 P23.F3): The quote is verbatim and reports the authors’ result. The fold estimate applies to the autophagosome percentage in the left plot. The existing P value and field-count provenance are supported. Second check (Claude 11-23) adjusted: Fig 5j left plot on the zoomed axis: ApoE3+PHF about 35% and ApoE4+PHF about 79% (ratio about 2.28, so ~2.3x, not 85%/2.4x), and 'P<0.0001' is printed as a number on the figure over that pair, so it is printed_in_text, not a star."
   },
   {
    "key": "pmid39468688",
@@ -12565,223 +12729,6 @@
    },
    "reason": "Directness 11-20b (conventions applied by Claude): capsaicin (TRPV1 agonist) is applied within ApoE4 cells; the readout, tandem LC3 flux, is B itself: class 5, strength 4 (H5 convention).",
    "source": "runs/audit_1120/CONVENTIONS_1120.md"
-  },
-  {
-   "key": "pmid30375977",
-   "hyp": "H4",
-   "stage": 5,
-   "quote_start": "Increasing concentrations progressively restored normal surface recycl",
-   "summary_contains": "(increased NHE inhibition with apoE4 present) -> (restored Apoer2 surface recycling)",
-   "description_start": "Increasing EMD87580 concentrations progressively restored su",
-   "set": {
-    "effect_size": "4.4x",
-    "effect_size_provenance": "supplement_only"
-   },
-   "source": "elife-40048-fig4-data1.xlsx, sheet Fig4C: 0 uM 20.1/27.4/25.3 (mean 24.3) vs 3 uM 102.4/115.3/105.7 (mean 107.8); 107.8/24.3 = 4.4.",
-   "reason": "Consistency 11-22: the same panel is in the H2 and H4 sheets; the other sheet's value comes from the paper's source-data file, this one was read off the figure, so the source-data value is used in both."
-  },
-  {
-   "key": "pmid30375977",
-   "hyp": "H2",
-   "stage": 5,
-   "quote_start": "Other ApoE receptors, such as low-density lipoprotein receptor-related",
-   "summary_contains": "Surface-to-total Lrp1 levels were comparable with ApoE3 and ApoE4 under the Reelin protocol.",
-   "description_start": "Figure 2C quantifies surface-to-total Lrp1 levels across thr",
-   "set": {
-    "effect_size": "3%",
-    "effect_size_provenance": "supplement_only"
-   },
-   "source": "elife-40048-fig2-data1.xlsx, sheet Fig2C, Lrp1: E3+R 115.7/94.8/103.6 (mean 104.7), E4+R 103.5/94.3/106.6 (mean 101.5).",
-   "reason": "Consistency 11-22: the same panel is in the H2 and H4 sheets; the other sheet's value comes from the paper's source-data file, this one was read off the figure, so the source-data value is used in both."
-  },
-  {
-   "key": "pmid34617884",
-   "hyp": "H4",
-   "stage": 5,
-   "quote_start": "Receptor surface levels show a stronger reduction with ApoE4 than ApoE",
-   "summary_contains": "(ApoE3 -> ApoE4) -> (lower neuronal surface ApoER2 during Reelin stimulation)",
-   "description_start": "Across three independent experiments in primary mouse neuron",
-   "set": {
-    "effect_size": "~65%"
-   },
-   "source": "Fig 4C bar tops: E3+R ~78, E4+R ~27 (the 11-20 auditor's reading); ~65% lower. The 11-20 second check wrote ~3.6x, the ratio E3/E4, which inverts the direction.",
-   "reason": "Direction 11-22: a fold we compute is the comparison group over the reference, as the summary states it, so a decrease is below 1x; code scan of every sheet for folds whose direction contradicts the summary."
-  },
-  {
-   "key": "pmid23132858",
-   "hyp": "H5",
-   "stage": 5,
-   "quote_start": "In addition, confocal microscopy also revealed that internalized FAM-A",
-   "summary_contains": "(apoE3 -> apoE4) -> (lower Aβ42 delivery to LysoTracker-positive compartments)",
-   "description_start": "Confocal imaging of mouse N2a cells treated with lysosomal i",
-   "set": {
-    "effect_size": "~0.66x"
-   },
-   "source": "Fig 5D bars: apoE3 ~10.8, apoE4 ~7.1 (figure read 11-20); apoE4/apoE3 = 0.66x. The figure read wrote apoE3/apoE4.",
-   "reason": "Direction 11-22: a fold we compute is the comparison group over the reference, as the summary states it, so a decrease is below 1x; code scan of every sheet for folds whose direction contradicts the summary."
-  },
-  {
-   "key": "pmid23132858",
-   "hyp": "H5",
-   "stage": 5,
-   "quote_start": "Upon quantification, we confirmed that the amounts of Aβ42 in lysosome",
-   "summary_contains": "(apoE3 -> apoE4) -> (lower lysosome-associated Aβ42)",
-   "description_start": "Quantification of confocal images showed less Aβ42 associate",
-   "set": {
-    "effect_size": "~0.66x"
-   },
-   "source": "Fig 5D bars: apoE3 ~10.8, apoE4 ~7.1 (figure read 11-20); apoE4/apoE3 = 0.66x. The figure read wrote apoE3/apoE4.",
-   "reason": "Direction 11-22: a fold we compute is the comparison group over the reference, as the summary states it, so a decrease is below 1x; code scan of every sheet for folds whose direction contradicts the summary."
-  },
-  {
-   "key": "doi_10_1101_2025_11_11_687891",
-   "hyp": "H5",
-   "stage": 6,
-   "quote_start": "Furthermore, while both neuronal EE’s and LE’s showed an increasing pa",
-   "summary_contains": "(APOE3 -> APOE4, young hippocampus) -> (higher neuronal LAMP1-compartment abundance)",
-   "description_start": "Young APOE4 mice had significantly more hippocampal neuronal",
-   "set": {
-    "p_value": "N/A",
-    "p_value_provenance": "ambiguous_panel"
-   },
-   "reason": "Figure-read check 11-22 (Claude, against the image): the panel splits every genotype by sex and age, its brackets span several boxes and the figure does not say which pair each star marks, so a star cannot be assigned to this row's comparison; the earlier P value is restored.",
-   "source": "Fig 4B image (page render of the preprint), checked 11-22"
-  },
-  {
-   "key": "doi_10_1101_2025_11_11_687891",
-   "hyp": "H5",
-   "stage": 6,
-   "quote_start": "Total LE-Ch was decreased in APOE3 females compared to APOE2 and APOE4",
-   "summary_contains": "(APOE3 -> APOE4, young females) -> (higher hippocampal total late-endosomal cholesterol colocalization)",
-   "description_start": "Young female APOE4 mice had significantly higher hippocampal",
-   "set": {
-    "p_value": "N/A",
-    "p_value_provenance": "not_found_in_source"
-   },
-   "reason": "Figure-read check 11-22 (Claude, against the image): the panel splits every genotype by sex and age, its brackets span several boxes and the figure does not say which pair each star marks, so a star cannot be assigned to this row's comparison; the earlier P value is restored.",
-   "source": "Fig 9D image (page render of the preprint), checked 11-22"
-  },
-  {
-   "key": "doi_10_1101_2025_11_11_687891",
-   "hyp": "H5",
-   "stage": 6,
-   "quote_start": "The only significant difference measured on N-LY-Ch levels was in the ",
-   "summary_contains": "(APOE3 -> APOE4, young females) -> (higher cortical neuronal lysosomal cholesterol colocalization)",
-   "description_start": "Young (5-6 months) female APOE4 mice had significantly highe",
-   "set": {
-    "p_value": "N/A",
-    "p_value_provenance": "not_found_in_source"
-   },
-   "reason": "Figure-read check 11-22 (Claude, against the image): the panel splits every genotype by sex and age, its brackets span several boxes and the figure does not say which pair each star marks, so a star cannot be assigned to this row's comparison; the earlier P value is restored.",
-   "source": "Fig 10B image (page render of the preprint), checked 11-22"
-  },
-  {
-   "key": "doi_10_1101_2025_11_11_687891",
-   "hyp": "H5",
-   "stage": 6,
-   "quote_start": "However, paired contrasts showed that N-LY’s in the EC were increased ",
-   "summary_contains": "(APOE3 -> APOE4, females) -> (higher entorhinal neuronal LAMP1-compartment abundance)",
-   "description_start": "Female APOE4 mice had significantly greater entorhinal neuro",
-   "set": {
-    "p_value": "N/A",
-    "p_value_provenance": "ambiguous_panel"
-   },
-   "reason": "Figure-read check 11-22 (Claude, against the image): the panel splits every genotype by sex and age, its brackets span several boxes and the figure does not say which pair each star marks, so a star cannot be assigned to this row's comparison; the earlier P value is restored.",
-   "source": "Fig 7C image (page render of the preprint), checked 11-22"
-  },
-  {
-   "key": "doi_10_64898_2026_05_12_724612",
-   "hyp": "H5",
-   "stage": 6,
-   "quote_start": "Consistently, lysosomal degradative capacity, assessed by DQ-BSA, was ",
-   "summary_contains": "(APOE33 -> APOE44) -> (lower lysosomal degradation capacity)",
-   "description_start": "APOE44 microglia had reduced DQ-BSA-measured lysosomal degra",
-   "set": {
-    "effect_size": "~42%"
-   },
-   "reason": "Figure-read check 11-22 (Claude against the image, adjust): Zoomed Fig 3H bars read APOE33 ~0.72e4 vs APOE44 ~0.42e4 (axis from zero), a ~42% decrease rather than 60%; the APOE33-APOE44 bracket carries **** (p<0.0001), which is right.",
-   "source": "Fig 3H image (data/papers/doi_10_64898_2026_05_12_724612/figimg/3.png)"
-  },
-  {
-   "key": "doi_10_64898_2026_05_12_724612",
-   "hyp": "H5",
-   "stage": 6,
-   "quote_start": "Upon challenge with organoid debris, UCI5 APOE44 iMG lysosomes failed ",
-   "summary_contains": "(APOE33 -> APOE44) -> (impaired adaptive lysosomal acidification, with alkalinization after challenge)",
-   "description_start": "In the female UCI5 isogenic APOE33/APOE44 comparison, APOE44",
-   "set": {
-    "effect_size": "~dpH=0.17"
-   },
-   "reason": "Figure-read check 11-22 (Claude against the image, adjust): Fig 7M: the APOE33->APOE44 comparison after debris is 5.235 vs ~5.40 (dpH ~0.17) with **** (p<0.0001); the read's 0.12 was the within-APOE44 change, whose bracket carries only ***.",
-   "source": "Fig 7M image (data/papers/doi_10_64898_2026_05_12_724612/figimg/7.png)"
-  },
-  {
-   "key": "pmid34982109",
-   "hyp": "H5",
-   "stage": 6,
-   "quote_start": "However, LC3 abundance was increased with Rap only in APOE3–mCh and mC",
-   "summary_contains": "(rapamycin) -> (LC3 abundance increased in APOE3 and mCherry controls, with no change reported in APOE4)",
-   "description_start": "Within APOE4-expressing HEK293 cells, rapamycin caused no si",
-   "set": {
-    "effect_size": "~4%"
-   },
-   "reason": "Figure-read check 11-22 (Claude against the image, adjust): Zoomed Fig 1B APOE4-row LC3 abundance (axis 550-800) reads NT mean ~604 vs Rap ~627, a ~4% increase.",
-   "source": "Fig. 1B image (data/papers/pmid34982109/figimg/1.png)"
-  },
-  {
-   "key": "pmid40675218",
-   "hyp": "H5",
-   "stage": 6,
-   "quote_start": "Even though cholesterol seemed to have an impact on endosomes, includi",
-   "summary_contains": "(cholesterol supplementation in APOE4 cultures) -> (larger LAMP1-positive compartments)",
-   "description_start": "Cholesterol supplementation was described as producing large",
-   "set": {
-    "effect_size": "qualitative",
-    "effect_size_provenance": "printed_in_text"
-   },
-   "reason": "Figure-read check 11-22 (Claude against the image, revert): Fig 6L is normalized to the E3 untreated control (legend: E4 = 1.19), not to the ApoE4 vehicle, so the E4 bar at ~1.19 is not a cholesterol-versus-vehicle fold within ApoE4 cultures.",
-   "source": "Fig 6L, cholesterol-treatment interpretation in Results image (data/papers/pmid40675218/figimg/6.png)"
-  },
-  {
-   "key": "pmid38891941",
-   "hyp": "H5",
-   "stage": 6,
-   "quote_start": "Additionally, APPPS1:E4 mice had higher levels of lysosomal accumulati",
-   "summary_contains": "(APOE3 -> APOE4) -> (higher frontal cortical LAMP1-positive area at 8 months)",
-   "description_start": "At 8 months, APPPS1:E4 mice had higher frontal cortical LAMP",
-   "set": {
-    "effect_size": "~dROI=0.08",
-    "effect_size_provenance": "estimated_from_figure"
-   },
-   "reason": "Figure-read check 11-22 (Claude against the image, adjust): Panel D at 8 months the APPPS1:E3 bar is ~0 % ROI and APPPS1:E4 ~0.085, so no ~2x fold exists (reference near zero); a named difference of ~0.08 % ROI is what the figure supports.",
-   "source": "Fig 7D, 8-month genotype comparison image (data/papers/pmid38891941/figimg/7.png)"
-  },
-  {
-   "key": "pmid40675218",
-   "hyp": "H5",
-   "stage": 6,
-   "quote_start": "Even though cholesterol seemed to have an impact on endosomes, includi",
-   "summary_contains": "(cholesterol supplementation in APOE4 cultures) -> (lower DQ-BSA degradation)",
-   "description_start": "Cholesterol supplementation was described as reducing DQ-BSA",
-   "set": {
-    "effect_size": "qualitative",
-    "effect_size_provenance": "printed_in_text"
-   },
-   "reason": "Figure-read check 11-22 (Claude against the image, revert): Fig 6M is normalized to the E3 untreated control, not to E4 vehicle, so the E4 bar at ~0.59 does not give a cholesterol-vs-vehicle fold for ApoE4.",
-   "source": "Fig 6M, cholesterol-treatment interpretation in Results image (data/papers/pmid40675218/figimg/6.png)"
-  },
-  {
-   "key": "doi_10_64898_2026_05_12_724612",
-   "hyp": "H5",
-   "stage": 7,
-   "quote_start": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (",
-   "summary_contains": "(APOE33 -> APOE44) -> (impaired adaptive late-endosomal/lysosomal acidification after organoid-debris challenge)",
-   "description_start": "After organoid-debris challenge, APOE33 microglia acidified ",
-   "set": {
-    "effect_size": "~dpH=0.08"
-   },
-   "reason": "Figure-read check 11-22 (manual, after the Claude check): the row compares the genotypes after debris (APOE33+debris ~5.05 vs APOE44+debris ~5.13, * bracket); dpH 0.12 was APOE33's own response to debris.",
-   "source": "Fig 3G image; legend *p<0.05"
   }
  ]
 }

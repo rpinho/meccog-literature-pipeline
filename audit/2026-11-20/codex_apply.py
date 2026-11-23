@@ -19,6 +19,15 @@ for pk in ("packet7_a.json", "packet7_b.json", "packet_8a.json"):
 # reviewer decisions on top of the audit: (hyp, finding id) -> columns not applied, and why
 OVERRIDES = {("H3", "P18.F12"): (["Effect size", "Effect size provenance"],
                                  "a ratio of fitted species counts (6/6) is not an effect size")}
+# second check (Claude, 11-23) of these proposals: cverify_<n>.json items -> cverify_<n>_verified.json decisions.
+# REJECT: the proposal is not applied. ADJUST: the checker's set and/or directness replace the proposal's.
+VER = {}
+for vf in sorted(D.glob("cverify_*_verified.json")):
+    its = {i["item"]: i for i in json.load(open(str(vf).replace("_verified", "")))}
+    for v in json.load(open(vf)):
+        it = its.get(v.get("item"))
+        if it:
+            VER[(it["src"], it["key"], it["finding_id"])] = v
 new, n = [], collections.Counter()
 for rp in ("codex_result_a.json", "codex_result_b.json", "codex_result_8a.json"):
     if not (D / rp).exists():
@@ -31,6 +40,20 @@ for rp in ("codex_result_a.json", "codex_result_b.json", "codex_result_8a.json")
             n["unmatched"] += 1
             continue
         g, r = hit[0]
+        v = VER.get((rp, g["key"], a.get("finding_id")))
+        if v:
+            n["second_" + v["decision"]] += 1
+            if v["decision"] == "REJECT":
+                continue
+            if v["decision"] == "ADJUST":
+                a = dict(a)
+                if v.get("set"):
+                    a["set"] = v["set"]
+                    if a.get("verdict") == "OK":
+                        a["verdict"] = "FIX"
+                if v.get("directness"):
+                    a["directness"] = {**(a.get("directness") or {}), **v["directness"]}
+                a["reason"] = f"{a.get('reason')} Second check (Claude 11-23) adjusted: {v.get('why')}"
         n[a.get("verdict")] += 1
         base = {"key": g["key"], "hyp": g["hyp"], "quote_start": str(r["Finding quote"])[:70],
                 "summary_contains": str(r["Finding summary"]), "description_start": str(r["Finding description"])[:60],
