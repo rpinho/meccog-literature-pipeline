@@ -4,16 +4,16 @@ MecCog Step 1 submission: an open pipeline that finds the papers bearing on a me
 
 - **Team:** rstack
 - **Hypothesis:** H1 (lower endosome pH), H2 (impaired receptor recycling), H3 (APOE4 aggregation in the endo-lysosome) and H4 (APOE4 binds recycling receptors more tightly) and H5 (APOE4 lipid changes impair late endosome/lysosome function) of the [APOE4 endosome set](https://huggingface.co/spaces/MecCog/meccog-challenge), one spreadsheet each.
-- **Submission date:** H1 and H2 2026-11-17, replaced 2026-11-18 after the figure read; H3 2026-11-18; H4, and replacements for H2 and H3, 2026-11-19; replacements for H1 to H4 after the row audit and directness pass, 2026-11-19; H5, and replacements for H1 to H4, 2026-11-20; replacements for H2 to H5 after the recall round and the figure check, 2026-11-23
+- **Submission date:** H1 and H2 2026-11-17, replaced 2026-11-18 after the figure read; H3 2026-11-18; H4, and replacements for H2 and H3, 2026-11-19; replacements for H1 to H4 after the row audit and directness pass, 2026-11-19; H5, and replacements for H1 to H4, 2026-11-20; replacements for H2 to H5 after the recall round and the figure check, 2026-11-23; replacements for H1 to H5 after Kaji 2024, the second check of the recall audit, supplement recovery and cross-sheet harmonization, 2026-11-25
 - **Live sheets** (each built by `build_sheet.py` at the commit named; the acceptance number is the one the submission Space returned):
 
   | | sheet commit | acceptance number | papers / rows |
   |---|---|---|---|
-  | H1 | 814d9f8 | MC-20261120-A1F25685 | 10 / 26 |
-  | H2 | 4295a9f | MC-20261123-0EABA3D7 | 15 / 89 |
-  | H3 | 4295a9f | MC-20261123-54B3FE09 | 37 / 185 |
-  | H4 | 4295a9f | MC-20261123-51ED053C | 26 / 180 |
-  | H5 | 4295a9f | MC-20261123-D84C04BE | 41 / 256 |
+  | H1 | 67a986c | MC-20261125-38EB35B5 | 10 / 26 |
+  | H2 | 67a986c | MC-20261125-845EE83D | 15 / 89 |
+  | H3 | 67a986c | MC-20261125-D3A3C881 | 38 / 188 |
+  | H4 | 67a986c | MC-20261125-B8633A76 | 26 / 180 |
+  | H5 | 67a986c | MC-20261125-8E4D7F06 | 41 / 256 |
 
 Everything here is agent work: AI-written code, AI extraction, an AI referee, an AI audit of every row, and an AI spot-check. Read the numbers with that in mind.
 
