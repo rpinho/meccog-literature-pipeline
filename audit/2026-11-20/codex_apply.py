@@ -12,7 +12,7 @@ COL = {"Finding description": "description", "Finding quote": "quote", "Finding 
        "P value provenance": "p_value_provenance", "Sample size": "sample_size",
        "Sample size provenance": "sample_size_provenance"}
 rows = {}
-for pk in ("packet7_a.json", "packet7_b.json", "packet_8a.json"):
+for pk in ("packet7_a.json", "packet7_b.json", "packet_8a.json", "packet_9a.json"):
     for g in json.load(open(D / pk)):
         for r in g["rows"]:
             rows[(g["key"], r["Paper/Finding ID"], str(r["Finding quote"])[:40])] = (g, r)
@@ -29,7 +29,7 @@ for vf in sorted(D.glob("cverify_*_verified.json")):
         if it:
             VER[(it["src"], it["key"], it["finding_id"])] = v
 new, n = [], collections.Counter()
-for rp in ("codex_result_a.json", "codex_result_b.json", "codex_result_8a.json"):
+for rp in ("codex_result_a.json", "codex_result_b.json", "codex_result_8a.json", "codex_result_9a.json"):
     if not (D / rp).exists():
         continue
     for a in json.load(open(D / rp)):

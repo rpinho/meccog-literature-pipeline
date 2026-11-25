@@ -1,0 +1,85 @@
+[
+ {
+  "hyp": "H3",
+  "hypothesis": "In some types of non-Alzheimer's, non-aged human brain cells, APOE4 undergoes increased aggregation in the endo-lysosome compared with APOE3.",
+  "paper_id": "P9",
+  "key": "pmid39419029",
+  "doi": "10.1016/j.immuni.2024.09.014",
+  "text": "data/papers/pmid39419029/text.txt",
+  "supp": null,
+  "figures": [
+   "data/papers/pmid39419029/figimg/3.png"
+  ],
+  "pdf": "data/papers/pmid39419029/fulltext.pdf",
+  "rows": [
+   {
+    "Paper/Finding ID": "P9.F1",
+    "Finding description": "During cell-free incubation, recombinant APOE4 developed increased Thioflavin T fluorescence and lost helical structure, whereas APOE3 showed no reported change in Thioflavin T fluorescence or W222/W208 ratio.",
+    "Finding quote": "Analysis revealed increasing Thioﬂavin T ﬂuorescence intensity of APOE4, which reached a plateau after 2 weeks (Figure 3D). In addition, abundance of a-helical struc- tures and W222/W208 ratio were examined by circular dichroism (CD) spectroscopy, which showed markedly reduced a-helicity and loss of paired-coil structures post-incubation (Figure 3D). Finally, ultrastructural analysis of APOE4 aggregates after 2 weeks of incubation showed clusters of wavy ﬁbrillar structures resembling in vivo isolated APOE4 aggregates (Figures 2B and 3D). When APOE3 was analyzed similarly, we did not observe altered W222/W208 ratio, increase in Thioﬂavin T ﬂuorescence in- tensity, or drastic changes in molecular weight determined by FPLC (Figures 3E and S4G",
+    "Finding summary": "(APOE3 -> APOE4) -> (greater cell-free APOE aggregation and conformational change during incubation)",
+    "Finding relevance": 0.75,
+    "Experimental system": "Purified monomeric/tetrameric recombinant human APOE3 and APOE4 were incubated unlipidated at 37°C in a cell-free assay. Fig. 3E compares circular dichroism before and after three weeks and follows Thioflavin T fluorescence over time. The supplied Methods render the concentration as “14.2 mM”; the µM unit cannot be verified from that passage.",
+    "Data location": "Fig 3E; Results, 'hAPOE aggregates act as a co-factor in Ab plaque formation'",
+    "Effect size": "qualitative",
+    "Effect size provenance": "printed_in_text",
+    "P value": "N/A",
+    "P value provenance": "not_found_in_source",
+    "Sample size": "N/A",
+    "Sample size provenance": "not_found_in_source",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   {
+    "Paper/Finding ID": "P9.F2",
+    "Finding description": "Recombinant APOE4 appeared in higher-molecular-weight FPLC fractions during incubation, while the accompanying APOE3 analysis cited to Supplementary Fig 4G showed no drastic molecular-weight changes.",
+    "Finding quote": "FPLC analysis detected the emergence of APOE4 in the higher molecular weight fractions, indicating aggregate forma- tion (Figure S4F",
+    "Finding summary": "(APOE3 -> APOE4) -> (greater emergence of high-molecular-weight APOE during cell-free incubation)",
+    "Finding relevance": 0.7,
+    "Experimental system": "Purified monomeric/tetrameric recombinant human APOE4 incubated at 37°C, within an experiment following recombinant APOE3 and APOE4 for up to 4 weeks; FPLC detection of higher-molecular-weight protein. APOE3 comparator is described separately with Supplementary Fig 4G. Exact panel time points and replicate numbers unavailable.",
+    "Data location": "Supplementary Fig 4F; APOE3 comparator described with Supplementary Fig 4G",
+    "Effect size": "qualitative",
+    "Effect size provenance": "printed_in_text",
+    "P value": "N/A",
+    "P value provenance": "full_text_unavailable",
+    "Sample size": "N/A",
+    "Sample size provenance": "full_text_unavailable",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   {
+    "Paper/Finding ID": "P9.F3",
+    "Finding description": "Under comparable cell-free incubation conditions, recombinant APOE3 showed no drastic FPLC molecular-weight changes, contrasting with the higher-molecular-weight species reported for APOE4.",
+    "Finding quote": "When APOE3 was analyzed similarly, we did not observe altered W222/W208 ratio, increase in Thioﬂavin T ﬂuorescence in- tensity, or drastic changes in molecular weight determined by FPLC (Figures 3E and S4G",
+    "Finding summary": "(APOE3 -> APOE4) -> (greater formation of high-molecular-weight APOE species during incubation)",
+    "Finding relevance": 0.7,
+    "Experimental system": "Purified monomeric/tetrameric recombinant human APOE3 analyzed after incubation at 37°C, compared with the APOE4 aggregation experiment. Main Results associates the APOE3 FPLC result with Supplementary Fig 4G and CD/Thioflavin T comparisons with Fig 3E. Exact supplementary time points and replicate numbers unavailable.",
+    "Data location": "Supplementary Fig 4G; APOE4 comparator in Supplementary Fig 4F",
+    "Effect size": "qualitative",
+    "Effect size provenance": "printed_in_text",
+    "P value": "N/A",
+    "P value provenance": "full_text_unavailable",
+    "Sample size": "N/A",
+    "Sample size provenance": "full_text_unavailable",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   },
+   {
+    "Paper/Finding ID": "P9.F4",
+    "Finding description": "When recombinant APOE3 and APOE4 were lipidated, neither showed detectable aggregation in the cell-free assay; a statistical test of the isoform difference was not reported in the supplied text.",
+    "Finding quote": "Notably, when the assay was per- formed with APOE3 and APOE4 prepared as lipidated particles, no aggregation was detected indicating that lipidation hampers aggregation in cell-free environment (Figures S4G and S4H",
+    "Finding summary": "(lipidated APOE3 -> lipidated APOE4) -> (no change in detectable cell-free APOE aggregation)",
+    "Finding relevance": 0.7,
+    "Experimental system": "Recombinant human APOE3 and APOE4 were incorporated into POPC/cholesterol particles at a 1:90:5 APOE:POPC:cholesterol molar ratio. Methods describe cell-free Thioflavin T measurements at 37°C over 18–21 days and structural comparisons after three weeks. The supplied concentration unit is rendered as mM, so the stated µM unit is unverified.",
+    "Data location": "Supplementary Fig 4G–4H, jointly cited for the lipidated-isoform result",
+    "Effect size": "qualitative",
+    "Effect size provenance": "printed_in_text",
+    "P value": "N/A",
+    "P value provenance": "full_text_unavailable",
+    "Sample size": "N/A",
+    "Sample size provenance": "full_text_unavailable",
+    "Directness class": 1,
+    "Directness strength": "2 strong"
+   }
+  ]
+ }
+]

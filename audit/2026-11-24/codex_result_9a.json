@@ -1,0 +1,82 @@
+[
+ {
+  "hyp": "H3",
+  "paper_id": "P9",
+  "finding_id": "P9.F1",
+  "key": "pmid39419029",
+  "quote_start": "Analysis revealed increasing Thioﬂavin T ﬂuorescence intensity of APOE",
+  "verdict": "FIX",
+  "set": {
+   "Finding description": "During cell-free incubation, Thioflavin T fluorescence rose for unlipidated APOE4 and stayed near baseline for APOE3. At 384 h, the APOE4 signal was approximately 4.6 times the APOE3 signal. After three weeks, the CD ellipticity ratio θ222/θ208 had decreased for APOE4 and changed little for APOE3.",
+   "Finding summary": "(APOE3 -> APOE4) -> (higher Thioflavin T fluorescence at 384 h and a larger incubation-associated decrease in θ222/θ208)",
+   "Experimental system": "Purified monomeric/tetrameric recombinant human APOE3 and APOE4, unlipidated, at 14.2 µM (500 µg/mL). Thioflavin T fluorescence was followed at 37°C. CD spectra were compared before and after three weeks.",
+   "Data location": "Fig 3E right, APOE3 versus APOE4 Thioflavin T time course. Fig 3E left, CD spectra and θ222/θ208 ratios. Fig 3D provides the separate APOE4 characterization cited in the quote.",
+   "Effect size": "~4.6x",
+   "Effect size provenance": "estimated_from_figure"
+  },
+  "reason": "The quote matches the authors’ Results. The PDF resolves the concentration unit and provides a readable same-time isoform comparison. The fold estimate applies to fluorescence. Fig 3E gives no comparison-specific P value or independent sample count. The four repeated CD measurements described for Fig 3D do not establish that count.",
+  "evidence": "The supplied 3.png is labeled Figure 4. In the actual Fig 3E, at the 384 h tick, the blue APOE4 trace reads about 13 and the green APOE3 trace about 2.8 on the same ×10⁵ fluorescence axis. The CD inset prints APOE3 1.103 to 1.129 and APOE4 1.068 to 0.839. The published Methods give 14.2 µM (500 µg/mL). [Published paper, Fig 3E and STAR Methods](https://epub.ub.uni-muenchen.de/123269/1/PIIS1074761324004588.pdf)",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "why": "The cell-free fluorescence and CD comparison matches the H3 reference for incubation-associated Thioflavin T signal change and provides no endo-lysosomal localization."
+  }
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P9",
+  "finding_id": "P9.F2",
+  "key": "pmid39419029",
+  "quote_start": "FPLC analysis detected the emergence of APOE4 in the higher molecular ",
+  "verdict": "FIX",
+  "set": {
+   "Finding quote": "FPLC analysis detected the emergence of APOE4 in the higher molecular weight fractions, indicating aggregate formation (Figure S4F). […] When APOE3 was analyzed similarly, we did not observe altered W222/W208 ratio, increase in Thioflavin T fluorescence intensity, or drastic changes in molecular weight determined by FPLC (Figures 3E and S4G).",
+   "P value provenance": "not_found_in_source",
+   "Sample size provenance": "not_found_in_source"
+  },
+  "reason": "The original quote supports the APOE4 arm. The second Results sentence supplies the APOE3 comparator needed for the description and summary. Retain qualitative with printed_in_text. The main paper gives neither a numerical FPLC effect nor a comparison-specific P value or n. Fig S4 was unavailable for visual verification.",
+  "evidence": "On supplied page 9, the authors cite S4F for the appearance of APOE4 in higher-molecular-weight fractions and cite 3E and S4G for the APOE3 observations. The Fig 3E legend identifies CD and Thioflavin T as its readouts, leaving S4G as the cited source for APOE3 FPLC.",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "why": "The isoform comparison measures high-molecular-weight apoE in purified protein, matching the H3 cell-free gel-filtration and oligomerization reference rows."
+  }
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P9",
+  "finding_id": "P9.F3",
+  "key": "pmid39419029",
+  "quote_start": "When APOE3 was analyzed similarly, we did not observe altered W222/W20",
+  "verdict": "DROP",
+  "set": {},
+  "reason": "This is the APOE3 comparator already included in corrected P9.F2. The quote is the authors’ own result, but the row repeats the same FPLC readout, panels, comparison, and direction. Counting it separately would count one isoform comparison twice.",
+  "evidence": "On supplied page 9, the APOE3 sentence reports no drastic molecular-weight change by FPLC. P9.F2 and P9.F3 both use that observation from S4G together with the APOE4 observation from S4F. The main text supplies no separate numerical effect, P value, or n for F3. Fig S4 was unavailable for visual verification.",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "why": "This is the same cell-free FPLC comparison as P9.F2 and takes the same score."
+  }
+ },
+ {
+  "hyp": "H3",
+  "paper_id": "P9",
+  "finding_id": "P9.F4",
+  "key": "pmid39419029",
+  "quote_start": "Notably, when the assay was per- formed with APOE3 and APOE4 prepared ",
+  "verdict": "FIX",
+  "set": {
+   "Finding summary": "(lipidated APOE3 -> lipidated APOE4) -> (no detectable cell-free aggregation for either isoform)",
+   "Experimental system": "Recombinant human APOE3 and APOE4 were lipidated with POPC and cholesterol at an APOE:POPC:cholesterol molar ratio of 1:90:5. The isoform comparison used 14.2 µM APOE (500 µg/mL), with Thioflavin T monitoring at 37°C over 18–21 days and CD comparison after three weeks.",
+   "P value provenance": "not_found_in_source",
+   "Sample size provenance": "not_found_in_source"
+  },
+  "reason": "The quote matches the authors’ Results and supports a detection-limit statement for both isoforms. Retain qualitative with printed_in_text. Neither a zero effect nor statistical equivalence follows from this observation. The full text supplies no isoform-specific P value or n. The cited supplementary panels were unavailable for visual verification.",
+  "evidence": "Supplied page 9 jointly cites S4G and S4H for the lipidated-particle result. The lipidation Methods give the 1:90:5 molar ratio, and the published RT-QuIC and CD Methods confirm the concentration and durations. [Published paper, STAR Methods pp. e11–e12](https://epub.ub.uni-muenchen.de/123269/1/PIIS1074761324004588.pdf)",
+  "directness": {
+   "class": 3,
+   "strength": 3,
+   "why": "The comparison varies apoE isoform at fixed lipidation and measures cell-free aggregation, matching the H3 reference for lipidated apoE aggregation at neutral pH."
+  }
+ }
+]

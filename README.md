@@ -100,7 +100,7 @@ No person checked the findings. Instead:
 |---|---|---|---|---|---|---|---|
 | H1 | 983 | 403 | 73 | 65 (89%) | 241 | 56 / 77 / 104 (4 not refereed) | 10 papers, 26 rows |
 | H2 | 974 | 316 | 109 | 91 (83%) | 763 | 76 / 90 / 568 (29 rows lost to extraction errors) | 15 papers, 89 rows |
-| H3 | 1,310 | 751 | 132 | 98 (74%) | 674 | 97 / 195 / 382 | 37 papers, 185 rows |
+| H3 | 1,310 | 751 | 132 | 99 (75%) | 682 | 97 / 199 / 386 | 38 papers, 188 rows |
 | H4 | 1,352 | 488 | 138 | 97 (70%) | 738 | 143 / 173 / 422 | 26 papers, 180 rows |
 | H5 | 1,062 | 366 | 168 | 140 (83%) | 1,464 | 261 / 180 / 1,023 | 41 papers, 256 rows |
 
@@ -140,7 +140,7 @@ No person checked the findings. Instead:
 - **Scope calls.** The hypotheses name non-aged human brain cells, and almost nothing in this literature meets every clause. We keep model-system findings and record the system precisely, as the challenge asks.
 - **Finding the figure image.** On a PMC article page, the image is taken from the figure whose caption starts with its label. Before 11-20 a later caption that only mentioned "Figure 5" could match. That happened once, for a JBC paper whose labels are upper case ("FIGURE 5."): the image went to the 11-20 auditors but no figure read had used it. It is regenerated.
 - **Significance stars.** Where a legend gives one key for the whole figure ("*** p < 0.001") but the text does not say which panels carry the stars, the P value is N/A with ambiguous_panel until we read the figure images.
-- **H3 starting reference.** Kaji et al. 2024 (Immunity) is open access but behind a publisher bot wall; it is not in this H3 version and will be added in a replacement.
+- **H3 starting reference.** Kaji et al. 2024 (Immunity) is open access but behind a publisher bot wall. On 11-24 we found the CC BY publisher version in the Leiden University repository through Unpaywall and added it by the `manual_pdf` route (`audit/2026-11-24/`). It gave 3 rows, all cell-free incubations of purified apoE3 and apoE4 (class 3): Thioflavin T signal ~4.6x higher for APOE4 at 384 h (Fig 3E), high-molecular-weight apoE4 by FPLC, and no aggregation of either isoform when lipidated. The microglia results cite Supplementary Fig 7, which is not in that copy, so the referee rejected them; they are not rows.
 - **Known weaknesses.** Papers behind publisher bot walls without a PMC copy are missed. Many effect sizes are still "qualitative": the number is only in a figure the figure read could not use, or, as the H3 spot-check showed, the extraction left a row qualitative although the text prints both group values. The referee is one model; it fixes and rejects, but it can also be wrong. Directness is a judgment against each hypothesis's own definition of A and B (`config/variables.json`); another team reading B more loosely would give more rows class 1. The H1 sheet is small (8 papers) because rows outside the hypothesis are dropped; we think that is the right call for this challenge, but it means some related lysosome results are not in it.
 - Lessons from the organizers' earlier agent collab shaped several steps; see References.
 
