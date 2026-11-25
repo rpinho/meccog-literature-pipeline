@@ -131,29 +131,38 @@ def _from_pdf(d, kind, num):
         return None
     import pymupdf
     doc = pymupdf.open(pdf)
-    head = rf"^\s*(?:Supplementary\s+)?(?:Figure|Fig\.?)\s*{'S' if kind else ''}{num}[.:|\s]"
-    label = rf"(?:Figure|Fig\.?)\s*{'S' if kind else ''}{num}\b"
+    any_head = r"^\s*(?:(?:Supplementary|Extended\s+Data)\s+)?(?:Figure|Fig\.?)\s*S?\s*\d+(?:\s*$|[.:|]|\s+(?=[A-Z(]))"
+    if kind:
+        head = rf"^\s*(?:(?:Supplementary|Extended\s+Data)\s+(?:Figure|Fig\.?)\s*S?\s*{num}|(?:Figure|Fig\.?)\s*S\s*{num})(?:\s*$|[.:|]|\s+(?=[A-Z(]))"
+        label = rf"(?:(?:Supplementary|Extended\s+Data)\s+(?:Figure|Fig\.?)\s*S?\s*{num}|(?:Figure|Fig\.?)\s*S\s*{num})\b"
+    else:
+        head = rf"^\s*(?:Figure|Fig\.?)\s*{num}(?:\s*$|[.:|]|\s+(?=[A-Z(]))"
+        label = rf"(?<!Supplementary\s)(?<!Extended\sData\s)\b(?:Figure|Fig\.?)\s*{num}\b"
 
     def has_figure(page):
-        # an embedded image covering a good part of the page, or a page of vector drawings
+        # embedded images covering a meaningful share of the page, or vector drawings
         area = page.rect.width * page.rect.height
-        for info in page.get_image_info():
-            x0, y0, x1, y1 = info["bbox"]
-            if (x1 - x0) * (y1 - y0) > 0.15 * area:
-                return True
-        return len(page.get_drawings()) > 200
+        img_area = sum((info["bbox"][2] - info["bbox"][0]) * (info["bbox"][3] - info["bbox"][1])
+                       for info in page.get_image_info())
+        return img_area > 0.10 * area or len(page.get_drawings()) > 120
+
+    def has_other_head(page):
+        return any(re.match(any_head, l, re.I) and not re.match(head, l, re.I)
+                   for l in page.get_text().splitlines())
 
     pages = list(doc)
-    legend = [i for i, pg in enumerate(pages) if any(re.match(head, l) for l in pg.get_text().splitlines())]
-    # 1. the legend page itself carries the figure (journal layout)
-    # 2. author manuscripts: legends listed together, figures on later pages labelled "Figure N"
-    # 3. the page right after the legend
+    legend = [i for i, pg in enumerate(pages) if any(re.match(head, l, re.I) for l in pg.get_text().splitlines())]
+    # 1. the legend or labelled figure page itself carries the figure (journal layout, labelled manuscript pages)
+    # 2. full-page figure immediately before its legend page (e.g. Cell Press, Springer, bioRxiv)
+    # 3. full-page figure immediately after its legend page (skip pages carrying another figure's legend)
+    # 4. author manuscripts: figure page carrying the label elsewhere in its text
     order = [i for i in legend if has_figure(pages[i])] \
-        + [i for i, pg in enumerate(pages) if i not in legend and has_figure(pg) and re.search(label, pg.get_text())] \
-        + [i + 1 for i in legend if i + 1 < len(pages) and has_figure(pages[i + 1])]
-    # 4. unlabelled figure pages after a legends section: main figure N is the N-th page with a figure
+        + [i - 1 for i in legend if i - 1 >= 0 and has_figure(pages[i - 1]) and not has_other_head(pages[i - 1])] \
+        + [i + 1 for i in legend if i + 1 < len(pages) and has_figure(pages[i + 1]) and not has_other_head(pages[i + 1])] \
+        + [i for i, pg in enumerate(pages) if i not in legend and has_figure(pg) and not has_other_head(pg) and re.search(label, pg.get_text(), re.I)]
+    # 5. unlabelled figure pages after a legends section: main figure N is the N-th page with a figure
     if legend and not kind:
-        after = [i for i in range(legend[0] + 1, len(pages)) if has_figure(pages[i])]
+        after = [i for i in range(legend[0] + 1, len(pages)) if has_figure(pages[i]) and not has_other_head(pages[i])]
         if len(after) >= int(num):
             order.append(after[int(num) - 1])
     order += legend
