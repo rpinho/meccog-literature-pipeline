@@ -20,7 +20,7 @@ import zipfile
 from fetch import get, PAPERS
 
 MAX_PER_FILE = 60_000
-MAX_BYTES = 25_000_000
+MAX_BYTES = 100_000_000
 TEXT_EXT = (".pdf", ".docx", ".xlsx", ".xls", ".csv", ".txt", ".tsv")
 
 
@@ -71,50 +71,106 @@ def to_text(name, b):
     return None
 
 
-def collect(d):
+def _xml_supp_names(d):
+    x = d / "fulltext.xml"
+    if not x.exists():
+        return set()
+    try:
+        import xml.etree.ElementTree as ET
+        root = ET.fromstring(x.read_bytes())
+        xl = "{http://www.w3.org/1999/xlink}href"
+        names = set()
+        for el in root.iter():
+            if el.tag in ("supplementary-material", "media"):
+                for sub in el.iter():
+                    h = sub.get(xl)
+                    if h and h.lower().endswith(TEXT_EXT):
+                        names.add(pathlib.Path(h).name)
+        return names
+    except Exception:
+        return set()
+
+
+def _valid_bytes(name, b):
+    n = name.lower()
+    if n.endswith(".pdf"):
+        return b[:4] == b"%PDF"
+    if n.endswith((".docx", ".xlsx")):
+        return b[:2] == b"PK"
+    return bool(b) and not b.lstrip().startswith(b"<")
+
+
+def collect(d, pmcid=None):
     files = []
+    seen = set()
     z = d / "supplementary.zip"
     if z.exists():
         zf = zipfile.ZipFile(z)
         for n in zf.namelist():
-            if n.lower().endswith(TEXT_EXT) and zf.getinfo(n).file_size < MAX_BYTES:
-                files.append((pathlib.Path(n).name, zf.read(n)))
+            name = pathlib.Path(n).name
+            if name.lower().endswith(TEXT_EXT) and zf.getinfo(n).file_size < MAX_BYTES:
+                b = zf.read(n)
+                if _valid_bytes(name, b):
+                    files.append((name, b))
+                    seen.add(name)
+    html = None
     h = d / "fulltext.html"
-    if not files and h.exists():
+    xml_names = _xml_supp_names(d)
+    need_pmc_html = (not files) or bool(xml_names - seen)
+    if h.exists() and need_pmc_html:
         html = h.read_text(errors="replace")
+    elif pmcid and need_pmc_html:
+        try:
+            body, _, _ = get(f"https://pmc.ncbi.nlm.nih.gov/articles/{pmcid}/")
+            html = body.decode("utf-8", "replace")
+        except Exception:
+            html = None
+    if html:
         links = sorted(set(re.findall(r'href="(/articles/instance/\d+/bin/[^"]+)"', html)))
         need_browser = []
         for l in links:
-            if not l.lower().endswith(TEXT_EXT):
+            name = pathlib.Path(l).name
+            if not name.lower().endswith(TEXT_EXT) or name in seen:
                 continue
-            url, name = "https://pmc.ncbi.nlm.nih.gov" + l, pathlib.Path(l).name
+            cached = d / "supp" / name
+            if cached.exists() and cached.stat().st_size < MAX_BYTES and _valid_bytes(name, cached.read_bytes()):
+                files.append((name, cached.read_bytes()))
+                seen.add(name)
+                continue
+            url = "https://pmc.ncbi.nlm.nih.gov" + l
             try:
                 b, _, _ = get(url)
             except Exception:
                 b = b""
-            if b[:4] == b"%PDF" or b[:2] == b"PK" or name.lower().endswith((".csv", ".txt", ".tsv")) and b:
+            if _valid_bytes(name, b) and len(b) < MAX_BYTES:
+                cached.parent.mkdir(parents=True, exist_ok=True)
+                cached.write_bytes(b)
                 files.append((name, b))
+                seen.add(name)
             else:  # PMC's JavaScript download wall: retry in headless Chrome for Testing
-                need_browser.append((url, d / "supp" / name, "file"))
+                need_browser.append((url, cached, "file"))
         if need_browser:
             import browser
             got = browser.fetch(need_browser)
             for url, out, _ in need_browser:
                 if str(got.get(url, "")).startswith("ok") and out.exists() and out.stat().st_size < MAX_BYTES:
-                    files.append((out.name, out.read_bytes()))
+                    b = out.read_bytes()
+                    if _valid_bytes(out.name, b):
+                        files.append((out.name, b))
+                        seen.add(out.name)
     return files
 
 
-def run(key):
+def run(key, retry_empty=False):
     d = PAPERS / key
     m = json.load(open(d / "meta.json"))
     if m.get("status") != "ok":
         return key, None
     out = d / "supp.txt"
-    if out.exists():
+    if out.exists() and not (retry_empty and out.stat().st_size == 0):
         return key, out.stat().st_size
     parts = []
-    for name, b in collect(d):
+    for name, b in collect(d, pmcid=m.get("pmcid")):
         t = to_text(name, b)
         if t:
             parts.append(f"[SUPPLEMENTARY FILE {name}]\n" + t[:MAX_PER_FILE])
@@ -127,13 +183,21 @@ def run(key):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--keys")
+    ap.add_argument("--retry-empty", action="store_true", help="re-collect papers whose supp.txt is 0 bytes")
+    ap.add_argument("--workers", type=int, default=4)
     a = ap.parse_args()
     keys = a.keys.split(",") if a.keys else sorted(p.name for p in PAPERS.iterdir() if p.is_dir())
     import concurrent.futures as cf
-    with cf.ThreadPoolExecutor(4) as ex:
-        for k, size in ex.map(run, keys):
+    if a.workers <= 1:
+        for k in keys:
+            _, size = run(k, retry_empty=a.retry_empty)
             if size is not None:
                 print(k, size, flush=True)
+    else:
+        with cf.ThreadPoolExecutor(a.workers) as ex:
+            for k, size in ex.map(lambda k: run(k, retry_empty=a.retry_empty), keys):
+                if size is not None:
+                    print(k, size, flush=True)
 
 
 if __name__ == "__main__":

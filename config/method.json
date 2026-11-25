@@ -1,5 +1,5 @@
 {
  "method_url": "https://github.com/rpinho/meccog-literature-pipeline",
  "who": "collab",
- "models": "gpt-6.1-sol (OpenAI, via Codex CLI): screening, finding inventory, extraction; gpt-6.2-astra (OpenAI, via Codex CLI): independent referee; claude-opus-5-5 (Anthropic, Claude Code): pipeline author and spot-check reviewer"
+ "models": "gpt-6.1-sol (OpenAI, via Codex CLI): screening, finding inventory, extraction; gpt-6.2-astra (OpenAI, via Codex CLI): independent referee; claude-opus-5-5 (Anthropic, Claude Code): pipeline author and spot-check reviewer; Gemini 4 Neon (Google): supplement recovery and cross-sheet harmonization"
 }
