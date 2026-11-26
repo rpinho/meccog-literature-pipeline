@@ -64,6 +64,15 @@ def big_enough(data, min_width=400):
         return False
 
 
+def _is_image_bytes(b):
+    return (
+        b[:3] == b"\xff\xd8\xff"
+        or b[:4] == b"\x89PNG"
+        or b[:3] == b"GIF"
+        or (b[:4] == b"RIFF" and b[8:12] == b"WEBP")
+    )
+
+
 def _get(url):
     from fetch import get
     body, _, _ = get(url)
@@ -89,10 +98,10 @@ def _from_xml(d, kind, num):
         if g is None or not g.get(XL):
             continue
         href = g.get(XL)
-        for ext in ("", ".jpg", ".png", ".gif"):
+        for ext in ("", ".jpg", ".png", ".gif", ".webp"):
             try:
                 b = _get(f"https://europepmc.org/articles/{meta['pmcid']}/bin/{href}{ext}")
-                if (b[:3] == b"\xff\xd8\xff" or b[:4] == b"\x89PNG" or b[:3] == b"GIF") and big_enough(b):
+                if _is_image_bytes(b) and big_enough(b):
                     return href + (ext or ".jpg"), b
             except Exception:
                 pass
@@ -136,7 +145,7 @@ def _from_html(d, kind, num):
             url = url if url.startswith("http") else "https://pmc.ncbi.nlm.nih.gov" + url
             try:
                 b = _get(url)
-                if (b[:3] == b"\xff\xd8\xff" or b[:4] == b"\x89PNG" or b[:3] == b"GIF") and big_enough(b):
+                if _is_image_bytes(b) and big_enough(b):
                     return pathlib.Path(url).name, b
             except Exception:
                 pass
