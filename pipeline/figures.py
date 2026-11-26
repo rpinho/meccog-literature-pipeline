@@ -100,17 +100,35 @@ def _from_xml(d, kind, num):
 
 
 def _from_html(d, kind, num):
-    """PMC article page: <img src=...> inside the figure whose caption starts 'Figure N'."""
+    """PMC article page: <img src=...> inside the figure whose caption starts 'Figure N'.
+    Uses local fulltext.html if present; else fetches and caches pmc_page.html from PMC when pmcid is known."""
     h = d / "fulltext.html"
-    if not h.exists():
-        return None
-    html = h.read_text(errors="replace")
+    if h.exists():
+        html = h.read_text(errors="replace")
+    else:
+        cache = d / "pmc_page.html"
+        if cache.exists():
+            html = cache.read_text(errors="replace")
+        else:
+            meta_p = d / "meta.json"
+            pmcid = json.load(open(meta_p)).get("pmcid") if meta_p.exists() else None
+            if not pmcid:
+                return None
+            try:
+                html = _get(f"https://pmc.ncbi.nlm.nih.gov/articles/{pmcid}/").decode("utf-8", "replace")
+                cache.write_text(html)
+            except Exception:
+                return None
     for m in re.finditer(r'<figure[^>]*>(.*?)</figure>', html, re.S | re.I):
         block = m.group(1)
         cap = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", block)).strip()
         # the figure's own label opens its caption ("FIGURE 5." in JBC); a later caption that merely mentions
         # "Figure 5" must not match
-        if not re.match(rf"(?:Supplementary\s+)?(?:Figure|Fig\.?)\s*{'S' if kind else ''}{num}\b", cap, re.I):
+        if kind:
+            pat = rf"(?:Supplementary|Extended\s+Data)\s+(?:Figure|Fig\.?)\s*S?\s*{num}\b|(?:Figure|Fig\.?)\s*S\s*{num}\b"
+        else:
+            pat = rf"(?:Figure|Fig\.?)\s*{num}\b"
+        if not re.match(pat, cap, re.I):
             continue
         src = re.search(r'<img[^>]+src="([^"]+)"', block)
         if src:

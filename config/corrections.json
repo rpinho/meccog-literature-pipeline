@@ -13545,6 +13545,644 @@
    },
    "reason": "Supplement recovery 11-24: PMC8190562 Supplementary_Materials.pdf p.3-4 Fig S2E (left, APOE3 parental vs APOE4 isogenic) shows Lysotracker puncta/cell ~2.2 vs ~3.5 (~0.63x), printed P = 0.125 on bracket, n = 3 samples.",
    "source": "PMC8190562 NIHMS1706470-supplement-Supplementary_Materials.pdf p.3-4 Figure S2E + legend"
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H2",
+   "stage": 9,
+   "quote_start": "In the absence of insulin, we found that nearly 20% of IR-GFP co-local",
+   "summary_contains": "greater IR-GFP localization in transferrin-positive endosomes without insulin",
+   "description_start": "Confocal imaging of human SH-SY5Y neuronal cells expressing ",
+   "set": {
+    "effect_size": "~2.7x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.001",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 6D (-Insulin) shows Tf-colocalized IR ~21.5% (ApoE4) vs ~8% (ApoE3) (~2.7x), '***' (***p < 0.001 per Fig 6 legend; +Insulin N.S.).",
+   "source": "PMC5621659 figimg/6.png Panel D + Figure 6 legend"
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H2",
+   "stage": 9,
+   "quote_start": "In the absence of insulin, the majority of the IR-GFP was localized to",
+   "summary_contains": "higher intracellular IR-GFP fraction without insulin",
+   "description_start": "Across three independent experiments, human SH-SY5Y cells ex",
+   "set": {
+    "p_value": "<0.0001",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 6C (-Insulin) shows '****' between ApoE3 (~15%) and ApoE4 (~38%) (****p < 0.0001 per Fig 6 legend).",
+   "source": "PMC5621659 figimg/6.png Panel C + Figure 6 legend"
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H2",
+   "stage": 9,
+   "quote_start": "In the absence of insulin stimulation, we found that apoE4 but not apo",
+   "summary_contains": "lower cell-surface insulin receptor without insulin",
+   "description_start": "In three independent experiments, surface biotinylation and ",
+   "set": {
+    "effect_size": "~0.75x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.05",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 5H (-Insulin) shows surface/total IR ~72% (E4) vs ~96% (E3) (~0.75x), '*' (*p < 0.05 for E3 vs E4 per Fig 5 legend).",
+   "source": "PMC5621659 figimg/5.png Panel H + Figure 5 legend"
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H2",
+   "stage": 9,
+   "quote_start": "Importantly, ~50% of the total IR was internalized in response to insu",
+   "summary_contains": "smaller insulin-induced decrease in surface-to-total insulin receptor",
+   "description_start": "In primary Apoe−/− mouse cortical neurons treated overnight ",
+   "set": {
+    "p_value": "<0.05",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 5I shows '*' between ApoE3 and ApoE4 (*p < 0.05, two-tailed t-test per Fig 5 legend).",
+   "source": "PMC5621659 figimg/5.png Panel I + Figure 5 legend"
+  },
+  {
+   "key": "pmid35750033",
+   "hyp": "H2",
+   "stage": 9,
+   "quote_start": "Although LDL significantly bound more cell surface receptors (e.g. LDL",
+   "summary_contains": "higher cell-surface LDL binding in isogenic human astrocytes",
+   "description_start": "Human isogenic APOE3 and APOE4 astrocytes were assayed for f",
+   "set": {
+    "effect_size": "~1.6x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.001",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 6E (No competition) shows normalized Alexa546-LDL intensity ~1.60 (APOE44) vs ~1.00 (APOE33) (~1.6x), '***' (***p < 0.001 per Fig 6 legend).",
+   "source": "PMC9340815 figimg/6.png Panel E + Figure 6 legend"
+  },
+  {
+   "key": "pmid39532095",
+   "hyp": "H2",
+   "stage": 9,
+   "quote_start": "ApoE isoform differences were manifested in the differential levels of",
+   "summary_contains": "greater internalized LDLR-associated ApoE",
+   "description_start": "After 1 day of treatment with lipidated ApoE, APOE-knockout ",
+   "set": {
+    "p_value": "<0.05",
+    "p_value_provenance": "visual_only",
+    "sample_size": "~3",
+    "sample_size_provenance": "estimated_from_figure"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 2I left (Internalized ApoE in APOE KO iAstrocytes) shows '*' between ApoE3 and ApoE4 (*p < 0.05 per Methods star key) with 3 dots per group.",
+   "source": "PMC11724755 figimg/2.png Panel I + Methods star key"
+  },
+  {
+   "key": "pmid33027662",
+   "hyp": "H2",
+   "stage": 9,
+   "quote_start": "APOE4 astrocytes trend towards internalizing less EGF (Figure 1G,H). U",
+   "summary_contains": "less transferrin internalization and a trend toward fewer internalized EGF puncta",
+   "description_start": "A 5-minute fluorescent-ligand uptake assay in APOE4 versus i",
+   "set": {
+    "effect_size": "~0.54x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "0.036",
+    "p_value_provenance": "printed_in_text"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 1G right (Transferrin intensity) shows APOE4 ~0.95e6 vs APOE3 ~1.75e6 (~0.54x) and prints 'p = 0.036' directly on the bracket (left EGF panel prints 'p = 0.057').",
+   "source": "PMC8190562 figimg/1.png Panel G right"
+  },
+  {
+   "key": "pmid33027662",
+   "hyp": "H2",
+   "stage": 9,
+   "quote_start": "APOE4 astrocytes trend towards internalizing less EGF (Figure 1G,H).",
+   "summary_contains": "trend toward reduced early EGF internalization",
+   "description_start": "Representative images after a 5-minute fluorescent EGF pulse",
+   "set": {
+    "effect_size": "~0.70x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "0.057",
+    "p_value_provenance": "printed_in_text"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 1G left (Number of EGF puncta per cell) shows APOE4 ~28 vs APOE3 ~40 (~0.70x) and prints 'p = 0.057' directly on the bracket.",
+   "source": "PMC8190562 figimg/1.png Panel G left"
+  },
+  {
+   "key": "pmid39532095",
+   "hyp": "H3",
+   "stage": 9,
+   "quote_start": "ApoE isoform differences were manifested in the differential levels of",
+   "summary_contains": "higher intracellular ApoE protein accumulation",
+   "description_start": "Human APOE-knockout iPSC astrocytes internalized more ApoE4 ",
+   "set": {
+    "p_value": "<0.05",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 2I left (Internalized ApoE in APOE KO iAstrocytes) shows '*' between ApoE3 and ApoE4 (*p < 0.05 per Methods star key).",
+   "source": "PMC11724755 figimg/2.png Panel I + Methods star key"
+  },
+  {
+   "key": "pmid33822768",
+   "hyp": "H3",
+   "stage": 9,
+   "quote_start": "We also observed a small but significant increase in large condensates",
+   "summary_contains": "resistance to stress-induced enlargement of intracellular apoE condensates",
+   "description_start": "A2E plus complement exposure increased the fraction of large",
+   "set": {
+    "p_value_provenance": "not_found_in_source"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 5A plots within-isoform stress comparisons (ApoE3 *** <0.0001, ApoE4 NS >0.05) with no between-isoform ApoE4 vs ApoE3 bracket; P value provenance is not_found_in_source rather than ambiguous_panel.",
+   "source": "PMC8262309 figimg/5.png Panel A + Figure 5 legend"
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H3",
+   "stage": 9,
+   "quote_start": "Intriguingly, the level of insoluble apoE was significantly increased ",
+   "summary_contains": "more pronounced age-associated increase in the cortical insoluble-to-soluble apoE ratio",
+   "description_start": "Cortical fractionation in mice at 3 and 22 months, with 4–6 ",
+   "set": {
+    "p_value_provenance": "not_found_in_source"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 7F prints within-genotype 3M vs 22M tests (E3 p = 0.1240; E4 *** <0.001) without an ApoE4-vs-ApoE3 interaction or pairwise bracket; P provenance is not_found_in_source rather than ambiguous_panel.",
+   "source": "PMC5621659 figimg/7.png Panel F + Figure 7 legend"
+  },
+  {
+   "key": "pmid39532095",
+   "hyp": "H4",
+   "stage": 9,
+   "quote_start": "In H4, WT HAP1, and APOE KO iAstrocytes, incubation with lipApoE3/E4 s",
+   "summary_contains": "shared astrocyte surface-LDLR depletion",
+   "description_start": "Both lipidated ApoE3 and ApoE4 reduced surface LDLR relative",
+   "set": {
+    "effect_size_provenance": "not_found_in_source"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 2C shows representative confocal images (quantified in Fig 2D); absent effect on image panel is not_found_in_source rather than ambiguous_panel.",
+   "source": "PMC11724755 figimg/2.png Panel C"
+  },
+  {
+   "key": "pmid39532095",
+   "hyp": "H4",
+   "stage": 9,
+   "quote_start": "While all 3 ApoE isoforms impacted LDLR mRNA levels, lipApoE3/E4 abrog",
+   "summary_contains": "shared astrocyte surface-LDLR depletion",
+   "description_start": "Quantification showed surface LDLR depletion with both ApoE3",
+   "set": {
+    "effect_size": "~1.0x",
+    "effect_size_provenance": "estimated_from_figure",
+    "sample_size": "~3",
+    "sample_size_provenance": "estimated_from_figure"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 2D (Surface LDLR in iAstrocytes) shows ApoE4 ~0.94 vs ApoE3 ~0.92 (~1.0x; both depleted vs ApoE2 ~1.55 ****) with 3 dots per group.",
+   "source": "PMC11724755 figimg/2.png Panel D"
+  },
+  {
+   "key": "pmid39532095",
+   "hyp": "H4",
+   "stage": 9,
+   "quote_start": "Immunostaining of total LDLR (cell surface + intracellular) in H4 cell",
+   "summary_contains": "shared reduction and clustering of total LDLR",
+   "description_start": "ApoE3 and ApoE4 treatment both produced modest reductions an",
+   "set": {
+    "effect_size": "~1.0x",
+    "effect_size_provenance": "estimated_from_figure",
+    "sample_size": "~3",
+    "sample_size_provenance": "estimated_from_figure"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 2F (quantifying Fig 2E, Total LDLR in H4) shows ApoE4 ~0.93 vs ApoE3 ~0.91 (~1.0x) and spot density ~1.06 vs ~1.06 (~1.0x), 3 dots per group.",
+   "source": "PMC11724755 figimg/2.png Panels E-F"
+  },
+  {
+   "key": "pmid39532095",
+   "hyp": "H4",
+   "stage": 9,
+   "quote_start": "When DiI-LDL was spiked into media after 1d pre-treatment with lipApoE",
+   "summary_contains": "shared near-abolition of subsequent LDL uptake",
+   "description_start": "One-day pretreatment with either lipidated ApoE3 or ApoE4 ne",
+   "set": {
+    "effect_size": "~1.0x",
+    "effect_size_provenance": "estimated_from_figure",
+    "sample_size": "~3",
+    "sample_size_provenance": "estimated_from_figure"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 2L right (ApoE pre-treatment, quantifying Fig 2K) shows both ApoE3 and ApoE4 near ~0.02 (~1.0x ratio between them; near-complete abolition vs No ApoE 1.0), 3 dots per group.",
+   "source": "PMC11724755 figimg/2.png Panels K-L"
+  },
+  {
+   "key": "pmid39532095",
+   "hyp": "H4",
+   "stage": 9,
+   "quote_start": "Robust cell surface signals were observed for lipApoE3 and lipApoE4, w",
+   "summary_contains": "robust LDLR surface binding with no reported E4-specific increase",
+   "description_start": "Lipidated ApoE3 and ApoE4 both showed robust binding to surf",
+   "set": {
+    "effect_size": "~0.83x",
+    "effect_size_provenance": "estimated_from_figure",
+    "sample_size": "~3",
+    "sample_size_provenance": "estimated_from_figure"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 1B (quantifying Fig 1A, cell-based LDLR binding) shows lipApoE4 ~1.5 vs lipApoE3 ~1.8 (~0.83x; both **** vs lipApoE2 ~0.2), 3 dots per group.",
+   "source": "PMC11724755 figimg/1.png Panels A-B"
+  },
+  {
+   "key": "pmid39532095",
+   "hyp": "H4",
+   "stage": 9,
+   "quote_start": "ApoE isoform differences were manifested in the differential levels of",
+   "summary_contains": "more internalized ApoE and more ApoE-containing lysosomal compartments",
+   "description_start": "Astrocytes accumulated more ApoE4 than ApoE3. The reported o",
+   "set": {
+    "p_value": "<0.05",
+    "p_value_provenance": "visual_only",
+    "sample_size": "~3",
+    "sample_size_provenance": "estimated_from_figure"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 2I left shows '*' between ApoE3 and ApoE4 (*p < 0.05 per Methods star key) with 3 dots per group.",
+   "source": "PMC11724755 figimg/2.png Panel I + Methods star key"
+  },
+  {
+   "key": "pmid39532095",
+   "hyp": "H4",
+   "stage": 9,
+   "quote_start": "When cells were co-treated with lipApoE and DiI-LDL for 3–4 h, both li",
+   "summary_contains": "shared inhibition of LDL uptake",
+   "description_start": "Simultaneous ApoE3 or ApoE4 treatment inhibited LDL uptake b",
+   "set": {
+    "effect_size": "~1.1x",
+    "effect_size_provenance": "estimated_from_figure",
+    "sample_size": "~3",
+    "sample_size_provenance": "estimated_from_figure"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 2L left (Co-treatment) shows ApoE4 ~0.40 vs ApoE3 ~0.36 (~1.1x ratio between isoforms; both 60-65% inhibited vs No ApoE 1.0), 3 dots per group.",
+   "source": "PMC11724755 figimg/2.png Panels J and L"
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "stage": 9,
+   "quote_start": "In the absence of insulin, we found that nearly 20% of IR-GFP co-local",
+   "summary_contains": "greater insulin-receptor localization in transferrin-positive endosomes",
+   "description_start": "Without insulin, nearly 20% of IR-GFP colocalized with trans",
+   "set": {
+    "effect_size": "~2.7x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.001",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 6D (-Insulin) shows Tf-colocalized IR ~21.5% (ApoE4) vs ~8% (ApoE3) (~2.7x), '***' (***p < 0.001 per Fig 6 legend).",
+   "source": "PMC5621659 figimg/6.png Panel D + Figure 6 legend"
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "stage": 9,
+   "quote_start": "Similar to recombinant apoE, we found that apoE4 lipoprotein particles",
+   "summary_contains": "stronger binding to insulin receptor",
+   "description_start": "Astrocyte-secreted lipidated apoE4 particles bound insulin r",
+   "set": {
+    "effect_size": "~2.5x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.01",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 5B shows Kd ~19 nM (lipidated ApoE4) vs ~47 nM (lipidated ApoE3) (~2.5x higher affinity / ~0.40x Kd), '**' (**p < 0.01 per Fig 5 legend).",
+   "source": "PMC5621659 figimg/5.png Panel B + Figure 5 legend"
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "stage": 9,
+   "quote_start": "In the absence of insulin, the majority of the IR-GFP was localized to",
+   "summary_contains": "greater intracellular insulin-receptor localization",
+   "description_start": "Without insulin, approximately 15% of IR-GFP was intracellul",
+   "set": {
+    "p_value": "<0.0001",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 6C (-Insulin) shows '****' between ApoE3 and ApoE4 (****p < 0.0001 per Fig 6 legend).",
+   "source": "PMC5621659 figimg/6.png Panel C + Figure 6 legend"
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "stage": 9,
+   "quote_start": "Insulin induced IR internalization which increased the co-localization",
+   "summary_contains": "reduced insulin-induced increase in endosomal insulin receptor",
+   "description_start": "Insulin increased IR-GFP colocalization with transferrin aft",
+   "set": {
+    "p_value_provenance": "not_found_in_source"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 6D brackets only E3 vs E4 within -Insulin (***) and +Insulin (N.S.), with no within-genotype -Insulin vs +Insulin test bracket; provenance is not_found_in_source rather than ambiguous_panel.",
+   "source": "PMC5621659 figimg/6.png Panel D + Figure 6 legend"
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "stage": 9,
+   "quote_start": "Conversely, we found that both recombinant apoE3 and apoE4 specificall",
+   "summary_contains": "higher binding affinity for insulin receptor",
+   "description_start": "Recombinant apoE4 bound insulin receptor with higher affinit",
+   "set": {
+    "effect_size": "~2.2x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.05",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 5A shows Kd ~195 nM (ApoE4) vs ~420 nM (ApoE3) (~2.2x higher affinity / ~0.46x Kd), '*' (*p < 0.05 per Fig 5 legend).",
+   "source": "PMC5621659 figimg/5.png Panel A + Figure 5 legend"
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "stage": 9,
+   "quote_start": "We found that more IR was co-immunoprecipitated with apoE4 than with a",
+   "summary_contains": "greater insulin-receptor association",
+   "description_start": "More insulin receptor co-immunoprecipitated with recombinant",
+   "set": {
+    "effect_size": "~1.8x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.05",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 5C shows IR/apoE normalized to E3 = ~1.8 (ApoE4) vs 1.0 (ApoE3) (~1.8x), '*' (*p < 0.05 per Fig 5 legend).",
+   "source": "PMC5621659 figimg/5.png Panel C + Figure 5 legend"
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "stage": 9,
+   "quote_start": "Importantly, insulin stimulation increased the percentage of intracell",
+   "summary_contains": "reduced insulin-induced increase in intracellular insulin receptor",
+   "description_start": "Insulin increased intracellular IR-GFP after apoE3 treatment",
+   "set": {
+    "p_value_provenance": "not_found_in_source"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 6C brackets only E3 vs E4 within -Insulin (****) and +Insulin (N.S.), with no within-genotype -Insulin vs +Insulin test bracket; provenance is not_found_in_source rather than ambiguous_panel.",
+   "source": "PMC5621659 figimg/6.png Panel C + Figure 6 legend"
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "stage": 9,
+   "quote_start": "In the absence of insulin stimulation, we found that apoE4 but not apo",
+   "summary_contains": "lower neuronal surface insulin receptor",
+   "description_start": "Without insulin stimulation, apoE4 but not apoE3 significant",
+   "set": {
+    "effect_size": "~0.75x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.05",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 5H (-Insulin) shows surface/total IR ~72% (E4) vs ~96% (E3) (~0.75x), '*' (*p < 0.05 for E3 vs E4 per Fig 5 legend).",
+   "source": "PMC5621659 figimg/5.png Panel H + Figure 5 legend"
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "stage": 9,
+   "quote_start": "Importantly, ~50% of the total IR was internalized in response to insu",
+   "summary_contains": "less insulin-induced insulin-receptor internalization",
+   "description_start": "Insulin internalized approximately 50% of total insulin rece",
+   "set": {
+    "p_value": "<0.05",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 5I shows '*' between ApoE3 and ApoE4 (*p < 0.05 per Fig 5 legend).",
+   "source": "PMC5621659 figimg/5.png Panel I + Figure 5 legend"
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "stage": 9,
+   "quote_start": "When apoE was co-incubated with insulin and IR, we found that apoE4 (1",
+   "summary_contains": "greater inhibition of insulin binding to insulin receptor",
+   "description_start": "At 16 μg/ml, apoE4 inhibited insulin–insulin-receptor bindin",
+   "set": {
+    "p_value": "<0.05",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 5F at 16 μg/ml shows '*' between ApoE3 and ApoE4 (*p < 0.05 per Fig 5 legend).",
+   "source": "PMC5621659 figimg/5.png Panel F + Figure 5 legend"
+  },
+  {
+   "key": "pmid28957663",
+   "hyp": "H4",
+   "stage": 9,
+   "quote_start": "No differences were observed for the co-localization of IR-GFP with Ly",
+   "summary_contains": "no significant difference detected in lysosomal insulin-receptor localization",
+   "description_start": "ApoE3 and apoE4 produced no significant difference in IR-GFP",
+   "set": {
+    "p_value": ">0.05",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 6E shows 'N.S.' between ApoE3 and ApoE4 in both -Insulin and +Insulin conditions (>0.05 per Fig 6 legend).",
+   "source": "PMC5621659 figimg/6.png Panel E + Figure 6 legend"
+  },
+  {
+   "key": "pmid39532095",
+   "hyp": "H5",
+   "stage": 9,
+   "quote_start": "Indeed, CE(18:1)-lipApoE4 produced significantly lower accumulation of",
+   "summary_contains": "less endolysosomal tau-fibril accumulation",
+   "description_start": "Replacing ApoE4-associated CE(20:4) with CE(18:1) significan",
+   "set": {
+    "effect_size": "~0.76x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.05",
+    "p_value_provenance": "visual_only",
+    "sample_size": "~3",
+    "sample_size_provenance": "estimated_from_figure"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 6M shows pHrodo-tau pffs ~0.87 (CE(18:1)-E4) vs ~1.15 (CE(20:4)-E4) (~0.76x), '*' (*p < 0.05), 3 dots per group.",
+   "source": "PMC11724755 figimg/6.png Panel M + Methods star key"
+  },
+  {
+   "key": "pmid39532095",
+   "hyp": "H5",
+   "stage": 9,
+   "quote_start": "Therefore, we assessed the pathogenic potential of peroxidation-prone ",
+   "summary_contains": "more neuronal lysosomal lipofuscin",
+   "description_start": "Human neurons treated with PUFA-cholesteryl-ester–ApoE4 accu",
+   "set": {
+    "effect_size": "~1.9x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.0001",
+    "p_value_provenance": "visual_only",
+    "sample_size": "~3",
+    "sample_size_provenance": "estimated_from_figure"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 5B left (21d Lipofuscin) shows ApoE4 ~2.2 vs ApoE3 ~1.15 (~1.9x), '****' (****p < 0.0001), 3 dots per group.",
+   "source": "PMC11724755 figimg/5.png Panel B + Methods star key"
+  },
+  {
+   "key": "pmid39532095",
+   "hyp": "H5",
+   "stage": 9,
+   "quote_start": "Replacing CE(20:4) with CE(18:1) in the POPC-ApoE4 lipoproteins abolis",
+   "summary_contains": "loss of lipofuscin induction",
+   "description_start": "Replacing peroxidation-prone CE(20:4) with CE(18:1) in ApoE4",
+   "set": {
+    "effect_size": "~0.03x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.0001",
+    "p_value_provenance": "visual_only",
+    "sample_size": "~3",
+    "sample_size_provenance": "estimated_from_figure"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 5K (Lipofuscin in H4) shows CE(18:1)-E4 ~0.07 vs CE(20:4)-E4 ~2.7 (~0.03x), '****' (****p < 0.0001), 3 dots per group.",
+   "source": "PMC11724755 figimg/5.png Panel K + Methods star key"
+  },
+  {
+   "key": "pmid39532095",
+   "hyp": "H5",
+   "stage": 9,
+   "quote_start": "To confirm the effect of PUFA-CE-lipApoE4 on tau pff accumulation is c",
+   "summary_contains": "less neuronal lipofuscin",
+   "description_start": "Replacing ApoE4-associated CE(20:4) with CE(18:1) prevented ",
+   "set": {
+    "effect_size": "~0.04x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.0001",
+    "p_value_provenance": "visual_only",
+    "sample_size": "~3",
+    "sample_size_provenance": "estimated_from_figure"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 6K (Lipofuscin in iNeurons) shows CE(18:1)-E4 ~0.08 vs CE(20:4)-E4 ~1.95 (~0.04x), '****' (****p < 0.0001), 3 dots per group.",
+   "source": "PMC11724755 figimg/6.png Panel K + Methods star key"
+  },
+  {
+   "key": "pmid39532095",
+   "hyp": "H5",
+   "stage": 9,
+   "quote_start": "LDLR ECD co-treatment with CE(20:4)-lipApoE4 dramatically reduced lipo",
+   "summary_contains": "less neuronal lipofuscin",
+   "description_start": "Blocking receptor engagement with LDLR extracellular domain ",
+   "set": {
+    "effect_size": "~0.27x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.001",
+    "p_value_provenance": "visual_only",
+    "sample_size": "~3",
+    "sample_size_provenance": "estimated_from_figure"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 5G (3d Lipofuscin in iNeurons) shows ApoE4+LDLR ~0.60 vs ApoE4 ~2.2 (~0.27x), '***' (***p < 0.001), 3 dots per group.",
+   "source": "PMC11724755 figimg/5.png Panel G + Methods star key"
+  },
+  {
+   "key": "pmid39532095",
+   "hyp": "H5",
+   "stage": 9,
+   "quote_start": "After another 13–14 d incubation, total pHrodo signals from tau pffs t",
+   "summary_contains": "more endolysosomal tau-fibril accumulation",
+   "description_start": "Human neurons pretreated with CE(20:4)-ApoE4 showed a trend ",
+   "set": {
+    "effect_size": "~1.23x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.01",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 6I right (pHrodo-tau pffs in LF+ve iNeurons) shows ApoE4 ~1.42 vs ApoE3 ~1.15 (~1.23x), '**' (**p < 0.01).",
+   "source": "PMC11724755 figimg/6.png Panel I right + Methods star key"
+  },
+  {
+   "key": "pmid39532095",
+   "hyp": "H5",
+   "stage": 9,
+   "quote_start": "Lastly, CE(20:4)-lipidated Christchurch mutants showed significantly a",
+   "summary_contains": "less lipofuscin",
+   "description_start": "Introducing the Christchurch receptor-binding mutation into ",
+   "set": {
+    "effect_size": "~0.81x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.01",
+    "p_value_provenance": "visual_only",
+    "sample_size": "~3",
+    "sample_size_provenance": "estimated_from_figure"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 7G (Lipofuscin in H4) shows ApoE4ch ~1.58 vs ApoE4 ~1.95 (~0.81x), '**' (**p < 0.01), 3 dots per group.",
+   "source": "PMC11724755 figimg/7.png Panel G + Methods star key"
+  },
+  {
+   "key": "pmid39532095",
+   "hyp": "H5",
+   "stage": 9,
+   "quote_start": "ApoE isoform differences were manifested in the differential levels of",
+   "summary_contains": "greater ApoE accumulation and ApoE occupancy of LAMP1 compartments",
+   "description_start": "In human astrocytes, ApoE4 produced greater internalized Apo",
+   "set": {
+    "p_value": "<0.05",
+    "p_value_provenance": "visual_only",
+    "sample_size": "~3",
+    "sample_size_provenance": "estimated_from_figure"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 2I left shows '*' between ApoE3 and ApoE4 (*p < 0.05 per Methods star key) with 3 dots per group.",
+   "source": "PMC11724755 figimg/2.png Panel I + Methods star key"
+  },
+  {
+   "key": "pmid39532095",
+   "hyp": "H5",
+   "stage": 9,
+   "quote_start": "ApoE isoform-dependent lipofuscin accumulation was replicated in WT H4",
+   "summary_contains": "greater lipofuscin burden",
+   "description_start": "Human H4 cells reproduced isoform-dependent lipofuscin accum",
+   "set": {
+    "effect_size": "~1.9x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.0001",
+    "p_value_provenance": "visual_only",
+    "sample_size": "~3",
+    "sample_size_provenance": "estimated_from_figure"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 5I (Lipofuscin in H4) shows ApoE4 ~6.2 vs ApoE3 ~3.3 (~1.9x), '****' (****p < 0.0001), 3 dots per group.",
+   "source": "PMC11724755 figimg/5.png Panel I + Methods star key"
+  },
+  {
+   "key": "pmid39532095",
+   "hyp": "H5",
+   "stage": 9,
+   "quote_start": "Pre-complexing pHrodo-HDL with ApoE isoforms promoted its uptake in th",
+   "summary_contains": "similar acidic-compartment HDL accumulation",
+   "description_start": "ApoE3 and ApoE4 similarly promoted acidic-compartment HDL ac",
+   "set": {
+    "effect_size": "~1.0x",
+    "effect_size_provenance": "estimated_from_figure",
+    "sample_size": "~3",
+    "sample_size_provenance": "estimated_from_figure"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 3C (pHrodo red-HDL uptake in H4, No LDLR ECD) shows ApoE4 ~4.1 vs ApoE3 ~4.0 (~1.0x), 3 dots per group.",
+   "source": "PMC11724755 figimg/3.png Panel C"
+  },
+  {
+   "key": "pmid32709881",
+   "hyp": "H5",
+   "stage": 9,
+   "quote_start": "As shown in Fig. 2a, increased accumulation (differences between CQ tr",
+   "summary_contains": "lower chloroquine-sensitive mitochondrial p62 turnover",
+   "description_start": "Chloroquine caused less mitochondrial p62 accumulation in AP",
+   "set": {
+    "effect_size": "~0.50x",
+    "effect_size_provenance": "estimated_from_figure",
+    "p_value": "<0.05",
+    "p_value_provenance": "visual_only"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 2A (mitochondrial p62 with CQ) shows E4 CQ ~1.7 vs E3 CQ ~3.4 (~0.50x), '*' (*p < 0.05 APOE3 vs APOE4 per Fig 2 legend).",
+   "source": "PMC7382473 figimg/2.png Panel A (p62) + Figure 2 legend"
+  },
+  {
+   "key": "pmid32709881",
+   "hyp": "H5",
+   "stage": 9,
+   "quote_start": "Additionally, treatment with chloroquine/MG-132 led to parkin accumula",
+   "summary_contains": "lower chloroquine-sensitive parkin degradation",
+   "description_start": "Chloroquine increased parkin abundance only in APOE3 astrocy",
+   "set": {
+    "p_value_provenance": "not_found_in_source"
+   },
+   "reason": "PMC main-figure read 11-25: Fig 4E marks E3 CQ vs CTRL ('^') and E4 CTRL vs E3 CTRL ('**'), with no E4 CQ vs E3 CQ or genotype x CQ interaction test; provenance is not_found_in_source rather than ambiguous_panel.",
+   "source": "PMC7382473 figimg/4.png Panel E"
   }
  ]
 }
