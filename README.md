@@ -11,7 +11,7 @@ MecCog Step 1 submission: an open pipeline that finds the papers bearing on a me
   |---|---|---|---|
   | H1 | 67a986c | MC-20261125-38EB35B5 | 10 / 26 |
   | H2 | d137535 | MC-20261126-F80C6970 | 15 / 89 |
-  | H3 | d137535 | MC-20261126-19DE10BD | 38 / 188 |
+  | H3 | 89e3170 | MC-20261127-01556AC5 | 38 / 188 |
   | H4 | d137535 | MC-20261126-16CA62B8 | 26 / 180 |
   | H5 | d137535 | MC-20261126-4171F942 | 41 / 256 |
 
